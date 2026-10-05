@@ -36,9 +36,14 @@ const fallosOriginal = leerJson(path.join(RAIZ, 'src', 'data', 'fallos-original.
 const listaBlanca = leerJson(path.join(RAIZ, 'src', 'data', 'lista-blanca-404.json'), { rutas: [], dominios: [] });
 const excepciones = new Set((fallosOriginal['404'] || []).map((x) => (typeof x === 'string' ? x : x.ruta)));
 
+// --tipos entrada,producto  limita a esos tipos de tipos.json (para ir por tandas)
+const TIPOS_ARG = arg('--tipos', '');
 let rutas = [];
 if (RUTAS_ARG) rutas = RUTAS_ARG.split(',').map((r) => r.trim()).filter(Boolean);
-else for (const lista of Object.values(tipos)) rutas.push(...(TODAS ? lista : lista.slice(0, POR_TIPO)));
+else for (const [tipo, lista] of Object.entries(tipos)) {
+  if (TIPOS_ARG && !TIPOS_ARG.split(',').includes(tipo)) continue;
+  rutas.push(...(TODAS ? lista : lista.slice(0, POR_TIPO)));
+}
 if (!rutas.length) { console.error('no hay rutas: falta src/data/tipos.json o --rutas'); process.exit(1); }
 
 const { chromium } = await import('playwright');

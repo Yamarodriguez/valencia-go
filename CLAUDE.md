@@ -61,7 +61,12 @@ Dominio: https://www.valenciaandgo.com (sin www redirige con 301).
   (scripts/todo.mjs). `npm run todo:visual` = servidor 8090 + barrido de
   404 de la referencia (scripts/todo-visual.mjs). Fase 2 añade marcado,
   geometría y contraste.
-- La referencia (`referencia/`, 850 carpetas, 350 MB, fuera de Git) se
+- La referencia (`referencia/`, 959 páginas, 350 MB, fuera de Git). Las 117
+  páginas de paginación de archivos (page/2 y siguientes) NO están en el
+  sitemap: se descubren siguiendo los enlaces. Ojo: WordPress devuelve 200
+  para cualquier /page/N/ aunque esté vacío; se guardan las que tienen
+  contenido y la primera vacía (la rejilla de productos carga por scroll y
+  pide la siguiente hasta que llega una vacía) se
   completa con `npm run montar` (scripts/montar-referencia.mjs): baja lo que
   piden las páginas, el árbol del export, scripts/extra-imagenes.txt y
   scripts/extra-recursos.txt, y reescribe las direcciones absolutas. Se
@@ -78,7 +83,7 @@ Dominio: https://www.valenciaandgo.com (sin www redirige con 301).
   post-ID.css: páginas, entradas y plantillas del constructor). Las
   plantillas por tipo (cabeceras 10365/10594, entrada 8657, archivos,
   productos) NO están en comunes: el motor las engancha por tipo (Fase 2).
-- LiteSpeed sigue activo en la web vieja: 838 de 842 páginas de
+- LiteSpeed sigue activo en la web vieja: casi todas las páginas de
   referencia/ llevan CSS combinado e imágenes perezosas (data-src). Solo la
   portada y 3 productos llegaron crudos. Las post-ID.css se bajaron sueltas.
 
@@ -89,7 +94,7 @@ Dominio: https://www.valenciaandgo.com (sin www redirige con 301).
 - Hecho Fase 0 (5-10-2026, commit 83b72f8): entorno, proyecto montado (B0),
   inventario (informes/inventario.md), regla del H1 y decisiones aprobadas.
 - Hecho Fase 1 (5-10-2026, commit ec93a15 y siguientes): referencia completa
-  (842 páginas, 5 idiomas, 0 errores de descarga, 0 direcciones absolutas),
+  (959 páginas, 5 idiomas, 0 errores de descarga, 0 direcciones absolutas),
   hojas y post-ID.css, letras e iconos desde npm con versión exacta,
   legales de la web viva, estructura-viva.json, primeros pasos de `todo`
   (fuentes, css y build en verde; validar para en las legales y en 1 H1 de

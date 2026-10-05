@@ -22,3 +22,5 @@
 /wp-content/uploads/sb-instagram-feed-images/730313437_18417882379198112_1747933366654451428_nlow.webp
 /wp-content/uploads/sb-instagram-feed-images/730809275_18418065781198112_2883292966588549521_nfull.webp
 /wp-content/uploads/sb-instagram-feed-images/730809275_18418065781198112_2883292966588549521_nlow.webp
+/wp-content/plugins/elementor/assets/js/chunks/nested-tabs.min.js
+/wp-content/plugins/elementor/assets/js/chunks/video.min.js

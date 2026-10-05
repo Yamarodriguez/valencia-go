@@ -9,6 +9,7 @@
   "cookiedatabase.org",
   "fonts.googleapis.com",
   "fonts.gstatic.com",
+  "i.ytimg.com",
   "js.stripe.com",
   "s.w.org",
   "tour-widget-f5d2e.web.app",
@@ -18,7 +19,9 @@
   "www.google-analytics.com",
   "www.googletagmanager.com",
   "www.instagram.com",
-  "www.paypal.com"
+  "www.paypal.com",
+  "www.youtube.com",
+  "youtube.com"
  ],
  "rutas": [
   "/?wc-ajax=",
