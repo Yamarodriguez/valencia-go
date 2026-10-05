@@ -49,7 +49,7 @@ catch { try { navegador = await chromium.launch(); } catch { console.error('no a
 const clasificar = (url) => (/\.(jpe?g|png|webp|gif|svg|avif|ico)(\?|$)/i.test(url) ? 'foto' : /\.(woff2?|ttf|otf|eot)(\?|$)/i.test(url) ? 'letra' : 'otro');
 const enListaBlanca = (url) => {
   const u = new URL(url);
-  return listaBlanca.dominios.some((d) => u.host === d || u.host.endsWith('.' + d)) || listaBlanca.rutas.some((r) => u.pathname === r || u.pathname.startsWith(r));
+  return listaBlanca.dominios.some((d) => u.host === d || u.host.endsWith('.' + d)) || listaBlanca.rutas.some((r) => (u.pathname + u.search).includes(r));
 };
 
 const fallos = []; const avisos = []; const porPagina = [];

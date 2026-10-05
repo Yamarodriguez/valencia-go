@@ -1,5 +1,31 @@
 {
- "_nota": "Dominios y rutas que el barrido de 404 (scripts/barrido-404.mjs) acepta sin contarlos: servicios externos que la web vieja carga de fuera (reservas, cookies, iconos del cdn, analitica).",
- "dominios": ["app.turitop.com", "tour-widget-f5d2e.web.app", "cdnjs.cloudflare.com", "challenges.cloudflare.com", "www.clarity.ms", "cookiedatabase.org", "www.instagram.com", "unpkg.com", "fonts.googleapis.com", "fonts.gstatic.com"],
- "rutas": ["/wp-admin/admin-ajax.php", "/wp-json/", "/?wc-ajax="]
+ "_nota": "Dominios y rutas que el barrido de 404 (scripts/barrido-404.mjs) acepta sin contarlos: servicios externos que la web vieja carga de fuera (reservas, cookies, iconos del cdn, analitica, pago) y los puntos dinamicos de WordPress (PHP, wp-json) que una copia estatica no tiene. Una ruta cuenta si la direccion la CONTIENE.",
+ "dominios": [
+  "app.turitop.com",
+  "c.paypal.com",
+  "cdnjs.cloudflare.com",
+  "challenges.cloudflare.com",
+  "connect.facebook.net",
+  "cookiedatabase.org",
+  "fonts.googleapis.com",
+  "fonts.gstatic.com",
+  "js.stripe.com",
+  "s.w.org",
+  "tour-widget-f5d2e.web.app",
+  "unpkg.com",
+  "www.clarity.ms",
+  "www.facebook.com",
+  "www.google-analytics.com",
+  "www.googletagmanager.com",
+  "www.instagram.com",
+  "www.paypal.com"
+ ],
+ "rutas": [
+  "/?wc-ajax=",
+  "/wp-admin/admin-ajax.php",
+  "/wp-content/plugins/litespeed-cache/guest.vary.php",
+  "/wp-content/plugins/translatepress-multilingual/includes/trp-ajax.php",
+  "/wp-json/",
+  "wc-ajax="
+ ]
 }

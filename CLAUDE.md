@@ -56,16 +56,58 @@ Repositorio: el `origin` de esta carpeta (confirmar).
 Páginas con tráfico (Search Console): sin export todavía.
 Dominio: https://www.valenciaandgo.com (sin www redirige con 301).
 
+## Cómo se trabaja aquí (Fase 1 en adelante)
+- `npm run todo` = fuentes → css → build → validar → encabezados
+  (scripts/todo.mjs). `npm run todo:visual` = servidor 8090 + barrido de
+  404 de la referencia (scripts/todo-visual.mjs). Fase 2 añade marcado,
+  geometría y contraste.
+- La referencia (`referencia/`, 850 carpetas, 350 MB, fuera de Git) se
+  completa con `npm run montar` (scripts/montar-referencia.mjs): baja lo que
+  piden las páginas, el árbol del export, scripts/extra-imagenes.txt y
+  scripts/extra-recursos.txt, y reescribe las direcciones absolutas. Se
+  sirve con `npm run referencia` en http://localhost:8090/.
+- Si falta algo en referencia/ tras el cambio de DNS ya no se puede bajar:
+  todo lo que compila está en Git (src/, public/, css-original/,
+  estructura-viva.json, legales-vivos.json).
+- `python scripts/inventario-vivo.py` se pasa ANTES de montar (guarda el
+  canonical tal como estaba). Orden completo tras un export nuevo:
+  extraer.py → arbol.py → menus.py → inventario-vivo.py → montar →
+  css-original.mjs → publicar-recursos.mjs → todo → todo:visual.
+- Hojas: css-original/comunes (59, orden real del <head> de la portada
+  cruda; corte en la 46 = orden.json) + css-original/paginas (171
+  post-ID.css: páginas, entradas y plantillas del constructor). Las
+  plantillas por tipo (cabeceras 10365/10594, entrada 8657, archivos,
+  productos) NO están en comunes: el motor las engancha por tipo (Fase 2).
+- LiteSpeed sigue activo en la web vieja: 838 de 842 páginas de
+  referencia/ llevan CSS combinado e imágenes perezosas (data-src). Solo la
+  portada y 3 productos llegaron crudos. Las post-ID.css se bajaron sueltas.
+
 ## Estado (se actualiza al cerrar cada fase)
-- Fase actual: 0 — falta: que el propietario confirme el inventario, la
-  regla del H1 y las 7 decisiones de informes/inventario.md §15.
-- Hecho (5-10-2026): entorno comprobado; proyecto montado en la raíz desde
-  kit/copia-fiel y kit/scripts (B0); `extraer.py` y `menus.py` pasados
-  (13 páginas, 5 menús); `arbol.py` pasado pero da 0 bloques por el dominio
-  fijo (K1); 178 páginas en castellano bajadas a referencia/ y las 668
-  traducidas en curso (log en informes/descarga-*.log); `estructura-viva.json`
-  escrito; inventario en informes/inventario.md.
-- Fallos del kit arreglados: ninguno (no se toca el kit hasta confirmar).
-  Lista completa: B1.1-15 del prompt + K1-K11 del inventario §14.
-- Pendiente del propietario: todo lo del inventario §15.
-- Todavía sin `npm install`: no hace falta hasta la Fase 1.
+- Fase actual: 1 — cerrada el 5-10-2026 salvo lo pendiente de abajo.
+  Siguiente: Fase 2 (comparador de marcado antes que el motor; B1.3
+  contenedores y K5/K6 plantillas del constructor son lo primero).
+- Hecho Fase 0 (5-10-2026, commit 83b72f8): entorno, proyecto montado (B0),
+  inventario (informes/inventario.md), regla del H1 y decisiones aprobadas.
+- Hecho Fase 1 (5-10-2026, commit ec93a15 y siguientes): referencia completa
+  (842 páginas, 5 idiomas, 0 errores de descarga, 0 direcciones absolutas),
+  hojas y post-ID.css, letras e iconos desde npm con versión exacta,
+  legales de la web viva, estructura-viva.json, primeros pasos de `todo`
+  (fuentes, css y build en verde; validar para en las legales y en 1 H1 de
+  plantilla: cosas del motor, Fase 2), barrido de 404, compilado desde un
+  clon limpio con la orden de Netlify (165 páginas).
+- Fallos del kit arreglados: K1 (dominio), K2 (4 tipos en extraer/arbol),
+  B1.12 (regla del H1), B1.13 (corte desde orden.json), B1.14 (versiones
+  exactas; legales con mínimo y sin sobrescribir), B1.1/5/6 (sustituidos por
+  montar-referencia.mjs, que sale con 1 y comprueba las hojas), B1.9 parcial
+  (validar respeta fallos-original.json). Pendientes: B1.2, 3, 7, 8, 9
+  (resto), 10, 11 (marcado/geometría/contraste), 15; K3-K6, K10, K11.
+- Fallos del original aprobados: src/data/fallos-original.json (4 ficheros
+  que faltan también en el servidor viejo, 2 páginas sin H1).
+- Aviso: la entrada 17636 (/donde-tomar-algo-en-valencia-.../) tiene árbol
+  de Elementor (6 bloques) y el servidor no tiene su post-17636.css (404
+  también tras visitarla). Se mira en la Fase 2 si sus bloques necesitan CSS.
+- Pendiente del propietario: crear el sitio en Netlify (o darme acceso) y
+  conectarlo al repositorio; el primer despliegue lleva `noindex`
+  (netlify.toml). Datos de la sección 1 del prompt (DNS, Search Console,
+  AdSense, GA4, titular, formularios). Si desactiva LiteSpeed un rato, se
+  repite la descarga de las 842 páginas (bajar.sh + montar).

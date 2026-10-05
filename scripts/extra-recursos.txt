@@ -1,0 +1,24 @@
+# Ficheros que la web vieja pide desde JavaScript (no estan en el HTML) y que el barrido de 404 encontro. Los baja scripts/montar-referencia.mjs.
+/wp-content/plugins/elementor/assets/js/chunks/background-slideshow.min.js
+/wp-content/plugins/elementor/assets/js/chunks/background-video.min.js
+/wp-content/plugins/elementor/assets/js/chunks/image-carousel.min.js
+/wp-content/plugins/elementor/assets/js/chunks/nested-accordion.min.js
+/wp-content/plugins/elementor/assets/js/chunks/section-stretched-section.min.js
+/wp-content/plugins/elementor/assets/js/chunks/text-editor.min.js
+/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js
+/wp-content/uploads/sb-instagram-feed-images/721333001_18415757797198112_6552893297625082866_nfull.webp
+/wp-content/uploads/sb-instagram-feed-images/721333001_18415757797198112_6552893297625082866_nlow.webp
+/wp-content/uploads/sb-instagram-feed-images/721736580_18416200039198112_1102597848240268450_nfull.webp
+/wp-content/uploads/sb-instagram-feed-images/721736580_18416200039198112_1102597848240268450_nlow.webp
+/wp-content/uploads/sb-instagram-feed-images/726294707_18416671831198112_5007151218514008070_nfull.webp
+/wp-content/uploads/sb-instagram-feed-images/726294707_18416671831198112_5007151218514008070_nlow.webp
+/wp-content/uploads/sb-instagram-feed-images/726337134_18416502226198112_3908466607103435549_nfull.webp
+/wp-content/uploads/sb-instagram-feed-images/726337134_18416502226198112_3908466607103435549_nlow.webp
+/wp-content/uploads/sb-instagram-feed-images/729275238_18417554110198112_8034942862832175944_nfull.webp
+/wp-content/uploads/sb-instagram-feed-images/729275238_18417554110198112_8034942862832175944_nlow.webp
+/wp-content/uploads/sb-instagram-feed-images/730022161_18417566752198112_270463653093380698_nfull.webp
+/wp-content/uploads/sb-instagram-feed-images/730022161_18417566752198112_270463653093380698_nlow.webp
+/wp-content/uploads/sb-instagram-feed-images/730313437_18417882379198112_1747933366654451428_nfull.webp
+/wp-content/uploads/sb-instagram-feed-images/730313437_18417882379198112_1747933366654451428_nlow.webp
+/wp-content/uploads/sb-instagram-feed-images/730809275_18418065781198112_2883292966588549521_nfull.webp
+/wp-content/uploads/sb-instagram-feed-images/730809275_18418065781198112_2883292966588549521_nlow.webp

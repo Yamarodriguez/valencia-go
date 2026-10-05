@@ -242,9 +242,13 @@ if (fs.existsSync(dirJson)) {
     }
   }
 }
-const extra = path.join(RAIZ, 'scripts', 'extra-imagenes.txt');
-if (fs.existsSync(extra)) {
+// scripts/extra-imagenes.txt (variantes que pinta Elementor, las apunta arbol.py) y
+// scripts/extra-recursos.txt (lo que la web pide desde JavaScript y encontro el barrido de 404)
+for (const nombre of ['extra-imagenes.txt', 'extra-recursos.txt']) {
+  const extra = path.join(RAIZ, 'scripts', nombre);
+  if (!fs.existsSync(extra)) continue;
   for (const l of fs.readFileSync(extra, 'utf8').split('\n')) {
+    if (l.startsWith('#')) continue;
     const r = aRutaPropia(l.trim()); if (r && !pedidas.has(r)) { pedidas.add(r); delArbol++; }
   }
 }
