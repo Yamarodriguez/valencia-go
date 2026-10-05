@@ -1,0 +1,1138 @@
+/**
+ * Estilos para Plugin TheGem Atracciones
+ */
+
+/* Variables de colores (sobrescritas desde Ajustes del plugin en #tga-atracciones) */
+:root {
+    --tga-naranja: #FF6600;
+    --tga-accent-hover: #e55a00;
+    --tga-gris-oscuro: #333333;
+    --tga-texto-secundario: #666666;
+    --tga-texto-muted: #999999;
+    --tga-icono-filtro: #5A7A8C;
+    --tga-gris-claro: #f5f5f5;
+    --tga-blanco: #FFFFFF;
+    --tga-on-accent: #FFFFFF;
+    --tga-borde-suave: #eeeeee;
+    --tga-borde-medio: #e0e0e0;
+    --tga-bg-hover-tour: #e8e8e8;
+    --tga-scrollbar-track: #f1f1f1;
+    --tga-overlay: rgba(0, 0, 0, 0.6);
+}
+
+/* Contenedor del shortcode [lista_atracciones] - para usar dentro de widget Shortcode de Elementor u otro contenedor */
+#tga-atracciones {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Evitar que el tema o el mapa apliquen opacidad al main cuando está el shortcode */
+main:has(#tga-atracciones) {
+    filter: none !important;
+}
+
+/* En detalle de una atracción (solo mapa), anular filter del main que aplica el tema */
+body.single-atraccion main {
+    filter: none !important;
+}
+
+/* ============================================
+   FILTROS SECTION
+   ============================================ */
+
+#tga-atracciones .atracciones-filtros-section {
+    padding: 60px 20px 40px;
+    background: var(--tga-blanco);
+}
+
+#tga-atracciones .atracciones-filtros-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--tga-gris-oscuro);
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+#tga-atracciones .atracciones-filtros {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#tga-atracciones .filtro-icono {
+    box-sizing: border-box;
+    min-width: 100px;
+    max-width: 220px;
+    min-height: 100px;
+    height: auto;
+    padding: 12px 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: var(--tga-gris-claro);
+    border: 2px solid transparent;
+    text-align: center;
+    flex: 0 1 auto;
+}
+
+#tga-atracciones .filtro-icono:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#tga-atracciones .filtro-icono.active {
+    background: var(--tga-naranja);
+    border-color: var(--tga-naranja);
+    color: var(--tga-on-accent);
+}
+
+#tga-atracciones .filtro-icono.active .filtro-icon {
+    color: var(--tga-on-accent) !important;
+}
+
+#tga-atracciones .filtro-icon {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    color: var(--tga-icono-filtro);
+}
+
+#tga-atracciones .filtro-label {
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    max-width: 100%;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+#tga-atracciones .filtro-id {
+    font-size: 0.7rem;
+    opacity: 0.7;
+    font-weight: 400;
+}
+
+/* ============================================
+   MAIN SECTION - LAYOUT 2 COLUMNAS
+   ============================================ */
+
+#tga-atracciones .atracciones-main-section {
+    padding: 40px 20px;
+    background: var(--tga-blanco);
+}
+
+#tga-atracciones .atracciones-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+#tga-atracciones .atracciones-lista-columna {
+    min-height: 600px;
+}
+
+#tga-atracciones .atracciones-lista-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: var(--tga-gris-oscuro);
+    margin: 0 0 20px 0;
+    line-height: 1.3;
+}
+
+#tga-atracciones .highlight-orange {
+    color: var(--tga-naranja);
+}
+
+#tga-atracciones .atracciones-contador {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--tga-gris-claro);
+}
+
+#tga-atracciones #atracciones-contador-texto {
+    font-size: 1rem;
+    color: var(--tga-gris-oscuro);
+    font-weight: 500;
+}
+
+/* ============================================
+   TARJETAS DE ATRACCIONES
+   ============================================ */
+
+#tga-atracciones .atracciones-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+#tga-atracciones .atraccion-card {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: none;
+    background: var(--tga-gris-claro);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+#tga-atracciones .atraccion-card:hover {
+    transform: translateY(-2px);
+}
+
+#tga-atracciones .atraccion-card.highlighted {
+    border: 2px solid var(--tga-naranja);
+}
+
+#tga-atracciones .atraccion-thumbnail-wrapper {
+    flex-shrink: 0;
+}
+
+#tga-atracciones .atraccion-thumbnail {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#tga-atracciones .atraccion-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#tga-atracciones .categoria-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: var(--tga-naranja);
+    color: var(--tga-on-accent);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    z-index: 2;
+}
+
+#tga-atracciones .atraccion-marker-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: var(--tga-blanco);
+    color: var(--tga-gris-oscuro);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+#tga-atracciones .atraccion-marker-badge i {
+    font-size: 14px;
+}
+
+#tga-atracciones .atraccion-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#tga-atracciones .atraccion-title {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+#tga-atracciones .atraccion-title a {
+    color: var(--tga-gris-oscuro);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#tga-atracciones .atraccion-title a:hover {
+    color: var(--tga-naranja);
+}
+
+#tga-atracciones .atraccion-descripcion {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--tga-texto-secundario);
+    margin: 10px 0;
+    flex: 1;
+    display: block;
+}
+
+#tga-atracciones .atraccion-descripcion p {
+    margin: 0 0 8px 0;
+}
+
+#tga-atracciones .atraccion-descripcion p:last-child {
+    margin-bottom: 0;
+}
+
+#tga-atracciones .atraccion-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid var(--tga-borde-suave);
+}
+
+#tga-atracciones .atraccion-tours-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: var(--tga-texto-secundario);
+}
+
+#tga-atracciones .atraccion-tours-info-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font: inherit;
+    color: var(--tga-naranja);
+    text-decoration: underline;
+    text-align: left;
+}
+
+#tga-atracciones .atraccion-tours-info-btn:hover {
+    color: var(--tga-accent-hover);
+}
+
+#tga-atracciones .atraccion-tours-info-btn:focus-visible {
+    outline: 2px solid var(--tga-naranja);
+    outline-offset: 2px;
+}
+
+#tga-atracciones .tours-icon {
+    font-size: 1rem;
+    color: var(--tga-naranja);
+}
+
+#tga-atracciones .atraccion-coordenadas {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: var(--tga-texto-secundario);
+    margin: 10px 0;
+    padding: 8px 12px;
+    background: var(--tga-gris-claro);
+    border-radius: 4px;
+    min-height: 36px;
+}
+
+#tga-atracciones .coordenada-label {
+    font-size: 1rem;
+}
+
+#tga-atracciones .coordenada-texto {
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    color: var(--tga-texto-secundario);
+}
+
+#tga-atracciones .coordenada-vacia {
+    color: var(--tga-texto-muted);
+    font-style: italic;
+    font-family: inherit;
+}
+
+#tga-atracciones .atraccion-categorias {
+    margin: 8px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+#tga-atracciones .categorias-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+#tga-atracciones .categoria-tag {
+    display: inline-block;
+    padding: 5px 12px;
+    background: var(--tga-naranja);
+    color: var(--tga-on-accent);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#tga-atracciones .categoria-tag:hover {
+    background: var(--tga-accent-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(255, 102, 0, 0.3);
+}
+
+#tga-atracciones .btn-ver-mas {
+    display: inline-block;
+    background: var(--tga-naranja);
+    color: var(--tga-on-accent);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+#tga-atracciones .btn-ver-mas:hover {
+    background: var(--tga-accent-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 102, 0, 0.3);
+}
+
+#tga-atracciones .no-atracciones {
+    padding: 40px;
+    text-align: center;
+    color: var(--tga-texto-secundario);
+    font-size: 1.1rem;
+}
+
+/* ============================================
+   PAGINACIÓN
+   ============================================ */
+
+#tga-atracciones .atracciones-paginacion {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 2px solid var(--tga-gris-claro);
+}
+
+#tga-atracciones .atracciones-paginacion .page-numbers {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+#tga-atracciones .atracciones-paginacion .page-numbers li {
+    margin: 0;
+}
+
+#tga-atracciones .atracciones-paginacion .page-numbers a,
+#tga-atracciones .atracciones-paginacion .page-numbers span {
+    display: inline-block;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--tga-on-accent);
+    background: var(--tga-naranja);
+    transition: all 0.3s;
+    font-weight: 600;
+    min-width: 36px;
+    text-align: center;
+}
+
+#tga-atracciones .atracciones-paginacion .page-numbers a:hover {
+    background: var(--tga-accent-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(255, 102, 0, 0.3);
+}
+
+#tga-atracciones .atracciones-paginacion .page-numbers .current {
+    background: var(--tga-naranja);
+    color: var(--tga-on-accent);
+}
+
+#tga-atracciones .atracciones-paginacion .page-numbers .prev,
+#tga-atracciones .atracciones-paginacion .page-numbers .next {
+    padding: 8px 16px;
+}
+
+/* ============================================
+   MAPA
+   ============================================ */
+
+#tga-atracciones .atracciones-mapa-columna {
+    position: sticky;
+    top: 80px;
+}
+
+#tga-atracciones #mapa-atracciones {
+    height: 600px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+/* Marcadores numerados circulares */
+#tga-atracciones .location-marker-numbered {
+    background: transparent;
+    border: none;
+}
+
+#tga-atracciones .marker-number-circle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--tga-naranja);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 3px solid white;
+}
+
+#tga-atracciones .marker-number {
+    color: var(--tga-on-accent);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+}
+
+#tga-atracciones .location-marker-numbered:hover .marker-number-circle {
+    transform: scale(1.2);
+    box-shadow: 0 4px 12px rgba(255, 102, 0, 0.5);
+}
+
+#tga-atracciones .marker-highlighted .marker-number-circle {
+    transform: scale(1.3);
+    box-shadow: 0 4px 16px rgba(255, 102, 0, 0.7);
+    z-index: 1000;
+}
+
+/* Marcador con logo (isologo-vgo.svg) */
+#tga-atracciones .location-marker-logo {
+    background: transparent;
+    border: none;
+}
+
+#tga-atracciones .marker-logo-wrap {
+    display: block;
+    line-height: 0;
+}
+
+#tga-atracciones .marker-logo-img {
+    width: 40px;
+    height: auto;
+    max-height: 42px;
+    object-fit: contain;
+    display: block;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+    transition: transform 0.2s ease;
+}
+
+#tga-atracciones .location-marker-logo:hover .marker-logo-img {
+    transform: scale(1.15);
+}
+
+#tga-atracciones .marker-logo-fallback {
+    font-size: 24px;
+    color: var(--tga-naranja);
+}
+
+/* Popup del mapa */
+#tga-atracciones .mapa-popup-container .leaflet-popup-content-wrapper {
+    padding: 0;
+    border-radius: 8px;
+}
+
+#tga-atracciones #mapa-atracciones .leaflet-popup-content {
+    max-width: 211px;
+    margin: 0;
+    overflow: hidden;
+}
+
+#tga-atracciones .mapa-popup {
+    min-width: 0;
+    max-width: 211px;
+    background: var(--tga-blanco);
+}
+
+#tga-atracciones .mapa-popup-imagen {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    margin: 0;
+    background: var(--tga-gris-claro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tga-atracciones .mapa-popup-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+#tga-atracciones .mapa-popup-imagen:hover img {
+    transform: scale(1.05);
+}
+
+#tga-atracciones .mapa-popup-content {
+    padding: 15px;
+}
+
+#tga-atracciones .mapa-popup-title {
+    margin: 0 0 12px 0;
+    color: var(--tga-gris-oscuro);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+#tga-atracciones .mapa-popup-descripcion {
+    margin: 0 0 12px 0;
+    font-size: 10px;
+    line-height: 1.45;
+    color: var(--tga-texto-secundario);
+    max-height: 96px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+}
+
+#tga-atracciones .mapa-popup-descripcion::-webkit-scrollbar {
+    width: 4px;
+}
+
+#tga-atracciones .mapa-popup-descripcion::-webkit-scrollbar-track {
+    background: var(--tga-scrollbar-track);
+}
+
+#tga-atracciones .mapa-popup-descripcion::-webkit-scrollbar-thumb {
+    background: var(--tga-naranja);
+    border-radius: 2px;
+}
+
+#tga-atracciones .btn-popup-ver-mas {
+    display: inline-block;
+    background: var(--tga-naranja);
+    color: var(--tga-on-accent) !important;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#tga-atracciones .btn-popup-ver-mas:hover {
+    background: var(--tga-accent-hover);
+    color: var(--tga-on-accent) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 102, 0, 0.3);
+}
+
+/* Tours relacionados en popup: icono ticket + texto + >> (sin imagen de producto) */
+#tga-atracciones .mapa-popup-tours {
+    margin: 12px 0 0;
+    padding-top: 12px;
+    border-top: 1px solid var(--tga-borde-medio);
+}
+
+#tga-atracciones .mapa-popup-tours-title {
+    margin: 0 0 8px 0;
+    color: var(--tga-gris-oscuro);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+#tga-atracciones .mapa-popup-tours-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#tga-atracciones .mapa-popup-tour-item {
+    margin-bottom: 6px;
+}
+
+#tga-atracciones .mapa-popup-tour-item:last-child {
+    margin-bottom: 0;
+}
+
+#tga-atracciones .mapa-popup-tour-link.mapa-popup-tour-link--text {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    text-decoration: none;
+    padding: 4px 0;
+    border-radius: 0;
+    background: transparent;
+    transition: opacity 0.2s ease;
+}
+
+#tga-atracciones .mapa-popup-tour-link.mapa-popup-tour-link--text:hover {
+    opacity: 0.85;
+}
+
+#tga-atracciones .mapa-popup-tour-icon {
+    color: var(--tga-naranja);
+    font-size: 0.8rem;
+    margin-top: 3px;
+    flex-shrink: 0;
+}
+
+#tga-atracciones .mapa-popup-tour-link--text .mapa-popup-tour-title {
+    flex: 1;
+    min-width: 0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.35;
+    color: var(--tga-naranja);
+    text-decoration: none;
+    display: block;
+}
+
+#tga-atracciones .mapa-popup-tour-link--text:hover .mapa-popup-tour-title {
+    color: var(--tga-accent-hover);
+    text-decoration: underline;
+}
+
+#tga-atracciones .mapa-popup-tour-suffix {
+    color: var(--tga-naranja);
+    font-size: 0.75rem;
+    font-weight: 700;
+    flex-shrink: 0;
+    line-height: 1.4;
+    margin-top: 2px;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 1024px) {
+    #tga-atracciones .atracciones-wrapper {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    #tga-atracciones .atracciones-mapa-columna {
+        position: static;
+        order: -1;
+    }
+    
+    #tga-atracciones #mapa-atracciones {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Popup mapa: más compacto en móvil */
+    #tga-atracciones #mapa-atracciones .leaflet-popup-content {
+        max-width: min(200px, 72vw) !important;
+    }
+
+    #tga-atracciones .mapa-popup {
+        max-width: min(200px, 72vw);
+    }
+
+    #tga-atracciones .mapa-popup-imagen {
+        height: 100px;
+    }
+
+    #tga-atracciones .mapa-popup-content {
+        padding: 10px 12px 12px;
+    }
+
+    #tga-atracciones .mapa-popup-title {
+        font-size: 0.88rem;
+        margin: 0 0 8px 0;
+    }
+
+    #tga-atracciones .btn-popup-ver-mas {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    #tga-atracciones .mapa-popup-tours {
+        margin-top: 8px;
+        padding-top: 10px;
+    }
+
+    #tga-atracciones .mapa-popup-tours-title {
+        font-size: 0.8rem;
+        margin-bottom: 6px;
+    }
+
+    #tga-atracciones .mapa-popup-tour-link--text .mapa-popup-tour-title {
+        font-size: 12px;
+    }
+
+    #tga-atracciones .mapa-popup-tour-icon {
+        font-size: 0.75rem;
+        margin-top: 2px;
+    }
+
+    /* Popup mapa: sin descripción en móvil (evita desbordes) */
+    #tga-atracciones .mapa-popup-descripcion {
+        display: none !important;
+    }
+
+    #tga-atracciones .atracciones-hero-title {
+        font-size: 1.5rem;
+    }
+    
+    #tga-atracciones .atracciones-hero-text {
+        font-size: 0.9rem;
+    }
+    
+    #tga-atracciones .atracciones-filtros {
+        gap: 15px;
+    }
+    
+    #tga-atracciones .filtro-icono {
+        min-width: 80px;
+        max-width: 200px;
+        min-height: 80px;
+        height: auto;
+        padding: 10px 8px;
+    }
+    
+    #tga-atracciones .filtro-icon {
+        font-size: 1.25rem;
+    }
+    
+    #tga-atracciones .atracciones-lista-title,
+    #tga-atracciones .atracciones-filtros-title {
+        font-size: 1.2rem;
+    }
+    
+    #tga-atracciones .atraccion-card {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    #tga-atracciones .atraccion-thumbnail {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    #tga-atracciones .atracciones-filtros {
+        gap: 10px;
+    }
+    
+    #tga-atracciones .filtro-icono {
+        min-width: 72px;
+        max-width: 160px;
+        min-height: 72px;
+        height: auto;
+        padding: 8px 6px;
+    }
+    
+    #tga-atracciones .filtro-label {
+        font-size: 12px;
+    }
+    
+    #tga-atracciones .filtro-icon {
+        font-size: 1.1rem;
+    }
+}
+
+/* ============================================
+   MODAL: tours por categoría (listado)
+   ============================================ */
+
+body.tga-tours-modal-open {
+    overflow: hidden;
+}
+
+#tga-atracciones .tga-tours-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 100050;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#tga-atracciones .tga-tours-modal.is-open {
+    display: flex;
+}
+
+#tga-atracciones .tga-tours-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: var(--tga-overlay);
+    cursor: pointer;
+}
+
+#tga-atracciones .tga-tours-modal-panel {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 420px;
+    max-height: min(85vh, 560px);
+    display: flex;
+    flex-direction: column;
+    background: var(--tga-blanco);
+    border-radius: 10px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+#tga-atracciones .tga-tours-modal-close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    z-index: 2;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: transparent;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--tga-gris-oscuro);
+    border-radius: 4px;
+}
+
+#tga-atracciones .tga-tours-modal-close:hover {
+    background: var(--tga-gris-claro);
+}
+
+#tga-atracciones .tga-tours-modal-heading {
+    margin: 0;
+    padding: 18px 44px 12px 18px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--tga-gris-oscuro);
+    border-bottom: 1px solid var(--tga-borde-suave);
+    flex-shrink: 0;
+}
+
+#tga-atracciones .tga-tours-modal-body {
+    padding: 12px 16px 18px;
+    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+}
+
+#tga-atracciones .tga-tours-modal-loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 24px;
+    color: var(--tga-texto-secundario);
+    font-size: 0.9rem;
+}
+
+#tga-atracciones .tga-tours-modal-loader-spinner {
+    width: 22px;
+    height: 22px;
+    border: 2px solid var(--tga-borde-medio);
+    border-top-color: var(--tga-naranja);
+    border-radius: 50%;
+    animation: tga-loader-spin 0.75s linear infinite;
+}
+
+#tga-atracciones .tga-tours-modal-empty {
+    margin: 0;
+    padding: 12px 0;
+    color: var(--tga-texto-secundario);
+    font-size: 0.95rem;
+}
+
+#tga-atracciones .tga-tours-modal-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#tga-atracciones .tga-tours-modal-item {
+    margin-bottom: 10px;
+}
+
+#tga-atracciones .tga-tours-modal-item:last-child {
+    margin-bottom: 0;
+}
+
+#tga-atracciones .tga-tours-modal-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    background: var(--tga-gris-claro);
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.2s ease;
+}
+
+#tga-atracciones .tga-tours-modal-link:hover {
+    background: var(--tga-bg-hover-tour);
+}
+
+#tga-atracciones .tga-tours-modal-img {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+#tga-atracciones .tga-tours-modal-img--placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--tga-borde-medio);
+    color: var(--tga-texto-muted);
+}
+
+#tga-atracciones .tga-tours-modal-link-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+    flex: 1;
+}
+
+#tga-atracciones .tga-tours-modal-link-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--tga-gris-oscuro);
+    line-height: 1.3;
+}
+
+#tga-atracciones .tga-tours-modal-price {
+    font-size: 0.85rem;
+    color: var(--tga-naranja);
+    font-weight: 600;
+}
+
+/* ============================================
+   LISTA: loader al filtrar por categoría (AJAX)
+   ============================================ */
+
+#tga-atracciones .tga-lista-atracciones-wrap {
+    position: relative;
+    min-height: 120px;
+}
+
+#tga-atracciones .tga-atracciones-loader {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+}
+
+#tga-atracciones .tga-lista-atracciones-wrap.tga-lista-cargando .atracciones-lista {
+    pointer-events: none;
+    opacity: 0.55;
+}
+
+#tga-atracciones .tga-atracciones-loader-spinner {
+    width: 36px;
+    height: 36px;
+    border: 3px solid var(--tga-borde-medio);
+    border-top-color: var(--tga-naranja);
+    border-radius: 50%;
+    animation: tga-loader-spin 0.75s linear infinite;
+}
+
+#tga-atracciones .tga-atracciones-loader-text {
+    font-size: 0.9rem;
+    color: var(--tga-gris-oscuro);
+    font-weight: 500;
+}
+
+@keyframes tga-loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ============================================
+   MAPA SOLO (DETALLE DE UNA ATRACCIÓN)
+   ============================================ */
+
+#tga-atracciones .mapa-atraccion-single-wrapper {
+    width: 100%;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+#tga-atracciones .mapa-atraccion-single {
+    width: 100% !important;
+    min-height: 400px;
+    height: 400px;
+}
+
+#tga-atracciones .location-marker-single .marker-single-pin {
+    font-size: 1.5rem;
+    color: var(--tga-naranja);
+    text-align: center;
+    line-height: 1;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+#tga-atracciones .location-marker-single .marker-single-pin i {
+    display: block;
+}
+
+#tga-atracciones .mapa-popup-container-single .mapa-popup-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+}

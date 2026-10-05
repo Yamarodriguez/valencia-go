@@ -1,5 +1,7 @@
 {
  "slug": "contacto",
+ "tipo": "page",
+ "postId": 261,
  "ruta": "/contacto/",
  "titulo": "Contacto",
  "h1": "contáctanos",
@@ -9,6 +11,123 @@
  "noindex": false,
  "hero": {},
  "faq": [],
- "cuerpo": "<p>¡Encantadas de ayudarte!</p><ul>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<b>¿Dudas?</b><p>Contacta con nosotras, estaremos encantadas de responderte en el menor tiempo posible.</p>\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<b>Aclaraciones, sugerencias, críticas…</b><p>Estamos abiertas a todo tipo de feedback por parte de nuestros clientes que nos ayude a mejorar y superarnos.</p>\n</li>\n</ul>\n<h2>Atendemos llamadas y whatsapp</h2> <ul>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<b>Llamanos al +34 684 30 67 87</b> o si lo prefieres <b> escribenos un WhatsApp al +34 680 48 82 33Resolvemos tus dudas más rápido mediante mensaje de WhatsApp o llamada. <b>Lo antes posible:</b></b><p>08:00-20:00h – lunes a sábado</p><p>08:00-13:30h – domingos</p><p>Franja horaria española</p>\n</li>\n</ul>",
- "palabras": 86
+ "cuerpo": "<h1>contáctanos</h1><p>¡Encantadas de ayudarte!</p><ul>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<b>¿Dudas?</b><p>Contacta con nosotras, estaremos encantadas de responderte en el menor tiempo posible.</p>\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<b>Aclaraciones, sugerencias, críticas…</b><p>Estamos abiertas a todo tipo de feedback por parte de nuestros clientes que nos ayude a mejorar y superarnos.</p>\n</li>\n</ul>\n<h2>Atendemos llamadas y whatsapp</h2> <ul>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<b>Llamanos al +34 684 30 67 87</b> o si lo prefieres <b> escribenos un WhatsApp al +34 680 48 82 33Resolvemos tus dudas más rápido mediante mensaje de WhatsApp o llamada. <b>Lo antes posible:</b></b><p>08:00-20:00h – lunes a sábado</p><p>08:00-13:30h – domingos</p><p>Franja horaria española</p>\n</li>\n</ul>",
+ "palabras": 87,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "c658240",
+   "disposicion": "full_width",
+   "hueco": "no",
+   "relleno": "0px 0px 0px 0px",
+   "fondo": {
+    "color": "#FBFBFB"
+   },
+   "columnas": [
+    {
+     "id": "b9f6f32",
+     "elementos": [],
+     "ancho": 35.0,
+     "anchoBase": 50
+    },
+    {
+     "id": "c12d297",
+     "elementos": [
+      {
+       "t": "espaciador",
+       "id": "dd9be74",
+       "margen": "0px 0px 0px 0px",
+       "relleno": "0px 0px 0px 0px",
+       "alto": 760.0,
+       "altoMovil": 200.0
+      }
+     ],
+     "ancho": 65.0,
+     "anchoBase": 50,
+     "relleno": "0px 0px 200px 0px",
+     "fondo": {
+      "color": "#35151500",
+      "imagen": "/wp-content/uploads/2025/10/img-ciudad-artes-ciencias.webp",
+      "posicion": "center left",
+      "tamano": "cover",
+      "repetir": "no-repeat",
+      "velo": "#00668F",
+      "veloOpacidad": 0.6
+     },
+     "superposicion": true
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "97b9446",
+   "disposicion": "boxed",
+   "margen": "-260px 0px -0px 0px",
+   "margenMovil": "0px 0px 0px 0px",
+   "fondo": {
+    "color": "#FBFBFB"
+   },
+   "columnas": [
+    {
+     "id": "6f146a4",
+     "elementos": [
+      {
+       "t": "encabezado",
+       "id": "68c15dcd",
+       "texto": "contáctanos",
+       "etiqueta": "h1",
+       "tipo": {
+        "familia": "Baloo Bhaijaan 2",
+        "tamano": 24.0,
+        "peso": "600"
+       }
+      },
+      {
+       "t": "texto",
+       "id": "5252a195",
+       "html": "<div class=\"title-h1\">¡Encantadas de ayudarte!</div>",
+       "color": "#006991",
+       "tipo": {
+        "familia": "Baloo Bhaijaan 2",
+        "tamano": 43.0,
+        "tamanoMovil": 25.0,
+        "peso": "500"
+       }
+      },
+      {
+       "t": "encabezado",
+       "id": "b2cb3ba",
+       "texto": "Atendemos llamadas y whatsapp",
+       "etiqueta": "h2",
+       "tipo": {
+        "familia": "Baloo Bhai 2",
+        "tamano": 24.0,
+        "tamanoMovil": 24.0,
+        "peso": "600"
+       }
+      }
+     ],
+     "ancho": 50.0,
+     "anchoBase": 50,
+     "relleno": "50px 42px 45px 21px",
+     "fondo": {
+      "color": "#FFFFFF"
+     }
+    },
+    {
+     "id": "cdfbd9d",
+     "elementos": [],
+     "ancho": 50.0,
+     "anchoBase": 50,
+     "fondo": {
+      "color": "#2D74A9"
+     },
+     "alinearVertical": "top"
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": false
 }

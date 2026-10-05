@@ -18,10 +18,10 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const BASE = 'https://casascontenedores.es';
+const BASE = 'https://www.valenciaandgo.com';
 const DESTINO = path.join(RAIZ, 'css-original');
 const HILOS = 4;
-const UA = { 'User-Agent': 'Mozilla/5.0 (migracion casascontenedores.es a Astro)' };
+const UA = { 'User-Agent': 'Mozilla/5.0 (migracion valenciaandgo.com a Astro)' };
 
 // hojas compartidas: las mismas que carga cualquier pagina del sitio
 const COMPARTIDAS = [
@@ -103,7 +103,7 @@ const refs = new Set();
     for (const m of css.matchAll(/url\(\s*['"]?([^'")]+)['"]?\s*\)/g)) {
       let u = m[1].trim();
       if (u.startsWith('data:')) continue;
-      if (u.startsWith('http') && !u.includes('casascontenedores.es')) continue;
+      if (u.startsWith('http') && !u.includes('valenciaandgo.com')) continue;
       u = u.replace(BASE, '').split('?')[0].split('#')[0];
       if (u.startsWith('//')) continue;
       if (!u.startsWith('/')) {

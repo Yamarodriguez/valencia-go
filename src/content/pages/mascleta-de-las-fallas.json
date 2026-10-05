@@ -1,0 +1,243 @@
+{
+ "slug": "mascleta-de-las-fallas",
+ "tipo": "post",
+ "postId": 450,
+ "ruta": "/mascleta-de-las-fallas/",
+ "titulo": "Mascletá de las Fallas",
+ "h1": "Mascletá de las Fallas",
+ "tituloSeo": "Mascletà de las Fallas: qué es y dónde verla",
+ "descripcion": "La mascletà es un espectáculo pirotécnico único que se celebra durante las fiestas de Las Fallas en Valencia y no encontrarás en otro lugar.",
+ "palabraClave": "mascletà de las Fallas",
+ "noindex": false,
+ "hero": {},
+ "faq": [],
+ "cuerpo": "<p>Hoy os vamos a contar de una forma resumida en qué se convierte la maravillosa Valencia durante la celebración de <strong>las esperadas Fallas...</strong></p>\n<p><strong>Valencia es luz, fuego, música.</strong></p>\n<p>Y para descubrir la verdadera  esencia de la ciudad no debes perderte<strong> uno de sus mayores espectáculos</strong>:<strong> la mascletà.</strong></p>\n<p>Ahí es dónde podrás vivir en primera persona <strong>la adrenalina de sentir unos 5 minutos llenos de intensidad</strong>.</p>\n<p>¿Pero a ver... de qué se trata exactamente?</p>\n<p>Pues resulta que<strong> todos los días a las 14:00 horas</strong>  los valencianos se reúnen en la plaza del Ayuntamiento para contemplar<strong> uno de los <em>shows</em> pirotécnicos más fuertes y alucinantes</strong> de la historia.</p>\n<h2>Orígenes de la mascletà</h2> <p>Se trata de una <strong>tradición que se remonta al siglo XVIII</strong> y que tiene su origen en las<strong> ″tracas″ </strong>que surgieron en un pequeño pueblo cerca de Valencia: Almansa.</p>\n<p>Y ¿qué es una traca? Para los que no lo sepan es un <strong>conjunto de petardos o cohetes</strong> que van unidos por una mecha y que explotan consecutivamente.</p>\n<p>Entonces, se montaban las tracas en las calles y el público participaba en ellas, también en forma de ″correfocs″ <strong>moviéndose por debajo de las explosiones y</strong> <strong>bailando a su alrededor.</strong></p>\n<p>Pero <strong>no fue hasta el 1945 </strong>cuando se formó lo que conocemos ahora como mascletà: centrada en un punto fijo, como es el Ayuntamiento de Valencia y dónde el público se convierte en mero espectador: <strong>sólo tienes que dejarte llevar.</strong></p> <h2>La mascletà en las Fallas de hoy</h2> <p>En la actualidad no es sólo un espéctaculo pirotécnico sino que <strong>también es un concurso</strong>, cada día un grupo de pirotécnicos diferente lanza la mascletà optando así a ser el mejor de las fiestas. <strong>Es un gran reconocimiento y orgullo</strong> ganar, ya que es un modo de vida.</p>\n<p>Se trata de<strong> crear ritmo y color</strong>, de transmitir un mensaje y hacer que los espectadores vibren, se sorprendan y conecten.</p>\n<p>Como figura a destacar, el ″<strong>mestre de traca″</strong> es la persona responsable de realizar la mascletà, es el director de orquesta: que <strong>consigue crear del estruendo algo armonioso y bello.</strong></p>\n<p>Y todo esto tiene lugar celebrando esta festividad única en su especie...</p>\n<h2>La celebración de las Fallas</h2> <p>Las Fallas son unas fiestas que van <strong>desde el 15 al 19 de marzo</strong> con una tradición arraigada en la ciudad de Valencia y diferentes poblaciones de la Comunidad Valenciana.</p>\n<p>Oficialmente empiezan el último domingo de febrero con el acto de la <strong>Cridà</strong> que es la ″llamada″.</p>\n<p>Actualmente, esta festividad se ha convertido en un atractivo turístico muy importante, ya que además de estar catalogadas como <strong>fiesta de Interés Turístico Internacional</strong>, en noviembre de<strong> 2016 la Unesco</strong> las inscribió en su Lista Representativa del <strong>Patrimonio Cultural Inmaterial de la Humanidad.</strong></p>\n<p>Esta celebración también es llamada como fiesta que<strong> se celebran en honor de San José</strong>, patrón de los carpinteros, que era un gremio muy extendido en la ciudad cuando empezaron a celebrarse a finales del siglo XVII, y que conservó hasta la actualidad, dada la importancia de la industria del mueble en la región.</p>\n<p>Las fallas son todo un sentimiento para los falleros. Es una fiesta en la que <strong>la diversión, el ruido y el ambiente de la calle</strong> están a la orden del día.</p>\n<h2>¿Qué es una Falla?</h2> <p>Se trata de un <strong>gran monumento esculpido a base de madera y papel con un mensaje</strong>, normalmente <strong>lleno de crítica</strong> a cualquier persona imaginable.</p>\n<p>Estos enormes monumentos hechos de materiales como papel maché, madera y tabla de carbono <strong>alcanzan alturas extravagantes</strong> y todas ellas son <strong>grandes exhibiciones de arte.</strong></p>\n<p>Si quieres saber más sobre la original tradición valenciana te dejamos este artículo, ¡no te lo pierdas!: <a href=\"/blog/ciudad-de-valencia/las-fallas/\">Las Fallas de Valencia, Patrimonio Cultural Inmaterial de la Humanidad</a></p>",
+ "palabras": 623,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "206c1024",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "2c9e224b",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "texto",
+           "id": "60ac46f1",
+           "html": "<p>Hoy os vamos a contar de una forma resumida en qué se convierte la maravillosa Valencia durante la celebración de <strong>las esperadas Fallas...</strong></p>\n\n<p><strong>Valencia es luz, fuego, música.</strong></p>",
+           "tipo": {
+            "tamano": 1.1,
+            "peso": "500",
+            "interlineado": 1.2,
+            "interlineadoUnidad": "em"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "a2823df",
+           "html": "<p>Y para descubrir la verdadera  esencia de la ciudad no debes perderte<strong> uno de sus mayores espectáculos</strong>:<strong> la mascletà.</strong></p>\n\n<p>Ahí es dónde podrás vivir en primera persona <strong>la adrenalina de sentir unos 5 minutos llenos de intensidad</strong>.</p>\n\n<p>¿Pero a ver... de qué se trata exactamente?</p>\n\n<p>Pues resulta que<strong> todos los días a las 14:00 horas</strong>  los valencianos se reúnen en la plaza del Ayuntamiento para contemplar<strong> uno de los <em>shows</em> pirotécnicos más fuertes y alucinantes</strong> de la historia.</p>"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "4e5d64f7",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "32920cfa",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "5fb3bf39",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Orígenes de la mascletà",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "1a1fce91",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "36f391fb",
+               "html": "<p>Se trata de una <strong>tradición que se remonta al siglo XVIII</strong> y que tiene su origen en las<strong> ″tracas″ </strong>que surgieron en un pequeño pueblo cerca de Valencia: Almansa.</p>\n\n<p>Y ¿qué es una traca? Para los que no lo sepan es un <strong>conjunto de petardos o cohetes</strong> que van unidos por una mecha y que explotan consecutivamente.</p>\n\n<p>Entonces, se montaban las tracas en las calles y el público participaba en ellas, también en forma de ″correfocs″ <strong>moviéndose por debajo de las explosiones y</strong> <strong>bailando a su alrededor.</strong></p>\n\n<p>Pero <strong>no fue hasta el 1945 </strong>cuando se formó lo que conocemos ahora como mascletà: centrada en un punto fijo, como es el Ayuntamiento de Valencia y dónde el público se convierte en mero espectador: <strong>sólo tienes que dejarte llevar.</strong></p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "fefe782",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "1ab659b",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "907dcce",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "La mascletà en las Fallas de hoy",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "13b0df3",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "4934179",
+               "html": "<p>En la actualidad no es sólo un espéctaculo pirotécnico sino que <strong>también es un concurso</strong>, cada día un grupo de pirotécnicos diferente lanza la mascletà optando así a ser el mejor de las fiestas. <strong>Es un gran reconocimiento y orgullo</strong> ganar, ya que es un modo de vida.</p>\n\n<p>Se trata de<strong> crear ritmo y color</strong>, de transmitir un mensaje y hacer que los espectadores vibren, se sorprendan y conecten.</p>\n\n<p>Como figura a destacar, el ″<strong>mestre de traca″</strong> es la persona responsable de realizar la mascletà, es el director de orquesta: que <strong>consigue crear del estruendo algo armonioso y bello.</strong></p>\n\n<p>Y todo esto tiene lugar celebrando esta festividad única en su especie...</p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "44c96ae",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "fb15f58",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "503d37d",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "La celebración de las Fallas",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "26f1a31",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "35ffb28",
+               "html": "<p>Las Fallas son unas fiestas que van <strong>desde el 15 al 19 de marzo</strong> con una tradición arraigada en la ciudad de Valencia y diferentes poblaciones de la Comunidad Valenciana.</p>\n\n<p>Oficialmente empiezan el último domingo de febrero con el acto de la <strong>Cridà</strong> que es la ″llamada″.</p>\n\n<p>Actualmente, esta festividad se ha convertido en un atractivo turístico muy importante, ya que además de estar catalogadas como <strong>fiesta de Interés Turístico Internacional</strong>, en noviembre de<strong> 2016 la Unesco</strong> las inscribió en su Lista Representativa del <strong>Patrimonio Cultural Inmaterial de la Humanidad.</strong></p>\n\n<p>Esta celebración también es llamada como fiesta que<strong> se celebran en honor de San José</strong>, patrón de los carpinteros, que era un gremio muy extendido en la ciudad cuando empezaron a celebrarse a finales del siglo XVII, y que conservó hasta la actualidad, dada la importancia de la industria del mueble en la región.</p>\n\n<p>Las fallas son todo un sentimiento para los falleros. Es una fiesta en la que <strong>la diversión, el ruido y el ambiente de la calle</strong> están a la orden del día.</p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "d42a25a",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "32f5c9a",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "995eb6f",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "¿Qué es una Falla?",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "463021d",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "ac0b7ee",
+               "html": "<p>Se trata de un <strong>gran monumento esculpido a base de madera y papel con un mensaje</strong>, normalmente <strong>lleno de crítica</strong> a cualquier persona imaginable.</p>\n\n<p>Estos enormes monumentos hechos de materiales como papel maché, madera y tabla de carbono <strong>alcanzan alturas extravagantes</strong> y todas ellas son <strong>grandes exhibiciones de arte.</strong></p>\n\n<p>Si quieres saber más sobre la original tradición valenciana te dejamos este artículo, ¡no te lo pierdas!: <a href=\"/blog/ciudad-de-valencia/las-fallas/\">Las Fallas de Valencia, Patrimonio Cultural Inmaterial de la Humanidad</a></p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": true
+}

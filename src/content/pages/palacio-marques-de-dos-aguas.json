@@ -1,0 +1,100 @@
+{
+ "slug": "palacio-marques-de-dos-aguas",
+ "tipo": "post",
+ "postId": 425,
+ "ruta": "/palacio-marques-de-dos-aguas/",
+ "titulo": "Palacio Marqués de Dos Aguas: el rococó de Valencia",
+ "h1": "Palacio Marqués de Dos Aguas: el rococó de Valencia",
+ "tituloSeo": "Palacio del Marqués de Dos Aguas: el rococó valenciano",
+ "descripcion": "El Palacio del Marqués de Dos Aguas es la joya del rococó valenciano: su portada de alabastro, el Museo González Martí y cómo visitarlo.",
+ "palabraClave": "Palacio Marqués de dos Aguas",
+ "noindex": false,
+ "hero": {},
+ "faq": [],
+ "cuerpo": "<p>Ubicado muy cerca de la Plaza del Ayuntamiento, en lo que, probablemente, fuera antiguamente una necrópolis romana (se encontraba fuera de las murallas de ''Valentia''). Este monumental palacio es apodado como ''El pequeño Versalles'', no tiene enormes jardines (tan solo un patio pequeñito), ni grandes salas, pero alberga tanta belleza y tanto detalle de diferentes estilos que es sin duda un edificio que no puedes dejar de visitar.</p>\n<h2>El Palacio</h2>\n<p>La última reforma es del siglo XVIII y podemos observar una fachada totalmente barroca con un portón lleno de simbología haciendo alusión a quienes residieron en este palacio.</p>\n<p>Dentro encontramos diferentes salas y cada una de ellas dedicada a una temática. Además encontramos en su interior el museo nacional (que es decir mucho) de cerámica, pasando desde el neolítico hasta nuestros tiempos. ¿Necesitas más motivos para visitar esta joya?</p>",
+ "palabras": 139,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "7295234",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "ab27bbb",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "texto",
+           "id": "1a24d38",
+           "html": "<p>Ubicado muy cerca de la Plaza del Ayuntamiento, en lo que, probablemente, fuera antiguamente una necrópolis romana (se encontraba fuera de las murallas de '‘Valentia’‘). Este monumental palacio es apodado como ’‘El pequeño Versalles’', no tiene enormes jardines (tan solo un patio pequeñito), ni grandes salas, pero alberga tanta belleza y tanto detalle de diferentes estilos que es sin duda un edificio que no puedes dejar de visitar.</p>",
+           "tipo": {
+            "tamano": 1.1,
+            "peso": "500",
+            "interlineado": 1.2,
+            "interlineadoUnidad": "em"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "3e69d31",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "417380c",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "803f7ff",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "El Palacio",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "4ffcdd1",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "3c220be",
+               "html": "<p>La última reforma es del siglo XVIII y podemos observar una fachada totalmente barroca con un portón lleno de simbología haciendo alusión a quienes residieron en este palacio.</p>\n\n<p>Dentro encontramos diferentes salas y cada una de ellas dedicada a una temática. Además encontramos en su interior el museo nacional (que es decir mucho) de cerámica, pasando desde el neolítico hasta nuestros tiempos. ¿Necesitas más motivos para visitar esta joya?</p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": true
+}

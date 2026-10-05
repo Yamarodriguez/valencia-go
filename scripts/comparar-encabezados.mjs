@@ -5,7 +5,7 @@
  *   npm run build && node scripts/comparar-encabezados.mjs
  *
  * Usa estructura-viva.json (lo genera scripts/descargar-estructura.mjs en el
- * PC del propietario, que si tiene salida a casascontenedores.es).
+ * PC del propietario, que si tiene salida a valenciaandgo.com).
  *
  * Que se compara: la SECUENCIA DE TEXTOS de los encabezados, en orden.
  * El nivel puede cambiar en un solo caso permitido y documentado: el <h1> de

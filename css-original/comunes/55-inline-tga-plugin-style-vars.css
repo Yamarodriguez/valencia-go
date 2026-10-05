@@ -1,0 +1,15 @@
+#tga-atracciones {
+        --tga-naranja: #FF6600;
+        --tga-accent-hover: #e55a00;
+        --tga-gris-oscuro: #333333;
+        --tga-texto-secundario: #666666;
+        --tga-texto-muted: #999999;
+        --tga-icono-filtro: #5A7A8C;
+        --tga-gris-claro: #f5f5f5;
+        --tga-blanco: #FFFFFF;
+        --tga-borde-suave: #eeeeee;
+        --tga-borde-medio: #eeeeee;
+        --tga-on-accent: #FFFFFF;
+        --tga-scrollbar-track: #f5f5f5;
+        --tga-bg-hover-tour: #f5f5f5;
+    }

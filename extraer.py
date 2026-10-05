@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-extraer.py - Convierte el export WXR de casascontenedores.es a JSON.
+extraer.py - Convierte el export WXR de valenciaandgo.com a JSON.
 
 Uso:  python3 extraer.py ruta/al/export.xml [--ensayo]
 
@@ -14,10 +14,16 @@ Reglas que no se rompen:
 import re, os, sys, json, html
 from collections import Counter
 
-BASE = "https://casascontenedores.es"
-NOMBRE_SITIO = "Casas Contenedores"
 RAIZ = os.path.dirname(os.path.abspath(__file__))
 SALIDA = os.path.join(RAIZ, "src", "content", "pages")
+# El dominio y el nombre salen de src/data/site.json (antes iban fijos en el codigo).
+with open(os.path.join(RAIZ, "src", "data", "site.json"), encoding="utf-8") as _f:
+    _site = json.load(_f)
+BASE = _site["dominio"].rstrip("/")
+NOMBRE_SITIO = _site["nombre"]
+# Tipos de contenido que se migran. Antes solo "page"; aqui tambien entradas,
+# productos de WooCommerce y atracciones (ACF).
+TIPOS = ("page", "post", "product", "atraccion")
 
 # ---------------------------------------------------------------- utilidades
 
@@ -74,7 +80,7 @@ def limpiar(cuerpo):
 
     # URLs absolutas del propio dominio -> relativas. Las de uploads NO se renombran.
     cuerpo = cuerpo.replace(BASE + "/", "/").replace(BASE, "/")
-    cuerpo = re.sub(r'(https?:)?//(?:www\.)?casascontenedores\.es/', "/", cuerpo)
+    cuerpo = re.sub(r'(https?:)?//(?:www\.)?valenciaandgo\.com/', "/", cuerpo)
 
     # Imagenes: lazy, sin tocar rutas ni dimensiones.
     def arregla_img(m):
@@ -308,11 +314,14 @@ def main():
     antes, despues = Counter(), Counter()
 
     for it in items:
-        if cdata(it, "post_type") != "page":
+        tipo = cdata(it, "post_type")
+        if tipo not in TIPOS:
             continue
         if cdata(it, "status") != "publish":
             resumen["no_publicadas"] += 1
             continue
+        m_pid = re.search(r"<wp:post_id>(\d+)</wp:post_id>", it)
+        post_id = int(m_pid.group(1)) if m_pid else 0
 
         slug = cdata(it, "post_name")
         enlace = simple(it, "link")
@@ -339,8 +348,11 @@ def main():
             ruta_provisional += "/"
 
         cuerpo, avisos = limpiar(bruto)
-        cuerpo, h1 = separar_h1(cuerpo, h1_vivos.get(ruta_provisional, ""))
-        cuerpo, hero = extraer_hero(cuerpo)
+        # Regla del H1 aprobada (5-10-2026): se conserva el H1 que tiene hoy
+        # cada pagina en vivo, tal cual. Ni se asciende ni se baja nada, y el
+        # cuerpo no se toca (separar_h1 y extraer_hero quedan sin uso).
+        h1 = h1_vivos.get(ruta_provisional, "")
+        hero = {}
         faq = extraer_faq(it)
 
         # el h1 y el hero salen del cuerpo a proposito: se suman para cuadrar
@@ -366,6 +378,8 @@ def main():
 
         paginas.append({
             "slug": slug or "inicio",
+            "tipo": tipo,
+            "postId": post_id,
             "ruta": ruta_url,
             "titulo": titulo_wp,
             "h1": h1 or titulo_wp,
@@ -413,7 +427,10 @@ def main():
         if f.endswith(".json"):
             os.remove(os.path.join(SALIDA, f))
     for p in paginas:
-        with open(os.path.join(SALIDA, p["slug"] + ".json"), "w", encoding="utf-8") as f:
+        # el nombre del fichero sale de la ruta (hay slugs repetidos entre
+        # entradas y atracciones): /atracciones/xativa/ -> atracciones--xativa.json
+        nombre = p["ruta"].strip("/").replace("/", "--") or "inicio"
+        with open(os.path.join(SALIDA, nombre + ".json"), "w", encoding="utf-8") as f:
             json.dump(p, f, ensure_ascii=False, indent=1)
     print("\nescritos %d JSON en %s" % (len(paginas), SALIDA))
 

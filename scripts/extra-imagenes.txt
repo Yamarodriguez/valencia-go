@@ -1,0 +1,15 @@
+
+# Variantes que pinta Elementor y no estaban descargadas
+/wp-content/uploads/2026/03/atardecer-albufera.webp
+/wp-content/uploads/2026/03/cuevassanjose3.webp
+/wp-content/uploads/2026/03/equipo-valencia-and-go.webp
+/wp-content/uploads/2026/07/55408729203_742dd1275d_k-1.jpg
+/wp-content/uploads/2026/09/PENISCOLA.jpg
+/wp-content/uploads/2026/09/proava-celler.jpg
+/wp-content/uploads/tours-excursiones/01-parque-natural-albufera/parque-natural-albufera_5.webp
+/wp-content/uploads/tours-excursiones/03-arte-arquitectura/tour-arte-arquitectura_2.webp
+
+# Variantes que pinta Elementor y no estaban descargadas
+/wp-content/uploads/2026/01/img-mercado-colon-02.webp
+/wp-content/uploads/2026/01/img_estacion-norte-02.webp
+/wp-content/uploads/2026/09/Amigas_disfrutando_de_una_tarde_de_tapas_en_Valencia-768x574.webp

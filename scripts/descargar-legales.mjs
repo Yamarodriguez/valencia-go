@@ -12,7 +12,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const BASE = 'https://casascontenedores.es';
+const BASE = 'https://www.valenciaandgo.com';
 const DESTINO = path.join(RAIZ, 'legales-vivos.json');
 
 const RUTAS = [
@@ -27,7 +27,7 @@ const salida = {};
 for (const ruta of RUTAS) {
   try {
     const r = await fetch(BASE + ruta, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (migracion casascontenedores.es a Astro)' },
+      headers: { 'User-Agent': 'Mozilla/5.0 (migracion valenciaandgo.com a Astro)' },
       signal: AbortSignal.timeout(45000),
     });
     if (!r.ok) throw new Error('HTTP ' + r.status);

@@ -1,5 +1,7 @@
 {
  "slug": "experiencias-a-medida",
+ "tipo": "page",
+ "postId": 4315,
  "ruta": "/experiencias-a-medida/",
  "titulo": "Experiencias a medida",
  "h1": "Experiencias a medida",
@@ -7,14 +9,383 @@
  "descripcion": "Crea tu propia experiencia a medida. Diseñamos planes únicos adaptados a tus gustos para que vivas el destino como nunca.",
  "palabraClave": "Experiencias a medida",
  "noindex": false,
- "hero": {
-  "src": "https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-lekkerland.webp",
-  "alt": "",
-  "ancho": 96,
-  "alto": 96,
-  "srcset": "https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-lekkerland.webp 446w, https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-lekkerland-180x180.webp 180w"
- },
+ "hero": {},
  "faq": [],
- "cuerpo": "<p>Nos ocupamos de todos los aspectos de tu evento, incluidos los lugares de celebración, las actividades, el transporte, el catering, el alojamiento, los guías oficiales, las recogidas en el aeropuerto, los traslados y los itinerarios diarios. Nuestra amplia red local nos permite adaptarnos perfectamente a tus necesidades y preferencias.</p> <h2>100% personalizado</h2> <p style=\"text-align: center;\">Nuestro servicio es totalmente creado  y adaptado a tus necesidades; comparte con nosotros tu idea y nos encargaremos de hacerla realidad.</p> <h3>Itinerarios <br/>a medida</h3> <p>Ideal para grupos y familias</p><p>Nuestro servicio está planteado para <strong>disfrutar sin preocupaciones</strong>, con un ritmo cómodo, <strong>atención personalizada</strong> y todos los detalles cuidados para que grandes y pequeños vivan una experiencia memorable.</p> <h3>Eventos corporativos <br/>y celebraciones</h3> <p>Especialistas en eventos corporativos</p><p>Ofrecemos un <strong>servicio integral a medida</strong> que incluye <strong>transporte, alojamiento, restaurantes seleccionados y actividades de team building,</strong> adaptando cada propuesta a las necesidades de tu grupo.</p> <h3>Espacios</h3> <p>Ideas adaptadas a tus preferencias</p><p>Diseñamos <strong>experiencias privadas a medida</strong>, adaptadas a tus gustos y necesidades: terrazas exclusivas, salones singulares, arquitectura vanguardista, edificios históricos y villas con encanto que convierten cada visita en algo irrepetible.</p> <h3>Traslados</h3> <p>Te ayudamos a gestionar tus traslados</p><p>Si tu experiencia requiere <strong>transporte privado</strong>, ponemos a tu disposición una <strong>selección de vehículos</strong> adaptados a cada tipo de grupo.<br/>Cuéntanos el <strong>número de personas</strong> y tus <strong>necesidades específicas</strong>, y te propondremos la opción que mejor encaje contigo para que no tengas que preocuparte por nada.</p> <p><a href=\"https://valenciaandgo.com/nuestros-vehiculos/\">\nVer vehículos\n</a></p>\n<h2>Cuéntanos tu propuesta</h2> <h2>Empresas que han confiado en\nnosotras</h2>\n<figure class=\"gallery-item\">\n\n</figure><figure class=\"gallery-item\">\n<img alt=\"\" decoding=\"async\" height=\"96\" loading=\"lazy\" sizes=\"(max-width: 96px) 100vw, 96px\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-caritas.webp\" srcset=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-caritas.webp 446w, https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-caritas-180x180.webp 180w\" width=\"96\"/>\n</figure><figure class=\"gallery-item\">\n<img alt=\"\" decoding=\"async\" height=\"96\" loading=\"lazy\" sizes=\"(max-width: 96px) 100vw, 96px\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-jysk.webp\" srcset=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-jysk.webp 446w, https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-jysk-180x180.webp 180w\" width=\"96\"/>\n</figure><figure class=\"gallery-item\">\n<img alt=\"\" decoding=\"async\" height=\"96\" loading=\"lazy\" sizes=\"(max-width: 96px) 100vw, 96px\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-cruzrojaespanola.webp\" srcset=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-cruzrojaespanola.webp 446w, https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-cruzrojaespanola-180x180.webp 180w\" width=\"96\"/>\n</figure><figure class=\"gallery-item\">\n<img alt=\"\" decoding=\"async\" height=\"96\" loading=\"lazy\" sizes=\"(max-width: 96px) 100vw, 96px\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-mediamarkt.webp\" srcset=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-mediamarkt.webp 446w, https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-mediamarkt-180x180.webp 180w\" width=\"96\"/>\n</figure><figure class=\"gallery-item\">\n<img alt=\"\" decoding=\"async\" height=\"96\" loading=\"lazy\" sizes=\"(max-width: 96px) 100vw, 96px\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-maersk.webp\" srcset=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-maersk.webp 446w, https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-maersk-180x180.webp 180w\" width=\"96\"/>\n</figure>",
- "palabras": 246
+ "cuerpo": "<h1>Experiencias a medida</h1> <p>Nos ocupamos de todos los aspectos de tu evento, incluidos los lugares de celebración, las actividades, el transporte, el catering, el alojamiento, los guías oficiales, las recogidas en el aeropuerto, los traslados y los itinerarios diarios. Nuestra amplia red local nos permite adaptarnos perfectamente a tus necesidades y preferencias.</p> <h2>100% personalizado</h2> <p style=\"text-align: center;\">Nuestro servicio es totalmente creado  y adaptado a tus necesidades; comparte con nosotros tu idea y nos encargaremos de hacerla realidad.</p> <h3>Itinerarios <br/>a medida</h3> <p>Ideal para grupos y familias</p><p>Nuestro servicio está planteado para <strong>disfrutar sin preocupaciones</strong>, con un ritmo cómodo, <strong>atención personalizada</strong> y todos los detalles cuidados para que grandes y pequeños vivan una experiencia memorable.</p> <h3>Eventos corporativos <br/>y celebraciones</h3> <p>Especialistas en eventos corporativos</p><p>Ofrecemos un <strong>servicio integral a medida</strong> que incluye <strong>transporte, alojamiento, restaurantes seleccionados y actividades de team building,</strong> adaptando cada propuesta a las necesidades de tu grupo.</p> <h3>Espacios</h3> <p>Ideas adaptadas a tus preferencias</p><p>Diseñamos <strong>experiencias privadas a medida</strong>, adaptadas a tus gustos y necesidades: terrazas exclusivas, salones singulares, arquitectura vanguardista, edificios históricos y villas con encanto que convierten cada visita en algo irrepetible.</p> <h3>Traslados</h3> <p>Te ayudamos a gestionar tus traslados</p><p>Si tu experiencia requiere <strong>transporte privado</strong>, ponemos a tu disposición una <strong>selección de vehículos</strong> adaptados a cada tipo de grupo.<br/>Cuéntanos el <strong>número de personas</strong> y tus <strong>necesidades específicas</strong>, y te propondremos la opción que mejor encaje contigo para que no tengas que preocuparte por nada.</p> <p><a href=\"/nuestros-vehiculos/\">\nVer vehículos\n</a></p>\n<h2>Cuéntanos tu propuesta</h2> <h2>Empresas que han confiado en\nnosotras</h2>\n<figure class=\"gallery-item\">\n<img alt=\"\" decoding=\"async\" height=\"96\" loading=\"lazy\" sizes=\"(max-width: 96px) 100vw, 96px\" src=\"/wp-content/uploads/2025/10/img-empresas-lekkerland.webp\" srcset=\"/wp-content/uploads/2025/10/img-empresas-lekkerland.webp 446w, /wp-content/uploads/2025/10/img-empresas-lekkerland-180x180.webp 180w\" width=\"96\"/>\n</figure><figure class=\"gallery-item\">\n<img alt=\"\" decoding=\"async\" height=\"96\" loading=\"lazy\" sizes=\"(max-width: 96px) 100vw, 96px\" src=\"/wp-content/uploads/2025/10/img-empresas-caritas.webp\" srcset=\"/wp-content/uploads/2025/10/img-empresas-caritas.webp 446w, /wp-content/uploads/2025/10/img-empresas-caritas-180x180.webp 180w\" width=\"96\"/>\n</figure><figure class=\"gallery-item\">\n<img alt=\"\" decoding=\"async\" height=\"96\" loading=\"lazy\" sizes=\"(max-width: 96px) 100vw, 96px\" src=\"/wp-content/uploads/2025/10/img-empresas-jysk.webp\" srcset=\"/wp-content/uploads/2025/10/img-empresas-jysk.webp 446w, /wp-content/uploads/2025/10/img-empresas-jysk-180x180.webp 180w\" width=\"96\"/>\n</figure><figure class=\"gallery-item\">\n<img alt=\"\" decoding=\"async\" height=\"96\" loading=\"lazy\" sizes=\"(max-width: 96px) 100vw, 96px\" src=\"/wp-content/uploads/2025/10/img-empresas-cruzrojaespanola.webp\" srcset=\"/wp-content/uploads/2025/10/img-empresas-cruzrojaespanola.webp 446w, /wp-content/uploads/2025/10/img-empresas-cruzrojaespanola-180x180.webp 180w\" width=\"96\"/>\n</figure><figure class=\"gallery-item\">\n<img alt=\"\" decoding=\"async\" height=\"96\" loading=\"lazy\" sizes=\"(max-width: 96px) 100vw, 96px\" src=\"/wp-content/uploads/2025/10/img-empresas-mediamarkt.webp\" srcset=\"/wp-content/uploads/2025/10/img-empresas-mediamarkt.webp 446w, /wp-content/uploads/2025/10/img-empresas-mediamarkt-180x180.webp 180w\" width=\"96\"/>\n</figure><figure class=\"gallery-item\">\n<img alt=\"\" decoding=\"async\" height=\"96\" loading=\"lazy\" sizes=\"(max-width: 96px) 100vw, 96px\" src=\"/wp-content/uploads/2025/10/img-empresas-maersk.webp\" srcset=\"/wp-content/uploads/2025/10/img-empresas-maersk.webp 446w, /wp-content/uploads/2025/10/img-empresas-maersk-180x180.webp 180w\" width=\"96\"/>\n</figure>",
+ "palabras": 249,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "5e7cab5",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "4133061",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "encabezado",
+           "id": "bd1800f",
+           "alinearTablet": "center",
+           "alinearMovil": "center",
+           "texto": "Experiencias a medida",
+           "etiqueta": "h1",
+           "color": "#FFFFFF",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 68.0,
+            "tamanoMovil": 52.0,
+            "peso": "500"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "329fcf6",
+           "alinear": "center",
+           "relleno": "0px 0px 0px 0px",
+           "html": "<p>Nos ocupamos de todos los aspectos de tu evento, incluidos los lugares de celebración, las actividades, el transporte, el catering, el alojamiento, los guías oficiales, las recogidas en el aeropuerto, los traslados y los itinerarios diarios. Nuestra amplia red local nos permite adaptarnos perfectamente a tus necesidades y preferencias.</p>",
+           "color": "#FFFFFF",
+           "tipo": {
+            "tamano": 16.0
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "e913d46",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "6e3d8f9",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "encabezado",
+           "id": "97765a2",
+           "alinear": "center",
+           "texto": "100% personalizado",
+           "etiqueta": "h2",
+           "color": "#101011",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 45.0,
+            "tamanoMovil": 25.0,
+            "peso": "600"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "23ad020",
+           "html": "<p style=\"text-align: center;\">Nuestro servicio es totalmente creado  y adaptado a tus necesidades; comparte con nosotros tu idea y nos encargaremos de hacerla realidad.</p>",
+           "tipo": {
+            "tamano": 16.0
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "fdde010",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "2b54a3a",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "0135ae6",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "3ddde3b",
+               "alinear": "center",
+               "texto": "Itinerarios <br>a medida",
+               "etiqueta": "h3",
+               "color": "#FFFFFF",
+               "tipo": {
+                "familia": "Baloo Bhaijaan 2",
+                "tamano": 20.0,
+                "peso": "700"
+               }
+              },
+              {
+               "t": "seccion",
+               "id": "6a778f6",
+               "columnas": [
+                {
+                 "ancho": 100,
+                 "elementos": [
+                  {
+                   "t": "texto",
+                   "id": "95113f8",
+                   "html": "<p>Ideal para grupos y familias</p><p>Nuestro servicio está planteado para <strong>disfrutar sin preocupaciones</strong>, con un ritmo cómodo, <strong>atención personalizada</strong> y todos los detalles cuidados para que grandes y pequeños vivan una experiencia memorable.</p>",
+                   "color": "#FFFFFF"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "4396498",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "46e956e",
+               "alinear": "center",
+               "texto": "Eventos corporativos <br>y celebraciones",
+               "etiqueta": "h3",
+               "color": "#FFFFFF",
+               "tipo": {
+                "familia": "Baloo Bhaijaan 2",
+                "tamano": 20.0,
+                "peso": "700"
+               }
+              },
+              {
+               "t": "seccion",
+               "id": "76c61f8",
+               "columnas": [
+                {
+                 "ancho": 100,
+                 "elementos": [
+                  {
+                   "t": "texto",
+                   "id": "b0a457e",
+                   "html": "<p>Especialistas en eventos corporativos</p><p>Ofrecemos un <strong>servicio integral a medida</strong> que incluye <strong>transporte, alojamiento, restaurantes seleccionados y actividades de team building,</strong> adaptando cada propuesta a las necesidades de tu grupo.</p>",
+                   "color": "#FFFFFF"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "f433de4",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "f415928",
+               "alinear": "center",
+               "texto": "Espacios",
+               "etiqueta": "h3",
+               "color": "#FFFFFF",
+               "tipo": {
+                "familia": "Baloo Bhaijaan 2",
+                "tamano": 20.0,
+                "peso": "700"
+               }
+              },
+              {
+               "t": "seccion",
+               "id": "598bc5c",
+               "columnas": [
+                {
+                 "ancho": 100,
+                 "elementos": [
+                  {
+                   "t": "texto",
+                   "id": "254bf8e",
+                   "html": "<p>Ideas adaptadas a tus preferencias</p><p>Diseñamos <strong>experiencias privadas a medida</strong>, adaptadas a tus gustos y necesidades: terrazas exclusivas, salones singulares, arquitectura vanguardista, edificios históricos y villas con encanto que convierten cada visita en algo irrepetible.</p>",
+                   "color": "#FFFFFF"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "a4dc02d",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "74409d0",
+               "alinear": "center",
+               "texto": "Traslados",
+               "etiqueta": "h3",
+               "color": "#FFFFFF",
+               "tipo": {
+                "familia": "Baloo Bhaijaan 2",
+                "tamano": 20.0,
+                "peso": "700"
+               }
+              },
+              {
+               "t": "seccion",
+               "id": "7b66053",
+               "columnas": [
+                {
+                 "ancho": 100,
+                 "elementos": [
+                  {
+                   "t": "texto",
+                   "id": "dd18aac",
+                   "html": "<p>Te ayudamos a gestionar tus traslados</p><p>Si tu experiencia requiere <strong>transporte privado</strong>, ponemos a tu disposición una <strong>selección de vehículos</strong> adaptados a cada tipo de grupo.<br />Cuéntanos el <strong>número de personas</strong> y tus <strong>necesidades específicas</strong>, y te propondremos la opción que mejor encaje contigo para que no tengas que preocuparte por nada.</p>",
+                   "color": "#FFFFFF"
+                  },
+                  {
+                   "t": "boton",
+                   "id": "cfaa941",
+                   "alinear": "justify",
+                   "relleno": "0px 0px 0px 0px",
+                   "texto": "Ver vehículos",
+                   "url": "/nuestros-vehiculos/",
+                   "fondo": "#EF8031",
+                   "radio": "30px 30px 30px 30px",
+                   "tipo": {
+                    "familia": "Baloo Bhaijaan 2",
+                    "tamano": 20.0,
+                    "tamanoMovil": 14.0,
+                    "peso": "500",
+                    "transformar": "uppercase"
+                   },
+                   "rellenoBoton": "10px 30px 10px 30px"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "c8cbb1d",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "e0e940e",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "encabezado",
+           "id": "c617ba6",
+           "alinear": "center",
+           "texto": "Cuéntanos tu propuesta",
+           "etiqueta": "h2",
+           "color": "#101011",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 40.0,
+            "tamanoMovil": 25.0,
+            "peso": "600"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "883fdac",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "encabezado",
+       "id": "272ce0a",
+       "alinear": "center",
+       "texto": "Empresas que han confiado en\nnosotras",
+       "etiqueta": "h2",
+       "tipo": {
+        "tamano": 45.0,
+        "tamanoMovil": 25.0,
+        "peso": "600",
+        "interlineado": 1.3,
+        "interlineadoUnidad": "em"
+       }
+      },
+      {
+       "t": "galeria",
+       "id": "b400873",
+       "imagenes": [
+        "/wp-content/uploads/2025/10/img-empresas-lekkerland.webp",
+        "/wp-content/uploads/2025/10/img-empresas-caritas.webp",
+        "/wp-content/uploads/2025/10/img-empresas-jysk.webp",
+        "/wp-content/uploads/2025/10/img-empresas-cruzrojaespanola.webp",
+        "/wp-content/uploads/2025/10/img-empresas-mediamarkt.webp",
+        "/wp-content/uploads/2025/10/img-empresas-maersk.webp"
+       ],
+       "columnas": 6
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": false
 }

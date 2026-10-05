@@ -25,7 +25,7 @@ from collections import Counter
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGINAS = os.path.join(RAIZ, "src", "content", "pages")
-BASE = "https://casascontenedores.es"
+BASE = "https://www.valenciaandgo.com"
 
 # Ids de termino de los menus de navegacion del WordPress -> nombre del menu.
 # Salen de los <wp:term> del export; OceanWP guarda el id en el meta
@@ -109,7 +109,7 @@ def caja(valor):
 def relativo(url):
     if not url:
         return url
-    return re.sub(r"^https?://(?:www\.)?casascontenedores\.es", "", url)
+    return re.sub(r"^https?://(?:www\.)?valenciaandgo\.com", "", url)
 
 
 def limpiar_html(h):
@@ -123,7 +123,7 @@ def limpiar_html(h):
     h = re.sub(r"<script\b[\s\S]*?</script>", "", h, flags=re.I)
     h = re.sub(r"<!--[\s\S]*?-->", "", h)
     h = h.replace(BASE + "/", "/").replace(BASE, "/")
-    h = re.sub(r"(https?:)?//(?:www\.)?casascontenedores\.es/", "/", h)
+    h = re.sub(r"(https?:)?//(?:www\.)?valenciaandgo\.com/", "/", h)
     # enlaces sin destino: se desenvuelven conservando el texto
     h = re.sub(r'<a(?=[\s>])(?![^>]*\shref="[^"]+")[^>]*>([\s\S]*?)</a\s*>', r"\1", h)
     # pegotes del traductor de Google
@@ -637,7 +637,8 @@ def main():
 
     resumen = Counter()
     for it in re.findall(r"<item>(.*?)</item>", xml, re.S):
-        if cdata(it, "post_type") != "page" or cdata(it, "status") != "publish":
+        # paginas, entradas, productos y atracciones (antes solo "page")
+        if cdata(it, "post_type") not in ("page", "post", "product", "atraccion") or cdata(it, "status") != "publish":
             continue
         enlace = (re.search(r"<link>(.*?)</link>", it, re.S) or [None, ""])[1].strip() \
             if re.search(r"<link>(.*?)</link>", it, re.S) else ""

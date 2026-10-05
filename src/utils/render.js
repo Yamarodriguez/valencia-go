@@ -73,7 +73,7 @@ const PINTORES = {
   },
 
   boton(b) {
-    const externo = /^https?:\/\//.test(b.url) && !b.url.includes('casascontenedores.es');
+    const externo = /^https?:\/\//.test(b.url) && !b.url.includes('valenciaandgo.com');
     const extra = externo ? ' rel="noopener" target="_blank"' : '';
     return {
       clases: b.alinear ? [`elementor-align-${b.alinear}`] : [],

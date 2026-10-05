@@ -1,0 +1,5 @@
+{
+ "_nota": "Dominios y rutas que el barrido de 404 (scripts/barrido-404.mjs) acepta sin contarlos: servicios externos que la web vieja carga de fuera (reservas, cookies, iconos del cdn, analitica).",
+ "dominios": ["app.turitop.com", "tour-widget-f5d2e.web.app", "cdnjs.cloudflare.com", "challenges.cloudflare.com", "www.clarity.ms", "cookiedatabase.org", "www.instagram.com", "unpkg.com", "fonts.googleapis.com", "fonts.gstatic.com"],
+ "rutas": ["/wp-admin/admin-ajax.php", "/wp-json/", "/?wc-ajax="]
+}

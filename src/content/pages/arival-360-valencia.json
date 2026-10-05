@@ -1,0 +1,266 @@
+{
+ "slug": "arival-360-valencia",
+ "tipo": "post",
+ "postId": 559,
+ "ruta": "/arival-360-valencia/",
+ "titulo": "Explora Valencia durante Arival 360",
+ "h1": "Explora Valencia durante Arival 360",
+ "tituloSeo": "Explora Valencia durante Arival 360",
+ "descripcion": "Si vienes a Valencia por la feria de turismo Arival 360, estos son los lugares emblemáticos que puedes ver entre sesión y sesión.",
+ "palabraClave": "Arival 360 Valencia",
+ "noindex": false,
+ "hero": {},
+ "faq": [],
+ "cuerpo": "<h2>Valencia con experiencias locales exclusivas</h2> <p>Del 28 al 30 de abril de 2025, Valencia será la sede de <strong>Arival 360 | Valencia</strong>, el evento europeo imprescindible para creadores y vendedores de tours, actividades, experiencias y atracciones. En <strong>Valencia &amp; Go</strong>, hemos diseñado una serie de experiencias únicas para que los asistentes descubran la ciudad como verdaderos locales.</p>\n<p>Estas <strong>cuatro experiencias exclusivas</strong> están disponibles en la plataforma de Arival y han sido diseñadas especialmente para los asistentes de esta edición:</p> <h2>Valencia Bike Tour</h2> <p><img alt=\"\" decoding=\"async\" height=\"1200\" loading=\"lazy\" src=\"/wp-content/uploads/2025/12/img-paseo-bici.webp\" width=\"1600\"/> </p>\n<p>Recorre los jardines del Turia, monumentos emblemáticos y barrios con encanto en una ruta en bicicleta guiada.</p> <h2>Albufera Gastronomic</h2> <p><img alt=\"\" decoding=\"async\" height=\"1080\" loading=\"lazy\" src=\"/wp-content/uploads/2025/12/img-barca-albufera.webp\" width=\"1920\"/></p>\n<p>Disfruta de un paseo en barca por la Albufera al atardecer, seguido de una comida tradicional valenciana. Naturaleza, cultura y gastronomía en una sola experiencia.</p> <h2>Caves of San José &amp; Lunch</h2> <p><img alt=\"\" decoding=\"async\" height=\"1080\" loading=\"lazy\" src=\"/wp-content/uploads/2025/12/img-cuevas-san-jose.webp\" width=\"1920\"/></p>\n<p>Explora el río subterráneo navegable más largo de Europa con aguas cristalinas y un guía oficial acreditado, culminando con un almuerzo típico.</p> <h2>Art &amp; Architecture Walking Tour</h2> <p><img alt=\"\" decoding=\"async\" height=\"1080\" loading=\"lazy\" src=\"/wp-content/uploads/2025/12/img-arte-arquitectura-valencia-.webp\" width=\"1920\"/></p>\n<p>Una ruta a pie para conocer la Valencia más artística y monumental: del gótico al modernismo en pocas calles.</p>\n<ul>\n<li>Estas experiencias están disponibles <strong>solo para los asistentes registrados a Arival 2025</strong>.</li>\n<li>Para más información o reservas, escríbenos a: <strong>info@valenciaandgo.com</strong></li>\n</ul>",
+ "palabras": 201,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "30dc91a9",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "7973bb03",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "50cb9cbd",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "6cb32553",
+               "margen": "0px 0px 0px 0px",
+               "margenMovil": "101px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Valencia con experiencias locales exclusivas",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "a91bb13",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "36e19bdf",
+               "html": "<p>Del 28 al 30 de abril de 2025, Valencia será la sede de <strong>Arival 360 | Valencia</strong>, el evento europeo imprescindible para creadores y vendedores de tours, actividades, experiencias y atracciones. En <strong>Valencia & Go</strong>, hemos diseñado una serie de experiencias únicas para que los asistentes descubran la ciudad como verdaderos locales.</p>\n\n<p>Estas <strong>cuatro experiencias exclusivas</strong> están disponibles en la plataforma de Arival y han sido diseñadas especialmente para los asistentes de esta edición:</p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "e0acca4",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "3a52903",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "2ac463e",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Valencia Bike Tour",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "39dac65",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "86f0512",
+               "html": "<p><img class=\"alignnone size-full wp-image-3434\" src=\"/wp-content/uploads/2025/12/img-paseo-bici.webp\" alt=\"\" width=\"1600\" height=\"1200\" /> </p>\n<p>Recorre los jardines del Turia, monumentos emblemáticos y barrios con encanto en una ruta en bicicleta guiada.</p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "42a114a",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "6ef34de",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "e142259",
+               "margen": "0px 0px 0px 0px",
+               "margenMovil": "58px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Albufera Gastronomic",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "2e361f4",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "87e15e9",
+               "html": "<p><img class=\"alignnone size-full wp-image-3432\" src=\"/wp-content/uploads/2025/12/img-barca-albufera.webp\" alt=\"\" width=\"1920\" height=\"1080\" /></p>\n<p>Disfruta de un paseo en barca por la Albufera al atardecer, seguido de una comida tradicional valenciana. Naturaleza, cultura y gastronomía en una sola experiencia.</p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "03b285a",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "243984e",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "6c18589",
+               "margen": "0px 0px 0px 0px",
+               "margenMovil": "50px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Caves of San José & Lunch",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "3931c6e",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "ff96835",
+               "html": "<p><img class=\"alignnone size-full wp-image-3422\" src=\"/wp-content/uploads/2025/12/img-cuevas-san-jose.webp\" alt=\"\" width=\"1920\" height=\"1080\" /></p>\n<p>Explora el río subterráneo navegable más largo de Europa con aguas cristalinas y un guía oficial acreditado, culminando con un almuerzo típico.</p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "5db11f9",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "7b42769",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "ca92cbd",
+               "margen": "0px 0px 0px 0px",
+               "margenMovil": "61px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Art & Architecture Walking Tour",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "ab5d103",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "e297c50",
+               "html": "<p><img class=\"alignnone size-full wp-image-3433\" src=\"/wp-content/uploads/2025/12/img-arte-arquitectura-valencia-.webp\" alt=\"\" width=\"1920\" height=\"1080\" /></p>\n<p>Una ruta a pie para conocer la Valencia más artística y monumental: del gótico al modernismo en pocas calles.</p>\n\n<ul>\n<li>Estas experiencias están disponibles <strong>solo para los asistentes registrados a Arival 2025</strong>.</li>\n<li>Para más información o reservas, escríbenos a: <strong>info@valenciaandgo.com</strong></li>\n</ul>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": true
+}

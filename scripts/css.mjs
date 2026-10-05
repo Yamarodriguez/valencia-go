@@ -25,7 +25,7 @@
  * Si se juntara todo antes de la pagina, reglas como las de 18-widgets.css
  * dejarian de ganar donde deben y el resultado no seria identico al original.
  *
- * Tambien se corrigen las direcciones absolutas (https://casascontenedores.es/…)
+ * Tambien se corrigen las direcciones absolutas (https://www.valenciaandgo.com/…)
  * que llevan dentro las hojas de fuentes, para que apunten a los ficheros
  * que estan en public/ y no al sitio antiguo.
  */
@@ -47,7 +47,7 @@ if (!fs.existsSync(ORIGEN)) {
 
 /**
  * Las hojas de fuentes traen la direccion completa del sitio antiguo. Si se
- * dejan, el navegador pide las letras a casascontenedores.es (que el dia de
+ * dejan, el navegador pide las letras a valenciaandgo.com (que el dia de
  * la mudanza ya sera esta misma web, pero mientras tanto no carga y ademas
  * delata que la web no es autonoma). Se pasan a rutas de este sitio.
  *
@@ -56,7 +56,7 @@ if (!fs.existsSync(ORIGEN)) {
  * se guardan los ficheros.
  */
 function rutasPropias(css) {
-  return css.replace(/https?:\/\/(?:www\.)?casascontenedores\.es\//g, '/');
+  return css.replace(/https?:\/\/(?:www\.)?valenciaandgo\.com\//g, '/');
 }
 
 /* ------------------------------------------------- 1. recoger lo que se usa */
@@ -180,8 +180,13 @@ if (voc) {
 
 let antes = 0, despues = 0;
 
-/** El corte: hasta el 17 van antes de la hoja de la pagina; del 18 en adelante, despues. */
-const CORTE = 17;
+/** El corte: hasta CORTE van antes de la hoja de la pagina; de ahi en adelante, despues.
+ *  Sale del orden real del <head> de la web vieja (css-original/orden.json,
+ *  lo escribe scripts/css-original.mjs); antes iba fijo a 17. */
+const ORDEN = path.join(ORIGEN, 'orden.json');
+if (!fs.existsSync(ORDEN)) { console.error('falta css-original/orden.json — ejecuta antes scripts/css-original.mjs'); process.exit(1); }
+const CORTE = JSON.parse(fs.readFileSync(ORDEN, 'utf8')).corte;
+if (!CORTE) { console.error('css-original/orden.json no trae el corte'); process.exit(1); }
 
 const dirComunes = path.join(ORIGEN, 'comunes');
 const comunes = fs.existsSync(dirComunes) ? fs.readdirSync(dirComunes).filter((f) => f.endsWith('.css')).sort() : [];

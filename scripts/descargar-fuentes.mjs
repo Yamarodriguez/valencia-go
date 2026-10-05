@@ -4,7 +4,7 @@
  * Abel, Satisfy, Ubuntu), los iconos de Font Awesome, los de Elementor y los
  * Simple Line Icons.
  *
- * Se ejecuta en TU PC, que si tiene salida a casascontenedores.es:
+ * Se ejecuta en TU PC, que si tiene salida a valenciaandgo.com:
  *
  *     node scripts/descargar-fuentes.mjs            (descarga)
  *     node scripts/descargar-fuentes.mjs --ensayo   (solo cuenta, no baja nada)
@@ -27,7 +27,7 @@ import { fileURLToPath } from 'node:url';
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLICO = path.join(RAIZ, 'public');
 const CSS = path.join(PUBLICO, 'css');
-const BASE = 'https://casascontenedores.es';
+const BASE = 'https://www.valenciaandgo.com';
 
 const ensayo = process.argv.includes('--ensayo');
 const HILOS = Number(process.argv[process.argv.indexOf('--hilos') + 1]) || 8;

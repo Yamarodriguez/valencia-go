@@ -32,7 +32,7 @@ function limpiar(html) {
   c = c.replace(/\sclass="[^"]*"/gi, '');
   c = c.replace(/<div\b[^>]*>/gi, '').replace(/<\/div\s*>/gi, '');
   // enlaces absolutos del propio dominio -> relativos
-  c = c.replace(/https?:\/\/(?:www\.)?casascontenedores\.es\/?/gi, '/');
+  c = c.replace(/https?:\/\/(?:www\.)?valenciaandgo\.com\/?/gi, '/');
   // enlaces sin destino que deja el plugin: se desenvuelven conservando el texto
   // (ojo con \b tras la "a": </aside> tambien empieza por </a)
   c = c.replace(/<a(?=[\s>])(?![^>]*\shref="[^"]+")[^>]*>([\s\S]*?)<\/a\s*>/gi, '$1');
@@ -76,7 +76,7 @@ for (const [ruta, html] of Object.entries(vivos)) {
   pagina.noindex = true;          // las legales no van al indice ni al sitemap
   if (!pagina.h1) pagina.h1 = pagina.titulo;
   if (!pagina.descripcion) {
-    pagina.descripcion = `${pagina.titulo} de casascontenedores.es. Información legal del titular del sitio web.`;
+    pagina.descripcion = `${pagina.titulo} de valenciaandgo.com. Información legal del titular del sitio web.`;
   }
 
   fs.writeFileSync(destino, JSON.stringify(pagina, null, 1), 'utf8');

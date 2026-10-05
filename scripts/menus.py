@@ -14,7 +14,7 @@ import re, os, sys, json, html
 from xml.etree import ElementTree as ET
 
 NS = {'wp': 'http://wordpress.org/export/1.2/'}
-BASE = "https://casascontenedores.es"
+BASE = "https://www.valenciaandgo.com"
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 

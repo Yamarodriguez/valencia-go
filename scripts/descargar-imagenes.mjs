@@ -17,7 +17,7 @@ import { fileURLToPath } from 'node:url';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLICO = path.join(RAIZ, 'public');
-const BASE = 'https://casascontenedores.es';
+const BASE = 'https://www.valenciaandgo.com';
 
 const ensayo = process.argv.includes('--ensayo');
 const HILOS = Number(process.argv[process.argv.indexOf('--hilos') + 1]) || 12;
@@ -82,7 +82,7 @@ async function descargar(ruta) {
   for (let intento = 0; intento < 3; intento++) {
     try {
       const r = await fetch(url, {
-        headers: { 'User-Agent': 'Mozilla/5.0 (migracion casascontenedores.es a Astro)' },
+        headers: { 'User-Agent': 'Mozilla/5.0 (migracion valenciaandgo.com a Astro)' },
         signal: AbortSignal.timeout(30000),
       });
       if (r.status === 404) return '404';

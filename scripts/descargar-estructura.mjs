@@ -15,7 +15,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const BASE = 'https://casascontenedores.es';
+const BASE = 'https://www.valenciaandgo.com';
 const DESTINO = path.join(RAIZ, 'estructura-viva.json');
 // El servidor de WordPress devuelve HTTP 500 cuando se le piden varias paginas
 // a la vez: se va despacio y con esperas crecientes.
@@ -82,7 +82,7 @@ async function pedir(ruta) {
   for (let intento = 0; intento < 5; intento++) {
     try {
       const r = await fetch(BASE + ruta, {
-        headers: { 'User-Agent': 'Mozilla/5.0 (migracion casascontenedores.es a Astro)' },
+        headers: { 'User-Agent': 'Mozilla/5.0 (migracion valenciaandgo.com a Astro)' },
         signal: AbortSignal.timeout(45000),
       });
       if (!r.ok) throw new Error('HTTP ' + r.status);

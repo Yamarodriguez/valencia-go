@@ -21,6 +21,14 @@ const RAIZ = path.resolve('.');
 const DIST = path.join(RAIZ, 'dist');
 const PAGINAS = path.join(RAIZ, 'src', 'content', 'pages');
 
+// fallos de la web vieja aprobados por el propietario: salen como aviso
+const fallosOriginal = (() => {
+  const f = path.join(RAIZ, 'src', 'data', 'fallos-original.json');
+  const d = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {};
+  const rutas = (lista) => new Set((lista || []).map((x) => (typeof x === 'string' ? x : x.ruta)));
+  return { h1: rutas(d.h1), '404': rutas(d['404']) };
+})();
+
 const ETIQUETAS = ['p', 'a', 'div', 'section', 'h2', 'h3', 'ul', 'li', 'figure'];
 const GENERADOS = ['rejilla', 'tarjeta', 'fila-titulos', 'figura', 'mapa', 'formulario'];
 
@@ -128,7 +136,12 @@ for (const f of fs.readdirSync(PAGINAS).filter((x) => x.endsWith('.json'))) {
   }
 
   const h1 = (html.match(/<h1(?=[\s>])/gi) || []).length;
-  if (h1 !== 1) fallos.push(`${origen.ruta} — ${h1} <h1> (debe haber exactamente 1)`);
+  // las paginas que en la web viva ya no tenian H1 y el propietario aprobo
+  // (src/data/fallos-original.json, lista "h1") salen como aviso, no como fallo
+  if (h1 !== 1) {
+    if (h1 === 0 && fallosOriginal.h1.has(origen.ruta)) avisos.push(`${origen.ruta} — 0 <h1>, como en la web vieja (fallo del original aprobado)`);
+    else fallos.push(`${origen.ruta} — ${h1} <h1> (debe haber exactamente 1)`);
+  }
 
   // 3. anidamiento: se recorre el arbol con una pila y se comprueba que
   //    ningun bloque generado contiene otro del mismo tipo. Comparar clases
@@ -201,7 +214,7 @@ for (const f of fs.readdirSync(PAGINAS).filter((x) => x.endsWith('.json'))) {
  * Por eso se comprueba aqui, contra las hojas, y cuenta como FALLO. */
 {
   const raizPublica = path.join(RAIZ, 'public');
-  const re = /url\(\s*["']?(?:https?:\/\/(?:www\.)?casascontenedores\.es)?(\/wp-content\/uploads\/[^"')?#]+\.(?:jpg|jpeg|png|gif|webp|svg))/gi;
+  const re = /url\(\s*["']?(?:https?:\/\/(?:www\.)?valenciaandgo\.com)?(\/wp-content\/uploads\/[^"')?#]+\.(?:jpg|jpeg|png|gif|webp|svg))/gi;
   const faltan = new Map();
   for (const sub of ['paginas', 'comunes']) {
     const d = path.join(RAIZ, 'css-original', sub);

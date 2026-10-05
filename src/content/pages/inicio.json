@@ -1,5 +1,7 @@
 {
  "slug": "inicio",
+ "tipo": "page",
+ "postId": 70,
  "ruta": "/",
  "titulo": "Inicio",
  "h1": "Tours y excursiones por Valencia",
@@ -7,13 +9,1044 @@
  "descripcion": "Tours y excursiones en Valencia con guías oficiales locales: Albufera, Lonja de la Seda y Cuevas de San José. Reserva directa, sin intermediarios.",
  "palabraClave": "Tours y Excursiones en Valencia con Guías Oficiales Locales",
  "noindex": false,
- "hero": {
-  "src": "https://www.valenciaandgo.com/wp-content/uploads/2025/10/icono-tours-a-pie.svg",
-  "alt": "",
-  "ancho": 508,
-  "alto": 449
- },
+ "hero": {},
  "faq": [],
- "cuerpo": "<p>Se convertirá en tu recuerdo favorito.</p>  <p data-pm-slice=\"1 1 []\" data-prosemirror-content-type=\"node\" data-prosemirror-node-block=\"true\" data-prosemirror-node-name=\"paragraph\"><strong>Déjate llevar por quienes mejor conocen Valencia:</strong> tours y excursiones con transporte, entradas y guías oficiales locales</p> <p><a href=\"#ver-tours\">\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1861_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_1924_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1863_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1862_\" style=\"fill:#FFFFFF;\"></path></g></svg>\nRESERVA TU PLAZA AHORA\n</a></p>\n<h2>Nuestros tours más queridos</h2> <p>Los <strong>favoritos</strong> de quienes ya han vivido la experiencia <strong>Valencia&amp;Go</strong>.<br/>¿No sabes qué ver en Valencia? <strong>Empieza por aquí.</strong></p><p>[widget_review_iframe]</p> <h3>TOURS A PIE</h3> <p>Cultura local</p> <img alt=\"\" decoding=\"async\" height=\"449\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/icono-excursiones.svg\" width=\"508\"/> <h3>EXCURSIONES</h3> <p>Transporte, entradas y guía incluidos</p> <img alt=\"\" decoding=\"async\" height=\"449\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/icono-tours-privados.svg\" width=\"508\"/> <h3>TOURS PRIVADOS</h3> <p>Hechos para ti</p> <img alt=\"\" decoding=\"async\" height=\"449\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/icono-soporte.svg\" width=\"508\"/> <h3>SOPORTE</h3> <p>Todos los días de 8hrs a 20hrs</p> <img alt=\"\" decoding=\"async\" height=\"449\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/icono-sin-intermediarios.svg\" width=\"508\"/> <h3>DIRECTO</h3> <p>Y sin intermediarios</p> <img alt=\"\" decoding=\"async\" height=\"449\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/icono-idiomas.svg\" width=\"508\"/> <h3>IDIOMAS</h3> <p>Guías que te entienden</p> <img alt=\"Equipo de guías oficiales de Valencia&amp;Go\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2026/03/equipo-valencia-and-go.webp\" width=\"800\"/> <h2>Explora lo mejor de Valencia con quienes la viven cada día</h2> <p>¡Vivimos <strong>Valencia</strong> con pasión y queremos contagiarte esa energía!</p><p>Somos <strong>guías oficiales locales</strong> y diseñamos experiencias pensadas para ti, con mimo, cercanía y <strong>sin intermediarios</strong>.</p><p>Queremos que descubras qué ver en <strong>Valencia</strong>… y que te sientas parte de ella.</p> <p><a href=\"/quienes-somos/\">\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1861_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_1924_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1863_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1862_\" style=\"fill:#FFFFFF;\"></path></g></svg>\nCONOCE AL EQUIPO\n</a></p>\n<h2>¿Por qué Valencia&amp;Go?</h2> <ul>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<strong>Excursiones todo el año</strong> por la Comunidad Valenciana: descubre monumentos, pueblos con encanto como Peñíscola, la Albufera o rutas del vino en Requena.\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<strong>Asesoramiento personalizado:</strong> te ayudamos a elegir lo que mejor se adapta a tu viaje.\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<strong>​Itinerarios a medida:</strong> organizamos tu experiencia completa con transporte, entradas, guías, comidas y más. ¡Tú lo sueñas, nosotros lo hacemos!\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<strong>​Tours y Excursiones en Valencia con Guías Oficiales Locales</strong>\n</li>\n</ul>\n<p>CONTACTA</p><p>BUSCA INSPIRACIÓN</p><img alt=\"Atardecer sobre el lago de la Albufera de Valencia\" decoding=\"async\" height=\"561\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2026/03/atardecer-albufera.webp\" width=\"800\"/>\n<figure><img alt=\"Actividad de team building para empresas en Valencia\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2026/03/teambuildings-valencia-and-go-02.webp\"/></figure><figure><img alt=\"Grupo de empresa en una experiencia organizada en Valencia\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2026/03/teambuildings-valencia-and-go.webp\"/></figure>\n<h2>Teambuildings en Valencia para\nempresas</h2> <p>¿Sois una empresa y buscáis una experiencia única en Valencia?</p><p>Organizamos eventos corporativos a medida: desde el alquiler de espacios exclusivos y traslados, hasta actividades dinámicas en equipo, gincanas urbanas, cenas de gala y viajes de incentivo.</p><p>Cuéntanos vuestra idea y la convertiremos en una experiencia inolvidable.</p> <p><a href=\"/experiencias-a-medida/\">\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1861_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_1924_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1863_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1862_\" style=\"fill:#FFFFFF;\"></path></g></svg>\nSOLICITA INFORMACIÓN\n</a></p>\n<h2>Diseña tu experiencia en Valencia</h2> <p>Porque no todos los viajes son iguales.<br/>Te ayudamos a combinar actividades para crear el plan perfecto según tus días en la ciudad.</p> <ul>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\nRecomendaciones personalizadas\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\nCombinaciones inteligentes de actividades\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\nAsesoramiento por expertos locales\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\nSin intermediarios\n</li>\n</ul>\n<p>No pierdas tiempo organizando y deja que te asesoremos.</p>\n<p>CONTACTA CON NOSOTRAS</p><img alt=\"Grupo haciéndose un selfie en el centro de Valencia\" decoding=\"async\" height=\"533\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2026/03/grupo-selfie-centro-valencia.webp\" width=\"800\"/> <h2>¿Buscas inspiración para tu viaje a Valencia?</h2> <p>Aquí te dejamos artículos útiles, recomendaciones de <i>Tours y Excursiones en Valencia con Guías Oficiales Locales</i> y todo lo que necesitas saber para disfrutar Valencia al máximo desde el primer día.</p> <p><a href=\"https://valenciaandgo.com/blog/\">\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1861_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_1924_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1863_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1862_\" style=\"fill:#FFFFFF;\"></path></g></svg>\nVER TODAS LAS ENTRADAS\n</a></p>\n<h2>Síguenos Instagram</h2> <p><b>Aquí compartimos planes reales, rincones especiales y experiencias que pasan en Valencia, para que no te pierdas nada de lo que merece la pena vivir en la ciudad.</b></p>\n<p><a aria-label=\"valenciaandgo on Instagram\" href=\"https://www.instagram.com/valenciaandgo/\" rel=\"nofollow noopener\" target=\"_blank\" title=\"@valenciaandgo\">\n<svg aria-hidden=\"true\" aria-label=\"Instagram\" data-fa-processed=\"\" data-icon=\"instagram\" data-prefix=\"fab\" viewbox=\"0 0 448 512\">\n<path d=\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\" fill=\"currentColor\"></path>\n</svg>\n<img alt=\"\" decoding=\"async\" height=\"50\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/sb-instagram-feed-images/valenciaandgo.webp\" width=\"50\"/>\n<h3>valenciaandgo</h3>\n<p>Unlock the hidden gems of Valencia with us🧡<br/>\n🙋‍♀️Official local guides<br/>\n🚙Daily excursions,tours and customized experiences<br/>\nOFFERS &amp; TOURS👇</p>\n</a><a data-full-res=\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730313437_18417882379198112_1747933366654451428_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=Q6Mly_YcNSwQ7kNvwG7G19s&amp;_nc_oc=AdrWiYh23OMt6SFN93brj2ARea9QppAHT8_nRX7kmavMrBVRi6MMQhbppWaRWViyU7s&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQEZd60a0tKNhoTLVBBfj3gPQBWnyTPpl5CYfT9oE07GxpCaRb7SU5wtl1VChj7QIqEvUea3gdyreA&amp;oh=00_Af8cNpsV1sCjVevuAc84jn-ugE7aSbaktuIy4y9431QdGA&amp;oe=6A4707EB\" data-img-src-set='{\"d\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730313437_18417882379198112_1747933366654451428_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=Q6Mly_YcNSwQ7kNvwG7G19s&amp;_nc_oc=AdrWiYh23OMt6SFN93brj2ARea9QppAHT8_nRX7kmavMrBVRi6MMQhbppWaRWViyU7s&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQEZd60a0tKNhoTLVBBfj3gPQBWnyTPpl5CYfT9oE07GxpCaRb7SU5wtl1VChj7QIqEvUea3gdyreA&amp;oh=00_Af8cNpsV1sCjVevuAc84jn-ugE7aSbaktuIy4y9431QdGA&amp;oe=6A4707EB\",\"150\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730313437_18417882379198112_1747933366654451428_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=Q6Mly_YcNSwQ7kNvwG7G19s&amp;_nc_oc=AdrWiYh23OMt6SFN93brj2ARea9QppAHT8_nRX7kmavMrBVRi6MMQhbppWaRWViyU7s&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQEZd60a0tKNhoTLVBBfj3gPQBWnyTPpl5CYfT9oE07GxpCaRb7SU5wtl1VChj7QIqEvUea3gdyreA&amp;oh=00_Af8cNpsV1sCjVevuAc84jn-ugE7aSbaktuIy4y9431QdGA&amp;oe=6A4707EB\",\"320\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730313437_18417882379198112_1747933366654451428_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=Q6Mly_YcNSwQ7kNvwG7G19s&amp;_nc_oc=AdrWiYh23OMt6SFN93brj2ARea9QppAHT8_nRX7kmavMrBVRi6MMQhbppWaRWViyU7s&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQEZd60a0tKNhoTLVBBfj3gPQBWnyTPpl5CYfT9oE07GxpCaRb7SU5wtl1VChj7QIqEvUea3gdyreA&amp;oh=00_Af8cNpsV1sCjVevuAc84jn-ugE7aSbaktuIy4y9431QdGA&amp;oe=6A4707EB\",\"640\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730313437_18417882379198112_1747933366654451428_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=Q6Mly_YcNSwQ7kNvwG7G19s&amp;_nc_oc=AdrWiYh23OMt6SFN93brj2ARea9QppAHT8_nRX7kmavMrBVRi6MMQhbppWaRWViyU7s&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQEZd60a0tKNhoTLVBBfj3gPQBWnyTPpl5CYfT9oE07GxpCaRb7SU5wtl1VChj7QIqEvUea3gdyreA&amp;oh=00_Af8cNpsV1sCjVevuAc84jn-ugE7aSbaktuIy4y9431QdGA&amp;oe=6A4707EB\"}' href=\"https://www.instagram.com/reel/DaITAWpNxvK/\" rel=\"noopener nofollow\" target=\"_blank\">\nThe City of Arts and Sciences is an absolute must,\n<svg aria-hidden=\"true\" aria-label=\"Play\" data-fa-processed=\"\" data-icon=\"play\" data-prefix=\"fa\" style=\"color: rgba(255,255,255,1)\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\" fill=\"currentColor\"></path></svg> <img alt=\"The City of Arts and Sciences is an absolute must, but experiencing it with a local guide changes everything.\nDiscover the secrets and the most aesthetic spots of this architectural masterpiece on our Arts &amp; Architecture Tour. 🤍\n👉 Link in bio to book your spot!\n•\nLa Ciudad de las Artes y las Ciencias es un imprescindible, pero visitarla con un guía local lo cambia todo.\nDescubre los secretos y los rincones más increíbles de esta obra de arte en nuestro Tour de Artes y Arquitectura. 🤍\n👉 ¡Link en nuestra bio para reservar tu plaza!\n#valencia #planesvalencia #ciudaddelasartesylasciencias #valenciaspain #guidedtour\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730809275_18418065781198112_2883292966588549521_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=z2rKKxsNLTUQ7kNvwFON21c&amp;_nc_oc=AdrUzmdVbTTkQvP9x_C6GSzxPdgvQJ96hUL9NjJrTWzrqWYci61D_Ck5q02qSDDsnPg&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFl7KHIRUum-FcW5jE2-g8pNzxeNvULxHrIMy3xM0DJ4LcmlOXRRpApol7RDdjg63t9kthmu-rMGA&amp;oh=00_Af-igePQtDimNNaDpbC1N29GyP841sQYsj9Brs648GVt_w&amp;oe=6A46F46B\" data-img-src-set='{\"d\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730809275_18418065781198112_2883292966588549521_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=z2rKKxsNLTUQ7kNvwFON21c&amp;_nc_oc=AdrUzmdVbTTkQvP9x_C6GSzxPdgvQJ96hUL9NjJrTWzrqWYci61D_Ck5q02qSDDsnPg&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFl7KHIRUum-FcW5jE2-g8pNzxeNvULxHrIMy3xM0DJ4LcmlOXRRpApol7RDdjg63t9kthmu-rMGA&amp;oh=00_Af-igePQtDimNNaDpbC1N29GyP841sQYsj9Brs648GVt_w&amp;oe=6A46F46B\",\"150\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730809275_18418065781198112_2883292966588549521_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=z2rKKxsNLTUQ7kNvwFON21c&amp;_nc_oc=AdrUzmdVbTTkQvP9x_C6GSzxPdgvQJ96hUL9NjJrTWzrqWYci61D_Ck5q02qSDDsnPg&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFl7KHIRUum-FcW5jE2-g8pNzxeNvULxHrIMy3xM0DJ4LcmlOXRRpApol7RDdjg63t9kthmu-rMGA&amp;oh=00_Af-igePQtDimNNaDpbC1N29GyP841sQYsj9Brs648GVt_w&amp;oe=6A46F46B\",\"320\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730809275_18418065781198112_2883292966588549521_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=z2rKKxsNLTUQ7kNvwFON21c&amp;_nc_oc=AdrUzmdVbTTkQvP9x_C6GSzxPdgvQJ96hUL9NjJrTWzrqWYci61D_Ck5q02qSDDsnPg&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFl7KHIRUum-FcW5jE2-g8pNzxeNvULxHrIMy3xM0DJ4LcmlOXRRpApol7RDdjg63t9kthmu-rMGA&amp;oh=00_Af-igePQtDimNNaDpbC1N29GyP841sQYsj9Brs648GVt_w&amp;oe=6A46F46B\",\"640\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730809275_18418065781198112_2883292966588549521_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=z2rKKxsNLTUQ7kNvwFON21c&amp;_nc_oc=AdrUzmdVbTTkQvP9x_C6GSzxPdgvQJ96hUL9NjJrTWzrqWYci61D_Ck5q02qSDDsnPg&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFl7KHIRUum-FcW5jE2-g8pNzxeNvULxHrIMy3xM0DJ4LcmlOXRRpApol7RDdjg63t9kthmu-rMGA&amp;oh=00_Af-igePQtDimNNaDpbC1N29GyP841sQYsj9Brs648GVt_w&amp;oe=6A46F46B\"}' href=\"https://www.instagram.com/reel/DaAbc98tbYQ/\" rel=\"noopener nofollow\" target=\"_blank\">\n¿Sabías que a la bandera arcoíris original le falt\n<svg aria-hidden=\"true\" aria-label=\"Play\" data-fa-processed=\"\" data-icon=\"play\" data-prefix=\"fa\" style=\"color: rgba(255,255,255,1)\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\" fill=\"currentColor\"></path></svg> <img alt=\"¿Sabías que a la bandera arcoíris original le faltan colores? Te contamos 3 curiosidades y por qué Valencia es el destino imprescindible este 2026. 🏳️‍🌈🦇✨\n¡Descubre la ciudad y todos sus secretos con nuestros tours! Tienes el link en la bio. 👇\n•\n🏳️‍🌈 Did you know the original rainbow flag is missing some colors? We share 3 fun facts and why Valencia is the ultimate destination this 2026. 🦇✨\nDiscover the city and its hidden gems with our tours! Link in bio. 👇\n#pride #planesvalencia #orgullogay #gaygames #valenciaspain\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/729275238_18417554110198112_8034942862832175944_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=HILc0vdgOggQ7kNvwE8ambf&amp;_nc_oc=Adoz9uQvDoTaQJ2q7B6ZPWTZ3jHbieq7guarvWHUQ1KgzKzPB8tXo_bnIhmD8vKb6jo&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFClSYy-wF2VXCow-ATsenbsj-JDPohisEztVQ8RSPBklJfIAtmnveFDX2NgAMMvFNA7u07KPVzsA&amp;oh=00_Af_tnH2bGJub0kVGnNctP-4ziHNYP1zHnCvP3lk5NCvpOQ&amp;oe=6A46FB68\" data-img-src-set='{\"d\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/729275238_18417554110198112_8034942862832175944_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=HILc0vdgOggQ7kNvwE8ambf&amp;_nc_oc=Adoz9uQvDoTaQJ2q7B6ZPWTZ3jHbieq7guarvWHUQ1KgzKzPB8tXo_bnIhmD8vKb6jo&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFClSYy-wF2VXCow-ATsenbsj-JDPohisEztVQ8RSPBklJfIAtmnveFDX2NgAMMvFNA7u07KPVzsA&amp;oh=00_Af_tnH2bGJub0kVGnNctP-4ziHNYP1zHnCvP3lk5NCvpOQ&amp;oe=6A46FB68\",\"150\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/729275238_18417554110198112_8034942862832175944_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=HILc0vdgOggQ7kNvwE8ambf&amp;_nc_oc=Adoz9uQvDoTaQJ2q7B6ZPWTZ3jHbieq7guarvWHUQ1KgzKzPB8tXo_bnIhmD8vKb6jo&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFClSYy-wF2VXCow-ATsenbsj-JDPohisEztVQ8RSPBklJfIAtmnveFDX2NgAMMvFNA7u07KPVzsA&amp;oh=00_Af_tnH2bGJub0kVGnNctP-4ziHNYP1zHnCvP3lk5NCvpOQ&amp;oe=6A46FB68\",\"320\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/729275238_18417554110198112_8034942862832175944_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=HILc0vdgOggQ7kNvwE8ambf&amp;_nc_oc=Adoz9uQvDoTaQJ2q7B6ZPWTZ3jHbieq7guarvWHUQ1KgzKzPB8tXo_bnIhmD8vKb6jo&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFClSYy-wF2VXCow-ATsenbsj-JDPohisEztVQ8RSPBklJfIAtmnveFDX2NgAMMvFNA7u07KPVzsA&amp;oh=00_Af_tnH2bGJub0kVGnNctP-4ziHNYP1zHnCvP3lk5NCvpOQ&amp;oe=6A46FB68\",\"640\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/729275238_18417554110198112_8034942862832175944_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=HILc0vdgOggQ7kNvwE8ambf&amp;_nc_oc=Adoz9uQvDoTaQJ2q7B6ZPWTZ3jHbieq7guarvWHUQ1KgzKzPB8tXo_bnIhmD8vKb6jo&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFClSYy-wF2VXCow-ATsenbsj-JDPohisEztVQ8RSPBklJfIAtmnveFDX2NgAMMvFNA7u07KPVzsA&amp;oh=00_Af_tnH2bGJub0kVGnNctP-4ziHNYP1zHnCvP3lk5NCvpOQ&amp;oe=6A46FB68\"}' href=\"https://www.instagram.com/p/DZ66UmgDeK8/\" rel=\"noopener nofollow\" target=\"_blank\">\n¿Dónde celebrar San Juan en Valencia esta noche? 🔥\n<svg aria-hidden=\"true\" aria-label=\"Clone\" data-fa-pro=\"\" data-icon=\"clone\" data-prefix=\"far\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M464 0H144c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h320c26.51 0 48-21.49 48-48v-48h48c26.51 0 48-21.49 48-48V48c0-26.51-21.49-48-48-48zM362 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h42v224c0 26.51 21.49 48 48 48h224v42a6 6 0 0 1-6 6zm96-96H150a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h308a6 6 0 0 1 6 6v308a6 6 0 0 1-6 6z\" fill=\"currentColor\"></path>\n</svg> <img alt=\"¿Dónde celebrar San Juan en Valencia esta noche? 🔥🌊\n📍 La Malvarrosa\n📍 Las Arenas\n📍 La Patacona\n🛑 Recuerda: hacer fuego está totalmente prohibido en las playas del Parque Natural de L'Albufera (El Saler, La Devesa, La Garrofera).\n¿A cuál vas con tu grupo? 👇\n•\nWhere to celebrate San Juan in Valencia tonight? 🔥🌊\n📍 La Malvarrosa\n📍 Las Arenas\n📍 La Patacona\n🛑 Remember: bonfires are strictly forbidden on the southern beaches of L'Albufera Natural Park (El Saler, La Devesa, La Garrofera).\nWhere are you heading with your group? 👇\n#valencia #valenciaplanes #sanjuan #plansvalencia #sanjuanplaya\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730022161_18417566752198112_270463653093380698_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=3_SBxUB9jmEQ7kNvwFxXznm&amp;_nc_oc=Adp09MdYSvuLibNODTFqx8FaUt3ahs9IlqmzgvDg-mNM4rkJrGlHVlIFyNnoflsgyog&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHUeF2pI1JSWqKAJhPLnZQDTIPtAWV9WRFhq48wFXVCjoFTIxU-LIzoJWol0cZ4t4hT8dakNSSZgw&amp;oh=00_Af8wutCwTNgOZ4UZDlc4lLf0SzIBaAI985w6hsf_7aJdUg&amp;oe=6A4714D3\" data-img-src-set='{\"d\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730022161_18417566752198112_270463653093380698_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=3_SBxUB9jmEQ7kNvwFxXznm&amp;_nc_oc=Adp09MdYSvuLibNODTFqx8FaUt3ahs9IlqmzgvDg-mNM4rkJrGlHVlIFyNnoflsgyog&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHUeF2pI1JSWqKAJhPLnZQDTIPtAWV9WRFhq48wFXVCjoFTIxU-LIzoJWol0cZ4t4hT8dakNSSZgw&amp;oh=00_Af8wutCwTNgOZ4UZDlc4lLf0SzIBaAI985w6hsf_7aJdUg&amp;oe=6A4714D3\",\"150\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730022161_18417566752198112_270463653093380698_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=3_SBxUB9jmEQ7kNvwFxXznm&amp;_nc_oc=Adp09MdYSvuLibNODTFqx8FaUt3ahs9IlqmzgvDg-mNM4rkJrGlHVlIFyNnoflsgyog&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHUeF2pI1JSWqKAJhPLnZQDTIPtAWV9WRFhq48wFXVCjoFTIxU-LIzoJWol0cZ4t4hT8dakNSSZgw&amp;oh=00_Af8wutCwTNgOZ4UZDlc4lLf0SzIBaAI985w6hsf_7aJdUg&amp;oe=6A4714D3\",\"320\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730022161_18417566752198112_270463653093380698_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=3_SBxUB9jmEQ7kNvwFxXznm&amp;_nc_oc=Adp09MdYSvuLibNODTFqx8FaUt3ahs9IlqmzgvDg-mNM4rkJrGlHVlIFyNnoflsgyog&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHUeF2pI1JSWqKAJhPLnZQDTIPtAWV9WRFhq48wFXVCjoFTIxU-LIzoJWol0cZ4t4hT8dakNSSZgw&amp;oh=00_Af8wutCwTNgOZ4UZDlc4lLf0SzIBaAI985w6hsf_7aJdUg&amp;oe=6A4714D3\",\"640\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730022161_18417566752198112_270463653093380698_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=3_SBxUB9jmEQ7kNvwFxXznm&amp;_nc_oc=Adp09MdYSvuLibNODTFqx8FaUt3ahs9IlqmzgvDg-mNM4rkJrGlHVlIFyNnoflsgyog&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHUeF2pI1JSWqKAJhPLnZQDTIPtAWV9WRFhq48wFXVCjoFTIxU-LIzoJWol0cZ4t4hT8dakNSSZgw&amp;oh=00_Af8wutCwTNgOZ4UZDlc4lLf0SzIBaAI985w6hsf_7aJdUg&amp;oe=6A4714D3\"}' href=\"https://www.instagram.com/reel/DZ2Dp8jt2fY/\" rel=\"noopener nofollow\" target=\"_blank\">\n¿Conocías la verdadera leyenda de la horchata? 👑🌾\n<svg aria-hidden=\"true\" aria-label=\"Play\" data-fa-processed=\"\" data-icon=\"play\" data-prefix=\"fa\" style=\"color: rgba(255,255,255,1)\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\" fill=\"currentColor\"></path></svg> <img alt='¿Conocías la verdadera leyenda de la horchata? 👑🌾\n¿Quieres conocer más historias, secretos y curiosidades de Valencia? 👀 ¡Tienes muchísima más info y vídeos completos en nuestro canal de YouTube!\n👉 Link en nuestra bio.\n•\nDo you know the real legend behind \"Horchata\"? 👑🌾\nStory goes that on a hot summer day, a young local girl offered a glass of this refreshing drink to King James I. After tasting it, the king was amazed and asked what it was.\nThe girl humbly replied that it was \"tiger nut milk\". The king, fascinated by the taste, answered in Valencian: \"Açò no és llet, açò és OR, XATA!\" (This is not milk, this is gold, girl!).\nAnd just like that, according to the legend, the name of our most international drink was born. ✨\nWant to discover more stories, secrets, and fun facts about Valencia? 👀 You’ll find plenty of full videos and information on our YouTube channel!\n👉 Link in bio\n#valencia #horchata #horchatalatte #guidedtour #foodgasm' aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726294707_18416671831198112_5007151218514008070_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=GMsuxrpdthMQ7kNvwEkfHQF&amp;_nc_oc=Adrh7NctiBBq1kbJFz0SYe51Nc6SLebXPg2UOtqMXp9S9iOkieZhS4Z54Vf-3ONH5pY&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFcQXl_A-8zz6x5t9Ux0_sICBBoHkGPRbSTcwiKxZ2ns0sdnjLqA_5fjz_Q2VNcI2U0GKQiDx6HTg&amp;oh=00_Af_hW0_smvfG8fN8V2aiDjbmOUhbgc8hx_l-1ZTm_DcWyg&amp;oe=6A46EE4B\" data-img-src-set='{\"d\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726294707_18416671831198112_5007151218514008070_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=GMsuxrpdthMQ7kNvwEkfHQF&amp;_nc_oc=Adrh7NctiBBq1kbJFz0SYe51Nc6SLebXPg2UOtqMXp9S9iOkieZhS4Z54Vf-3ONH5pY&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFcQXl_A-8zz6x5t9Ux0_sICBBoHkGPRbSTcwiKxZ2ns0sdnjLqA_5fjz_Q2VNcI2U0GKQiDx6HTg&amp;oh=00_Af_hW0_smvfG8fN8V2aiDjbmOUhbgc8hx_l-1ZTm_DcWyg&amp;oe=6A46EE4B\",\"150\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726294707_18416671831198112_5007151218514008070_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=GMsuxrpdthMQ7kNvwEkfHQF&amp;_nc_oc=Adrh7NctiBBq1kbJFz0SYe51Nc6SLebXPg2UOtqMXp9S9iOkieZhS4Z54Vf-3ONH5pY&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFcQXl_A-8zz6x5t9Ux0_sICBBoHkGPRbSTcwiKxZ2ns0sdnjLqA_5fjz_Q2VNcI2U0GKQiDx6HTg&amp;oh=00_Af_hW0_smvfG8fN8V2aiDjbmOUhbgc8hx_l-1ZTm_DcWyg&amp;oe=6A46EE4B\",\"320\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726294707_18416671831198112_5007151218514008070_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=GMsuxrpdthMQ7kNvwEkfHQF&amp;_nc_oc=Adrh7NctiBBq1kbJFz0SYe51Nc6SLebXPg2UOtqMXp9S9iOkieZhS4Z54Vf-3ONH5pY&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFcQXl_A-8zz6x5t9Ux0_sICBBoHkGPRbSTcwiKxZ2ns0sdnjLqA_5fjz_Q2VNcI2U0GKQiDx6HTg&amp;oh=00_Af_hW0_smvfG8fN8V2aiDjbmOUhbgc8hx_l-1ZTm_DcWyg&amp;oe=6A46EE4B\",\"640\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726294707_18416671831198112_5007151218514008070_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=GMsuxrpdthMQ7kNvwEkfHQF&amp;_nc_oc=Adrh7NctiBBq1kbJFz0SYe51Nc6SLebXPg2UOtqMXp9S9iOkieZhS4Z54Vf-3ONH5pY&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFcQXl_A-8zz6x5t9Ux0_sICBBoHkGPRbSTcwiKxZ2ns0sdnjLqA_5fjz_Q2VNcI2U0GKQiDx6HTg&amp;oh=00_Af_hW0_smvfG8fN8V2aiDjbmOUhbgc8hx_l-1ZTm_DcWyg&amp;oe=6A46EE4B\"}' href=\"https://www.instagram.com/p/DZuGJjpDdBT/\" rel=\"noopener nofollow\" target=\"_blank\">\nOs dejamos nuestros ✨rooftops favoritos✨ de Valenc\n<svg aria-hidden=\"true\" aria-label=\"Clone\" data-fa-pro=\"\" data-icon=\"clone\" data-prefix=\"far\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M464 0H144c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h320c26.51 0 48-21.49 48-48v-48h48c26.51 0 48-21.49 48-48V48c0-26.51-21.49-48-48-48zM362 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h42v224c0 26.51 21.49 48 48 48h224v42a6 6 0 0 1-6 6zm96-96H150a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h308a6 6 0 0 1 6 6v308a6 6 0 0 1-6 6z\" fill=\"currentColor\"></path>\n</svg> <img alt=\"Os dejamos nuestros ✨rooftops favoritos✨ de Valencia para este verano:\n1. Atenea Sky @atenea.sky\n2. The Coin Rooftop Bar\n3. 270 Terrace en Barceló\n4. Sky Bar Novotel @novotelvalencialavant\n5. Luna de Valencia @lunadevalenciarooftop\nComenta si crees que nos falta alguno por mencionar 👇🧡\n•\nHere are our ✨favorite rooftops✨ in Valencia for this summer:\n1. Atenea Sky @atenea.sky\n2. The Coin Rooftop Bar\n3. 270 Terrace en Barceló\n4. Sky Bar Novotel @novotelvalencialavant\n5. Luna de Valencia @lunadevalenciarooftop\nLet us know if you think we've left anyone out 👇🧡\n#valencia #rooftop #summervibes☀️ #valenciaplan #valenciaspain\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/726337134_18416502226198112_3908466607103435549_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=80zmCnh0hlsQ7kNvwF50tdp&amp;_nc_oc=AdqRyO9xm1cjjYOaumMm8KDfasW0HPNwIiDlgHmRYCf_8zTGr8enq9N4kDO88aiv2t8&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHt-fZoMRMAv8LLMKImcRX3rZrg3-B3mju8vACH1QZnVugpBov0Ofnw8MA4oosRRjpojUHMLKRXKA&amp;oh=00_Af_hSi1tV_exURPZg4JG61R5hK8a-ly3BJi-y4cS1jubVg&amp;oe=6A4722BD\" data-img-src-set='{\"d\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/726337134_18416502226198112_3908466607103435549_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=80zmCnh0hlsQ7kNvwF50tdp&amp;_nc_oc=AdqRyO9xm1cjjYOaumMm8KDfasW0HPNwIiDlgHmRYCf_8zTGr8enq9N4kDO88aiv2t8&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHt-fZoMRMAv8LLMKImcRX3rZrg3-B3mju8vACH1QZnVugpBov0Ofnw8MA4oosRRjpojUHMLKRXKA&amp;oh=00_Af_hSi1tV_exURPZg4JG61R5hK8a-ly3BJi-y4cS1jubVg&amp;oe=6A4722BD\",\"150\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/726337134_18416502226198112_3908466607103435549_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=80zmCnh0hlsQ7kNvwF50tdp&amp;_nc_oc=AdqRyO9xm1cjjYOaumMm8KDfasW0HPNwIiDlgHmRYCf_8zTGr8enq9N4kDO88aiv2t8&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHt-fZoMRMAv8LLMKImcRX3rZrg3-B3mju8vACH1QZnVugpBov0Ofnw8MA4oosRRjpojUHMLKRXKA&amp;oh=00_Af_hSi1tV_exURPZg4JG61R5hK8a-ly3BJi-y4cS1jubVg&amp;oe=6A4722BD\",\"320\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/726337134_18416502226198112_3908466607103435549_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=80zmCnh0hlsQ7kNvwF50tdp&amp;_nc_oc=AdqRyO9xm1cjjYOaumMm8KDfasW0HPNwIiDlgHmRYCf_8zTGr8enq9N4kDO88aiv2t8&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHt-fZoMRMAv8LLMKImcRX3rZrg3-B3mju8vACH1QZnVugpBov0Ofnw8MA4oosRRjpojUHMLKRXKA&amp;oh=00_Af_hSi1tV_exURPZg4JG61R5hK8a-ly3BJi-y4cS1jubVg&amp;oe=6A4722BD\",\"640\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/726337134_18416502226198112_3908466607103435549_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=80zmCnh0hlsQ7kNvwF50tdp&amp;_nc_oc=AdqRyO9xm1cjjYOaumMm8KDfasW0HPNwIiDlgHmRYCf_8zTGr8enq9N4kDO88aiv2t8&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHt-fZoMRMAv8LLMKImcRX3rZrg3-B3mju8vACH1QZnVugpBov0Ofnw8MA4oosRRjpojUHMLKRXKA&amp;oh=00_Af_hSi1tV_exURPZg4JG61R5hK8a-ly3BJi-y4cS1jubVg&amp;oe=6A4722BD\"}' href=\"https://www.instagram.com/reel/DZpLa3yNH5X/\" rel=\"noopener nofollow\" target=\"_blank\">\n¿El planazo definitivo después de uno de nuestros\n<svg aria-hidden=\"true\" aria-label=\"Play\" data-fa-processed=\"\" data-icon=\"play\" data-prefix=\"fa\" style=\"color: rgba(255,255,255,1)\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\" fill=\"currentColor\"></path></svg> <img alt=\"¿El planazo definitivo después de uno de nuestros tours? 🚩✨ Recargar energía con un gelato espectacular en @gelaterialaromana_es\n¿Con qué sabor te quedas? 🍦👇\n📍La Romana, Valencia\n•\nThe ultimate plan after one of our tours? 🚶‍♀️✨ Recharging with an amazing gelato at La Romana.\n📍La Romana, Valencia\n#valencia #heladoartesanal #icecreamshop #valenciaspain #italiavalencia\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/725796231_18416672524198112_2099204704447319378_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=EP5dCbo47boQ7kNvwFq4x8O&amp;_nc_oc=AdpmdRXNTg4cCy2pbEkS_DoSElYW9k0L5ASXcGdEF_rJQXLKOGKwf3J5awHBETMlqWE&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGGPMmW2hY_QUrZ3QGMLrPrYAJLav05sd_u0pjU4lzjkx5Td1idPNn2zP-dEPDAvDNPn6XgpnmzQw&amp;oh=00_Af-wJ02wpxEIkgt1-HrRcop_WdBoqZxNp2atpLkiu7CjQQ&amp;oe=6A46EE51\" data-img-src-set='{\"d\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/725796231_18416672524198112_2099204704447319378_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=EP5dCbo47boQ7kNvwFq4x8O&amp;_nc_oc=AdpmdRXNTg4cCy2pbEkS_DoSElYW9k0L5ASXcGdEF_rJQXLKOGKwf3J5awHBETMlqWE&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGGPMmW2hY_QUrZ3QGMLrPrYAJLav05sd_u0pjU4lzjkx5Td1idPNn2zP-dEPDAvDNPn6XgpnmzQw&amp;oh=00_Af-wJ02wpxEIkgt1-HrRcop_WdBoqZxNp2atpLkiu7CjQQ&amp;oe=6A46EE51\",\"150\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/725796231_18416672524198112_2099204704447319378_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=EP5dCbo47boQ7kNvwFq4x8O&amp;_nc_oc=AdpmdRXNTg4cCy2pbEkS_DoSElYW9k0L5ASXcGdEF_rJQXLKOGKwf3J5awHBETMlqWE&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGGPMmW2hY_QUrZ3QGMLrPrYAJLav05sd_u0pjU4lzjkx5Td1idPNn2zP-dEPDAvDNPn6XgpnmzQw&amp;oh=00_Af-wJ02wpxEIkgt1-HrRcop_WdBoqZxNp2atpLkiu7CjQQ&amp;oe=6A46EE51\",\"320\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/725796231_18416672524198112_2099204704447319378_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=EP5dCbo47boQ7kNvwFq4x8O&amp;_nc_oc=AdpmdRXNTg4cCy2pbEkS_DoSElYW9k0L5ASXcGdEF_rJQXLKOGKwf3J5awHBETMlqWE&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGGPMmW2hY_QUrZ3QGMLrPrYAJLav05sd_u0pjU4lzjkx5Td1idPNn2zP-dEPDAvDNPn6XgpnmzQw&amp;oh=00_Af-wJ02wpxEIkgt1-HrRcop_WdBoqZxNp2atpLkiu7CjQQ&amp;oe=6A46EE51\",\"640\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/725796231_18416672524198112_2099204704447319378_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=EP5dCbo47boQ7kNvwFq4x8O&amp;_nc_oc=AdpmdRXNTg4cCy2pbEkS_DoSElYW9k0L5ASXcGdEF_rJQXLKOGKwf3J5awHBETMlqWE&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGGPMmW2hY_QUrZ3QGMLrPrYAJLav05sd_u0pjU4lzjkx5Td1idPNn2zP-dEPDAvDNPn6XgpnmzQw&amp;oh=00_Af-wJ02wpxEIkgt1-HrRcop_WdBoqZxNp2atpLkiu7CjQQ&amp;oe=6A46EE51\"}' href=\"https://www.instagram.com/reel/DZmWmpCNu-V/\" rel=\"noopener nofollow\" target=\"_blank\">\nSaviez-vous que Valence est un musée à ciel ouvert\n<svg aria-hidden=\"true\" aria-label=\"Play\" data-fa-processed=\"\" data-icon=\"play\" data-prefix=\"fa\" style=\"color: rgba(255,255,255,1)\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\" fill=\"currentColor\"></path></svg> <img alt=\"Saviez-vous que Valence est un musée à ciel ouvert ? 🏛️✨\nDécouvrez les secrets de son histoire avec notre Tour d'Art et d'Architecture. Laissez-vous séduire par chaque détail !\n👉 Lien dans la bio pour réserver.\n•\n¿Sabías que Valencia es un museo al aire libre? 🏛️✨\nDescubre los secretos de su historia con nuestro Tour de Arte y Arquitectura. ¡Déjate enamorar por cada detalle!\n👉 Tienes el link en nuestra bio para reservar\n#valencia #valenciafrancés #frenchstyle #valenciaspain #guidedtour\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726427257_18416679874198112_107691134071350395_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=q96-XbNBZPAQ7kNvwEx8RbM&amp;_nc_oc=Adq_uV3tZXFfwS9yjQs-JAaWyse-vc5S8GygBOJ6QH6H147DBia6cKpFS5w8drO3AAQ&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGbxAw6Sl-8uJ9xjncyaD6SsLyRKR8lDCMszHiYumqs-d-aqzlQbtJmSpF1u_t_T5sz5O0mB913HA&amp;oh=00_Af-DNHC0MlkTb2LpYFjSWpkbQTNN1RYS9GeZ8rqnAT19xg&amp;oe=6A470D45\" data-img-src-set='{\"d\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726427257_18416679874198112_107691134071350395_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=q96-XbNBZPAQ7kNvwEx8RbM&amp;_nc_oc=Adq_uV3tZXFfwS9yjQs-JAaWyse-vc5S8GygBOJ6QH6H147DBia6cKpFS5w8drO3AAQ&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGbxAw6Sl-8uJ9xjncyaD6SsLyRKR8lDCMszHiYumqs-d-aqzlQbtJmSpF1u_t_T5sz5O0mB913HA&amp;oh=00_Af-DNHC0MlkTb2LpYFjSWpkbQTNN1RYS9GeZ8rqnAT19xg&amp;oe=6A470D45\",\"150\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726427257_18416679874198112_107691134071350395_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=q96-XbNBZPAQ7kNvwEx8RbM&amp;_nc_oc=Adq_uV3tZXFfwS9yjQs-JAaWyse-vc5S8GygBOJ6QH6H147DBia6cKpFS5w8drO3AAQ&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGbxAw6Sl-8uJ9xjncyaD6SsLyRKR8lDCMszHiYumqs-d-aqzlQbtJmSpF1u_t_T5sz5O0mB913HA&amp;oh=00_Af-DNHC0MlkTb2LpYFjSWpkbQTNN1RYS9GeZ8rqnAT19xg&amp;oe=6A470D45\",\"320\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726427257_18416679874198112_107691134071350395_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=q96-XbNBZPAQ7kNvwEx8RbM&amp;_nc_oc=Adq_uV3tZXFfwS9yjQs-JAaWyse-vc5S8GygBOJ6QH6H147DBia6cKpFS5w8drO3AAQ&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGbxAw6Sl-8uJ9xjncyaD6SsLyRKR8lDCMszHiYumqs-d-aqzlQbtJmSpF1u_t_T5sz5O0mB913HA&amp;oh=00_Af-DNHC0MlkTb2LpYFjSWpkbQTNN1RYS9GeZ8rqnAT19xg&amp;oe=6A470D45\",\"640\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726427257_18416679874198112_107691134071350395_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=q96-XbNBZPAQ7kNvwEx8RbM&amp;_nc_oc=Adq_uV3tZXFfwS9yjQs-JAaWyse-vc5S8GygBOJ6QH6H147DBia6cKpFS5w8drO3AAQ&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGbxAw6Sl-8uJ9xjncyaD6SsLyRKR8lDCMszHiYumqs-d-aqzlQbtJmSpF1u_t_T5sz5O0mB913HA&amp;oh=00_Af-DNHC0MlkTb2LpYFjSWpkbQTNN1RYS9GeZ8rqnAT19xg&amp;oe=6A470D45\"}' href=\"https://www.instagram.com/reel/DZfGtIgND7q/\" rel=\"noopener nofollow\" target=\"_blank\">\nScore a goal with your eyes closed = FREE vermouth\n<svg aria-hidden=\"true\" aria-label=\"Play\" data-fa-processed=\"\" data-icon=\"play\" data-prefix=\"fa\" style=\"color: rgba(255,255,255,1)\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\" fill=\"currentColor\"></path></svg> <img alt=\"Score a goal with your eyes closed = FREE vermouth! ⚽️🥃\nWe hit the streets of Mercado Central with @benvolgut_vermuts to test your football skills. The challenge sounds easy, but is it? 🫣 Watch to see who nailed it!\nWould you have scored? 👇\n•\n¡Marcar un gol con los ojos cerrados = Vermú GRATIS! ⚽️🥃🏆\nAprovechando la locura del Mundial, salimos a los alrededores del Mercado Central con Benvolgut para poner a prueba vuestra puntería. El reto suena fácil, pero... ¿lo es? 🫣 ¡Mira el vídeo para ver quién lo consiguió!\n¿Tú habrías marcado el gol decisivo? 👇\n#valenciaspain #mundial #football #plansvalencia #spaintravel\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><button type=\"button\">\nCargar más\n</button><a href=\"https://www.instagram.com/valenciaandgo/\" rel=\"nofollow noopener\" style=\"background: rgb(64,139,209);\" target=\"_blank\">\n<svg aria-hidden=\"true\" aria-label=\"Instagram\" data-fa-processed=\"\" data-icon=\"instagram\" data-prefix=\"fab\" viewbox=\"0 0 448 512\">\n<path d=\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\" fill=\"currentColor\"></path>\n</svg> Seguir en Instagram\n</a></p>\n<h2>Empresas que han confiado en\nnosotras\n</h2>\n<figure><img alt=\"Logotipo de Lekkerland\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-lekkerland.webp\"/></figure><figure><img alt=\"Logotipo de Cáritas\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-caritas.webp\"/></figure><figure><img alt=\"Logotipo de JYSK\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-jysk.webp\"/></figure><figure><img alt=\"Logotipo de Cruz Roja Española\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-cruzrojaespanola.webp\"/></figure><figure><img alt=\"Logotipo de MediaMarkt\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-mediamarkt.webp\"/></figure><figure><img alt=\"Logotipo de Maersk\" decoding=\"async\" loading=\"lazy\" src=\"https://www.valenciaandgo.com/wp-content/uploads/2025/10/img-empresas-maersk.webp\"/></figure>",
- "palabras": 491
+ "cuerpo": "<p>Se convertirá en tu recuerdo favorito.</p> <h1>Tours y excursiones por Valencia</h1> <p data-pm-slice=\"1 1 []\" data-prosemirror-content-type=\"node\" data-prosemirror-node-block=\"true\" data-prosemirror-node-name=\"paragraph\"><strong>Déjate llevar por quienes mejor conocen Valencia:</strong> tours y excursiones con transporte, entradas y guías oficiales locales</p> <p><a href=\"#ver-tours\">\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1861_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_1924_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1863_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1862_\" style=\"fill:#FFFFFF;\"></path></g></svg>\nRESERVA TU PLAZA AHORA\n</a></p>\n<h2>Nuestros tours más queridos</h2> <p>Los <strong>favoritos</strong> de quienes ya han vivido la experiencia <strong>Valencia&amp;Go</strong>.<br/>¿No sabes qué ver en Valencia? <strong>Empieza por aquí.</strong></p><p>[widget_review_iframe]</p><img alt=\"\" decoding=\"async\" height=\"449\" loading=\"lazy\" src=\"/wp-content/uploads/2025/10/icono-tours-a-pie.svg\" width=\"508\"/> <h3>TOURS A PIE</h3> <p>Cultura local</p> <img alt=\"\" decoding=\"async\" height=\"449\" loading=\"lazy\" src=\"/wp-content/uploads/2025/10/icono-excursiones.svg\" width=\"508\"/> <h3>EXCURSIONES</h3> <p>Transporte, entradas y guía incluidos</p> <img alt=\"\" decoding=\"async\" height=\"449\" loading=\"lazy\" src=\"/wp-content/uploads/2025/10/icono-tours-privados.svg\" width=\"508\"/> <h3>TOURS PRIVADOS</h3> <p>Hechos para ti</p> <img alt=\"\" decoding=\"async\" height=\"449\" loading=\"lazy\" src=\"/wp-content/uploads/2025/10/icono-soporte.svg\" width=\"508\"/> <h3>SOPORTE</h3> <p>Todos los días de 8hrs a 20hrs</p> <img alt=\"\" decoding=\"async\" height=\"449\" loading=\"lazy\" src=\"/wp-content/uploads/2025/10/icono-sin-intermediarios.svg\" width=\"508\"/> <h3>DIRECTO</h3> <p>Y sin intermediarios</p> <img alt=\"\" decoding=\"async\" height=\"449\" loading=\"lazy\" src=\"/wp-content/uploads/2025/10/icono-idiomas.svg\" width=\"508\"/> <h3>IDIOMAS</h3> <p>Guías que te entienden</p> <img alt=\"Equipo de guías oficiales de Valencia&amp;Go\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"/wp-content/uploads/2026/03/equipo-valencia-and-go.webp\" width=\"800\"/> <h2>Explora lo mejor de Valencia con quienes la viven cada día</h2> <p>¡Vivimos <strong>Valencia</strong> con pasión y queremos contagiarte esa energía!</p><p>Somos <strong>guías oficiales locales</strong> y diseñamos experiencias pensadas para ti, con mimo, cercanía y <strong>sin intermediarios</strong>.</p><p>Queremos que descubras qué ver en <strong>Valencia</strong>… y que te sientas parte de ella.</p> <p><a href=\"/quienes-somos/\">\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1861_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_1924_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1863_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1862_\" style=\"fill:#FFFFFF;\"></path></g></svg>\nCONOCE AL EQUIPO\n</a></p>\n<h2>¿Por qué Valencia&amp;Go?</h2> <ul>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<strong>Excursiones todo el año</strong> por la Comunidad Valenciana: descubre monumentos, pueblos con encanto como Peñíscola, la Albufera o rutas del vino en Requena.\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<strong>Asesoramiento personalizado:</strong> te ayudamos a elegir lo que mejor se adapta a tu viaje.\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<strong>​Itinerarios a medida:</strong> organizamos tu experiencia completa con transporte, entradas, guías, comidas y más. ¡Tú lo sueñas, nosotros lo hacemos!\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\n<strong>​Tours y Excursiones en Valencia con Guías Oficiales Locales</strong>\n</li>\n</ul>\n<p>CONTACTA</p><p>BUSCA INSPIRACIÓN</p><img alt=\"Atardecer sobre el lago de la Albufera de Valencia\" decoding=\"async\" height=\"561\" loading=\"lazy\" src=\"/wp-content/uploads/2026/03/atardecer-albufera.webp\" width=\"800\"/>\n<figure><img alt=\"Actividad de team building para empresas en Valencia\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/uploads/2026/03/teambuildings-valencia-and-go-02.webp\"/></figure><figure><img alt=\"Grupo de empresa en una experiencia organizada en Valencia\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/uploads/2026/03/teambuildings-valencia-and-go.webp\"/></figure>\n<h2>Teambuildings en Valencia para\nempresas</h2> <p>¿Sois una empresa y buscáis una experiencia única en Valencia?</p><p>Organizamos eventos corporativos a medida: desde el alquiler de espacios exclusivos y traslados, hasta actividades dinámicas en equipo, gincanas urbanas, cenas de gala y viajes de incentivo.</p><p>Cuéntanos vuestra idea y la convertiremos en una experiencia inolvidable.</p> <p><a href=\"/experiencias-a-medida/\">\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1861_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_1924_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1863_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1862_\" style=\"fill:#FFFFFF;\"></path></g></svg>\nSOLICITA INFORMACIÓN\n</a></p>\n<h2>Diseña tu experiencia en Valencia</h2> <p>Porque no todos los viajes son iguales.<br/>Te ayudamos a combinar actividades para crear el plan perfecto según tus días en la ciudad.</p> <ul>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\nRecomendaciones personalizadas\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\nCombinaciones inteligentes de actividades\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\nAsesoramiento por expertos locales\n</li>\n<li>\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1932_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_2387_\" style=\"fill:#EE7718;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1936_\" style=\"fill:#EE7718;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1935_\" style=\"fill:#EE7718;\"></path></g></svg>\nSin intermediarios\n</li>\n</ul>\n<p>No pierdas tiempo organizando y deja que te asesoremos.</p>\n<p>CONTACTA CON NOSOTRAS</p><img alt=\"Grupo haciéndose un selfie en el centro de Valencia\" decoding=\"async\" height=\"533\" loading=\"lazy\" src=\"/wp-content/uploads/2026/03/grupo-selfie-centro-valencia.webp\" width=\"800\"/> <h2>¿Buscas inspiración para tu viaje a Valencia?</h2> <p>Aquí te dejamos artículos útiles, recomendaciones de <i>Tours y Excursiones en Valencia con Guías Oficiales Locales</i> y todo lo que necesitas saber para disfrutar Valencia al máximo desde el primer día.</p> <p><a href=\"/blog/\">\n<svg id=\"Capa_1\" style=\"enable-background:new 0 0 134.197 134.197;\" viewbox=\"0 0 134.197 134.197\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><g id=\"XMLID_1861_\"> <path d=\"M67.104,52.764c-5.2,0-9.41,4.21-9.41,9.4c0,5.2,4.21,9.41,9.41,9.41 s9.41-4.21,9.41-9.41C76.514,56.974,72.304,52.764,67.104,52.764z\" id=\"XMLID_1924_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M83.124,35.578c0,0,9.629-5.857,11.501-10.606 c2.176-5.521-1.749-10.24-2.695-9.416c-6.833,6.121-5.237,6.182-6.253,9.335c-1.017,3.142-4.922,9.396-4.922,9.396 c-4.128-2.024-8.755-3.162-13.656-3.162c-17.144,0-31.044,13.9-31.044,31.044c0,26.316,31.044,57.604,31.044,57.604 s31.054-31.288,31.054-57.604C98.153,50.892,92.133,41.019,83.124,35.578z M67.099,81.702c-10.789,0-19.533-8.735-19.533-19.533 c0-10.778,8.745-19.533,19.533-19.533c10.789,0,19.534,8.755,19.534,19.533C86.632,72.968,77.887,81.702,67.099,81.702z\" id=\"XMLID_1863_\" style=\"fill:#FFFFFF;\"></path> <path d=\"M133.784,37.838c-9.248-15.488-18.396-15.023-26.396-13.7 c-7.642,1.788-14.242,5.042-14.242,5.042s5.048,8.262,11.577,11.8C111.842,45.291,120.88,44.537,133.784,37.838z\" id=\"XMLID_1862_\" style=\"fill:#FFFFFF;\"></path></g></svg>\nVER TODAS LAS ENTRADAS\n</a></p>\n<h2>Síguenos Instagram</h2> <p><b>Aquí compartimos planes reales, rincones especiales y experiencias que pasan en Valencia, para que no te pierdas nada de lo que merece la pena vivir en la ciudad.</b></p>\n<p><a aria-label=\"valenciaandgo on Instagram\" href=\"https://www.instagram.com/valenciaandgo/\" rel=\"nofollow noopener\" target=\"_blank\" title=\"@valenciaandgo\">\n<svg aria-hidden=\"true\" aria-label=\"Instagram\" data-fa-processed=\"\" data-icon=\"instagram\" data-prefix=\"fab\" viewbox=\"0 0 448 512\">\n<path d=\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\" fill=\"currentColor\"></path>\n</svg>\n<img alt=\"\" decoding=\"async\" height=\"50\" loading=\"lazy\" src=\"/wp-content/uploads/sb-instagram-feed-images/valenciaandgo.webp\" width=\"50\"/>\n<h3>valenciaandgo</h3>\n<p>Unlock the hidden gems of Valencia with us🧡<br/>\n🙋‍♀️Official local guides<br/>\n🚙Daily excursions,tours and customized experiences<br/>\nOFFERS &amp; TOURS👇</p>\n</a><a data-full-res=\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730313437_18417882379198112_1747933366654451428_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=Q6Mly_YcNSwQ7kNvwG7G19s&amp;_nc_oc=AdrWiYh23OMt6SFN93brj2ARea9QppAHT8_nRX7kmavMrBVRi6MMQhbppWaRWViyU7s&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQEZd60a0tKNhoTLVBBfj3gPQBWnyTPpl5CYfT9oE07GxpCaRb7SU5wtl1VChj7QIqEvUea3gdyreA&amp;oh=00_Af8cNpsV1sCjVevuAc84jn-ugE7aSbaktuIy4y9431QdGA&amp;oe=6A4707EB\" data-img-src-set='{\"d\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730313437_18417882379198112_1747933366654451428_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=Q6Mly_YcNSwQ7kNvwG7G19s&amp;_nc_oc=AdrWiYh23OMt6SFN93brj2ARea9QppAHT8_nRX7kmavMrBVRi6MMQhbppWaRWViyU7s&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQEZd60a0tKNhoTLVBBfj3gPQBWnyTPpl5CYfT9oE07GxpCaRb7SU5wtl1VChj7QIqEvUea3gdyreA&amp;oh=00_Af8cNpsV1sCjVevuAc84jn-ugE7aSbaktuIy4y9431QdGA&amp;oe=6A4707EB\",\"150\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730313437_18417882379198112_1747933366654451428_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=Q6Mly_YcNSwQ7kNvwG7G19s&amp;_nc_oc=AdrWiYh23OMt6SFN93brj2ARea9QppAHT8_nRX7kmavMrBVRi6MMQhbppWaRWViyU7s&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQEZd60a0tKNhoTLVBBfj3gPQBWnyTPpl5CYfT9oE07GxpCaRb7SU5wtl1VChj7QIqEvUea3gdyreA&amp;oh=00_Af8cNpsV1sCjVevuAc84jn-ugE7aSbaktuIy4y9431QdGA&amp;oe=6A4707EB\",\"320\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730313437_18417882379198112_1747933366654451428_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=Q6Mly_YcNSwQ7kNvwG7G19s&amp;_nc_oc=AdrWiYh23OMt6SFN93brj2ARea9QppAHT8_nRX7kmavMrBVRi6MMQhbppWaRWViyU7s&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQEZd60a0tKNhoTLVBBfj3gPQBWnyTPpl5CYfT9oE07GxpCaRb7SU5wtl1VChj7QIqEvUea3gdyreA&amp;oh=00_Af8cNpsV1sCjVevuAc84jn-ugE7aSbaktuIy4y9431QdGA&amp;oe=6A4707EB\",\"640\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730313437_18417882379198112_1747933366654451428_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=101&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=Q6Mly_YcNSwQ7kNvwG7G19s&amp;_nc_oc=AdrWiYh23OMt6SFN93brj2ARea9QppAHT8_nRX7kmavMrBVRi6MMQhbppWaRWViyU7s&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQEZd60a0tKNhoTLVBBfj3gPQBWnyTPpl5CYfT9oE07GxpCaRb7SU5wtl1VChj7QIqEvUea3gdyreA&amp;oh=00_Af8cNpsV1sCjVevuAc84jn-ugE7aSbaktuIy4y9431QdGA&amp;oe=6A4707EB\"}' href=\"https://www.instagram.com/reel/DaITAWpNxvK/\" rel=\"noopener nofollow\" target=\"_blank\">\nThe City of Arts and Sciences is an absolute must,\n<svg aria-hidden=\"true\" aria-label=\"Play\" data-fa-processed=\"\" data-icon=\"play\" data-prefix=\"fa\" style=\"color: rgba(255,255,255,1)\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\" fill=\"currentColor\"></path></svg> <img alt=\"The City of Arts and Sciences is an absolute must, but experiencing it with a local guide changes everything.\nDiscover the secrets and the most aesthetic spots of this architectural masterpiece on our Arts &amp; Architecture Tour. 🤍\n👉 Link in bio to book your spot!\n•\nLa Ciudad de las Artes y las Ciencias es un imprescindible, pero visitarla con un guía local lo cambia todo.\nDescubre los secretos y los rincones más increíbles de esta obra de arte en nuestro Tour de Artes y Arquitectura. 🤍\n👉 ¡Link en nuestra bio para reservar tu plaza!\n#valencia #planesvalencia #ciudaddelasartesylasciencias #valenciaspain #guidedtour\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730809275_18418065781198112_2883292966588549521_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=z2rKKxsNLTUQ7kNvwFON21c&amp;_nc_oc=AdrUzmdVbTTkQvP9x_C6GSzxPdgvQJ96hUL9NjJrTWzrqWYci61D_Ck5q02qSDDsnPg&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFl7KHIRUum-FcW5jE2-g8pNzxeNvULxHrIMy3xM0DJ4LcmlOXRRpApol7RDdjg63t9kthmu-rMGA&amp;oh=00_Af-igePQtDimNNaDpbC1N29GyP841sQYsj9Brs648GVt_w&amp;oe=6A46F46B\" data-img-src-set='{\"d\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730809275_18418065781198112_2883292966588549521_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=z2rKKxsNLTUQ7kNvwFON21c&amp;_nc_oc=AdrUzmdVbTTkQvP9x_C6GSzxPdgvQJ96hUL9NjJrTWzrqWYci61D_Ck5q02qSDDsnPg&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFl7KHIRUum-FcW5jE2-g8pNzxeNvULxHrIMy3xM0DJ4LcmlOXRRpApol7RDdjg63t9kthmu-rMGA&amp;oh=00_Af-igePQtDimNNaDpbC1N29GyP841sQYsj9Brs648GVt_w&amp;oe=6A46F46B\",\"150\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730809275_18418065781198112_2883292966588549521_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=z2rKKxsNLTUQ7kNvwFON21c&amp;_nc_oc=AdrUzmdVbTTkQvP9x_C6GSzxPdgvQJ96hUL9NjJrTWzrqWYci61D_Ck5q02qSDDsnPg&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFl7KHIRUum-FcW5jE2-g8pNzxeNvULxHrIMy3xM0DJ4LcmlOXRRpApol7RDdjg63t9kthmu-rMGA&amp;oh=00_Af-igePQtDimNNaDpbC1N29GyP841sQYsj9Brs648GVt_w&amp;oe=6A46F46B\",\"320\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730809275_18418065781198112_2883292966588549521_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=z2rKKxsNLTUQ7kNvwFON21c&amp;_nc_oc=AdrUzmdVbTTkQvP9x_C6GSzxPdgvQJ96hUL9NjJrTWzrqWYci61D_Ck5q02qSDDsnPg&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFl7KHIRUum-FcW5jE2-g8pNzxeNvULxHrIMy3xM0DJ4LcmlOXRRpApol7RDdjg63t9kthmu-rMGA&amp;oh=00_Af-igePQtDimNNaDpbC1N29GyP841sQYsj9Brs648GVt_w&amp;oe=6A46F46B\",\"640\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730809275_18418065781198112_2883292966588549521_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=106&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=z2rKKxsNLTUQ7kNvwFON21c&amp;_nc_oc=AdrUzmdVbTTkQvP9x_C6GSzxPdgvQJ96hUL9NjJrTWzrqWYci61D_Ck5q02qSDDsnPg&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFl7KHIRUum-FcW5jE2-g8pNzxeNvULxHrIMy3xM0DJ4LcmlOXRRpApol7RDdjg63t9kthmu-rMGA&amp;oh=00_Af-igePQtDimNNaDpbC1N29GyP841sQYsj9Brs648GVt_w&amp;oe=6A46F46B\"}' href=\"https://www.instagram.com/reel/DaAbc98tbYQ/\" rel=\"noopener nofollow\" target=\"_blank\">\n¿Sabías que a la bandera arcoíris original le falt\n<svg aria-hidden=\"true\" aria-label=\"Play\" data-fa-processed=\"\" data-icon=\"play\" data-prefix=\"fa\" style=\"color: rgba(255,255,255,1)\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\" fill=\"currentColor\"></path></svg> <img alt=\"¿Sabías que a la bandera arcoíris original le faltan colores? Te contamos 3 curiosidades y por qué Valencia es el destino imprescindible este 2026. 🏳️‍🌈🦇✨\n¡Descubre la ciudad y todos sus secretos con nuestros tours! Tienes el link en la bio. 👇\n•\n🏳️‍🌈 Did you know the original rainbow flag is missing some colors? We share 3 fun facts and why Valencia is the ultimate destination this 2026. 🦇✨\nDiscover the city and its hidden gems with our tours! Link in bio. 👇\n#pride #planesvalencia #orgullogay #gaygames #valenciaspain\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/729275238_18417554110198112_8034942862832175944_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=HILc0vdgOggQ7kNvwE8ambf&amp;_nc_oc=Adoz9uQvDoTaQJ2q7B6ZPWTZ3jHbieq7guarvWHUQ1KgzKzPB8tXo_bnIhmD8vKb6jo&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFClSYy-wF2VXCow-ATsenbsj-JDPohisEztVQ8RSPBklJfIAtmnveFDX2NgAMMvFNA7u07KPVzsA&amp;oh=00_Af_tnH2bGJub0kVGnNctP-4ziHNYP1zHnCvP3lk5NCvpOQ&amp;oe=6A46FB68\" data-img-src-set='{\"d\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/729275238_18417554110198112_8034942862832175944_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=HILc0vdgOggQ7kNvwE8ambf&amp;_nc_oc=Adoz9uQvDoTaQJ2q7B6ZPWTZ3jHbieq7guarvWHUQ1KgzKzPB8tXo_bnIhmD8vKb6jo&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFClSYy-wF2VXCow-ATsenbsj-JDPohisEztVQ8RSPBklJfIAtmnveFDX2NgAMMvFNA7u07KPVzsA&amp;oh=00_Af_tnH2bGJub0kVGnNctP-4ziHNYP1zHnCvP3lk5NCvpOQ&amp;oe=6A46FB68\",\"150\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/729275238_18417554110198112_8034942862832175944_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=HILc0vdgOggQ7kNvwE8ambf&amp;_nc_oc=Adoz9uQvDoTaQJ2q7B6ZPWTZ3jHbieq7guarvWHUQ1KgzKzPB8tXo_bnIhmD8vKb6jo&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFClSYy-wF2VXCow-ATsenbsj-JDPohisEztVQ8RSPBklJfIAtmnveFDX2NgAMMvFNA7u07KPVzsA&amp;oh=00_Af_tnH2bGJub0kVGnNctP-4ziHNYP1zHnCvP3lk5NCvpOQ&amp;oe=6A46FB68\",\"320\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/729275238_18417554110198112_8034942862832175944_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=HILc0vdgOggQ7kNvwE8ambf&amp;_nc_oc=Adoz9uQvDoTaQJ2q7B6ZPWTZ3jHbieq7guarvWHUQ1KgzKzPB8tXo_bnIhmD8vKb6jo&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFClSYy-wF2VXCow-ATsenbsj-JDPohisEztVQ8RSPBklJfIAtmnveFDX2NgAMMvFNA7u07KPVzsA&amp;oh=00_Af_tnH2bGJub0kVGnNctP-4ziHNYP1zHnCvP3lk5NCvpOQ&amp;oe=6A46FB68\",\"640\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/729275238_18417554110198112_8034942862832175944_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=HILc0vdgOggQ7kNvwE8ambf&amp;_nc_oc=Adoz9uQvDoTaQJ2q7B6ZPWTZ3jHbieq7guarvWHUQ1KgzKzPB8tXo_bnIhmD8vKb6jo&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFClSYy-wF2VXCow-ATsenbsj-JDPohisEztVQ8RSPBklJfIAtmnveFDX2NgAMMvFNA7u07KPVzsA&amp;oh=00_Af_tnH2bGJub0kVGnNctP-4ziHNYP1zHnCvP3lk5NCvpOQ&amp;oe=6A46FB68\"}' href=\"https://www.instagram.com/p/DZ66UmgDeK8/\" rel=\"noopener nofollow\" target=\"_blank\">\n¿Dónde celebrar San Juan en Valencia esta noche? 🔥\n<svg aria-hidden=\"true\" aria-label=\"Clone\" data-fa-pro=\"\" data-icon=\"clone\" data-prefix=\"far\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M464 0H144c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h320c26.51 0 48-21.49 48-48v-48h48c26.51 0 48-21.49 48-48V48c0-26.51-21.49-48-48-48zM362 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h42v224c0 26.51 21.49 48 48 48h224v42a6 6 0 0 1-6 6zm96-96H150a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h308a6 6 0 0 1 6 6v308a6 6 0 0 1-6 6z\" fill=\"currentColor\"></path>\n</svg> <img alt=\"¿Dónde celebrar San Juan en Valencia esta noche? 🔥🌊\n📍 La Malvarrosa\n📍 Las Arenas\n📍 La Patacona\n🛑 Recuerda: hacer fuego está totalmente prohibido en las playas del Parque Natural de L'Albufera (El Saler, La Devesa, La Garrofera).\n¿A cuál vas con tu grupo? 👇\n•\nWhere to celebrate San Juan in Valencia tonight? 🔥🌊\n📍 La Malvarrosa\n📍 Las Arenas\n📍 La Patacona\n🛑 Remember: bonfires are strictly forbidden on the southern beaches of L'Albufera Natural Park (El Saler, La Devesa, La Garrofera).\nWhere are you heading with your group? 👇\n#valencia #valenciaplanes #sanjuan #plansvalencia #sanjuanplaya\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730022161_18417566752198112_270463653093380698_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=3_SBxUB9jmEQ7kNvwFxXznm&amp;_nc_oc=Adp09MdYSvuLibNODTFqx8FaUt3ahs9IlqmzgvDg-mNM4rkJrGlHVlIFyNnoflsgyog&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHUeF2pI1JSWqKAJhPLnZQDTIPtAWV9WRFhq48wFXVCjoFTIxU-LIzoJWol0cZ4t4hT8dakNSSZgw&amp;oh=00_Af8wutCwTNgOZ4UZDlc4lLf0SzIBaAI985w6hsf_7aJdUg&amp;oe=6A4714D3\" data-img-src-set='{\"d\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730022161_18417566752198112_270463653093380698_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=3_SBxUB9jmEQ7kNvwFxXznm&amp;_nc_oc=Adp09MdYSvuLibNODTFqx8FaUt3ahs9IlqmzgvDg-mNM4rkJrGlHVlIFyNnoflsgyog&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHUeF2pI1JSWqKAJhPLnZQDTIPtAWV9WRFhq48wFXVCjoFTIxU-LIzoJWol0cZ4t4hT8dakNSSZgw&amp;oh=00_Af8wutCwTNgOZ4UZDlc4lLf0SzIBaAI985w6hsf_7aJdUg&amp;oe=6A4714D3\",\"150\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730022161_18417566752198112_270463653093380698_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=3_SBxUB9jmEQ7kNvwFxXznm&amp;_nc_oc=Adp09MdYSvuLibNODTFqx8FaUt3ahs9IlqmzgvDg-mNM4rkJrGlHVlIFyNnoflsgyog&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHUeF2pI1JSWqKAJhPLnZQDTIPtAWV9WRFhq48wFXVCjoFTIxU-LIzoJWol0cZ4t4hT8dakNSSZgw&amp;oh=00_Af8wutCwTNgOZ4UZDlc4lLf0SzIBaAI985w6hsf_7aJdUg&amp;oe=6A4714D3\",\"320\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730022161_18417566752198112_270463653093380698_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=3_SBxUB9jmEQ7kNvwFxXznm&amp;_nc_oc=Adp09MdYSvuLibNODTFqx8FaUt3ahs9IlqmzgvDg-mNM4rkJrGlHVlIFyNnoflsgyog&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHUeF2pI1JSWqKAJhPLnZQDTIPtAWV9WRFhq48wFXVCjoFTIxU-LIzoJWol0cZ4t4hT8dakNSSZgw&amp;oh=00_Af8wutCwTNgOZ4UZDlc4lLf0SzIBaAI985w6hsf_7aJdUg&amp;oe=6A4714D3\",\"640\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/730022161_18417566752198112_270463653093380698_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=3_SBxUB9jmEQ7kNvwFxXznm&amp;_nc_oc=Adp09MdYSvuLibNODTFqx8FaUt3ahs9IlqmzgvDg-mNM4rkJrGlHVlIFyNnoflsgyog&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHUeF2pI1JSWqKAJhPLnZQDTIPtAWV9WRFhq48wFXVCjoFTIxU-LIzoJWol0cZ4t4hT8dakNSSZgw&amp;oh=00_Af8wutCwTNgOZ4UZDlc4lLf0SzIBaAI985w6hsf_7aJdUg&amp;oe=6A4714D3\"}' href=\"https://www.instagram.com/reel/DZ2Dp8jt2fY/\" rel=\"noopener nofollow\" target=\"_blank\">\n¿Conocías la verdadera leyenda de la horchata? 👑🌾\n<svg aria-hidden=\"true\" aria-label=\"Play\" data-fa-processed=\"\" data-icon=\"play\" data-prefix=\"fa\" style=\"color: rgba(255,255,255,1)\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\" fill=\"currentColor\"></path></svg> <img alt='¿Conocías la verdadera leyenda de la horchata? 👑🌾\n¿Quieres conocer más historias, secretos y curiosidades de Valencia? 👀 ¡Tienes muchísima más info y vídeos completos en nuestro canal de YouTube!\n👉 Link en nuestra bio.\n•\nDo you know the real legend behind \"Horchata\"? 👑🌾\nStory goes that on a hot summer day, a young local girl offered a glass of this refreshing drink to King James I. After tasting it, the king was amazed and asked what it was.\nThe girl humbly replied that it was \"tiger nut milk\". The king, fascinated by the taste, answered in Valencian: \"Açò no és llet, açò és OR, XATA!\" (This is not milk, this is gold, girl!).\nAnd just like that, according to the legend, the name of our most international drink was born. ✨\nWant to discover more stories, secrets, and fun facts about Valencia? 👀 You’ll find plenty of full videos and information on our YouTube channel!\n👉 Link in bio\n#valencia #horchata #horchatalatte #guidedtour #foodgasm' aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726294707_18416671831198112_5007151218514008070_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=GMsuxrpdthMQ7kNvwEkfHQF&amp;_nc_oc=Adrh7NctiBBq1kbJFz0SYe51Nc6SLebXPg2UOtqMXp9S9iOkieZhS4Z54Vf-3ONH5pY&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFcQXl_A-8zz6x5t9Ux0_sICBBoHkGPRbSTcwiKxZ2ns0sdnjLqA_5fjz_Q2VNcI2U0GKQiDx6HTg&amp;oh=00_Af_hW0_smvfG8fN8V2aiDjbmOUhbgc8hx_l-1ZTm_DcWyg&amp;oe=6A46EE4B\" data-img-src-set='{\"d\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726294707_18416671831198112_5007151218514008070_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=GMsuxrpdthMQ7kNvwEkfHQF&amp;_nc_oc=Adrh7NctiBBq1kbJFz0SYe51Nc6SLebXPg2UOtqMXp9S9iOkieZhS4Z54Vf-3ONH5pY&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFcQXl_A-8zz6x5t9Ux0_sICBBoHkGPRbSTcwiKxZ2ns0sdnjLqA_5fjz_Q2VNcI2U0GKQiDx6HTg&amp;oh=00_Af_hW0_smvfG8fN8V2aiDjbmOUhbgc8hx_l-1ZTm_DcWyg&amp;oe=6A46EE4B\",\"150\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726294707_18416671831198112_5007151218514008070_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=GMsuxrpdthMQ7kNvwEkfHQF&amp;_nc_oc=Adrh7NctiBBq1kbJFz0SYe51Nc6SLebXPg2UOtqMXp9S9iOkieZhS4Z54Vf-3ONH5pY&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFcQXl_A-8zz6x5t9Ux0_sICBBoHkGPRbSTcwiKxZ2ns0sdnjLqA_5fjz_Q2VNcI2U0GKQiDx6HTg&amp;oh=00_Af_hW0_smvfG8fN8V2aiDjbmOUhbgc8hx_l-1ZTm_DcWyg&amp;oe=6A46EE4B\",\"320\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726294707_18416671831198112_5007151218514008070_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=GMsuxrpdthMQ7kNvwEkfHQF&amp;_nc_oc=Adrh7NctiBBq1kbJFz0SYe51Nc6SLebXPg2UOtqMXp9S9iOkieZhS4Z54Vf-3ONH5pY&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFcQXl_A-8zz6x5t9Ux0_sICBBoHkGPRbSTcwiKxZ2ns0sdnjLqA_5fjz_Q2VNcI2U0GKQiDx6HTg&amp;oh=00_Af_hW0_smvfG8fN8V2aiDjbmOUhbgc8hx_l-1ZTm_DcWyg&amp;oe=6A46EE4B\",\"640\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726294707_18416671831198112_5007151218514008070_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=107&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=GMsuxrpdthMQ7kNvwEkfHQF&amp;_nc_oc=Adrh7NctiBBq1kbJFz0SYe51Nc6SLebXPg2UOtqMXp9S9iOkieZhS4Z54Vf-3ONH5pY&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQFcQXl_A-8zz6x5t9Ux0_sICBBoHkGPRbSTcwiKxZ2ns0sdnjLqA_5fjz_Q2VNcI2U0GKQiDx6HTg&amp;oh=00_Af_hW0_smvfG8fN8V2aiDjbmOUhbgc8hx_l-1ZTm_DcWyg&amp;oe=6A46EE4B\"}' href=\"https://www.instagram.com/p/DZuGJjpDdBT/\" rel=\"noopener nofollow\" target=\"_blank\">\nOs dejamos nuestros ✨rooftops favoritos✨ de Valenc\n<svg aria-hidden=\"true\" aria-label=\"Clone\" data-fa-pro=\"\" data-icon=\"clone\" data-prefix=\"far\" viewbox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M464 0H144c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h320c26.51 0 48-21.49 48-48v-48h48c26.51 0 48-21.49 48-48V48c0-26.51-21.49-48-48-48zM362 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h42v224c0 26.51 21.49 48 48 48h224v42a6 6 0 0 1-6 6zm96-96H150a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h308a6 6 0 0 1 6 6v308a6 6 0 0 1-6 6z\" fill=\"currentColor\"></path>\n</svg> <img alt=\"Os dejamos nuestros ✨rooftops favoritos✨ de Valencia para este verano:\n1. Atenea Sky @atenea.sky\n2. The Coin Rooftop Bar\n3. 270 Terrace en Barceló\n4. Sky Bar Novotel @novotelvalencialavant\n5. Luna de Valencia @lunadevalenciarooftop\nComenta si crees que nos falta alguno por mencionar 👇🧡\n•\nHere are our ✨favorite rooftops✨ in Valencia for this summer:\n1. Atenea Sky @atenea.sky\n2. The Coin Rooftop Bar\n3. 270 Terrace en Barceló\n4. Sky Bar Novotel @novotelvalencialavant\n5. Luna de Valencia @lunadevalenciarooftop\nLet us know if you think we've left anyone out 👇🧡\n#valencia #rooftop #summervibes☀️ #valenciaplan #valenciaspain\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/726337134_18416502226198112_3908466607103435549_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=80zmCnh0hlsQ7kNvwF50tdp&amp;_nc_oc=AdqRyO9xm1cjjYOaumMm8KDfasW0HPNwIiDlgHmRYCf_8zTGr8enq9N4kDO88aiv2t8&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHt-fZoMRMAv8LLMKImcRX3rZrg3-B3mju8vACH1QZnVugpBov0Ofnw8MA4oosRRjpojUHMLKRXKA&amp;oh=00_Af_hSi1tV_exURPZg4JG61R5hK8a-ly3BJi-y4cS1jubVg&amp;oe=6A4722BD\" data-img-src-set='{\"d\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/726337134_18416502226198112_3908466607103435549_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=80zmCnh0hlsQ7kNvwF50tdp&amp;_nc_oc=AdqRyO9xm1cjjYOaumMm8KDfasW0HPNwIiDlgHmRYCf_8zTGr8enq9N4kDO88aiv2t8&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHt-fZoMRMAv8LLMKImcRX3rZrg3-B3mju8vACH1QZnVugpBov0Ofnw8MA4oosRRjpojUHMLKRXKA&amp;oh=00_Af_hSi1tV_exURPZg4JG61R5hK8a-ly3BJi-y4cS1jubVg&amp;oe=6A4722BD\",\"150\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/726337134_18416502226198112_3908466607103435549_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=80zmCnh0hlsQ7kNvwF50tdp&amp;_nc_oc=AdqRyO9xm1cjjYOaumMm8KDfasW0HPNwIiDlgHmRYCf_8zTGr8enq9N4kDO88aiv2t8&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHt-fZoMRMAv8LLMKImcRX3rZrg3-B3mju8vACH1QZnVugpBov0Ofnw8MA4oosRRjpojUHMLKRXKA&amp;oh=00_Af_hSi1tV_exURPZg4JG61R5hK8a-ly3BJi-y4cS1jubVg&amp;oe=6A4722BD\",\"320\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/726337134_18416502226198112_3908466607103435549_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=80zmCnh0hlsQ7kNvwF50tdp&amp;_nc_oc=AdqRyO9xm1cjjYOaumMm8KDfasW0HPNwIiDlgHmRYCf_8zTGr8enq9N4kDO88aiv2t8&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHt-fZoMRMAv8LLMKImcRX3rZrg3-B3mju8vACH1QZnVugpBov0Ofnw8MA4oosRRjpojUHMLKRXKA&amp;oh=00_Af_hSi1tV_exURPZg4JG61R5hK8a-ly3BJi-y4cS1jubVg&amp;oe=6A4722BD\",\"640\":\"https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/726337134_18416502226198112_3908466607103435549_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=111&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=80zmCnh0hlsQ7kNvwF50tdp&amp;_nc_oc=AdqRyO9xm1cjjYOaumMm8KDfasW0HPNwIiDlgHmRYCf_8zTGr8enq9N4kDO88aiv2t8&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=x0D1w18wcxj8gxoyXoz_zw&amp;_nc_tpa=Q5bMBQHt-fZoMRMAv8LLMKImcRX3rZrg3-B3mju8vACH1QZnVugpBov0Ofnw8MA4oosRRjpojUHMLKRXKA&amp;oh=00_Af_hSi1tV_exURPZg4JG61R5hK8a-ly3BJi-y4cS1jubVg&amp;oe=6A4722BD\"}' href=\"https://www.instagram.com/reel/DZpLa3yNH5X/\" rel=\"noopener nofollow\" target=\"_blank\">\n¿El planazo definitivo después de uno de nuestros\n<svg aria-hidden=\"true\" aria-label=\"Play\" data-fa-processed=\"\" data-icon=\"play\" data-prefix=\"fa\" style=\"color: rgba(255,255,255,1)\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\" fill=\"currentColor\"></path></svg> <img alt=\"¿El planazo definitivo después de uno de nuestros tours? 🚩✨ Recargar energía con un gelato espectacular en @gelaterialaromana_es\n¿Con qué sabor te quedas? 🍦👇\n📍La Romana, Valencia\n•\nThe ultimate plan after one of our tours? 🚶‍♀️✨ Recharging with an amazing gelato at La Romana.\n📍La Romana, Valencia\n#valencia #heladoartesanal #icecreamshop #valenciaspain #italiavalencia\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/725796231_18416672524198112_2099204704447319378_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=EP5dCbo47boQ7kNvwFq4x8O&amp;_nc_oc=AdpmdRXNTg4cCy2pbEkS_DoSElYW9k0L5ASXcGdEF_rJQXLKOGKwf3J5awHBETMlqWE&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGGPMmW2hY_QUrZ3QGMLrPrYAJLav05sd_u0pjU4lzjkx5Td1idPNn2zP-dEPDAvDNPn6XgpnmzQw&amp;oh=00_Af-wJ02wpxEIkgt1-HrRcop_WdBoqZxNp2atpLkiu7CjQQ&amp;oe=6A46EE51\" data-img-src-set='{\"d\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/725796231_18416672524198112_2099204704447319378_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=EP5dCbo47boQ7kNvwFq4x8O&amp;_nc_oc=AdpmdRXNTg4cCy2pbEkS_DoSElYW9k0L5ASXcGdEF_rJQXLKOGKwf3J5awHBETMlqWE&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGGPMmW2hY_QUrZ3QGMLrPrYAJLav05sd_u0pjU4lzjkx5Td1idPNn2zP-dEPDAvDNPn6XgpnmzQw&amp;oh=00_Af-wJ02wpxEIkgt1-HrRcop_WdBoqZxNp2atpLkiu7CjQQ&amp;oe=6A46EE51\",\"150\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/725796231_18416672524198112_2099204704447319378_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=EP5dCbo47boQ7kNvwFq4x8O&amp;_nc_oc=AdpmdRXNTg4cCy2pbEkS_DoSElYW9k0L5ASXcGdEF_rJQXLKOGKwf3J5awHBETMlqWE&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGGPMmW2hY_QUrZ3QGMLrPrYAJLav05sd_u0pjU4lzjkx5Td1idPNn2zP-dEPDAvDNPn6XgpnmzQw&amp;oh=00_Af-wJ02wpxEIkgt1-HrRcop_WdBoqZxNp2atpLkiu7CjQQ&amp;oe=6A46EE51\",\"320\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/725796231_18416672524198112_2099204704447319378_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=EP5dCbo47boQ7kNvwFq4x8O&amp;_nc_oc=AdpmdRXNTg4cCy2pbEkS_DoSElYW9k0L5ASXcGdEF_rJQXLKOGKwf3J5awHBETMlqWE&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGGPMmW2hY_QUrZ3QGMLrPrYAJLav05sd_u0pjU4lzjkx5Td1idPNn2zP-dEPDAvDNPn6XgpnmzQw&amp;oh=00_Af-wJ02wpxEIkgt1-HrRcop_WdBoqZxNp2atpLkiu7CjQQ&amp;oe=6A46EE51\",\"640\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/725796231_18416672524198112_2099204704447319378_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=EP5dCbo47boQ7kNvwFq4x8O&amp;_nc_oc=AdpmdRXNTg4cCy2pbEkS_DoSElYW9k0L5ASXcGdEF_rJQXLKOGKwf3J5awHBETMlqWE&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGGPMmW2hY_QUrZ3QGMLrPrYAJLav05sd_u0pjU4lzjkx5Td1idPNn2zP-dEPDAvDNPn6XgpnmzQw&amp;oh=00_Af-wJ02wpxEIkgt1-HrRcop_WdBoqZxNp2atpLkiu7CjQQ&amp;oe=6A46EE51\"}' href=\"https://www.instagram.com/reel/DZmWmpCNu-V/\" rel=\"noopener nofollow\" target=\"_blank\">\nSaviez-vous que Valence est un musée à ciel ouvert\n<svg aria-hidden=\"true\" aria-label=\"Play\" data-fa-processed=\"\" data-icon=\"play\" data-prefix=\"fa\" style=\"color: rgba(255,255,255,1)\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\" fill=\"currentColor\"></path></svg> <img alt=\"Saviez-vous que Valence est un musée à ciel ouvert ? 🏛️✨\nDécouvrez les secrets de son histoire avec notre Tour d'Art et d'Architecture. Laissez-vous séduire par chaque détail !\n👉 Lien dans la bio pour réserver.\n•\n¿Sabías que Valencia es un museo al aire libre? 🏛️✨\nDescubre los secretos de su historia con nuestro Tour de Arte y Arquitectura. ¡Déjate enamorar por cada detalle!\n👉 Tienes el link en nuestra bio para reservar\n#valencia #valenciafrancés #frenchstyle #valenciaspain #guidedtour\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><a data-full-res=\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726427257_18416679874198112_107691134071350395_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=q96-XbNBZPAQ7kNvwEx8RbM&amp;_nc_oc=Adq_uV3tZXFfwS9yjQs-JAaWyse-vc5S8GygBOJ6QH6H147DBia6cKpFS5w8drO3AAQ&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGbxAw6Sl-8uJ9xjncyaD6SsLyRKR8lDCMszHiYumqs-d-aqzlQbtJmSpF1u_t_T5sz5O0mB913HA&amp;oh=00_Af-DNHC0MlkTb2LpYFjSWpkbQTNN1RYS9GeZ8rqnAT19xg&amp;oe=6A470D45\" data-img-src-set='{\"d\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726427257_18416679874198112_107691134071350395_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=q96-XbNBZPAQ7kNvwEx8RbM&amp;_nc_oc=Adq_uV3tZXFfwS9yjQs-JAaWyse-vc5S8GygBOJ6QH6H147DBia6cKpFS5w8drO3AAQ&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGbxAw6Sl-8uJ9xjncyaD6SsLyRKR8lDCMszHiYumqs-d-aqzlQbtJmSpF1u_t_T5sz5O0mB913HA&amp;oh=00_Af-DNHC0MlkTb2LpYFjSWpkbQTNN1RYS9GeZ8rqnAT19xg&amp;oe=6A470D45\",\"150\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726427257_18416679874198112_107691134071350395_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=q96-XbNBZPAQ7kNvwEx8RbM&amp;_nc_oc=Adq_uV3tZXFfwS9yjQs-JAaWyse-vc5S8GygBOJ6QH6H147DBia6cKpFS5w8drO3AAQ&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGbxAw6Sl-8uJ9xjncyaD6SsLyRKR8lDCMszHiYumqs-d-aqzlQbtJmSpF1u_t_T5sz5O0mB913HA&amp;oh=00_Af-DNHC0MlkTb2LpYFjSWpkbQTNN1RYS9GeZ8rqnAT19xg&amp;oe=6A470D45\",\"320\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726427257_18416679874198112_107691134071350395_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=q96-XbNBZPAQ7kNvwEx8RbM&amp;_nc_oc=Adq_uV3tZXFfwS9yjQs-JAaWyse-vc5S8GygBOJ6QH6H147DBia6cKpFS5w8drO3AAQ&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGbxAw6Sl-8uJ9xjncyaD6SsLyRKR8lDCMszHiYumqs-d-aqzlQbtJmSpF1u_t_T5sz5O0mB913HA&amp;oh=00_Af-DNHC0MlkTb2LpYFjSWpkbQTNN1RYS9GeZ8rqnAT19xg&amp;oe=6A470D45\",\"640\":\"https://scontent-mad1-1.cdninstagram.com/v/t51.82787-15/726427257_18416679874198112_107691134071350395_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=102&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&amp;_nc_ohc=q96-XbNBZPAQ7kNvwEx8RbM&amp;_nc_oc=Adq_uV3tZXFfwS9yjQs-JAaWyse-vc5S8GygBOJ6QH6H147DBia6cKpFS5w8drO3AAQ&amp;_nc_zt=23&amp;_nc_ht=scontent-mad1-1.cdninstagram.com&amp;edm=ANo9K5cEAAAA&amp;_nc_gid=lrOlmgqAYkLdk48rimjivw&amp;_nc_tpa=Q5bMBQGbxAw6Sl-8uJ9xjncyaD6SsLyRKR8lDCMszHiYumqs-d-aqzlQbtJmSpF1u_t_T5sz5O0mB913HA&amp;oh=00_Af-DNHC0MlkTb2LpYFjSWpkbQTNN1RYS9GeZ8rqnAT19xg&amp;oe=6A470D45\"}' href=\"https://www.instagram.com/reel/DZfGtIgND7q/\" rel=\"noopener nofollow\" target=\"_blank\">\nScore a goal with your eyes closed = FREE vermouth\n<svg aria-hidden=\"true\" aria-label=\"Play\" data-fa-processed=\"\" data-icon=\"play\" data-prefix=\"fa\" style=\"color: rgba(255,255,255,1)\" viewbox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z\" fill=\"currentColor\"></path></svg> <img alt=\"Score a goal with your eyes closed = FREE vermouth! ⚽️🥃\nWe hit the streets of Mercado Central with @benvolgut_vermuts to test your football skills. The challenge sounds easy, but is it? 🫣 Watch to see who nailed it!\nWould you have scored? 👇\n•\n¡Marcar un gol con los ojos cerrados = Vermú GRATIS! ⚽️🥃🏆\nAprovechando la locura del Mundial, salimos a los alrededores del Mercado Central con Benvolgut para poner a prueba vuestra puntería. El reto suena fácil, pero... ¿lo es? 🫣 ¡Mira el vídeo para ver quién lo consiguió!\n¿Tú habrías marcado el gol decisivo? 👇\n#valenciaspain #mundial #football #plansvalencia #spaintravel\" aria-hidden=\"true\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/plugins/instagram-feed/img/placeholder.png\"/>\n</a><button type=\"button\">\nCargar más\n</button><a href=\"https://www.instagram.com/valenciaandgo/\" rel=\"nofollow noopener\" style=\"background: rgb(64,139,209);\" target=\"_blank\">\n<svg aria-hidden=\"true\" aria-label=\"Instagram\" data-fa-processed=\"\" data-icon=\"instagram\" data-prefix=\"fab\" viewbox=\"0 0 448 512\">\n<path d=\"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z\" fill=\"currentColor\"></path>\n</svg> Seguir en Instagram\n</a></p>\n<h2>Empresas que han confiado en\nnosotras\n</h2>\n<figure><img alt=\"Logotipo de Lekkerland\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/uploads/2025/10/img-empresas-lekkerland.webp\"/></figure><figure><img alt=\"Logotipo de Cáritas\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/uploads/2025/10/img-empresas-caritas.webp\"/></figure><figure><img alt=\"Logotipo de JYSK\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/uploads/2025/10/img-empresas-jysk.webp\"/></figure><figure><img alt=\"Logotipo de Cruz Roja Española\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/uploads/2025/10/img-empresas-cruzrojaespanola.webp\"/></figure><figure><img alt=\"Logotipo de MediaMarkt\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/uploads/2025/10/img-empresas-mediamarkt.webp\"/></figure><figure><img alt=\"Logotipo de Maersk\" decoding=\"async\" loading=\"lazy\" src=\"/wp-content/uploads/2025/10/img-empresas-maersk.webp\"/></figure>",
+ "palabras": 496,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "dff3c28",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "c2ae507",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "b54be20",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "5f12de2",
+               "alinear": "center",
+               "relleno": "10px 6px 0px 6px",
+               "fondo": {
+                "color": "#FFFFFF85"
+               },
+               "borde": {
+                "radio": "10px 10px 10px 10px"
+               },
+               "html": "<p>Se convertirá en tu recuerdo favorito.</p>",
+               "color": "#333333",
+               "tipo": {
+                "tamano": 16.0,
+                "tamanoMovil": 15.0,
+                "interlineado": 16.0,
+                "interlineadoUnidad": "px"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "encabezado",
+           "id": "cb607ae",
+           "alinear": "center",
+           "texto": "Tours y excursiones por Valencia",
+           "etiqueta": "h1",
+           "color": "#FFFFFF",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 65.0,
+            "tamanoMovil": 45.0,
+            "peso": "600",
+            "interlineado": 69.0,
+            "interlineadoUnidad": "px"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "b47feba",
+           "alinear": "center",
+           "html": "<p data-prosemirror-content-type=\"node\" data-prosemirror-node-name=\"paragraph\" data-prosemirror-node-block=\"true\" data-pm-slice=\"1 1 []\"><strong>Déjate llevar por quienes mejor conocen Valencia:</strong> tours y excursiones con transporte, entradas y guías oficiales locales</p>",
+           "color": "#FFFFFF",
+           "tipo": {
+            "tamano": 20.0,
+            "tamanoMovil": 18.0
+           }
+          },
+          {
+           "t": "boton",
+           "id": "9538bf5",
+           "texto": "RESERVA TU PLAZA AHORA",
+           "url": "#ver-tours",
+           "tipo": {
+            "tamano": 14.0
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "96696e0",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": []
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "0494195",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "encabezado",
+       "id": "1c42dc7",
+       "alinear": "center",
+       "margenMovil": "16px 0px 0px 0px",
+       "texto": "Nuestros tours más queridos",
+       "etiqueta": "h2",
+       "color": "#EF8031",
+       "tipo": {
+        "familia": "Baloo Bhaijaan 2",
+        "tamano": 45.0,
+        "tamanoMovil": 25.0,
+        "peso": "600",
+        "interlineado": 1.3,
+        "interlineadoUnidad": "em"
+       }
+      },
+      {
+       "t": "seccion",
+       "id": "3458bb3",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "texto",
+           "id": "c12a9ad",
+           "alinear": "center",
+           "margenMovil": "-13px 0px 0px 0px",
+           "html": "<p>Los <strong>favoritos</strong> de quienes ya han vivido la experiencia <strong>Valencia&Go</strong>.<br />¿No sabes qué ver en Valencia? <strong>Empieza por aquí.</strong></p>",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 16.0,
+            "peso": "400"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "092c878",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": []
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "9b6fe72",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "a159b5b",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "19fd49d",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "86fa0a8",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "895cf0b",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "imagen",
+               "id": "deae695",
+               "src": "/wp-content/uploads/2025/10/icono-tours-a-pie.svg",
+               "alt": "",
+               "ancho": "28%",
+               "anchoMovil": "51%"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "5edae7f",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "8ad2e37",
+               "texto": "TOURS A PIE",
+               "etiqueta": "h3",
+               "tipo": {
+                "tamano": 20.0,
+                "interlineado": 1.2,
+                "interlineadoUnidad": "em"
+               }
+              },
+              {
+               "t": "texto",
+               "id": "d8f7ac1",
+               "html": "<p>Cultura local</p>",
+               "tipo": {
+                "tamano": 16.0
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "27ebbd4",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "613bcda",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "imagen",
+               "id": "912565f",
+               "src": "/wp-content/uploads/2025/10/icono-excursiones.svg",
+               "alt": "",
+               "ancho": "28%",
+               "anchoMovil": "51%"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "de4315d",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "ffd3ed5",
+               "texto": "EXCURSIONES",
+               "etiqueta": "h3",
+               "tipo": {
+                "tamano": 20.0,
+                "interlineado": 1.2,
+                "interlineadoUnidad": "em"
+               }
+              },
+              {
+               "t": "texto",
+               "id": "a0b1d10",
+               "alinearTablet": "center",
+               "alinearMovil": "left",
+               "html": "<p>Transporte, entradas y guía incluidos</p>",
+               "tipo": {
+                "tamano": 16.0
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "a2db4e5",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "2201354",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "imagen",
+               "id": "0a63eb8",
+               "src": "/wp-content/uploads/2025/10/icono-tours-privados.svg",
+               "alt": "",
+               "ancho": "28%",
+               "anchoMovil": "51%"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "feaac1a",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "e280262",
+               "texto": "TOURS PRIVADOS",
+               "etiqueta": "h3",
+               "tipo": {
+                "tamano": 20.0,
+                "interlineado": 1.2,
+                "interlineadoUnidad": "em"
+               }
+              },
+              {
+               "t": "texto",
+               "id": "d5a9679",
+               "html": "<p>Hechos para ti</p>",
+               "tipo": {
+                "tamano": 16.0
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "eb47193",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "393ba72",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "imagen",
+               "id": "4514616",
+               "src": "/wp-content/uploads/2025/10/icono-soporte.svg",
+               "alt": "",
+               "ancho": "28%",
+               "anchoMovil": "51%"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "bcfa0f7",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "0c93edd",
+               "texto": "SOPORTE",
+               "etiqueta": "h3",
+               "tipo": {
+                "tamano": 20.0,
+                "interlineado": 1.2,
+                "interlineadoUnidad": "em"
+               }
+              },
+              {
+               "t": "texto",
+               "id": "c7ccd4e",
+               "html": "<p>Todos los días de 8hrs a 20hrs</p>",
+               "tipo": {
+                "tamano": 16.0
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "39151b8",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "80e9993",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "imagen",
+               "id": "241b911",
+               "src": "/wp-content/uploads/2025/10/icono-sin-intermediarios.svg",
+               "alt": "",
+               "ancho": "28%",
+               "anchoMovil": "51%"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "b0c523a",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "4916490",
+               "texto": "DIRECTO",
+               "etiqueta": "h3",
+               "tipo": {
+                "tamano": 20.0,
+                "interlineado": 1.2,
+                "interlineadoUnidad": "em"
+               }
+              },
+              {
+               "t": "texto",
+               "id": "7dfb870",
+               "html": "<p>Y sin intermediarios</p>",
+               "tipo": {
+                "tamano": 16.0
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "e460c11",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "b175bb6",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "imagen",
+               "id": "e1d6648",
+               "src": "/wp-content/uploads/2025/10/icono-idiomas.svg",
+               "alt": "",
+               "ancho": "28%",
+               "anchoMovil": "51%"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "5695fe4",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "402c690",
+               "texto": "IDIOMAS",
+               "etiqueta": "h3",
+               "tipo": {
+                "tamano": 20.0,
+                "interlineado": 1.2,
+                "interlineadoUnidad": "em"
+               }
+              },
+              {
+               "t": "texto",
+               "id": "047b262",
+               "html": "<p>Guías que te entienden</p>",
+               "tipo": {
+                "tamano": 16.0
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "d760916",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "3dadc74",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "imagen",
+           "id": "ce7b470",
+           "margen": "0px 0px 0px 0px",
+           "src": "/wp-content/uploads/2026/03/equipo-valencia-and-go.webp",
+           "alt": "",
+           "ancho": "100%"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "59fc6d6",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "encabezado",
+           "id": "921f4aa",
+           "alinearMovil": "center",
+           "texto": "Explora lo mejor de Valencia con quienes la viven cada día",
+           "etiqueta": "h2",
+           "color": "#000000",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 45.0,
+            "tamanoMovil": 25.0,
+            "peso": "600",
+            "interlineado": 1.3,
+            "interlineadoUnidad": "em"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "b3ec50e",
+           "html": "<p>¡Vivimos <strong>Valencia</strong> con pasión y queremos contagiarte esa energía!</p><p>Somos <strong>guías oficiales locales</strong> y diseñamos experiencias pensadas para ti, con mimo, cercanía y <strong>sin intermediarios</strong>.</p><p>Queremos que descubras qué ver en <strong>Valencia</strong>… y que te sientas parte de ella.</p>",
+           "tipo": {
+            "tamano": 16.0
+           }
+          },
+          {
+           "t": "boton",
+           "id": "ad087ae",
+           "alinearMovil": "center",
+           "texto": "CONOCE AL EQUIPO",
+           "url": "/quienes-somos/",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 17.0,
+            "tamanoMovil": 14.0,
+            "peso": "400"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "d7adc8b",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "3fedd7b",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "encabezado",
+           "id": "07788fc",
+           "alinearMovil": "center",
+           "texto": "¿Por qué Valencia&Go?",
+           "etiqueta": "h2",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 45.0,
+            "tamanoMovil": 25.0,
+            "peso": "600",
+            "interlineado": 1.3,
+            "interlineadoUnidad": "em"
+           }
+          },
+          {
+           "t": "seccion",
+           "id": "824725a",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "seccion",
+               "id": "716b369",
+               "columnas": [
+                {
+                 "ancho": 100,
+                 "elementos": [
+                  {
+                   "t": "boton",
+                   "id": "c63ca87",
+                   "texto": "CONTACTA",
+                   "url": ""
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "t": "seccion",
+               "id": "ec40d05",
+               "columnas": [
+                {
+                 "ancho": 100,
+                 "elementos": [
+                  {
+                   "t": "boton",
+                   "id": "6822479",
+                   "texto": "BUSCA INSPIRACIÓN",
+                   "url": ""
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "945a2b7",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "imagen",
+           "id": "8dc25ed",
+           "margen": "0px 0px 0px 0px",
+           "src": "/wp-content/uploads/2026/03/atardecer-albufera.webp",
+           "alt": "",
+           "ancho": "100%"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "0fbbb4f",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "d9f5795",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": []
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "fddff6f",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "encabezado",
+           "id": "4696f8d",
+           "alinearMovil": "center",
+           "texto": "Teambuildings en Valencia para\nempresas",
+           "etiqueta": "h2",
+           "tipo": {
+            "tamano": 45.0,
+            "tamanoMovil": 25.0,
+            "peso": "600",
+            "interlineado": 1.3,
+            "interlineadoUnidad": "em"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "c1df143",
+           "html": "<p>¿Sois una empresa y buscáis una experiencia única en Valencia?</p><p>Organizamos eventos corporativos a medida: desde el alquiler de espacios exclusivos y traslados, hasta actividades dinámicas en equipo, gincanas urbanas, cenas de gala y viajes de incentivo.</p><p>Cuéntanos vuestra idea y la convertiremos en una experiencia inolvidable.</p>",
+           "tipo": {
+            "tamano": 16.0
+           }
+          },
+          {
+           "t": "boton",
+           "id": "d6a5071",
+           "alinearMovil": "center",
+           "texto": "SOLICITA INFORMACIÓN",
+           "url": "/experiencias-a-medida/",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 17.0,
+            "tamanoMovil": 14.0,
+            "peso": "400"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "eee99ab",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "ebc2dd3",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "encabezado",
+           "id": "240379a",
+           "alinear": "start",
+           "alinearMovil": "center",
+           "texto": "Diseña tu experiencia en Valencia",
+           "etiqueta": "h2",
+           "tipo": {
+            "tamano": 45.0,
+            "tamanoMovil": 25.0,
+            "peso": "600",
+            "interlineado": 1.3,
+            "interlineadoUnidad": "em"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "242add3",
+           "html": "<p>Porque no todos los viajes son iguales.<br />Te ayudamos a combinar actividades para crear el plan perfecto según tus días en la ciudad.</p>",
+           "tipo": {
+            "tamano": 16.0
+           }
+          },
+          {
+           "t": "texto",
+           "id": "238e2a0",
+           "html": "<p>No pierdas tiempo organizando y deja que te asesoremos.</p>"
+          },
+          {
+           "t": "boton",
+           "id": "1b1302f",
+           "alinearMovil": "center",
+           "texto": "CONTACTA CON NOSOTRAS",
+           "url": "",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 17.0,
+            "tamanoMovil": 14.0,
+            "peso": "400"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "a31b672",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "imagen",
+           "id": "40cf0f0",
+           "margen": "0px 0px 0px 0px",
+           "src": "/wp-content/uploads/2026/03/grupo-selfie-centro-valencia.webp",
+           "alt": "",
+           "ancho": "100%"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "527add5",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "2aee9bc",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "encabezado",
+           "id": "2584d7f",
+           "alinear": "center",
+           "texto": "¿Buscas inspiración para tu viaje a Valencia?",
+           "etiqueta": "h2",
+           "color": "#000000",
+           "tipo": {
+            "tamano": 45.0,
+            "tamanoMovil": 25.0,
+            "peso": "600"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "17603a7",
+           "alinear": "center",
+           "html": "<p>Aquí te dejamos artículos útiles, recomendaciones de <i>Tours y Excursiones en Valencia con Guías Oficiales Locales</i> y todo lo que necesitas saber para disfrutar Valencia al máximo desde el primer día.</p>",
+           "tipo": {
+            "tamano": 16.0
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "836be78",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "boton",
+           "id": "96c6874",
+           "alinear": "center",
+           "texto": "VER TODAS LAS ENTRADAS",
+           "url": "/blog/",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 14.0,
+            "peso": "400"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "90839ab",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "1d03417",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "encabezado",
+           "id": "ada8772",
+           "alinear": "center",
+           "texto": "Síguenos  Instagram",
+           "etiqueta": "h2",
+           "tipo": {
+            "tamano": 45.0,
+            "tamanoMovil": 25.0,
+            "peso": "600",
+            "interlineado": 1.3,
+            "interlineadoUnidad": "em"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "9691da1",
+           "alinear": "center",
+           "margen": "0px 0px 0px 0px",
+           "html": "<p class=\"p1\"><b>Aquí compartimos planes reales, rincones especiales y experiencias que pasan en Valencia, para que no te pierdas nada de lo que merece la pena vivir en la ciudad.</b></p>",
+           "tipo": {
+            "tamano": 16.0
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "7f4d65a",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "4adab5c",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "encabezado",
+           "id": "ff6d8fd",
+           "alinear": "center",
+           "texto": "Empresas que han confiado en\nnosotras",
+           "etiqueta": "h2",
+           "tipo": {
+            "tamano": 45.0,
+            "tamanoMovil": 25.0,
+            "peso": "600",
+            "interlineado": 1.3,
+            "interlineadoUnidad": "em"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": false
 }

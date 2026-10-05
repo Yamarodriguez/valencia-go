@@ -1,0 +1,146 @@
+{
+ "slug": "ciudad-de-las-artes-y-las-ciencias",
+ "tipo": "post",
+ "postId": 418,
+ "ruta": "/ciudad-de-las-artes-y-las-ciencias/",
+ "titulo": "Ciudad de las Artes y de las Ciencias",
+ "h1": "Ciudad de las Artes y de las Ciencias",
+ "tituloSeo": "Ciudad de las Artes y las Ciencias: qué ver",
+ "descripcion": "Un verdadero espectáculo arquitectónico vanguardista. La Ciudad de las Artes y las Ciencias, símbolo de Valencia. ¿Todavía no la conoces?",
+ "palabraClave": "ciudad de las artes y las ciencias",
+ "noindex": false,
+ "hero": {},
+ "faq": [],
+ "cuerpo": "<p>Cuando hablamos de Valencia, muchos piensan automáticamente en <strong>playas</strong>, <strong>paella</strong>, <strong>fallas </strong>y <strong>la Ciudad de las Artes y las Ciencias</strong>. Pero esta ciudad mediterránea esconde mucho más que postales turísticas: está llena de historias reales, rincones inesperados y detalles que incluso muchos valencianos desconocen.</p>\n<p>Desde edificios que rompen récords hasta instituciones centenarias que siguen activas hoy en día, te contamos <strong>10 curiosidades que te harán mirar Valencia con otros ojos</strong>.</p>\n<h2>7 edificios de ensueño</h2> <p>Probablemente<strong> la parte más famosa de la ciudad a nivel internacional.</strong></p>\n<p>Es un complejo enorme de un total de <strong>7 edificios</strong>, dedicado a los eventos artísticos de cualquier índole: Museo de las Ciencias, l'Umbracle, l'Hemisfèric, l'Oceanogràfic, Puente de l'Assut de l'Or, l'Ágora y el Palacio Reina Sofía, y se encuentra en el mismo parque del río Turia, lleno de zonas verdes al aire libre dónde pasear, tomar el sol y disfrutar del clima de Valencia.</p>\n<p>Cada uno de ellos es visitable y representan algo de la naturaleza o algo muy valenciano (un ojo, el esqueleto de una ballena, el mar mediterráneo...).</p>\n<p>Para visitar este enorme complejo te recomendamos reservar al menos un día y medio en tu visita a Valencia y comprar las entradas anticipadamente por Internet.</p>\n<h2>Cómo llegar</h2> <p>Llegar allí es muy fácil pero nuestra recomendación siempre es paseando tranquilamente desde las Torres de Serranos (30 minutos) para contemplar el enorme antiguo cauce del río Túria y poder ver los edificios de la ciudad desde otra perspectiva.</p>\n<p>También podéis tomar el autobús número 95, 1 ,25, 6, 35, 13, 19 y 14.</p>\n<h4>Si quieres conocer esta zona de una manera divertida y diferente únete a nuestra <a href=\"/tours-valencia/ruta-en-segway-por-el-parque-del-rio-turia/\">Ruta en segway por el parque del río Turia</a></h4>",
+ "palabras": 285,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "590d2bdb",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "3712f5f5",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "texto",
+           "id": "41fd5486",
+           "html": "<p>Cuando hablamos de Valencia, muchos piensan automáticamente en <strong>playas</strong>, <strong>paella</strong>, <strong>fallas </strong>y <strong>la Ciudad de las Artes y las Ciencias</strong>. Pero esta ciudad mediterránea esconde mucho más que postales turísticas: está llena de historias reales, rincones inesperados y detalles que incluso muchos valencianos desconocen.</p>\n\n<p>Desde edificios que rompen récords hasta instituciones centenarias que siguen activas hoy en día, te contamos <strong>10 curiosidades que te harán mirar Valencia con otros ojos</strong>.</p>",
+           "tipo": {
+            "tamano": 1.1,
+            "peso": "500",
+            "interlineado": 1.2,
+            "interlineadoUnidad": "em"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "182320aa",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "64bb4ee2",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "6fbb8ef0",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "7 edificios de ensueño",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "61b716",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "2f212c45",
+               "html": "<p>Probablemente<strong> la parte más famosa de la ciudad a nivel internacional.</strong></p>\n\n<p>Es un complejo enorme de un total de <strong>7 edificios</strong>, dedicado a los eventos artísticos de cualquier índole: Museo de las Ciencias, l’Umbracle, l’Hemisfèric, l’Oceanogràfic, Puente de l’Assut de l’Or, l’Ágora y el Palacio Reina Sofía, y se encuentra en el mismo parque del río Turia, lleno de zonas verdes al aire libre dónde pasear, tomar el sol y disfrutar del clima de Valencia.</p>\n\n<p>Cada uno de ellos es visitable y representan algo de la naturaleza o algo muy valenciano (un ojo, el esqueleto de una ballena, el mar mediterráneo...).</p>\n\n<p>Para visitar este enorme complejo te recomendamos reservar al menos un día y medio en tu visita a Valencia y comprar las entradas anticipadamente por Internet.</p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "c32803f",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "282d9e6",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "92b0daf",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Cómo llegar",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "edc4a8a",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "50936c5",
+               "html": "<p>Llegar allí es muy fácil pero nuestra recomendación siempre es paseando tranquilamente desde las Torres de Serranos (30 minutos) para contemplar el enorme antiguo cauce del río Túria y poder ver los edificios de la ciudad desde otra perspectiva.</p>\n\n<p>También podéis tomar el autobús número 95, 1 ,25, 6, 35, 13, 19 y 14.</p>\n<h4 class=\"wp-block-heading\">Si quieres conocer esta zona de una manera divertida y diferente únete a nuestra <a href=\"/tours-valencia/ruta-en-segway-por-el-parque-del-rio-turia/\">Ruta en segway por el parque del río Turia</a></h4>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": true
+}

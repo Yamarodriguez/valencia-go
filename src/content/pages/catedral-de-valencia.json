@@ -1,0 +1,100 @@
+{
+ "slug": "catedral-de-valencia",
+ "tipo": "post",
+ "postId": 428,
+ "ruta": "/catedral-de-valencia/",
+ "titulo": "Catedral de Valencia",
+ "h1": "Catedral de Valencia",
+ "tituloSeo": "Catedral de Valencia: el Santo Cáliz y el Miguelete",
+ "descripcion": "La Catedral de Valencia guarda el Santo Cáliz y la torre del Miguelete. Qué ver en su interior, horarios de visita y cómo subir al campanario.",
+ "palabraClave": "catedral de Valencia",
+ "noindex": false,
+ "hero": {},
+ "faq": [],
+ "cuerpo": "<p>La protagonista de la Plaza de la Virgen, comenzada a construirse en el siglo XIII donde, anteriormente, había estado la mezquita de Balansiya, durante casi 500 años ha estado en interrumpida construcción y varias reformas de ampliación.</p>\n<p>Este edificio destaca por su famosa torre llamada ''el Miguelete'', ya que, la campana que suena cada hora fue inaugurada el día de San Miguel (¡Esta campana fué la más pesada de todo el Reino de Aragón!)</p>\n<h2>La Catedral</h2> <p>Para conocer todo sobre <a href=\"https://catedraldevalencia.es/\">la catedral</a>. Tiene 3 puertas, cada una de un estilo totalmente diferente (ahí la prueba de tantos siglos de cambios).</p>\n<p>Tanto dentro como fuera de la catedral se aprecian un total de 5 estilos arquitectónicos.</p>\n<p>Dentro encontramos el museo de la catedral e <strong>infinitas reliquias...</strong> una de ellas muy famosa y conocida en todo el mundo: <strong>¡El Caliz!, pero ¿Cuántos cálices hay por el mundo? ¿Será este el de verdad?</strong></p>\n<p>Únete a nuestras <a href=\"/tours-valencia/tour-de-arte-y-arquitectura/\"><strong>rutas </strong></a>para averiguarlo, esta y otras muchas curiosidades.</p>\n<p>Te esperamos.</p>",
+ "palabras": 164,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "5403d8e0",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "2ead6a51",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "texto",
+           "id": "663170c",
+           "html": "<p>La protagonista de la Plaza de la Virgen, comenzada a construirse en el siglo XIII donde, anteriormente, había estado la mezquita de Balansiya, durante casi 500 años ha estado en interrumpida construcción y varias reformas de ampliación.</p>\n<p>Este edificio destaca por su famosa torre llamada '‘el Miguelete’', ya que, la campana que suena cada hora fue inaugurada el día de San Miguel (¡Esta campana fué la más pesada de todo el Reino de Aragón!)</p>",
+           "tipo": {
+            "tamano": 1.1,
+            "peso": "500",
+            "interlineado": 1.2,
+            "interlineadoUnidad": "em"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "198f985b",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "51c6f3b6",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "1656396e",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "La Catedral",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "17db713",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "474cfdda",
+               "html": "<p>Para conocer todo sobre <a href=\"https://catedraldevalencia.es/\">la catedral</a>. Tiene 3 puertas, cada una de un estilo totalmente diferente (ahí la prueba de tantos siglos de cambios).</p>\n<p>Tanto dentro como fuera de la catedral se aprecian un total de 5 estilos arquitectónicos.</p>\n<p>Dentro encontramos el museo de la catedral e <strong>infinitas reliquias...</strong> una de ellas muy famosa y conocida en todo el mundo: <strong>¡El Caliz!, pero ¿Cuántos cálices hay por el mundo? ¿Será este el de verdad?</strong></p>\n<p>Únete a nuestras <a href=\"/tours-valencia/tour-de-arte-y-arquitectura/\"><strong>rutas </strong></a>para averiguarlo, esta y otras muchas curiosidades.</p>\n<p>Te esperamos.</p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": true
+}

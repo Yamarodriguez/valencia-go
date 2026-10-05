@@ -1,5 +1,7 @@
 {
  "slug": "lugares-de-interes",
+ "tipo": "page",
+ "postId": 9620,
  "ruta": "/lugares-de-interes/",
  "titulo": "Lugares de interés",
  "h1": "Lugares de interés",
@@ -10,5 +12,74 @@
  "hero": {},
  "faq": [],
  "cuerpo": "<p>Lo que no puedes perderte</p><p data-end=\"76\" data-start=\"0\">¿Llegas a Valencia y quieres descubrir lo mejor de la ciudad en poco tiempo?</p><p data-end=\"294\" data-start=\"78\">Explora nuestros <strong data-end=\"129\" data-start=\"95\">lugares de interés en Valencia</strong> y aprovecha cada minuto con una selección pensada para ti.</p><p data-end=\"294\" data-start=\"78\">Disfruta de Valencia sin perder tiempo buscando qué hacer. Aquí encontrarás opciones ideales para todos los gustos, con ubicaciones clave y experiencias que realmente valen la pena.</p><p>[lista_atracciones]</p>",
- "palabras": 64
+ "palabras": 64,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "6343898",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "c89e14c",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "encabezado",
+           "id": "b0ad85a",
+           "texto": "Lo que no puedes perderte",
+           "etiqueta": "span"
+          },
+          {
+           "t": "encabezado",
+           "id": "a00d2bd",
+           "alinear": "center",
+           "texto": "Añade aquí tu texto de cabecera",
+           "etiqueta": "h1",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 60.0,
+            "peso": "600"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "7d73085",
+           "alinear": "center",
+           "margen": "0px 0px 0px 0px",
+           "relleno": "0px 0px 58px 0px",
+           "html": "<p data-start=\"0\" data-end=\"76\">¿Llegas a Valencia y quieres descubrir lo mejor de la ciudad en poco tiempo?</p><p data-start=\"78\" data-end=\"294\">Explora nuestros <strong data-start=\"95\" data-end=\"129\">lugares de interés en Valencia</strong> y aprovecha cada minuto con una selección pensada para ti.</p><p data-start=\"78\" data-end=\"294\">Disfruta de Valencia sin perder tiempo buscando qué hacer. Aquí encontrarás opciones ideales para todos los gustos, con ubicaciones clave y experiencias que realmente valen la pena.</p>",
+           "color": "#FFFFFF",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 16.0,
+            "peso": "400"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "05c29f2",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": []
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": true
 }

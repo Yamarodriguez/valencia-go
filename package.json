@@ -1,34 +1,36 @@
 {
-  "name": "casascontenedores",
+  "name": "valenciaandgo",
   "type": "module",
   "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.12"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "montar": "node scripts/montar-referencia.mjs",
+    "referencia": "node scripts/servir-referencia.mjs",
+    "barrido": "node scripts/barrido-404.mjs",
     "validar": "node scripts/validar.mjs",
     "comparar": "node scripts/comparar-encabezados.mjs",
     "webp": "node scripts/webp.mjs",
     "capturas": "node scripts/capturas.mjs",
     "css": "node scripts/css.mjs",
-    "css:limpiar": "astro build && node scripts/css.mjs --limpiar && astro build",
     "fuentes": "node scripts/fuentes-locales.mjs",
-    "todo": "node scripts/fuentes-locales.mjs && node scripts/css.mjs && astro build && node scripts/validar.mjs && node scripts/comparar-encabezados.mjs"
+    "todo": "node scripts/todo.mjs",
+    "todo:visual": "node scripts/todo-visual.mjs"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.4",
-    "astro": "^7.3.2"
+    "@astrojs/sitemap": "3.7.4",
+    "astro": "7.3.2"
   },
   "devDependencies": {
-    "@fontsource/abel": "^5.3.0",
-    "@fontsource/roboto": "^5.3.0",
-    "@fontsource/roboto-condensed": "^5.3.0",
-    "@fontsource/roboto-slab": "^5.3.0",
-    "@fontsource/satisfy": "^5.3.0",
-    "@fontsource/ubuntu": "^5.3.0",
-    "@fortawesome/fontawesome-free": "^6.7.2",
-    "playwright": "^1.63.0",
-    "sharp": "^0.35.4",
-    "simple-line-icons": "^2.5.5"
+    "@fontsource/baloo-bhaijaan-2": "5.3.0",
+    "@fontsource/lato": "5.3.0",
+    "@fortawesome/fontawesome-free": "6.4.0",
+    "playwright": "1.63.0",
+    "sharp": "0.35.4"
   }
 }

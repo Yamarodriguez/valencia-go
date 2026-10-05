@@ -1,0 +1,207 @@
+{
+ "slug": "noche-de-san-juan",
+ "tipo": "post",
+ "postId": 486,
+ "ruta": "/noche-de-san-juan/",
+ "titulo": "La noche mágica de San Juan",
+ "h1": "La noche mágica de San Juan",
+ "tituloSeo": "La noche de San Juan: origen y rituales",
+ "descripcion": "Conoce una de las tradiciones más mágicas y esperanzadoras de toda la península: la noche de San Juan, dónde empieza el verano.",
+ "palabraClave": "noche de san juan origen",
+ "noindex": false,
+ "hero": {},
+ "faq": [],
+ "cuerpo": "<p>La noche de San Juan, es vital en toda España y en otras partes del mundo como Sudamérica, y data con una tradición de miles de años.</p>\n<h4><strong>Cuenta la leyenda que el fuego ahuyenta a los malos espíritus y nos purifica el alma.</strong></h4>\n<p>Esta noche<strong> las playas se llenan de hogueras, música y personas bailando a su alrededor.</strong></p>\n<p>El ambiente de la ciudad se llena de esperanza y sueños.</p>\n<p>Es una noche llena de felicidad y magia, dónde todos ponemos nuestras mejores intenciones a manos del mar, el sol y el horizonte.</p>\n<p>El ruido, el deseo, los petardos y los cánticos llenan la noche de estruendo.</p>\n<h2>Orígenes de la noche de San Juan</h2> <p>La noche de San Juan es una de las más esperadas del año, y aunque sus <strong>orígenes son inciertos</strong>, es muy posible que estos se hallen en los <strong>cultos solares celebrados por distintas culturas desde hace miles de años.</strong></p>\n<p>Para entenderlo mejor, tenemos que hablar de <strong>la noche más corta del año, que es la del 21 de junio:</strong> en las tribus ancestrales contaban la leyenda de que el Sol estaba enamorado de la Tierra y que por ese motivo se negaba a abandonarla. Y era la explicación que le daban al fenómeno del <strong>solsticio de verano.</strong></p>\n<p>Ese día se hacían rituales, se prendía fuego y se pregaba para obtener buenas cosechas y ahuyentar a los espíritus malignos.</p>\n<p>Aunque <strong>mucho tiempo después,</strong> con la llegada del <strong>cristianismo</strong> se empezó a celebrar algo similar pero tres días después: en la Biblia se cuenta que san Zacarías, esposo de santa Isabel, prima de la virgen María y madre de san Juan Bautista, ordenó encender una hoguera para anunciar el nacimiento su hijo</p>\n<p><img alt=\"\" decoding=\"async\" height=\"533\" loading=\"lazy\" src=\"/wp-content/uploads/2022/06/Figuras-Ninot.webp\" width=\"400\"/></p> <h2>San Juan hoy en día: las Hogueras de Alicante</h2> <p>Esta tradición ha llegado practicamente intacta hasta nuestros días. <br/>Aunque <strong>no siempre hemos tenido la suerte de poder celebrarla,</strong> ha sido perseguida durante años, sobre todo en Alicante, dónde <strong>la primera Nit del Foc oficial se celebró en 1928</strong> antes la fiesta era perseguida por los políticos de la época, con toque de queda incluido.</p>\n<p>Y en esta localidad <strong>quisieron hacer algo parecido a las Fallas de Valencia: crean ''ninots'',</strong> muñecos, seres, que simbolizan algún tema o situación de actualidad, muchos suelen llevar un mensaje de crítica social. Estos se queman dando lugar a las hogueras.</p>\n<p>En Alicante la fiesta se vive aún más: es una semana dónde el sonido, el buen ambiente y la fiesta inundan sus calles, que se llenan de colores, de ilusión y de gracia con sus ninots.</p>\n<p>Y dicen que esta festividad<strong> se ha vuelto a paganizar como la primera fiesta del solsticio de verano:</strong> lo que importa, lo que se celebra es la llegada del verano, el ansia de libertad y vacaciones, y la esperanza de que todo salga bien.</p><h4>Por ello, lo más común es ir a la playa, encender tu hoguera, cenar con tus seres queridos y a las 12 en punto de la noche mojarse los pies en el agua y pedir un deseo.</h4> <h2>Las hogueras en toda la península</h2> <p>Aunque estamos hablando de la Comunidad Valenciana como eje principal de esta celebración, en <strong>otros lugares de España la viven a su manera:</strong> en <strong>Cataluña o la provincia de Valencia</strong> no solo se encienden hogueras, sino que estas van acompañadas del lanzamiento de petardos y pirotecnia. En <strong>Extremadura,</strong> y en el marco de su Festividad de la Luna al Fuego, se escenifica el conocido como \"ajedrez viviente\" de Zafra, mientras que en<strong> Menorca</strong> se lleva a cabo un gran espectáculo ecuestre. En<strong> Alicante</strong> se celebran las Hogueras de Alicante, donde se queman ninots fabricados para la ocasión, mientras que en<strong> Andalucía</strong> hacen arder a un muñeco al que en Cádiz llaman Juanillo.</p>\n<p>Así que si estás por España, disfruta de esta noche de calor y fascinación llena de ilusión en la playa.</p>\n<p>¿Ya sabes dónde la vas a celebrar?</p>\n<p>PD: En Valencia la playa de la malvarrosa es la más abarrotada y más insegura si vas con tu família, lo mejor es ir a la Patacona o al Saler, intentar salir de las playas principales de la ciudad ya que encontraréis una gran congregación de gente, y lo que queremos es espiritualidad, liberación y tranquilidad.</p>",
+ "palabras": 707,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "23c94136",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "392dbf60",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "texto",
+           "id": "48e422d",
+           "html": "<p>La noche de San Juan, es vital en toda España y en otras partes del mundo como Sudamérica, y data con una tradición de miles de años.</p>"
+          },
+          {
+           "t": "texto",
+           "id": "6e6304e",
+           "html": "<h4><strong>Cuenta la leyenda que el fuego ahuyenta a los malos espíritus y nos purifica el alma.</strong></h4>",
+           "tipo": {
+            "tamano": 1.2,
+            "peso": "500",
+            "interlineado": 1.2,
+            "interlineadoUnidad": "em"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "6ff59a7",
+           "html": "<p>Esta noche<strong> las playas se llenan de hogueras, música y personas bailando a su alrededor.</strong></p>\n\n<p>El ambiente de la ciudad se llena de esperanza y sueños.</p>\n\n<p>Es una noche llena de felicidad y magia, dónde todos ponemos nuestras mejores intenciones a manos del mar, el sol y el horizonte.</p>\n<p>El ruido, el deseo, los petardos y los cánticos llenan la noche de estruendo.</p>"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "443e06c",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "7bc123c1",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "37d0378b",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Orígenes de la noche de San Juan",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "70ff68ba",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "20efd976",
+               "html": "<p>La noche de San Juan es una de las más esperadas del año, y aunque sus <strong>orígenes son inciertos</strong>, es muy posible que estos se hallen en los <strong>cultos solares celebrados por distintas culturas desde hace miles de años.</strong></p>\n<p>Para entenderlo mejor, tenemos que hablar de <strong>la noche más corta del año, que es la del 21 de junio:</strong> en las tribus ancestrales contaban la leyenda de que el Sol estaba enamorado de la Tierra y que por ese motivo se negaba a abandonarla. Y era la explicación que le daban al fenómeno del <strong>solsticio de verano.</strong></p>\n<p><span style=\"color: #008080;\">Ese día se hacían rituales, se prendía fuego y se pregaba para obtener buenas cosechas y ahuyentar a los espíritus malignos.</span></p>\n<p>Aunque <strong>mucho tiempo después,</strong> con la llegada del <strong>cristianismo</strong> se empezó a celebrar algo similar pero tres días después: en la Biblia se cuenta que san Zacarías, esposo de santa Isabel, prima de la virgen María y madre de san Juan Bautista, ordenó encender una hoguera para anunciar el nacimiento su hijo</p>\n<p><img class=\"aligncenter wp-image-10123\" src=\"/wp-content/uploads/2022/06/Figuras-Ninot.webp\" alt=\"\" width=\"400\" height=\"533\" /></p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "01a86d3",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "0c5657b",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "dfc25da",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "San Juan hoy en día: las Hogueras de Alicante",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "6cf0bf7",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "577607c",
+               "html": "<p>Esta tradición ha llegado practicamente intacta hasta nuestros días. <br />Aunque <strong>no siempre hemos tenido la suerte de poder celebrarla,</strong> ha sido perseguida durante años, sobre todo en Alicante, dónde <strong>la primera Nit del Foc oficial se celebró en 1928</strong> antes la fiesta era perseguida por los políticos de la época, con toque de queda incluido.</p>\n<p>Y en esta localidad <strong>quisieron hacer algo parecido a las Fallas de Valencia: crean '‘ninots’',</strong> muñecos, seres, que simbolizan algún tema o situación de actualidad, muchos suelen llevar un mensaje de crítica social. Estos se queman dando lugar a las hogueras.</p>\n<p>En Alicante la fiesta se vive aún más: es una semana dónde el sonido, el buen ambiente y la fiesta inundan sus calles, que se llenan de colores, de ilusión y de gracia con sus ninots.</p>\n<p>Y dicen que esta festividad<strong> se ha vuelto a paganizar como la primera fiesta del solsticio de verano:</strong> lo que importa, lo que se celebra es la llegada del verano, el ansia de libertad y vacaciones, y la esperanza de que todo salga bien.</p>"
+              },
+              {
+               "t": "texto",
+               "id": "fe83d09",
+               "html": "<h4>Por ello, lo más común es ir a la playa, encender tu hoguera, cenar con tus seres queridos y a las 12 en punto de la noche mojarse los pies en el agua y pedir un deseo.</h4>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "187aa96",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "6346692",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "04f758f",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Las hogueras en toda la península",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "299e429",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "1b41d66",
+               "html": "<p>Aunque estamos hablando de la Comunidad Valenciana como eje principal de esta celebración, en <strong>otros lugares de España la viven a su manera:</strong> en <strong>Cataluña o la provincia de Valencia</strong> no solo se encienden hogueras, sino que estas van acompañadas del lanzamiento de petardos y pirotecnia. En <strong>Extremadura,</strong> y en el marco de su Festividad de la Luna al Fuego, se escenifica el conocido como «ajedrez viviente» de Zafra, mientras que en<strong> Menorca</strong> se lleva a cabo un gran espectáculo ecuestre. En<strong> Alicante</strong> se celebran las Hogueras de Alicante, donde se queman ninots fabricados para la ocasión, mientras que en<strong> Andalucía</strong> hacen arder a un muñeco al que en Cádiz llaman Juanillo.</p>\n<p>Así que si estás por España, disfruta de esta noche de calor y fascinación llena de ilusión en la playa.</p>\n<p>¿Ya sabes dónde la vas a celebrar?</p>\n<p>PD: En Valencia la playa de la malvarrosa es la más abarrotada y más insegura si vas con tu família, lo mejor es ir a la Patacona o al Saler, intentar salir de las playas principales de la ciudad ya que encontraréis una gran congregación de gente, y lo que queremos es espiritualidad, liberación y tranquilidad.</p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": true
+}

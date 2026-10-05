@@ -1,0 +1,41 @@
+{
+ "_nota": "Fallos de la web vieja que el propietario ha visto y aprobado (5-10-2026). Salen como AVISO en las comprobaciones, no como FALLO.",
+ "404": [
+  {
+   "ruta": "/wp-content/uploads/2025/02/mascleta-614131_1280.jpg",
+   "que": "foto que no existe en el servidor viejo (404 alli tambien); la usa /fallas-valencia-2026-guia-completa/ y sus traducciones"
+  },
+  {
+   "ruta": "/wp-content/uploads/2026/03/elementor/thumbs/cuevassanjose3-rocf6aqinr74ko9piocje0lvlhzvp2agcydrbs426a.webp",
+   "que": "miniatura de Elementor que no existe en el servidor viejo; la piden fichas de atracciones"
+  },
+  {
+   "ruta": "/wp-content/uploads/2026/03/MAPA-DEF-DEC.pdf",
+   "que": "PDF enlazado que no existe en el servidor viejo (entradas del blog en frances)"
+  },
+  {
+   "ruta": "/wp-content/uploads/complianz/css/banner-{banner_id}-{type}.css",
+   "que": "no es un fichero: es una plantilla de Complianz dentro de su JavaScript"
+  }
+ ],
+ "h1": [
+  {
+   "ruta": "/atracciones/catedral-de-valencia-y-el-santo-caliz/",
+   "que": "sin H1 (las otras 28 atracciones lo tienen)"
+  },
+  {
+   "ruta": "/condiciones-de-compra/",
+   "que": "sin H1 en vivo"
+  }
+ ],
+ "otros": [
+  {
+   "ruta": "*",
+   "que": "3 enlaces {title} a # en el bloque de Complianz del pie (aviso de cookies sin rellenar)"
+  },
+  {
+   "ruta": "/politica-de-cookies/",
+   "que": "el texto lo pinta Complianz ([cmplz-document]); se toma de la web viva (legales-vivos.json)"
+  }
+ ]
+}

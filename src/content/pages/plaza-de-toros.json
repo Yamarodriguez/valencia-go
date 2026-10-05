@@ -1,0 +1,105 @@
+{
+ "slug": "plaza-de-toros",
+ "tipo": "post",
+ "postId": 432,
+ "ruta": "/plaza-de-toros/",
+ "titulo": "Plaza de toros",
+ "h1": "Plaza de toros",
+ "tituloSeo": "Plaza de toros de Valencia: historia y visitas",
+ "descripcion": "Lo llaman ''el coliseo valenciano'' y es que la Plaza de Toros de Valencia, en pleno centro, es uno de los monumentos más destacables y bellos de la ciudad.",
+ "palabraClave": "plaza de toros Valencia",
+ "noindex": false,
+ "hero": {},
+ "faq": [],
+ "cuerpo": "<p>Monumental edificio <strong>construido a lo largo de toda la década de 1850</strong> de estilo neoclásico.</p>\n<p>Cuando hablamos de Valencia, muchos piensan automáticamente en <strong>playas</strong>, <strong>paella</strong>, <strong>fallas </strong>y <strong>la Ciudad de las Artes y las Ciencias</strong>. Pero esta ciudad mediterránea esconde mucho más que postales turísticas: está llena de historias reales, rincones inesperados y detalles que incluso muchos valencianos desconocen.</p>\n<p>Desde edificios que rompen récords hasta instituciones centenarias que siguen activas hoy en día, te contamos <strong>10 curiosidades que te harán mirar Valencia con otros ojos</strong>.</p>\n<h2>Objetivo</h2> <p>El objetivo de este edificio no era otro que el de realizar las famosas corridas de toros.</p>\n<p>En los momentos del año en los cuales no hay ferias taurinas se le da otro uso para realizar conciertos, ferias medievales, mercadillos o incluso fiestas como la de la cerveza. <strong>Valencia&amp;Go</strong> <strong>muestra su absoluto rechazo a los festejos taurinos por su extremada crueldad, somos defensores del turismo responsable y confiamos en que un mundo mejor existe sin tener la necesidad de hacer este tipo de torturas públicas a los animales</strong> (concretamente toros y caballos).</p>\n<p>Poco a poco la sociedad española está admitiendo la crueldad de estos festejos, tanto es, que en varias comunidades autónomas están totalmente prohibidas, esperemos que pronto ocurra en nuestra querida Valencia y sea un lugar donde sólo realizar eventos culturales.</p>",
+ "palabras": 222,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "6ea3a8a7",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "1fd487d5",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "texto",
+           "id": "153cab53",
+           "html": "<p>Monumental edificio <strong>construido a lo largo de toda la década de 1850</strong> de estilo neoclásico.</p>",
+           "tipo": {
+            "tamano": 1.1,
+            "peso": "500",
+            "interlineado": 1.2,
+            "interlineadoUnidad": "em"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "4491b9a",
+           "html": "<p>Cuando hablamos de Valencia, muchos piensan automáticamente en <strong>playas</strong>, <strong>paella</strong>, <strong>fallas </strong>y <strong>la Ciudad de las Artes y las Ciencias</strong>. Pero esta ciudad mediterránea esconde mucho más que postales turísticas: está llena de historias reales, rincones inesperados y detalles que incluso muchos valencianos desconocen.</p>\n\n<p>Desde edificios que rompen récords hasta instituciones centenarias que siguen activas hoy en día, te contamos <strong>10 curiosidades que te harán mirar Valencia con otros ojos</strong>.</p>"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "5466dcd7",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "5cc11bcd",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "1d3e3953",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Objetivo",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "19bac354",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "700600c5",
+               "html": "<p>El objetivo de este edificio no era otro que el de realizar las famosas corridas de toros.</p>\n\n<p>En los momentos del año en los cuales no hay ferias taurinas se le da otro uso para realizar conciertos, ferias medievales, mercadillos o incluso fiestas como la de la cerveza. <strong>Valencia&Go</strong> <strong>muestra su absoluto rechazo a los festejos taurinos por su extremada crueldad, somos defensores del turismo responsable y confiamos en que un mundo mejor existe sin tener la necesidad de hacer este tipo de torturas públicas a los animales</strong> (concretamente toros y caballos).</p>\n\n<p>Poco a poco la sociedad española está admitiendo la crueldad de estos festejos, tanto es, que en varias comunidades autónomas están totalmente prohibidas, esperemos que pronto ocurra en nuestra querida Valencia y sea un lugar donde sólo realizar eventos culturales.</p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": true
+}

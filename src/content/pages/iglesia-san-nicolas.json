@@ -1,0 +1,197 @@
+{
+ "slug": "iglesia-san-nicolas",
+ "tipo": "post",
+ "postId": 448,
+ "ruta": "/iglesia-san-nicolas/",
+ "titulo": "La capilla Sixtina valenciana: Iglesia de San Nicolás",
+ "h1": "La capilla Sixtina valenciana: Iglesia de San Nicolás",
+ "tituloSeo": "Iglesia de San Nicolás: la capilla Sixtina valenciana",
+ "descripcion": "La Iglesia de San Nicolás conocida como ''la capilla Sixtina valenciana'' es una joya escondida de Valencia que te dejará sin aliento.",
+ "palabraClave": "Iglesia de San Nicolás",
+ "noindex": false,
+ "hero": {},
+ "faq": [],
+ "cuerpo": "<p><strong>La iglesia de San Nicolás de Bari y San Pedro Mártir</strong> es la llamada <strong>»Capilla Sixtina Valenciana»</strong>, el mismísimo Gianluigi Colalucci llevo a cabo las obras de restauración de la iglesia. ¡Este señor es el que restauró la verdadera Capilla Sixtina! Es cuando la ve acabada cuando decide bautizarla como tal.</p>\n<p style=\"text-align: left;\">Poco tiene que ver con la Capilla Sixtina del Vaticano, pues la iglesia e san Nicolás está totalmente vestida en su interior de <strong>Barroco</strong>. <strong>Tiene casi 2000 metros cuadrados</strong>.</p>\n<p>Por fuera es una iglesia gótica muy común, pero cuando entramos en ella es cuando nos sorprende.</p>\n<p><strong>Es el mejor ejemplo de convivencia de un templo de estructura gótica del siglo XV con decoración barroca del siglo XVII que encontramos en la ciudad de Valencia.</strong></p>\n<h2>Historia</h2> <p>Pero volvamos al principio de la fundación de Valencia, en época romana, pues este templo tiene mucha historia.</p>\n<p>La iglesia se encuentra en una zona que durante la época de <em><strong>Valentia Edetanorum</strong>,</em> esto era zona extra muros y por lo tanto se encontraba cercana a zona de cementerios.</p>\n<p>La primera edificación de un templo se hizo en tiempos del rey<strong> Jaime I</strong>, el rey que conquista la ciudad de <strong><em>Balansiya</em></strong>, tras la reconquista les donó el lugar a los dominicos que le acompañaban.</p>\n<p>Son los dominicos los que dedican el templo al patrón de la orden, San Nicolás, erigiendo así una de las <strong>primeras iglesias e la ciudad, a mediados del siglo XIII.</strong></p>\n<h2>Los artistas</h2> <p><strong>Antonio Palomino</strong> visita Valencia, dejando su huella en la Catedral, en la Basílica y en otras iglesias incluyendo San Nicolás.<br/>De la mano de su discípulo valenciano, <strong>Dionís Vidal</strong>, llevan a cabo estos impresionantes frescos barrocos en 1700.</p>\n<p>Recubrieron las bóvedas góticas, pilares y muros con escenas de la vida de San Nicolás de Bari y de San Pedro Mártir, junto con alegorías de las Virtudes en arriesgados escorzos.</p> <h2>Actualidad</h2> <p>Por desgracia la iglesia ha sido muy castigada, durante la<strong> guerra civil española</strong> fue saqueada y muchas de sus capillas fueron destruidas. Además de esto, la ventilación no ha sido óptima para el mantenimiento de los frescos, debido a los cirios los frescos se habían oscurecido perdiendo así toda la luz y color.</p>\n<p>En su interior podemos observar algunos retablos del siglo XV de estilo gótico, en su mayoría del pintor valenciano: Juan de Juanes.</p>\n<p>Si no te quieres perder detalle de esta maravillosa iglesia, te invitamos a que realices con Valencia &amp; Go el tour de \"Arte y arquitectura\".</p><p><br/><strong>¡Te desvelamos los secretos de esta iglesia y de otros lugares de interés!</strong></p>",
+ "palabras": 431,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "75f52950",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "1b9b7dbd",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "texto",
+           "id": "1909fd6f",
+           "html": "<p><strong>La iglesia de San Nicolás de Bari y San Pedro Mártir</strong> es la llamada <strong>»Capilla Sixtina Valenciana»</strong>, el mismísimo Gianluigi Colalucci llevo a cabo las obras de restauración de la iglesia. ¡Este señor es el que restauró la verdadera Capilla Sixtina! Es cuando la ve acabada cuando decide bautizarla como tal.</p>",
+           "tipo": {
+            "tamano": 1.1,
+            "peso": "500",
+            "interlineado": 1.2,
+            "interlineadoUnidad": "em"
+           }
+          },
+          {
+           "t": "texto",
+           "id": "86bd45c",
+           "html": "<p style=\"text-align: left;\">Poco tiene que ver con la Capilla Sixtina del Vaticano, pues la iglesia e san Nicolás está totalmente vestida en su interior de <strong>Barroco</strong>. <strong>Tiene casi 2000 metros cuadrados</strong>.</p>\n\n<p>Por fuera es una iglesia gótica muy común, pero cuando entramos en ella es cuando nos sorprende.</p>\n\n<p><strong>Es el mejor ejemplo de convivencia de un templo de estructura gótica del siglo XV con decoración barroca del siglo XVII que encontramos en la ciudad de Valencia.</strong></p>"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "1d2e94e5",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "642bc7ac",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "24f87f1f",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Historia",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "3f8c9845",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "1ac6e477",
+               "html": "<p>Pero volvamos al principio de la fundación de Valencia, en época romana, pues este templo tiene mucha historia.</p>\n\n<p>La iglesia se encuentra en una zona que durante la época de <em><strong>Valentia Edetanorum</strong>,</em> esto era zona extra muros y por lo tanto se encontraba cercana a zona de cementerios.</p>\n\n<p>La primera edificación de un templo se hizo en tiempos del rey<strong> Jaime I</strong>, el rey que conquista la ciudad de <strong><em>Balansiya</em></strong>, tras la reconquista les donó el lugar a los dominicos que le acompañaban.</p>\n\n<p>Son los dominicos los que dedican el templo al patrón de la orden, San Nicolás, erigiendo así una de las <strong>primeras iglesias e la ciudad, a mediados del siglo XIII.</strong></p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "c1226ab",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "7fe78d6",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "2e12b92",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Los artistas",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "802a0da",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "2c881d0",
+               "html": "<p><strong>Antonio Palomino</strong> visita Valencia, dejando su huella en la Catedral, en la Basílica y en otras iglesias incluyendo San Nicolás.<br />De la mano de su discípulo valenciano, <strong>Dionís Vidal</strong>, llevan a cabo estos impresionantes frescos barrocos en 1700.</p>\n\n<p>Recubrieron las bóvedas góticas, pilares y muros con escenas de la vida de San Nicolás de Bari y de San Pedro Mártir, junto con alegorías de las Virtudes en arriesgados escorzos.</p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "seccion",
+       "id": "bae69fb",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "seccion",
+           "id": "e3b6482",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "encabezado",
+               "id": "9120ef9",
+               "margen": "0px 0px 0px 0px",
+               "relleno": "0px 0px 0px 0px",
+               "texto": "Actualidad",
+               "etiqueta": "h2"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "seccion",
+           "id": "87805be",
+           "columnas": [
+            {
+             "ancho": 100,
+             "elementos": [
+              {
+               "t": "texto",
+               "id": "91e9670",
+               "html": "<p>Por desgracia la iglesia ha sido muy castigada, durante la<strong> guerra civil española</strong> fue saqueada y muchas de sus capillas fueron destruidas. Además de esto, la ventilación no ha sido óptima para el mantenimiento de los frescos, debido a los cirios los frescos se habían oscurecido perdiendo así toda la luz y color.</p>\n\n<p>En su interior podemos observar algunos retablos del siglo XV de estilo gótico, en su mayoría del pintor valenciano: Juan de Juanes.</p>\n\n<p>Si no te quieres perder detalle de esta maravillosa iglesia, te invitamos a que realices con Valencia & Go el tour de «Arte y arquitectura».</p><p><br><strong>¡Te desvelamos los secretos de esta iglesia y de otros lugares de interés!</strong></p>"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": true
+}

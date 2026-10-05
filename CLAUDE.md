@@ -11,8 +11,14 @@ cuando las comprobaciones salen bien · Dec. 3 copia exacta y comprobada ·
 Dec. 4 rediseño con 2-3 opciones en imagen, probado en una página, con
 interruptor · Dec. 5 DNS en el registrador, el correo no se toca · Dec. 6
 ancho igual que la vieja · Dec. 7 contraste a mano y con permiso.
-Regla del H1 aprobada: PENDIENTE (propuesta en informes/inventario.md §10:
-se conserva el H1 que tiene hoy cada página; nada se asciende ni se baja).
+Regla del H1 aprobada (5-10-2026): **se conserva el H1 que tiene hoy cada
+página en vivo, tal cual; nada se asciende ni se baja.** La atracción
+Catedral se queda sin H1 y va a fallos-original.json.
+Decisiones del inventario §15 (confirmadas el 5-10-2026 con "confirmo todo"):
+idiomas: se bajan los 4 enteros (si se migran se decide con Search Console);
+tienda: el botón de comprar enlaza a la reserva de Turitop; LiteSpeed: sigue
+activo, así que la referencia se reconstruye con las hojas y guiones
+originales (post-ID.css por página) y se vuelve a bajar si lo desactiva.
 
 ## Reglas
 - Método: PROMPT-MIGRACION-V5.md. Antes de cada fase, lee esa fase y la

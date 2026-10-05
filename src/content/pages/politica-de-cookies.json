@@ -1,5 +1,7 @@
 {
  "slug": "politica-de-cookies",
+ "tipo": "page",
+ "postId": 259,
  "ruta": "/politica-de-cookies/",
  "titulo": "Política de cookies",
  "h1": "Política de cookies",
@@ -10,5 +12,66 @@
  "hero": {},
  "faq": [],
  "cuerpo": "<p>[cmplz-document type=\"cookie-statement\" region=\"eu\"]</p>",
- "palabras": 3
+ "palabras": 3,
+ "bloques": [
+  {
+   "t": "seccion",
+   "id": "49fbb38",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "7fed9a9",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": [
+          {
+           "t": "encabezado",
+           "id": "638f236",
+           "alinear": "center",
+           "texto": "Añade aquí tu texto de cabecera",
+           "etiqueta": "h1",
+           "tipo": {
+            "familia": "Baloo Bhaijaan 2",
+            "tamano": 60.0,
+            "tamanoMovil": 30.0,
+            "peso": "600"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "seccion",
+   "id": "ff91a8c",
+   "columnas": [
+    {
+     "ancho": 100,
+     "elementos": [
+      {
+       "t": "seccion",
+       "id": "c5669e6",
+       "columnas": [
+        {
+         "ancho": 100,
+         "elementos": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "menu": "",
+ "bandaTitulo": false,
+ "huecoTitulo": true
 }
