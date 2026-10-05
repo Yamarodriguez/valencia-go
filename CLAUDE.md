@@ -52,7 +52,10 @@ originales (post-ID.css por página) y se vuelve a bajar si lo desactiva.
 ## Datos
 AdSense · GA4 · WhatsApp · correo · formulario · DNS · sitio de Netlify:
 PENDIENTES (el propietario no los ha pasado todavía).
-Repositorio: el `origin` de esta carpeta (confirmar).
+Repositorio: https://github.com/Yamarodriguez/valencia-go (rama main).
+Netlify: https://valenciaandgo.netlify.app (creado por el propietario el
+5-10-2026, despliega main con `npm run css && npm run build`; lleva
+X-Robots-Tag noindex hasta la Fase 7).
 Páginas con tráfico (Search Console): sin export todavía.
 Dominio: https://www.valenciaandgo.com (sin www redirige con 301).
 
@@ -111,8 +114,6 @@ Dominio: https://www.valenciaandgo.com (sin www redirige con 301).
 - Aviso: la entrada 17636 (/donde-tomar-algo-en-valencia-.../) tiene árbol
   de Elementor (6 bloques) y el servidor no tiene su post-17636.css (404
   también tras visitarla). Se mira en la Fase 2 si sus bloques necesitan CSS.
-- Pendiente del propietario: crear el sitio en Netlify (o darme acceso) y
-  conectarlo al repositorio; el primer despliegue lleva `noindex`
-  (netlify.toml). Datos de la sección 1 del prompt (DNS, Search Console,
+- Pendiente del propietario: datos de la sección 1 del prompt (DNS, Search Console,
   AdSense, GA4, titular, formularios). Si desactiva LiteSpeed un rato, se
   repite la descarga de las 842 páginas (bajar.sh + montar).
