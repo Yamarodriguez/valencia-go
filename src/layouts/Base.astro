@@ -1,0 +1,185 @@
+---
+import site from '../data/site.json';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Migas from '../components/Migas.astro';
+import WhatsApp from '../components/WhatsApp.astro';
+import { aWebp, existe } from '../utils/imagenes.js';
+import '../styles/global.css';
+
+const {
+  ruta = '/',
+  titulo,
+  tituloSeo,
+  descripcion,
+  h1,
+  hero = {},
+  faq = [],
+  noindex = false,
+  bandaTitulo = true,
+  huecoTitulo = false,
+  menu = '',
+  postId = 0,
+} = Astro.props;
+
+// Hojas de estilo originales del sitio. Van en TRES tandas y en este orden,
+// que es exactamente el de la web en vivo:
+//   comunes.css        tema + Elementor + kit + widgets basicos (01..17)
+//   post-ID.css        lo que Elementor escribio para ESTA pagina
+//   comunes-final.css  widgets de Elementor + fuentes (18..26)
+// La hoja de la pagina va EN MEDIO: si se pusiera al final, reglas de
+// 18-widgets.css dejarian de ganar donde deben. Las prepara scripts/css.mjs.
+const hojaPagina = postId && existe(`/css/post-${postId}.css`) ? `/css/post-${postId}.css` : '';
+const hayComunes = existe('/css/comunes.css');
+const hayComunesFinal = existe('/css/comunes-final.css');
+
+const canonical = site.dominio + ruta;
+const heroSrc = hero?.src && existe(hero.src) ? aWebp(hero.src) : '';
+
+const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: site.nombre,
+    url: site.dominio,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: site.nombre,
+    url: site.dominio,
+    email: site.email,
+    contactPoint: [{
+      '@type': 'ContactPoint',
+      contactType: 'ventas',
+      telephone: '+' + site.whatsapp,
+      email: site.email,
+      areaServed: 'ES',
+      availableLanguage: 'es',
+    }],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: h1 || titulo,
+    description: descripcion,
+    url: canonical,
+    inLanguage: 'es-ES',
+    isPartOf: { '@type': 'WebSite', name: site.nombre, url: site.dominio },
+  },
+];
+
+if (faq.length) {
+  jsonld.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({
+      '@type': 'Question',
+      name: f.pregunta,
+      acceptedAnswer: { '@type': 'Answer', text: f.respuesta },
+    })),
+  });
+}
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{tituloSeo || titulo}</title>
+    {descripcion && <meta name="description" content={descripcion} />}
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.nombre} />
+    <meta property="og:title" content={tituloSeo || titulo} />
+    {descripcion && <meta property="og:description" content={descripcion} />}
+    <meta property="og:url" content={canonical} />
+    {heroSrc && <meta property="og:image" content={site.dominio + heroSrc} />}
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preload" href="/fonts/roboto-variable.woff2" as="font" type="font/woff2" crossorigin />
+    {heroSrc && <link rel="preload" as="image" href={heroSrc} imagesrcset={hero.srcset} imagesizes={hero.sizes} />}
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    {site.verificaciones.google && (
+      <meta name="google-site-verification" content={site.verificaciones.google} />
+    )}
+
+    {jsonld.map((d) => <script type="application/ld+json" set:html={JSON.stringify(d)} />)}
+
+    {hayComunes && <link rel="stylesheet" href="/css/comunes.css" />}
+    {hojaPagina && <link rel="stylesheet" href={hojaPagina} />}
+    {hayComunesFinal && <link rel="stylesheet" href="/css/comunes-final.css" />}
+
+    {site.analitica.ga4 && (
+      <>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${site.analitica.ga4}`}></script>
+        <script is:inline define:vars={{ ga4: site.analitica.ga4 }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', ga4);
+        </script>
+      </>
+    )}
+
+    {site.analitica.adsense && (
+      <script
+        is:inline
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.analitica.adsense}`}
+        crossorigin="anonymous"
+        data-overlays="bottom"
+      ></script>
+    )}
+  </head>
+
+  <!-- Las clases del <body> son las que espera el CSS del tema: sin ellas,
+       reglas como .boxed-layout #wrap .container no llegan a aplicar. -->
+  <body class={`page wp-custom-logo boxed-layout wrap-boxshadow content-full-width default-breakpoint has-topbar elementor-kit-13 ${postId ? `elementor-page elementor-page-${postId}` : ''}`}>
+    <div id="wrap">
+      <Header ruta={ruta} menu={menu} />
+
+      {bandaTitulo && (
+        <div class="banda-titulo">
+          <div class="contenedor">
+            <h1 class="titulo">{h1 || titulo}</h1>
+            <Migas ruta={ruta} titulo={titulo} />
+          </div>
+        </div>
+      )}
+
+      {/* Franja vacia que ocupa el sitio que tenia la banda del tema en la web
+          en vivo (45 px). No lleva texto a proposito: el de la web original
+          estaba en blanco sobre gris claro y no se leia. El hueco se conserva
+          porque la primera seccion de estas paginas sube con margen negativo
+          contando con el. */}
+      {huecoTitulo && <div class="hueco-titulo" aria-hidden="true"></div>}
+
+      <!-- Mismo envoltorio que usaba el tema: sus hojas de estilo originales
+           son las que fijan el ancho de la caja y los 30 px de margen. -->
+      <main id="main" class="site-main clr">
+        <div id="content-wrap" class="container clr">
+          <div id="primary" class="content-area clr">
+            <div id="content" class="site-content clr">
+              <article class="single-page-article clr">
+                <div class="entry clr entrada">
+                  <slot />
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <Footer />
+    </div>
+    <WhatsApp />
+  </body>
+</html>

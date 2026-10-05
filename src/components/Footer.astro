@@ -1,0 +1,32 @@
+---
+import site from '../data/site.json';
+const anio = new Date().getFullYear();
+---
+
+<footer>
+  <div id="pie-widgets">
+    <div class="contenedor">
+      <div class="columnas">
+        {site.pie.columnas.map((c) => (
+          <div class="columna">
+            <p class="titulo-widget">{c.titulo}</p>
+            <ul>
+              {c.enlaces.map((e) => <li><a href={e.url}>{e.rotulo}</a></li>)}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <div id="pie-barra">
+    <div class="contenedor">
+      <div class="interior">
+        <div>© {anio} {site.pie.copyright} · {site.email}</div>
+        <ul>
+          {site.pie.menu.map((e) => <li><a href={e.url}>{e.rotulo}</a></li>)}
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

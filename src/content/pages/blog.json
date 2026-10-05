@@ -1,0 +1,14 @@
+{
+ "slug": "blog",
+ "ruta": "/blog/",
+ "titulo": "Blog",
+ "h1": "Blog",
+ "tituloSeo": "Blog de planes y experiencias en Valencia | Valencia & Go",
+ "descripcion": "Descubre planes, experiencias y rincones de Valencia contados por locales. Ideas para disfrutar la ciudad como si vivieras aquí.",
+ "palabraClave": "blog de planes valencia",
+ "noindex": false,
+ "hero": {},
+ "faq": [],
+ "cuerpo": "",
+ "palabras": 0
+}

@@ -1,0 +1,36 @@
+---
+/** Migas de pan con marcado BreadcrumbList, como las del tema original. */
+import site from '../data/site.json';
+const { ruta = '/', titulo = '' } = Astro.props;
+
+const partes = [
+  { nombre: 'Inicio', url: '/' },
+  ...(ruta === '/' ? [] : [{ nombre: titulo, url: ruta }]),
+];
+
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: partes.map((p, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: p.nombre,
+    item: site.dominio + p.url,
+  })),
+};
+---
+
+{partes.length > 1 && (
+  <nav class="migas" aria-label="Migas de pan">
+    <ol>
+      {partes.map((p, i) => (
+        <li>
+          {i < partes.length - 1
+            ? <><a href={p.url}>{p.nombre}</a><span class="sep">›</span></>
+            : <span aria-current="page">{p.nombre}</span>}
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}
+<script type="application/ld+json" set:html={JSON.stringify(jsonld)} />

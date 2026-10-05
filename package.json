@@ -1,0 +1,34 @@
+{
+  "name": "casascontenedores",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "validar": "node scripts/validar.mjs",
+    "comparar": "node scripts/comparar-encabezados.mjs",
+    "webp": "node scripts/webp.mjs",
+    "capturas": "node scripts/capturas.mjs",
+    "css": "node scripts/css.mjs",
+    "css:limpiar": "astro build && node scripts/css.mjs --limpiar && astro build",
+    "fuentes": "node scripts/fuentes-locales.mjs",
+    "todo": "node scripts/fuentes-locales.mjs && node scripts/css.mjs && astro build && node scripts/validar.mjs && node scripts/comparar-encabezados.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.2"
+  },
+  "devDependencies": {
+    "@fontsource/abel": "^5.3.0",
+    "@fontsource/roboto": "^5.3.0",
+    "@fontsource/roboto-condensed": "^5.3.0",
+    "@fontsource/roboto-slab": "^5.3.0",
+    "@fontsource/satisfy": "^5.3.0",
+    "@fontsource/ubuntu": "^5.3.0",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "playwright": "^1.63.0",
+    "sharp": "^0.35.4",
+    "simple-line-icons": "^2.5.5"
+  }
+}

@@ -1,0 +1,101 @@
+---
+/**
+ * Cabecera. Reproduce la del sitio vivo: barra superior con el correo,
+ * fila del logo y barra de menú gris.
+ *
+ * El menú se toma tal cual estaba en WordPress (src/data/menus.json), con su
+ * orden y sus submenús. Cada sección enseña el suyo: las páginas de
+ * contenedores marítimos llevan el menú de contenedores, el resto el
+ * principal, igual que hoy.
+ */
+import site from '../data/site.json';
+import menus from '../data/menus.json';
+import { existe, aWebp } from '../utils/imagenes.js';
+
+const { ruta = '/', menu: nombreMenu = '' } = Astro.props;
+
+// Cada pagina dice que menu lleva: OceanWP lo guarda pagina por pagina y
+// scripts/arbol.py lo trae al JSON. Cuando no dice nada, el del tema.
+const menu = menus[nombreMenu] || menus[site.menuPorDefecto] || [];
+
+const LOGO = '/wp-content/uploads/2021/08/casas-contenedores-.jpg';
+const hayLogo = existe(LOGO);
+
+const activo = (url) => url === ruta;
+---
+
+<a class="salto-contenido" href="#content-wrap">Saltar al contenido</a>
+
+<div id="barra-superior">
+  <div class="contenedor">
+    <div class="contenido">{site.email}</div>
+  </div>
+</div>
+
+<header id="cabecera">
+  <div class="contenedor">
+    <div class="cabecera-logo">
+      <a href="/" rel="home" aria-label={site.nombre}>
+        {hayLogo
+          ? <img src={aWebp(LOGO)} alt={site.nombre} width="810" height="450" />
+          : <span class="marca">Casas Contenedores</span>}
+      </a>
+      <button class="boton-menu" type="button" aria-expanded="false" aria-controls="menu-movil" data-menu>
+        Menú
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="barra-navegacion" aria-label="Menú principal">
+  <div class="contenedor">
+    <ul id="menu-principal">
+      {menu.map((e) => (
+        <li>
+          <a href={e.url} aria-current={activo(e.url) ? 'page' : undefined}>
+            {e.rotulo}{e.hijos && <span class="flecha">▾</span>}
+          </a>
+          {e.hijos && (
+            <ul class={e.hijos.length > 24 ? 'submenu columnas' : 'submenu'}>
+              {e.hijos.map((h) => (
+                <li><a href={h.url}>{h.rotulo}</a></li>
+              ))}
+            </ul>
+          )}
+        </li>
+      ))}
+    </ul>
+  </div>
+</nav>
+
+<div id="menu-movil">
+  <ul>
+    {menu.map((e) => (
+      e.hijos
+        ? <li>
+            <details>
+              <summary>{e.rotulo}</summary>
+              <ul>
+                <li><a href={e.url}>Ver {e.rotulo}</a></li>
+                {e.hijos.map((h) => <li><a href={h.url}>{h.rotulo}</a></li>)}
+              </ul>
+            </details>
+          </li>
+        : <li><a href={e.url}>{e.rotulo}</a></li>
+    ))}
+  </ul>
+</div>
+
+<script is:inline>
+  (function () {
+    var boton = document.querySelector('[data-menu]');
+    var caja = document.getElementById('menu-movil');
+    if (!boton || !caja) return;
+    boton.addEventListener('click', function () {
+      var abierto = caja.getAttribute('data-abierto') === '1';
+      caja.setAttribute('data-abierto', abierto ? '0' : '1');
+      boton.setAttribute('aria-expanded', abierto ? 'false' : 'true');
+      boton.textContent = abierto ? 'Menú' : 'Cerrar';
+    });
+  })();
+</script>

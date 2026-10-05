@@ -1,0 +1,53 @@
+{
+ "_nota": "Fase 0: solo datos publicados en la web viva. Lo vacio lo pasa el propietario (inventario §15).",
+ "nombre": "Valencia&Go",
+ "dominio": "https://www.valenciaandgo.com",
+ "descripcion": "Tours y excursiones en Valencia con guías oficiales locales: Albufera, Lonja de la Seda y Cuevas de San José. Reserva directa, sin intermediarios.",
+ "email": "info@valenciaandgo.com",
+ "telefono": "+34684306787",
+ "whatsapp": "34680488233",
+ "whatsappTexto": "",
+ "titular": {
+  "nombre": "",
+  "nif": "",
+  "direccion": "",
+  "email": "info@valenciaandgo.com"
+ },
+ "analitica": {
+  "adsense": "",
+  "ga4": ""
+ },
+ "verificaciones": {
+  "google": ""
+ },
+ "formulario": {
+  "accion": "",
+  "accessKey": "",
+  "destino": "info@valenciaandgo.com",
+  "gracias": "/gracias/"
+ },
+ "menuPorDefecto": "menu-principal",
+ "pie": {
+  "copyright": "Valencia&Go",
+  "menu": [
+   {
+    "rotulo": "Aviso legal",
+    "url": "/aviso-legal/"
+   },
+   {
+    "rotulo": "Política de privacidad",
+    "url": "/politica-de-privacidad/"
+   },
+   {
+    "rotulo": "Política de cookies",
+    "url": "/politica-de-cookies/"
+   },
+   {
+    "rotulo": "Condiciones de compra",
+    "url": "/condiciones-de-compra/"
+   }
+  ],
+  "columnas": []
+ },
+ "rediseno": false
+}

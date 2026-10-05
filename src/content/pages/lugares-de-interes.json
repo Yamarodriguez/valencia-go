@@ -1,0 +1,14 @@
+{
+ "slug": "lugares-de-interes",
+ "ruta": "/lugares-de-interes/",
+ "titulo": "Lugares de interés",
+ "h1": "Lugares de interés",
+ "tituloSeo": "Lugares de interés de Valencia: qué ver en la ciudad",
+ "descripcion": "Los lugares que no te puedes perder en Valencia: Ciudad de las Artes, Lonja de la Seda, barrio del Carmen y mucho más. Con visitas guiadas.",
+ "palabraClave": "lugares de interés de Valencia",
+ "noindex": false,
+ "hero": {},
+ "faq": [],
+ "cuerpo": "<p>Lo que no puedes perderte</p><p data-end=\"76\" data-start=\"0\">¿Llegas a Valencia y quieres descubrir lo mejor de la ciudad en poco tiempo?</p><p data-end=\"294\" data-start=\"78\">Explora nuestros <strong data-end=\"129\" data-start=\"95\">lugares de interés en Valencia</strong> y aprovecha cada minuto con una selección pensada para ti.</p><p data-end=\"294\" data-start=\"78\">Disfruta de Valencia sin perder tiempo buscando qué hacer. Aquí encontrarás opciones ideales para todos los gustos, con ubicaciones clave y experiencias que realmente valen la pena.</p><p>[lista_atracciones]</p>",
+ "palabras": 64
+}

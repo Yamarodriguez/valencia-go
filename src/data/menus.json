@@ -1,0 +1,112 @@
+{
+ "mas-valencia-and-go": [
+  {
+   "rotulo": "Experiencias a medida",
+   "url": "https://www.valenciaandgo.com/experiencias-a-medida/"
+  },
+  {
+   "rotulo": "Nuestros vehiculos",
+   "url": "https://www.valenciaandgo.com/nuestros-vehiculos/"
+  },
+  {
+   "rotulo": "Alquiler de barcos",
+   "url": "https://www.valenciaandgo.com/alquiler-de-barcos/"
+  },
+  {
+   "rotulo": "Lugares de interés",
+   "url": "https://www.valenciaandgo.com/lugares-de-interes/"
+  },
+  {
+   "rotulo": "Especial cruceros",
+   "url": "https://www.valenciaandgo.com/especial-cruceros/"
+  }
+ ],
+ "menu-hamburguesa": [
+  {
+   "rotulo": "Lugares de interés",
+   "url": "https://www.valenciaandgo.com/lugares-de-interes/"
+  },
+  {
+   "rotulo": "Quiénes somos",
+   "url": "https://www.valenciaandgo.com/quienes-somos/"
+  },
+  {
+   "rotulo": "Blog",
+   "url": "https://www.valenciaandgo.com/blog/"
+  },
+  {
+   "rotulo": "Contacto",
+   "url": "https://www.valenciaandgo.com/contacto/"
+  }
+ ],
+ "menu-legales": [
+  {
+   "rotulo": "Aviso legal",
+   "url": "https://www.valenciaandgo.com/aviso-legal/"
+  },
+  {
+   "rotulo": "Política de privacidad",
+   "url": "https://www.valenciaandgo.com/politica-de-privacidad/"
+  },
+  {
+   "rotulo": "Política de cookies",
+   "url": "https://www.valenciaandgo.com/politica-de-cookies/"
+  },
+  {
+   "rotulo": "Condiciones de compra",
+   "url": "https://www.valenciaandgo.com/condiciones-de-compra/"
+  }
+ ],
+ "menu-movil": [
+  {
+   "rotulo": "",
+   "url": "#"
+  },
+  {
+   "rotulo": "",
+   "url": "#"
+  },
+  {
+   "rotulo": "Experiencias a medida",
+   "url": "https://www.valenciaandgo.com/experiencias-a-medida/"
+  },
+  {
+   "rotulo": "Especial cruceros",
+   "url": "https://www.valenciaandgo.com/especial-cruceros/"
+  },
+  {
+   "rotulo": "Lugares de interés",
+   "url": "https://www.valenciaandgo.com/lugares-de-interes/"
+  },
+  {
+   "rotulo": "Quiénes somos",
+   "url": "https://www.valenciaandgo.com/quienes-somos/"
+  },
+  {
+   "rotulo": "Blog",
+   "url": "https://www.valenciaandgo.com/blog/"
+  },
+  {
+   "rotulo": "Contacto",
+   "url": "https://www.valenciaandgo.com/contacto/"
+  }
+ ],
+ "menu-principal": [
+  {
+   "rotulo": "",
+   "url": "#"
+  },
+  {
+   "rotulo": "",
+   "url": "#"
+  },
+  {
+   "rotulo": "Experiencias a medida",
+   "url": "https://www.valenciaandgo.com/experiencias-a-medida/"
+  },
+  {
+   "rotulo": "Especial cruceros",
+   "url": "https://www.valenciaandgo.com/especial-cruceros/"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  ruta="/404/"
+  titulo="Página no encontrada"
+  tituloSeo="Página no encontrada - Casas Contenedores"
+  descripcion="La página que buscas no existe o ha cambiado de dirección."
+  h1="Esta página no existe"
+  noindex={true}
+>
+  <p>La dirección que has abierto no existe o ha cambiado. Puede que el enlace esté antiguo.</p>
+  <p>Prueba por aquí:</p>
+  <ul>
+    <li><a href="/">Portada</a></li>
+    <li><a href="/precios/">Precios de casas contenedores</a></li>
+    <li><a href="/modelos/">Modelos</a></li>
+    <li><a href="/catalogo/">Catálogo</a></li>
+    <li><a href="/contenedores-maritimos/">Contenedores marítimos</a></li>
+    <li><a href="/presupuesto-casas-contenedores/">Pedir presupuesto</a></li>
+  </ul>
+</Base>

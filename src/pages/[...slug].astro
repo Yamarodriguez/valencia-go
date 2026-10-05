@@ -1,0 +1,68 @@
+---
+/**
+ * La ruta dinámica que pinta las 263 páginas. Las rutas se conservan tal cual
+ * estaban en WordPress: salen del campo `ruta` de cada JSON.
+ *
+ * La maquetación sale del árbol `bloques` (lo extrae scripts/arbol.py del
+ * propio Elementor). Aquí no se decide nada de diseño: se pinta lo que trae.
+ */
+import Base from '../layouts/Base.astro';
+import Formulario from '../components/Formulario.astro';
+import { pintar, asegurarH1 } from '../utils/render.js';
+import { sanearImagenes } from '../utils/imagenes.js';
+
+export async function getStaticPaths() {
+  const modulos = import.meta.glob('../content/pages/*.json', { eager: true });
+  return Object.values(modulos).map((m) => {
+    const p = m.default || m;
+    const slug = p.ruta.replace(/^\/|\/$/g, '');
+    return { params: { slug: slug || undefined }, props: { pagina: p } };
+  });
+}
+
+const { pagina } = Astro.props;
+
+// 1. un solo H1 por página
+const bloques = structuredClone(pagina.bloques || []);
+// las páginas sin árbol de Elementor (las legales) no tienen dónde poner el
+// H1 dentro del contenido: lo pone la banda de título del tema
+const conBanda = pagina.bandaTitulo || bloques.length === 0;
+const h1 = asegurarH1(bloques, conBanda, pagina.h1 || pagina.titulo);
+// Las 7 paginas que en la web en vivo llevan la franja gris del tema no la
+// enseñan aqui (su texto estaba en blanco sobre gris: no se leia), pero si
+// conservan su HUECO. La primera seccion de esas paginas sube con un margen
+// superior negativo que cuenta con la franja; sin el hueco, la foto principal
+// tapa la barra del menu.
+const conHueco = !conBanda && Boolean(pagina.huecoTitulo);
+
+// 2. se pinta el árbol; las imágenes pasan por el saneador (webp / marcador).
+//    Las 4 páginas sin árbol de Elementor (las legales) van como texto corrido.
+const hayArbol = bloques.length > 0;
+const { html } = hayArbol
+  ? pintar(bloques, { imagenes: (trozo) => sanearImagenes(trozo).html, postId: pagina.postId })
+  : { html: `<div class="texto-corrido">${sanearImagenes(pagina.cuerpo).html}</div>` };
+
+// 3. el marcador del formulario se parte para insertar el componente
+const trozos = html.split(/<!--FORMULARIO:[^>]*?-->/);
+---
+
+<Base
+  ruta={pagina.ruta}
+  titulo={pagina.titulo}
+  tituloSeo={pagina.tituloSeo}
+  descripcion={pagina.descripcion}
+  h1={h1}
+  bandaTitulo={conBanda}
+  huecoTitulo={conHueco}
+  menu={pagina.menu}
+  faq={pagina.faq}
+  noindex={pagina.noindex}
+  postId={pagina.postId}
+>
+  {trozos.map((trozo, i) => (
+    <>
+      <Fragment set:html={trozo} />
+      {i < trozos.length - 1 && <Formulario />}
+    </>
+  ))}
+</Base>
