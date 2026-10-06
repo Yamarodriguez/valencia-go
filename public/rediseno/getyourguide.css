@@ -1,73 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 /*
- * Rediseño — opción "getyourguide" (Fase 3). Inspirada en la estética de
- * GetYourGuide: fondo blanco limpio, texto y titulares en azul marino, un
- * solo color de acción (rojo anaranjado) para botones y precios, tarjetas con
- * borde fino y esquinas de 12 px sin sombra, letra sans gruesa y compacta.
- * Colores de referencia: acción #FF5533, marino #1A2B49, gris claro #F2F3F5.
- * Solo colores, letra y bordes: ni marcado ni texto. Última hoja del <head>
- * cuando site.json lleva "rediseno": "getyourguide".
+ * Rediseño — opción 2, al estilo GetYourGuide (Fase 3). Hoja propia sobre el
+ * MISMO contenido: no se toca ni un texto ni la estructura. Última hoja del <head>.
+ *
+ * Composición: web de marketplace. Cabecera blanca compacta con borde fino;
+ * foto principal más baja (60 % de la pantalla) con titular centrado y velo
+ * uniforme; ancho de contenido 1180 px; secciones compactas con titulares a la
+ * izquierda; rejilla de tours a CUATRO columnas con tarjetas de borde fino y
+ * esquinas de 12 px, foto 3:2, precio rojo y botón de texto; categorías como
+ * chips en fila; bloques a dos columnas con fotos de 12 px; pie gris claro.
+ * Colores: #FF5533 (acción), #1A2B49 (marino), #F2F3F5 (gris). Letra: Inter
+ * (para esta vista previa desde Google Fonts; si se elige, desde npm).
  */
 body.elementor-kit-67 {
-  --e-global-color-primary: #FF5533;
-  --e-global-color-accent: #FF5533;
-  --e-global-color-secondary: #1A2B49;
-  --e-global-color-text: #1A2B49;
-  --e-global-color-ea18cb3: #63727E;
-  --e-global-color-9f91388: #F2F3F5;
-  --e-global-typography-primary-font-family: "Lato";
-  --e-global-typography-primary-font-weight: 800;
-  --e-global-typography-secondary-font-family: "Lato";
-  --e-global-typography-secondary-font-weight: 700;
-  --e-global-typography-text-font-family: "Lato";
-  --e-global-typography-text-font-size: 16px;
-  --e-global-typography-accent-font-family: "Lato";
-  --e-global-typography-accent-font-weight: 700;
+  --e-global-color-primary: #FF5533; --e-global-color-accent: #FF5533;
+  --e-global-color-secondary: #1A2B49; --e-global-color-text: #1A2B49;
+  --e-global-color-ea18cb3: #63727E; --e-global-color-9f91388: #F2F3F5;
+  --e-global-typography-primary-font-family: "Inter"; --e-global-typography-primary-font-weight: 800;
+  --e-global-typography-secondary-font-family: "Inter"; --e-global-typography-secondary-font-weight: 700;
+  --e-global-typography-text-font-family: "Inter"; --e-global-typography-text-font-size: 16px;
+  --e-global-typography-accent-font-family: "Inter"; --e-global-typography-accent-font-weight: 600;
 }
-body.elementor-kit-67 h1, body.elementor-kit-67 h2, body.elementor-kit-67 h3, body.elementor-kit-67 h4,
-body.elementor-kit-67 .elementor-heading-title { font-family: "Lato", sans-serif !important; font-weight: 800; letter-spacing: -0.02em; }
-body.elementor-kit-67, body.elementor-kit-67 p, body.elementor-kit-67 .elementor-widget-text-editor,
-body.elementor-kit-67 .elementor-icon-list-text, body.elementor-kit-67 .elementor-nav-menu a { font-family: "Lato", sans-serif !important; }
+body.elementor-kit-67, body.elementor-kit-67 p, body.elementor-kit-67 .elementor-widget-text-editor, body.elementor-kit-67 .elementor-icon-list-text,
+body.elementor-kit-67 .elementor-nav-menu a, body.elementor-kit-67 .elementor-button { font-family: "Inter", sans-serif !important; }
+body.elementor-kit-67 h1, body.elementor-kit-67 h2, body.elementor-kit-67 h3, body.elementor-kit-67 h4, body.elementor-kit-67 .elementor-heading-title { font-family: "Inter", sans-serif !important; font-weight: 800; letter-spacing: -0.02em; }
+.elementor-70 .e-con-boxed, .elementor-location-header .e-con-boxed, .elementor-location-footer .e-con-boxed { --container-max-width: 1180px; }
 
-/* cabecera blanca con borde gris fino; menú en marino, en mayúsculas pequeñas */
-.elementor-location-header .elementor-element-5ff63914,
-.elementor-location-header .elementor-element-6a8bff6,
-.elementor-location-header .elementor-element-4df71b1 { background-color: #ffffff !important; border-bottom: 1px solid #E6E8EB; box-shadow: none; }
-.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item,
-.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item.elementor-item-active { color: #1A2B49 !important; font-weight: 700; }
+/* ---------- cabecera blanca compacta ---------- */
+.elementor-location-header .elementor-element-5ff63914, .elementor-location-header .elementor-element-6a8bff6, .elementor-location-header .elementor-element-4df71b1 { background-color: #ffffff !important; border-bottom: 1px solid #E6E8EB; box-shadow: none; }
+.elementor-10594 .elementor-element.elementor-element-6002e415:not(.elementor-motion-effects-element-type-background),
+.elementor-10594 .elementor-element.elementor-element-3170bcdc:not(.elementor-motion-effects-element-type-background) { background-color: #ffffff !important; border-bottom: 1px solid #E6E8EB; }
+.elementor-10594 .elementor-element-6926517, .elementor-10594 .elementor-element-0525b0a { --e-global-color-395da40: #1A2B49; }
+.elementor-10594 .elementor-element-6926517 .elementor-icon-list-item:not(:last-child):after { border-color: #CBD2D9 !important; }
+.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item { color: #1A2B49 !important; font-weight: 600; text-transform: none !important; letter-spacing: 0; font-size: 15px; }
 .elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item:hover { color: #FF5533 !important; }
 .elementor-location-header .elementor-widget-icon svg, .elementor-location-header .elementor-icon-list-icon svg { fill: #1A2B49; }
-.elementor-location-header .elementor-element-6926517 { background-color: #ffffff !important; border-bottom: 1px solid #E6E8EB; }
-.elementor-location-header .elementor-element-6926517 a, .elementor-location-header .elementor-element-6926517 span,
-.elementor-location-header .elementor-element-6926517 .elementor-icon-list-text { color: #1A2B49 !important; }
-.elementor-location-header .elementor-element-6926517 svg { fill: #FF5533 !important; }
+.elementor-10594 .elementor-element-28ecc992 img, .elementor-10594 .elementor-element-1aae988b img { content: url("/wp-content/uploads/2026/04/logo-valenciaandgo-azul.png"); }
 .elementor-location-header .elementor-element-d3ef044 { background-color: #F2F3F5 !important; }
-.elementor-location-header .elementor-element-d3ef044 span, .elementor-location-header .elementor-element-d3ef044 .elementor-icon-list-text { color: #1A2B49 !important; }
+.elementor-location-header .vgo-banner { background: #F2F3F5 !important; }
+.elementor-location-header .vgo-banner, .elementor-location-header .vgo-banner span, .elementor-location-header .vgo-banner__title { color: #1A2B49 !important; }
 
-/* botón de acción: rojo anaranjado, esquinas de 8 px, sin sombra */
-body.elementor-kit-67 .elementor-button { border-radius: 8px !important; background-color: #FF5533; box-shadow: none; font-weight: 700; }
+/* ---------- foto principal: más baja, titular centrado ---------- */
+.elementor-70 .elementor-element.elementor-element-dff3c28 { --min-height: 62vh; --padding-top: 120px; --padding-bottom: 72px; }
+.elementor-70 .elementor-element.elementor-element-dff3c28::before, .elementor-70 .elementor-element-dff3c28 > .elementor-background-overlay { background: rgba(26, 43, 73, 0.42) !important; opacity: 1 !important; }
+.elementor-70 .elementor-element-cb607ae .elementor-heading-title { font-size: 54px !important; line-height: 1.08 !important; font-weight: 800 !important; }
+.elementor-70 .elementor-element-b47feba, .elementor-70 .elementor-element-b47feba p { font-size: 18px !important; font-weight: 500; }
+.elementor-70 .elementor-element-b54be20 { background: #ffffff !important; border-radius: 999px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); }
+.elementor-70 .elementor-element-b54be20 * { color: #1A2B49 !important; font-weight: 600; }
+.elementor-70 .elementor-element-96696e0 { display: none; }
+
+/* ---------- botones: rojo anaranjado, 8 px ---------- */
+body.elementor-kit-67 .elementor-button { border-radius: 8px !important; background-color: #FF5533; box-shadow: none; font-weight: 700; letter-spacing: 0; text-transform: none !important; }
 body.elementor-kit-67 .elementor-button:hover { background-color: #E64A2B; }
 
-/* foto principal: velo oscuro uniforme (35 %) */
-.elementor-70 .elementor-element-dff3c28::before,
-.elementor-70 .elementor-element-dff3c28 > .elementor-background-overlay { background: rgba(26, 43, 73, 0.35) !important; opacity: 1 !important; }
+/* ---------- títulos de sección: a la izquierda, 30 px, secciones compactas ---------- */
+.elementor-70 .elementor-widget-heading h2.elementor-heading-title { color: #1A2B49 !important; font-size: 30px !important; line-height: 1.2 !important; text-align: left !important; }
+.elementor-70 .elementor-element-0494195, .elementor-70 .elementor-element-527add5, .elementor-70 .elementor-element-90839ab, .elementor-70 .elementor-element-7f4d65a { --padding-top: 56px; --padding-bottom: 8px; }
+.elementor-70 .elementor-element-0494195 .elementor-widget-text-editor p, .elementor-70 .elementor-element-527add5 .elementor-widget-text-editor p, .elementor-70 .elementor-element-90839ab .elementor-widget-text-editor p { text-align: left !important; color: #63727E; font-size: 16px; }
+.elementor-70 .elementor-element-3458bb3 { --align-items: flex-start; }
+.elementor-70 .elementor-element-0494195 .elementor-widget-text-editor { max-width: 760px; }
 
-/* tarjetas: borde fino, 12 px, sin sombra; precio en rojo anaranjado */
-.elementor-70 .elementor-loop-item { border: 1px solid #E6E8EB; border-radius: 12px; overflow: hidden; box-shadow: none; background: #fff; }
-.elementor-70 .elementor-loop-item img { border-radius: 12px 12px 0 0; }
-.elementor-70 .elementor-loop-item .woocommerce-Price-amount, .elementor-70 .elementor-loop-item bdi { color: #FF5533 !important; font-weight: 800; }
-.elementor-70 .elementor-widget-heading h2.elementor-heading-title { color: #1A2B49; }
-.elementor-70 .elementor-element-d7adc8b h2.elementor-heading-title { color: #ffffff; }
-.elementor-70 .elementor-element-0494195, .elementor-70 .elementor-element-19fd49d, .elementor-70 .elementor-element-527add5 { background-color: #ffffff; }
+/* ---------- rejilla de tours: cuatro columnas, tarjetas de borde fino ---------- */
+.elementor-70 .elementor-element-092c878 { --padding-top: 8px; --padding-bottom: 56px; }
+.elementor-70 .elementor-element-f6e8fb0 { --grid-columns: 4 !important; --grid-column-gap: 20px; --grid-row-gap: 28px; }
+.elementor-70 .e-loop-item { background: #fff; border: 1px solid #E6E8EB; border-radius: 12px; overflow: hidden; box-shadow: none; transition: box-shadow .2s; }
+.elementor-70 .e-loop-item:hover { box-shadow: 0 8px 24px rgba(26, 43, 73, 0.12); }
+.elementor-70 .e-loop-item > .e-con { --padding-top: 0; --padding-bottom: 0; --padding-left: 0; --padding-right: 0; --gap: 0; --row-gap: 0; }
+.elementor-70 .e-loop-item .elementor-widget-image img { border-radius: 0 !important; aspect-ratio: 3 / 2; object-fit: cover; width: 100%; }
+.elementor-70 .e-loop-item .elementor-widget-heading h3.elementor-heading-title { font-size: 16px !important; line-height: 1.3 !important; font-weight: 700 !important; color: #1A2B49 !important; padding: 12px 14px 2px; }
+.elementor-70 .e-loop-item .elementor-widget-heading h3.elementor-heading-title a { color: inherit; }
+.elementor-70 .e-loop-item .elementor-icon-list-items { padding: 0 14px; }
+.elementor-70 .e-loop-item .elementor-icon-list-text { color: #63727E !important; font-size: 13px; }
+.elementor-70 .e-loop-item .elementor-icon-list-icon svg { fill: #63727E !important; width: 13px; }
+.elementor-70 .e-loop-item .price, .elementor-70 .e-loop-item .price bdi, .elementor-70 .e-loop-item .woocommerce-Price-amount { color: #1A2B49 !important; font-size: 20px !important; font-weight: 800 !important; font-family: "Inter", sans-serif !important; }
+.elementor-70 .e-loop-item .e-con-boxed > .e-con-inner { padding: 4px 14px 14px; }
+.elementor-70 .e-loop-item .bag a { background: #ffffff !important; color: #1A2B49 !important; border-radius: 6px; padding: 4px 10px; font-size: 12px; font-weight: 600; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); }
+.elementor-70 .e-loop-item .badge-agota .elementor-heading-title { background: #FF5533 !important; color: #fff !important; border-radius: 6px; padding: 4px 10px; font-size: 12px; }
+.elementor-70 .e-loop-item .elementor-button { width: 100%; justify-content: center; background: #ffffff !important; color: #1A2B49 !important; border: 1px solid #1A2B49 !important; padding: 10px 14px !important; }
+.elementor-70 .e-loop-item .elementor-button:hover { background: #1A2B49 !important; color: #fff !important; }
+.elementor-70 .e-loop-item .elementor-button svg { fill: currentColor; }
 
-/* pie: gris muy claro con texto marino */
-.elementor-location-footer .elementor-element-8452, .elementor-location-footer > .e-con { background-color: #F2F3F5 !important; }
-.elementor-location-footer, .elementor-location-footer a, .elementor-location-footer p, .elementor-location-footer span, .elementor-location-footer h4 { color: #1A2B49 !important; }
+/* ---------- categorías: chips en fila ---------- */
+.elementor-70 .elementor-element.elementor-element-19fd49d { background-color: #ffffff !important; --padding-top: 40px; --padding-bottom: 40px; border-top: 1px solid #E6E8EB; border-bottom: 1px solid #E6E8EB; }
+.elementor-70 .elementor-element-19fd49d > .e-con-inner > .e-con, .elementor-70 .elementor-element-19fd49d > .e-con { background: #F2F3F5; border-radius: 999px; padding: 10px 18px; --align-items: center; --gap: 12px; --flex-direction: row; --justify-content: flex-start; }
+.elementor-70 .elementor-element-19fd49d .elementor-widget-image img { width: 36px !important; height: 36px !important; object-fit: contain; filter: hue-rotate(-12deg) saturate(1.2); }
+.elementor-70 .elementor-element-19fd49d .elementor-heading-title { color: #1A2B49 !important; font-size: 14px !important; letter-spacing: 0; text-transform: none !important; }
+.elementor-70 .elementor-element-19fd49d .elementor-widget-text-editor { color: #63727E; font-size: 12px; }
+.elementor-70 .elementor-element-19fd49d .elementor-widget-text-editor p { margin: 0; }
+
+/* ---------- bloques a dos columnas ---------- */
+.elementor-70 .elementor-element.elementor-element-d760916, .elementor-70 .elementor-element.elementor-element-d7adc8b,
+.elementor-70 .elementor-element.elementor-element-0fbbb4f, .elementor-70 .elementor-element.elementor-element-eee99ab { --padding-top: 64px; --padding-bottom: 64px; background-color: #ffffff !important; }
+.elementor-70 .elementor-element.elementor-element-d7adc8b { background-color: #F2F3F5 !important; }
+.elementor-70 .elementor-element-d7adc8b h2.elementor-heading-title, .elementor-70 .elementor-element-d7adc8b .elementor-icon-list-text, .elementor-70 .elementor-element-d7adc8b p { color: #1A2B49 !important; }
+.elementor-70 .elementor-element-d7adc8b .elementor-icon-list-icon svg { fill: #FF5533 !important; }
+.elementor-70 .elementor-element-d760916 img, .elementor-70 .elementor-element-d7adc8b img, .elementor-70 .elementor-element-eee99ab img, .elementor-70 .elementor-element-0fbbb4f .swiper img { border-radius: 12px !important; box-shadow: none; }
+.elementor-70 .elementor-element-d760916 .elementor-widget-text-editor p, .elementor-70 .elementor-element-0fbbb4f .elementor-widget-text-editor p, .elementor-70 .elementor-element-eee99ab .elementor-widget-text-editor p { font-size: 16px; line-height: 1.6; color: #3E4C59; }
+
+/* ---------- blog, Instagram, logos ---------- */
+.elementor-70 .elementor-element-df5c030 .e-loop-item { border: 1px solid #E6E8EB; border-radius: 12px; box-shadow: none; }
+.elementor-70 .elementor-element-df5c030 .e-loop-item img { aspect-ratio: 3 / 2; object-fit: cover; }
+.elementor-70 .elementor-element-7f4d65a img { filter: grayscale(1); opacity: 0.55; }
+.elementor-70 .elementor-element-7f4d65a h2.elementor-heading-title { font-size: 16px !important; color: #63727E !important; }
+
+/* ---------- pie gris claro ---------- */
+.elementor-location-footer .elementor-element-8452 > .e-con, .elementor-location-footer .e-con:not(.e-child) { background-color: #F2F3F5 !important; }
+.elementor-8452 .elementor-element:not(.elementor-motion-effects-element-type-background) { background-color: transparent !important; }
+.elementor-location-footer, .elementor-location-footer a, .elementor-location-footer p, .elementor-location-footer span, .elementor-location-footer h4, .elementor-location-footer .elementor-heading-title { color: #1A2B49 !important; }
 .elementor-location-footer a:hover { color: #FF5533 !important; }
 
-/* --- ajustes tras la primera captura --- */
-.elementor-10594 .elementor-element.elementor-element-6002e415:not(.elementor-motion-effects-element-type-background) { background-color: #ffffff !important; border-bottom: 1px solid #E6E8EB; }
-.elementor-10594 .elementor-element-6926517 { --e-global-color-395da40: #1A2B49; }
-.elementor-10594 .elementor-element-6926517 .elementor-icon-list-item:not(:last-child):after { border-color: #1A2B49 !important; }
-.elementor-10594 .elementor-element-28ecc992 img, .elementor-10594 .elementor-element-1aae988b img { content: url("/wp-content/uploads/2026/04/logo-valenciaandgo-azul.png"); }
-.elementor-70 .elementor-widget-heading h2.elementor-heading-title { color: #1A2B49 !important; }
-.elementor-70 .elementor-element-d7adc8b h2.elementor-heading-title, .elementor-70 .elementor-element-dff3c28 .elementor-heading-title { color: #ffffff !important; }
+/* ---------- móvil ---------- */
+@media (max-width: 767px) {
+  .elementor-70 .elementor-element.elementor-element-dff3c28 { --min-height: 60vh; --padding-top: 100px; }
+  .elementor-70 .elementor-element-cb607ae .elementor-heading-title { font-size: 34px !important; }
+  .elementor-70 .elementor-element-f6e8fb0 { --grid-columns: 1 !important; }
+  .elementor-70 .elementor-widget-heading h2.elementor-heading-title { font-size: 26px !important; }
+  .elementor-location-header .elementor-element-6a8bff6 .elementor-widget-image img { content: url("/wp-content/uploads/2026/04/logo-valenciaandgo-azul.png"); }
+}
+@media (min-width: 768px) and (max-width: 1100px) { .elementor-70 .elementor-element-f6e8fb0 { --grid-columns: 2 !important; } }
+
+/* rejilla a cuatro columnas: Elementor la fija con la clase loop-grid-3, no con la variable */
+.elementor-70 .elementor-element-f6e8fb0 .elementor-grid { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+@media (min-width: 768px) and (max-width: 1100px) { .elementor-70 .elementor-element-f6e8fb0 .elementor-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; } }
+@media (max-width: 767px) { .elementor-70 .elementor-element-f6e8fb0 .elementor-grid { grid-template-columns: repeat(1, minmax(0, 1fr)) !important; } }
+/* la frase pequeña sobre el titular: a su ancho natural */
+.elementor-70 .elementor-element.elementor-element-b54be20 { --width: auto; width: auto; --padding-left: 18px; --padding-right: 18px; }

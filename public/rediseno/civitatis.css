@@ -1,76 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 /*
- * Rediseño — opción "civitatis" (Fase 3). Inspirada en la estética de
- * Civitatis: cabecera de color pleno (rosa fucsia) con el menú en blanco,
- * titulares grandes y finos en gris casi negro, fondos gris muy claro,
- * botones en píldora rosa, precios en rosa. Letra Montserrat.
- * Colores de referencia medidos en su web: #EA0558 (principal), #D3074C
- * (oscuro), #1C1A1A (texto), #F5F4F5 (fondo), #377C01 (verde de "disponible").
- * Para esta vista previa Montserrat se pide a Google Fonts; si se elige esta
- * opción, se instala desde npm y se sirve desde este dominio.
- * Solo colores, letra y bordes: ni marcado ni texto. Última hoja del <head>
- * cuando site.json lleva "rediseno": "civitatis".
+ * Rediseño — opción 3, al estilo Civitatis (Fase 3). Hoja propia sobre el
+ * MISMO contenido: no se toca ni un texto ni la estructura. Última hoja del <head>.
+ *
+ * Composición: cabecera rosa plena con menú blanco; foto principal alta con
+ * titular grande y fino centrado y una frase pequeña en mayúsculas encima;
+ * secciones alternando blanco y gris muy claro con titulares centrados,
+ * grandes y finos; tarjetas de tour blancas de esquinas de 5 px con foto 4:3,
+ * título en negrita, precio rosa a la derecha y botón píldora rosa;
+ * categorías como fichas cuadradas con icono rosa; bloque "¿Por qué?" en rosa
+ * con texto blanco; pie gris claro.
+ * Colores medidos en su web: #EA0558, #D3074C, #1C1A1A, #F5F4F5, #377C01.
+ * Letra: Montserrat (vista previa desde Google Fonts; si se elige, desde npm).
  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 body.elementor-kit-67 {
-  --e-global-color-primary: #EA0558;
-  --e-global-color-accent: #EA0558;
-  --e-global-color-secondary: #1C1A1A;
-  --e-global-color-text: #1C1A1A;
-  --e-global-color-ea18cb3: #5B5B5B;
-  --e-global-color-9f91388: #F5F4F5;
-  --e-global-typography-primary-font-family: "Montserrat";
-  --e-global-typography-primary-font-weight: 300;
-  --e-global-typography-secondary-font-family: "Montserrat";
-  --e-global-typography-secondary-font-weight: 400;
-  --e-global-typography-text-font-family: "Montserrat";
-  --e-global-typography-text-font-size: 16px;
-  --e-global-typography-accent-font-family: "Montserrat";
-  --e-global-typography-accent-font-weight: 600;
+  --e-global-color-primary: #EA0558; --e-global-color-accent: #EA0558;
+  --e-global-color-secondary: #1C1A1A; --e-global-color-text: #1C1A1A;
+  --e-global-color-ea18cb3: #5B5B5B; --e-global-color-9f91388: #F5F4F5;
+  --e-global-typography-primary-font-family: "Montserrat"; --e-global-typography-primary-font-weight: 300;
+  --e-global-typography-secondary-font-family: "Montserrat"; --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Montserrat"; --e-global-typography-text-font-size: 15px;
+  --e-global-typography-accent-font-family: "Montserrat"; --e-global-typography-accent-font-weight: 600;
 }
-body.elementor-kit-67 h1, body.elementor-kit-67 h2, body.elementor-kit-67 h3, body.elementor-kit-67 h4,
-body.elementor-kit-67 .elementor-heading-title { font-family: "Montserrat", sans-serif !important; font-weight: 300; letter-spacing: -0.01em; }
-body.elementor-kit-67 h1.elementor-heading-title, .elementor-70 .elementor-element-dff3c28 h1 { font-weight: 400; }
-body.elementor-kit-67, body.elementor-kit-67 p, body.elementor-kit-67 .elementor-widget-text-editor,
-body.elementor-kit-67 .elementor-icon-list-text, body.elementor-kit-67 .elementor-nav-menu a { font-family: "Montserrat", sans-serif !important; }
+body.elementor-kit-67, body.elementor-kit-67 p, body.elementor-kit-67 .elementor-widget-text-editor, body.elementor-kit-67 .elementor-icon-list-text,
+body.elementor-kit-67 .elementor-nav-menu a, body.elementor-kit-67 .elementor-button { font-family: "Montserrat", sans-serif !important; }
+body.elementor-kit-67 h1, body.elementor-kit-67 h2, body.elementor-kit-67 h3, body.elementor-kit-67 h4, body.elementor-kit-67 .elementor-heading-title { font-family: "Montserrat", sans-serif !important; font-weight: 300; letter-spacing: -0.01em; }
+.elementor-70 .e-con-boxed, .elementor-location-header .e-con-boxed, .elementor-location-footer .e-con-boxed { --container-max-width: 1180px; }
 
-/* cabecera rosa plena con menú en blanco; barra superior rosa oscuro */
-.elementor-location-header .elementor-element-5ff63914,
-.elementor-location-header .elementor-element-6a8bff6,
-.elementor-location-header .elementor-element-4df71b1 { background-color: #EA0558 !important; border-bottom: 0; box-shadow: none; }
-.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item,
-.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item.elementor-item-active { color: #ffffff !important; font-weight: 600; }
+/* ---------- cabecera rosa plena ---------- */
+.elementor-location-header .elementor-element-5ff63914, .elementor-location-header .elementor-element-6a8bff6, .elementor-location-header .elementor-element-4df71b1 { background-color: #EA0558 !important; border-bottom: 0; box-shadow: none; }
+.elementor-10594 .elementor-element.elementor-element-6002e415:not(.elementor-motion-effects-element-type-background),
+.elementor-10594 .elementor-element.elementor-element-3170bcdc:not(.elementor-motion-effects-element-type-background) { background-color: #D3074C !important; }
+.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item { color: #ffffff !important; font-weight: 500; text-transform: none !important; letter-spacing: 0; font-size: 15px; }
 .elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item:hover { color: #FFD6E5 !important; }
 .elementor-location-header .elementor-widget-icon svg, .elementor-location-header .elementor-icon-list-icon svg { fill: #ffffff; }
-.elementor-location-header .elementor-element-6926517 { background-color: #D3074C !important; }
-.elementor-location-header .elementor-element-6926517 a, .elementor-location-header .elementor-element-6926517 span,
-.elementor-location-header .elementor-element-6926517 .elementor-icon-list-text { color: #ffffff !important; }
-.elementor-location-header .elementor-element-6926517 svg { fill: #ffffff !important; }
-.elementor-location-header .elementor-element-d3ef044 { background-color: #ffffff !important; border-bottom: 1px solid #ECECEC; }
-.elementor-location-header .elementor-element-d3ef044 span, .elementor-location-header .elementor-element-d3ef044 .elementor-icon-list-text { color: #1C1A1A !important; }
+.elementor-location-header .elementor-element-d3ef044 { background-color: #ffffff !important; }
+.elementor-location-header .vgo-banner { background: #ffffff !important; border-bottom: 1px solid #ECECEC; }
+.elementor-location-header .vgo-banner, .elementor-location-header .vgo-banner span, .elementor-location-header .vgo-banner__title { color: #1C1A1A !important; }
 
-/* botones: píldora rosa */
-body.elementor-kit-67 .elementor-button { border-radius: 1000px !important; background-color: #EA0558; box-shadow: none; font-weight: 600; }
+/* ---------- foto principal: alta, titular grande y fino centrado ---------- */
+.elementor-70 .elementor-element.elementor-element-dff3c28 { --min-height: 78vh; --padding-top: 140px; --padding-bottom: 80px; }
+.elementor-70 .elementor-element.elementor-element-dff3c28::before, .elementor-70 .elementor-element-dff3c28 > .elementor-background-overlay { background: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.10) 50%, rgba(0, 0, 0, 0.35) 100%) !important; opacity: 1 !important; }
+.elementor-70 .elementor-element-cb607ae .elementor-heading-title { font-size: 62px !important; line-height: 1.08 !important; font-weight: 400 !important; max-width: 900px; margin: 0 auto; }
+.elementor-70 .elementor-element-b47feba, .elementor-70 .elementor-element-b47feba p { font-size: 19px !important; font-weight: 400; max-width: 760px; margin: 0 auto; }
+.elementor-70 .elementor-element-b54be20 { background: transparent !important; border: 0; box-shadow: none; }
+.elementor-70 .elementor-element-b54be20 * { color: #ffffff !important; text-transform: uppercase; letter-spacing: 0.18em; font-size: 14px !important; font-weight: 500; }
+.elementor-70 .elementor-element-9538bf5 .elementor-button { font-size: 16px !important; padding: 16px 36px !important; }
+.elementor-70 .elementor-element-96696e0 { display: none; }
+
+/* ---------- botones: píldora rosa ---------- */
+body.elementor-kit-67 .elementor-button { border-radius: 1000px !important; background-color: #EA0558; box-shadow: none; font-weight: 600; letter-spacing: 0; text-transform: none !important; }
 body.elementor-kit-67 .elementor-button:hover { background-color: #D3074C; }
 
-/* foto principal: velo ligero */
-.elementor-70 .elementor-element-dff3c28::before,
-.elementor-70 .elementor-element-dff3c28 > .elementor-background-overlay { background: rgba(0, 0, 0, 0.22) !important; opacity: 1 !important; }
+/* ---------- títulos de sección: centrados, grandes y finos; secciones alternas ---------- */
+.elementor-70 .elementor-widget-heading h2.elementor-heading-title { color: #1C1A1A !important; font-size: 40px !important; font-weight: 300 !important; line-height: 1.15 !important; text-align: center !important; }
+.elementor-70 .elementor-element-0494195, .elementor-70 .elementor-element-527add5, .elementor-70 .elementor-element-90839ab, .elementor-70 .elementor-element-7f4d65a { --padding-top: 72px; --padding-bottom: 12px; }
+.elementor-70 .elementor-element-0494195 .elementor-widget-text-editor p, .elementor-70 .elementor-element-527add5 .elementor-widget-text-editor p, .elementor-70 .elementor-element-90839ab .elementor-widget-text-editor p { text-align: center !important; color: #5B5B5B; font-size: 15px; }
+.elementor-70 .elementor-element.elementor-element-0494195, .elementor-70 .elementor-element.elementor-element-092c878 { background-color: #F5F4F5 !important; }
+.elementor-70 .elementor-element.elementor-element-527add5 { background-color: #F5F4F5 !important; }
 
-/* tarjetas blancas sobre fondo gris claro, esquinas de 5 px; precio rosa */
-.elementor-70 .elementor-element-0494195, .elementor-70 .elementor-element-19fd49d, .elementor-70 .elementor-element-527add5, .elementor-70 .elementor-element-7f4d65a { background-color: #F5F4F5; }
-.elementor-70 .elementor-loop-item { border-radius: 5px; overflow: hidden; background: #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08); }
-.elementor-70 .elementor-loop-item img { border-radius: 5px 5px 0 0; }
-.elementor-70 .elementor-loop-item .woocommerce-Price-amount, .elementor-70 .elementor-loop-item bdi { color: #EA0558 !important; font-weight: 700; }
-.elementor-70 .elementor-widget-heading h2.elementor-heading-title { color: #1C1A1A; }
-.elementor-70 .elementor-element-d7adc8b h2.elementor-heading-title { color: #ffffff; }
+/* ---------- tarjetas de tour: blancas, 5 px, foto 4:3, precio rosa ---------- */
+.elementor-70 .elementor-element-092c878 { --padding-top: 24px; --padding-bottom: 72px; }
+.elementor-70 .elementor-element-f6e8fb0 { --grid-column-gap: 24px; --grid-row-gap: 24px; }
+.elementor-70 .e-loop-item { background: #fff; border-radius: 5px; overflow: hidden; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10); transition: box-shadow .2s; }
+.elementor-70 .e-loop-item:hover { box-shadow: 0 8px 22px rgba(0, 0, 0, 0.14); }
+.elementor-70 .e-loop-item > .e-con { --padding-top: 0; --padding-bottom: 0; --padding-left: 0; --padding-right: 0; --gap: 0; --row-gap: 0; }
+.elementor-70 .e-loop-item .elementor-widget-image img { border-radius: 0 !important; aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
+.elementor-70 .e-loop-item .elementor-widget-heading h3.elementor-heading-title { font-size: 17px !important; line-height: 1.3 !important; font-weight: 700 !important; color: #1C1A1A !important; padding: 14px 16px 2px; }
+.elementor-70 .e-loop-item .elementor-widget-heading h3.elementor-heading-title a { color: inherit; }
+.elementor-70 .e-loop-item .elementor-widget-heading h3.elementor-heading-title a:hover { color: #EA0558; }
+.elementor-70 .e-loop-item .elementor-icon-list-items { padding: 0 16px; }
+.elementor-70 .e-loop-item .elementor-icon-list-text { color: #5B5B5B !important; font-size: 13px; }
+.elementor-70 .e-loop-item .elementor-icon-list-icon svg { fill: #EA0558 !important; width: 13px; }
+.elementor-70 .e-loop-item .price, .elementor-70 .e-loop-item .price bdi, .elementor-70 .e-loop-item .woocommerce-Price-amount { color: #EA0558 !important; font-size: 24px !important; font-weight: 700 !important; font-family: "Montserrat", sans-serif !important; }
+.elementor-70 .e-loop-item .e-con-boxed > .e-con-inner { padding: 6px 16px 16px; border-top: 1px solid #ECECEC; margin-top: 10px; }
+.elementor-70 .e-loop-item .bag a { background: #ffffff !important; color: #EA0558 !important; border-radius: 3px; padding: 4px 10px; font-size: 12px; font-weight: 600; }
+.elementor-70 .e-loop-item .badge-agota .elementor-heading-title { background: #377C01 !important; color: #fff !important; border-radius: 3px; padding: 4px 10px; font-size: 12px; font-weight: 600 !important; }
+.elementor-70 .e-loop-item .elementor-button { width: 100%; justify-content: center; padding: 11px 16px !important; }
 
-/* pie: gris claro con texto oscuro y enlaces rosa */
-.elementor-location-footer .elementor-element-8452, .elementor-location-footer > .e-con { background-color: #F5F4F5 !important; }
-.elementor-location-footer, .elementor-location-footer p, .elementor-location-footer span, .elementor-location-footer h4 { color: #1C1A1A !important; }
-.elementor-location-footer a { color: #1C1A1A !important; }
+/* ---------- categorías: fichas cuadradas con icono rosa ---------- */
+.elementor-70 .elementor-element.elementor-element-19fd49d { background-color: #ffffff !important; --padding-top: 64px; --padding-bottom: 64px; }
+.elementor-70 .elementor-element-19fd49d > .e-con-inner > .e-con, .elementor-70 .elementor-element-19fd49d > .e-con { background: #ffffff; border: 1px solid #ECECEC; border-radius: 5px; padding: 22px 16px; --align-items: center; }
+.elementor-70 .elementor-element-19fd49d > .e-con-inner > .e-con:hover, .elementor-70 .elementor-element-19fd49d > .e-con:hover { border-color: #EA0558; }
+.elementor-70 .elementor-element-19fd49d .elementor-widget-image img { width: 56px !important; height: 56px !important; object-fit: contain; filter: hue-rotate(312deg) saturate(1.6); }
+.elementor-70 .elementor-element-19fd49d .elementor-heading-title { color: #1C1A1A !important; font-size: 15px !important; font-weight: 600 !important; letter-spacing: 0; text-transform: none !important; }
+.elementor-70 .elementor-element-19fd49d .elementor-widget-text-editor { color: #5B5B5B; font-size: 13px; }
+
+/* ---------- bloques a dos columnas; "¿Por qué?" en rosa ---------- */
+.elementor-70 .elementor-element.elementor-element-d760916, .elementor-70 .elementor-element.elementor-element-0fbbb4f, .elementor-70 .elementor-element.elementor-element-eee99ab { --padding-top: 72px; --padding-bottom: 72px; background-color: #ffffff !important; }
+.elementor-70 .elementor-element.elementor-element-0fbbb4f { background-color: #F5F4F5 !important; }
+.elementor-70 .elementor-element.elementor-element-d7adc8b { --padding-top: 72px; --padding-bottom: 72px; background-color: #EA0558 !important; }
+.elementor-70 .elementor-element-d7adc8b h2.elementor-heading-title, .elementor-70 .elementor-element-d7adc8b .elementor-icon-list-text, .elementor-70 .elementor-element-d7adc8b p { color: #ffffff !important; }
+.elementor-70 .elementor-element-d7adc8b .elementor-icon-list-icon svg { fill: #ffffff !important; }
+.elementor-70 .elementor-element-d7adc8b .elementor-button { background-color: #ffffff !important; color: #EA0558 !important; }
+.elementor-70 .elementor-element-d760916 img, .elementor-70 .elementor-element-d7adc8b img, .elementor-70 .elementor-element-eee99ab img, .elementor-70 .elementor-element-0fbbb4f .swiper img { border-radius: 5px !important; box-shadow: none; }
+.elementor-70 .elementor-element-d760916 h2.elementor-heading-title, .elementor-70 .elementor-element-d7adc8b h2.elementor-heading-title, .elementor-70 .elementor-element-0fbbb4f h2.elementor-heading-title, .elementor-70 .elementor-element-eee99ab h2.elementor-heading-title { text-align: left !important; font-size: 36px !important; }
+.elementor-70 .elementor-element-d760916 .elementor-widget-text-editor p, .elementor-70 .elementor-element-0fbbb4f .elementor-widget-text-editor p, .elementor-70 .elementor-element-eee99ab .elementor-widget-text-editor p { font-size: 15px; line-height: 1.7; color: #3B3B3B; }
+
+/* ---------- blog, Instagram, logos ---------- */
+.elementor-70 .elementor-element-df5c030 .e-loop-item { background: #fff; border-radius: 5px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10); overflow: hidden; }
+.elementor-70 .elementor-element-df5c030 .e-loop-item img { aspect-ratio: 4 / 3; object-fit: cover; }
+.elementor-70 .elementor-element-7f4d65a img { filter: grayscale(1); opacity: 0.6; }
+.elementor-70 .elementor-element-7f4d65a h2.elementor-heading-title { font-size: 22px !important; }
+
+/* ---------- pie gris claro con enlaces rosa ---------- */
+.elementor-location-footer .elementor-element-8452 > .e-con, .elementor-location-footer .e-con:not(.e-child) { background-color: #F5F4F5 !important; }
+.elementor-8452 .elementor-element:not(.elementor-motion-effects-element-type-background) { background-color: transparent !important; }
+.elementor-location-footer, .elementor-location-footer p, .elementor-location-footer span, .elementor-location-footer h4, .elementor-location-footer .elementor-heading-title, .elementor-location-footer a { color: #1C1A1A !important; }
 .elementor-location-footer a:hover { color: #EA0558 !important; }
+.elementor-location-footer .elementor-social-icon { background-color: #EA0558 !important; }
 
-/* --- ajustes tras la primera captura --- */
-.elementor-10594 .elementor-element.elementor-element-6002e415:not(.elementor-motion-effects-element-type-background) { background-color: #D3074C !important; }
-.elementor-70 .elementor-widget-heading h2.elementor-heading-title { color: #1C1A1A !important; }
-.elementor-70 .elementor-element-d7adc8b h2.elementor-heading-title, .elementor-70 .elementor-element-dff3c28 .elementor-heading-title { color: #ffffff !important; }
+/* ---------- móvil ---------- */
+@media (max-width: 767px) {
+  .elementor-70 .elementor-element.elementor-element-dff3c28 { --min-height: 70vh; --padding-top: 110px; }
+  .elementor-70 .elementor-element-cb607ae .elementor-heading-title { font-size: 36px !important; }
+  .elementor-70 .elementor-widget-heading h2.elementor-heading-title { font-size: 30px !important; }
+}
+
+/* la frase pequeña sobre el titular: a su ancho natural */
+.elementor-70 .elementor-element.elementor-element-b54be20 { --width: auto; width: auto; --padding-left: 18px; --padding-right: 18px; }
+.elementor-70 .elementor-element-b54be20 .elementor-heading-title, .elementor-70 .elementor-element-b54be20 p { white-space: nowrap; }
