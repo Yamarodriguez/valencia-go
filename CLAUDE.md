@@ -138,6 +138,14 @@ lo que pinta un plugin: **se captura del HTML vivo**.
   especulación propias (Base.astro, data-nuevo) para que Chrome pida la
   página de un enlace al posar el ratón (comprobado: la petición sale con
   Sec-Purpose: prefetch).
+- Menú móvil (6-10-2026): el botón del menú abre una ventana de Elementor Pro
+  y no respondía. Causa: los guiones aplazados se descargaban de uno en uno
+  (23 externos × 300 ms de Netlify) y el toque que los despierta se perdía.
+  aplazador.js ahora los pide por adelantado al terminar de cargar la página
+  (`<link rel=preload>` de prioridad baja), guarda el primer clic o toque y lo
+  repite cuando los guiones están listos (esperando a que las ventanas de
+  Elementor tengan getModal). `node scripts/probar-menu-movil.mjs` lo
+  comprueba (local: menú abierto con el primer toque a los ~330 ms).
 - `node scripts/radiografia.mjs [--movil]`: radiografía de carga de una
   página (TTFB, primera pintura, LCP, qué bloquea) en vieja y nueva.
 - NO se quitan: wp-hooks y wp-i18n (los usa Elementor Pro) ni el guion de
