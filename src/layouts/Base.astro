@@ -5,14 +5,21 @@
  * y dentro del <body> lo que le pase la pagina.
  *
  * Lo que la web nueva ANADE va marcado con data-nuevo="…" (el comparador de
- * marcado lo salta) y se enciende desde src/data/site.json:
- *   - formulario.activo: /js/formularios.js (Fase 5), al final del <body>.
+ * marcado lo salta) y se enciende desde src/data/:
+ *   - velocidad.json guiones_aplazar.activo: src/js/aplazador.js en linea al
+ *     principio del <head> (ejecuta los guiones cuando el visitante hace algo);
+ *   - site.json formulario.activo: /js/formularios.js (Fase 5), al final del <body>.
  */
+import fs from 'node:fs';
+import path from 'node:path';
 import site from '../data/site.json';
+import velocidad from '../data/velocidad.json';
 const { html = {}, body = {}, cabeza = '' } = Astro.props;
 const formularios = site.formulario && site.formulario.servicio === 'netlify' && site.formulario.activo;
+const aplazar = velocidad.activo && velocidad.guiones_aplazar && velocidad.guiones_aplazar.activo;
+const aplazador = aplazar ? `window.__aplazadorTope=${Number(velocidad.guiones_aplazar.tope_ms) || 6000};` + fs.readFileSync(path.resolve('src/js/aplazador.js'), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '').trim() : '';
 ---
 <html {...html}>
-<head><Fragment set:html={cabeza} /></head>
-<body {...body}><slot />{formularios && <script src="/js/formularios.js" defer data-nuevo="formularios"></script>}</body>
+<head>{aplazar && <script data-nuevo="aplazador" data-no-aplazar set:html={aplazador}></script>}<Fragment set:html={cabeza} /></head>
+<body {...body}><slot />{formularios && <script src="/js/formularios.js" defer data-nuevo="formularios" data-no-aplazar></script>}</body>
 </html>

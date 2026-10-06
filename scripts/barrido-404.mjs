@@ -90,7 +90,9 @@ for (const ruta of rutas) {
   try {
     await pagina.goto(BASE + ruta, { waitUntil: 'domcontentloaded', timeout: 30000 });
     // recorrer la pagina entera para que carguen las imagenes perezosas
-    await pagina.mouse.move(10, 10);
+    await pagina.mouse.move(10, 10); await pagina.mouse.move(40, 40);
+    // la web nueva aplaza los guiones hasta que el visitante hace algo: se espera a que corran
+    await pagina.waitForFunction(() => document.documentElement.getAttribute('data-js-aplazado') !== 'espera', null, { timeout: 20000 }).catch(() => {});
     const alto = await pagina.evaluate(() => document.body.scrollHeight);
     for (let y = 0; y < alto + 900; y += 700) { await pagina.evaluate((y) => window.scrollTo(0, y), y); await pagina.waitForTimeout(80); }
     await pagina.evaluate(() => window.scrollTo(0, 0));

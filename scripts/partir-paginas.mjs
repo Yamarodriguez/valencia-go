@@ -36,7 +36,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { crearRelativizador } from './lib/relativizar.mjs';
-import { quitarGuiones, reunirHojas, fotosPerezosas } from './lib/aligerar.mjs';
+import { quitarGuiones, reunirHojas, fotosPerezosas, aplazarGuiones } from './lib/aligerar.mjs';
 
 const RAIZ = path.resolve('.');
 const ORIGEN = path.join(RAIZ, 'descargas', 'html');
@@ -90,7 +90,7 @@ const attr = (etiqueta, nombre) => {
   return m ? (m[1] ?? m[2] ?? m[3] ?? '') : null;
 };
 
-const cuenta = { quitadas: {}, sustituidas: {}, absolutasConservadas: 0, guionesQuitados: {}, tramos: 0, fotosPerezosas: 0 };
+const cuenta = { quitadas: {}, sustituidas: {}, absolutasConservadas: 0, guionesQuitados: {}, tramos: 0, fotosPerezosas: 0, aplazados: 0 };
 const sumar = (o, k) => { o[k] = (o[k] || 0) + 1; };
 
 /** Relativiza todo menos los bloques application/ld+json (datos estructurados). */
@@ -166,6 +166,9 @@ function partir(html, ruta) {
       const r = fotosPerezosas(piezas, velocidad.fotos_perezosas.saltar ?? 3);
       piezas = r.piezas;
       cuenta.fotosPerezosas += r.cuenta.perezosas;
+    }
+    if (velocidad.guiones_aplazar && velocidad.guiones_aplazar.activo) {
+      for (const p of PIEZAS) { const r = aplazarGuiones(piezas[p]); piezas[p] = r.html; cuenta.aplazados += r.aplazados; }
     }
   }
   const body = atributos(mBody[1]);
@@ -247,7 +250,8 @@ const lineas = [
   `## Velocidad (src/data/velocidad.json, ${velocidad.activo ? 'activa' : 'desactivada'})`,
   ...Object.entries(cuenta.guionesQuitados).map(([k, n]) => `- guiones quitados — ${k}: ${n}`),
   `- tramos de hojas reunidas: ${Object.keys(tramosHojas).length} distintos (${cuenta.tramos} en total)`,
-  `- fotos con loading=lazy anadido: ${cuenta.fotosPerezosas}`, '',
+  `- fotos con loading=lazy anadido: ${cuenta.fotosPerezosas}`,
+  `- guiones aplazados hasta que el visitante haga algo: ${cuenta.aplazados}`, '',
   `Direcciones absolutas conservadas a proposito (canonical, hreflang, sociales, datos estructurados): ${cuenta.absolutasConservadas}.`,
   `Paginas con algo escrito despues de </body> (se descarta: comentarios del servidor): ${conResto}.`, '',
   `Pagina de error 404: ${estado404}.`, '',

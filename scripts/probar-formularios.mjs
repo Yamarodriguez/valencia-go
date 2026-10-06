@@ -37,6 +37,9 @@ let fallos = 0;
 for (const p of PRUEBAS) {
   const antes = envios.length;
   await pagina.goto(BASE + p.ruta, { waitUntil: 'load', timeout: 45000 }).catch(() => {});
+  // los guiones estan aplazados hasta que el visitante hace algo
+  await pagina.mouse.move(30, 30); await pagina.mouse.move(60, 60);
+  await pagina.waitForFunction(() => document.documentElement.getAttribute('data-js-aplazado') !== 'espera', null, { timeout: 20000 }).catch(() => {});
   await pagina.waitForTimeout(800);
   // el de "Info bus" vive en una ventana emergente de Elementor: hay que abrirla
   if (p.nombre === 'info-bus') {

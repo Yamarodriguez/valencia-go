@@ -87,8 +87,19 @@ def valor(nombre, v):
     return esp(sin_dominio(v))
 
 def atributos(e, solo_data=False):
-    return {k: valor(k, v) for k, v in e.attrib.items()
-            if k not in ATR_VOLATIL and (not solo_data or k.startswith("data-"))}
+    a = {k: valor(k, v) for k, v in e.attrib.items()
+         if k not in ATR_VOLATIL and (not solo_data or k.startswith("data-"))}
+    if e.tag == "script":
+        # la Fase 6 deja los guiones como type="text/plain" data-aplazado="js|module":
+        # para comparar, se restaura su tipo; y el tipo "javascript" explicito no cuenta
+        if "data-aplazado" in a:
+            tipo = "module" if a.pop("data-aplazado") == "module" else ""
+            a.pop("type", None)
+            if tipo:
+                a["type"] = tipo
+        elif re.match(r"^(text|application)/(javascript|ecmascript|x-javascript)$", (a.get("type") or "").strip().lower()):
+            a.pop("type", None)
+    return a
 
 def texto_guion(e):
     t = esp(sin_dominio(e.text_content() if e.tag != "script" else (e.text or "")))

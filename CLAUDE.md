@@ -119,6 +119,12 @@ lo que pinta un plugin: **se captura del HTML vivo**.
   `loading="lazy"` a las fotos salvo las 3 primeras del contenido.
 - NO se quitan: wp-hooks y wp-i18n (los usa Elementor Pro) ni el guion de
   emojis (sin él la bandera del idioma cambia de aspecto en Windows).
+- Y, como LiteSpeed en la vieja, TODOS los guiones se aplazan hasta que el
+  visitante hace algo (ratón, tecla, scroll) o pasan 6 s: `src/js/aplazador.js`
+  en línea al principio del `<head>` (Base.astro) los ejecuta en orden
+  fingiendo que la página aún carga (readyState) y relanza DOMContentLoaded
+  y load al final. Las pruebas con navegador mueven el ratón y esperan a
+  `<html data-js-aplazado="hecho">`.
 - Medida antes (portada, escritorio): vieja 616 KB / 47 peticiones / LCP
   392 ms; copia 2.925 KB / 170 / 964 ms. Después: ver informes/velocidad.md.
 

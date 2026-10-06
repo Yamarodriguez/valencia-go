@@ -18,5 +18,10 @@
  "hojas_reunir": true,
  "fotos_perezosas": {
   "saltar": 3
+ },
+ "guiones_aplazar": {
+  "activo": true,
+  "tope_ms": 6000,
+  "_nota": "Como LiteSpeed en la web vieja: todos los guiones de JavaScript esperan a que el visitante mueva el raton, toque la pantalla, pulse una tecla o haga scroll (o pasen tope_ms). Los ejecuta en orden src/js/aplazador.js, que Base.astro pone en linea al principio del <head>."
  }
 }

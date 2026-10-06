@@ -1,5 +1,5 @@
 {
- "_nota": "Lo que cambia en cada visita a la web vieja y scripts/comparar-marcado.py no debe contar. 'atributos': nombres de atributo que se ignoran. 'atributos_json_claves': claves que se ignoran dentro de los atributos JSON (data-settings...). 'guiones_id': <script id=...> cuyo texto no se compara (llevan nonces o fechas). 'loading' no cuenta porque la Fase 6 pone loading=lazy a las fotos de mas abajo.",
+ "_nota": "Lo que cambia en cada visita a la web vieja y scripts/comparar-marcado.py no debe contar. 'atributos': nombres de atributo que se ignoran. 'atributos_json_claves': claves que se ignoran dentro de los atributos JSON (data-settings...). 'guiones_id': <script id=...> cuyo texto no se compara (llevan nonces o fechas). 'loading' no cuenta porque la Fase 6 pone loading=lazy a las fotos de mas abajo. En los <script>, 'type' no cuenta cuando es JavaScript (la Fase 6 los deja como text/plain con data-aplazado).",
  "atributos": [
   "data-rsssl",
   "data-nonce",

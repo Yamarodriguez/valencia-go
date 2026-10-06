@@ -92,3 +92,21 @@ export function fotosPerezosas(piezas, saltar) {
     cuenta,
   };
 }
+
+/** Deja cada <script> de JavaScript como type="text/plain" data-aplazado="js|module"
+ *  para que lo ejecute src/js/aplazador.js cuando el visitante haga algo (como
+ *  LiteSpeed en la web vieja). No se tocan los JSON (ld+json, speculationrules…),
+ *  los que llevan data-no-aplazar ni los nuestros (data-nuevo). */
+export function aplazarGuiones(html) {
+  let n = 0;
+  const salida = html.replace(/<script\b([^>]*)>/gi, (todo, atributos) => {
+    if (/data-aplazado=|data-no-aplazar|data-nuevo=/i.test(atributos)) return todo;
+    const tipo = (attr(atributos, 'type') || '').trim().toLowerCase();
+    const esModulo = tipo === 'module';
+    if (tipo && !esModulo && !/^(text|application)\/(javascript|ecmascript|x-javascript)$/.test(tipo)) return todo;
+    n++;
+    const sinTipo = atributos.replace(/\s*\btype\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>]+)/i, '');
+    return `<script type="text/plain" data-aplazado="${esModulo ? 'module' : 'js'}"${sinTipo}>`;
+  });
+  return { html: salida, aplazados: n };
+}

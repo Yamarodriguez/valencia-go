@@ -45,6 +45,11 @@ export async function preparar(pagina, url) {
   }
   await pagina.addStyleTag({ content: '*,*::before,*::after{animation-duration:0s!important;animation-delay:0s!important;transition-duration:0s!important;transition-delay:0s!important;scroll-behavior:auto!important}' }).catch(() => {});
   await pagina.evaluate(() => document.fonts && document.fonts.ready).catch(() => {});
+  // la web nueva aplaza los guiones hasta que el visitante hace algo: se mueve el raton y
+  // se espera a que el cargador (src/js/aplazador.js) los haya ejecutado todos
+  await pagina.mouse.move(20, 20).catch(() => {});
+  await pagina.mouse.move(40, 40).catch(() => {});
+  await pagina.waitForFunction(() => document.documentElement.getAttribute('data-js-aplazado') !== 'espera', null, { timeout: 20000 }).catch(() => {});
   const alto = await pagina.evaluate(() => document.documentElement.scrollHeight).catch(() => 2000);
   for (let y = 0; y < alto + 900; y += 600) { await pagina.evaluate((y) => window.scrollTo(0, y), y); await pagina.waitForTimeout(70); }
   await pagina.evaluate(() => {
