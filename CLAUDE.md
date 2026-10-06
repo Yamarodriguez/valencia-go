@@ -114,9 +114,21 @@ lo que pinta un plugin: **se captura del HTML vivo**.
 - `src/data/velocidad.json` (lo aplica partir-paginas, lo conoce
   comparar-marcado): quita los guiones muertos en estático (lista de deseos
   con React, pagos Stripe/PayPal, Contact Form 7, Turnstile), reúne las hojas
-  consecutivas del `<head>` en 38 ficheros compartidos (`npm run hojas` →
-  public/css/, no en Git; las post-ID.css quedan sueltas) y pone
-  `loading="lazy"` a las fotos salvo las 3 primeras del contenido.
+  consecutivas del `<head>` (también las post-ID.css de las plantillas y los
+  `<style>` iguales en todas las páginas) en 44 ficheros compartidos por las
+  1.020 páginas (`npm run hojas` → public/css/, no en Git; sueltas quedan la
+  post-ID.css de la propia página y `elementor-frontend-inline-css`, que
+  cambian por página), precarga la letra del título (`precargar.letras`) y
+  pone `loading="lazy"` a las fotos salvo las 3 primeras del contenido (no
+  en los carruseles).
+- Font Awesome recortada a los 9 iconos que usa la web: `python
+  scripts/subset-fa.py` → `src/fuentes/` (en Git); fuentes-locales.mjs los
+  copia encima de public/fontawesome/webfonts/. Si aparece un icono nuevo,
+  repetir.
+- `netlify.toml`: `Netlify-CDN-Cache-Control` durable para que el borde no
+  vaya al origen en cada visita (antes `Cache-Status: fwd=miss`).
+- `node scripts/radiografia.mjs [--movil]`: radiografía de carga de una
+  página (TTFB, primera pintura, LCP, qué bloquea) en vieja y nueva.
 - NO se quitan: wp-hooks y wp-i18n (los usa Elementor Pro) ni el guion de
   emojis (sin él la bandera del idioma cambia de aspecto en Windows).
 - Y, como LiteSpeed en la vieja, TODOS los guiones se aplazan hasta que el
