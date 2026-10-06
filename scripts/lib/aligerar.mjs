@@ -33,31 +33,50 @@ export function quitarGuiones(html, reglas) {
 /** Tramos de <link rel=stylesheet href="/..."> consecutivos (solo separados por
  *  espacios o comentarios) -> un <link> por tramo. Devuelve {cabeza, tramos: {hash: [href...]}}.
  *  No se reunen las hojas con media distinto de all/screen ni las de otros dominios. */
-export function reunirHojas(cabeza) {
+/**
+ * Reune en un fichero cada tramo de hojas consecutivas del <head>: los <link>
+ * propios (tambien las post-ID.css de las plantillas, que comparten las
+ * paginas de un mismo tipo) y los <style> del head que son iguales en todas
+ * las paginas. Se quedan sueltos: la post-ID.css de la PROPIA pagina (si no,
+ * cada pagina tendria un fichero distinto y no se aprovecharia la cache), las
+ * hojas con media distinto de all/screen, las de otros dominios y los <style>
+ * cuyo id esta en `inlineNo` (cambian de pagina a pagina).
+ * Cada tramo: [{href} | {id, css}], en su orden. Devuelve {cabeza, tramos}.
+ */
+export function reunirHojas(cabeza, { postId = 0, inlineNo = [] } = {}) {
   const tramos = {};
-  // Las hojas que Elementor escribe por pagina o por plantilla (post-ID.css) se
-  // quedan sueltas: si entraran en el tramo, cada pagina tendria un fichero
-  // distinto y el visitante no aprovecharia la cache al cambiar de pagina.
-  const combinable = (l) => {
+  const propia = new RegExp(`/elementor/css/post-${postId}\\.css`);
+  const esLinkCombinable = (l) => {
     const h = attr(l, 'href') || ''; const m = attr(l, 'media');
-    return h.startsWith('/') && !h.startsWith('//') && (!m || /^(all|screen)$/i.test(m)) && !/\/elementor\/css\/post-\d+\.css/.test(h);
+    return h.startsWith('/') && !h.startsWith('//') && (!m || /^(all|screen)$/i.test(m)) && !(postId && propia.test(h));
   };
   const reunir = (grupo) => {
-    const hrefs = grupo.map((l) => attr(l, 'href'));
-    const hash = crypto.createHash('sha1').update(hrefs.join('\n')).digest('hex').slice(0, 12);
-    tramos[hash] = hrefs;
-    return `<link rel="stylesheet" id="hojas-${hash}" href="/css/r-${hash}.css" data-nuevo="hojas" data-reune="${hrefs.length}" />\n`;
+    const clave = grupo.map((x) => x.href || `style#${x.id}:${crypto.createHash('sha1').update(x.css).digest('hex').slice(0, 10)}`).join('\n');
+    const hash = crypto.createHash('sha1').update(clave).digest('hex').slice(0, 12);
+    tramos[hash] = grupo;
+    return `<link rel="stylesheet" id="hojas-${hash}" href="/css/r-${hash}.css" data-nuevo="hojas" data-reune="${grupo.length}" />\n`;
   };
-  const rx = /(?:<link\b[^>]*rel=['"]stylesheet['"][^>]*>(?:\s|<!--[\s\S]*?-->)*){2,}/gi;
-  const salida = cabeza.replace(rx, (bloque) => {
-    const links = bloque.match(/<link\b[^>]*>/gi);
-    const partes = []; let grupo = [];
-    const cerrar = () => { if (grupo.length >= 2) partes.push(reunir(grupo)); else partes.push(...grupo.map((l) => l + '\n')); grupo = []; };
-    for (const l of links) { if (combinable(l)) grupo.push(l); else { cerrar(); partes.push(l + '\n'); } }
-    cerrar();
-    return partes.join('');
-  });
-  return { cabeza: salida, tramos };
+  // se recorre la cabeza elemento a elemento: <link>, <style>, comentarios y espacios
+  const rx = /<link\b[^>]*>|<style\b([^>]*)>([\s\S]*?)<\/style>|<!--[\s\S]*?-->|\s+/gi;
+  const partes = []; let grupo = []; let ultimo = 0;
+  const cerrar = () => { if (grupo.length >= 2) partes.push(reunir(grupo)); else partes.push(...grupo.map((x) => x.texto + '\n')); grupo = []; };
+  for (let m; (m = rx.exec(cabeza));) {
+    if (m.index > ultimo) { cerrar(); partes.push(cabeza.slice(ultimo, m.index)); } // cualquier otra etiqueta corta el tramo
+    ultimo = m.index + m[0].length;
+    const t = m[0];
+    if (/^\s+$/.test(t) || t.startsWith('<!--')) { if (!grupo.length) partes.push(t); continue; }
+    if (t.startsWith('<link')) {
+      if (/rel=['"]stylesheet['"]/i.test(t) && esLinkCombinable(t)) grupo.push({ href: attr(t, 'href'), texto: t });
+      else { cerrar(); partes.push(t + '\n'); }
+      continue;
+    }
+    const id = attr(m[1], 'id');
+    if (id && !inlineNo.includes(id)) grupo.push({ id, css: m[2], texto: t });
+    else { cerrar(); partes.push(t + '\n'); }
+  }
+  cerrar();
+  if (ultimo < cabeza.length) partes.push(cabeza.slice(ultimo));
+  return { cabeza: partes.join(''), tramos };
 }
 
 /** Tramos [inicio, fin) de los elementos cuya clase casa con `rx` (contando la profundidad de <div>). */

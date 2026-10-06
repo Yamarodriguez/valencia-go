@@ -27,7 +27,7 @@ Informe completo en informes/comparacion-marcado.md, agrupado por tipo de
 pagina, con lo que falta y lo que sobra. Sale con 1 si hay alguna diferencia o
 falta alguna pagina en dist/.
 """
-import os, re, sys, json, hashlib
+import os, re, sys, json, hashlib, html
 from collections import Counter, defaultdict
 import lxml.html
 
@@ -154,9 +154,18 @@ def firmas_cabeza(e, es_vieja):
     if not isinstance(e.tag, str):
         return []
     if e.get("data-nuevo") is not None:
-        if e.get("data-nuevo") == "hojas":  # la hoja reunida vale por las originales, en orden
+        if e.get("data-nuevo") == "hojas":  # la hoja reunida vale por las piezas originales, en orden
             h = (e.get("id") or "").replace("hojas-", "")
-            return ["<link stylesheet %s>" % sin_dominio(x) for x in tramos_hojas.get(h, ["?" + h])]
+            salida = []
+            for x in tramos_hojas.get(h, []):
+                if isinstance(x, str):
+                    salida.append("<link stylesheet %s>" % sin_dominio(x))
+                elif "css" in x:  # un <style id> absorbido: la misma firma que tendria en la vieja
+                    t = esp(sin_dominio(html.unescape(x["css"])))
+                    salida.append('<style id="%s"> %s:%d' % (x["id"], hashlib.md5(t.encode("utf-8")).hexdigest()[:10], len(t)))
+                else:
+                    salida.append("<link stylesheet %s>" % sin_dominio(x["href"]))
+            return salida or ["?" + h]
         return []
     if guion_quitado(e):
         return []

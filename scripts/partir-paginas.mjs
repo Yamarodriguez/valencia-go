@@ -156,8 +156,9 @@ function partir(html, ruta) {
       piezas[p] = r.html;
       for (const [k, v] of Object.entries(r.quitados)) cuenta.guionesQuitados[k] = (cuenta.guionesQuitados[k] || 0) + v;
     }
-    if (velocidad.hojas_reunir) {
-      const r = reunirHojas(piezas.cabeza);
+    if (velocidad.hojas_reunir && (velocidad.hojas_reunir === true || velocidad.hojas_reunir.activo)) {
+      const postIdPagina = Number(((atributos(mBody[1]).class || '').match(/(?:^|\s)(?:postid|page-id)-(\d+)/) || [])[1]) || 0;
+      const r = reunirHojas(piezas.cabeza, { postId: postIdPagina, inlineNo: velocidad.hojas_reunir.inline_no || [] });
       piezas.cabeza = r.cabeza;
       Object.assign(tramosHojas, r.tramos);
       cuenta.tramos += Object.keys(r.tramos).length;
@@ -217,8 +218,6 @@ for (const f of lista) {
 }
 indice.sort((a, b) => a.ruta.localeCompare(b.ruta));
 if (!ENSAYO) fs.writeFileSync(path.join(DESTINO, 'indice.json'), JSON.stringify(indice, null, 1));
-if (!ENSAYO && velocidad.activo && velocidad.hojas_reunir) fs.writeFileSync(path.join(DESTINO, 'hojas.json'), JSON.stringify(tramosHojas, null, 1));
-else if (!ENSAYO) fs.rmSync(path.join(DESTINO, 'hojas.json'), { force: true });
 
 // La pagina de error 404 (descargas/html-404/): mismas piezas, fuera del indice.
 // Donde WordPress copio la direccion inventada (selector de idioma...) se deja la raiz.
@@ -237,6 +236,9 @@ if (fs.existsSync(f404)) {
     estado404 = 'partida';
   }
 }
+// hojas.json se escribe DESPUES de la 404, que tambien aporta tramos
+if (!ENSAYO && velocidad.activo && velocidad.hojas_reunir) fs.writeFileSync(path.join(DESTINO, 'hojas.json'), JSON.stringify(tramosHojas, null, 1));
+else if (!ENSAYO) fs.rmSync(path.join(DESTINO, 'hojas.json'), { force: true });
 
 const sinTipo = indice.filter((p) => p.tipo === 'sin-tipo').map((p) => p.ruta);
 const conResto = indice.filter((p) => p.tras > 0).length;

@@ -39,4 +39,11 @@ for (const f of fs.readdirSync(path.join(PAQUETE, 'webfonts'))) {
   fs.copyFileSync(path.join(PAQUETE, 'webfonts', f), path.join(DESTINO, 'webfonts', f));
   n++;
 }
-console.log(`iconos: Font Awesome ${v} en public/fontawesome (all.min.css + ${n} ficheros de letra)`);
+// Si existen los recortes de scripts/subset-fa.py (src/fuentes/, solo los
+// iconos que usa la web), sustituyen a los ficheros enteros con el mismo nombre.
+const recortes = path.join(RAIZ, 'src', 'fuentes');
+let r = 0;
+if (fs.existsSync(recortes)) {
+  for (const f of fs.readdirSync(recortes)) if (/^fa-.*\.woff2$/.test(f)) { fs.copyFileSync(path.join(recortes, f), path.join(DESTINO, 'webfonts', f)); r++; }
+}
+console.log(`iconos: Font Awesome ${v} en public/fontawesome (all.min.css + ${n} ficheros de letra${r ? `, ${r} recortados a los iconos que se usan` : ''})`);

@@ -7,6 +7,16 @@
 [build.environment]
   NODE_VERSION = "22"
 
+# ------------------------------------------------------------ cache en el borde
+# Netlify no guardaba las paginas en sus servidores de borde (cada peticion iba
+# al origen: 300-450 ms hasta el primer byte). Con esta cabecera las guarda
+# ("durable") y las borra solas en cada despliegue; el navegador sigue
+# revalidando siempre (max-age=0), asi que nadie ve una version vieja.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Netlify-CDN-Cache-Control = "public, max-age=31536000, durable"
+
 # ---------------------------------------------------------------- seguridad
 [[headers]]
   for = "/*"

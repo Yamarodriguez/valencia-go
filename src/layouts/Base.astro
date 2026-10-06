@@ -22,10 +22,11 @@ const formularios = site.formulario && site.formulario.servicio === 'netlify' &&
 // Fase 3: el rediseño es una hoja propia (public/rediseno/<nombre>.css), la ÚLTIMA del <head>,
 // encendida con "rediseno": "<nombre>" en site.json; con false, la web es la copia fiel.
 const rediseno = typeof site.rediseno === 'string' && site.rediseno ? site.rediseno : '';
+const precargas = (velocidad.activo && velocidad.precargar && velocidad.precargar.letras) || [];
 const aplazar = velocidad.activo && velocidad.guiones_aplazar && velocidad.guiones_aplazar.activo;
 const aplazador = aplazar ? `window.__aplazadorTope=${Number(velocidad.guiones_aplazar.tope_ms) || 6000};` + fs.readFileSync(path.resolve('src/js/aplazador.js'), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '').trim() : '';
 ---
 <html {...html}>
-<head>{aplazar && <script data-nuevo="aplazador" data-no-aplazar set:html={aplazador}></script>}<Fragment set:html={cabeza} />{rediseno && <link rel="stylesheet" href={`/rediseno/${rediseno}.css`} data-nuevo="rediseno" />}</head>
+<head>{aplazar && <script data-nuevo="aplazador" data-no-aplazar set:html={aplazador}></script>}{precargas.map((h) => <link rel="preload" as="font" type="font/woff2" crossorigin href={h} data-nuevo="precarga" />)}<Fragment set:html={cabeza} />{rediseno && <link rel="stylesheet" href={`/rediseno/${rediseno}.css`} data-nuevo="rediseno" />}</head>
 <body {...body}><slot />{formularios && <script src="/js/formularios.js" defer data-nuevo="formularios" data-no-aplazar></script>}{selector && <script src="/js/selector-rediseno.js" defer data-nuevo="selector-rediseno" data-no-aplazar></script>}</body>
 </html>

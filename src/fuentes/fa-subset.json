@@ -1,0 +1,21 @@
+{
+ "iconos": {
+  "fa-bag-shopping": "f290",
+  "fa-bus-alt": "f55e",
+  "fa-clone": "f24d",
+  "fa-instagram": "f16d",
+  "fa-landmark": "f66f",
+  "fa-map-marker-alt": "f3c5",
+  "fa-masks-theater": "f630",
+  "fa-play": "f04b",
+  "fa-th-large": "f009",
+  "fa-ticket-alt": "f3ff",
+  "fa-times": "f00d",
+  "fa-umbrella-beach": "f5ca"
+ },
+ "unicodes": "U+f009,U+f00d,U+f04b,U+f16d,U+f24d,U+f290,U+f3c5,U+f3ff,U+f55e,U+f5ca,U+f630,U+f66f",
+ "fuentes": [
+  "fa-solid-900",
+  "fa-brands-400"
+ ]
+}
