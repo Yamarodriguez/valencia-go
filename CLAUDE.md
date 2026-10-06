@@ -83,15 +83,53 @@ lo que pinta un plugin: **se captura del HTML vivo**.
    → bajar `--lista informes/rutas-por-bajar.txt` → repetir desde 2.
 
 ## Comprobaciones
-- `npm run todo` (≈3 min): fuentes → build → validar → enlaces internos →
-  encabezados (C1) → marcado (C2). Cada paso deja su informe en informes/.
-- `npm run todo:visual`: barrido de 404 de la referencia y de la nueva,
-  geometría (C4, vieja 8090 frente a nueva 4321, a 1400 y 390 px) y
-  contraste (C3). `npm run lado-a-lado` hace las capturas de cada tipo.
+- `npm run todo` (≈3 min): fuentes → hojas → build → validar → enlaces
+  internos → encabezados (C1) → marcado (C2). Cada paso deja su informe.
+- `npm run todo:visual`: barridos de 404 (vieja y nueva, con errores de
+  JavaScript apuntados), geometría (C4, 8090 frente a 4321, 1400 y 390 px) y
+  contraste (C3). `--rapido` (una página por tipo) es lo que usa el hook;
+  `--todas`, todo. `npm run lado-a-lado`: capturas por tipo.
+- `node scripts/probar-formularios.mjs`: envío simulado de los 4 formularios.
+- `node scripts/velocidad.mjs [--movil]`: peso y tiempos, vieja frente a
+  nueva desplegada.
 - Excepciones aprobadas: `src/data/fallos-original.json` (404 del servidor
-  viejo, páginas sin H1, shortcodes que se ven escritos, enlaces rotos,
-  contraste, geometría). Lo marcado "pendiente" está enseñado al
-  propietario y falta su decisión.
+  viejo, páginas sin H1, shortcodes a la vista, enlaces rotos, contraste,
+  geometría). Lo "pendiente" está enseñado al propietario; falta su decisión.
+
+## Fase 5 (formularios): hecho el 6-10-2026
+- Formularios de Netlify. `public/js/formularios.js` (lo engancha Base.astro
+  con `data-nuevo="formularios"` si `site.formulario.activo`) escucha el envío
+  de los formularios de Elementor y de Contact Form 7, lo manda a Netlify sin
+  salir de la página y pone el aviso en su sitio, en el idioma de la página,
+  con la dirección de la página y un evento `generate_lead` en Analytics.
+- `public/formularios-netlify.html` declara los 4 formularios (info-bus,
+  contacto, contacto-entrada, experiencias-a-medida) con campos fijos.
+- PENDIENTE del propietario: en Netlify → Forms → Notifications poner el
+  correo de destino (info@valenciaandgo.com); un envío de prueba real.
+- Reservas: Turitop es externo y funciona igual. Los 8 packs con descuento
+  llevan "añadir al carrito" de WooCommerce (no funciona en estático):
+  decisión pendiente del propietario.
+
+## Fase 6 (velocidad, sin tocar el diseño): hecho el 6-10-2026
+- `src/data/velocidad.json` (lo aplica partir-paginas, lo conoce
+  comparar-marcado): quita los guiones muertos en estático (lista de deseos
+  con React, pagos Stripe/PayPal, Contact Form 7, Turnstile), reúne las hojas
+  consecutivas del `<head>` en 38 ficheros compartidos (`npm run hojas` →
+  public/css/, no en Git; las post-ID.css quedan sueltas) y pone
+  `loading="lazy"` a las fotos salvo las 3 primeras del contenido.
+- NO se quitan: wp-hooks y wp-i18n (los usa Elementor Pro) ni el guion de
+  emojis (sin él la bandera del idioma cambia de aspecto en Windows).
+- Medida antes (portada, escritorio): vieja 616 KB / 47 peticiones / LCP
+  392 ms; copia 2.925 KB / 170 / 964 ms. Después: ver informes/velocidad.md.
+
+## Fase 7 (mudanza): preparado, NO hecho
+- `public/sitemap_index.xml` y los mapas de Yoast copiados con su nombre
+  (`npm run sitemaps`); `public/robots.txt`; `_redirects` con las 54
+  redirecciones de la vieja y las 176 direcciones cortas `?p=ID`; el validador
+  comprueba que todo lo del mapa es página o redirección.
+- Falta el día del cambio: repetir la cadena de datos, quitar el noindex de
+  netlify.toml, activar en `_redirects` la línea del dominio de pruebas, DNS
+  en el registrador (sin tocar MX/SPF/DKIM), Search Console.
 
 ## Datos
 AdSense · GA4 · WhatsApp · correo · formulario · DNS: PENDIENTES (el
@@ -105,18 +143,16 @@ La web vieja sigue viva y cambia (el 6-10 habían cambiado 4 direcciones
 traducidas): antes de la Fase 7 hay que repetir la cadena de datos.
 
 ## Estado (se actualiza al cerrar cada fase)
-- Fase actual: 2 — ver "Pendiente" abajo. Siguiente: Fase 3 (rediseño).
-- Hecho Fase 0 (5-10-2026, 83b72f8): entorno, inventario, regla del H1.
-- Hecho Fase 1 (5-10-2026, ec93a15…a313e80): referencia, barrido de 404,
-  primer despliegue.
-- Hecho Fase 2 (6-10-2026, 7acd4ab y siguientes): motor por captura; 1.020
-  páginas (5 idiomas, paginaciones, legales y packs traducidos); `todo` a 0
-  (marcado: 173.433 elementos, 0 diferencias; encabezados 100 %); 54
-  redirecciones de la web vieja en `public/_redirects`.
-- Fallos del kit: el motor y los scripts del kit ligados a OceanWP se han
-  retirado (render.js, componentes, css.mjs, descargadores). Quedan en
-  `kit/` de consulta. B1.2/3/12 ya no aplican (no se pinta desde el árbol).
-- Pendiente del propietario: decidir los fallos del original "pendientes"
-  (shortcodes de Turitop a la vista en los packs, 17 enlaces rotos,
-  contraste); datos de la sección 1 del prompt (DNS, Search Console,
-  AdSense, GA4, titular, formularios).
+- Fase actual: 2 cerrada técnicamente (falta el visto bueno del propietario
+  a la web de pruebas); 5 y 6 hechas; 7 preparada. Sin hacer: 3 (rediseño:
+  el propietario no lo ha pedido; se le ofrece) y 4 (contenido nuevo: no hay
+  datos del propietario).
+- Hecho Fase 0 (5-10-2026, 83b72f8); Fase 1 (5-10-2026, ec93a15…a313e80);
+  Fase 2 (6-10-2026, 7acd4ab…c3a9c3f): 1.020 páginas, todo a 0.
+- Fases 5 y 6 y preparación de la 7: 6-10-2026 (ver arriba).
+- La copia es del 6-10-2026 (01:30-03:00), posterior a la última modificación
+  de la web vieja según su mapa (5-10 09:45).
+- Pendiente del propietario: visto bueno a la web de pruebas; fallos del
+  original "pendientes" (shortcodes de Turitop en los packs, 17 enlaces
+  rotos, contraste); qué hacer con los 8 packs (carrito); correo de avisos en
+  Netlify Forms y envío de prueba; DNS, Search Console, AdSense, GA4.

@@ -33,6 +33,7 @@ const arg = (n, d) => { const i = process.argv.indexOf(n); return i > 0 ? proces
 const HILOS = Number(arg('--hilos', 2));
 const ESPERA = 400;
 const SOLO_FALTAN = process.argv.includes('--solo-faltan');
+const FRESCAS = Number(arg('--frescas', 0));
 const PARAM = 'LSCWP_CTRL=before_optm';
 const UA = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130 (migracion a Astro)' };
 const CRUDA = path.join(RAIZ, 'descargas', 'html');
@@ -61,6 +62,8 @@ const res = { ok: 0, ya: 0, fallo: [], conParam: 0, quedanParam: [] };
 async function bajar(ruta) {
   const destino = fichero(CRUDA, ruta);
   if (SOLO_FALTAN && fs.existsSync(destino) && estaLimpio(fs.readFileSync(destino, 'utf8'))) { res.ya++; return; }
+  // --frescas N: para reanudar una descarga completa; se salta lo bajado hace menos de N minutos
+  if (FRESCAS && fs.existsSync(destino) && (Date.now() - fs.statSync(destino).mtimeMs) < FRESCAS * 60000 && estaLimpio(fs.readFileSync(destino, 'utf8'))) { res.ya++; return; }
   let motivo = '';
   for (let intento = 1; intento <= 3; intento++) {
     try {

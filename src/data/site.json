@@ -21,10 +21,10 @@
   "google": ""
  },
  "formulario": {
-  "accion": "",
-  "accessKey": "",
+  "servicio": "netlify",
+  "activo": true,
   "destino": "info@valenciaandgo.com",
-  "gracias": "/gracias/"
+  "_nota": "Formularios de Netlify (Fase 5): /js/formularios.js envia sin salir de la pagina; los formularios estan declarados en /formularios-netlify.html. Los avisos por correo se configuran en el panel de Netlify (Forms -> Notifications) con el correo de 'destino'."
  },
  "menuPorDefecto": "menu-principal",
  "pie": {

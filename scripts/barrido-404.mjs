@@ -57,7 +57,7 @@ const enListaBlanca = (url) => {
   return listaBlanca.dominios.some((d) => u.host === d || u.host.endsWith('.' + d)) || listaBlanca.rutas.some((r) => (u.pathname + u.search).includes(r));
 };
 
-const fallos = []; const avisos = []; const porPagina = [];
+const fallos = []; const avisos = []; const porPagina = []; const erroresJs = [];
 const contexto = await navegador.newContext({ viewport: { width: 1400, height: 900 } });
 // Lo de otros dominios se corta a proposito (asi la prueba no depende de
 // internet ni de servicios externos). Lo cortado que NO esta en la lista
@@ -80,7 +80,10 @@ for (const ruta of rutas) {
     if (propia) { if (excepciones.has(camino) || enListaBlanca(url)) reg.excepcion = true; else fallos.push(reg); }
     else if (!enListaBlanca(url)) avisos.push(reg);
   };
-  pagina.removeAllListeners('response'); pagina.removeAllListeners('requestfailed');
+  pagina.removeAllListeners('response'); pagina.removeAllListeners('requestfailed'); pagina.removeAllListeners('pageerror'); pagina.removeAllListeners('console');
+  // errores de JavaScript: no bloquean, pero se apuntan (se comparan vieja y nueva)
+  pagina.on('pageerror', (e) => erroresJs.push({ pagina: ruta, error: String(e.message || e).split('\n')[0].slice(0, 160) }));
+  pagina.on('console', (m) => { if (m.type() === 'error' && !/net::|Failed to load resource|ERR_/.test(m.text())) erroresJs.push({ pagina: ruta, error: m.text().split('\n')[0].slice(0, 160) }); });
   pagina.on('response', (r) => { if (r.status() >= 400) apuntar(r.url(), r.status()); });
   pagina.on('requestfailed', (r) => apuntar(r.url(), 'cortada: ' + (r.failure()?.errorText || '').replace('net::', '')));
   const antes = fallos.length + avisos.length;
@@ -105,10 +108,12 @@ const lineas = [
   '', `Base: ${BASE}. Paginas: ${rutas.length}. FALLOS: ${fallos.length}. Avisos (otros dominios): ${avisos.length}.`, '',
   ...['foto', 'letra', 'otro'].flatMap((t) => [`## FALLOS — ${t} (${grupo(fallos, t).length})`, ...grupo(fallos, t).map((x) => `- ${x.estado}  ${x.url}  (en ${x.pagina})`), '']),
   ...['foto', 'letra', 'otro'].flatMap((t) => [`## Avisos externos — ${t} (${grupo(avisos, t).length})`, ...grupo(avisos, t).map((x) => `- ${x.estado}  ${x.url}  (en ${x.pagina})`), '']),
+  `## Errores de JavaScript (${erroresJs.length}, no bloquean: se comparan con los de la web vieja)`,
+  ...Object.entries(erroresJs.reduce((o, e) => { (o[e.error] ||= new Set()).add(e.pagina); return o; }, {})).map(([err, pags]) => `- ${pags.size} paginas: ${err}  (p. ej. ${[...pags][0]})`), '',
   '## Paginas', ...porPagina.map((p) => `- ${p.ruta}: ${p.fallos} problemas`),
 ];
 fs.mkdirSync(path.dirname(INFORME), { recursive: true });
 fs.writeFileSync(INFORME, lineas.join('\n') + '\n');
-console.log(`barrido ${NOMBRE}: ${rutas.length} paginas, ${fallos.length} FALLOS, ${avisos.length} avisos externos -> informes/barrido-404-${NOMBRE}.md`);
+console.log(`barrido ${NOMBRE}: ${rutas.length} paginas, ${fallos.length} FALLOS, ${avisos.length} avisos externos, ${erroresJs.length} errores de JavaScript (${new Set(erroresJs.map((e) => e.error)).size} distintos) -> informes/barrido-404-${NOMBRE}.md`);
 for (const x of fallos.slice(0, 12)) console.log(`  FALLO ${x.estado} ${x.url} (${x.pagina})`);
 process.exit(fallos.length ? 1 : 0);

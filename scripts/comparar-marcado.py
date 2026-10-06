@@ -121,6 +121,39 @@ def interior(raiz):
     rec(raiz, True)
     return "".join(partes)
 
+# Fase 6 (src/data/velocidad.json): guiones que la nueva quita y hojas que reune.
+velocidad = leer_json(os.path.join(RAIZ, "src", "data", "velocidad.json"), {"activo": False})
+VEL = bool(velocidad.get("activo"))
+tramos_hojas = leer_json(os.path.join(RAIZ, "src", "content", "paginas", "hojas.json"), {}) if VEL else {}
+
+def guion_quitado(e):
+    """True si es un <script> que velocidad.json manda quitar (se salta en la vieja)."""
+    if not VEL or e.tag != "script":
+        return False
+    i = e.get("id") or ""
+    for r in velocidad.get("guiones_quitar", []):
+        if r.get("id") and i and re.search(r["id"], i):
+            return True
+        if r.get("contenido") and not i and re.search(r["contenido"], e.text or ""):
+            return True
+    return False
+
+def firmas_cabeza(e, es_vieja):
+    """Una o varias firmas por elemento del <head>."""
+    if not isinstance(e.tag, str):
+        return []
+    if e.get("data-nuevo") is not None:
+        if e.get("data-nuevo") == "hojas":  # la hoja reunida vale por las originales, en orden
+            h = (e.get("id") or "").replace("hojas-", "")
+            return ["<link stylesheet %s>" % sin_dominio(x) for x in tramos_hojas.get(h, ["?" + h])]
+        return []
+    if guion_quitado(e):
+        return []
+    if VEL and e.tag == "link" and (e.get("rel") or "").lower() == "stylesheet":
+        return ["<link stylesheet %s>" % sin_dominio(e.get("href") or "")]
+    f = firma_cabeza(e)
+    return [f] if f else []
+
 def firma_cabeza(e):
     if not isinstance(e.tag, str):
         return None
@@ -156,12 +189,18 @@ def analizar(fichero, es_vieja):
     cabeza = list(head) if head is not None else []
     if es_vieja:
         cabeza = aplicar_reglas_cabeza(cabeza)
-    cabeza = [f for f in (firma_cabeza(e) for e in cabeza) if f]
+    cabeza = [f for e in cabeza for f in firmas_cabeza(e, es_vieja)]
     armazon = ["<html %s>" % sorted(atributos(raiz).items()), "<body %s>" % sorted(atributos(body).items())]
     contenido = {}
     veces = Counter()
     def rec(e, camino, dentro):
         if not isinstance(e.tag, str):
+            return
+        # lo que la web nueva anade a proposito va marcado con data-nuevo: no se compara
+        if e.get("data-nuevo") is not None:
+            return
+        # los guiones que velocidad.json quita: tampoco (en la vieja siguen estando)
+        if guion_quitado(e):
             return
         did = e.get("data-id")
         if did is not None:

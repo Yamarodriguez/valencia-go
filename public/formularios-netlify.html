@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><title>Formularios (declaracion para Netlify)</title><meta name="robots" content="noindex, nofollow"></head>
+<body>
+<!--
+  Esta pagina no la ve nadie: la lee Netlify al desplegar para saber que
+  formularios existen y que campos llevan. Los envios los hace /js/formularios.js
+  desde los formularios de la web (Elementor y Contact Form 7), sin salir de la
+  pagina. Los nombres de campo de aqui son las ETIQUETAS que ve el visitante,
+  que es como llegan los mensajes. Los avisos por correo se configuran en el
+  panel de Netlify (Forms -> Notifications).
+-->
+<form name="info-bus" method="POST" data-netlify="true" netlify-honeypot="sitio-web">
+  <input type="hidden" name="form-name" value="info-bus">
+  <input type="hidden" name="pagina">
+  <input name="sitio-web"><input name="Nombre"><input name="Email"><input name="Telefono"><input name="Tipo de vehiculo"><input name="Asunto"><textarea name="Mensaje"></textarea><input name="Privacidad">
+</form>
+<form name="contacto" method="POST" data-netlify="true" netlify-honeypot="sitio-web">
+  <input type="hidden" name="form-name" value="contacto">
+  <input type="hidden" name="pagina">
+  <input name="sitio-web"><input name="Nombre"><input name="Email"><input name="Telefono"><input name="Asunto"><textarea name="Mensaje"></textarea><input name="Privacidad">
+</form>
+<form name="contacto-entrada" method="POST" data-netlify="true" netlify-honeypot="sitio-web">
+  <input type="hidden" name="form-name" value="contacto-entrada">
+  <input type="hidden" name="pagina">
+  <input name="sitio-web"><input name="Nombre"><input name="Email"><textarea name="Mensaje"></textarea>
+</form>
+<form name="experiencias-a-medida" method="POST" data-netlify="true" netlify-honeypot="sitio-web">
+  <input type="hidden" name="form-name" value="experiencias-a-medida">
+  <input type="hidden" name="pagina">
+  <input name="sitio-web"><input name="Nombre"><input name="Email"><input name="Telefono"><input name="Experiencia"><input name="Personas"><input name="Fecha"><textarea name="Mensaje"></textarea><input name="Privacidad">
+</form>
+</body>
+</html>

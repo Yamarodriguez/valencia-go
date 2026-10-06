@@ -36,6 +36,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { crearRelativizador } from './lib/relativizar.mjs';
+import { quitarGuiones, reunirHojas, fotosPerezosas } from './lib/aligerar.mjs';
 
 const RAIZ = path.resolve('.');
 const ORIGEN = path.join(RAIZ, 'descargas', 'html');
@@ -45,6 +46,8 @@ const site = JSON.parse(fs.readFileSync(path.join(RAIZ, 'src', 'data', 'site.jso
 const reglasCabeza = JSON.parse(fs.readFileSync(path.join(RAIZ, 'src', 'data', 'cabeza.json'), 'utf8'));
 const tipos = JSON.parse(fs.readFileSync(path.join(RAIZ, 'src', 'data', 'tipos.json'), 'utf8'));
 const { relativizarHtml, contarHtml } = crearRelativizador(site.dominio);
+const velocidad = fs.existsSync(path.join(RAIZ, 'src', 'data', 'velocidad.json')) ? JSON.parse(fs.readFileSync(path.join(RAIZ, 'src', 'data', 'velocidad.json'), 'utf8')) : { activo: false };
+const tramosHojas = {};
 const relativizar = relativizarHtml, contar = contarHtml;
 export const MARCA = (n) => `\n<!--@@${n}@@-->\n`;
 const PIEZAS = ['cabeza', 'antes', 'cabecera', 'contenido', 'pie', 'despues'];
@@ -87,7 +90,7 @@ const attr = (etiqueta, nombre) => {
   return m ? (m[1] ?? m[2] ?? m[3] ?? '') : null;
 };
 
-const cuenta = { quitadas: {}, sustituidas: {}, absolutasConservadas: 0 };
+const cuenta = { quitadas: {}, sustituidas: {}, absolutasConservadas: 0, guionesQuitados: {}, tramos: 0, fotosPerezosas: 0 };
 const sumar = (o, k) => { o[k] = (o[k] || 0) + 1; };
 
 /** Relativiza todo menos los bloques application/ld+json (datos estructurados). */
@@ -138,7 +141,7 @@ function partir(html, ruta) {
   const finH = cierre(cuerpo, mh.index, 'header');
   const finF = cierre(cuerpo, mf.index, 'footer');
   if (finH < 0 || finF < 0 || finH > mf.index) return { error: 'cabecera o pie sin cerrar' };
-  const piezas = {
+  let piezas = {
     cabeza: tratarCabeza(cabeza),
     antes: relativizarSalvoJsonLd(cuerpo.slice(0, mh.index)),
     cabecera: relativizarSalvoJsonLd(cuerpo.slice(mh.index, finH)),
@@ -146,6 +149,25 @@ function partir(html, ruta) {
     pie: relativizarSalvoJsonLd(cuerpo.slice(mf.index, finF)),
     despues: relativizarSalvoJsonLd(cuerpo.slice(finF)),
   };
+  // Fase 6: velocidad (src/data/velocidad.json), sin tocar texto ni diseno
+  if (velocidad.activo) {
+    for (const p of PIEZAS) {
+      const r = quitarGuiones(piezas[p], velocidad.guiones_quitar || []);
+      piezas[p] = r.html;
+      for (const [k, v] of Object.entries(r.quitados)) cuenta.guionesQuitados[k] = (cuenta.guionesQuitados[k] || 0) + v;
+    }
+    if (velocidad.hojas_reunir) {
+      const r = reunirHojas(piezas.cabeza);
+      piezas.cabeza = r.cabeza;
+      Object.assign(tramosHojas, r.tramos);
+      cuenta.tramos += Object.keys(r.tramos).length;
+    }
+    if (velocidad.fotos_perezosas) {
+      const r = fotosPerezosas(piezas, velocidad.fotos_perezosas.saltar ?? 3);
+      piezas = r.piezas;
+      cuenta.fotosPerezosas += r.cuenta.perezosas;
+    }
+  }
   const body = atributos(mBody[1]);
   return {
     piezas,
@@ -192,6 +214,8 @@ for (const f of lista) {
 }
 indice.sort((a, b) => a.ruta.localeCompare(b.ruta));
 if (!ENSAYO) fs.writeFileSync(path.join(DESTINO, 'indice.json'), JSON.stringify(indice, null, 1));
+if (!ENSAYO && velocidad.activo && velocidad.hojas_reunir) fs.writeFileSync(path.join(DESTINO, 'hojas.json'), JSON.stringify(tramosHojas, null, 1));
+else if (!ENSAYO) fs.rmSync(path.join(DESTINO, 'hojas.json'), { force: true });
 
 // La pagina de error 404 (descargas/html-404/): mismas piezas, fuera del indice.
 // Donde WordPress copio la direccion inventada (selector de idioma...) se deja la raiz.
@@ -220,6 +244,10 @@ const lineas = [
   '## Cabeceras y pies', ...Object.entries(indice.reduce((o, p) => { const k = `cabecera ${p.cabeceraId} + pie ${p.pieId}`; o[k] = (o[k] || 0) + 1; return o; }, {})).map(([k, n]) => `- ${k}: ${n} paginas`), '',
   '## Etiquetas quitadas de la cabeza (src/data/cabeza.json)', ...Object.entries(cuenta.quitadas).map(([k, n]) => `- ${k}: ${n}`), '',
   '## Sustituidas', ...Object.entries(cuenta.sustituidas).map(([k, n]) => `- ${k}: ${n}`), '',
+  `## Velocidad (src/data/velocidad.json, ${velocidad.activo ? 'activa' : 'desactivada'})`,
+  ...Object.entries(cuenta.guionesQuitados).map(([k, n]) => `- guiones quitados — ${k}: ${n}`),
+  `- tramos de hojas reunidas: ${Object.keys(tramosHojas).length} distintos (${cuenta.tramos} en total)`,
+  `- fotos con loading=lazy anadido: ${cuenta.fotosPerezosas}`, '',
   `Direcciones absolutas conservadas a proposito (canonical, hreflang, sociales, datos estructurados): ${cuenta.absolutasConservadas}.`,
   `Paginas con algo escrito despues de </body> (se descarta: comentarios del servidor): ${conResto}.`, '',
   `Pagina de error 404: ${estado404}.`, '',

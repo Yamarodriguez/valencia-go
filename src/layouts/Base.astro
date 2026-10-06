@@ -3,10 +3,16 @@
  * El documento. No decide nada: pone los atributos de <html> y <body> y la
  * cabeza tal como estaban en la web vieja (los prepara scripts/partir-paginas.mjs),
  * y dentro del <body> lo que le pase la pagina.
+ *
+ * Lo que la web nueva ANADE va marcado con data-nuevo="…" (el comparador de
+ * marcado lo salta) y se enciende desde src/data/site.json:
+ *   - formulario.activo: /js/formularios.js (Fase 5), al final del <body>.
  */
+import site from '../data/site.json';
 const { html = {}, body = {}, cabeza = '' } = Astro.props;
+const formularios = site.formulario && site.formulario.servicio === 'netlify' && site.formulario.activo;
 ---
 <html {...html}>
 <head><Fragment set:html={cabeza} /></head>
-<body {...body}><slot /></body>
+<body {...body}><slot />{formularios && <script src="/js/formularios.js" defer data-nuevo="formularios"></script>}</body>
 </html>

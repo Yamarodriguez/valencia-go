@@ -1,7 +1,7 @@
 [build]
   # Font Awesome sale de npm a public/fontawesome/ (no esta en Git) y despues
   # se compila. Todo lo demas que compila esta en Git (src/ y public/).
-  command = "npm run fuentes && npm run build"
+  command = "npm run fuentes && npm run hojas && npm run build"
   publish = "dist"
 
 [build.environment]

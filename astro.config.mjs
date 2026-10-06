@@ -1,18 +1,11 @@
 import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
 
+// Sin la integracion de sitemap de Astro: los mapas del sitio son los MISMOS de
+// la web vieja (sitemap_index.xml y los que enlaza), copiados a public/ por
+// scripts/sitemaps.mjs. Google tiene apuntado ese nombre y ahi estan solo las
+// paginas que el propietario queria indexadas (las noindex no salen).
 export default defineConfig({
   site: 'https://www.valenciaandgo.com',
   trailingSlash: 'always',
   build: { format: 'directory' },
-  integrations: [
-    sitemap({
-      lastmod: new Date(),
-      // las legales y el acuse del formulario no van al sitemap
-      filter: (pagina) =>
-        !['/aviso-legal/', '/politica-de-privacidad/', '/politica-de-cookies/',
-          '/condiciones-de-compra/', '/gracias/']
-          .some((r) => pagina.endsWith(r)),
-    }),
-  ],
 });

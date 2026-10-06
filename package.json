@@ -24,10 +24,12 @@
     "marcado": "python scripts/comparar-marcado.py",
     "geometria": "node scripts/geometria.mjs",
     "contraste": "node scripts/contraste.mjs",
-    "lado-a-lado": "node scripts/lado-a-lado.mjs"
+    "lado-a-lado": "node scripts/lado-a-lado.mjs",
+    "sitemaps": "node scripts/sitemaps.mjs",
+    "redirecciones": "node scripts/redirecciones.mjs",
+    "hojas": "node scripts/hojas.mjs"
   },
   "dependencies": {
-    "@astrojs/sitemap": "3.7.4",
     "astro": "7.3.2"
   },
   "devDependencies": {

@@ -1,0 +1,22 @@
+{
+ "_nota": "Fase 6 (velocidad, sin tocar el diseno). Lo aplica scripts/partir-paginas.mjs al preparar las piezas y lo conoce scripts/comparar-marcado.py. Con activo=false la web nueva vuelve a ser la copia tal cual. 'guiones_quitar': <script> que se quitan (por id, expresion regular; o por contenido). 'hojas_reunir': cada tramo de hojas <link> consecutivas del <head> pasa a un solo fichero en /css/, en el mismo orden (scripts/hojas.mjs los genera y comprueba). 'fotos_perezosas': loading=lazy en las fotos del contenido salvo las primeras N, en el pie y en las ventanas. El guion de emojis de WordPress SE QUEDA: sustituye los emojis (bandera del idioma, saludo del pie) por dibujos y sin el cambian de aspecto en Windows.",
+ "activo": true,
+ "guiones_quitar": [
+  {
+   "nombre": "lista de deseos YITH y su pila de React y WordPress (no hay cuenta ni carrito en estatico) (wp-hooks y wp-i18n se quedan: los usa Elementor Pro)",
+   "id": "^(lodash|wp-polyfill|moment|wp-deprecated|wp-date|wp-private-apis|wp-url|wp-api-fetch|wp-dom|wp-escape-html|wp-element|wp-is-shallow-equal|wp-keycodes|wp-priority-queue|wp-undo-manager|wp-compose|wp-redux-routine|wp-data|react|react-dom|react-jsx-runtime|lapilli-ui-[a-z]+|yith-wcwl-add-to-wishlist(-gutenberg)?|jquery-yith-wcwl|jquery-selectBox|wc-prettyPhoto)-js(-extra|-before|-after|-translations)?$"
+  },
+  {
+   "nombre": "carrito y pagos de WooCommerce (Stripe, PayPal, seguimiento de pedidos): el boton de comprar va a Turitop",
+   "id": "^(sourcebuster-js|wc-order-attribution|wc-js-cookie|wc-jquery-blockui|woocommerce|wc-stripe-[a-z-]+|ppcp-[a-z-]+)-js(-extra|-before|-after)?$|^wcStripeSettings$"
+  },
+  {
+   "nombre": "Contact Form 7 y el antirrobots Turnstile de Cloudflare: los formularios los envia /js/formularios.js (Netlify)",
+   "id": "^(swv|contact-form-7)-js(-before|-translations)?$|^cfturnstile-[a-z-]*js(-extra|-before|-after)?$|^cfturnstile-js$|^cfturnstile-render-js-after$"
+  }
+ ],
+ "hojas_reunir": true,
+ "fotos_perezosas": {
+  "saltar": 3
+ }
+}

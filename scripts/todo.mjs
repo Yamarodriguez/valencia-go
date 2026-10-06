@@ -15,6 +15,7 @@ import { spawnSync } from 'node:child_process';
 
 const PASOS = [
   ['fuentes', 'node scripts/fuentes-locales.mjs'],
+  ['hojas', 'node scripts/hojas.mjs'],
   ['build', 'npx astro build'],
   ['validar', 'node scripts/validar.mjs'],
   ['enlaces', 'node scripts/enlaces-internos.mjs'],

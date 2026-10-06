@@ -198,6 +198,18 @@ for (const [r, hs] of [...faltanCss].sort()) {
   if (aprobado[404].has(r)) avisos.push(msg + ' (aprobado)'); else fallos.push(msg);
 }
 
+// 12. los mapas del sitio: cada direccion tiene que ser una pagina de la copia o una redireccion
+const redirecciones = new Set((leer(path.join(RAIZ, 'src', 'data', 'redirecciones.json'), { lista: [] }).lista).map((r) => r.de.replace(/\/$/, '') || '/'));
+let enMapas = 0;
+for (const f of fs.existsSync(PUBLICO) ? fs.readdirSync(PUBLICO).filter((x) => /sitemap.*\.xml$/.test(x) && x !== 'sitemap_index.xml') : []) {
+  for (const m of fs.readFileSync(path.join(PUBLICO, f), 'utf8').matchAll(/<url>\s*<loc>([^<]+)<\/loc>/g)) {
+    enMapas++;
+    const ruta = m[1].trim().replace(DOMINIO, '') || '/';
+    if (!enIndice.has(ruta) && !redirecciones.has(ruta.replace(/\/$/, '') || '/')) fallos.push(`${ruta} — esta en el mapa del sitio ${f} y no es pagina ni redireccion`);
+  }
+}
+if (!enMapas) avisos.push('no hay mapas del sitio en public/ (scripts/sitemaps.mjs)');
+
 // 11. configuracion
 const cfg = fs.readFileSync(path.join(RAIZ, 'astro.config.mjs'), 'utf8');
 if (!/trailingSlash:\s*'always'/.test(cfg)) fallos.push("astro.config.mjs sin trailingSlash: 'always'");

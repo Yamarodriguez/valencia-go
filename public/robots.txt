@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.valenciaandgo.com/sitemap_index.xml

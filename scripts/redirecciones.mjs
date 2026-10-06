@@ -36,11 +36,27 @@ for (const r of datos.lista) {
   if (!existe) { fallos.push(`${r.de} -> ${r.a}: el destino no existe en la copia`); continue; }
   lineas.push(`${de}  ${r.a}  ${r.codigo || 301}`);
 }
+// Las direcciones cortas de WordPress (?p=ID y ?page_id=ID): cada una a SU pagina,
+// no a la portada. Salen del identificador que cada pagina lleva en su <body>.
+// Solo las del idioma principal (las traducidas comparten identificador).
+const cortas = [];
+const idsVistos = new Set();
+for (const p of indice) {
+  if (!p.postId || /^\/(en|it|fr|pl)\//.test(p.ruta) || /\/(page|strona|pagina)\/\d+\/$/.test(p.ruta) || idsVistos.has(p.postId)) continue;
+  if (!/\b(postid|page-id)-\d+/.test(p.body?.class || '')) continue;
+  idsVistos.add(p.postId);
+  cortas.push(`/  p=${p.postId}  ${p.ruta}  301!`);
+  if (/\bpage-id-\d+/.test(p.body.class)) cortas.push(`/  page_id=${p.postId}  ${p.ruta}  301!`);
+}
+
 const texto = [
   '# Generado por scripts/redirecciones.mjs desde src/data/redirecciones.json. No editar a mano.',
   '# Son las redirecciones que ya hacia la web vieja (WordPress).',
   '',
   ...lineas,
+  '',
+  '# Direcciones cortas de WordPress (?p=ID): cada una a su pagina.',
+  ...cortas,
   '',
   '# ---------------------------------------------------------------- FASE 7',
   '# El dia del cambio de DNS (ni antes ni despues) se quita la almohadilla:',
@@ -50,6 +66,7 @@ const texto = [
 ].join('\n');
 fs.mkdirSync(path.join(RAIZ, 'public'), { recursive: true });
 fs.writeFileSync(path.join(RAIZ, 'public', '_redirects'), texto);
+console.log(`direcciones cortas ?p=ID: ${cortas.length}`);
 console.log(`redirecciones: ${lineas.length} en public/_redirects (${avisos.length} no escritas porque el origen existe, ${fallos.length} con destino inexistente)`);
 for (const a of avisos) console.log('  aviso ' + a);
 for (const f of fallos) console.log('  FALLO ' + f);

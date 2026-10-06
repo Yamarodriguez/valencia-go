@@ -1,6 +1,15 @@
 {
- "_nota": "Lo que cambia en cada visita a la web vieja y scripts/comparar-marcado.py no debe contar. 'atributos': nombres de atributo que se ignoran. 'atributos_json_claves': claves que se ignoran dentro de los atributos JSON (data-settings...). 'guiones_id': <script id=...> cuyo texto no se compara (llevan nonces o fechas).",
- "atributos": ["data-rsssl", "data-nonce", "data-wp-nonce"],
- "atributos_json_claves": ["nonce", "_nonce", "ajax_nonce"],
+ "_nota": "Lo que cambia en cada visita a la web vieja y scripts/comparar-marcado.py no debe contar. 'atributos': nombres de atributo que se ignoran. 'atributos_json_claves': claves que se ignoran dentro de los atributos JSON (data-settings...). 'guiones_id': <script id=...> cuyo texto no se compara (llevan nonces o fechas). 'loading' no cuenta porque la Fase 6 pone loading=lazy a las fotos de mas abajo.",
+ "atributos": [
+  "data-rsssl",
+  "data-nonce",
+  "data-wp-nonce",
+  "loading"
+ ],
+ "atributos_json_claves": [
+  "nonce",
+  "_nonce",
+  "ajax_nonce"
+ ],
  "guiones_id": []
 }
