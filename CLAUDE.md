@@ -125,8 +125,13 @@ lo que pinta un plugin: **se captura del HTML vivo**.
   scripts/subset-fa.py` → `src/fuentes/` (en Git); fuentes-locales.mjs los
   copia encima de public/fontawesome/webfonts/. Si aparece un icono nuevo,
   repetir.
-- `netlify.toml`: `Netlify-CDN-Cache-Control` durable para que el borde no
-  vaya al origen en cada visita (antes `Cache-Status: fwd=miss`).
+- `netlify.toml`: las hojas reunidas (/css/*) se guardan un año en el
+  navegador, como /wp-content/. El borde de Netlify ya guarda todo un año
+  por defecto; aun así, desde España casi cada petición sale `fwd=miss` o
+  `fwd=stale` (unos 300 ms hasta el primer byte; 130 ms cuando acierta)
+  frente a 40 ms del hosting viejo con LiteSpeed. Eso no se arregla desde la
+  web: es cosa del hosting (opción: otro alojamiento estático, decisión del
+  propietario).
 - `node scripts/radiografia.mjs [--movil]`: radiografía de carga de una
   página (TTFB, primera pintura, LCP, qué bloquea) en vieja y nueva.
 - NO se quitan: wp-hooks y wp-i18n (los usa Elementor Pro) ni el guion de
@@ -142,8 +147,18 @@ lo que pinta un plugin: **se captura del HTML vivo**.
   antes 2.925 KB / 170 / 964 ms; copia después 1.693 KB / 49 / 752 ms. En
   móvil con 4G lenta, LCP de la portada: vieja 1,2 s; copia antes 7,1 s;
   después 1,8 s. Entrada /paella/ en móvil: 3,6 s vieja, 3,5 s copia.
-  Queda un margen frente a LiteSpeed (sobre todo el tiempo hasta "listo"):
-  las hojas van en ~15 ficheros compartidos en vez de 1 por página.
+- Medida 2ª vuelta (6-10-2026, misma herramienta): la web vieja ese día servía
+  la versión SIN optimizar de LiteSpeed (portada 5.543 KB / 206 peticiones;
+  LCP 368 ms escritorio, 9,7 s móvil), así que no sirve de comparación.
+  Copia en escritorio: portada 1.545 KB / 39 pet. / LCP 820 ms; /paella/
+  604 KB / 22 / 1.396 ms. En móvil 4G lenta: portada LCP 2,2 s; /paella/
+  3,5 s; Albufera 1,5 s. La portada carga 7 hojas (3 reunidas + 4 sueltas,
+  ~150 KB comprimidas) y el HTML pesa 52 KB comprimido; lo que manda es la
+  latencia de Netlify (~300 ms por petición), no el peso.
+- Fallo que destapó la 2ª vuelta: `.gitignore` tenía `dist/` y dejaba fuera
+  de Git 28 ficheros de public/ (wp-includes/js/dist: wp-hooks, wp-i18n…;
+  block-library/style.min.css): en Netlify daban 404 y las comprobaciones no
+  lo veían porque son locales. Arreglado (`/dist/`, 3b3b174).
 
 ## Fase 7 (mudanza): preparado, NO hecho
 - `public/sitemap_index.xml` y los mapas de Yoast copiados con su nombre
