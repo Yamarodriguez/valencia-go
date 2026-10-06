@@ -1,0 +1,95 @@
+/*
+ * Rediseño — opción "propio" (Fase 3). Solo colores, letra, bordes y sombras:
+ * no se toca el marcado ni el texto. Se engancha como ÚLTIMA hoja del <head>
+ * cuando src/data/site.json lleva "rediseno": "propio".
+ *
+ * Idea: se mantiene el naranja de la marca pero solo como acento (botones y
+ * detalles), los titulares pasan a un azul petróleo profundo y el texto a un
+ * gris casi negro más legible; cabecera clara con un filete fino naranja;
+ * tarjetas con esquinas redondeadas y sombra suave; fondos crema en las
+ * secciones claras. La letra de los titulares sigue siendo Baloo Bhaijaan 2;
+ * el texto corrido pasa a Lato (ya está en el dominio).
+ * Cada regla va acotada a su contenedor (kit 67, cabecera 10594/10365,
+ * portada 70) para no pisar nada por accidente.
+ */
+body.elementor-kit-67 {
+  --e-global-color-primary: #F26A1B;
+  --e-global-color-accent: #F26A1B;
+  --e-global-color-secondary: #0F4C5C;
+  --e-global-color-text: #1F2933;
+  --e-global-color-ea18cb3: #52606D;
+  --e-global-color-9f91388: #FFF4EA;
+  --e-global-typography-text-font-family: "Lato";
+  --e-global-typography-text-font-size: 17px;
+  --e-global-typography-accent-font-family: "Lato";
+  --e-global-typography-accent-font-weight: 700;
+}
+body.elementor-kit-67 .elementor-widget-text-editor,
+body.elementor-kit-67 .elementor-widget-text-editor p,
+body.elementor-kit-67 .elementor-widget-icon-list .elementor-icon-list-text { font-family: "Lato", sans-serif; }
+body.elementor-kit-67 h1, body.elementor-kit-67 h2, body.elementor-kit-67 h3 { letter-spacing: -0.01em; }
+
+/* cabecera clara con filete fino naranja (escritorio 5ff63914, móvil 6a8bff6, pegada 4df71b1) */
+.elementor-location-header .elementor-element-5ff63914,
+.elementor-location-header .elementor-element-6a8bff6,
+.elementor-location-header .elementor-element-4df71b1 {
+  background-color: #ffffff !important;
+  border-bottom: 2px solid #F26A1B;
+  box-shadow: 0 2px 12px rgba(15, 76, 92, 0.08);
+}
+.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item,
+.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item:hover,
+.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item.elementor-item-active { color: #0F4C5C !important; }
+.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item:hover { color: #F26A1B !important; }
+.elementor-location-header .elementor-widget-icon svg,
+.elementor-location-header .elementor-widget-icon i,
+.elementor-location-header .elementor-icon-list-icon svg { fill: #0F4C5C; color: #0F4C5C; }
+/* barra superior: crema con texto azul */
+.elementor-location-header .elementor-element-6926517 { background-color: #FFF4EA !important; }
+.elementor-location-header .elementor-element-6926517 a, .elementor-location-header .elementor-element-6926517 span,
+.elementor-location-header .elementor-element-6926517 .elementor-icon-list-text { color: #0F4C5C !important; }
+.elementor-location-header .elementor-element-6926517 svg { fill: #F26A1B !important; }
+.elementor-location-header .elementor-element-d3ef044 { background-color: #ffffff !important; border-bottom: 1px solid #F1E3D6; }
+
+/* botones: píldora con sombra suave */
+body.elementor-kit-67 .elementor-button {
+  border-radius: 999px !important;
+  background-color: #F26A1B;
+  box-shadow: 0 6px 16px rgba(242, 106, 27, 0.28);
+  letter-spacing: 0.02em;
+}
+body.elementor-kit-67 .elementor-button:hover { background-color: #D95A12; }
+
+/* foto principal: velo mínimo en degradado desde abajo (la letra no se toca) */
+.elementor-70 .elementor-element-dff3c28::before,
+.elementor-70 .elementor-element-dff3c28 > .elementor-background-overlay {
+  background: linear-gradient(180deg, rgba(10, 30, 40, 0.10) 0%, rgba(10, 30, 40, 0.45) 100%) !important;
+  opacity: 1 !important;
+}
+
+/* tarjetas de tours (rejilla loop 8411) */
+.elementor-70 .elementor-loop-item, .elementor-8411 { border-radius: 16px; overflow: hidden; }
+.elementor-70 .elementor-loop-item { box-shadow: 0 8px 24px rgba(15, 76, 92, 0.10); transition: transform .2s ease, box-shadow .2s ease; background: #fff; }
+.elementor-70 .elementor-loop-item:hover { transform: translateY(-3px); box-shadow: 0 14px 32px rgba(15, 76, 92, 0.16); }
+.elementor-70 .elementor-loop-item img { border-radius: 16px 16px 0 0; }
+
+/* secciones claras en crema suave; titulares de sección en azul */
+.elementor-70 .elementor-element-0494195, .elementor-70 .elementor-element-19fd49d, .elementor-70 .elementor-element-527add5 { background-color: #FFFBF7; }
+.elementor-70 .elementor-widget-heading h2.elementor-heading-title { color: #0F4C5C; }
+.elementor-70 .elementor-element-d7adc8b h2.elementor-heading-title { color: #ffffff; }
+
+/* pie: azul petróleo oscuro con texto claro */
+.elementor-location-footer .elementor-element-8452, .elementor-location-footer > .e-con { background-color: #0B3A47 !important; }
+.elementor-location-footer, .elementor-location-footer a, .elementor-location-footer p, .elementor-location-footer span, .elementor-location-footer h4 { color: #E4EEF1 !important; }
+.elementor-location-footer a:hover { color: #FFB27A !important; }
+
+/* --- ajustes tras la primera captura --- */
+/* franja del teléfono (contenedor 6002e415, pintado con la variable principal): crema */
+.elementor-10594 .elementor-element.elementor-element-6002e415:not(.elementor-motion-effects-element-type-background) { background-color: #FFF4EA !important; }
+.elementor-10594 .elementor-element-6926517 { --e-global-color-395da40: #0F4C5C; }
+.elementor-10594 .elementor-element-6926517 .elementor-icon-list-item:not(:last-child):after { border-color: #0F4C5C !important; }
+/* logotipo: en la cabecera clara, la versión azul */
+.elementor-10594 .elementor-element-28ecc992 img, .elementor-10594 .elementor-element-1aae988b img { content: url("/wp-content/uploads/2026/04/logo-valenciaandgo-azul.png"); }
+/* titulares de sección en azul petróleo (los de la foto principal y los bloques oscuros siguen en blanco) */
+.elementor-70 .elementor-widget-heading h2.elementor-heading-title { color: #0F4C5C !important; }
+.elementor-70 .elementor-element-d7adc8b h2.elementor-heading-title, .elementor-70 .elementor-element-dff3c28 .elementor-heading-title { color: #ffffff !important; }

@@ -1,0 +1,76 @@
+/*
+ * Rediseño — opción "civitatis" (Fase 3). Inspirada en la estética de
+ * Civitatis: cabecera de color pleno (rosa fucsia) con el menú en blanco,
+ * titulares grandes y finos en gris casi negro, fondos gris muy claro,
+ * botones en píldora rosa, precios en rosa. Letra Montserrat.
+ * Colores de referencia medidos en su web: #EA0558 (principal), #D3074C
+ * (oscuro), #1C1A1A (texto), #F5F4F5 (fondo), #377C01 (verde de "disponible").
+ * Para esta vista previa Montserrat se pide a Google Fonts; si se elige esta
+ * opción, se instala desde npm y se sirve desde este dominio.
+ * Solo colores, letra y bordes: ni marcado ni texto. Última hoja del <head>
+ * cuando site.json lleva "rediseno": "civitatis".
+ */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+body.elementor-kit-67 {
+  --e-global-color-primary: #EA0558;
+  --e-global-color-accent: #EA0558;
+  --e-global-color-secondary: #1C1A1A;
+  --e-global-color-text: #1C1A1A;
+  --e-global-color-ea18cb3: #5B5B5B;
+  --e-global-color-9f91388: #F5F4F5;
+  --e-global-typography-primary-font-family: "Montserrat";
+  --e-global-typography-primary-font-weight: 300;
+  --e-global-typography-secondary-font-family: "Montserrat";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Montserrat";
+  --e-global-typography-text-font-size: 16px;
+  --e-global-typography-accent-font-family: "Montserrat";
+  --e-global-typography-accent-font-weight: 600;
+}
+body.elementor-kit-67 h1, body.elementor-kit-67 h2, body.elementor-kit-67 h3, body.elementor-kit-67 h4,
+body.elementor-kit-67 .elementor-heading-title { font-family: "Montserrat", sans-serif !important; font-weight: 300; letter-spacing: -0.01em; }
+body.elementor-kit-67 h1.elementor-heading-title, .elementor-70 .elementor-element-dff3c28 h1 { font-weight: 400; }
+body.elementor-kit-67, body.elementor-kit-67 p, body.elementor-kit-67 .elementor-widget-text-editor,
+body.elementor-kit-67 .elementor-icon-list-text, body.elementor-kit-67 .elementor-nav-menu a { font-family: "Montserrat", sans-serif !important; }
+
+/* cabecera rosa plena con menú en blanco; barra superior rosa oscuro */
+.elementor-location-header .elementor-element-5ff63914,
+.elementor-location-header .elementor-element-6a8bff6,
+.elementor-location-header .elementor-element-4df71b1 { background-color: #EA0558 !important; border-bottom: 0; box-shadow: none; }
+.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item,
+.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item.elementor-item-active { color: #ffffff !important; font-weight: 600; }
+.elementor-location-header .elementor-element-406c9171 .elementor-nav-menu a.elementor-item:hover { color: #FFD6E5 !important; }
+.elementor-location-header .elementor-widget-icon svg, .elementor-location-header .elementor-icon-list-icon svg { fill: #ffffff; }
+.elementor-location-header .elementor-element-6926517 { background-color: #D3074C !important; }
+.elementor-location-header .elementor-element-6926517 a, .elementor-location-header .elementor-element-6926517 span,
+.elementor-location-header .elementor-element-6926517 .elementor-icon-list-text { color: #ffffff !important; }
+.elementor-location-header .elementor-element-6926517 svg { fill: #ffffff !important; }
+.elementor-location-header .elementor-element-d3ef044 { background-color: #ffffff !important; border-bottom: 1px solid #ECECEC; }
+.elementor-location-header .elementor-element-d3ef044 span, .elementor-location-header .elementor-element-d3ef044 .elementor-icon-list-text { color: #1C1A1A !important; }
+
+/* botones: píldora rosa */
+body.elementor-kit-67 .elementor-button { border-radius: 1000px !important; background-color: #EA0558; box-shadow: none; font-weight: 600; }
+body.elementor-kit-67 .elementor-button:hover { background-color: #D3074C; }
+
+/* foto principal: velo ligero */
+.elementor-70 .elementor-element-dff3c28::before,
+.elementor-70 .elementor-element-dff3c28 > .elementor-background-overlay { background: rgba(0, 0, 0, 0.22) !important; opacity: 1 !important; }
+
+/* tarjetas blancas sobre fondo gris claro, esquinas de 5 px; precio rosa */
+.elementor-70 .elementor-element-0494195, .elementor-70 .elementor-element-19fd49d, .elementor-70 .elementor-element-527add5, .elementor-70 .elementor-element-7f4d65a { background-color: #F5F4F5; }
+.elementor-70 .elementor-loop-item { border-radius: 5px; overflow: hidden; background: #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08); }
+.elementor-70 .elementor-loop-item img { border-radius: 5px 5px 0 0; }
+.elementor-70 .elementor-loop-item .woocommerce-Price-amount, .elementor-70 .elementor-loop-item bdi { color: #EA0558 !important; font-weight: 700; }
+.elementor-70 .elementor-widget-heading h2.elementor-heading-title { color: #1C1A1A; }
+.elementor-70 .elementor-element-d7adc8b h2.elementor-heading-title { color: #ffffff; }
+
+/* pie: gris claro con texto oscuro y enlaces rosa */
+.elementor-location-footer .elementor-element-8452, .elementor-location-footer > .e-con { background-color: #F5F4F5 !important; }
+.elementor-location-footer, .elementor-location-footer p, .elementor-location-footer span, .elementor-location-footer h4 { color: #1C1A1A !important; }
+.elementor-location-footer a { color: #1C1A1A !important; }
+.elementor-location-footer a:hover { color: #EA0558 !important; }
+
+/* --- ajustes tras la primera captura --- */
+.elementor-10594 .elementor-element.elementor-element-6002e415:not(.elementor-motion-effects-element-type-background) { background-color: #D3074C !important; }
+.elementor-70 .elementor-widget-heading h2.elementor-heading-title { color: #1C1A1A !important; }
+.elementor-70 .elementor-element-d7adc8b h2.elementor-heading-title, .elementor-70 .elementor-element-dff3c28 .elementor-heading-title { color: #ffffff !important; }
