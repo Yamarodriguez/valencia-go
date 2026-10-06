@@ -16,7 +16,7 @@ for (const url of URLS) {
   const pagina = await ctx.newPage();
   const errores = [];
   pagina.on('pageerror', (e) => errores.push(e.message.slice(0, 160)));
-  pagina.on('console', (m) => { if (m.type() === 'error') errores.push('console: ' + m.text().slice(0, 160)); });
+  pagina.on('console', (m) => { if (m.type() === 'error') errores.push('console: ' + m.text().slice(0, 160) + (m.location() && m.location().url ? ' <- ' + m.location().url.replace(url.replace(/[/][^/]*[/]?$/, ''), '') : '')); });
   await pagina.goto(url, { waitUntil: 'load' });
   await pagina.waitForTimeout(500);
   const boton = pagina.locator('a[href^="#elementor-action"]:visible').first();
