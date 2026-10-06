@@ -1,0 +1,15 @@
+{
+ "_nota": "Lo unico que scripts/partir-paginas.mjs cambia en el <head> de la web vieja. 'quitar': etiquetas que apuntan a cosas de WordPress que una web estatica no tiene (si se dejaran, darian 404 o mentirian). 'sustituir': lo que deja de pedirse a otro dominio. Cada regla: etiqueta, atributo y una expresion regular sobre su valor.",
+ "quitar": [
+  {"nombre": "RSS (los feeds de WordPress no existen en la web estatica)", "etiqueta": "link", "atributo": "type", "valor": "^application/rss\\+xml$"},
+  {"nombre": "API de WordPress (wp-json)", "etiqueta": "link", "atributo": "rel", "valor": "^https://api\\.w\\.org/$"},
+  {"nombre": "API de WordPress (alternate json)", "etiqueta": "link", "atributo": "type", "valor": "^application/json$"},
+  {"nombre": "oEmbed", "etiqueta": "link", "atributo": "type", "valor": "oembed"},
+  {"nombre": "EditURI (xmlrpc)", "etiqueta": "link", "atributo": "rel", "valor": "^EditURI$"},
+  {"nombre": "shortlink (?p=ID)", "etiqueta": "link", "atributo": "rel", "valor": "^shortlink$"},
+  {"nombre": "generator (WordPress, WooCommerce, Elementor)", "etiqueta": "meta", "atributo": "name", "valor": "^generator$"}
+ ],
+ "sustituir": [
+  {"nombre": "Font Awesome 6.4.0: de cdnjs a este dominio (desde npm)", "etiqueta": "link", "atributo": "href", "valor": "cdnjs\\.cloudflare\\.com/ajax/libs/font-awesome/6\\.4\\.0/css/all\\.min\\.css", "por": "/fontawesome/css/all.min.css?ver=6.4.0"}
+ ]
+}

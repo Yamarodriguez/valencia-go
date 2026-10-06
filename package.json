@@ -14,21 +14,23 @@
     "referencia": "node scripts/servir-referencia.mjs",
     "barrido": "node scripts/barrido-404.mjs",
     "validar": "node scripts/validar.mjs",
-    "comparar": "node scripts/comparar-encabezados.mjs",
-    "webp": "node scripts/webp.mjs",
-    "capturas": "node scripts/capturas.mjs",
-    "css": "node scripts/css.mjs",
+    "comparar": "python scripts/comparar-encabezados.py",
     "fuentes": "node scripts/fuentes-locales.mjs",
     "todo": "node scripts/todo.mjs",
-    "todo:visual": "node scripts/todo-visual.mjs"
+    "todo:visual": "node scripts/todo-visual.mjs",
+    "bajar": "node scripts/bajar-paginas.mjs",
+    "partir": "node scripts/partir-paginas.mjs",
+    "recursos": "node scripts/publicar-recursos.mjs",
+    "marcado": "python scripts/comparar-marcado.py",
+    "geometria": "node scripts/geometria.mjs",
+    "contraste": "node scripts/contraste.mjs",
+    "lado-a-lado": "node scripts/lado-a-lado.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.4",
     "astro": "7.3.2"
   },
   "devDependencies": {
-    "@fontsource/baloo-bhaijaan-2": "5.3.0",
-    "@fontsource/lato": "5.3.0",
     "@fortawesome/fontawesome-free": "6.4.0",
     "playwright": "1.63.0",
     "sharp": "0.35.4"

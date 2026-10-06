@@ -1,0 +1,375 @@
+{
+ "_nota": "Redirecciones que YA HACIA la web vieja (WordPress) y que la copia estatica tiene que seguir haciendo para que no se rompa ningun enlace. scripts/redirecciones.mjs las escribe en public/_redirects (Netlify). \"origen\" dice de donde sale cada una.",
+ "lista": [
+  {
+   "de": "/blog/alrededores-de-valencia-en/xativa/",
+   "a": "/xativa/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/blog/ciudad-de-valencia/ciudad-de-las-artes-y-las-ciencias/",
+   "a": "/atracciones/ciudad-de-las-artes-y-las-ciencias/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/blog/ciudad-de-valencia/feria-de-julio-valencia/",
+   "a": "/feria-de-julio-valencia/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/blog/ciudad-de-valencia/iglesia-san-nicolas-de-bari-y-san-pedro-martir/",
+   "a": "/iglesia-san-nicolas/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/blog/ciudad-de-valencia/iglesia-san-nicolas/",
+   "a": "/iglesia-san-nicolas/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/blog/ciudad-de-valencia/las-fallas/",
+   "a": "/las-fallas/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 10
+  },
+  {
+   "de": "/blog/ciudad-de-valencia/mascleta-de-las-fallas/",
+   "a": "/mascleta-de-las-fallas/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 10
+  },
+  {
+   "de": "/blog/ciudad-de-valencia/paella/",
+   "a": "/paella/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/blog/cultura-tradiciones/feria-de-julio-valencia/",
+   "a": "/feria-de-julio-valencia/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/blog/que-hacer/24-horas-en-valencia-los-imprescindibles/",
+   "a": "/24-horas-en-valencia-los-imprescindibles/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/blog/que-hacer/feria-de-julio-valencia/",
+   "a": "/feria-de-julio-valencia/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/blog/que-hacer/por-que-merece-la-pena-visitar-valencia/",
+   "a": "/por-que-merece-la-pena-visitar-valencia/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/blog/que-hacer/visitar-utiel-requena/",
+   "a": "/visitar-utiel-requena/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/blog/que-ver/xativa/",
+   "a": "/xativa/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/en/especial-cruceros/",
+   "a": "/en/special-cruises/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 6
+  },
+  {
+   "de": "/en/excursions-from-valencia/excursion-wineries/",
+   "a": "/en/excursions/bodegas-utiel-requena-tasting-vina/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/en/excursions-from-valencia/requena-winery-excursion/",
+   "a": "/en/excursions/bodegas-utiel-requena-tasting-vina/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/en/places-of-interest/page/1/",
+   "a": "/en/places-of-interest/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia (en la web vieja iba a /en/lugares-de-interes/, que a su vez redirige: se apunta al destino final)",
+   "paginas": 1
+  },
+  {
+   "de": "/en/que-hacer-en-valencia-en-octubre-2026-planes-para-disfrutar-la-ciudad-este-otono/",
+   "a": "/en/things-to-do-in-valencia-in-october-2026-plans-for-enjoying-the-city-this-autumn/",
+   "codigo": 301,
+   "origen": "web vieja: redireccion vista al bajar las paginas (5 y 6-10-2026)"
+  },
+  {
+   "de": "/en/tours/",
+   "a": "/en/valencia-tours/",
+   "codigo": 301,
+   "origen": "web vieja: redireccion vista al bajar las paginas (5 y 6-10-2026)"
+  },
+  {
+   "de": "/excursiones-desde-valencia/",
+   "a": "/excursiones/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/excursiones-desde-valencia/cuevas-de-san-jose/",
+   "a": "/excursiones-cruceros/cuevas-de-san-jose/",
+   "codigo": 301,
+   "origen": "direccion alternativa de la misma pagina en la web vieja (alli da 200 con canonical al destino)"
+  },
+  {
+   "de": "/excursiones-desde-valencia/excursion-a-la-isla-de-tabarca/",
+   "a": "/excursiones/excursion-a-la-isla-de-tabarca/",
+   "codigo": 301,
+   "origen": "direccion alternativa de la misma pagina en la web vieja (alli da 200 con canonical al destino)"
+  },
+  {
+   "de": "/excursiones-desde-valencia/excursion-al-parque-natural-de-la-albufera/",
+   "a": "/excursiones/excursion-al-parque-natural-de-la-albufera/",
+   "codigo": 301,
+   "origen": "direccion alternativa de la misma pagina en la web vieja (alli da 200 con canonical al destino)"
+  },
+  {
+   "de": "/excursiones-desde-valencia/excursion-romantica-a-la-albufera/",
+   "a": "/excursiones/excursion-romantica-a-la-albufera/",
+   "codigo": 301,
+   "origen": "direccion alternativa de la misma pagina en la web vieja (alli da 200 con canonical al destino)"
+  },
+  {
+   "de": "/excursiones-desde-valencia/morella-y-peniscola/",
+   "a": "/excursiones/excursion-a-morella-y-peniscola/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 45
+  },
+  {
+   "de": "/excursiones-desde-valencia/visita-guiada-xativa/",
+   "a": "/excursiones/visita-guiada-xativa/",
+   "codigo": 301,
+   "origen": "direccion alternativa de la misma pagina en la web vieja (alli da 200 con canonical al destino)"
+  },
+  {
+   "de": "/excursiones-desde-valencia/visita-sagunto/",
+   "a": "/excursiones/visita-sagunto-imperio-romano/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 15
+  },
+  {
+   "de": "/excursiones/cuevas-de-san-jose/",
+   "a": "/excursiones/excursion-a-las-cuevas-de-san-jose/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 10
+  },
+  {
+   "de": "/excursiones/excursion-bodegas/",
+   "a": "/excursiones/bodegas-utiel-requena-cata-vina/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 10
+  },
+  {
+   "de": "/excursiones/excursion-requena-eclipse-cata-vinos/",
+   "a": "/excursiones/bodegas-utiel-requena-cata-vina/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/excursiones/huerto-naranjos/",
+   "a": "/wp-content/uploads/tours-excursiones/12-huerto-naranjos/huerto-naranjos.webp",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/experiencias/experiencia-yate/",
+   "a": "/vehiculos/yate-privado/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/fr/especial-cruceros/",
+   "a": "/fr/croisieres-speciales/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 6
+  },
+  {
+   "de": "/fr/lieux-dinteret/page/1/",
+   "a": "/fr/lieux-dinteret/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia (en la web vieja iba a /fr/lugares-de-interes/, que a su vez redirige: se apunta al destino final)",
+   "paginas": 1
+  },
+  {
+   "de": "/fr/que-hacer-en-valencia-en-octubre-2026-planes-para-disfrutar-la-ciudad-este-otono/",
+   "a": "/fr/que-faire-a-valence-en-octobre-2026-des-idees-pour-profiter-de-la-ville-cet-automne/",
+   "codigo": 301,
+   "origen": "web vieja: redireccion vista al bajar las paginas (5 y 6-10-2026)"
+  },
+  {
+   "de": "/fr/tournees/",
+   "a": "/fr/tours-de-valence/",
+   "codigo": 301,
+   "origen": "web vieja: redireccion vista al bajar las paginas (5 y 6-10-2026)"
+  },
+  {
+   "de": "/it/especial-cruceros/",
+   "a": "/it/crociere-speciali/",
+   "codigo": 301,
+   "origen": "web vieja: redireccion vista al bajar las paginas (5 y 6-10-2026)"
+  },
+  {
+   "de": "/it/luoghi-di-interesse/pagina/1/",
+   "a": "/it/luoghi-di-interesse/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia (en la web vieja iba a /it/lugares-de-interes/, que a su vez redirige: se apunta al destino final)",
+   "paginas": 1
+  },
+  {
+   "de": "/it/que-hacer-en-valencia-en-octubre-2026-planes-para-disfrutar-la-ciudad-este-otono/",
+   "a": "/it/cosa-fare-a-valencia-nellottobre-2026-idee-per-godersi-la-citta-questautunno/",
+   "codigo": 301,
+   "origen": "web vieja: redireccion vista al bajar las paginas (5 y 6-10-2026)"
+  },
+  {
+   "de": "/it/tour/",
+   "a": "/it/tour-di-valencia/",
+   "codigo": 301,
+   "origen": "web vieja: redireccion vista al bajar las paginas (5 y 6-10-2026)"
+  },
+  {
+   "de": "/lugares-de-interes/page/1/",
+   "a": "/lugares-de-interes/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 1
+  },
+  {
+   "de": "/lugares/central-bar/",
+   "a": "/atracciones/central-bar-valencia/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/lugares/jardin-de-turia/",
+   "a": "/atracciones/jardin-del-turia/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/lugares/veles-e-vents/",
+   "a": "/atracciones/veles-e-vents-valencia/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 5
+  },
+  {
+   "de": "/pl/especial-cruceros/",
+   "a": "/pl/rejsy-specjalne/",
+   "codigo": 301,
+   "origen": "web vieja: redireccion vista al bajar las paginas (5 y 6-10-2026)"
+  },
+  {
+   "de": "/pl/interesujace-miejsca/strona/1/",
+   "a": "/pl/interesujace-miejsca/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia (en la web vieja iba a /pl/lugares-de-interes/, que a su vez redirige: se apunta al destino final)",
+   "paginas": 1
+  },
+  {
+   "de": "/pl/que-hacer-en-valencia-en-octubre-2026-planes-para-disfrutar-la-ciudad-este-otono/",
+   "a": "/pl/co-robic-w-walencji-w-pazdzierniku-2026-r-pomysly-na-spedzanie-czasu-w-miescie-tej-jesieni/",
+   "codigo": 301,
+   "origen": "web vieja: redireccion vista al bajar las paginas (5 y 6-10-2026)"
+  },
+  {
+   "de": "/pl/wycieczki-2/",
+   "a": "/pl/wycieczki-po-walencji/",
+   "codigo": 301,
+   "origen": "web vieja: redireccion vista al bajar las paginas (5 y 6-10-2026)"
+  },
+  {
+   "de": "/politica-privacidad",
+   "a": "/politica-de-privacidad/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 959
+  },
+  {
+   "de": "/tours",
+   "a": "/tours-valencia/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 25
+  },
+  {
+   "de": "/tours-valencia/ruta-en-bici-por-el-parque-del-rio-turia/",
+   "a": "/tours-valencia/ruta-bici-parque-rio-turia/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 36
+  },
+  {
+   "de": "/tours-valencia/ruta-en-segway-por-el-parque-del-rio-turia/",
+   "a": "/tours-valencia/ruta-en-segway-rio-turia/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 10
+  },
+  {
+   "de": "/tours-valencia/tapas-valencia/",
+   "a": "/tours-valencia/tour-de-tapas-por-valencia/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 10
+  },
+  {
+   "de": "/tours/",
+   "a": "/tours-valencia/",
+   "codigo": 301,
+   "origen": "web vieja: enlace interno que ya redirigia",
+   "paginas": 10
+  }
+ ]
+}

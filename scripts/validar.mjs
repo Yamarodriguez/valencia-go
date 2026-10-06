@@ -1,254 +1,220 @@
 /**
- * validar.mjs — comprueba el 100 % de las paginas compiladas.
+ * validar.mjs — comprueba el 100 % de las paginas compiladas (dist/) contra
+ * la web vieja (referencia/ y descargas/html/).
  *
  *   npm run build && node scripts/validar.mjs
  *
- * No se sube nada que no pase esta validacion.
- * Comprueba, pagina a pagina:
- *   1. equilibrio de <p>, <a>, <div>, <section>, <h2>, <h3>, <ul>, <li>, <figure>
- *   2. un solo <h1>
- *   3. ningun bloque generado anidado dentro de otro igual
- *   4. texto visible identico al original (salvo lo anadido a proposito y
- *      los encabezados reescritos de src/data/encabezados.json)
- *   5. ningun href perdido respecto del JSON de origen
- *   6. ninguna imagen marcador (aviso)
- *   7. title, meta description y canonical presentes
+ * Pagina a pagina:
+ *   1. existe en dist/ y no sobra ninguna
+ *   2. los mismos <h1> que en vivo (regla aprobada: se conserva el H1 de cada
+ *      pagina). 0 o 2+ es FALLO salvo las aprobadas en fallos-original.json
+ *   3. texto visible identico al de la web vieja
+ *   4. ningun enlace perdido ni anadido (mismos href)
+ *   5. existe el fichero de cada cosa que la pagina pide a este dominio:
+ *      fotos (src, srcset, fondos en style= y en los ajustes de Elementor),
+ *      hojas y guiones. Los 404 del servidor viejo ya aprobados son aviso
+ *   6. ningun shortcode literal [nombre …] en el texto visible
+ *   7. canonical absoluto e igual al de la web vieja; si no es
+ *      https://DOMINIO/ruta/ se avisa (lo decidio el original)
+ *   8. og:url y og:image absolutos; <title> presente; robots igual que en vivo
+ *   9. fuera de los datos estructurados no queda ninguna direccion absoluta
+ *      al propio dominio en el <body>
+ * Y una vez:
+ *  10. existen los ficheros que piden las hojas de estilo con url()
+ *  11. astro.config.mjs lleva trailingSlash 'always' y build.format 'directory'
+ *
+ * Informe completo en informes/validar.md. Sale con 1 si hay algun FALLO.
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { crearRelativizador } from './lib/relativizar.mjs';
 
 const RAIZ = path.resolve('.');
 const DIST = path.join(RAIZ, 'dist');
-const PAGINAS = path.join(RAIZ, 'src', 'content', 'pages');
+const REF = path.join(RAIZ, 'referencia');
+const CRUDA = path.join(RAIZ, 'descargas', 'html');
+const PUBLICO = path.join(RAIZ, 'public');
+const leer = (f, d) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : d);
+const site = leer(path.join(RAIZ, 'src', 'data', 'site.json'), {});
+const DOMINIO = site.dominio.replace(/\/$/, '');
+const indice = leer(path.join(RAIZ, 'src', 'content', 'paginas', 'indice.json'), []);
+const fo = leer(path.join(RAIZ, 'src', 'data', 'fallos-original.json'), {});
+const rutasDe = (l) => new Set((l || []).map((x) => (typeof x === 'string' ? x : x.ruta)));
+const aprobado = { h1: rutasDe(fo.h1), 404: rutasDe(fo['404']), shortcodes: new Set((fo.shortcodes || []).map((x) => x.nombre)) };
+const { relativizar, contarHtml } = crearRelativizador(DOMINIO);
+const contar = contarHtml;
 
-// fallos de la web vieja aprobados por el propietario: salen como aviso
-const fallosOriginal = (() => {
-  const f = path.join(RAIZ, 'src', 'data', 'fallos-original.json');
-  const d = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {};
-  const rutas = (lista) => new Set((lista || []).map((x) => (typeof x === 'string' ? x : x.ruta)));
-  return { h1: rutas(d.h1), '404': rutas(d['404']) };
-})();
+if (!fs.existsSync(DIST)) { console.error('falta dist/ — ejecuta antes: npm run build'); process.exit(1); }
+if (!indice.length) { console.error('falta src/content/paginas/indice.json — ejecuta antes scripts/partir-paginas.mjs'); process.exit(1); }
 
-const ETIQUETAS = ['p', 'a', 'div', 'section', 'h2', 'h3', 'ul', 'li', 'figure'];
-const GENERADOS = ['rejilla', 'tarjeta', 'fila-titulos', 'figura', 'mapa', 'formulario'];
-
-const textoVisible = (h) =>
-  h.replace(/<(script|style|noscript)\b[\s\S]*?<\/\1>/gi, ' ')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&quot;/g, '"')
-    .replace(/&#0?39;|&apos;/g, "'")
-    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
-    .replace(/&[a-z]+;/gi, ' ')
-    // comillas tipograficas: el arbol trae las curvas y el HTML las rectas
-    .replace(/[\u2018\u2019\u201a\u201b]/g, "'")
-    .replace(/[\u201c\u201d\u201e\u201f\u00ab\u00bb]/g, '"')
-    .replace(/[\s ]+/g, ' ')
-    .trim()
-    .toLowerCase();
-
-const VACIAS = new Set(['img', 'br', 'hr', 'input', 'meta', 'link', 'source', 'area', 'col', 'embed']);
-
-/** Recorre el HTML con una pila y devuelve los bloques generados que estan
- *  anidados dentro de otro del mismo tipo. */
-function bloquesAnidados(html, generados) {
-  const pila = [];
-  const encontrados = new Set();
-  for (const m of html.matchAll(/<(\/?)([a-z][a-z0-9]*)\b([^>]*)>/gi)) {
-    const cierre = m[1] === '/';
-    const tag = m[2].toLowerCase();
-    if (VACIAS.has(tag) || m[3].endsWith('/')) continue;
-    if (cierre) { pila.pop(); continue; }
-    const clases = ((m[3].match(/class="([^"]*)"/) || [, ''])[1]).split(/\s+/);
-    const propias = generados.filter((g) => clases.includes(g));
-    for (const g of propias) {
-      if (pila.some((nivel) => nivel.includes(g))) encontrados.add(g);
-    }
-    pila.push(propias);
-  }
-  return [...encontrados];
-}
-
-function equilibrio(html, etiqueta) {
-  const abre = (html.match(new RegExp(`<${etiqueta}(?=[\\s>])`, 'gi')) || []).length;
-  const cierra = (html.match(new RegExp(`</${etiqueta}\\s*>`, 'gi')) || []).length;
-  return abre - cierra;
-}
-
-/* Encabezados reescritos a peticion del propietario en paginas concretas
-   (src/data/encabezados.json, los aplica src/utils/renombres.js al pintar):
-   en esas paginas el texto de referencia es el nuevo, no el original. */
-const RENOMBRES = (() => {
-  const f = path.join(path.resolve('.'), 'src', 'data', 'encabezados.json');
-  return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {};
-})();
-const planoDe = (t) => String(t ?? '')
-  .replace(/<[^>]+>/g, ' ')
-  .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;/g, "'")
-  .replace(/\s+/g, ' ').trim();
-const renombresDe = (ruta) => RENOMBRES[ruta]
-  ? new Map(Object.entries(RENOMBRES[ruta]).map(([k, v]) => [planoDe(k), v]))
-  : null;
-
-/** Todo el texto que el arbol de maquetacion deberia acabar enseñando. */
-function textoDelArbol(bloques, salida = [], renombres = null) {
-  for (const b of bloques || []) {
-    if (b.t === 'seccion') { for (const c of b.columnas || []) textoDelArbol(c.elementos, salida, renombres); }
-    else if (b.t === 'encabezado') salida.push(renombres?.get(planoDe(b.texto)) ?? b.texto);
-    else if (b.t === 'texto') salida.push(b.html);
-    else if (b.t === 'boton') salida.push(b.texto);
-  }
-  return salida.join(' ');
-}
-
-/** Los destinos de enlace que el arbol deberia acabar enseñando. */
-function enlacesDelArbol(bloques, salida = []) {
-  for (const b of bloques || []) {
-    if (b.t === 'seccion') { for (const c of b.columnas || []) enlacesDelArbol(c.elementos, salida); }
-    else if (b.t === 'video') { /* se pinta como reproductor, no como enlace */ }
-    else {
-      if (b.url) salida.push(b.url);
-      if (b.html) for (const m of b.html.matchAll(/href="([^"]+)"/g)) salida.push(m[1]);
-    }
-  }
-  return salida;
-}
-
-const fallos = [];
-const avisos = [];
-let revisadas = 0;
-
-for (const f of fs.readdirSync(PAGINAS).filter((x) => x.endsWith('.json'))) {
-  const origen = JSON.parse(fs.readFileSync(path.join(PAGINAS, f), 'utf8'));
-  const destino = path.join(DIST, origen.ruta.replace(/^\//, ''), 'index.html');
-  if (!fs.existsSync(destino)) {
-    fallos.push(`${origen.ruta} — no se ha generado`);
-    continue;
-  }
-  revisadas++;
-  const html = fs.readFileSync(destino, 'utf8');
-  const cuerpo = (html.match(/<main id="main"[^>]*>([\s\S]*?)<\/main>/) || [, ''])[1];
-
-  for (const e of ETIQUETAS) {
-    const d = equilibrio(cuerpo, e);
-    if (d !== 0) fallos.push(`${origen.ruta} — <${e}> descuadrado (${d})`);
-  }
-
-  const h1 = (html.match(/<h1(?=[\s>])/gi) || []).length;
-  // las paginas que en la web viva ya no tenian H1 y el propietario aprobo
-  // (src/data/fallos-original.json, lista "h1") salen como aviso, no como fallo
-  if (h1 !== 1) {
-    if (h1 === 0 && fallosOriginal.h1.has(origen.ruta)) avisos.push(`${origen.ruta} — 0 <h1>, como en la web vieja (fallo del original aprobado)`);
-    else fallos.push(`${origen.ruta} — ${h1} <h1> (debe haber exactamente 1)`);
-  }
-
-  // 3. anidamiento: se recorre el arbol con una pila y se comprueba que
-  //    ningun bloque generado contiene otro del mismo tipo. Comparar clases
-  //    con \b no vale: "tarjeta-titulo" casaria con "tarjeta".
-  const anidados = bloquesAnidados(cuerpo, GENERADOS);
-  for (const g of anidados) {
-    fallos.push(`${origen.ruta} — bloque "${g}" anidado dentro de otro "${g}"`);
-  }
-
-  // 4. texto visible: ninguna palabra del original puede haberse perdido.
-  //    La referencia es el arbol `bloques` (lo que Elementor tenia), no el
-  //    HTML plano del export: el HTML plano trae ademas las URL de los videos
-  //    como texto, que en la web real son un reproductor.
-  const cuenta = (t) => {
-    const m = new Map();
-    for (const p of t.split(' ')) if (p) m.set(p, (m.get(p) || 0) + 1);
-    return m;
+const fallos = [], avisos = [];
+const fichero = (base, ruta) => path.join(base, ...ruta.split('/').filter(Boolean), 'index.html');
+const cuerpoDe = (h) => (h.match(/<body\b[^>]*>([\s\S]*)<\/body>/i) || [, h])[1];
+const sinGuiones = (h) => h.replace(/<(script|style|template|noscript)\b[\s\S]*?<\/\1>/gi, ' ').replace(/<!--[\s\S]*?-->/g, ' ');
+const entidades = (t) => t.replace(/&nbsp;|&#160;/g, ' ').replace(/&amp;|&#0?38;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'")
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n))).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
+const texto = (h) => entidades(sinGuiones(h).replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+const h1s = (h) => [...sinGuiones(h).matchAll(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi)].map((m) => texto(m[1]));
+const hrefs = (h) => [...sinGuiones(h).matchAll(/<a\b[^>]*?\shref=(?:"([^"]*)"|'([^']*)')/gi)].map((m) => entidades(relativizar(m[1] ?? m[2])));
+const meta = (h, rx) => (h.match(rx) || [, ''])[1];
+const existeCache = new Map();
+const existe = (ruta) => {
+  if (existeCache.has(ruta)) return existeCache.get(ruta);
+  let limpia = ruta.split('?')[0].split('#')[0];
+  try { limpia = decodeURIComponent(limpia); } catch {}
+  const ok = fs.existsSync(path.join(PUBLICO, limpia)) || fs.existsSync(path.join(DIST, limpia));
+  existeCache.set(ruta, ok);
+  return ok;
+};
+/** Todo lo que el HTML pide a este dominio y es un fichero (tiene extension). */
+function recursos(html) {
+  const s = new Set();
+  const plano = html.replace(/\\\//g, '/').replace(/&quot;/g, '"').replace(/&#0?38;|&amp;/g, '&');
+  const anadir = (u) => {
+    u = (u || '').trim();
+    if (!u.startsWith('/') || u.startsWith('//')) return;
+    const limpia = u.split('?')[0].split('#')[0];
+    if (/\.(css|js|jpe?g|png|webp|gif|svg|avif|ico|woff2?|ttf|otf|eot|mp4|webm|mov|pdf)$/i.test(limpia)) s.add(limpia);
   };
-  // texto que el motor quita a proposito, con su regla documentada en
-  // scripts/arbol.py (funcion limpiar_html)
-  const QUITADO = [
-    /[^.]*estamos realizando modificaciones[^.]*\./gi,   // aviso de obras olvidado
-  ];
-  let original = origen.bloques && origen.bloques.length
-    ? textoVisible(textoDelArbol(origen.bloques, [], renombresDe(origen.ruta)))
-    : textoVisible(origen.cuerpo);
-  for (const re of QUITADO) original = original.replace(re, ' ');
-
-  const antes = cuenta(original.replace(/\s+/g, ' ').trim());
-  const ahora = cuenta(textoVisible(cuerpo));
-  const perdidas = [];
-  for (const [palabra, n] of antes) {
-    const m = ahora.get(palabra) || 0;
-    if (m < n) perdidas.push(`${palabra} (x${n - m})`);
-  }
-  if (perdidas.length) {
-    fallos.push(`${origen.ruta} — ${perdidas.length} palabra(s) del original perdidas: ${perdidas.slice(0, 6).join(', ')}`);
-  }
-
-  const normalizar_url = (u) => decodeURI(u).replace(/&amp;/g, '&').replace(/\s+/g, '').toLowerCase();
-  const presentes = new Set([...cuerpo.matchAll(/href="([^"]+)"/g)]
-    .map((m) => normalizar_url(m[1])));
-  const esperados = origen.bloques && origen.bloques.length
-    ? enlacesDelArbol(origen.bloques)
-    : [...cuerpo.matchAll(/href="([^"]+)"/g)].map((m) => m[1]);
-  const faltan = [...new Set(esperados)]
-    .filter((u) => u && !u.startsWith('#') && !u.startsWith('mailto:'))
-    .filter((u) => !presentes.has(normalizar_url(u)));
-  if (faltan.length) {
-    fallos.push(`${origen.ruta} — ${faltan.length} enlace(s) perdidos: ${faltan.slice(0, 3).join(' ')}`);
-  }
-
-  const marcadores = (cuerpo.match(/data:image\/svg\+xml/g) || []).length;
-  if (marcadores) avisos.push(`${origen.ruta} — ${marcadores} imagen(es) sin archivo`);
-
-  if (!/<title>[^<]{5,}<\/title>/.test(html)) fallos.push(`${origen.ruta} — sin <title>`);
-  if (!/<meta name="description" content="[^"]{20,}"/.test(html) && !origen.noindex) {
-    avisos.push(`${origen.ruta} — sin meta descripcion`);
-  }
-  if (!/<link rel="canonical"/.test(html)) fallos.push(`${origen.ruta} — sin canonical`);
-  if (/href=""/.test(cuerpo)) fallos.push(`${origen.ruta} — quedan href vacios`);
+  for (const m of plano.matchAll(/\b(?:src|href|data-src|data-bg|data-background|poster)=["']([^"']+)["']/gi)) anadir(m[1]);
+  for (const m of plano.matchAll(/\b(?:srcset|data-srcset)=["']([^"']+)["']/gi)) for (const t of m[1].split(',')) anadir(t.trim().split(/\s+/)[0]);
+  for (const m of plano.matchAll(/url\((['"]?)([^)'"]+)\1\)/gi)) anadir(m[2]);
+  for (const m of plano.matchAll(/["'](\/wp-(?:content|includes)\/[^"'\s)<>]+)["']/g)) anadir(m[1]);
+  return s;
 }
 
-/* -------------------------------------------- fotos de fondo de las hojas
- * Las franjas oscuras del sitio (la de "Ventajas de las casas de
- * Contenedores", la del presupuesto, la del diseño en 3D...) llevan la foto
- * puesta desde el CSS, no desde el texto de la pagina. Si el fichero no esta
- * descargado, esa franja sale de color liso y nadie se entera revisando el
- * HTML, porque en el HTML no hay ninguna imagen rota: simplemente no hay foto.
- * Por eso se comprueba aqui, contra las hojas, y cuenta como FALLO. */
-{
-  const raizPublica = path.join(RAIZ, 'public');
-  const re = /url\(\s*["']?(?:https?:\/\/(?:www\.)?valenciaandgo\.com)?(\/wp-content\/uploads\/[^"')?#]+\.(?:jpg|jpeg|png|gif|webp|svg))/gi;
-  const faltan = new Map();
-  for (const sub of ['paginas', 'comunes']) {
-    const d = path.join(RAIZ, 'css-original', sub);
-    if (!fs.existsSync(d)) continue;
-    for (const f of fs.readdirSync(d)) {
-      if (!f.endsWith('.css')) continue;
-      const css = fs.readFileSync(path.join(d, f), 'utf8');
-      for (const m of css.matchAll(re)) {
-        const r = m[1];
-        if (fs.existsSync(path.join(raizPublica, r.replace(/^\//, '')))) continue;
-        faltan.set(r, (faltan.get(r) || 0) + 1);
-      }
+const faltanFicheros = new Map(); // ruta del fichero -> paginas
+let n = 0, canonOtros = 0;
+for (const p of indice) {
+  const ruta = p.ruta;
+  const fd = fichero(DIST, ruta), fr = fichero(REF, ruta), fc = fichero(CRUDA, ruta);
+  if (!fs.existsSync(fd)) { fallos.push(`${ruta} — no esta en dist/`); continue; }
+  if (!fs.existsSync(fr)) { fallos.push(`${ruta} — no esta en referencia/`); continue; }
+  n++;
+  const nueva = fs.readFileSync(fd, 'utf8');
+  const vieja = fs.readFileSync(fr, 'utf8');
+  const cruda = fs.existsSync(fc) ? fs.readFileSync(fc, 'utf8') : '';
+  const cn = cuerpoDe(nueva), cv = cuerpoDe(vieja);
+
+  // 2. H1
+  const hn = h1s(cn), hv = h1s(cv);
+  if (JSON.stringify(hn) !== JSON.stringify(hv)) fallos.push(`${ruta} — los <h1> no son los de la web vieja: nueva ${JSON.stringify(hn).slice(0, 120)} / vieja ${JSON.stringify(hv).slice(0, 120)}`);
+  if (hv.length !== 1) {
+    const msg = `${ruta} — ${hv.length} <h1>, como en la web vieja`;
+    if (hv.length === 0 && aprobado.h1.has(ruta)) avisos.push(msg + ' (fallo del original aprobado)');
+    else if (/^\/(en|it|fr|pl)\//.test(ruta) && hv.length === 0) avisos.push(msg + ' (traduccion de una pagina aprobada sin H1)');
+    else fallos.push(msg + ' y NO esta aprobado en fallos-original.json');
+  }
+  // 3. texto visible
+  const tn = texto(cn), tv = texto(cv);
+  if (tn !== tv) {
+    let i = 0; while (i < tn.length && tn[i] === tv[i]) i++;
+    fallos.push(`${ruta} — el texto visible cambia en el caracter ${i}: nueva «${tn.slice(Math.max(0, i - 30), i + 40)}» / vieja «${tv.slice(Math.max(0, i - 30), i + 40)}»`);
+  }
+  // 4. enlaces
+  const en = hrefs(cn), ev = hrefs(cv);
+  if (JSON.stringify(en) !== JSON.stringify(ev)) {
+    const sv = new Set(ev), sn = new Set(en);
+    const perdidos = [...sv].filter((x) => !sn.has(x)), nuevos = [...sn].filter((x) => !sv.has(x));
+    fallos.push(`${ruta} — enlaces distintos: ${perdidos.length} perdidos ${perdidos.slice(0, 2).join(' ')} · ${nuevos.length} anadidos ${nuevos.slice(0, 2).join(' ')}${!perdidos.length && !nuevos.length ? ' (mismo conjunto, otro orden o numero)' : ''}`);
+  }
+  if (/<a\b[^>]*\shref=""/i.test(sinGuiones(cn)) && !/<a\b[^>]*\shref=""/i.test(sinGuiones(cv))) fallos.push(`${ruta} — aparece un href vacio que no estaba`);
+  // 5. ficheros
+  for (const r of recursos(nueva)) if (!existe(r)) { if (!faltanFicheros.has(r)) faltanFicheros.set(r, []); faltanFicheros.get(r).push(ruta); }
+  // 6. shortcodes literales
+  const sc = [...tn.matchAll(/\[([a-z][a-z0-9_-]{2,})(?:\s[^\]]{0,80})?\]/g)].map((m) => m[0]);
+  if (sc.length) {
+    const msg = `${ruta} — shortcode literal en el texto: ${[...new Set(sc)].slice(0, 3).join(' ')}`;
+    // si ya se veia asi en la web vieja y esta apuntado en fallos-original.json, es aviso
+    if (sc.every((x) => tv.includes(x) && aprobado.shortcodes.has(x.slice(1).split(/[\s\]]/)[0]))) avisos.push(msg + ' (asi en la web vieja; apuntado en fallos-original.json)'); else fallos.push(msg);
+  }
+  // 7. canonical
+  const rxCanon = /<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']*)["']/i;
+  const canN = meta(nueva, rxCanon), canV = meta(cruda || vieja, rxCanon);
+  if (!canN) { if (canV) fallos.push(`${ruta} — sin canonical (la vieja lo tenia)`); }
+  else {
+    if (!/^https:\/\//.test(canN)) fallos.push(`${ruta} — canonical no absoluto: ${canN}`);
+    if (cruda && canN !== canV) fallos.push(`${ruta} — canonical distinto del original: ${canN} / ${canV}`);
+    if (canN !== DOMINIO + ruta) { canonOtros++; avisos.push(`${ruta} — el canonical del original apunta a otra direccion: ${canN}`); }
+  }
+  // 8. sociales, title, robots
+  const ogUrl = meta(nueva, /<meta\b[^>]*property=["']og:url["'][^>]*content=["']([^"']*)["']/i);
+  const ogImg = meta(nueva, /<meta\b[^>]*property=["']og:image["'][^>]*content=["']([^"']*)["']/i);
+  if (ogUrl && !/^https:\/\//.test(ogUrl)) fallos.push(`${ruta} — og:url no absoluto`);
+  if (ogImg && !/^https:\/\//.test(ogImg)) fallos.push(`${ruta} — og:image no absoluto`);
+  if (!/<title>[^<]{3,}<\/title>/i.test(nueva)) fallos.push(`${ruta} — sin <title>`);
+  const rxRobots = /<meta\b[^>]*name=["']robots["'][^>]*content=["']([^"']*)["']/i;
+  if (meta(nueva, rxRobots) !== meta(vieja, rxRobots)) fallos.push(`${ruta} — robots distinto: ${meta(nueva, rxRobots)} / ${meta(vieja, rxRobots)}`);
+  if (!/<meta\b[^>]*name=["']description["'][^>]*content=["'][^"']{20,}/i.test(nueva) && !/noindex/.test(meta(nueva, rxRobots))) avisos.push(`${ruta} — sin meta descripcion (tampoco en la vieja)`);
+  // 9. absolutas sueltas en el cuerpo
+  const sueltas = contar(cn.replace(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi, ''));
+  if (sueltas) fallos.push(`${ruta} — ${sueltas} direccion(es) absoluta(s) al propio dominio en el cuerpo`);
+  // ...y, por si el lector de etiquetas se saltara alguna, la comprobacion directa
+  const directas = (cn.match(/\s(?:href|src|action|data-src)=["']https?:\/\/(?:www\.)?valenciaandgo\.com/gi) || []).length;
+  if (directas) fallos.push(`${ruta} — ${directas} atributo(s) href/src que siguen apuntando al dominio viejo`);
+}
+
+// 1. sobran
+const enIndice = new Set(indice.map((p) => p.ruta));
+const sobran = [];
+const recorrer = (dir) => {
+  for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, e.name);
+    if (e.isDirectory()) { if (!/^(wp-content|wp-includes|_astro|fontawesome)$/.test(e.name) || dir !== DIST) recorrer(p); }
+    else if (e.name === 'index.html') { const r = '/' + path.relative(DIST, dir).replace(/\\/g, '/') + '/'; const ruta = r === '//' ? '/' : r; if (!enIndice.has(ruta)) sobran.push(ruta); }
+  }
+};
+recorrer(DIST);
+for (const r of sobran) fallos.push(`${r} — esta en dist/ y no en la web vieja`);
+
+// 5. ficheros que faltan
+for (const [r, pags] of [...faltanFicheros].sort()) {
+  const msg = `falta el fichero ${r} (lo piden ${pags.length} paginas, p. ej. ${pags[0]})`;
+  if (aprobado[404].has(r)) avisos.push(msg + ' — tampoco existe en el servidor viejo (aprobado)'); else fallos.push(msg);
+}
+
+// 10. url() de las hojas
+let hojas = 0;
+const faltanCss = new Map();
+const recorrerCss = (dir) => {
+  if (!fs.existsSync(dir)) return;
+  for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, e.name);
+    if (e.isDirectory()) { recorrerCss(p); continue; }
+    if (!e.name.endsWith('.css')) continue;
+    hojas++;
+    const base = 'http://x/' + path.relative(PUBLICO, p).replace(/\\/g, '/');
+    for (const m of fs.readFileSync(p, 'utf8').matchAll(/url\((['"]?)([^)'"]+)\1\)/gi)) {
+      const u = m[2].trim();
+      if (/^(data:|https?:|\/\/|#|about:)/i.test(u)) continue;
+      let ruta; try { ruta = decodeURIComponent(new URL(u, base).pathname); } catch { continue; }
+      if (!fs.existsSync(path.join(PUBLICO, ruta))) { if (!faltanCss.has(ruta)) faltanCss.set(ruta, []); faltanCss.get(ruta).push('/' + path.relative(PUBLICO, p).replace(/\\/g, '/')); }
     }
   }
-  for (const [r, n] of [...faltan].sort((a, b) => b[1] - a[1])) {
-    fallos.push(`foto de fondo sin descargar, usada en ${n} hoja(s): ${r}`);
-  }
+};
+recorrerCss(PUBLICO);
+for (const [r, hs] of [...faltanCss].sort()) {
+  const msg = `falta ${r}, que pide con url() la hoja ${hs[0]}${hs.length > 1 ? ` (y ${hs.length - 1} mas)` : ''}`;
+  if (aprobado[404].has(r)) avisos.push(msg + ' (aprobado)'); else fallos.push(msg);
 }
 
-console.log(`paginas revisadas: ${revisadas}`);
-console.log(`fallos: ${fallos.length} | avisos: ${avisos.length}\n`);
+// 11. configuracion
+const cfg = fs.readFileSync(path.join(RAIZ, 'astro.config.mjs'), 'utf8');
+if (!/trailingSlash:\s*'always'/.test(cfg)) fallos.push("astro.config.mjs sin trailingSlash: 'always'");
+if (!/format:\s*'directory'/.test(cfg)) fallos.push("astro.config.mjs sin build.format: 'directory'");
 
-if (avisos.length) {
-  console.log('AVISOS (no bloquean):');
-  avisos.slice(0, 20).forEach((a) => console.log('  ' + a));
-  if (avisos.length > 20) console.log(`  … y ${avisos.length - 20} mas`);
-  console.log('');
-}
-
-if (fallos.length) {
-  console.log('FALLOS:');
-  fallos.slice(0, 40).forEach((x) => console.log('  ' + x));
-  if (fallos.length > 40) console.log(`  … y ${fallos.length - 40} mas`);
-  process.exit(1);
-}
-
-console.log('VALIDACION SUPERADA: el 100 % de las paginas esta correcto.');
+const lineas = [
+  `# Validacion — ${new Date().toISOString().slice(0, 16).replace('T', ' ')}`, '',
+  `Paginas revisadas: ${n} de ${indice.length}. Hojas de estilo revisadas: ${hojas}. FALLOS: ${fallos.length}. Avisos: ${avisos.length}.`,
+  `Canonical que el original apunta a otra direccion: ${canonOtros}.`, '',
+  `## FALLOS (${fallos.length})`, ...fallos.map((x) => '- ' + x), '',
+  `## Avisos (${avisos.length})`, ...avisos.map((x) => '- ' + x),
+];
+fs.mkdirSync(path.join(RAIZ, 'informes'), { recursive: true });
+fs.writeFileSync(path.join(RAIZ, 'informes', 'validar.md'), lineas.join('\n') + '\n');
+console.log(`validar: ${n} paginas, ${hojas} hojas; FALLOS ${fallos.length}, avisos ${avisos.length} -> informes/validar.md`);
+const porClase = {};
+for (const f of fallos) { const k = f.replace(/^\S+ — /, '').replace(/[«:(].*$/, '').replace(/\d+/g, 'N').trim().slice(0, 60); porClase[k] = (porClase[k] || 0) + 1; }
+for (const [k, c] of Object.entries(porClase).sort((a, b) => b[1] - a[1]).slice(0, 12)) console.log(`  ${String(c).padStart(5)}  ${k}`);
+for (const f of fallos.slice(0, 6)) console.log('  FALLO ' + f.slice(0, 260));
+process.exit(fallos.length ? 1 : 0);

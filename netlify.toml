@@ -1,8 +1,7 @@
 [build]
-  # Primero se preparan las hojas de estilo originales (junta css-original/ en
-  # public/css/) y despues se compila. Si se compilara sin ese paso, la web
-  # saldria sin los estilos del tema.
-  command = "npm run css && npm run build"
+  # Font Awesome sale de npm a public/fontawesome/ (no esta en Git) y despues
+  # se compila. Todo lo demas que compila esta en Git (src/ y public/).
+  command = "npm run fuentes && npm run build"
   publish = "dist"
 
 [build.environment]
@@ -18,9 +17,9 @@
     Permissions-Policy = "geolocation=(), microphone=(), camera=()"
 
 # ------------------------------------------------------------------- cache
-# Las rutas de /wp-content/uploads/ no cambian nunca: se cachean un ano.
+# Las rutas de /wp-content/ no cambian nunca: se cachean un ano.
 [[headers]]
-  for = "/wp-content/uploads/*"
+  for = "/wp-content/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
@@ -30,7 +29,7 @@
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "/fonts/*"
+  for = "/fontawesome/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 

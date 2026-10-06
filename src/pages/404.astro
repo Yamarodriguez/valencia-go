@@ -1,23 +1,19 @@
 ---
+/**
+ * La pagina de error 404, copiada de la web vieja igual que las demas
+ * (scripts/bajar-paginas.mjs la pide con una direccion que no existe y
+ * scripts/partir-paginas.mjs la deja en src/content/paginas/_404.*).
+ */
+import fs from 'node:fs';
+import path from 'node:path';
 import Base from '../layouts/Base.astro';
----
+import { leerPiezas } from '../utils/piezas.js';
 
-<Base
-  ruta="/404/"
-  titulo="Página no encontrada"
-  tituloSeo="Página no encontrada - Casas Contenedores"
-  descripcion="La página que buscas no existe o ha cambiado de dirección."
-  h1="Esta página no existe"
-  noindex={true}
->
-  <p>La dirección que has abierto no existe o ha cambiado. Puede que el enlace esté antiguo.</p>
-  <p>Prueba por aquí:</p>
-  <ul>
-    <li><a href="/">Portada</a></li>
-    <li><a href="/precios/">Precios de casas contenedores</a></li>
-    <li><a href="/modelos/">Modelos</a></li>
-    <li><a href="/catalogo/">Catálogo</a></li>
-    <li><a href="/contenedores-maritimos/">Contenedores marítimos</a></li>
-    <li><a href="/presupuesto-casas-contenedores/">Pedir presupuesto</a></li>
-  </ul>
+const f = path.resolve('src/content/paginas/_404.json');
+const hay = fs.existsSync(f);
+const pagina = hay ? JSON.parse(fs.readFileSync(f, 'utf8')) : { html: { lang: 'es-ES' }, body: {} };
+const z = hay ? leerPiezas('_404') : { cabeza: '<meta charset="UTF-8"><title>Página no encontrada</title><meta name="robots" content="noindex">', antes: '<h1>Página no encontrada</h1>', cabecera: '', contenido: '', pie: '', despues: '' };
+---
+<Base html={pagina.html} body={pagina.body} cabeza={z.cabeza}>
+  <Fragment set:html={z.antes} /><Fragment set:html={z.cabecera} /><Fragment set:html={z.contenido} /><Fragment set:html={z.pie} /><Fragment set:html={z.despues} />
 </Base>

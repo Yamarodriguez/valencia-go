@@ -1,0 +1,18 @@
+{
+ "ruta": "/404/",
+ "tipo": "error-404",
+ "idioma": "es-es",
+ "html": {
+  "lang": "es-ES"
+ },
+ "body": {
+  "data-cmplz": "1",
+  "class": "error404 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-default elementor-kit-67"
+ },
+ "cabeceraId": "10594",
+ "pieId": "8452",
+ "postId": 0,
+ "doctype": "<!doctype html>",
+ "tras": 70,
+ "nombre": "_404"
+}

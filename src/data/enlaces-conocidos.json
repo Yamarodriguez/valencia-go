@@ -1,0 +1,6 @@
+{
+ "_nota": "Enlaces internos que no existen como pagina en la copia estatica y ya se sabe por que (scripts/enlaces-internos.mjs). 'patron' es una expresion regular sobre el destino. Las redirecciones (src/data/redirecciones.json) y los enlaces rotos del original (src/data/fallos-original.json, lista 'enlaces') se reconocen solos y no hace falta ponerlos aqui.",
+ "patrones": [
+  {"nombre": "carrito de WooCommerce", "patron": "[?&]add-to-cart=", "que": "boton 'anadir al carrito'. En la web vieja mete el pack en el carrito y vuelve a la portada; en la copia abre la portada sin carrito. Decision tomada: comprar enlazara a la reserva de Turitop (Fase 5)"}
+ ]
+}

@@ -167,3 +167,17 @@ print("JS/EFECTOS:", {k: (v["n"], v["paginas"]) for k, v in out["js"].items()})
 print("SHORTCODES LITERALES:", {k: (v["n"], v["paginas"][:3]) for k, v in out["shortcodes_literales"].items()})
 print("ENLACES ROTOS (#/vacios):", sum(enlaces_rotos.values()), "en", len(enlaces_rotos), "paginas", dict(list(enlaces_rotos.items())[:6]))
 print("EXTERNOS:", out["externos"])
+
+# Un unico fichero de tipos que leen todos los scripts: src/data/tipos.json
+tipos_salida = {}
+for r, p in sorted(paginas.items()):
+    t_ = p["tipo"]
+    if re.match(r"^/(en|it|fr|pl)/", r):
+        t_ = "traducida-" + t_
+    tipos_salida.setdefault(t_, []).append(r)
+orden_tipos = ["portada", "pagina", "entrada", "producto", "atraccion", "categoria-blog", "categoria-productos", "otro"]
+final = {k: tipos_salida[k] for k in orden_tipos if k in tipos_salida}
+final.update({k: v for k, v in sorted(tipos_salida.items()) if k not in final})
+if not SOLO_ES:
+    json.dump(final, open(os.path.join(RAIZ, "src", "data", "tipos.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("tipos.json:", sum(len(v) for v in final.values()), "rutas en", len(final), "tipos")

@@ -23,6 +23,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { crearRelativizador } from './lib/relativizar.mjs';
 
 const RAIZ = path.resolve('.');
 const REF = path.join(RAIZ, 'referencia');
@@ -189,15 +190,12 @@ async function bajarTodas(rutas) {
 
 /* ------------------------------------------------- 5. reescribir rutas */
 
-function reescribir(texto) {
-  const h = HOST_SIN_WWW.replace(/\./g, '\\.');
-  return texto
-    .replace(new RegExp(`https?:\\\\/\\\\/(?:www\\.)?${h}\\\\/`, 'gi'), '\\/')
-    .replace(new RegExp(`https?:\\\\/\\\\/(?:www\\.)?${h}(?=["'\\\\])`, 'gi'), '')
-    .replace(new RegExp(`(?:https?:)?//(?:www\\.)?${h}/`, 'gi'), '/')
-    .replace(new RegExp(`(?:https?:)?//(?:www\\.)?${h}(?=["'\\s<)?#])`, 'gi'), '/');
-}
-const QUEDAN = new RegExp(`(?:https?:)?(?:\\\\/\\\\/|//)(?:www\\.)?${HOST_SIN_WWW.replace(/\./g, '\\.')}`, 'i');
+// La misma funcion que usa la web nueva (scripts/partir-paginas.mjs): asi las dos
+// copias hacen exactamente lo mismo con las direcciones.
+// En los HTML no se toca el texto visible; las hojas de estilo, enteras.
+const rel = crearRelativizador(DOMINIO);
+const reescribir = (texto, f) => (/\.css$/i.test(f) ? rel.relativizar(texto) : rel.relativizarHtml(texto));
+const quedanAbsolutas = (texto, f) => (/\.css$/i.test(f) ? rel.contar(texto) : rel.contarHtml(texto)) > 0;
 
 function ficherosDeTexto() {
   const lista = [];
@@ -286,9 +284,9 @@ const quedan = [];
 if (!ENSAYO) {
   for (const f of ficherosDeTexto()) {
     const antes = fs.readFileSync(f, 'utf8');
-    const despues = reescribir(antes);
+    const despues = reescribir(antes, f);
     if (despues !== antes) { fs.writeFileSync(f, despues); reescritos++; }
-    if (QUEDAN.test(despues)) quedan.push(path.relative(REF, f).replace(/\\/g, '/'));
+    if (quedanAbsolutas(despues, f)) quedan.push(path.relative(REF, f).replace(/\\/g, '/'));
   }
 }
 console.log(`[4/5] direcciones absolutas reescritas en ${reescritos} ficheros; quedan en ${quedan.length}`);

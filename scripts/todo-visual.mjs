@@ -6,17 +6,20 @@
  *
  * Arranca el servidor de la referencia (8090) y, cuando exista dist/, la vista
  * previa de la web nueva (4321), y los apaga al terminar.
- * Fase 1: barrido de 404 de la referencia.
- * Fase 2 (pendiente): barrido de la web nueva, geometria y contraste.
+ * Pasos: barrido de 404 de la referencia y de la nueva, geometria (vieja
+ * frente a nueva a 1400 y 390 px) y contraste. Con --todas, todas las paginas
+ * (tarda mas de una hora).
  */
 import { spawn, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 
+// Por defecto, una muestra por tipo de pagina (src/data/tipos.json). Con --todas, todas.
+const TODAS = process.argv.includes('--todas') ? ' --todas' : '';
 const PASOS = [
-  ['barrido-referencia', 'node scripts/barrido-404.mjs --base http://localhost:8090 --nombre referencia --todas'],
-  // Fase 2: ['barrido-nueva', 'node scripts/barrido-404.mjs --base http://localhost:4321 --nombre nueva --todas'],
-  // Fase 2: ['geometria', 'node scripts/comparar-visual.mjs'],
-  // Fase 2: ['contraste', 'node scripts/contraste.mjs'],
+  ['barrido-referencia', 'node scripts/barrido-404.mjs --base http://localhost:8090 --nombre referencia' + (TODAS || ' --por-tipo 3')],
+  ['barrido-nueva', 'node scripts/barrido-404.mjs --base http://localhost:4321 --nombre nueva' + (TODAS || ' --por-tipo 3')],
+  ['geometria', 'node scripts/geometria.mjs' + TODAS],
+  ['contraste', 'node scripts/contraste.mjs' + TODAS],
 ];
 const arg = (n) => { const i = process.argv.indexOf(n); return i > 0 ? process.argv[i + 1] : ''; };
 const solo = arg('--solo');
@@ -38,8 +41,9 @@ const arrancar = (orden, puerto) => new Promise((res) => {
 const apagar = () => { for (const p of servidores) { try { spawnSync(`taskkill /pid ${p.pid} /T /F`, { shell: true, stdio: 'ignore' }); } catch {} try { p.kill(); } catch {} } };
 
 if (!(await arrancar('node scripts/servir-referencia.mjs --puerto 8090', 8090))) { console.log('SE HA PARADO EN: servidor de la referencia (8090)'); apagar(); process.exit(1); }
-if (fs.existsSync('dist') && lista.some(([n]) => n !== 'barrido-referencia')) {
-  await arrancar('npx astro preview --port 4321', 4321);
+if (lista.some(([n]) => n !== 'barrido-referencia')) {
+  if (!fs.existsSync('dist')) { console.log('SE HA PARADO EN: falta dist/ (npm run build)'); apagar(); process.exit(1); }
+  if (!(await arrancar('npx astro preview --port 4321', 4321))) { console.log('SE HA PARADO EN: servidor de la web nueva (4321)'); apagar(); process.exit(1); }
 }
 
 const t0 = Date.now();

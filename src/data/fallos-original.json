@@ -1,5 +1,4 @@
 {
- "_nota": "Fallos de la web vieja que el propietario ha visto y aprobado (5-10-2026). Salen como AVISO en las comprobaciones, no como FALLO.",
  "404": [
   {
    "ruta": "/wp-content/uploads/2025/02/mascleta-614131_1280.jpg",
@@ -18,6 +17,7 @@
    "que": "no es un fichero: es una plantilla de Complianz dentro de su JavaScript"
   }
  ],
+ "_nota": "Fallos de la web vieja que se copian tal cual y salen como AVISO en las comprobaciones, no como FALLO. Los '404' y 'h1' los aprobo el propietario el 5-10-2026. Lo marcado 'pendiente' se le ha ensenado y falta su decision (Fase 3).",
  "h1": [
   {
    "ruta": "/atracciones/catedral-de-valencia-y-el-santo-caliz/",
@@ -36,6 +36,105 @@
   {
    "ruta": "/politica-de-cookies/",
    "que": "el texto lo pinta Complianz ([cmplz-document]); se toma de la web viva (legales-vivos.json)"
+  }
+ ],
+ "shortcodes": [
+  {
+   "nombre": "turitop_pack_legacy",
+   "que": "se ve escrito [turitop_pack_legacy] en las paginas de packs con descuento (4 en castellano y sus traducciones): el plugin de reservas no lo pinta en la web vieja",
+   "estado": "pendiente"
+  },
+  {
+   "nombre": "turitop_booking_system_wc_box",
+   "que": "se ve escrito [turitop_booking_system_wc_box product_id=...] en el pack de 1 dia y sus traducciones",
+   "estado": "pendiente"
+  }
+ ],
+ "enlaces": [
+  {
+   "ruta": "/wp-content/uploads/2026/03/MAPA-DEF-DEC.pdf",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 189 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/excursiones-desde-valencia/excursion-bodegas/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 30 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/tours-valencia/fallas-tour/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 20 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/excursiones-desde-valencia/rutas-senderismo/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 15 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/excursiones-desde-valencia/excursion-a-bodegas-de-requena/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 15 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/tours-valencia/fallas-valencia-tour/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 15 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/experiencias/experiencias-en-barco-adrenalina/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 15 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/excursiones-desde-valencia/experiencia-en-queseria-requena/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 10 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/packs-con-descuento/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 8 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/experiencias/espectaculo-flamenco-valencia/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 5 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/tours/fallas-tour/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 5 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/en/excursions-from-valencia/cheese-experience-requena/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 5 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/experiencias/experiencias-en-barco-velero/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 5 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/en/packs-con-descuento/",
+   "que": "enlace roto del original (404 tambien en la web vieja), en 8 paginas",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/fr/packs-con-descuento/",
+   "que": "enlace roto del original: redirige a /fr/paquets-de-reduction/, que da 404 en la web vieja (migas de pan de los packs traducidos)",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/it/packs-con-descuento/",
+   "que": "enlace roto del original: redirige a /it/pacchetti-sconto-2/, que da 404 en la web vieja (migas de pan de los packs traducidos)",
+   "estado": "pendiente"
+  },
+  {
+   "ruta": "/pl/packs-con-descuento/",
+   "que": "enlace roto del original: redirige a /pl/pakiety-rabatowe/, que da 404 en la web vieja (migas de pan de los packs traducidos)",
+   "estado": "pendiente"
   }
  ]
 }

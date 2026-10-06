@@ -2,7 +2,11 @@
  * todo.mjs — encadena las comprobaciones que no necesitan navegador, una a una,
  * anunciando [n/N] y, si algo falla, "SE HA PARADO EN: <paso>".
  *
- *   node scripts/todo.mjs [--desde css] [--solo build]
+ *   node scripts/todo.mjs [--desde validar] [--solo build]
+ *
+ * Pasos: fuentes (Font Awesome a public/) -> build -> validar -> enlaces
+ * internos -> encabezados -> marcado. Los datos se preparan aparte y solo cuando cambia la web vieja:
+ * bajar -> inventario-vivo.py -> partir -> montar -> recursos.
  *
  * Cada paso escribe su informe en informes/ y sale con un codigo distinto de 0
  * si falla. La consola solo enseña el resumen de cada paso (ultimas lineas).
@@ -11,11 +15,11 @@ import { spawnSync } from 'node:child_process';
 
 const PASOS = [
   ['fuentes', 'node scripts/fuentes-locales.mjs'],
-  ['css', 'node scripts/css.mjs'],
   ['build', 'npx astro build'],
   ['validar', 'node scripts/validar.mjs'],
-  ['encabezados', 'node scripts/comparar-encabezados.mjs'],
-  // Fase 2: ['marcado', 'node scripts/comparar-marcado.mjs'],
+  ['enlaces', 'node scripts/enlaces-internos.mjs'],
+  ['encabezados', 'python scripts/comparar-encabezados.py'],
+  ['marcado', 'python scripts/comparar-marcado.py'],
 ];
 
 const arg = (n) => { const i = process.argv.indexOf(n); return i > 0 ? process.argv[i + 1] : ''; };
