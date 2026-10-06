@@ -130,8 +130,14 @@ lo que pinta un plugin: **se captura del HTML vivo**.
   por defecto; aun así, desde España casi cada petición sale `fwd=miss` o
   `fwd=stale` (unos 300 ms hasta el primer byte; 130 ms cuando acierta)
   frente a 40 ms del hosting viejo con LiteSpeed. Eso no se arregla desde la
-  web: es cosa del hosting (opción: otro alojamiento estático, decisión del
-  propietario).
+  web: es cosa del hosting. Medido el 6-10-2026 desde España: vieja 40-48 ms,
+  Netlify ~300 ms, Cloudflare Pages 65-80 ms, GitHub Pages 50-90 ms. El
+  propietario decidió (6-10-2026) SEGUIR EN NETLIFY.
+- Con eso, lo que queda en nuestra mano (2af1aac): precarga también de Lato
+  normal y negrita (el texto) y `anticipar` en velocidad.json: reglas de
+  especulación propias (Base.astro, data-nuevo) para que Chrome pida la
+  página de un enlace al posar el ratón (comprobado: la petición sale con
+  Sec-Purpose: prefetch).
 - `node scripts/radiografia.mjs [--movil]`: radiografía de carga de una
   página (TTFB, primera pintura, LCP, qué bloquea) en vieja y nueva.
 - NO se quitan: wp-hooks y wp-i18n (los usa Elementor Pro) ni el guion de
