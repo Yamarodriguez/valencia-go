@@ -125,3 +125,22 @@ body.elementor-kit-67 .elementor-button:hover { background-color: #E64A2B; }
 @media (max-width: 767px) { .elementor-70 .elementor-element-f6e8fb0 .elementor-grid { grid-template-columns: repeat(1, minmax(0, 1fr)) !important; } }
 /* la frase pequeña sobre el titular: a su ancho natural */
 .elementor-70 .elementor-element.elementor-element-b54be20 { --width: auto; width: auto; --padding-left: 18px; --padding-right: 18px; }
+
+/* =================== cabecera, al estilo GetYourGuide =================== */
+/* tira de reclamos: gris muy claro, texto pequeño marino */
+.elementor-location-header .vgo-banner { background: #F2F3F5 !important; border-bottom: 0; font-size: 13px; }
+/* fila de contacto: blanca, discreta; "Valencia" e idioma como chips perfilados */
+.elementor-10594 .elementor-element.elementor-element-6002e415 { --padding-top: 4px; --padding-bottom: 4px; }
+.elementor-10594 .elementor-element-6926517 .elementor-icon-list-text, .elementor-10594 .elementor-element-41f8ccdd .elementor-icon-list-text { color: #1A2B49 !important; font-size: 13px; font-weight: 500; }
+.elementor-10594 .elementor-element-6926517 .elementor-icon-list-icon svg, .elementor-10594 .elementor-element-41f8ccdd .elementor-icon-list-icon svg { fill: #1A2B49 !important; }
+.elementor-10594 .elementor-element-41f8ccdd { border: 1px solid #CBD2D9; border-radius: 999px; padding: 4px 12px; }
+.elementor-location-header .trp-shortcode-switcher__wrapper { --bg: #ffffff !important; --bg-hover: #F2F3F5 !important; --text: #1A2B49 !important; --text-hover: #1A2B49 !important; --border-radius: 999px !important; --border: 1px solid #CBD2D9 !important; --border-width: 1px !important; --border-color: #CBD2D9 !important; --font-size: 13px !important; }
+/* fila principal: logotipo, menú en marino regular con subrayado al pasar, botón menú perfilado */
+.elementor-10594 .elementor-element.elementor-element-259209d5 { --padding-top: 10px; --padding-bottom: 10px; }
+.elementor-location-header .elementor-nav-menu a.elementor-item { color: #1A2B49 !important; font-weight: 500; font-size: 15px; letter-spacing: 0; text-transform: none !important; padding: 10px 14px !important; border-bottom: 2px solid transparent; }
+.elementor-location-header .elementor-nav-menu a.elementor-item:hover, .elementor-location-header .elementor-nav-menu a.elementor-item.elementor-item-active { color: #1A2B49 !important; border-bottom-color: #FF5533; }
+.elementor-location-header .elementor-element-522c9bd2 .elementor-button, .elementor-location-header .elementor-element-3a764ac .elementor-button, .elementor-location-header .elementor-element-5da7a95d .elementor-button { background: #ffffff !important; border: 1px solid #CBD2D9 !important; border-radius: 999px !important; width: 44px; height: 44px; padding: 0 !important; justify-content: center; box-shadow: none; }
+.elementor-location-header .elementor-element-522c9bd2 .elementor-button svg, .elementor-location-header .elementor-element-3a764ac .elementor-button svg, .elementor-location-header .elementor-element-5da7a95d .elementor-button svg { fill: #1A2B49; width: 18px; }
+.elementor-10594 .elementor-element-2d00c192, .elementor-10594 .elementor-element-6815b456 { background-color: #ffffff !important; }
+.elementor-10594 .elementor-element-773d54ef .elementor-icon-list-text { color: #1A2B49 !important; }
+.elementor-10594 .elementor-element-773d54ef .elementor-icon-list-icon svg { fill: #1A2B49 !important; }

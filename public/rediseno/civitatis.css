@@ -120,3 +120,24 @@ body.elementor-kit-67 .elementor-button:hover { background-color: #D3074C; }
 /* la frase pequeña sobre el titular: a su ancho natural */
 .elementor-70 .elementor-element.elementor-element-b54be20 { --width: auto; width: auto; --padding-left: 18px; --padding-right: 18px; }
 .elementor-70 .elementor-element-b54be20 .elementor-heading-title, .elementor-70 .elementor-element-b54be20 p { white-space: nowrap; }
+
+/* =================== cabecera, al estilo Civitatis =================== */
+/* tira de reclamos: blanca, pequeña, arriba del todo */
+.elementor-location-header .vgo-banner { background: #ffffff !important; border-bottom: 1px solid #ECECEC; font-size: 13px; }
+/* fila de contacto: rosa oscuro, texto blanco; "Valencia" con su icono en blanco */
+.elementor-10594 .elementor-element.elementor-element-6002e415 { --padding-top: 5px; --padding-bottom: 5px; }
+.elementor-10594 .elementor-element-6926517 .elementor-icon-list-text, .elementor-10594 .elementor-element-41f8ccdd .elementor-icon-list-text { color: #ffffff !important; font-size: 13px; font-weight: 500; }
+.elementor-10594 .elementor-element-6926517 .elementor-icon-list-icon svg, .elementor-10594 .elementor-element-41f8ccdd .elementor-icon-list-icon svg { fill: #ffffff !important; }
+.elementor-10594 .elementor-element-6926517 .elementor-icon-list-item:not(:last-child):after { border-color: rgba(255, 255, 255, 0.5) !important; }
+/* idioma: texto blanco con bandera, sin fondo, como en Civitatis */
+.elementor-location-header .trp-shortcode-switcher__wrapper { --bg: transparent !important; --bg-hover: rgba(255, 255, 255, 0.12) !important; --text: #ffffff !important; --text-hover: #ffffff !important; --border-radius: 999px !important; --border: 1px solid rgba(255, 255, 255, 0.6) !important; --border-width: 1px !important; --border-color: rgba(255, 255, 255, 0.6) !important; }
+/* fila principal rosa: logotipo blanco, menú blanco regular, botón menú como píldora perfilada blanca */
+.elementor-10594 .elementor-element.elementor-element-259209d5 { --padding-top: 12px; --padding-bottom: 12px; }
+.elementor-location-header .elementor-nav-menu a.elementor-item { color: #ffffff !important; font-weight: 500; font-size: 15px; letter-spacing: 0; text-transform: none !important; padding: 10px 14px !important; border-radius: 999px; }
+.elementor-location-header .elementor-nav-menu a.elementor-item:hover, .elementor-location-header .elementor-nav-menu a.elementor-item.elementor-item-active { color: #ffffff !important; background: rgba(255, 255, 255, 0.14); }
+.elementor-location-header .elementor-element-522c9bd2 .elementor-button, .elementor-location-header .elementor-element-3a764ac .elementor-button, .elementor-location-header .elementor-element-5da7a95d .elementor-button { background: transparent !important; border: 2px solid #ffffff !important; border-radius: 999px !important; width: 46px; height: 42px; padding: 0 !important; justify-content: center; box-shadow: none; }
+.elementor-location-header .elementor-element-522c9bd2 .elementor-button svg, .elementor-location-header .elementor-element-3a764ac .elementor-button svg, .elementor-location-header .elementor-element-5da7a95d .elementor-button svg { fill: #ffffff; width: 18px; }
+.elementor-10594 .elementor-element-2d00c192 { background-color: #D3074C !important; }
+.elementor-10594 .elementor-element-6815b456 { background-color: #EA0558 !important; }
+.elementor-10594 .elementor-element-773d54ef .elementor-icon-list-text { color: #ffffff !important; }
+.elementor-10594 .elementor-element-773d54ef .elementor-icon-list-icon svg { fill: #ffffff !important; }
