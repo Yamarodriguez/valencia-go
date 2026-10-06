@@ -146,6 +146,10 @@ lo que pinta un plugin: **se captura del HTML vivo**.
   repite cuando los guiones están listos (esperando a que las ventanas de
   Elementor tengan getModal). `node scripts/probar-menu-movil.mjs` lo
   comprueba (local: menú abierto con el primer toque a los ~330 ms).
+  Al abrirse la ventana, Elementor pide AL VUELO hojas y guiones que ninguna
+  página enlaza (conditionals/dialog.min.css, lightbox.min.css,
+  lib/share-link/share-link.min.js): el barrido de 404 no los ve. Están
+  bajados a mano de la web vieja en public/ (7e1d419+).
 - `node scripts/radiografia.mjs [--movil]`: radiografía de carga de una
   página (TTFB, primera pintura, LCP, qué bloquea) en vieja y nueva.
 - NO se quitan: wp-hooks y wp-i18n (los usa Elementor Pro) ni el guion de
