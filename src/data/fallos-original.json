@@ -136,5 +136,160 @@
    "que": "enlace roto del original: redirige a /pl/pakiety-rabatowe/, que da 404 en la web vieja (migas de pan de los packs traducidos)",
    "estado": "pendiente"
   }
+ ],
+ "contraste": [
+  {
+   "letra": "#99a9b5",
+   "fondo": "#f7f7f7",
+   "contraste": 2.25,
+   "minimo": 4.5,
+   "paginas": 15,
+   "ejemplo": "/ <p> 16px [3e4d5cfe] «Cultura, historia y vida local»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ffffff",
+   "fondo": "#ff720d",
+   "contraste": 2.74,
+   "minimo": 4.5,
+   "paginas": 15,
+   "ejemplo": "/ <span> 15px [6926517] «+34 684 306 787»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#f08000",
+   "fondo": "#fff4e6",
+   "contraste": 2.48,
+   "minimo": 4.5,
+   "paginas": 10,
+   "ejemplo": "/ <span> 15px [d3ef044] «¿Por qué reservar con Valencia&Go?»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ff720d",
+   "fondo": "#f5f5f5",
+   "contraste": 2.51,
+   "minimo": 4.5,
+   "paginas": 7,
+   "ejemplo": "/ <bdi> 23px [6a78b24] «69,00»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ff720d",
+   "fondo": "#fbfbfb",
+   "contraste": 2.65,
+   "minimo": 4.5,
+   "paginas": 7,
+   "ejemplo": "/ <h3> 20px [9ce6d7c] «valenciaandgo»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ffffff",
+   "fondo": "#ef8031",
+   "contraste": 2.69,
+   "minimo": 4.5,
+   "paginas": 6,
+   "ejemplo": "/ <span> 11px [785cfab] «Cultura y tradiciones»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ff7716",
+   "fondo": "#f5f5f5",
+   "contraste": 2.44,
+   "minimo": 3,
+   "paginas": 2,
+   "ejemplo": "/atracciones/barrio-del-cabanal-en-valencia/ <span> 40px [3eb2268] «adicional»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ff7716",
+   "fondo": "#ffffff",
+   "contraste": 2.66,
+   "minimo": 3,
+   "paginas": 2,
+   "ejemplo": "/atracciones/barrio-del-cabanal-en-valencia/ <span> 40px [7c1e0f55] «Valencia?»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ef8031",
+   "fondo": "#ffffff",
+   "contraste": 2.69,
+   "minimo": 3,
+   "paginas": 2,
+   "ejemplo": "/atracciones/barrio-del-cabanal-en-valencia/ <span> 40px [ef54a65] «Valencia»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ff720d",
+   "fondo": "#ffffff",
+   "contraste": 2.74,
+   "minimo": 4.5,
+   "paginas": 2,
+   "ejemplo": "/10-datos-valencia/ <a> 18px [6714e5d] «Consejos para tus vacaciones»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#767676",
+   "fondo": "#fbfbfb",
+   "contraste": 4.39,
+   "minimo": 4.5,
+   "paginas": 2,
+   "ejemplo": "/excursiones-cruceros/cata-de-vinos-en-valencia-tour-y-bodega-cruceros/ <nav> 14.72px [26ffdeb8] «/ / Tour a pie por el Carmen con cata de vinos par»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ef8031",
+   "fondo": "#f5f5f5",
+   "contraste": 2.47,
+   "minimo": 3,
+   "paginas": 1,
+   "ejemplo": "/atracciones/barrio-del-cabanal-en-valencia/ <span> 40px [40d229a8] «barrio del Cabañal»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ef8031",
+   "fondo": "#fbfbfb",
+   "contraste": 2.6,
+   "minimo": 3,
+   "paginas": 1,
+   "ejemplo": "/ <h2> 45px [1c42dc7] «Nuestros tours más queridos»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ff6600",
+   "fondo": "#f5f5f5",
+   "contraste": 2.69,
+   "minimo": 4.5,
+   "paginas": 1,
+   "ejemplo": "/lugares-de-interes/ <span> 16px [4306624] «Tours disponibles»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ffffff",
+   "fondo": "#ff6600",
+   "contraste": 2.94,
+   "minimo": 4.5,
+   "paginas": 1,
+   "ejemplo": "/lugares-de-interes/ <span> 13px [4306624] «Todos»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ff6600",
+   "fondo": "#ffffff",
+   "contraste": 2.94,
+   "minimo": 4.5,
+   "paginas": 1,
+   "ejemplo": "/lugares-de-interes/ <span> 21.6px [4306624] «no te puedes perder»",
+   "estado": "pendiente"
+  },
+  {
+   "letra": "#ffffff",
+   "fondo": "#408bd1",
+   "contraste": 3.6,
+   "minimo": 4.5,
+   "paginas": 1,
+   "ejemplo": "/ <span> 13px [9ce6d7c] «Seguir en Instagram»",
+   "estado": "pendiente"
+  }
  ]
 }

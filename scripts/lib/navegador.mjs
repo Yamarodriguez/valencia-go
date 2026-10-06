@@ -29,7 +29,9 @@ export async function nuevoContexto(navegador, ancho, alto = 900) {
   const ctx = await navegador.newContext({ viewport: { width: ancho, height: alto }, deviceScaleFactor: 1, reducedMotion: 'reduce' });
   await ctx.route('**/*', (route) => {
     const u = new URL(route.request().url());
-    return (u.hostname === 'localhost' || u.hostname === '127.0.0.1') ? route.continue() : route.abort();
+    // cdnjs: la web vieja pide ahi Font Awesome (la nueva lo sirve ella); si se cortara,
+    // los iconos de la vieja medirian distinto y la comparacion no seria justa.
+    return (u.hostname === 'localhost' || u.hostname === '127.0.0.1' || u.hostname === 'cdnjs.cloudflare.com') ? route.continue() : route.abort();
   });
   return ctx;
 }

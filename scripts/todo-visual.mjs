@@ -16,8 +16,8 @@ import fs from 'node:fs';
 // Por defecto, una muestra por tipo de pagina (src/data/tipos.json). Con --todas, todas.
 const TODAS = process.argv.includes('--todas') ? ' --todas' : '';
 const PASOS = [
-  ['barrido-referencia', 'node scripts/barrido-404.mjs --base http://localhost:8090 --nombre referencia' + (TODAS || ' --por-tipo 3')],
-  ['barrido-nueva', 'node scripts/barrido-404.mjs --base http://localhost:4321 --nombre nueva' + (TODAS || ' --por-tipo 3')],
+  ['barrido-referencia', 'node scripts/barrido-404.mjs --base http://localhost:8090 --nombre referencia' + (TODAS || ' --por-tipo 2')],
+  ['barrido-nueva', 'node scripts/barrido-404.mjs --base http://localhost:4321 --nombre nueva' + (TODAS || ' --por-tipo 2')],
   ['geometria', 'node scripts/geometria.mjs' + TODAS],
   ['contraste', 'node scripts/contraste.mjs' + TODAS],
 ];

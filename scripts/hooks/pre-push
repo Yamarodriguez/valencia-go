@@ -1,0 +1,24 @@
+#!/bin/sh
+# pre-push — desde la Fase 2 no se sube nada a main sin 0 fallos en
+# "npm run todo" y "npm run todo:visual" (PROMPT-MIGRACION-V5.md, seccion C).
+#
+# Se instala una vez con:   git config core.hooksPath scripts/hooks
+# Solo actua al subir a main; las demas ramas suben sin comprobar.
+# Netlify solo compila: quien impide subir algo roto es este fichero.
+
+principal=""
+while read local_ref local_sha remote_ref remote_sha; do
+  case "$remote_ref" in
+    refs/heads/main) principal=1 ;;
+  esac
+done
+[ -z "$principal" ] && exit 0
+
+echo ""
+echo "pre-push: comprobaciones antes de subir a main"
+echo ""
+node scripts/todo.mjs || { echo ""; echo "NO SE SUBE: 'npm run todo' ha fallado (mira informes/)."; exit 1; }
+node scripts/todo-visual.mjs || { echo ""; echo "NO SE SUBE: 'npm run todo:visual' ha fallado (mira informes/)."; exit 1; }
+echo ""
+echo "pre-push: todo bien, se sube."
+exit 0

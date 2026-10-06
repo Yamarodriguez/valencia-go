@@ -74,7 +74,7 @@ function medir() {
     const letra = rgba(cs.color); if (!letra || letra.a === 0) continue;
     // de dentro afuera: se guardan las capas y luego se componen de abajo arriba
     const pila = []; // de arriba (cerca del texto) a abajo
-    let fondo = null, tipo = 'liso';
+    let fondo = null, tipo = 'liso', opacaPropia = false;
     for (let p = e; p && p.nodeType === 1; p = p.parentElement) {
       const c = getComputedStyle(p);
       const capas = [];
@@ -92,7 +92,8 @@ function medir() {
       const despues = getComputedStyle(p, '::after'); if (cubre(despues) && p !== e) capas.push(...capasDe(despues, parseFloat(despues.opacity)));
       pila.push(...capas.reverse());
       const opaca = capas.find((k) => k.color && k.color.a >= 0.999);
-      if (opaca) break;
+      // el blanco del <body> no cuenta como fondo propio: puede haber otra cosa pintada encima
+      if (opaca) { opacaPropia = p !== document.body && p !== document.documentElement; break; }
     }
     pila.push({ color: { r: 255, g: 255, b: 255, a: 1 } }); // el lienzo
     let acumulado = null;
@@ -108,10 +109,34 @@ function medir() {
     const texto = [...e.childNodes].filter((n) => n.nodeType === 3).map((n) => n.nodeValue).join(' ').replace(/\s+/g, ' ').trim().slice(0, 50);
     let did = ''; for (let p = e; p && p !== document.body; p = p.parentElement) { const d = p.getAttribute('data-id'); if (d) { did = d; break; } }
     if (tipo !== 'liso' || !fondo) { casos.push({ tipo, letra: hex(letra), texto, did, px, tag: tag.toLowerCase() }); continue; }
-    const fg = letra.a < 1 ? sobre(letra, fondo) : letra;
-    const l1 = lum(fg), l2 = lum(fondo);
-    const ratio = (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05);
-    if (ratio < (grande ? 3 : 4.5)) casos.push({ tipo: 'liso', letra: hex(fg), fondo: hex(fondo), ratio: Math.round(ratio * 100) / 100, minimo: grande ? 3 : 4.5, texto, did, px, tag: tag.toLowerCase() });
+    const razon = (f) => { const fg = letra.a < 1 ? sobre(letra, f) : letra; const l1 = lum(fg), l2 = lum(f); return { fg, ratio: (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05) }; };
+    let { fg, ratio } = razon(fondo);
+    if (ratio < (grande ? 3 : 4.5)) {
+      // Antes de darlo por malo: que hay pintado DEBAJO del texto que no sea
+      // padre suyo (una cabecera transparente encima de la foto de portada,
+      // un bloque subido con margen negativo...). Se mira el punto central.
+      if (!opacaPropia) {
+        e.scrollIntoView({ block: 'center', inline: 'nearest', behavior: 'instant' });
+        const q = e.getBoundingClientRect();
+        const pila2 = document.elementsFromPoint(Math.min(innerWidth - 1, Math.max(0, q.left + q.width / 2)), Math.min(innerHeight - 1, Math.max(0, q.top + q.height / 2)));
+        let i = pila2.findIndex((x) => x === e || x.contains(e) || e.contains(x));
+        let debajo = null;
+        for (i = Math.max(0, i); i < pila2.length; i++) {
+          const x = pila2[i];
+          if (x === e || x.contains(e) || x === document.documentElement || x === document.body) continue;
+          const cx = getComputedStyle(x);
+          const conImagen = (s) => s.backgroundImage && s.backgroundImage !== 'none';
+          const pseudo = [getComputedStyle(x, '::before'), getComputedStyle(x, '::after')].some((s) => s.content !== 'none' && conImagen(s));
+          const hijoFondo = [...x.children].some((h) => /elementor-background-(slideshow|video-container)/.test(h.className || '') || (/elementor-background-overlay/.test(h.className || '') && conImagen(getComputedStyle(h))));
+          if (['IMG', 'VIDEO', 'CANVAS', 'PICTURE', 'IFRAME'].includes(x.tagName) || conImagen(cx) || pseudo || hijoFondo) { debajo = 'foto'; break; }
+          const c = rgba(cx.backgroundColor);
+          if (c && c.a >= 0.999) { debajo = c; break; }
+        }
+        if (debajo === 'foto') { casos.push({ tipo: 'foto', letra: hex(letra), texto, did, px, tag: tag.toLowerCase() }); continue; }
+        if (debajo) { fondo = debajo; ({ fg, ratio } = razon(fondo)); }
+      }
+      if (ratio < (grande ? 3 : 4.5)) casos.push({ tipo: 'liso', letra: hex(fg), fondo: hex(fondo), ratio: Math.round(ratio * 100) / 100, minimo: grande ? 3 : 4.5, texto, did, px, tag: tag.toLowerCase() });
+    }
   }
   return casos;
 }
@@ -151,6 +176,17 @@ const lineas = [
 fs.mkdirSync(path.join(RAIZ, 'informes'), { recursive: true });
 fs.writeFileSync(path.join(RAIZ, 'informes', 'contraste.md'), lineas.join('\n') + '\n');
 fs.writeFileSync(path.join(RAIZ, 'informes', 'contraste-casos.json'), JSON.stringify(lista.map((g) => ({ letra: g.letra, fondo: g.fondo, contraste: g.ratio, minimo: g.minimo, paginas: g.paginas.size, veces: g.veces, ejemplos: g.ejemplos })), null, 1));
+// --apuntar: lo encontrado se apunta en fallos-original.json como contraste
+// del ORIGINAL pendiente de decision (se le ensena al propietario; Fase 3, Dec. 7)
+if (process.argv.includes('--apuntar') && nuevos.length) {
+  const f = path.join(RAIZ, 'src', 'data', 'fallos-original.json');
+  const d = leerJson(f, {});
+  d.contraste = d.contraste || [];
+  for (const g of nuevos) d.contraste.push({ letra: g.letra, fondo: g.fondo, contraste: g.ratio, minimo: g.minimo, paginas: g.paginas.size, ejemplo: g.ejemplos[0], estado: 'pendiente' });
+  fs.writeFileSync(f, JSON.stringify(d, null, 1));
+  console.log(`contraste: ${nuevos.length} combinaciones apuntadas en src/data/fallos-original.json como pendientes`);
+  process.exit(0);
+}
 console.log(`contraste: ${medidas} paginas; ${lista.length} combinaciones por debajo del minimo (${nuevos.length} sin aprobar = FALLO, ${vistos.length} ya vistas); sobre foto ${sobreFoto.foto}, degradado ${sobreFoto.degradado}, desconocido ${sobreFoto.desconocido} -> informes/contraste.md`);
 for (const g of nuevos.slice(0, 8)) console.log(`  ${g.letra} sobre ${g.fondo}: ${g.ratio} en ${g.paginas.size} paginas — ${g.ejemplos[0].slice(0, 110)}`);
 process.exit(nuevos.length || sobreFoto.desconocido ? 1 : 0);
