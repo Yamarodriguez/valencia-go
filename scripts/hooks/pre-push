@@ -4,6 +4,8 @@
 #
 # Se instala una vez con:   git config core.hooksPath scripts/hooks
 # Solo actua al subir a main; las demas ramas suben sin comprobar.
+# Lo visual va con --rapido (una pagina por tipo, unos 12 minutos). La pasada
+# completa es "npm run todo:visual" (o con --todas) y se hace al cerrar cada fase.
 # Netlify solo compila: quien impide subir algo roto es este fichero.
 
 principal=""
@@ -18,7 +20,7 @@ echo ""
 echo "pre-push: comprobaciones antes de subir a main"
 echo ""
 node scripts/todo.mjs || { echo ""; echo "NO SE SUBE: 'npm run todo' ha fallado (mira informes/)."; exit 1; }
-node scripts/todo-visual.mjs || { echo ""; echo "NO SE SUBE: 'npm run todo:visual' ha fallado (mira informes/)."; exit 1; }
+node scripts/todo-visual.mjs --rapido || { echo ""; echo "NO SE SUBE: 'npm run todo:visual' ha fallado (mira informes/)."; exit 1; }
 echo ""
 echo "pre-push: todo bien, se sube."
 exit 0

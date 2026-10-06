@@ -13,13 +13,17 @@
 import { spawn, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 
-// Por defecto, una muestra por tipo de pagina (src/data/tipos.json). Con --todas, todas.
+// Por defecto, una muestra por tipo de pagina (src/data/tipos.json).
+//   --todas   todas las paginas (mas de una hora)
+//   --rapido  una pagina por tipo (lo que usa el bloqueo pre-push, unos 12 minutos)
 const TODAS = process.argv.includes('--todas') ? ' --todas' : '';
+const RAPIDO = process.argv.includes('--rapido');
+const muestra = (n) => TODAS || ` --por-tipo ${RAPIDO ? 1 : n}`;
 const PASOS = [
-  ['barrido-referencia', 'node scripts/barrido-404.mjs --base http://localhost:8090 --nombre referencia' + (TODAS || ' --por-tipo 2')],
-  ['barrido-nueva', 'node scripts/barrido-404.mjs --base http://localhost:4321 --nombre nueva' + (TODAS || ' --por-tipo 2')],
-  ['geometria', 'node scripts/geometria.mjs' + TODAS],
-  ['contraste', 'node scripts/contraste.mjs' + TODAS],
+  ['barrido-referencia', 'node scripts/barrido-404.mjs --base http://localhost:8090 --nombre referencia' + muestra(2)],
+  ['barrido-nueva', 'node scripts/barrido-404.mjs --base http://localhost:4321 --nombre nueva' + muestra(2)],
+  ['geometria', 'node scripts/geometria.mjs' + muestra(2)],
+  ['contraste', 'node scripts/contraste.mjs' + muestra(2)],
 ];
 const arg = (n) => { const i = process.argv.indexOf(n); return i > 0 ? process.argv[i + 1] : ''; };
 const solo = arg('--solo');
