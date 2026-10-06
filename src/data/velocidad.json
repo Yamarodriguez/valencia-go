@@ -22,9 +22,17 @@
   ]
  },
  "precargar": {
+  "_nota": "Letras que se piden desde el principio, sin esperar a leer las hojas: la del titulo (Baloo Bhaijaan 2, un solo fichero variable) y Lato normal y negrita en latin (el texto de toda la web; con font-display swap, sin precarga el texto se pinta con otra letra y luego salta).",
   "letras": [
-   "/wp-content/uploads/elementor/google-fonts/fonts/baloobhaijaan2-f065ad17.woff2"
+   "/wp-content/uploads/elementor/google-fonts/fonts/baloobhaijaan2-f065ad17.woff2",
+   "/wp-content/uploads/elementor/google-fonts/fonts/lato-702e3b8c.woff2",
+   "/wp-content/uploads/elementor/google-fonts/fonts/lato-b0cd9a1e.woff2"
   ]
+ },
+ "anticipar": {
+  "activo": true,
+  "urgencia": "moderate",
+  "_nota": "Reglas de especulacion propias (Base.astro, data-nuevo): cuando el visitante posa el raton en un enlace de la web, Chrome pide esa pagina por adelantado, asi que al hacer clic ya esta aqui (las hojas y letras ya las tiene de la pagina anterior). WordPress ya traia una regla parecida pero solo al pulsar (conservative). Se excluyen /wp-*, los enlaces con ? o # y los que abren en otra pestana."
  },
  "fotos_perezosas": {
   "saltar": 3
