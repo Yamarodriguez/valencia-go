@@ -59,7 +59,7 @@ function medir() {
   const caminar = document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT);
   for (let e = caminar.currentNode; e; e = caminar.nextNode()) {
     const tag = e.tagName;
-    if (['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEMPLATE', 'OPTION'].includes(tag) || e.closest('svg')) continue;
+    if (['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEMPLATE', 'OPTION'].includes(tag) || e.closest('svg') || e.closest('[data-nuevo]')) continue;
     let conTexto = false;
     for (const n of e.childNodes) if (n.nodeType === 3 && n.nodeValue.trim().length > 1) { conTexto = true; break; }
     if (!conTexto) continue;

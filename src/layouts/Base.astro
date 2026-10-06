@@ -8,13 +8,16 @@
  * marcado lo salta) y se enciende desde src/data/:
  *   - velocidad.json guiones_aplazar.activo: src/js/aplazador.js en linea al
  *     principio del <head> (ejecuta los guiones cuando el visitante hace algo);
- *   - site.json formulario.activo: /js/formularios.js (Fase 5), al final del <body>.
+ *   - site.json formulario.activo: /js/formularios.js (Fase 5), al final del <body>;
+ *   - site.json selectorRediseno: /js/selector-rediseno.js, la barra para elegir diseño
+ *     en la web de pruebas (Fase 3).
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import site from '../data/site.json';
 import velocidad from '../data/velocidad.json';
 const { html = {}, body = {}, cabeza = '' } = Astro.props;
+const selector = site.selectorRediseno === true;
 const formularios = site.formulario && site.formulario.servicio === 'netlify' && site.formulario.activo;
 // Fase 3: el rediseño es una hoja propia (public/rediseno/<nombre>.css), la ÚLTIMA del <head>,
 // encendida con "rediseno": "<nombre>" en site.json; con false, la web es la copia fiel.
@@ -24,5 +27,5 @@ const aplazador = aplazar ? `window.__aplazadorTope=${Number(velocidad.guiones_a
 ---
 <html {...html}>
 <head>{aplazar && <script data-nuevo="aplazador" data-no-aplazar set:html={aplazador}></script>}<Fragment set:html={cabeza} />{rediseno && <link rel="stylesheet" href={`/rediseno/${rediseno}.css`} data-nuevo="rediseno" />}</head>
-<body {...body}><slot />{formularios && <script src="/js/formularios.js" defer data-nuevo="formularios" data-no-aplazar></script>}</body>
+<body {...body}><slot />{formularios && <script src="/js/formularios.js" defer data-nuevo="formularios" data-no-aplazar></script>}{selector && <script src="/js/selector-rediseno.js" defer data-nuevo="selector-rediseno" data-no-aplazar></script>}</body>
 </html>

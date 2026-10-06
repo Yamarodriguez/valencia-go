@@ -49,5 +49,7 @@
   ],
   "columnas": []
  },
- "rediseno": false
+ "rediseno": false,
+ "selectorRediseno": true,
+ "_nota_rediseno": "rediseno: nombre de la hoja de public/rediseno/ que se engancha fija (false = copia fiel). selectorRediseno: true pone en la web de PRUEBAS una barra para cambiar de diseno al momento (Fase 3); se pone a false antes del cambio de dominio."
 }
