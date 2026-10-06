@@ -61,6 +61,8 @@ function medir() {
   for (let e = caminar.currentNode; e; e = caminar.nextNode()) {
     const tag = e.tagName;
     if (tag === 'SCRIPT' || tag === 'STYLE' || tag === 'NOSCRIPT' || tag === 'TEMPLATE' || tag === 'SVG' || e.closest('svg')) continue;
+    // el globo de WhatsApp (joinchat) flota y se abre con un temporizador: no es maquetacion y no se mide
+    if (e.closest('.joinchat')) continue;
     if (tag === 'IMG') { anadir(e, 'img'); continue; }
     if (tag === 'A') anadir(e, 'a');
     for (const n of e.childNodes) if (n.nodeType === 3 && n.nodeValue.trim()) { anadir(e, 'txt'); break; }
