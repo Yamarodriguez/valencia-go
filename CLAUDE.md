@@ -125,8 +125,13 @@ lo que pinta un plugin: **se captura del HTML vivo**.
   fingiendo que la página aún carga (readyState) y relanza DOMContentLoaded
   y load al final. Las pruebas con navegador mueven el ratón y esperan a
   `<html data-js-aplazado="hecho">`.
-- Medida antes (portada, escritorio): vieja 616 KB / 47 peticiones / LCP
-  392 ms; copia 2.925 KB / 170 / 964 ms. Después: ver informes/velocidad.md.
+- Medida (6-10-2026, `scripts/velocidad.mjs`, mediana de 3 cargas sin caché):
+  portada en escritorio, vieja 1.534 KB / 48 peticiones / LCP 284 ms; copia
+  antes 2.925 KB / 170 / 964 ms; copia después 1.693 KB / 49 / 752 ms. En
+  móvil con 4G lenta, LCP de la portada: vieja 1,2 s; copia antes 7,1 s;
+  después 1,8 s. Entrada /paella/ en móvil: 3,6 s vieja, 3,5 s copia.
+  Queda un margen frente a LiteSpeed (sobre todo el tiempo hasta "listo"):
+  las hojas van en ~15 ficheros compartidos en vez de 1 por página.
 
 ## Fase 7 (mudanza): preparado, NO hecho
 - `public/sitemap_index.xml` y los mapas de Yoast copiados con su nombre
