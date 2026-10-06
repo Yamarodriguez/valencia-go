@@ -17,3 +17,6 @@ public/css/
 elementor web a migrar/
 indicaciones de migracion/
 public/fontawesome/
+
+# los mapas del sitio copiados de la web vieja SI suben (la regla *.xml es para los exports)
+!public/*.xml
