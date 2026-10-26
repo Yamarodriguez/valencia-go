@@ -20,3 +20,6 @@ public/fontawesome/
 
 # los mapas del sitio copiados de la web vieja SI suben (la regla *.xml es para los exports)
 !public/*.xml
+
+# fotos nuevas que deja el propietario (las lee scripts/cambiar-fotos.mjs)
+/fotos-nuevas/

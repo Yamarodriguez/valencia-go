@@ -1,5 +1,45 @@
 # www.valenciaandgo.com — migración de WordPress a Astro
 
+## RAMA `empresa-nueva` (desde el 26-10-2026): la web de la empresa de turismo nueva
+Esta rama parte de la copia fiel (`claude/data-migration-b8e01f`, 2d84324) y
+NO es la migración: es la base de una empresa de turismo nueva, distinta de
+Valencia&Go, que sigue funcionando aparte. Decisión del propietario
+(26-10-2026): se conservan todos los tours por ahora; se cambian marca
+(nombre, dominio, logo, colores/diseño) y TODAS las fotos; los textos y los
+títulos, después. Advertido: contenido y fotos de la vieja son de otra
+empresa y Google penaliza el duplicado; el propietario lo asume.
+Plan completo: `PLAN-EMPRESA-NUEVA.md` (su recomendación original era no
+clonar; la sección 4 queda como referencia).
+
+Herramientas (todas probadas en seco y con valores de relleno, 26-10-2026;
+nada aplicado aún):
+- `npm run inventario-fotos` → `src/data/fotos.json` + `informes/fotos-inventario.md`:
+  617 fotos del contenido con página dueña (más 90 miniaturas de tarjeta que
+  salen de su foto madre), 8 logos, 8 logos de terceros, 17 iconos. Nombre
+  nuevo: `<h1>-N.webp` bajo el H1, `<h1>-<sección>-N.webp` bajo un H2/H3;
+  alt propuesto = H1 (y sección). Los nombres salen de los H1 ACTUALES: si
+  los títulos cambian después, repetir inventario y cambio.
+- `npm run cambiar-marca -- --seco` / sin `--seco`: lee `src/data/marca.json`
+  (nombre, dominio, correo, teléfono, WhatsApp, redes, logos). Orden de
+  reglas: direcciones primero, nombre a secas al final (la forma junta
+  "valenciaandgo" solo como palabra suelta). Logos nuevos en `public/marca/`;
+  en las `<img>` del logo quita srcset y pone width/height/alt. Actualiza
+  `site.json`.
+- `npm run cambiar-fotos -- --seco` / sin: el propietario deja las fotos en
+  `fotos-nuevas/<nombre nuevo>.jpg|png|webp` (carpeta fuera de Git); genera
+  `public/fotos/` a las medidas de la vieja y de cada tamaño -WxH que pidan
+  las páginas, y reescribe src/data-src/srcset/fondos/JSON escapado y el alt.
+  Se puede ejecutar por tandas.
+Orden previsto: marca → inventario → fotos → diseño (hoja en
+`public/rediseno/` con los colores nuevos, Fase 3) → textos (otra fase).
+Pendiente aparte: el feed de Instagram de la portada (5 idiomas) enseña la
+cuenta vieja (`sb-instagram-feed-images/valenciaandgo.webp`, plugin Smash
+Balloon): hay que quitarlo o cambiarlo a mano; Turitop y las legales siguen
+siendo de la empresa vieja. En esta rama NO se repite la cadena de datos
+(`bajar`/`partir` pisarían los cambios). Git: `core.autocrlf=false` en el
+repositorio (con `true`, el worktree salía con CRLF y `leerPiezas` no
+partía las páginas).
+
 ## Quién manda
 Yama (yamarodriguez), propietario, no técnico: castellano de España, de tú,
 sin jerga. Lo haces tú. Cada informe dice el estado del cambio (local /

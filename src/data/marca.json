@@ -1,0 +1,60 @@
+{
+ "_nota": "Lo lee scripts/cambiar-marca.mjs. Rellena cada 'nuevo'; lo que quede vacío no se toca. Los 'viejo' son las formas que de verdad aparecen en las páginas (contadas el 26-10-2026). Los logos nuevos van en public/marca/ con la ruta que pongas aquí.",
+ "nombre": {
+  "viejo": [
+   "Valencia&amp;Go",
+   "Valencia&Go",
+   "Valencia &amp; Go",
+   "Valencia & Go",
+   "Valencia and Go",
+   "Valenciaandgo"
+  ],
+  "nuevo": "",
+  "_nota": "Las formas con espacio o & se cambian tal cual. 'Valenciaandgo' (junto) solo como palabra suelta (p. ej. 'Equipo Valenciaandgo'): dentro de direcciones y ficheros lo cubren dominio, redes y logos."
+ },
+ "dominio": {
+  "viejo": "valenciaandgo.com",
+  "nuevo": ""
+ },
+ "correo": {
+  "viejo": "info@valenciaandgo.com",
+  "nuevo": ""
+ },
+ "telefono": {
+  "viejo": [
+   "+34 684 306 787",
+   "+34684306787"
+  ],
+  "nuevo": "",
+  "_nota": "El nuevo, en el mismo formato que cada viejo no hace falta: se pone tal cual. Mejor '+34 6XX XXX XXX'."
+ },
+ "whatsapp": {
+  "viejo": [
+   "+34 680 488 233",
+   "34680488233",
+   "680488233"
+  ],
+  "nuevo": "",
+  "_nota": "Solo dígitos con prefijo, p. ej. 34612345678. Se usa en wa.me/ y en el texto."
+ },
+ "redes": {
+  "_nota": "Dirección vieja → nueva. Vale con http o https y con o sin barra final. '@valenciaandgo' es el usuario en los textos ('síguenos en @…') y en TikTok.",
+  "https://www.facebook.com/valenciaandgo/": "",
+  "https://www.instagram.com/valenciaandgo": "",
+  "https://www.tiktok.com/@valenciaandgo": "",
+  "https://es.linkedin.com/company/valencia-go": "",
+  "@valenciaandgo": ""
+ },
+ "logos": {
+  "_nota": "Ruta vieja → ruta nueva dentro de public/. Un mismo logo nuevo puede servir para varias viejas. Si la nueva está vacía, esa vieja se queda.",
+  "/wp-content/uploads/2026/04/logo-valenciaandgo-azul.png": "",
+  "/wp-content/uploads/2026/03/Copia-de-valencia_go-png-1200x283-1-1.png": "",
+  "/wp-content/uploads/2026/03/valencia_go-svg-azul-y-naranja.svg": "",
+  "/wp-content/uploads/2026/03/valencia_go-svg-azul-y-naranja-1.svg": "",
+  "/wp-content/uploads/2025/10/valencia_go-svg-azul-y-naranja.svg": "",
+  "/wp-content/uploads/2025/10/valencia_go-svg-blnc-iso-naranja.svg": "",
+  "/wp-content/uploads/2025/10/valencia_go-svg-isotipov1-naranja.svg": "",
+  "/wp-content/uploads/2026/03/valencia_go-svg-isotipov1-naranja.svg": "",
+  "/wp-content/plugins/thegem-atracciones/assets/img/isologo-vgo.svg": ""
+ }
+}
