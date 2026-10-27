@@ -22,11 +22,10 @@
   ]
  },
  "precargar": {
-  "_nota": "Letras que se piden desde el principio, sin esperar a leer las hojas: la del titulo (Baloo Bhaijaan 2, un solo fichero variable) y Lato normal y negrita en latin (el texto de toda la web; con font-display swap, sin precarga el texto se pinta con otra letra y luego salta).",
+  "_nota": "Letras que se piden desde el principio, sin esperar a leer las hojas. Desde el 27-10-2026 las de la marca Excursiones Valencia (scripts/fuentes-marca.mjs): Fraunces (títulos) y DM Sans (texto), subconjunto latin; son variables, un fichero por familia. Las de Valencia&Go (Baloo, Lato) ya no se piden porque la hoja de diseño las sustituye en todo.",
   "letras": [
-   "/wp-content/uploads/elementor/google-fonts/fonts/baloobhaijaan2-f065ad17.woff2",
-   "/wp-content/uploads/elementor/google-fonts/fonts/lato-702e3b8c.woff2",
-   "/wp-content/uploads/elementor/google-fonts/fonts/lato-b0cd9a1e.woff2"
+   "/fuentes-marca/fraunces-normal-latin.woff2",
+   "/fuentes-marca/dm-sans-normal-latin.woff2"
   ]
  },
  "anticipar": {

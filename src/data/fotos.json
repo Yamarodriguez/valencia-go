@@ -8532,7 +8532,12 @@
    "/wp-content/uploads/elementor/css/post-8778.css",
    "/wp-content/uploads/elementor/css/post-9413.css"
   ],
-  "nota": "solo como fondo en CSS: sin página dueña"
+  "nuevo": "condiciones-de-compra-fondo-1.webp",
+  "alt": "Condiciones de compra",
+  "pagina": "/condiciones-de-compra/",
+  "h1": "Condiciones de compra",
+  "seccion": "",
+  "fondo": true
  },
  "/wp-content/uploads/2025/11/slider-valencia-04.webp": {
   "clase": "foto",
@@ -8544,7 +8549,12 @@
    "/wp-content/uploads/elementor/css/post-1251.css",
    "/wp-content/uploads/elementor/css/post-8581.css"
   ],
-  "nota": "solo como fondo en CSS: sin página dueña"
+  "nuevo": "excursiones-para-cruceros-fondo-1.webp",
+  "alt": "Excursiones para cruceros",
+  "pagina": "/especial-cruceros/",
+  "h1": "Excursiones para cruceros",
+  "seccion": "",
+  "fondo": true
  },
  "/wp-content/uploads/2025/11/slider-valencia-01.webp": {
   "clase": "foto",
@@ -8557,7 +8567,12 @@
    "/wp-content/uploads/elementor/css/post-6488.css",
    "/wp-content/uploads/elementor/css/post-70.css"
   ],
-  "nota": "solo como fondo en CSS: sin página dueña"
+  "nuevo": "nuestros-vehiculos-fondo-1.webp",
+  "alt": "Nuestros vehículos",
+  "pagina": "/nuestros-vehiculos/",
+  "h1": "Nuestros vehículos",
+  "seccion": "",
+  "fondo": true
  },
  "/wp-content/uploads/2025/10/img-ciudad-artes-ciencias.webp": {
   "clase": "foto",
@@ -8568,7 +8583,12 @@
   "css": [
    "/wp-content/uploads/elementor/css/post-261.css"
   ],
-  "nota": "solo como fondo en CSS: sin página dueña"
+  "nuevo": "contactanos-fondo-1.webp",
+  "alt": "contáctanos",
+  "pagina": "/contacto/",
+  "h1": "contáctanos",
+  "seccion": "",
+  "fondo": true
  },
  "/wp-content/uploads/2025/11/img-blog-ideas-septiembre.webp": {
   "clase": "foto",
@@ -8579,7 +8599,12 @@
   "css": [
    "/wp-content/uploads/elementor/css/post-265.css"
   ],
-  "nota": "solo como fondo en CSS: sin página dueña"
+  "nuevo": "somos-excursiones-valencia-fondo-1.webp",
+  "alt": "Somos Excursiones Valencia",
+  "pagina": "/quienes-somos/",
+  "h1": "Somos Excursiones Valencia",
+  "seccion": "",
+  "fondo": true
  },
  "/wp-content/uploads/2025/11/slider-valencia-05.webp": {
   "clase": "foto",
@@ -8591,7 +8616,12 @@
    "/wp-content/uploads/elementor/css/post-4315.css",
    "/wp-content/uploads/elementor/css/post-8581.css"
   ],
-  "nota": "solo como fondo en CSS: sin página dueña"
+  "nuevo": "experiencias-a-medida-fondo-1.webp",
+  "alt": "Experiencias a medida",
+  "pagina": "/experiencias-a-medida/",
+  "h1": "Experiencias a medida",
+  "seccion": "",
+  "fondo": true
  },
  "/wp-content/uploads/2026/01/itinerario-personalizado-scaled.webp": {
   "clase": "foto",
@@ -8602,7 +8632,12 @@
   "css": [
    "/wp-content/uploads/elementor/css/post-4315.css"
   ],
-  "nota": "solo como fondo en CSS: sin página dueña"
+  "nuevo": "experiencias-a-medida-fondo-2.webp",
+  "alt": "Experiencias a medida",
+  "pagina": "/experiencias-a-medida/",
+  "h1": "Experiencias a medida",
+  "seccion": "",
+  "fondo": true
  },
  "/wp-content/uploads/2026/01/eventos-corporativos-scaled.webp": {
   "clase": "foto",
@@ -8613,7 +8648,12 @@
   "css": [
    "/wp-content/uploads/elementor/css/post-4315.css"
   ],
-  "nota": "solo como fondo en CSS: sin página dueña"
+  "nuevo": "experiencias-a-medida-fondo-3.webp",
+  "alt": "Experiencias a medida",
+  "pagina": "/experiencias-a-medida/",
+  "h1": "Experiencias a medida",
+  "seccion": "",
+  "fondo": true
  },
  "/wp-content/uploads/2026/01/espacios-scaled.webp": {
   "clase": "foto",
@@ -8624,7 +8664,12 @@
   "css": [
    "/wp-content/uploads/elementor/css/post-4315.css"
   ],
-  "nota": "solo como fondo en CSS: sin página dueña"
+  "nuevo": "experiencias-a-medida-fondo-4.webp",
+  "alt": "Experiencias a medida",
+  "pagina": "/experiencias-a-medida/",
+  "h1": "Experiencias a medida",
+  "seccion": "",
+  "fondo": true
  },
  "/wp-content/uploads/2026/01/traslado-scaled.webp": {
   "clase": "foto",
@@ -8635,7 +8680,12 @@
   "css": [
    "/wp-content/uploads/elementor/css/post-4315.css"
   ],
-  "nota": "solo como fondo en CSS: sin página dueña"
+  "nuevo": "experiencias-a-medida-fondo-5.webp",
+  "alt": "Experiencias a medida",
+  "pagina": "/experiencias-a-medida/",
+  "h1": "Experiencias a medida",
+  "seccion": "",
+  "fondo": true
  },
  "/wp-content/uploads/2026/03/productos-valencia-to-go.webp": {
   "clase": "foto",
@@ -8646,7 +8696,12 @@
   "css": [
    "/wp-content/uploads/elementor/css/post-9413.css"
   ],
-  "nota": "solo como fondo en CSS: sin página dueña"
+  "nuevo": "valencia-fondo-1.webp",
+  "alt": "Valencia",
+  "pagina": "/",
+  "h1": "Valencia",
+  "seccion": "",
+  "fondo": true
  },
  "/wp-content/uploads/2025/12/img-lonja-valencia.webp": {
   "clase": "foto",
@@ -8657,7 +8712,12 @@
   "css": [
    "/wp-content/uploads/elementor/css/post-9620.css"
   ],
-  "nota": "solo como fondo en CSS: sin página dueña"
+  "nuevo": "lugares-de-interes-fondo-1.webp",
+  "alt": "Lugares de interés",
+  "pagina": "/lugares-de-interes/",
+  "h1": "Lugares de interés",
+  "seccion": "",
+  "fondo": true
  },
  "/wp-content/uploads/elementor/thumbs/cuevassanjose3-rocf6aqinr74ko9piocje0lvlhzvp2agcydrbs426a.webp": {
   "clase": "foto",

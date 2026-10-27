@@ -49,7 +49,7 @@
   ],
   "columnas": []
  },
- "rediseno": false,
+ "rediseno": "excursiones-valencia",
  "selectorRediseno": false,
- "_nota_rediseno": "Sin rediseño (decisión del propietario, 27-10-2026): se deja el aspecto original con los colores de la marca nueva (cambiar-colores). Las hojas de opciones de public/rediseno/ se quitaron; el mecanismo de Base.astro sigue por si hace falta."
+ "_nota_rediseno": "rediseno: hoja public/rediseno/<nombre>.css, la última de cada página. Desde el 27-10-2026 \"excursiones-valencia\" (diseño propio, distinto de Valencia&Go; se monta con scripts/hoja-marca.mjs desde src/estilos/). selectorRediseno queda en false."
 }

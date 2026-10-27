@@ -244,7 +244,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones",
-  "titulo": "Atracciones archivo - Valencia&amp;Go"
+  "titulo": "Atracciones archivo - Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/barrio-del-cabanal-en-valencia/",
@@ -263,7 +263,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--barrio-del-cabanal-en-valencia",
-  "titulo": "Barrio del Cabañal de Valencia | Valencia &amp; Go"
+  "titulo": "Barrio del Cabañal de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/casa-carmela-restaurante/",
@@ -282,7 +282,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--casa-carmela-restaurante",
-  "titulo": "Casa Carmela Restaurante | Valencia &amp; Go"
+  "titulo": "Casa Carmela Restaurante | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/castillo-de-xativa/",
@@ -301,7 +301,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--castillo-de-xativa",
-  "titulo": "Castillo de Xàtiva | Valencia &amp; Go"
+  "titulo": "Castillo de Xàtiva | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/catedral-de-valencia-y-el-santo-caliz/",
@@ -320,7 +320,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--catedral-de-valencia-y-el-santo-caliz",
-  "titulo": "Catedral de Valencia y Santo Càliz | Valencia&amp;Go"
+  "titulo": "Catedral de Valencia y Santo Càliz | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/central-bar-valencia/",
@@ -339,7 +339,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--central-bar-valencia",
-  "titulo": "Central Bar Valencia | Valencia &amp; Go"
+  "titulo": "Central Bar Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/ciudad-de-las-artes-y-las-ciencias/",
@@ -358,7 +358,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--ciudad-de-las-artes-y-las-ciencias",
-  "titulo": "Ciudad de las Artes y las Ciencias de Valencia | Valencia &amp; Go"
+  "titulo": "Ciudad de las Artes y las Ciencias de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/coves-de-sant-josep/",
@@ -377,7 +377,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--coves-de-sant-josep",
-  "titulo": "Coves de Sant Josep, una maravilla natural | Valencia &amp; Go"
+  "titulo": "Coves de Sant Josep, una maravilla natural | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/estacion-del-norte-de-valencia/",
@@ -396,7 +396,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--estacion-del-norte-de-valencia",
-  "titulo": "Estación del Norte de Valencia | Valencia &amp; Go"
+  "titulo": "Estación del Norte de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/ivam-instituto-valenciano-de-arte-moderno/",
@@ -415,7 +415,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--ivam-instituto-valenciano-de-arte-moderno",
-  "titulo": "IVAM Instituto Valenciano de Arte Moderno | Valencia&amp;Go"
+  "titulo": "IVAM Instituto Valenciano de Arte Moderno | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/jardin-del-turia/",
@@ -434,7 +434,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--jardin-del-turia",
-  "titulo": "Jardín del Turia, el pulmón de Valencia | Valencia&amp;Go"
+  "titulo": "Jardín del Turia, el pulmón de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/la-lonja-de-la-seda/",
@@ -453,7 +453,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--la-lonja-de-la-seda",
-  "titulo": "La Lonja de la Seda, Patrimonio de la Humanidad | Valencia &amp; Go"
+  "titulo": "La Lonja de la Seda, Patrimonio de la Humanidad | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/la-postalera-valencia/",
@@ -472,7 +472,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--la-postalera-valencia",
-  "titulo": "La Postalera en Valencia | Valencia &amp; Go"
+  "titulo": "La Postalera en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/marina-beach-club/",
@@ -491,7 +491,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--marina-beach-club",
-  "titulo": "Marina Beach Club | Valencia &amp; Go"
+  "titulo": "Marina Beach Club | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/mercado-central-de-valencia/",
@@ -510,7 +510,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--mercado-central-de-valencia",
-  "titulo": "Mercado Central de Valencia | Valencia &amp; Go"
+  "titulo": "Mercado Central de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/mercado-de-colon-valencia/",
@@ -529,7 +529,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--mercado-de-colon-valencia",
-  "titulo": "Mercado de Colón en Valencia | Valencia &amp; Go"
+  "titulo": "Mercado de Colón en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/miguelete-valencia/",
@@ -548,7 +548,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--miguelete-valencia",
-  "titulo": "El Miguelete de Valencia | Valencia &amp; Go"
+  "titulo": "El Miguelete de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/museo-de-bellas-artes-de-valencia/",
@@ -567,7 +567,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--museo-de-bellas-artes-de-valencia",
-  "titulo": "Museo de Bellas Artes de Valencia | Valencia &amp; Go"
+  "titulo": "Museo de Bellas Artes de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/orio-gastronomia-vasca/",
@@ -586,7 +586,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--orio-gastronomia-vasca",
-  "titulo": "ORIO Gastronomía Vasca - Valencia&amp;Go"
+  "titulo": "ORIO Gastronomía Vasca - Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/page/2/",
@@ -605,7 +605,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--page--2",
-  "titulo": "Atracciones archivo - Página 2 de 3 - Valencia&amp;Go"
+  "titulo": "Atracciones archivo - Página 2 de 3 - Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/page/3/",
@@ -624,7 +624,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--page--3",
-  "titulo": "Atracciones archivo - Página 3 de 3 - Valencia&amp;Go"
+  "titulo": "Atracciones archivo - Página 3 de 3 - Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/palacio-marques-de-dos-aguas/",
@@ -643,7 +643,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--palacio-marques-de-dos-aguas",
-  "titulo": "Palacio Marqués de Dos Aguas | Valencia &amp; Go"
+  "titulo": "Palacio Marqués de Dos Aguas | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/parque-de-cabecera-en-valencia/",
@@ -662,7 +662,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--parque-de-cabecera-en-valencia",
-  "titulo": "Parque de Cabecera en Valencia | Valencia &amp; Go"
+  "titulo": "Parque de Cabecera en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/parque-natural-de-la-albufera-de-valencia/",
@@ -681,7 +681,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--parque-natural-de-la-albufera-de-valencia",
-  "titulo": "Parque Natural de la Albufera de Valencia | Valencia &amp; Go"
+  "titulo": "Parque Natural de la Albufera de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/plaza-de-la-virgen/",
@@ -700,7 +700,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--plaza-de-la-virgen",
-  "titulo": "Plaza de la Virgen de Valencia | Valencia &amp; Go"
+  "titulo": "Plaza de la Virgen de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/plaza-de-toros-de-valencia/",
@@ -719,7 +719,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--plaza-de-toros-de-valencia",
-  "titulo": "Plaza de Toros de Valencia - Valencia&amp;Go"
+  "titulo": "Plaza de Toros de Valencia - Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/puerto-de-valencia/",
@@ -738,7 +738,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--puerto-de-valencia",
-  "titulo": "Puerto de Valencia | Valencia &amp; Go"
+  "titulo": "Puerto de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/ricard-camarena-restaurant/",
@@ -757,7 +757,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--ricard-camarena-restaurant",
-  "titulo": "Ricard Camarena Restaurant | Valencia &amp; Go"
+  "titulo": "Ricard Camarena Restaurant | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/sagardi-valencia/",
@@ -776,7 +776,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--sagardi-valencia",
-  "titulo": "SAGARDI Valencia - Valencia&amp;Go"
+  "titulo": "SAGARDI Valencia - Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/sagunto-y-su-castillo-romano/",
@@ -795,7 +795,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--sagunto-y-su-castillo-romano",
-  "titulo": "Sagunto y su Catillo Romano | Valencia &amp; Go"
+  "titulo": "Sagunto y su Catillo Romano | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/torres-de-serranos/",
@@ -814,7 +814,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--torres-de-serranos",
-  "titulo": "Torres de Serranos en Valencia | Valencia &amp; Go"
+  "titulo": "Torres de Serranos en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/atracciones/veles-e-vents-valencia/",
@@ -833,7 +833,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "atracciones--veles-e-vents-valencia",
-  "titulo": "Veles e Vents Valencia | Valencia &amp; Go"
+  "titulo": "Veles e Vents Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/aviso-legal/",
@@ -852,7 +852,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "aviso-legal",
-  "titulo": "Aviso legal | Valencia &amp; Go"
+  "titulo": "Aviso legal | Excursiones Valencia"
  },
  {
   "ruta": "/barrio-del-carmen-de-valencia/",
@@ -890,7 +890,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "blog",
-  "titulo": "Blog de planes y experiencias en Valencia | Valencia &amp; Go"
+  "titulo": "Blog de planes y experiencias en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/blog/page/2/",
@@ -909,7 +909,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "blog--page--2",
-  "titulo": "Blog de planes y experiencias en Valencia | Valencia &amp; Go"
+  "titulo": "Blog de planes y experiencias en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/blog/page/3/",
@@ -928,7 +928,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "blog--page--3",
-  "titulo": "Blog de planes y experiencias en Valencia | Valencia &amp; Go"
+  "titulo": "Blog de planes y experiencias en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/blog/page/4/",
@@ -947,7 +947,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "blog--page--4",
-  "titulo": "Blog de planes y experiencias en Valencia | Valencia &amp; Go"
+  "titulo": "Blog de planes y experiencias en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/blog/page/5/",
@@ -966,7 +966,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "blog--page--5",
-  "titulo": "Blog de planes y experiencias en Valencia | Valencia &amp; Go"
+  "titulo": "Blog de planes y experiencias en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/blog/page/6/",
@@ -985,7 +985,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "blog--page--6",
-  "titulo": "Blog de planes y experiencias en Valencia | Valencia &amp; Go"
+  "titulo": "Blog de planes y experiencias en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/blog/page/7/",
@@ -1004,7 +1004,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "blog--page--7",
-  "titulo": "Blog de planes y experiencias en Valencia | Valencia &amp; Go"
+  "titulo": "Blog de planes y experiencias en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/blog/page/8/",
@@ -1023,7 +1023,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "blog--page--8",
-  "titulo": "Blog de planes y experiencias en Valencia | Valencia &amp; Go"
+  "titulo": "Blog de planes y experiencias en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/calles-naranjos-valencia/",
@@ -1042,7 +1042,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "calles-naranjos-valencia",
-  "titulo": "Por qué no se comen las naranjas de la calle | Valencia &amp; Go"
+  "titulo": "Por qué no se comen las naranjas de la calle | Excursiones Valencia"
  },
  {
   "ruta": "/catedral-de-valencia/",
@@ -1080,7 +1080,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--consejos-de-vida",
-  "titulo": "Consejos de vida archivos - Valencia&amp;Go"
+  "titulo": "Consejos de vida archivos - Excursiones Valencia"
  },
  {
   "ruta": "/category/consejos-vacaciones/",
@@ -1099,7 +1099,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--consejos-vacaciones",
-  "titulo": "Consejos para tus vacaciones - Valencia&amp;Go"
+  "titulo": "Consejos para tus vacaciones - Excursiones Valencia"
  },
  {
   "ruta": "/category/cultura-tradiciones/",
@@ -1118,7 +1118,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--cultura-tradiciones",
-  "titulo": "Cultura y tradiciones valencianas | Blog Valencia&amp;Go"
+  "titulo": "Cultura y tradiciones valencianas | Blog Excursiones Valencia"
  },
  {
   "ruta": "/category/cultura-tradiciones/page/2/",
@@ -1137,7 +1137,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--cultura-tradiciones--page--2",
-  "titulo": "Cultura y tradiciones valencianas | Blog Valencia&amp;Go"
+  "titulo": "Cultura y tradiciones valencianas | Blog Excursiones Valencia"
  },
  {
   "ruta": "/category/cultura-tradiciones/page/3/",
@@ -1156,7 +1156,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--cultura-tradiciones--page--3",
-  "titulo": "Cultura y tradiciones valencianas | Blog Valencia&amp;Go"
+  "titulo": "Cultura y tradiciones valencianas | Blog Excursiones Valencia"
  },
  {
   "ruta": "/category/gastronomia/",
@@ -1175,7 +1175,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--gastronomia",
-  "titulo": "Gastronomía valenciana | Blog Valencia&amp;Go"
+  "titulo": "Gastronomía valenciana | Blog Excursiones Valencia"
  },
  {
   "ruta": "/category/gastronomia/page/2/",
@@ -1194,7 +1194,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--gastronomia--page--2",
-  "titulo": "Gastronomía valenciana | Blog Valencia&amp;Go"
+  "titulo": "Gastronomía valenciana | Blog Excursiones Valencia"
  },
  {
   "ruta": "/category/noticias/",
@@ -1213,7 +1213,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--noticias",
-  "titulo": "Valencia&amp;Go al descubierto | Blog Valencia&amp;Go"
+  "titulo": "Excursiones Valencia al descubierto | Blog Excursiones Valencia"
  },
  {
   "ruta": "/category/noticias/page/2/",
@@ -1232,7 +1232,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--noticias--page--2",
-  "titulo": "Valencia&amp;Go al descubierto | Blog Valencia&amp;Go"
+  "titulo": "Excursiones Valencia al descubierto | Blog Excursiones Valencia"
  },
  {
   "ruta": "/category/que-hacer/",
@@ -1251,7 +1251,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--que-hacer",
-  "titulo": "Qué hacer archivos - Valencia&amp;Go"
+  "titulo": "Qué hacer archivos - Excursiones Valencia"
  },
  {
   "ruta": "/category/que-hacer/page/2/",
@@ -1270,7 +1270,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--que-hacer--page--2",
-  "titulo": "Qué hacer archivos - Página 2 de 5 - Valencia&amp;Go"
+  "titulo": "Qué hacer archivos - Página 2 de 5 - Excursiones Valencia"
  },
  {
   "ruta": "/category/que-hacer/page/3/",
@@ -1289,7 +1289,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--que-hacer--page--3",
-  "titulo": "Qué hacer archivos - Página 3 de 5 - Valencia&amp;Go"
+  "titulo": "Qué hacer archivos - Página 3 de 5 - Excursiones Valencia"
  },
  {
   "ruta": "/category/que-hacer/page/4/",
@@ -1308,7 +1308,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--que-hacer--page--4",
-  "titulo": "Qué hacer archivos - Página 4 de 5 - Valencia&amp;Go"
+  "titulo": "Qué hacer archivos - Página 4 de 5 - Excursiones Valencia"
  },
  {
   "ruta": "/category/que-hacer/page/5/",
@@ -1327,7 +1327,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--que-hacer--page--5",
-  "titulo": "Qué hacer archivos - Página 5 de 5 - Valencia&amp;Go"
+  "titulo": "Qué hacer archivos - Página 5 de 5 - Excursiones Valencia"
  },
  {
   "ruta": "/category/que-ver/",
@@ -1346,7 +1346,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--que-ver",
-  "titulo": "Qué ver archivos - Valencia&amp;Go"
+  "titulo": "Qué ver archivos - Excursiones Valencia"
  },
  {
   "ruta": "/category/que-ver/page/2/",
@@ -1365,7 +1365,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "category--que-ver--page--2",
-  "titulo": "Qué ver archivos - Página 2 de 2 - Valencia&amp;Go"
+  "titulo": "Qué ver archivos - Página 2 de 2 - Excursiones Valencia"
  },
  {
   "ruta": "/ciudad-de-las-artes-y-las-ciencias/",
@@ -1403,7 +1403,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "condiciones-de-compra",
-  "titulo": "Condiciones de compra | Valencia &amp; Go"
+  "titulo": "Condiciones de compra | Excursiones Valencia"
  },
  {
   "ruta": "/consejos-de-viaje-para-valencia-como-aprovechar-al-maximo-su-visita/",
@@ -1441,7 +1441,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "contacto",
-  "titulo": "Contacto | Valencia &amp; Go"
+  "titulo": "Contacto | Excursiones Valencia"
  },
  {
   "ruta": "/cuevas-san-jose-salto-novia/",
@@ -1498,7 +1498,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "dia-de-la-mujer-emprendedora",
-  "titulo": "Carolina, CEO de Valencia&amp;Go: mujer emprendedora"
+  "titulo": "Carolina, CEO de Excursiones Valencia: mujer emprendedora"
  },
  {
   "ruta": "/donde-esquiar-cerca-de-valencia/",
@@ -1802,7 +1802,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions",
-  "titulo": "Attractions archive - Valencia&amp;Go"
+  "titulo": "Attractions archive - Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/albufera-de-valencia-natural-park/",
@@ -1821,7 +1821,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--albufera-de-valencia-natural-park",
-  "titulo": "Albufera de Valencia Natural Park | Valencia &amp; Go"
+  "titulo": "Albufera de Valencia Natural Park | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/cabanal-neighbourhood-in-valencia/",
@@ -1840,7 +1840,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--cabanal-neighbourhood-in-valencia",
-  "titulo": "Cabañal district of Valencia | Valencia &amp; Go"
+  "titulo": "Cabañal district of Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/casa-carmela-restaurant/",
@@ -1859,7 +1859,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--casa-carmela-restaurant",
-  "titulo": "Casa Carmela Restaurant - Valencia &amp; Go"
+  "titulo": "Casa Carmela Restaurant - Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/castle-of-xativa/",
@@ -1878,7 +1878,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--castle-of-xativa",
-  "titulo": "Xàtiva Castle : Valencia &amp; Go"
+  "titulo": "Xàtiva Castle : Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/central-bar-valencia/",
@@ -1897,7 +1897,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--central-bar-valencia",
-  "titulo": "Central Bar Valencia | Valencia &amp; Go"
+  "titulo": "Central Bar Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/central-market-of-valencia/",
@@ -1916,7 +1916,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--central-market-of-valencia",
-  "titulo": "Valencia Central Market | Valencia &amp; Go"
+  "titulo": "Valencia Central Market | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/city-of-arts-and-sciences/",
@@ -1935,7 +1935,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--city-of-arts-and-sciences",
-  "titulo": "Valencia City of Arts and Sciences | Valencia &amp; Go"
+  "titulo": "Valencia City of Arts and Sciences | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/colon-market-valencia/",
@@ -1954,7 +1954,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--colon-market-valencia",
-  "titulo": "Colón Market in Valencia | Valencia &amp; Go"
+  "titulo": "Colón Market in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/coves-de-sant-josep/",
@@ -1973,7 +1973,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--coves-de-sant-josep",
-  "titulo": "Coves de Sant Josep, a natural wonder | Valencia &amp; Go"
+  "titulo": "Coves de Sant Josep, a natural wonder | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/headland-park-in-valencia/",
@@ -1992,7 +1992,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--headland-park-in-valencia",
-  "titulo": "Parque de Cabecera in Valencia | Valencia &amp; Go"
+  "titulo": "Parque de Cabecera in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/ivam-valencian-institute-of-modern-art/",
@@ -2011,7 +2011,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--ivam-valencian-institute-of-modern-art",
-  "titulo": "IVAM Valencian Institute of Modern Art | Valencia&amp;Go"
+  "titulo": "IVAM Valencian Institute of Modern Art | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/la-postalera-valencia/",
@@ -2030,7 +2030,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--la-postalera-valencia",
-  "titulo": "La Postalera in Valencia | Valencia &amp; Go"
+  "titulo": "La Postalera in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/marina-beach-club/",
@@ -2049,7 +2049,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--marina-beach-club",
-  "titulo": "Marina Beach Club | Valencia &amp; Go"
+  "titulo": "Marina Beach Club | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/marques-de-dos-aguas-palace/",
@@ -2068,7 +2068,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--marques-de-dos-aguas-palace",
-  "titulo": "Marqués de Dos Aguas Palace | Valencia &amp; Go"
+  "titulo": "Marqués de Dos Aguas Palace | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/miguelete-valencia/",
@@ -2087,7 +2087,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--miguelete-valencia",
-  "titulo": "The Miguelete of Valencia | Valencia &amp; Go"
+  "titulo": "The Miguelete of Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/museum-of-fine-arts-of-valencia/",
@@ -2106,7 +2106,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--museum-of-fine-arts-of-valencia",
-  "titulo": "Museum of Fine Arts of Valencia | Valencia &amp; Go"
+  "titulo": "Museum of Fine Arts of Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/north-valencia-station/",
@@ -2125,7 +2125,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--north-valencia-station",
-  "titulo": "Valencia North Station | Valencia &amp; Go"
+  "titulo": "Valencia North Station | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/orio-basque-gastronomy/",
@@ -2144,7 +2144,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--orio-basque-gastronomy",
-  "titulo": "ORIO Basque Gastronomy - Valencia&amp;Go"
+  "titulo": "ORIO Basque Gastronomy - Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/page/2/",
@@ -2163,7 +2163,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--page--2",
-  "titulo": "Attractions archive - Page 2 of 3 - Valencia&amp;Go"
+  "titulo": "Attractions archive - Page 2 of 3 - Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/page/3/",
@@ -2182,7 +2182,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--page--3",
-  "titulo": "Attractions archive - Page 3 of 3 - Valencia&amp;Go"
+  "titulo": "Attractions archive - Page 3 of 3 - Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/port-of-valencia/",
@@ -2201,7 +2201,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--port-of-valencia",
-  "titulo": "Port of Valencia : Valencia &amp; Go"
+  "titulo": "Port of Valencia : Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/ricard-camarena-restaurant/",
@@ -2220,7 +2220,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--ricard-camarena-restaurant",
-  "titulo": "Ricard Camarena Restaurant | Valencia &amp; Go"
+  "titulo": "Ricard Camarena Restaurant | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/sagardi-valencia/",
@@ -2239,7 +2239,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--sagardi-valencia",
-  "titulo": "SAGARDI Valencia - Valencia&amp;Go"
+  "titulo": "SAGARDI Valencia - Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/sagunto-and-its-roman-castle/",
@@ -2258,7 +2258,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--sagunto-and-its-roman-castle",
-  "titulo": "Sagunto and its Roman Castle | Valencia &amp; Go"
+  "titulo": "Sagunto and its Roman Castle | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/serrano-towers/",
@@ -2277,7 +2277,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--serrano-towers",
-  "titulo": "Serranos Towers in Valencia | Valencia &amp; Go"
+  "titulo": "Serranos Towers in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/the-silk-market/",
@@ -2296,7 +2296,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--the-silk-market",
-  "titulo": "La Lonja de la Seda, a World Heritage Site | Valencia &amp; Go"
+  "titulo": "La Lonja de la Seda, a World Heritage Site | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/turia-garden/",
@@ -2315,7 +2315,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--turia-garden",
-  "titulo": "Jardín del Turia, the lungs of Valencia | Valencia&amp;Go"
+  "titulo": "Jardín del Turia, the lungs of Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/valencia-bullring/",
@@ -2334,7 +2334,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--valencia-bullring",
-  "titulo": "Bullring of Valencia - Valencia&amp;Go"
+  "titulo": "Bullring of Valencia - Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/valencia-cathedral-and-the-holy-chalice/",
@@ -2353,7 +2353,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--valencia-cathedral-and-the-holy-chalice",
-  "titulo": "Valencia Cathedral and Santo Càliz | Valencia&amp;Go"
+  "titulo": "Valencia Cathedral and Santo Càliz | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/veles-e-vents-valencia/",
@@ -2372,7 +2372,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--veles-e-vents-valencia",
-  "titulo": "Veles e Vents Valencia | Valencia &amp; Go"
+  "titulo": "Veles e Vents Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/attractions/virgins-square/",
@@ -2391,7 +2391,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--attractions--virgins-square",
-  "titulo": "Plaza de la Virgen de Valencia | Valencia &amp; Go"
+  "titulo": "Plaza de la Virgen de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/best-rooftop-terraces-valencia-enjoy-the-sunset/",
@@ -2410,7 +2410,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--best-rooftop-terraces-valencia-enjoy-the-sunset",
-  "titulo": "Rooftops in Valencia to watch the sunset | Blog Valencia&amp;Go"
+  "titulo": "Rooftops in Valencia to watch the sunset | Blog Excursiones Valencia"
  },
  {
   "ruta": "/en/blog/",
@@ -2429,7 +2429,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--blog",
-  "titulo": "Blog of plans and experiences in Valencia | Valencia &amp; Go"
+  "titulo": "Blog of plans and experiences in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/blog/page/2/",
@@ -2448,7 +2448,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--blog--page--2",
-  "titulo": "Blog of plans and experiences in Valencia | Valencia &amp; Go"
+  "titulo": "Blog of plans and experiences in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/blog/page/3/",
@@ -2467,7 +2467,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--blog--page--3",
-  "titulo": "Blog of plans and experiences in Valencia | Valencia &amp; Go"
+  "titulo": "Blog of plans and experiences in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/blog/page/4/",
@@ -2486,7 +2486,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--blog--page--4",
-  "titulo": "Blog of plans and experiences in Valencia | Valencia &amp; Go"
+  "titulo": "Blog of plans and experiences in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/blog/page/5/",
@@ -2505,7 +2505,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--blog--page--5",
-  "titulo": "Blog of plans and experiences in Valencia | Valencia &amp; Go"
+  "titulo": "Blog of plans and experiences in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/blog/page/6/",
@@ -2524,7 +2524,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--blog--page--6",
-  "titulo": "Blog of plans and experiences in Valencia | Valencia &amp; Go"
+  "titulo": "Blog of plans and experiences in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/blog/page/7/",
@@ -2543,7 +2543,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--blog--page--7",
-  "titulo": "Blog of plans and experiences in Valencia | Valencia &amp; Go"
+  "titulo": "Blog of plans and experiences in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/blog/page/8/",
@@ -2562,7 +2562,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--blog--page--8",
-  "titulo": "Blog of plans and experiences in Valencia | Valencia &amp; Go"
+  "titulo": "Blog of plans and experiences in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/boat-charter/",
@@ -2657,7 +2657,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--culture-traditions",
-  "titulo": "Valencian culture and traditions | Valencia&amp;Go Blog"
+  "titulo": "Valencian culture and traditions | Excursiones Valencia Blog"
  },
  {
   "ruta": "/en/category/culture-traditions/page/2/",
@@ -2676,7 +2676,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--culture-traditions--page--2",
-  "titulo": "Valencian culture and traditions | Valencia&amp;Go Blog"
+  "titulo": "Valencian culture and traditions | Excursiones Valencia Blog"
  },
  {
   "ruta": "/en/category/culture-traditions/page/3/",
@@ -2695,7 +2695,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--culture-traditions--page--3",
-  "titulo": "Valencian culture and traditions | Valencia&amp;Go Blog"
+  "titulo": "Valencian culture and traditions | Excursiones Valencia Blog"
  },
  {
   "ruta": "/en/category/gastronomy/",
@@ -2714,7 +2714,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--gastronomy",
-  "titulo": "Valencian gastronomy | Valencia&amp;Go Blog"
+  "titulo": "Valencian gastronomy | Excursiones Valencia Blog"
  },
  {
   "ruta": "/en/category/gastronomy/page/2/",
@@ -2733,7 +2733,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--gastronomy--page--2",
-  "titulo": "Valencian gastronomy | Valencia&amp;Go Blog"
+  "titulo": "Valencian gastronomy | Excursiones Valencia Blog"
  },
  {
   "ruta": "/en/category/holiday-tips/",
@@ -2752,7 +2752,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--holiday-tips",
-  "titulo": "Tips for your holidays - Valencia&amp;Go"
+  "titulo": "Tips for your holidays - Excursiones Valencia"
  },
  {
   "ruta": "/en/category/life-advice/",
@@ -2771,7 +2771,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--life-advice",
-  "titulo": "Life advice archives - Valencia&amp;Go"
+  "titulo": "Life advice archives - Excursiones Valencia"
  },
  {
   "ruta": "/en/category/news-2/",
@@ -2790,7 +2790,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--news-2",
-  "titulo": "Valencia&amp;Go in the open | Valencia&amp;Go Blog"
+  "titulo": "Excursiones Valencia in the open | Excursiones Valencia Blog"
  },
  {
   "ruta": "/en/category/news-2/page/2/",
@@ -2809,7 +2809,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--news-2--page--2",
-  "titulo": "Valencia&amp;Go in the open | Valencia&amp;Go Blog"
+  "titulo": "Excursiones Valencia in the open | Excursiones Valencia Blog"
  },
  {
   "ruta": "/en/category/what-to-do/",
@@ -2828,7 +2828,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--what-to-do",
-  "titulo": "What to do archives - Valencia&amp;Go"
+  "titulo": "What to do archives - Excursiones Valencia"
  },
  {
   "ruta": "/en/category/what-to-do/page/2/",
@@ -2847,7 +2847,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--what-to-do--page--2",
-  "titulo": "What to do with files - Page 2 of 5 - Valencia&amp;Go"
+  "titulo": "What to do with files - Page 2 of 5 - Excursiones Valencia"
  },
  {
   "ruta": "/en/category/what-to-do/page/3/",
@@ -2866,7 +2866,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--what-to-do--page--3",
-  "titulo": "What to do with files - Page 3 of 5 - Valencia&amp;Go"
+  "titulo": "What to do with files - Page 3 of 5 - Excursiones Valencia"
  },
  {
   "ruta": "/en/category/what-to-do/page/4/",
@@ -2885,7 +2885,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--what-to-do--page--4",
-  "titulo": "What to do with files - Page 4 of 5 - Valencia&amp;Go"
+  "titulo": "What to do with files - Page 4 of 5 - Excursiones Valencia"
  },
  {
   "ruta": "/en/category/what-to-do/page/5/",
@@ -2904,7 +2904,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--what-to-do--page--5",
-  "titulo": "What to do with files - Page 5 of 5 - Valencia&amp;Go"
+  "titulo": "What to do with files - Page 5 of 5 - Excursiones Valencia"
  },
  {
   "ruta": "/en/category/what-to-see-2/",
@@ -2923,7 +2923,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--what-to-see-2",
-  "titulo": "What to see archives - Valencia&amp;Go"
+  "titulo": "What to see archives - Excursiones Valencia"
  },
  {
   "ruta": "/en/category/what-to-see-2/page/2/",
@@ -2942,7 +2942,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--category--what-to-see-2--page--2",
-  "titulo": "What to see archives - Page 2 of 2 - Valencia&amp;Go"
+  "titulo": "What to see archives - Page 2 of 2 - Excursiones Valencia"
  },
  {
   "ruta": "/en/christmas-in-valencia/",
@@ -2999,7 +2999,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--conditions-of-purchase",
-  "titulo": "Conditions of purchase : Valencia &amp; Go"
+  "titulo": "Conditions of purchase : Excursiones Valencia"
  },
  {
   "ruta": "/en/contact/",
@@ -3018,7 +3018,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--contact",
-  "titulo": "Contact Valencia &amp; Go"
+  "titulo": "Contact Excursiones Valencia"
  },
  {
   "ruta": "/en/cookie-policy/",
@@ -3037,7 +3037,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--cookie-policy",
-  "titulo": "Cookie Policy | Valencia&amp;Go"
+  "titulo": "Cookie Policy | Excursiones Valencia"
  },
  {
   "ruta": "/en/day-of-the-enterprising-woman/",
@@ -3056,7 +3056,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--day-of-the-enterprising-woman",
-  "titulo": "Carolina, CEO of Valencia&amp;Go: a female entrepreneur"
+  "titulo": "Carolina, CEO of Excursiones Valencia: a female entrepreneur"
  },
  {
   "ruta": "/en/day-trips-near-valencia-with-children-the-perfect-plan-for-september/",
@@ -3113,7 +3113,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--discount-packs-2",
-  "titulo": "Discounted packs archives - Valencia&amp;Go"
+  "titulo": "Discounted packs archives - Excursiones Valencia"
  },
  {
   "ruta": "/en/discount-packs-2/3-days-4-activities-pack-30-discount/",
@@ -3208,7 +3208,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--discount-packs-2--pack-excursion-to-the-caves-of-san-jose",
-  "titulo": "Pack to the Caves of San José | Valencia&amp;Go"
+  "titulo": "Pack to the Caves of San José | Excursiones Valencia"
  },
  {
   "ruta": "/en/discount-packs-2/pack-excursion-to-the-natural-park-of-la-albufera/",
@@ -3227,7 +3227,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--discount-packs-2--pack-excursion-to-the-natural-park-of-la-albufera",
-  "titulo": "Pack Excursion to the Albufera Natural Park - Valencia&amp;Go"
+  "titulo": "Pack Excursion to the Albufera Natural Park - Excursiones Valencia"
  },
  {
   "ruta": "/en/discount-packs-2/pack-what-to-see-in-1-day-cathedral-and-saint-nicolas-in-the-art-tour/",
@@ -3265,7 +3265,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--discount-packs-2--utiel-requena-winery-excursion-pack-with-wine-tasting-in-the-vineyard",
-  "titulo": "Pack - Excursion to Utiel-Requena Wineries with tasting in the vineyard - Valencia&amp;Go"
+  "titulo": "Pack - Excursion to Utiel-Requena Wineries with tasting in the vineyard - Excursiones Valencia"
  },
  {
   "ruta": "/en/essential-plans-in-valencia-for-may-2025/",
@@ -3360,7 +3360,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--excursions-cruises--excursion-to-peniscola-boat-trips",
-  "titulo": "Day trip to Peñíscola for cruise passengers | Valencia&amp;Go"
+  "titulo": "Day trip to Peñíscola for cruise passengers | Excursiones Valencia"
  },
  {
   "ruta": "/en/excursions-cruises/page/2/",
@@ -3398,7 +3398,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--excursions-cruises--san-jose-caves",
-  "titulo": "Excursion for cruisers to the Caves of San José : Valencia&amp;Go"
+  "titulo": "Excursion for cruisers to the Caves of San José : Excursiones Valencia"
  },
  {
   "ruta": "/en/excursions-cruises/tour-arte-arquitectura-valencia/",
@@ -3436,7 +3436,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--excursions-cruises--wine-tasting-in-valencia-tour-and-winery-cruises",
-  "titulo": "Valencia tour with wine tasting for cruise passengers | Valencia&amp;Go"
+  "titulo": "Valencia tour with wine tasting for cruise passengers | Excursiones Valencia"
  },
  {
   "ruta": "/en/excursions-near-valencia-discover-nature-history-and-culture-outside-the-city/",
@@ -3474,7 +3474,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--excursions-valencia-autumn",
-  "titulo": "Best Excursions in Valencia this Autumn | Valencia &amp; Go"
+  "titulo": "Best Excursions in Valencia this Autumn | Excursiones Valencia"
  },
  {
   "ruta": "/en/excursions/",
@@ -3569,7 +3569,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--excursions--excursion-to-bocairent",
-  "titulo": "Excursion to Bocairent from Valencia | Valencia&amp;Go"
+  "titulo": "Excursion to Bocairent from Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/excursions/excursion-to-denia-castle-and-the-cave-of-the-skulls/",
@@ -3702,7 +3702,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--excursions--excursions-the-requena-grape-harvest-experience",
-  "titulo": "Grape harvest experience in Requena with brunch | Valencia &amp; Go"
+  "titulo": "Grape harvest experience in Requena with brunch | Excursiones Valencia"
  },
  {
   "ruta": "/en/excursions/fallero-artists-workshop/",
@@ -3778,7 +3778,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--excursions--orange-orchard-excursion",
-  "titulo": "Excursion to an orange orchard from 1870 | Valencia&amp;Go"
+  "titulo": "Excursion to an orange orchard from 1870 | Excursiones Valencia"
  },
  {
   "ruta": "/en/excursions/page/2/",
@@ -3873,7 +3873,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--excursions--romantic-excursion-to-the-albufera",
-  "titulo": "Romantic excursion to the Albufera | Valencia &amp; Go"
+  "titulo": "Romantic excursion to the Albufera | Excursiones Valencia"
  },
  {
   "ruta": "/en/excursions/san-jose-caves-and-salto-de-la-novia-excursion/",
@@ -4139,7 +4139,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--legal-notice",
-  "titulo": "Legal notice : Valencia &amp; Go"
+  "titulo": "Legal notice : Excursiones Valencia"
  },
  {
   "ruta": "/en/living-in-valencia-las-fallas-vs-everyday-life-in-the-city/",
@@ -4367,7 +4367,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--privacy-policy",
-  "titulo": "Privacy policy | Valencia &amp; Go"
+  "titulo": "Privacy policy | Excursiones Valencia"
  },
  {
   "ruta": "/en/saint-nicolas-church/",
@@ -4519,7 +4519,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--streets-orange-trees-valencia",
-  "titulo": "Why they don't eat the oranges in the street | Valencia &amp; Go"
+  "titulo": "Why they don't eat the oranges in the street | Excursiones Valencia"
  },
  {
   "ruta": "/en/tailor-made-experiences/",
@@ -4538,7 +4538,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--tailor-made-experiences",
-  "titulo": "Tailor-made experiences in Valencia | Valencia&amp;Go"
+  "titulo": "Tailor-made experiences in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/the-best-autumn-plans-in-valencia/",
@@ -4557,7 +4557,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--the-best-autumn-plans-in-valencia",
-  "titulo": "Enjoy the magic of autumn in Valencia | Valencia&amp;Go Blog"
+  "titulo": "Enjoy the magic of autumn in Valencia | Excursiones Valencia Blog"
  },
  {
   "ruta": "/en/the-definitive-guide-to-summer-in-valencia/",
@@ -4861,7 +4861,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--valencia-tours--bike-route-rio-turia-park",
-  "titulo": "Bike route through the Turia River Park | Valencia&amp;Go"
+  "titulo": "Bike route through the Turia River Park | Excursiones Valencia"
  },
  {
   "ruta": "/en/valencia-tours/christmas-special-nativity-scene-tour/",
@@ -4880,7 +4880,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--valencia-tours--christmas-special-nativity-scene-tour",
-  "titulo": "Nativity Scenes Special Christmas Tour - Valencia&amp;Go"
+  "titulo": "Nativity Scenes Special Christmas Tour - Excursiones Valencia"
  },
  {
   "ruta": "/en/valencia-tours/city-of-arts-and-sciences-tour/",
@@ -5146,7 +5146,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--valencia-tours--valencia-tours-carmen-wine-tasting",
-  "titulo": "Tour of Valencia with local wine tasting | Valencia&amp;Go"
+  "titulo": "Tour of Valencia with local wine tasting | Excursiones Valencia"
  },
  {
   "ruta": "/en/valencia-valentines-day-plans/",
@@ -5184,7 +5184,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--vehicles",
-  "titulo": "Private motorboat and yacht hire in Valencia | Valencia&amp;Go"
+  "titulo": "Private motorboat and yacht hire in Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/en/vehicles/private-boat/",
@@ -5203,7 +5203,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--vehicles--private-boat",
-  "titulo": "Private boat rental | Valencia&amp;Go"
+  "titulo": "Private boat rental | Excursiones Valencia"
  },
  {
   "ruta": "/en/vehicles/private-yacht/",
@@ -5222,7 +5222,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--vehicles--private-yacht",
-  "titulo": "Private yacht charter | Valencia&amp;Go"
+  "titulo": "Private yacht charter | Excursiones Valencia"
  },
  {
   "ruta": "/en/visit-utiel-requena/",
@@ -5260,7 +5260,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--what-is-horchata-a-valencian-summer-drink",
-  "titulo": "What is horchata? | Valencia&amp;Go Blog"
+  "titulo": "What is horchata? | Excursiones Valencia Blog"
  },
  {
   "ruta": "/en/what-to-do-in-valencia-for-kids-perfect-summer-holidays/",
@@ -5279,7 +5279,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--what-to-do-in-valencia-for-kids-perfect-summer-holidays",
-  "titulo": "What to do in Valencia with children | Valencia&amp;Go Blog"
+  "titulo": "What to do in Valencia with children | Excursiones Valencia Blog"
  },
  {
   "ruta": "/en/what-to-do-in-valencia-june/",
@@ -5374,7 +5374,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "en--who-we-are",
-  "titulo": "About us | Valencia&amp;Go, official local guides"
+  "titulo": "About us | Excursiones Valencia, official local guides"
  },
  {
   "ruta": "/en/why-it-is-worth-visiting-valencia/",
@@ -5545,7 +5545,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones-cruceros--cata-de-vinos-en-valencia-tour-y-bodega-cruceros",
-  "titulo": "Tour por Valencia con cata de vinos para cruceros | Valencia&amp;Go"
+  "titulo": "Tour por Valencia con cata de vinos para cruceros | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones-cruceros/cuevas-de-san-jose/",
@@ -5564,7 +5564,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones-cruceros--cuevas-de-san-jose",
-  "titulo": "Excursión para cruceros a las Cuevas de San José | Valencia&amp;Go"
+  "titulo": "Excursión para cruceros a las Cuevas de San José | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones-cruceros/excursion-a-peniscola-cruceros/",
@@ -5583,7 +5583,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones-cruceros--excursion-a-peniscola-cruceros",
-  "titulo": "Excursión a Peñíscola para cruceros | Valencia&amp;Go"
+  "titulo": "Excursión a Peñíscola para cruceros | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones-cruceros/excursion-cruceros-bodegas-utiel-requena/",
@@ -5697,7 +5697,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones-valencia-otono",
-  "titulo": "Mejores Excursiones en Valencia Este Otoño | Valencia &amp; Go"
+  "titulo": "Mejores Excursiones en Valencia Este Otoño | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones/",
@@ -5716,7 +5716,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones",
-  "titulo": "Excursiones desde Valencia con guía oficial | Valencia&amp;Go"
+  "titulo": "Excursiones desde Valencia con guía oficial | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones/bodegas-utiel-requena-cata-vina/",
@@ -5830,7 +5830,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones--excursion-a-bocairent",
-  "titulo": "Excursión a Bocairent desde Valencia | Valencia&amp;Go"
+  "titulo": "Excursión a Bocairent desde Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones/excursion-a-la-isla-de-tabarca/",
@@ -5963,7 +5963,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones--excursion-huerto-de-naranjos",
-  "titulo": "Excursión a un huerto de naranjos de 1870 | Valencia&amp;Go"
+  "titulo": "Excursión a un huerto de naranjos de 1870 | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones/excursion-peniscola-castillo-papa-luna/",
@@ -6001,7 +6001,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones--excursion-romantica-a-la-albufera",
-  "titulo": "Excursión romántica a la Albufera | Valencia &amp; Go"
+  "titulo": "Excursión romántica a la Albufera | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones/excursiones-cata-quesos-vinos-utiel-requena/",
@@ -6039,7 +6039,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones--excursiones-experiencia-vendimia-requena",
-  "titulo": "Experiencia de vendimia en Requena con brunch | Valencia &amp; Go"
+  "titulo": "Experiencia de vendimia en Requena con brunch | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones/page/2/",
@@ -6058,7 +6058,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones--page--2",
-  "titulo": "Excursiones desde Valencia con guía oficial | Valencia&amp;Go"
+  "titulo": "Excursiones desde Valencia con guía oficial | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones/page/3/",
@@ -6077,7 +6077,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones--page--3",
-  "titulo": "Excursiones desde Valencia con guía oficial | Valencia&amp;Go"
+  "titulo": "Excursiones desde Valencia con guía oficial | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones/page/4/",
@@ -6096,7 +6096,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones--page--4",
-  "titulo": "Excursiones desde Valencia con guía oficial | Valencia&amp;Go"
+  "titulo": "Excursiones desde Valencia con guía oficial | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones/page/5/",
@@ -6115,7 +6115,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "excursiones--page--5",
-  "titulo": "Excursiones desde Valencia con guía oficial | Valencia&amp;Go"
+  "titulo": "Excursiones desde Valencia con guía oficial | Excursiones Valencia"
  },
  {
   "ruta": "/excursiones/taller-artistas-falleros/",
@@ -6191,7 +6191,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "experiencias-a-medida",
-  "titulo": "Experiencias a medida en Valencia | Valencia&amp;Go"
+  "titulo": "Experiencias a medida en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/fallas-valencia-2026-guia-completa/",
@@ -6495,7 +6495,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions",
-  "titulo": "Archives des attractions - Valencia&amp;Go"
+  "titulo": "Archives des attractions - Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/arenes-de-valence/",
@@ -6514,7 +6514,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--arenes-de-valence",
-  "titulo": "Arènes de Valence - Valencia&amp;Go"
+  "titulo": "Arènes de Valence - Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/bar-central-valencia/",
@@ -6533,7 +6533,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--bar-central-valencia",
-  "titulo": "Central Bar Valencia | Valencia &amp; Go"
+  "titulo": "Central Bar Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/chateau-de-xativa/",
@@ -6552,7 +6552,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--chateau-de-xativa",
-  "titulo": "Château de Xàtiva : Valencia &amp; Go"
+  "titulo": "Château de Xàtiva : Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/coves-de-sant-josep/",
@@ -6571,7 +6571,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--coves-de-sant-josep",
-  "titulo": "Les criques de Sant Josep, une merveille naturelle | Valencia &amp; Go"
+  "titulo": "Les criques de Sant Josep, une merveille naturelle | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/gare-de-valencia-nord/",
@@ -6590,7 +6590,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--gare-de-valencia-nord",
-  "titulo": "Gare du Nord de Valence | Valencia &amp; Go"
+  "titulo": "Gare du Nord de Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/ivam-institut-valencien-dart-moderne/",
@@ -6609,7 +6609,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--ivam-institut-valencien-dart-moderne",
-  "titulo": "IVAM Institut valencien d'art moderne | Valencia&amp;Go"
+  "titulo": "IVAM Institut valencien d'art moderne | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/jardin-de-turia/",
@@ -6628,7 +6628,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--jardin-de-turia",
-  "titulo": "Jardín del Turia, le poumon de Valence | Valencia&amp;Go"
+  "titulo": "Jardín del Turia, le poumon de Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/la-cathedrale-de-valence-et-le-saint-calice/",
@@ -6647,7 +6647,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--la-cathedrale-de-valence-et-le-saint-calice",
-  "titulo": "Cathédrale de Valence et Santo Càliz | Valencia&amp;Go"
+  "titulo": "Cathédrale de Valence et Santo Càliz | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/la-postalera-valencia/",
@@ -6666,7 +6666,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--la-postalera-valencia",
-  "titulo": "La Postalera à Valence | Valencia &amp; Go"
+  "titulo": "La Postalera à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/le-marche-de-la-soie/",
@@ -6685,7 +6685,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--le-marche-de-la-soie",
-  "titulo": "La Lonja de la Seda, un site du patrimoine mondial | Valencia &amp; Go"
+  "titulo": "La Lonja de la Seda, un site du patrimoine mondial | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/marche-central-de-valence/",
@@ -6704,7 +6704,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--marche-central-de-valence",
-  "titulo": "Marché central de Valence | Valencia &amp; Go"
+  "titulo": "Marché central de Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/marche-du-colon-valencia/",
@@ -6723,7 +6723,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--marche-du-colon-valencia",
-  "titulo": "Marché de Colón à Valence | Valencia &amp; Go"
+  "titulo": "Marché de Colón à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/marina-beach-club/",
@@ -6742,7 +6742,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--marina-beach-club",
-  "titulo": "Marina Beach Club | Valencia &amp; Go"
+  "titulo": "Marina Beach Club | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/miguelete-valencia/",
@@ -6761,7 +6761,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--miguelete-valencia",
-  "titulo": "Le Miguelete de Valencia | Valencia &amp; Go"
+  "titulo": "Le Miguelete de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/musee-des-beaux-arts-de-valence/",
@@ -6780,7 +6780,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--musee-des-beaux-arts-de-valence",
-  "titulo": "Musée des Beaux-Arts de Valence | Valencia &amp; Go"
+  "titulo": "Musée des Beaux-Arts de Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/orio-gastronomie-basque/",
@@ -6799,7 +6799,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--orio-gastronomie-basque",
-  "titulo": "ORIO Gastronomie basque - Valencia&amp;Go"
+  "titulo": "ORIO Gastronomie basque - Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/page/2/",
@@ -6818,7 +6818,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--page--2",
-  "titulo": "Archives des attractions - Page 2 sur 3 - Valencia&amp;Go"
+  "titulo": "Archives des attractions - Page 2 sur 3 - Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/page/3/",
@@ -6837,7 +6837,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--page--3",
-  "titulo": "Archives des attractions - Page 3 sur 3 - Valencia&amp;Go"
+  "titulo": "Archives des attractions - Page 3 sur 3 - Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/palais-marques-de-dos-aguas/",
@@ -6856,7 +6856,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--palais-marques-de-dos-aguas",
-  "titulo": "Palais Marqués de Dos Aguas | Valencia &amp; Go"
+  "titulo": "Palais Marqués de Dos Aguas | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/parc-du-promontoire-a-valence/",
@@ -6875,7 +6875,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--parc-du-promontoire-a-valence",
-  "titulo": "Parque de Cabecera à Valence | Valencia &amp; Go"
+  "titulo": "Parque de Cabecera à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/parc-naturel-de-lalbufera-de-valence/",
@@ -6894,7 +6894,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--parc-naturel-de-lalbufera-de-valence",
-  "titulo": "Parc naturel de l'Albufera de Valencia | Valencia &amp; Go"
+  "titulo": "Parc naturel de l'Albufera de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/place-de-la-vierge/",
@@ -6913,7 +6913,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--place-de-la-vierge",
-  "titulo": "Plaza de la Virgen de Valencia | Valencia &amp; Go"
+  "titulo": "Plaza de la Virgen de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/port-de-valence/",
@@ -6932,7 +6932,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--port-de-valence",
-  "titulo": "Port de Valence : Valencia &amp; Go"
+  "titulo": "Port de Valence : Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/quartier-de-cabanal-a-valence/",
@@ -6951,7 +6951,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--quartier-de-cabanal-a-valence",
-  "titulo": "Quartier de Cabañal à Valence | Valencia &amp; Go"
+  "titulo": "Quartier de Cabañal à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/restaurant-casa-carmela/",
@@ -6970,7 +6970,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--restaurant-casa-carmela",
-  "titulo": "Restaurant Casa Carmela - Valencia &amp; Go"
+  "titulo": "Restaurant Casa Carmela - Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/restaurant-ricard-camarena/",
@@ -6989,7 +6989,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--restaurant-ricard-camarena",
-  "titulo": "Ricard Camarena Restaurant | Valencia &amp; Go"
+  "titulo": "Ricard Camarena Restaurant | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/sagardi-valencia/",
@@ -7027,7 +7027,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--sagunto-et-son-chateau-romain",
-  "titulo": "Sagunto et son château romain | Valencia &amp; Go"
+  "titulo": "Sagunto et son château romain | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/tours-serrano/",
@@ -7046,7 +7046,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--tours-serrano",
-  "titulo": "Tours Serranos à Valence | Valencia &amp; Go"
+  "titulo": "Tours Serranos à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/veles-e-vents-valencia/",
@@ -7065,7 +7065,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--veles-e-vents-valencia",
-  "titulo": "Veles e Vents Valencia | Valencia &amp; Go"
+  "titulo": "Veles e Vents Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/fr/attractions/ville-des-arts-et-des-sciences/",
@@ -7084,7 +7084,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--attractions--ville-des-arts-et-des-sciences",
-  "titulo": "Valencia City of Arts and Sciences | Valencia &amp; Go"
+  "titulo": "Valencia City of Arts and Sciences | Excursiones Valencia"
  },
  {
   "ruta": "/fr/avis-juridique/",
@@ -7103,7 +7103,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--avis-juridique",
-  "titulo": "Avis juridique : Valencia &amp; Go"
+  "titulo": "Avis juridique : Excursiones Valencia"
  },
  {
   "ruta": "/fr/blog/",
@@ -7122,7 +7122,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--blog",
-  "titulo": "Blog de projets et d'expériences à Valence | Valencia &amp; Go"
+  "titulo": "Blog de projets et d'expériences à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/blog/page/2/",
@@ -7141,7 +7141,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--blog--page--2",
-  "titulo": "Blog de projets et d'expériences à Valence | Valencia &amp; Go"
+  "titulo": "Blog de projets et d'expériences à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/blog/page/3/",
@@ -7160,7 +7160,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--blog--page--3",
-  "titulo": "Blog de projets et d'expériences à Valence | Valencia &amp; Go"
+  "titulo": "Blog de projets et d'expériences à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/blog/page/4/",
@@ -7179,7 +7179,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--blog--page--4",
-  "titulo": "Blog de projets et d'expériences à Valence | Valencia &amp; Go"
+  "titulo": "Blog de projets et d'expériences à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/blog/page/5/",
@@ -7198,7 +7198,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--blog--page--5",
-  "titulo": "Blog de projets et d'expériences à Valence | Valencia &amp; Go"
+  "titulo": "Blog de projets et d'expériences à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/blog/page/6/",
@@ -7217,7 +7217,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--blog--page--6",
-  "titulo": "Blog de projets et d'expériences à Valence | Valencia &amp; Go"
+  "titulo": "Blog de projets et d'expériences à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/blog/page/7/",
@@ -7236,7 +7236,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--blog--page--7",
-  "titulo": "Blog de projets et d'expériences à Valence | Valencia &amp; Go"
+  "titulo": "Blog de projets et d'expériences à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/blog/page/8/",
@@ -7255,7 +7255,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--blog--page--8",
-  "titulo": "Blog de projets et d'expériences à Valence | Valencia &amp; Go"
+  "titulo": "Blog de projets et d'expériences à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/carmen-district-de-valencia/",
@@ -7293,7 +7293,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--ce-quil-faut-faire",
-  "titulo": "Archives des activités - Valencia&amp;Go"
+  "titulo": "Archives des activités - Excursiones Valencia"
  },
  {
   "ruta": "/fr/categorie/ce-quil-faut-faire/page/2/",
@@ -7312,7 +7312,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--ce-quil-faut-faire--page--2",
-  "titulo": "Que faire avec les fichiers - Page 2 sur 5 - Valencia&amp;Go"
+  "titulo": "Que faire avec les fichiers - Page 2 sur 5 - Excursiones Valencia"
  },
  {
   "ruta": "/fr/categorie/ce-quil-faut-faire/page/3/",
@@ -7331,7 +7331,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--ce-quil-faut-faire--page--3",
-  "titulo": "Que faire avec les fichiers - Page 3 sur 5 - Valencia&amp;Go"
+  "titulo": "Que faire avec les fichiers - Page 3 sur 5 - Excursiones Valencia"
  },
  {
   "ruta": "/fr/categorie/ce-quil-faut-faire/page/4/",
@@ -7350,7 +7350,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--ce-quil-faut-faire--page--4",
-  "titulo": "Que faire avec les fichiers - Page 4 sur 5 - Valencia&amp;Go"
+  "titulo": "Que faire avec les fichiers - Page 4 sur 5 - Excursiones Valencia"
  },
  {
   "ruta": "/fr/categorie/ce-quil-faut-faire/page/5/",
@@ -7369,7 +7369,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--ce-quil-faut-faire--page--5",
-  "titulo": "Que faire avec les fichiers - Page 5 sur 5 - Valencia&amp;Go"
+  "titulo": "Que faire avec les fichiers - Page 5 sur 5 - Excursiones Valencia"
  },
  {
   "ruta": "/fr/categorie/ce-quil-faut-voir/",
@@ -7388,7 +7388,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--ce-quil-faut-voir",
-  "titulo": "Archives des sites à voir - Valencia&amp;Go"
+  "titulo": "Archives des sites à voir - Excursiones Valencia"
  },
  {
   "ruta": "/fr/categorie/ce-quil-faut-voir/page/2/",
@@ -7407,7 +7407,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--ce-quil-faut-voir--page--2",
-  "titulo": "À voir - Page 2 sur 2 - Valencia&amp;Go"
+  "titulo": "À voir - Page 2 sur 2 - Excursiones Valencia"
  },
  {
   "ruta": "/fr/categorie/conseils-de-vie/",
@@ -7426,7 +7426,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--conseils-de-vie",
-  "titulo": "Archives des conseils de vie - Valencia&amp;Go"
+  "titulo": "Archives des conseils de vie - Excursiones Valencia"
  },
  {
   "ruta": "/fr/categorie/conseils-pour-les-vacances/",
@@ -7445,7 +7445,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--conseils-pour-les-vacances",
-  "titulo": "Conseils pour les vacances - Valencia&amp;Go"
+  "titulo": "Conseils pour les vacances - Excursiones Valencia"
  },
  {
   "ruta": "/fr/categorie/culture-traditions/",
@@ -7464,7 +7464,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--culture-traditions",
-  "titulo": "Culture et traditions valenciennes | Valencia&amp;Go Blog"
+  "titulo": "Culture et traditions valenciennes | Excursiones Valencia Blog"
  },
  {
   "ruta": "/fr/categorie/culture-traditions/page/2/",
@@ -7483,7 +7483,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--culture-traditions--page--2",
-  "titulo": "Culture et traditions valenciennes | Valencia&amp;Go Blog"
+  "titulo": "Culture et traditions valenciennes | Excursiones Valencia Blog"
  },
  {
   "ruta": "/fr/categorie/culture-traditions/page/3/",
@@ -7502,7 +7502,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--culture-traditions--page--3",
-  "titulo": "Culture et traditions valenciennes | Valencia&amp;Go Blog"
+  "titulo": "Culture et traditions valenciennes | Excursiones Valencia Blog"
  },
  {
   "ruta": "/fr/categorie/gastronomie/",
@@ -7521,7 +7521,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--gastronomie",
-  "titulo": "Gastronomie valencienne | Valencia&amp;Go Blog"
+  "titulo": "Gastronomie valencienne | Excursiones Valencia Blog"
  },
  {
   "ruta": "/fr/categorie/gastronomie/page/2/",
@@ -7540,7 +7540,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--gastronomie--page--2",
-  "titulo": "Gastronomie valencienne | Valencia&amp;Go Blog"
+  "titulo": "Gastronomie valencienne | Excursiones Valencia Blog"
  },
  {
   "ruta": "/fr/categorie/nouvelles/",
@@ -7559,7 +7559,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--nouvelles",
-  "titulo": "Valencia&amp;Go à l'air libre | Valencia&amp;Go Blog"
+  "titulo": "Excursiones Valencia à l'air libre | Excursiones Valencia Blog"
  },
  {
   "ruta": "/fr/categorie/nouvelles/page/2/",
@@ -7578,7 +7578,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--categorie--nouvelles--page--2",
-  "titulo": "Valencia&amp;Go à l'air libre | Valencia&amp;Go Blog"
+  "titulo": "Excursiones Valencia à l'air libre | Excursiones Valencia Blog"
  },
  {
   "ruta": "/fr/cathedrale-de-valence/",
@@ -7654,7 +7654,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--conditions-dachat",
-  "titulo": "Conditions d'achat : Valencia &amp; Go"
+  "titulo": "Conditions d'achat : Excursiones Valencia"
  },
  {
   "ruta": "/fr/conseils-de-voyage-pour-valencia-comment-tirer-le-meilleur-parti-de-votre-visite/",
@@ -7692,7 +7692,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--contact",
-  "titulo": "Contacter Valencia &amp; Go"
+  "titulo": "Contacter Excursiones Valencia"
  },
  {
   "ruta": "/fr/croisieres-speciales/",
@@ -7825,7 +7825,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--excursions-croisieres--degustation-de-vins-a-valence-visite-guidee-et-croisiere-avec-visite-dun-domaine-viticole",
-  "titulo": "Visite de Valence avec dégustation de vins pour les croisiéristes | Valencia&amp;Go"
+  "titulo": "Visite de Valence avec dégustation de vins pour les croisiéristes | Excursiones Valencia"
  },
  {
   "ruta": "/fr/excursions-croisieres/excursion-a-peniscola-croisieres/",
@@ -7844,7 +7844,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--excursions-croisieres--excursion-a-peniscola-croisieres",
-  "titulo": "Excursion à Peñíscola pour les croisiéristes | Valencia&amp;Go"
+  "titulo": "Excursion à Peñíscola pour les croisiéristes | Excursiones Valencia"
  },
  {
   "ruta": "/fr/excursions-croisieres/excursion-en-bateau-avec-visite-des-caves-dutiel-requena/",
@@ -7882,7 +7882,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--excursions-croisieres--grottes-de-san-jose",
-  "titulo": "Excursion pour les croisiéristes aux grottes de San José : Valencia&amp;Go"
+  "titulo": "Excursion pour les croisiéristes aux grottes de San José : Excursiones Valencia"
  },
  {
   "ruta": "/fr/excursions-croisieres/page/2/",
@@ -8015,7 +8015,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--excursions-valence-automne",
-  "titulo": "Meilleures excursions à Valence cet automne | Valencia &amp; Go"
+  "titulo": "Meilleures excursions à Valence cet automne | Excursiones Valencia"
  },
  {
   "ruta": "/fr/excursions/",
@@ -8148,7 +8148,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--excursions--excursion-a-bocairent",
-  "titulo": "Excursion à Bocairent depuis Valence | Valencia&amp;Go"
+  "titulo": "Excursion à Bocairent depuis Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/excursions/excursion-a-denia-chateau-et-grotte-des-cranes/",
@@ -8281,7 +8281,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--excursions--excursion-dans-une-orangeraie",
-  "titulo": "Excursion dans une orangeraie de 1870 | Valencia&amp;Go"
+  "titulo": "Excursion dans une orangeraie de 1870 | Excursiones Valencia"
  },
  {
   "ruta": "/fr/excursions/excursion-romantique-a-lalbufera/",
@@ -8300,7 +8300,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--excursions--excursion-romantique-a-lalbufera",
-  "titulo": "Excursion romantique à l'Albufera | Valencia &amp; Go"
+  "titulo": "Excursion romantique à l'Albufera | Excursiones Valencia"
  },
  {
   "ruta": "/fr/excursions/excursion-sur-lile-de-tabarca/",
@@ -8338,7 +8338,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--excursions--excursions-et-experience-des-vendanges-a-requena",
-  "titulo": "Expérience de vendanges à Requena avec brunch | Valencia &amp; Go"
+  "titulo": "Expérience de vendanges à Requena avec brunch | Excursiones Valencia"
  },
  {
   "ruta": "/fr/excursions/journee-complete-a-terra-mitica/",
@@ -8509,7 +8509,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--experiences-sur-mesure",
-  "titulo": "Expériences sur mesure à Valence | Valencia&amp;Go"
+  "titulo": "Expériences sur mesure à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/festival-de-far-valencia/",
@@ -8699,7 +8699,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--journee-de-la-femme-entreprenante",
-  "titulo": "Carolina, PDG de Valencia&amp;Go : une femme entrepreneure"
+  "titulo": "Carolina, PDG de Excursiones Valencia : une femme entrepreneure"
  },
  {
   "ruta": "/fr/la-nuit-de-la-saint-jean/",
@@ -8813,7 +8813,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--les-meilleures-terrasses-sur-les-toits-de-valence-pour-profiter-du-coucher-de-soleil",
-  "titulo": "Les toits de Valence pour admirer le coucher du soleil | Valencia&amp;Go Blog"
+  "titulo": "Les toits de Valence pour admirer le coucher du soleil | Excursiones Valencia Blog"
  },
  {
   "ruta": "/fr/les-meilleurs-plans-dautomne-a-valence/",
@@ -8832,7 +8832,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--les-meilleurs-plans-dautomne-a-valence",
-  "titulo": "Profitez de la magie de l'automne à Valence | Valencia&amp;Go Blog"
+  "titulo": "Profitez de la magie de l'automne à Valence | Excursiones Valencia Blog"
  },
  {
   "ruta": "/fr/lieux-dinteret/",
@@ -9022,7 +9022,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--paquets-de-reduction-2",
-  "titulo": "Archives des packs à prix réduit - Valencia&amp;Go"
+  "titulo": "Archives des packs à prix réduit - Excursiones Valencia"
  },
  {
   "ruta": "/fr/paquets-de-reduction-2/2-jours-3-activites-pack-25-de-reduction/",
@@ -9079,7 +9079,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--paquets-de-reduction-2--excursion-au-domaine-viticole-utiel-requena-avec-degustation-de-vin-dans-le-vignoble-2",
-  "titulo": "Pack - Excursion dans les caves d'Utiel-Requena avec dégustation dans les vignes - Valencia&amp;Go"
+  "titulo": "Pack - Excursion dans les caves d'Utiel-Requena avec dégustation dans les vignes - Excursiones Valencia"
  },
  {
   "ruta": "/fr/paquets-de-reduction-2/excursion-en-meute-au-parc-naturel-de-la-albufera/",
@@ -9098,7 +9098,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--paquets-de-reduction-2--excursion-en-meute-au-parc-naturel-de-la-albufera",
-  "titulo": "Pack Excursion au Parc Naturel de l'Albufera - Valencia&amp;Go"
+  "titulo": "Pack Excursion au Parc Naturel de l'Albufera - Excursiones Valencia"
  },
  {
   "ruta": "/fr/paquets-de-reduction-2/excursion-en-meute-aux-grottes-de-san-jose/",
@@ -9117,7 +9117,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--paquets-de-reduction-2--excursion-en-meute-aux-grottes-de-san-jose",
-  "titulo": "Pack aux grottes de San José | Valencia&amp;Go"
+  "titulo": "Pack aux grottes de San José | Excursiones Valencia"
  },
  {
   "ruta": "/fr/paquets-de-reduction-2/pack-1-jour-2-activites-20-reduction/",
@@ -9269,7 +9269,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--politique-de-confidentialite",
-  "titulo": "Politique de confidentialité | Valencia &amp; Go"
+  "titulo": "Politique de confidentialité | Excursiones Valencia"
  },
  {
   "ruta": "/fr/politique-en-matiere-de-cookies/",
@@ -9288,7 +9288,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--politique-en-matiere-de-cookies",
-  "titulo": "Politique en matière de cookies | Valencia&amp;Go"
+  "titulo": "Politique en matière de cookies | Excursiones Valencia"
  },
  {
   "ruta": "/fr/pourquoi-il-vaut-la-peine-de-visiter-valencia/",
@@ -9402,7 +9402,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--que-faire-a-valence-pour-des-vacances-dete-parfaites-pour-les-enfants",
-  "titulo": "Que faire à Valence avec des enfants ? | Valencia&amp;Go Blog"
+  "titulo": "Que faire à Valence avec des enfants ? | Excursiones Valencia Blog"
  },
  {
   "ruta": "/fr/quest-ce-que-lhorchata-une-boisson-dete-valencienne/",
@@ -9421,7 +9421,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--quest-ce-que-lhorchata-une-boisson-dete-valencienne",
-  "titulo": "Qu'est-ce que l'horchata ? | Valencia&amp;Go Blog"
+  "titulo": "Qu'est-ce que l'horchata ? | Excursiones Valencia Blog"
  },
  {
   "ruta": "/fr/qui-nous-sommes/",
@@ -9440,7 +9440,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--qui-nous-sommes",
-  "titulo": "Qui sommes-nous ? | Valencia&amp;Go, guides locaux officiels"
+  "titulo": "Qui sommes-nous ? | Excursiones Valencia, guides locaux officiels"
  },
  {
   "ruta": "/fr/reveillon-du-nouvel-an-a-valence/",
@@ -9516,7 +9516,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--rues-orangers-valencia",
-  "titulo": "Pourquoi ils ne mangent pas les oranges dans la rue | Valencia &amp; Go"
+  "titulo": "Pourquoi ils ne mangent pas les oranges dans la rue | Excursiones Valencia"
  },
  {
   "ruta": "/fr/saint-vincent-martyr-histoire-valence/",
@@ -9725,7 +9725,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--tours-de-valence--route-cyclable-rio-turia-park",
-  "titulo": "Parcours à vélo dans le parc du fleuve Turia | Valencia&amp;Go"
+  "titulo": "Parcours à vélo dans le parc du fleuve Turia | Excursiones Valencia"
  },
  {
   "ruta": "/fr/tours-de-valence/ruta-seda-valencia-lonja-entrada/",
@@ -9801,7 +9801,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--tours-de-valence--visite-de-la-creche-speciale-noel",
-  "titulo": "Circuit spécial Noël des crèches - Valencia&amp;Go"
+  "titulo": "Circuit spécial Noël des crèches - Excursiones Valencia"
  },
  {
   "ruta": "/fr/tours-de-valence/visite-de-la-valence-medievale/",
@@ -9915,7 +9915,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--tours-de-valence--visites-guidees-a-valence-degustation-de-vins-carmen",
-  "titulo": "Visite de Valence avec dégustation de vins locaux | Valencia&amp;Go"
+  "titulo": "Visite de Valence avec dégustation de vins locaux | Excursiones Valencia"
  },
  {
   "ruta": "/fr/traditions-et-rituels-magiques-de-san-juan/",
@@ -9991,7 +9991,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--vehicules",
-  "titulo": "Location de bateaux à moteur et de yachts privés à Valence | Valencia&amp;Go"
+  "titulo": "Location de bateaux à moteur et de yachts privés à Valence | Excursiones Valencia"
  },
  {
   "ruta": "/fr/vehicules/bateau-prive/",
@@ -10010,7 +10010,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--vehicules--bateau-prive",
-  "titulo": "Location de bateaux privés | Valencia&amp;Go"
+  "titulo": "Location de bateaux privés | Excursiones Valencia"
  },
  {
   "ruta": "/fr/vehicules/yacht-prive/",
@@ -10029,7 +10029,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "fr--vehicules--yacht-prive",
-  "titulo": "Location de bateaux privés | Valencia&amp;Go"
+  "titulo": "Location de bateaux privés | Excursiones Valencia"
  },
  {
   "ruta": "/fr/vendanges-a-requena-on-foule-le-raisin-comme-autrefois-a-moins-dune-heure-de-valence/",
@@ -10466,7 +10466,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni",
-  "titulo": "Archivio attrazioni - Valencia&amp;Go"
+  "titulo": "Archivio attrazioni - Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/arena-di-valencia/",
@@ -10485,7 +10485,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--arena-di-valencia",
-  "titulo": "Arena di Valencia - Valencia&amp;Go"
+  "titulo": "Arena di Valencia - Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/bar-centrale-valencia/",
@@ -10504,7 +10504,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--bar-centrale-valencia",
-  "titulo": "Central Bar Valencia | Valencia &amp; Go"
+  "titulo": "Central Bar Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/cale-di-sant-josep/",
@@ -10523,7 +10523,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--cale-di-sant-josep",
-  "titulo": "Le cale di Sant Josep, una meraviglia naturale | Valencia &amp; Go"
+  "titulo": "Le cale di Sant Josep, una meraviglia naturale | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/castello-di-xativa/",
@@ -10542,7 +10542,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--castello-di-xativa",
-  "titulo": "Castello di Xàtiva : Valencia &amp; Go"
+  "titulo": "Castello di Xàtiva : Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/citta-delle-arti-e-delle-scienze/",
@@ -10561,7 +10561,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--citta-delle-arti-e-delle-scienze",
-  "titulo": "Valencia Città delle Arti e delle Scienze | Valencia &amp; Go"
+  "titulo": "Valencia Città delle Arti e delle Scienze | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/giardino-di-turia/",
@@ -10580,7 +10580,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--giardino-di-turia",
-  "titulo": "Jardín del Turia, i polmoni di Valencia | Valencia&amp;Go"
+  "titulo": "Jardín del Turia, i polmoni di Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/il-mercato-della-seta/",
@@ -10599,7 +10599,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--il-mercato-della-seta",
-  "titulo": "La Lonja de la Seda, patrimonio dell'umanità | Valencia &amp; Go"
+  "titulo": "La Lonja de la Seda, patrimonio dell'umanità | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/ivam-istituto-valenciano-di-arte-moderna/",
@@ -10618,7 +10618,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--ivam-istituto-valenciano-di-arte-moderna",
-  "titulo": "IVAM Istituto Valenciano d'Arte Moderna | Valencia&amp;Go"
+  "titulo": "IVAM Istituto Valenciano d'Arte Moderna | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/la-cattedrale-di-valencia-e-il-santo-calice/",
@@ -10637,7 +10637,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--la-cattedrale-di-valencia-e-il-santo-calice",
-  "titulo": "Cattedrale di Valencia e Santo Càliz | Valencia&amp;Go"
+  "titulo": "Cattedrale di Valencia e Santo Càliz | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/la-postalera-valencia/",
@@ -10656,7 +10656,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--la-postalera-valencia",
-  "titulo": "La Postalera a Valencia | Valencia &amp; Go"
+  "titulo": "La Postalera a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/marina-beach-club/",
@@ -10675,7 +10675,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--marina-beach-club",
-  "titulo": "Marina Beach Club | Valencia &amp; Go"
+  "titulo": "Marina Beach Club | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/mercato-centrale-di-valencia/",
@@ -10694,7 +10694,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--mercato-centrale-di-valencia",
-  "titulo": "Mercato Centrale di Valencia | Valencia &amp; Go"
+  "titulo": "Mercato Centrale di Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/mercato-del-colon-valencia/",
@@ -10713,7 +10713,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--mercato-del-colon-valencia",
-  "titulo": "Mercato del Colón a Valencia | Valencia &amp; Go"
+  "titulo": "Mercato del Colón a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/miguelete-valencia/",
@@ -10732,7 +10732,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--miguelete-valencia",
-  "titulo": "Il Miguelete di Valencia | Valencia &amp; Go"
+  "titulo": "Il Miguelete di Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/museo-di-belle-arti-di-valencia/",
@@ -10751,7 +10751,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--museo-di-belle-arti-di-valencia",
-  "titulo": "Museo delle Belle Arti di Valencia | Valencia &amp; Go"
+  "titulo": "Museo delle Belle Arti di Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/orio-gastronomia-basca/",
@@ -10770,7 +10770,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--orio-gastronomia-basca",
-  "titulo": "ORIO Gastronomia basca - Valencia&amp;Go"
+  "titulo": "ORIO Gastronomia basca - Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/pagina/2/",
@@ -10789,7 +10789,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--pagina--2",
-  "titulo": "Archivio attrazioni - Pagina 2 di 3 - Valencia&amp;Go"
+  "titulo": "Archivio attrazioni - Pagina 2 di 3 - Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/pagina/3/",
@@ -10808,7 +10808,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--pagina--3",
-  "titulo": "Archivio attrazioni - Pagina 3 di 3 - Valencia&amp;Go"
+  "titulo": "Archivio attrazioni - Pagina 3 di 3 - Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/palazzo-marques-de-dos-aguas/",
@@ -10827,7 +10827,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--palazzo-marques-de-dos-aguas",
-  "titulo": "Palazzo Marqués de Dos Aguas | Valencia &amp; Go"
+  "titulo": "Palazzo Marqués de Dos Aguas | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/parco-headland-a-valencia/",
@@ -10846,7 +10846,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--parco-headland-a-valencia",
-  "titulo": "Parque de Cabecera a Valencia | Valencia &amp; Go"
+  "titulo": "Parque de Cabecera a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/parco-naturale-albufera-de-valencia/",
@@ -10865,7 +10865,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--parco-naturale-albufera-de-valencia",
-  "titulo": "Parco Naturale dell'Albufera di Valencia | Valencia &amp; Go"
+  "titulo": "Parco Naturale dell'Albufera di Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/piazza-della-vergine/",
@@ -10884,7 +10884,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--piazza-della-vergine",
-  "titulo": "Plaza de la Virgen de Valencia | Valencia &amp; Go"
+  "titulo": "Plaza de la Virgen de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/porto-di-valencia/",
@@ -10903,7 +10903,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--porto-di-valencia",
-  "titulo": "Porto di Valencia : Valencia &amp; Go"
+  "titulo": "Porto di Valencia : Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/quartiere-di-cabanal-a-valencia/",
@@ -10922,7 +10922,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--quartiere-di-cabanal-a-valencia",
-  "titulo": "Quartiere Cabañal di Valencia | Valencia &amp; Go"
+  "titulo": "Quartiere Cabañal di Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/ristorante-casa-carmela/",
@@ -10941,7 +10941,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--ristorante-casa-carmela",
-  "titulo": "Ristorante Casa Carmela - Valencia &amp; Go"
+  "titulo": "Ristorante Casa Carmela - Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/ristorante-ricard-camarena/",
@@ -10960,7 +10960,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--ristorante-ricard-camarena",
-  "titulo": "Ristorante Ricard Camarena | Valencia &amp; Go"
+  "titulo": "Ristorante Ricard Camarena | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/sagardi-valencia/",
@@ -10979,7 +10979,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--sagardi-valencia",
-  "titulo": "SAGARDI Valencia - Valencia&amp;Go"
+  "titulo": "SAGARDI Valencia - Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/sagunto-e-il-suo-castello-romano/",
@@ -10998,7 +10998,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--sagunto-e-il-suo-castello-romano",
-  "titulo": "Sagunto e il suo castello romano | Valencia &amp; Go"
+  "titulo": "Sagunto e il suo castello romano | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/stazione-di-valencia-nord/",
@@ -11017,7 +11017,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--stazione-di-valencia-nord",
-  "titulo": "Stazione di Valencia Nord | Valencia &amp; Go"
+  "titulo": "Stazione di Valencia Nord | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/torri-serrano/",
@@ -11036,7 +11036,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--torri-serrano",
-  "titulo": "Torri di Serranos a Valencia | Valencia &amp; Go"
+  "titulo": "Torri di Serranos a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/attrazioni/veles-e-vents-valencia/",
@@ -11055,7 +11055,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--attrazioni--veles-e-vents-valencia",
-  "titulo": "Veles e Vents Valencia | Valencia &amp; Go"
+  "titulo": "Veles e Vents Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/avviso-legale/",
@@ -11074,7 +11074,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--avviso-legale",
-  "titulo": "Nota legale : Valencia &amp; Go"
+  "titulo": "Nota legale : Excursiones Valencia"
  },
  {
   "ruta": "/it/blog/",
@@ -11093,7 +11093,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--blog",
-  "titulo": "Blog di progetti ed esperienze a Valencia | Valencia &amp; Go"
+  "titulo": "Blog di progetti ed esperienze a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/blog/pagina/2/",
@@ -11112,7 +11112,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--blog--pagina--2",
-  "titulo": "Blog di progetti ed esperienze a Valencia | Valencia &amp; Go"
+  "titulo": "Blog di progetti ed esperienze a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/blog/pagina/3/",
@@ -11131,7 +11131,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--blog--pagina--3",
-  "titulo": "Blog di progetti ed esperienze a Valencia | Valencia &amp; Go"
+  "titulo": "Blog di progetti ed esperienze a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/blog/pagina/4/",
@@ -11150,7 +11150,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--blog--pagina--4",
-  "titulo": "Blog di progetti ed esperienze a Valencia | Valencia &amp; Go"
+  "titulo": "Blog di progetti ed esperienze a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/blog/pagina/5/",
@@ -11169,7 +11169,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--blog--pagina--5",
-  "titulo": "Blog di progetti ed esperienze a Valencia | Valencia &amp; Go"
+  "titulo": "Blog di progetti ed esperienze a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/blog/pagina/6/",
@@ -11188,7 +11188,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--blog--pagina--6",
-  "titulo": "Blog di progetti ed esperienze a Valencia | Valencia &amp; Go"
+  "titulo": "Blog di progetti ed esperienze a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/blog/pagina/7/",
@@ -11207,7 +11207,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--blog--pagina--7",
-  "titulo": "Blog di progetti ed esperienze a Valencia | Valencia &amp; Go"
+  "titulo": "Blog di progetti ed esperienze a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/blog/pagina/8/",
@@ -11226,7 +11226,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--blog--pagina--8",
-  "titulo": "Blog di progetti ed esperienze a Valencia | Valencia &amp; Go"
+  "titulo": "Blog di progetti ed esperienze a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/capodanno-a-valencia/",
@@ -11302,7 +11302,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--consigli-per-le-vacanze",
-  "titulo": "Consigli per le vacanze - Valencia&amp;Go"
+  "titulo": "Consigli per le vacanze - Excursiones Valencia"
  },
  {
   "ruta": "/it/categoria-2/consiglio-di-vita/",
@@ -11321,7 +11321,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--consiglio-di-vita",
-  "titulo": "Archivio dei consigli di vita - Valencia&amp;Go"
+  "titulo": "Archivio dei consigli di vita - Excursiones Valencia"
  },
  {
   "ruta": "/it/categoria-2/cosa-fare/",
@@ -11340,7 +11340,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--cosa-fare",
-  "titulo": "Archivio delle cose da fare - Valencia&amp;Go"
+  "titulo": "Archivio delle cose da fare - Excursiones Valencia"
  },
  {
   "ruta": "/it/categoria-2/cosa-fare/pagina/2/",
@@ -11359,7 +11359,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--cosa-fare--pagina--2",
-  "titulo": "Cosa fare con i file - Pagina 2 di 5 - Valencia&amp;Go"
+  "titulo": "Cosa fare con i file - Pagina 2 di 5 - Excursiones Valencia"
  },
  {
   "ruta": "/it/categoria-2/cosa-fare/pagina/3/",
@@ -11378,7 +11378,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--cosa-fare--pagina--3",
-  "titulo": "Cosa fare con i file - Pagina 3 di 5 - Valencia&amp;Go"
+  "titulo": "Cosa fare con i file - Pagina 3 di 5 - Excursiones Valencia"
  },
  {
   "ruta": "/it/categoria-2/cosa-fare/pagina/4/",
@@ -11397,7 +11397,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--cosa-fare--pagina--4",
-  "titulo": "Cosa fare con i file - Pagina 4 di 5 - Valencia&amp;Go"
+  "titulo": "Cosa fare con i file - Pagina 4 di 5 - Excursiones Valencia"
  },
  {
   "ruta": "/it/categoria-2/cosa-fare/pagina/5/",
@@ -11416,7 +11416,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--cosa-fare--pagina--5",
-  "titulo": "Cosa fare con i file - Pagina 5 di 5 - Valencia&amp;Go"
+  "titulo": "Cosa fare con i file - Pagina 5 di 5 - Excursiones Valencia"
  },
  {
   "ruta": "/it/categoria-2/cosa-vedere/",
@@ -11435,7 +11435,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--cosa-vedere",
-  "titulo": "Cosa vedere negli archivi - Valencia&amp;Go"
+  "titulo": "Cosa vedere negli archivi - Excursiones Valencia"
  },
  {
   "ruta": "/it/categoria-2/cosa-vedere/pagina/2/",
@@ -11454,7 +11454,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--cosa-vedere--pagina--2",
-  "titulo": "Cosa vedere - Pagina 2 di 2 - Valencia&amp;Go"
+  "titulo": "Cosa vedere - Pagina 2 di 2 - Excursiones Valencia"
  },
  {
   "ruta": "/it/categoria-2/cultura-tradizioni/",
@@ -11473,7 +11473,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--cultura-tradizioni",
-  "titulo": "Cultura e tradizioni valenciane | Valencia&amp;Go Blog"
+  "titulo": "Cultura e tradizioni valenciane | Excursiones Valencia Blog"
  },
  {
   "ruta": "/it/categoria-2/cultura-tradizioni/pagina/2/",
@@ -11492,7 +11492,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--cultura-tradizioni--pagina--2",
-  "titulo": "Cultura e tradizioni valenciane | Valencia&amp;Go Blog"
+  "titulo": "Cultura e tradizioni valenciane | Excursiones Valencia Blog"
  },
  {
   "ruta": "/it/categoria-2/cultura-tradizioni/pagina/3/",
@@ -11511,7 +11511,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--cultura-tradizioni--pagina--3",
-  "titulo": "Cultura e tradizioni valenciane | Valencia&amp;Go Blog"
+  "titulo": "Cultura e tradizioni valenciane | Excursiones Valencia Blog"
  },
  {
   "ruta": "/it/categoria-2/gastronomia/",
@@ -11530,7 +11530,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--gastronomia",
-  "titulo": "Gastronomia valenciana | Valencia&amp;Go Blog"
+  "titulo": "Gastronomia valenciana | Excursiones Valencia Blog"
  },
  {
   "ruta": "/it/categoria-2/gastronomia/pagina/2/",
@@ -11549,7 +11549,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--gastronomia--pagina--2",
-  "titulo": "Gastronomia valenciana | Valencia&amp;Go Blog"
+  "titulo": "Gastronomia valenciana | Excursiones Valencia Blog"
  },
  {
   "ruta": "/it/categoria-2/notizie/",
@@ -11568,7 +11568,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--notizie",
-  "titulo": "Valencia&amp;Go all'aperto | Blog Valencia&amp;Go"
+  "titulo": "Excursiones Valencia all'aperto | Blog Excursiones Valencia"
  },
  {
   "ruta": "/it/categoria-2/notizie/pagina/2/",
@@ -11587,7 +11587,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--categoria-2--notizie--pagina--2",
-  "titulo": "Valencia&amp;Go all'aperto | Blog Valencia&amp;Go"
+  "titulo": "Excursiones Valencia all'aperto | Blog Excursiones Valencia"
  },
  {
   "ruta": "/it/cattedrale-di-valencia/",
@@ -11625,7 +11625,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--chi-siamo",
-  "titulo": "Chi siamo | Valencia&amp;Go, guide locali ufficiali"
+  "titulo": "Chi siamo | Excursiones Valencia, guide locali ufficiali"
  },
  {
   "ruta": "/it/chiesa-di-san-nicola/",
@@ -11682,7 +11682,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--condizioni-di-acquisto",
-  "titulo": "Condizioni di acquisto : Valencia &amp; Go"
+  "titulo": "Condizioni di acquisto : Excursiones Valencia"
  },
  {
   "ruta": "/it/consigli-di-viaggio-per-valencia-come-ottenere-il-massimo-dalla-vostra-visita/",
@@ -11720,7 +11720,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--contatto",
-  "titulo": "Contatto Valencia &amp; Go"
+  "titulo": "Contatto Excursiones Valencia"
  },
  {
   "ruta": "/it/cosa-fare-a-el-carmen-i-luoghi-da-non-perdere/",
@@ -11815,7 +11815,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--cosa-fare-a-valencia-per-i-bambini-vacanze-estive-perfette",
-  "titulo": "Cosa fare a Valencia con i bambini | Valencia&amp;Go Blog"
+  "titulo": "Cosa fare a Valencia con i bambini | Excursiones Valencia Blog"
  },
  {
   "ruta": "/it/cose-da-fare-a-valencia-attrazioni-ed-esperienze-principali/",
@@ -11853,7 +11853,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--cose-lhorchata-una-bevanda-estiva-valenciana",
-  "titulo": "Cos'è l'horchata? | Valencia&amp;Go Blog"
+  "titulo": "Cos'è l'horchata? | Excursiones Valencia Blog"
  },
  {
   "ruta": "/it/crociere-speciali/",
@@ -11986,7 +11986,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni-crociere--degustazione-di-vini-a-valencia-tour-e-cantine-crociere",
-  "titulo": "Tour di Valencia con degustazione di vini per crocieristi | Valencia&amp;Go"
+  "titulo": "Tour di Valencia con degustazione di vini per crocieristi | Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni-crociere/escursione-a-peniscola-in-battello/",
@@ -12005,7 +12005,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni-crociere--escursione-a-peniscola-in-battello",
-  "titulo": "Gita a Peñíscola per i crocieristi | Valencia&amp;Go"
+  "titulo": "Gita a Peñíscola per i crocieristi | Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni-crociere/escursione-crociere-cantine-di-utiel-requena/",
@@ -12043,7 +12043,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni-crociere--grotte-di-san-jose",
-  "titulo": "Escursione per crocieristi alle Grotte di San José : Valencia&amp;Go"
+  "titulo": "Escursione per crocieristi alle Grotte di San José : Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni-crociere/pagina/2/",
@@ -12138,7 +12138,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni-valencia-autunno",
-  "titulo": "Le migliori escursioni a Valencia in autunno | Valencia &amp; Go"
+  "titulo": "Le migliori escursioni a Valencia in autunno | Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni-vicino-a-valencia-scoprire-la-natura-la-storia-e-la-cultura-fuori-citta/",
@@ -12176,7 +12176,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni",
-  "titulo": "Escursioni da Valencia con guida ufficiale | Valencia&amp;Go"
+  "titulo": "Escursioni da Valencia con guida ufficiale | Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni/bodegas-utiel-requena-degustazione-vina/",
@@ -12233,7 +12233,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni--escursione-a-bocairent",
-  "titulo": "Escursione a Bocairent da Valencia | Valencia&amp;Go"
+  "titulo": "Escursione a Bocairent da Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni/escursione-a-denia-al-castello-e-alla-grotta-delle-teste-di-morto/",
@@ -12328,7 +12328,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni--escursione-al-frutteto-di-arance",
-  "titulo": "Escursione in un aranceto del 1870 | Valencia&amp;Go"
+  "titulo": "Escursione in un aranceto del 1870 | Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni/escursione-al-parco-naturale-dellalbufera/",
@@ -12423,7 +12423,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni--escursione-romantica-allalbufera-2",
-  "titulo": "Escursione romantica all'Albufera | Valencia &amp; Go"
+  "titulo": "Escursione romantica all'Albufera | Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni/escursioni-di-degustazione-di-vini-utiel-requena/",
@@ -12461,7 +12461,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni--escursioni-esperienza-di-vendemmia-a-requena",
-  "titulo": "Esperienza di vendemmia a Requena con brunch | Valencia &amp; Go"
+  "titulo": "Esperienza di vendemmia a Requena con brunch | Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni/fuga-innevata-da-valencia/",
@@ -12537,7 +12537,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni--pagina--2",
-  "titulo": "Escursioni da Valencia con guida ufficiale | Valencia&amp;Go"
+  "titulo": "Escursioni da Valencia con guida ufficiale | Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni/pagina/3/",
@@ -12556,7 +12556,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni--pagina--3",
-  "titulo": "Escursioni da Valencia con guida ufficiale | Valencia&amp;Go"
+  "titulo": "Escursioni da Valencia con guida ufficiale | Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni/pagina/4/",
@@ -12575,7 +12575,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni--pagina--4",
-  "titulo": "Escursioni da Valencia con guida ufficiale | Valencia&amp;Go"
+  "titulo": "Escursioni da Valencia con guida ufficiale | Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni/pagina/5/",
@@ -12594,7 +12594,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--escursioni--pagina--5",
-  "titulo": "Escursioni da Valencia con guida ufficiale | Valencia&amp;Go"
+  "titulo": "Escursioni da Valencia con guida ufficiale | Excursiones Valencia"
  },
  {
   "ruta": "/it/escursioni/visita-allimpero-romano-di-sagunto/",
@@ -12651,7 +12651,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--esperienze-su-misura",
-  "titulo": "Esperienze su misura a Valencia | Valencia&amp;Go"
+  "titulo": "Esperienze su misura a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/estate-a-valencia/",
@@ -12765,7 +12765,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--giornata-della-donna-intraprendente",
-  "titulo": "Carolina, amministratrice delegata di Valencia&amp;Go: imprenditrice"
+  "titulo": "Carolina, amministratrice delegata di Excursiones Valencia: imprenditrice"
  },
  {
   "ruta": "/it/grotte-di-san-jose-salto-novia/",
@@ -12879,7 +12879,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--i-migliori-piani-autunnali-a-valencia",
-  "titulo": "Godetevi la magia dell'autunno a Valencia | Valencia&amp;Go Blog"
+  "titulo": "Godetevi la magia dell'autunno a Valencia | Excursiones Valencia Blog"
  },
  {
   "ruta": "/it/i-nostri-veicoli/",
@@ -12955,7 +12955,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--informativa-sui-cookie",
-  "titulo": "Informativa sui cookie | Valencia&amp;Go"
+  "titulo": "Informativa sui cookie | Excursiones Valencia"
  },
  {
   "ruta": "/it/informativa-sulla-privacy/",
@@ -12974,7 +12974,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--informativa-sulla-privacy",
-  "titulo": "Informativa sulla privacy | Valencia &amp; Go"
+  "titulo": "Informativa sulla privacy | Excursiones Valencia"
  },
  {
   "ruta": "/it/itinerari-del-vino-da-valencia-alla-scoperta-di-vigneti-villaggi-e-tradizioni-locali/",
@@ -13050,7 +13050,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--le-migliori-terrazze-sul-tetto-di-valencia-per-godere-del-tramonto",
-  "titulo": "I tetti di Valencia per ammirare il tramonto | Blog Valencia&amp;Go"
+  "titulo": "I tetti di Valencia per ammirare il tramonto | Blog Excursiones Valencia"
  },
  {
   "ruta": "/it/luoghi-di-interesse/",
@@ -13145,7 +13145,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--pacchetti-sconto",
-  "titulo": "Archivi di pacchetti scontati - Valencia&amp;Go"
+  "titulo": "Archivi di pacchetti scontati - Excursiones Valencia"
  },
  {
   "ruta": "/it/pacchetti-sconto/3-giorni-4-attivita-pacchetto-30-sconti/",
@@ -13183,7 +13183,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--pacchetti-sconto--escursione-a-pacchetto-al-parco-naturale-di-la-albufera",
-  "titulo": "Pacchetto escursione al Parco Naturale dell'Albufera - Valencia&amp;Go"
+  "titulo": "Pacchetto escursione al Parco Naturale dell'Albufera - Excursiones Valencia"
  },
  {
   "ruta": "/it/pacchetti-sconto/escursione-in-branco-alle-grotte-di-san-jose/",
@@ -13202,7 +13202,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--pacchetti-sconto--escursione-in-branco-alle-grotte-di-san-jose",
-  "titulo": "Pacchetto alle grotte di San José | Valencia&amp;Go"
+  "titulo": "Pacchetto alle grotte di San José | Excursiones Valencia"
  },
  {
   "ruta": "/it/pacchetti-sconto/pacchetto-1-giorno-2-attivita-20-sconto/",
@@ -13259,7 +13259,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--pacchetti-sconto--pacchetto-escursione-alla-cantina-utiel-requena-con-degustazione-di-vini-nel-vigneto",
-  "titulo": "Pacchetto - Escursione alle cantine di Utiel-Requena con degustazione nel vigneto - Valencia&amp;Go"
+  "titulo": "Pacchetto - Escursione alle cantine di Utiel-Requena con degustazione nel vigneto - Excursiones Valencia"
  },
  {
   "ruta": "/it/pacchetti-sconto/pacchetto-famiglia-2-attivita-sconto-20/",
@@ -13525,7 +13525,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--strade-arancioni-valencia",
-  "titulo": "Perché non mangiano le arance per strada | Valencia &amp; Go"
+  "titulo": "Perché non mangiano le arance per strada | Excursiones Valencia"
  },
  {
   "ruta": "/it/tour-di-valencia/",
@@ -13658,7 +13658,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--tour-di-valencia--percorso-in-bicicletta-parco-del-rio-turia",
-  "titulo": "Percorso ciclabile attraverso il Parco fluviale del Turia | Valencia&amp;Go"
+  "titulo": "Percorso ciclabile attraverso il Parco fluviale del Turia | Excursiones Valencia"
  },
  {
   "ruta": "/it/tour-di-valencia/percorso-segway-rio-turia/",
@@ -13715,7 +13715,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--tour-di-valencia--tour-a-valencia-degustazione-di-vini-carmen",
-  "titulo": "Tour di Valencia con degustazione di vini locali | Valencia&amp;Go"
+  "titulo": "Tour di Valencia con degustazione di vini locali | Excursiones Valencia"
  },
  {
   "ruta": "/it/tour-di-valencia/tour-affreschi-nascosti-chiesa-vecchia-valencia/",
@@ -13772,7 +13772,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--tour-di-valencia--tour-del-presepe-speciale-di-natale",
-  "titulo": "Tour speciale dei presepi di Natale - Valencia&amp;Go"
+  "titulo": "Tour speciale dei presepi di Natale - Excursiones Valencia"
  },
  {
   "ruta": "/it/tour-di-valencia/tour-della-citta-delle-arti-e-delle-scienze/",
@@ -13943,7 +13943,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--veicoli",
-  "titulo": "Noleggio di barche e yacht privati a Valencia | Valencia&amp;Go"
+  "titulo": "Noleggio di barche e yacht privati a Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/it/veicoli/barca-privata/",
@@ -13962,7 +13962,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--veicoli--barca-privata",
-  "titulo": "Noleggio barche private | Valencia&amp;Go"
+  "titulo": "Noleggio barche private | Excursiones Valencia"
  },
  {
   "ruta": "/it/veicoli/yacht-privato/",
@@ -13981,7 +13981,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "it--veicoli--yacht-privato",
-  "titulo": "Noleggio barche private | Valencia&amp;Go"
+  "titulo": "Noleggio barche private | Excursiones Valencia"
  },
  {
   "ruta": "/it/vendemmia-a-requena-si-pesta-luva-come-un-tempo-a-meno-di-unora-da-valencia/",
@@ -14152,7 +14152,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "los-mejores-planes-otono-en-valencia",
-  "titulo": "Disfruta de la magia del otoño en Valencia | Blog Valencia&amp;Go"
+  "titulo": "Disfruta de la magia del otoño en Valencia | Blog Excursiones Valencia"
  },
  {
   "ruta": "/lugares-de-interes/",
@@ -14228,7 +14228,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "mejores-terrazas-rooftops-valencia-disfrutar-atardecer",
-  "titulo": "Rooftops de Valencia para ver el atardecer | Blog Valencia&amp;Go"
+  "titulo": "Rooftops de Valencia para ver el atardecer | Blog Excursiones Valencia"
  },
  {
   "ruta": "/mudarse-a-valencia-10-cosas-que-nadie-te-dice-antes-de-llegar/",
@@ -14342,7 +14342,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "packs-descuento",
-  "titulo": "Packs con descuento archivos - Valencia&amp;Go"
+  "titulo": "Packs con descuento archivos - Excursiones Valencia"
  },
  {
   "ruta": "/packs-descuento/pack-1-dia-2-actividades-20-dto/",
@@ -14418,7 +14418,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "packs-descuento--pack-excursion-a-las-cuevas-de-san-jose",
-  "titulo": "Pack a las Cuevas de San José | Valencia&amp;Go"
+  "titulo": "Pack a las Cuevas de San José | Excursiones Valencia"
  },
  {
   "ruta": "/packs-descuento/pack-excursion-al-parque-natural-de-la-albufera/",
@@ -14437,7 +14437,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "packs-descuento--pack-excursion-al-parque-natural-de-la-albufera",
-  "titulo": "Pack Excursión Parque Natural de la Albufera | Valencia&amp;Go"
+  "titulo": "Pack Excursión Parque Natural de la Albufera | Excursiones Valencia"
  },
  {
   "ruta": "/packs-descuento/pack-excursion-bodegas-utiel-requena-con-cata-en-vina/",
@@ -14456,7 +14456,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "packs-descuento--pack-excursion-bodegas-utiel-requena-con-cata-en-vina",
-  "titulo": "Pack - Excursión Bodegas Utiel-Requena con cata en viña - Valencia&amp;Go"
+  "titulo": "Pack - Excursión Bodegas Utiel-Requena con cata en viña - Excursiones Valencia"
  },
  {
   "ruta": "/packs-descuento/pack-familiar-2-actividades-20-dto/",
@@ -14779,7 +14779,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje",
-  "titulo": "Archiwum atrakcji – Valencia&amp;Go"
+  "titulo": "Archiwum atrakcji – Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/central-bar-valencia/",
@@ -14798,7 +14798,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--central-bar-valencia",
-  "titulo": "Central Bar Valencia | Valencia &amp; Go"
+  "titulo": "Central Bar Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/centralny-rynek-walencji/",
@@ -14817,7 +14817,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--centralny-rynek-walencji",
-  "titulo": "Valencia Central Market | Valencia &amp; Go"
+  "titulo": "Valencia Central Market | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/dzielnica-cabanal-w-walencji/",
@@ -14836,7 +14836,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--dzielnica-cabanal-w-walencji",
-  "titulo": "Dzielnica Cabañal w Walencji | Valencia &amp; Go"
+  "titulo": "Dzielnica Cabañal w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/ivam-walencki-instytut-sztuki-wspolczesnej/",
@@ -14855,7 +14855,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--ivam-walencki-instytut-sztuki-wspolczesnej",
-  "titulo": "IVAM Walencki Instytut Sztuki Współczesnej | Valencia&amp;Go"
+  "titulo": "IVAM Walencki Instytut Sztuki Współczesnej | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/katedra-w-walencji-i-swiety-kielich/",
@@ -14874,7 +14874,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--katedra-w-walencji-i-swiety-kielich",
-  "titulo": "Katedra w Walencji i Santo Càliz | Valencia&amp;Go"
+  "titulo": "Katedra w Walencji i Santo Càliz | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/la-postalera-valencia/",
@@ -14893,7 +14893,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--la-postalera-valencia",
-  "titulo": "La Postalera w Walencji | Valencia &amp; Go"
+  "titulo": "La Postalera w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/marina-beach-club/",
@@ -14912,7 +14912,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--marina-beach-club",
-  "titulo": "Marina Beach Club | Valencia &amp; Go"
+  "titulo": "Marina Beach Club | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/marques-de-dos-aguas-palace/",
@@ -14931,7 +14931,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--marques-de-dos-aguas-palace",
-  "titulo": "Marqués de Dos Aguas Palace | Valencia &amp; Go"
+  "titulo": "Marqués de Dos Aguas Palace | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/miasto-sztuki-i-nauki/",
@@ -14950,7 +14950,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--miasto-sztuki-i-nauki",
-  "titulo": "Valencia City of Arts and Sciences | Valencia &amp; Go"
+  "titulo": "Valencia City of Arts and Sciences | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/miguelete-valencia/",
@@ -14969,7 +14969,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--miguelete-valencia",
-  "titulo": "Miguelete z Walencji | Valencia &amp; Go"
+  "titulo": "Miguelete z Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/muzeum-sztuk-pieknych-w-walencji/",
@@ -15007,7 +15007,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--ogrod-turia",
-  "titulo": "Jardín del Turia, płuca Walencji | Valencia&amp;Go"
+  "titulo": "Jardín del Turia, płuca Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/orio-basque-gastronomia/",
@@ -15026,7 +15026,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--orio-basque-gastronomia",
-  "titulo": "ORIO Basque Gastronomy - Valencia&amp;Go"
+  "titulo": "ORIO Basque Gastronomy - Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/park-naturalny-albufera-de-valencia/",
@@ -15064,7 +15064,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--park-przyladkowy-w-walencji",
-  "titulo": "Parque de Cabecera w Walencji | Valencia &amp; Go"
+  "titulo": "Parque de Cabecera w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/plac-dziewicy/",
@@ -15083,7 +15083,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--plac-dziewicy",
-  "titulo": "Plaza de la Virgen de Valencia | Valencia &amp; Go"
+  "titulo": "Plaza de la Virgen de Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/port-w-walencji/",
@@ -15121,7 +15121,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--restauracja-casa-carmela",
-  "titulo": "Restauracja Casa Carmela - Valencia &amp; Go"
+  "titulo": "Restauracja Casa Carmela - Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/restauracja-ricard-camarena/",
@@ -15140,7 +15140,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--restauracja-ricard-camarena",
-  "titulo": "Restauracja Ricard Camarena | Valencia &amp; Go"
+  "titulo": "Restauracja Ricard Camarena | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/rynek-jedwabiu/",
@@ -15178,7 +15178,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--rynek-jelita-grubego-walencja",
-  "titulo": "Targ Colón w Walencji | Valencia &amp; Go"
+  "titulo": "Targ Colón w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/sagardi-valencia/",
@@ -15197,7 +15197,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--sagardi-valencia",
-  "titulo": "SAGARDI Walencja - Valencia&amp;Go"
+  "titulo": "SAGARDI Walencja - Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/sagunto-i-jego-rzymski-zamek/",
@@ -15216,7 +15216,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--sagunto-i-jego-rzymski-zamek",
-  "titulo": "Sagunto i jego rzymski zamek | Valencia &amp; Go"
+  "titulo": "Sagunto i jego rzymski zamek | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/stacja-polnocna-walencja/",
@@ -15235,7 +15235,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--stacja-polnocna-walencja",
-  "titulo": "Stacja Valencia North | Valencia &amp; Go"
+  "titulo": "Stacja Valencia North | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/strona/2/",
@@ -15254,7 +15254,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--strona--2",
-  "titulo": "Archiwum atrakcji – Strona 2 z 3 – Valencia&amp;Go"
+  "titulo": "Archiwum atrakcji – Strona 2 z 3 – Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/strona/3/",
@@ -15273,7 +15273,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--strona--3",
-  "titulo": "Archiwum atrakcji – Strona 3 z 3 – Valencia&amp;Go"
+  "titulo": "Archiwum atrakcji – Strona 3 z 3 – Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/valencia-bullring/",
@@ -15292,7 +15292,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--valencia-bullring",
-  "titulo": "Bullring of Valencia - Valencia&amp;Go"
+  "titulo": "Bullring of Valencia - Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/veles-e-vents-valencia/",
@@ -15311,7 +15311,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--veles-e-vents-valencia",
-  "titulo": "Veles e Vents Valencia | Valencia &amp; Go"
+  "titulo": "Veles e Vents Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/wieze-serrano/",
@@ -15330,7 +15330,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--wieze-serrano",
-  "titulo": "Serranos Towers w Walencji | Valencia &amp; Go"
+  "titulo": "Serranos Towers w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/zamek-xativa/",
@@ -15349,7 +15349,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--atrakcje--zamek-xativa",
-  "titulo": "Zamek Xàtiva : Valencia &amp; Go"
+  "titulo": "Zamek Xàtiva : Excursiones Valencia"
  },
  {
   "ruta": "/pl/atrakcje/zatoczki-sant-josep/",
@@ -15406,7 +15406,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--blog",
-  "titulo": "Blog o planach i doświadczeniach w Walencji | Valencia &amp; Go"
+  "titulo": "Blog o planach i doświadczeniach w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/blog/strona/2/",
@@ -15425,7 +15425,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--blog--strona--2",
-  "titulo": "Blog o planach i doświadczeniach w Walencji | Valencia &amp; Go"
+  "titulo": "Blog o planach i doświadczeniach w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/blog/strona/3/",
@@ -15444,7 +15444,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--blog--strona--3",
-  "titulo": "Blog o planach i doświadczeniach w Walencji | Valencia &amp; Go"
+  "titulo": "Blog o planach i doświadczeniach w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/blog/strona/4/",
@@ -15463,7 +15463,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--blog--strona--4",
-  "titulo": "Blog o planach i doświadczeniach w Walencji | Valencia &amp; Go"
+  "titulo": "Blog o planach i doświadczeniach w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/blog/strona/5/",
@@ -15482,7 +15482,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--blog--strona--5",
-  "titulo": "Blog o planach i doświadczeniach w Walencji | Valencia &amp; Go"
+  "titulo": "Blog o planach i doświadczeniach w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/blog/strona/6/",
@@ -15501,7 +15501,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--blog--strona--6",
-  "titulo": "Blog o planach i doświadczeniach w Walencji | Valencia &amp; Go"
+  "titulo": "Blog o planach i doświadczeniach w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/blog/strona/7/",
@@ -15520,7 +15520,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--blog--strona--7",
-  "titulo": "Blog o planach i doświadczeniach w Walencji | Valencia &amp; Go"
+  "titulo": "Blog o planach i doświadczeniach w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/blog/strona/8/",
@@ -15539,7 +15539,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--blog--strona--8",
-  "titulo": "Blog o planach i doświadczeniach w Walencji | Valencia &amp; Go"
+  "titulo": "Blog o planach i doświadczeniach w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/boze-narodzenie-w-walencji/",
@@ -15634,7 +15634,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--co-robic-w-walencji-dla-dzieci-idealne-wakacje",
-  "titulo": "Co robić w Walencji z dziećmi | Blog Valencia&amp;Go"
+  "titulo": "Co robić w Walencji z dziećmi | Blog Excursiones Valencia"
  },
  {
   "ruta": "/pl/co-robic-w-walencji-najwazniejsze-atrakcje-i-przezycia/",
@@ -15748,7 +15748,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--czym-jest-horchata-letni-napoj-z-walencji",
-  "titulo": "Co to jest horchata? | Valencia&amp;Go Blog"
+  "titulo": "Co to jest horchata? | Excursiones Valencia Blog"
  },
  {
   "ruta": "/pl/darmowe-plany-valencia/",
@@ -15824,7 +15824,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--doswiadczenia-szyte-na-miare",
-  "titulo": "Atrakcje dostosowane do indywidualnych potrzeb w Walencji | Valencia&amp;Go"
+  "titulo": "Atrakcje dostosowane do indywidualnych potrzeb w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/dzielnica-carmen-w-walencji/",
@@ -15862,7 +15862,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--dzien-przedsiebiorczej-kobiety",
-  "titulo": "Carolina, dyrektor generalna firmy Valencia&amp;Go: przedsiębiorcza kobieta"
+  "titulo": "Carolina, dyrektor generalna firmy Excursiones Valencia: przedsiębiorcza kobieta"
  },
  {
   "ruta": "/pl/fallas-valencia-2026-kompletny-przewodnik/",
@@ -16090,7 +16090,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--co-robic",
-  "titulo": "Co robić w archiwum - Valencia&amp;Go"
+  "titulo": "Co robić w archiwum - Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/co-robic/strona/2/",
@@ -16109,7 +16109,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--co-robic--strona--2",
-  "titulo": "Co zrobić z plikami – Strona 2 z 5 – Valencia&amp;Go"
+  "titulo": "Co zrobić z plikami – Strona 2 z 5 – Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/co-robic/strona/3/",
@@ -16128,7 +16128,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--co-robic--strona--3",
-  "titulo": "Co zrobić z plikami – Strona 3 z 5 – Valencia&amp;Go"
+  "titulo": "Co zrobić z plikami – Strona 3 z 5 – Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/co-robic/strona/4/",
@@ -16147,7 +16147,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--co-robic--strona--4",
-  "titulo": "Co zrobić z plikami – Strona 4 z 5 – Valencia&amp;Go"
+  "titulo": "Co zrobić z plikami – Strona 4 z 5 – Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/co-robic/strona/5/",
@@ -16166,7 +16166,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--co-robic--strona--5",
-  "titulo": "Co zrobić z plikami – Strona 5 z 5 – Valencia&amp;Go"
+  "titulo": "Co zrobić z plikami – Strona 5 z 5 – Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/co-zobaczyc/",
@@ -16185,7 +16185,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--co-zobaczyc",
-  "titulo": "Co warto zobaczyć w archiwum - Valencia&amp;Go"
+  "titulo": "Co warto zobaczyć w archiwum - Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/co-zobaczyc/strona/2/",
@@ -16204,7 +16204,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--co-zobaczyc--strona--2",
-  "titulo": "Co warto zobaczyć – Strona 2 z 2 – Valencia&amp;Go"
+  "titulo": "Co warto zobaczyć – Strona 2 z 2 – Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/gastronomia/",
@@ -16223,7 +16223,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--gastronomia",
-  "titulo": "Walencka gastronomia | Blog Valencia&amp;Go"
+  "titulo": "Walencka gastronomia | Blog Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/gastronomia/strona/2/",
@@ -16242,7 +16242,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--gastronomia--strona--2",
-  "titulo": "Walencka gastronomia | Blog Valencia&amp;Go"
+  "titulo": "Walencka gastronomia | Blog Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/kultura-tradycje/",
@@ -16261,7 +16261,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--kultura-tradycje",
-  "titulo": "Kultura i tradycje Walencji | Blog Valencia&amp;Go"
+  "titulo": "Kultura i tradycje Walencji | Blog Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/kultura-tradycje/strona/2/",
@@ -16280,7 +16280,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--kultura-tradycje--strona--2",
-  "titulo": "Kultura i tradycje Walencji | Blog Valencia&amp;Go"
+  "titulo": "Kultura i tradycje Walencji | Blog Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/kultura-tradycje/strona/3/",
@@ -16299,7 +16299,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--kultura-tradycje--strona--3",
-  "titulo": "Kultura i tradycje Walencji | Blog Valencia&amp;Go"
+  "titulo": "Kultura i tradycje Walencji | Blog Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/porady-wakacyjne/",
@@ -16318,7 +16318,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--porady-wakacyjne",
-  "titulo": "Wskazówki na wakacje - Valencia&amp;Go"
+  "titulo": "Wskazówki na wakacje - Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/porady-zyciowe/",
@@ -16337,7 +16337,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--porady-zyciowe",
-  "titulo": "Archiwum porad życiowych - Valencia&amp;Go"
+  "titulo": "Archiwum porad życiowych - Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/wiadomosci/",
@@ -16356,7 +16356,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--wiadomosci",
-  "titulo": "Valencia&amp;Go w otwartej przestrzeni | Blog Valencia&amp;Go"
+  "titulo": "Excursiones Valencia w otwartej przestrzeni | Blog Excursiones Valencia"
  },
  {
   "ruta": "/pl/kategoria/wiadomosci/strona/2/",
@@ -16375,7 +16375,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kategoria--wiadomosci--strona--2",
-  "titulo": "Valencia&amp;Go w otwartej przestrzeni | Blog Valencia&amp;Go"
+  "titulo": "Excursiones Valencia w otwartej przestrzeni | Blog Excursiones Valencia"
  },
  {
   "ruta": "/pl/kim-jestesmy/",
@@ -16394,7 +16394,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kim-jestesmy",
-  "titulo": "O nas | Valencia&amp;Go, oficjalni lokalni przewodnicy"
+  "titulo": "O nas | Excursiones Valencia, oficjalni lokalni przewodnicy"
  },
  {
   "ruta": "/pl/kontakt/",
@@ -16413,7 +16413,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--kontakt",
-  "titulo": "Kontakt Valencia &amp; Go"
+  "titulo": "Kontakt Excursiones Valencia"
  },
  {
   "ruta": "/pl/kosciol-swietego-mikolaja/",
@@ -16527,7 +16527,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--najlepsze-jesienne-plany-w-walencji",
-  "titulo": "Ciesz się magią jesieni w Walencji | Valencia&amp;Go Blog"
+  "titulo": "Ciesz się magią jesieni w Walencji | Excursiones Valencia Blog"
  },
  {
   "ruta": "/pl/najlepsze-tarasy-na-dachu-w-walencji-podziwiaja-zachod-slonca/",
@@ -16546,7 +16546,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--najlepsze-tarasy-na-dachu-w-walencji-podziwiaja-zachod-slonca",
-  "titulo": "Dachy w Walencji do oglądania zachodu słońca | Blog Valencia&amp;Go"
+  "titulo": "Dachy w Walencji do oglądania zachodu słońca | Blog Excursiones Valencia"
  },
  {
   "ruta": "/pl/najwazniejsze-plany-w-walencji-na-maj-2025/",
@@ -16641,7 +16641,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--nota-prawna",
-  "titulo": "Nota prawna: Valencia &amp; Go"
+  "titulo": "Nota prawna: Excursiones Valencia"
  },
  {
   "ruta": "/pl/odwiedz-utiel-requena/",
@@ -16698,7 +16698,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--pakiety-rabatowe-2",
-  "titulo": "Archiwum pakietów zniżkowych - Valencia&amp;Go"
+  "titulo": "Archiwum pakietów zniżkowych - Excursiones Valencia"
  },
  {
   "ruta": "/pl/pakiety-rabatowe-2/3-dni-4-aktywnosci-pakiet-30-znizek/",
@@ -16793,7 +16793,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--pakiety-rabatowe-2--pakiet-wycieczkowy-do-winnicy-utiel-requena-z-degustacja-wina-w-winnicy",
-  "titulo": "Pakiet - Wycieczka do winiarni Utiel-Requena z degustacją w winnicy - Valencia&amp;Go"
+  "titulo": "Pakiet - Wycieczka do winiarni Utiel-Requena z degustacją w winnicy - Excursiones Valencia"
  },
  {
   "ruta": "/pl/pakiety-rabatowe-2/pakowanie-co-zobaczyc-w-1-dzien-katedra-i-swiety-mikolaj-w-sztuce-zwiedzanie/",
@@ -16831,7 +16831,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--pakiety-rabatowe-2--wycieczka-do-jaskin-san-jose-2",
-  "titulo": "Paczka do jaskiń San José | Valencia&amp;Go"
+  "titulo": "Paczka do jaskiń San José | Excursiones Valencia"
  },
  {
   "ruta": "/pl/pakiety-rabatowe-2/wycieczka-do-parku-przyrody-la-albufera/",
@@ -16850,7 +16850,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--pakiety-rabatowe-2--wycieczka-do-parku-przyrody-la-albufera",
-  "titulo": "Wycieczka do Parku Przyrody Albufera - Valencia&amp;Go"
+  "titulo": "Wycieczka do Parku Przyrody Albufera - Excursiones Valencia"
  },
  {
   "ruta": "/pl/plany-na-sierpien-w-walencji/",
@@ -16926,7 +16926,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--pojazdy",
-  "titulo": "Wynajem łodzi motorowych i prywatnych jachtów w Walencji | Valencia&amp;Go"
+  "titulo": "Wynajem łodzi motorowych i prywatnych jachtów w Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/pojazdy/prywatna-lodz/",
@@ -16945,7 +16945,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--pojazdy--prywatna-lodz",
-  "titulo": "Wynajem prywatnej łodzi | Valencia&amp;Go"
+  "titulo": "Wynajem prywatnej łodzi | Excursiones Valencia"
  },
  {
   "ruta": "/pl/pojazdy/prywatny-jacht/",
@@ -16964,7 +16964,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--pojazdy--prywatny-jacht",
-  "titulo": "Czarter prywatnego jachtu | Valencia&amp;Go"
+  "titulo": "Czarter prywatnego jachtu | Excursiones Valencia"
  },
  {
   "ruta": "/pl/polityka-plikow-cookie/",
@@ -16983,7 +16983,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--polityka-plikow-cookie",
-  "titulo": "Polityka dotycząca plików cookie | Valencia&amp;Go"
+  "titulo": "Polityka dotycząca plików cookie | Excursiones Valencia"
  },
  {
   "ruta": "/pl/polityka-prywatnosci/",
@@ -17002,7 +17002,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--polityka-prywatnosci",
-  "titulo": "Polityka prywatności | Valencia &amp; Go"
+  "titulo": "Polityka prywatności | Excursiones Valencia"
  },
  {
   "ruta": "/pl/przelamac-rutyne-valencia/",
@@ -17249,7 +17249,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--ulice-drzewa-pomaranczowe-walencja",
-  "titulo": "Dlaczego nie jedzą pomarańczy na ulicy | Valencia &amp; Go"
+  "titulo": "Dlaczego nie jedzą pomarańczy na ulicy | Excursiones Valencia"
  },
  {
   "ruta": "/pl/valencia-summer/",
@@ -17287,7 +17287,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--warunki-zakupu",
-  "titulo": "Warunki zakupu: Valencia &amp; Go"
+  "titulo": "Warunki zakupu: Excursiones Valencia"
  },
  {
   "ruta": "/pl/wino-walencja-wycieczka-requena/",
@@ -17363,7 +17363,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki-po-walencji--bozonarodzeniowa-specjalna-wycieczka-do-szopki",
-  "titulo": "Szopka bożonarodzeniowa - Valencia&amp;Go"
+  "titulo": "Szopka bożonarodzeniowa - Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki-po-walencji/fallas-w-walencji-w-marcu/",
@@ -17515,7 +17515,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki-po-walencji--trasa-rowerowa-rio-turia-park",
-  "titulo": "Trasa rowerowa przez park rzeczny Turia | Valencia&amp;Go"
+  "titulo": "Trasa rowerowa przez park rzeczny Turia | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki-po-walencji/trasa-segway-rio-turia/",
@@ -17648,7 +17648,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki-po-walencji--wycieczki-po-walencji-degustacja-win-carmen",
-  "titulo": "Wycieczka po Walencji z degustacją lokalnych win | Valencia&amp;Go"
+  "titulo": "Wycieczka po Walencji z degustacją lokalnych win | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki-po-walencji/wycieczki-walencja-degustacja-tapas-wycieczka-wermut/",
@@ -17705,7 +17705,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki-rejsy--degustacja-win-w-walencji-wycieczka-i-zwiedzanie-winnicy-rejsy-statkiem",
-  "titulo": "Wycieczka po Walencji z degustacją win dla pasażerów statków wycieczkowych | Valencia&amp;Go"
+  "titulo": "Wycieczka po Walencji z degustacją win dla pasażerów statków wycieczkowych | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki-rejsy/jaskinie-san-jose/",
@@ -17724,7 +17724,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki-rejsy--jaskinie-san-jose",
-  "titulo": "Wycieczka dla wycieczkowiczów do jaskiń San José : Valencia&amp;Go"
+  "titulo": "Wycieczka dla wycieczkowiczów do jaskiń San José : Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki-rejsy/park-naturalny-albufera/",
@@ -17800,7 +17800,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki-rejsy--wycieczka-do-peniscola-rejsy-statkiem",
-  "titulo": "Wycieczka do Peñíscoli dla pasażerów statków wycieczkowych | Valencia&amp;Go"
+  "titulo": "Wycieczka do Peñíscoli dla pasażerów statków wycieczkowych | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki-rejsy/wycieczka-statkiem-po-winnicach-w-utiel-i-requena/",
@@ -17876,7 +17876,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki-walencja-jesien",
-  "titulo": "Najlepsze wycieczki w Walencji tej jesieni | Valencia &amp; Go"
+  "titulo": "Najlepsze wycieczki w Walencji tej jesieni | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki/",
@@ -17895,7 +17895,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki",
-  "titulo": "Wycieczki z Walencji z oficjalnym przewodnikiem | Valencia&amp;Go"
+  "titulo": "Wycieczki z Walencji z oficjalnym przewodnikiem | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki/bodegas-utiel-requena-degustacja-vina/",
@@ -17971,7 +17971,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki--romantyczna-wycieczka-do-albufery",
-  "titulo": "Romantyczna wycieczka do Albufera | Valencia &amp; Go"
+  "titulo": "Romantyczna wycieczka do Albufera | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki/sniezna-ucieczka-z-walencji/",
@@ -18009,7 +18009,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki--strona--2",
-  "titulo": "Wycieczki z Walencji z oficjalnym przewodnikiem | Valencia&amp;Go"
+  "titulo": "Wycieczki z Walencji z oficjalnym przewodnikiem | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki/strona/3/",
@@ -18028,7 +18028,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki--strona--3",
-  "titulo": "Wycieczki z Walencji z oficjalnym przewodnikiem | Valencia&amp;Go"
+  "titulo": "Wycieczki z Walencji z oficjalnym przewodnikiem | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki/strona/4/",
@@ -18047,7 +18047,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki--strona--4",
-  "titulo": "Wycieczki z Walencji z oficjalnym przewodnikiem | Valencia&amp;Go"
+  "titulo": "Wycieczki z Walencji z oficjalnym przewodnikiem | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki/strona/5/",
@@ -18066,7 +18066,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki--strona--5",
-  "titulo": "Wycieczki z Walencji z oficjalnym przewodnikiem | Valencia&amp;Go"
+  "titulo": "Wycieczki z Walencji z oficjalnym przewodnikiem | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki/utiel-requena-wina-degustacja-serow-wycieczki/",
@@ -18161,7 +18161,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki--wycieczka-do-bocairent",
-  "titulo": "Wycieczka do Bocairent z Walencji | Valencia&amp;Go"
+  "titulo": "Wycieczka do Bocairent z Walencji | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki/wycieczka-do-denii-zamek-jaskinia-cueva-de-las-calaveras/",
@@ -18294,7 +18294,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki--wycieczka-do-sadu-pomaranczowego",
-  "titulo": "Wycieczka do sadu pomarańczowego z 1870 r. | Valencia&amp;Go"
+  "titulo": "Wycieczka do sadu pomarańczowego z 1870 r. | Excursiones Valencia"
  },
  {
   "ruta": "/pl/wycieczki/wycieczka-na-wyspe-tabarca/",
@@ -18351,7 +18351,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "pl--wycieczki--wycieczki-warsztaty-winobrania-w-requena",
-  "titulo": "Zbiór winogron w Requena z brunch’em | Valencia &amp; Go"
+  "titulo": "Zbiór winogron w Requena z brunch’em | Excursiones Valencia"
  },
  {
   "ruta": "/pl/xativa/",
@@ -18541,7 +18541,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "politica-de-cookies",
-  "titulo": "Política de cookies | Valencia&amp;Go"
+  "titulo": "Política de cookies | Excursiones Valencia"
  },
  {
   "ruta": "/politica-de-privacidad/",
@@ -18560,7 +18560,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "politica-de-privacidad",
-  "titulo": "Política de privacidad | Valencia &amp; Go"
+  "titulo": "Política de privacidad | Excursiones Valencia"
  },
  {
   "ruta": "/por-que-merece-la-pena-visitar-valencia/",
@@ -18598,7 +18598,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "que-es-horchata-bebida-verano-valenciana",
-  "titulo": "¿Qué es la horchata? | Blog Valencia&amp;Go"
+  "titulo": "¿Qué es la horchata? | Blog Excursiones Valencia"
  },
  {
   "ruta": "/que-hacer-en-el-carmen-los-rincones-que-no-deberias-perderte/",
@@ -18712,7 +18712,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "que-hacer-valencia-ninos-vacaciones-verano-perfectas",
-  "titulo": "¿Qué hacer en Valencia con niños? | Blog Valencia&amp;Go"
+  "titulo": "¿Qué hacer en Valencia con niños? | Blog Excursiones Valencia"
  },
  {
   "ruta": "/quienes-somos/",
@@ -18731,7 +18731,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "quienes-somos",
-  "titulo": "Quiénes somos | Valencia&amp;Go, guías oficiales locales"
+  "titulo": "Quiénes somos | Excursiones Valencia, guías oficiales locales"
  },
  {
   "ruta": "/rompe-la-rutina-valencia/",
@@ -18978,7 +18978,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "tours-valencia--ruta-bici-parque-rio-turia",
-  "titulo": "Ruta en bici por el Parque del río Turia | Valencia&amp;Go"
+  "titulo": "Ruta en bici por el Parque del río Turia | Excursiones Valencia"
  },
  {
   "ruta": "/tours-valencia/ruta-en-segway-rio-turia/",
@@ -19054,7 +19054,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "tours-valencia--tour-belenes-especial-navidad",
-  "titulo": "Tour Belenes Especial Navidad | Valencia&amp;Go"
+  "titulo": "Tour Belenes Especial Navidad | Excursiones Valencia"
  },
  {
   "ruta": "/tours-valencia/tour-ciudad-de-las-artes-y-las-ciencias/",
@@ -19187,7 +19187,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "tours-valencia--tours-valencia-cata-vinos-carmen",
-  "titulo": "Tour por Valencia con cata de vinos locales | Valencia&amp;Go"
+  "titulo": "Tour por Valencia con cata de vinos locales | Excursiones Valencia"
  },
  {
   "ruta": "/tours-valencia/tours-valencia-tour-tapas-cata-vermut/",
@@ -19244,7 +19244,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "vehiculos",
-  "titulo": "Alquiler de lancha y yate privado en Valencia | Valencia&amp;Go"
+  "titulo": "Alquiler de lancha y yate privado en Valencia | Excursiones Valencia"
  },
  {
   "ruta": "/vehiculos/lancha-privada/",
@@ -19263,7 +19263,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "vehiculos--lancha-privada",
-  "titulo": "Alquiler de lancha privada | Valencia&amp;Go"
+  "titulo": "Alquiler de lancha privada | Excursiones Valencia"
  },
  {
   "ruta": "/vehiculos/yate-privado/",
@@ -19282,7 +19282,7 @@
   "doctype": "<!doctype html>",
   "tras": 70,
   "nombre": "vehiculos--yate-privado",
-  "titulo": "Alquiler de yate privado | Valencia&amp;Go"
+  "titulo": "Alquiler de yate privado | Excursiones Valencia"
  },
  {
   "ruta": "/vendimia-en-requena-pisa-la-uva-como-antes-a-menos-de-una-hora-de-valencia/",
