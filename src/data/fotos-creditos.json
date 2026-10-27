@@ -1499,16 +1499,6 @@
   "ancho": 1600,
   "alto": 1200
  },
- "excursion-a-las-cuevas-de-san-jose-3.webp": {
-  "pagina": "/excursiones/excursion-a-las-cuevas-de-san-jose/",
-  "titulo": "Delta de la desembocadura del rio Cuevas-San Miguel (Alcalà de Xivert, Castellón).jpg",
-  "commons": "https://commons.wikimedia.org/wiki/File:Delta_de_la_desembocadura_del_rio_Cuevas-San_Miguel_(Alcal%C3%A0_de_Xivert,_Castell%C3%B3n).jpg",
-  "autor": "Juan Emilio Prades Bel",
-  "licencia": "CC BY-SA 4.0",
-  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-  "ancho": 1600,
-  "alto": 1200
- },
  "excursion-a-las-cuevas-de-san-jose-4.webp": {
   "pagina": "/excursiones/excursion-a-las-cuevas-de-san-jose/",
   "titulo": "Coves de Sant Josep, Vall d'Uixó 03.jpg",
@@ -5638,5 +5628,25 @@
   "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "ancho": 1280,
   "alto": 959
+ },
+ "excursion-a-las-cuevas-de-san-jose-1.webp": {
+  "pagina": "/excursiones/excursion-a-las-cuevas-de-san-jose/",
+  "titulo": "Coves de sant Josep de la Vall d'Uixó, barques com a decoració.JPG",
+  "commons": "https://commons.wikimedia.org/wiki/File:Coves_de_sant_Josep_de_la_Vall_d%27Uix%C3%B3,_barques_com_a_decoraci%C3%B3.JPG",
+  "autor": "Joanbanjo",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 877
+ },
+ "excursion-a-las-cuevas-de-san-jose-3.webp": {
+  "pagina": "/excursiones/excursion-a-las-cuevas-de-san-jose/",
+  "titulo": "Coves de sant Josep de la Vall d'Uixó, barques.JPG",
+  "commons": "https://commons.wikimedia.org/wiki/File:Coves_de_sant_Josep_de_la_Vall_d%27Uix%C3%B3,_barques.JPG",
+  "autor": "Joanbanjo",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
  }
 }
