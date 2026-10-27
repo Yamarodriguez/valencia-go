@@ -64,6 +64,31 @@ Hecho el 26-10-2026 (todo en esta rama, nada en main ni en Netlify):
   main ahora pasa fuentes+hojas+build+comprobar-recursos-nuevos (los antiguos
   `todo`/`todo:visual` no sirven aquí). Sigue el `X-Robots-Tag: noindex`.
 - Feed de Instagram de la portada quitado (`quitar-instagram`, 5 idiomas).
+- PÁGINAS NUEVAS (27-10-2026, "agrega todo y agrega buceo" tras el análisis
+  de la competencia): 28 fichas que no existían en la web vieja + 2
+  categorías nuevas, solo en castellano. Datos y textos en
+  `src/data/paginas-nuevas.json`; las monta `python scripts/paginas-nuevas.py`
+  (se puede repetir: rehace las nuevas, vuelve a poner tarjetas y menú sin
+  duplicar). Cada ficha es copia de la del tour medieval con sus textos y
+  SIN precio, duración, idiomas, estrellas, sellos de "guía oficial", caja de
+  Turitop, schema ni enlaces a traducciones: "Precio a consultar" y botones a
+  /contacto/. Tours: misterios y leyendas, Valencia macabra, Santo Grial y
+  Borgia, Guerra Civil, Carmen y arte urbano, Sorolla, modernismo, Cabanyal,
+  con niños, horchata en Alboraya, cervezas en Ruzafa, tapas y flamenco,
+  estadios. Excursiones: Chulilla, Montanejos, Guadalest y Algar, Albufera en
+  bici y en 4x4, globo. Categoría nueva /actividades-en-el-agua/ (catamarán,
+  kayak y paddle surf, bautismo de buceo, salidas de buceo) y /servicios/
+  (traslados, entradas, audioguías "muy pronto", bicis, colegios), copiadas de
+  /excursiones/ sin "cargar más". Menú: "En el agua" y "Servicios" tras
+  Excursiones en todas las páginas en castellano. Tarjetas nuevas al final de
+  la primera página de /tours-valencia/ y /excursiones/ (entre
+  `<!--ev-nuevas-->`). Fotos: `node scripts/fotos-paginas-nuevas.mjs`
+  (búsquedas y claves por página; `--slug x --rehacer [--numeros 2,3]
+  [--buscar ".."]`; las descartadas a mano quedan en
+  `src/data/fotos-descartadas.json` y no vuelven). Agencia de viajes NO
+  añadida: exige inscripción y garantía en la Comunitat Valenciana. Las
+  actividades de terceros (buceo, globo, catamarán, estadios, entradas) piden
+  acuerdos con proveedores que el propietario aún no tiene.
 - Fotos: `fotos-commons.mjs` baja de Wikimedia Commons una foto real y libre
   (CC0/dominio público/CC BY/CC BY-SA, JPG apaisado ≥1000 px) por cada hueco
   del inventario, buscando por el H1 de la página; créditos en

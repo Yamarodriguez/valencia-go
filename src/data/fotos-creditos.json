@@ -6098,5 +6098,845 @@
   "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "ancho": 1280,
   "alto": 853
+ },
+ "tour-misterios-y-leyendas-de-valencia-1.webp": {
+  "pagina": "/tours-valencia/tour-misterios-y-leyendas-de-valencia/",
+  "titulo": "Edifici de La Nau des de la Plaça del Patriarca València.JPG",
+  "commons": "https://commons.wikimedia.org/wiki/File:Edifici_de_La_Nau_des_de_la_Pla%C3%A7a_del_Patriarca_Val%C3%A8ncia.JPG",
+  "autor": "Joanbanjo",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "tour-valencia-macabra-1.webp": {
+  "pagina": "/tours-valencia/tour-valencia-macabra/",
+  "titulo": "València torres quart muntatge.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Val%C3%A8ncia_torres_quart_muntatge.jpg",
+  "autor": "Felivet",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "ancho": 1280,
+  "alto": 1260
+ },
+ "tour-valencia-macabra-2.webp": {
+  "pagina": "/tours-valencia/tour-valencia-macabra/",
+  "titulo": "Torres quart escala.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Torres_quart_escala.jpg",
+  "autor": "Felivet",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "tour-valencia-macabra-3.webp": {
+  "pagina": "/tours-valencia/tour-valencia-macabra/",
+  "titulo": "L04 506 Lonja de la Seda.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:L04_506_Lonja_de_la_Seda.jpg",
+  "autor": "Falk2",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 903
+ },
+ "tour-santo-grial-y-los-borgia-1.webp": {
+  "pagina": "/tours-valencia/tour-santo-grial-y-los-borgia/",
+  "titulo": "SANTO CÁLIZ. CATEDRAL DE VALÈNCIA (1).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:SANTO_C%C3%81LIZ._CATEDRAL_DE_VAL%C3%88NCIA_(1).jpg",
+  "autor": "Pacodonderis",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "tour-santo-grial-y-los-borgia-2.webp": {
+  "pagina": "/tours-valencia/tour-santo-grial-y-los-borgia/",
+  "titulo": "Catedral de Valencia, Valencia, España, 2014-06-30, DD 157-159 HDR.JPG",
+  "commons": "https://commons.wikimedia.org/wiki/File:Catedral_de_Valencia,_Valencia,_Espa%C3%B1a,_2014-06-30,_DD_157-159_HDR.JPG",
+  "autor": "Diego Delso",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 778
+ },
+ "tour-santo-grial-y-los-borgia-3.webp": {
+  "pagina": "/tours-valencia/tour-santo-grial-y-los-borgia/",
+  "titulo": "Valencia - Catedral, Capilla del Santo Cáliz 2.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Valencia_-_Catedral,_Capilla_del_Santo_C%C3%A1liz_2.jpg",
+  "autor": "Zarateman",
+  "licencia": "CC0",
+  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "tour-barrio-del-carmen-arte-urbano-1.webp": {
+  "pagina": "/tours-valencia/tour-barrio-del-carmen-arte-urbano/",
+  "titulo": "Graffiti - Barrio del Carmen - Valencia.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Graffiti_-_Barrio_del_Carmen_-_Valencia.jpg",
+  "autor": "fer_br1",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "ancho": 1280,
+  "alto": 1024
+ },
+ "tour-barrio-del-carmen-arte-urbano-2.webp": {
+  "pagina": "/tours-valencia/tour-barrio-del-carmen-arte-urbano/",
+  "titulo": "Graffiti en el barrio del Carmen - Valencia.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Graffiti_en_el_barrio_del_Carmen_-_Valencia.jpg",
+  "autor": "fer_br1",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "ancho": 1280,
+  "alto": 1024
+ },
+ "tour-barrio-del-carmen-arte-urbano-3.webp": {
+  "pagina": "/tours-valencia/tour-barrio-del-carmen-arte-urbano/",
+  "titulo": "Un grafitti en el Barrio del Carmen, Valencia IMG 0224.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Un_grafitti_en_el_Barrio_del_Carmen,_Valencia_IMG_0224.jpg",
+  "autor": "fer_br1",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "ancho": 1280,
+  "alto": 1024
+ },
+ "tour-sorolla-valencia-1.webp": {
+  "pagina": "/tours-valencia/tour-sorolla-valencia/",
+  "titulo": "Joaquín Sorolla - Chicos en la playa.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_Sorolla_-_Chicos_en_la_playa.jpg",
+  "autor": "Joaquín Sorolla",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "ancho": 1280,
+  "alto": 788
+ },
+ "tour-sorolla-valencia-2.webp": {
+  "pagina": "/tours-valencia/tour-sorolla-valencia/",
+  "titulo": "(Sorolla Museum) - Clotilde on the beach - Valencia 1904 - Inv.MS 670.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:(Sorolla_Museum)_-_Clotilde_on_the_beach_-_Valencia_1904_-_Inv.MS_670.jpg",
+  "autor": "Didier Descouens",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "ancho": 1280,
+  "alto": 1107
+ },
+ "tour-sorolla-valencia-3.webp": {
+  "pagina": "/tours-valencia/tour-sorolla-valencia/",
+  "titulo": "Joaquín Sorolla - Playa de Valencia (1910).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Joaqu%C3%ADn_Sorolla_-_Playa_de_Valencia_(1910).jpg",
+  "autor": "Joaquín Sorolla",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "ancho": 1280,
+  "alto": 1107
+ },
+ "tour-modernismo-valencia-1.webp": {
+  "pagina": "/tours-valencia/tour-modernismo-valencia/",
+  "titulo": "Mercado de Colón Valencia.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Mercado_de_Col%C3%B3n_Valencia.jpg",
+  "autor": "Santiago Arderíus",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "tour-modernismo-valencia-2.webp": {
+  "pagina": "/tours-valencia/tour-modernismo-valencia/",
+  "titulo": "Mercat-de-Colón Valencia.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Mercat-de-Col%C3%B3n_Valencia.jpg",
+  "autor": "acediscovery",
+  "licencia": "CC BY 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+  "ancho": 1280,
+  "alto": 951
+ },
+ "tour-cabanyal-y-la-playa-1.webp": {
+  "pagina": "/tours-valencia/tour-cabanyal-y-la-playa/",
+  "titulo": "Casa de la Reina del Cabanyal.JPG",
+  "commons": "https://commons.wikimedia.org/wiki/File:Casa_de_la_Reina_del_Cabanyal.JPG",
+  "autor": "Joanbanjo",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 918
+ },
+ "tour-cabanyal-y-la-playa-2.webp": {
+  "pagina": "/tours-valencia/tour-cabanyal-y-la-playa/",
+  "titulo": "766 Biblioteca municipal Casa de la Reina, façana c. Reina, el Canyamelar (València).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:766_Biblioteca_municipal_Casa_de_la_Reina,_fa%C3%A7ana_c._Reina,_el_Canyamelar_(Val%C3%A8ncia).jpg",
+  "autor": "Enric",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "tour-cabanyal-y-la-playa-3.webp": {
+  "pagina": "/tours-valencia/tour-cabanyal-y-la-playa/",
+  "titulo": "758 Biblioteca municipal Casa de la Reina, façana c. Barraca, el Canyamelar (València).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:758_Biblioteca_municipal_Casa_de_la_Reina,_fa%C3%A7ana_c._Barraca,_el_Canyamelar_(Val%C3%A8ncia).jpg",
+  "autor": "Enric",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 873
+ },
+ "tour-valencia-con-ninos-1.webp": {
+  "pagina": "/tours-valencia/tour-valencia-con-ninos/",
+  "titulo": "Parque Gulliver 2007 - puroticorico.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Parque_Gulliver_2007_-_puroticorico.jpg",
+  "autor": "https://www.flickr.com/photos/puroticorico/",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "tour-valencia-con-ninos-2.webp": {
+  "pagina": "/tours-valencia/tour-valencia-con-ninos/",
+  "titulo": "Valencia - Parque Gulliver.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Valencia_-_Parque_Gulliver.jpg",
+  "autor": "Zarateman",
+  "licencia": "CC0",
+  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "ancho": 1280,
+  "alto": 726
+ },
+ "tour-valencia-con-ninos-3.webp": {
+  "pagina": "/tours-valencia/tour-valencia-con-ninos/",
+  "titulo": "Gulliver Park in the Garden of Turia in Valencia Spain.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Gulliver_Park_in_the_Garden_of_Turia_in_Valencia_Spain.jpg",
+  "autor": "MCAE Consulting",
+  "licencia": "CC0",
+  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "ruta-horchata-alboraya-1.webp": {
+  "pagina": "/tours-valencia/ruta-horchata-alboraya/",
+  "titulo": "Horchata Chufas from Alboraya for sale in Valencia, Spain.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Horchata_Chufas_from_Alboraya_for_sale_in_Valencia,_Spain.jpg",
+  "autor": "Wikijanieo",
+  "licencia": "CC BY 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "ruta-horchata-alboraya-2.webp": {
+  "pagina": "/tours-valencia/ruta-horchata-alboraya/",
+  "titulo": "Cultivo de tubérculos de chufa (Cyperus esculentus), lugar comarca de l'Horta Nord, provincia de Valencia.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Cultivo_de_tub%C3%A9rculos_de_chufa_(Cyperus_esculentus),_lugar_comarca_de_l%27Horta_Nord,_provincia_de_Valencia.jpg",
+  "autor": "Juan Emilio Prades Bel",
+  "licencia": "CC BY 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "ruta-horchata-alboraya-3.webp": {
+  "pagina": "/tours-valencia/ruta-horchata-alboraya/",
+  "titulo": "Cultivo de tubérculos de chufa (Cyperus esculentus), lugar Carpesa, provincia de Valencia.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Cultivo_de_tub%C3%A9rculos_de_chufa_(Cyperus_esculentus),_lugar_Carpesa,_provincia_de_Valencia.jpg",
+  "autor": "Juan Emilio Prades Bel",
+  "licencia": "CC BY 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "tapas-y-flamenco-valencia-1.webp": {
+  "pagina": "/tours-valencia/tapas-y-flamenco-valencia/",
+  "titulo": "Granada Spain Tablao-flamenca-Albaicín-01.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Granada_Spain_Tablao-flamenca-Albaic%C3%ADn-01.jpg",
+  "autor": "CEphoto, Uwe Aranas",
+  "licencia": "CC BY-SA 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "ancho": 1280,
+  "alto": 823
+ },
+ "tapas-y-flamenco-valencia-2.webp": {
+  "pagina": "/tours-valencia/tapas-y-flamenco-valencia/",
+  "titulo": "Espectáculo flamenco en Tablao Flamenco El Arenal.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Espect%C3%A1culo_flamenco_en_Tablao_Flamenco_El_Arenal.jpg",
+  "autor": "Noeliv",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "tapas-y-flamenco-valencia-3.webp": {
+  "pagina": "/tours-valencia/tapas-y-flamenco-valencia/",
+  "titulo": "FlamencoTablao.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:FlamencoTablao.jpg",
+  "autor": "User:Mercebcn",
+  "licencia": "CC BY 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+  "ancho": 1280,
+  "alto": 800
+ },
+ "tours-estadios-valencia-1.webp": {
+  "pagina": "/tours-valencia/tours-estadios-valencia/",
+  "titulo": "CAMP DE MESTALLA GRADA DE LA MAR 2014.JPG",
+  "commons": "https://commons.wikimedia.org/wiki/File:CAMP_DE_MESTALLA_GRADA_DE_LA_MAR_2014.JPG",
+  "autor": "Valencia CF",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "tours-estadios-valencia-2.webp": {
+  "pagina": "/tours-valencia/tours-estadios-valencia/",
+  "titulo": "Estadio Mestalla 2006.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Estadio_Mestalla_2006.jpg",
+  "autor": "MiguelAlanCS",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "tours-estadios-valencia-3.webp": {
+  "pagina": "/tours-valencia/tours-estadios-valencia/",
+  "titulo": "Mestalla 05.JPG",
+  "commons": "https://commons.wikimedia.org/wiki/File:Mestalla_05.JPG",
+  "autor": "Dorieo",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "excursion-puentes-colgantes-chulilla-2.webp": {
+  "pagina": "/excursiones/excursion-puentes-colgantes-chulilla/",
+  "titulo": "Luz en Chulilla.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Luz_en_Chulilla.jpg",
+  "autor": "Marcela Escandell",
+  "licencia": "CC BY-SA 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "ancho": 1280,
+  "alto": 854
+ },
+ "excursion-puentes-colgantes-chulilla-3.webp": {
+  "pagina": "/excursiones/excursion-puentes-colgantes-chulilla/",
+  "titulo": "Puesta de sol en Chulilla 02.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Puesta_de_sol_en_Chulilla_02.jpg",
+  "autor": "Dorieo",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "excursion-montanejos-3.webp": {
+  "pagina": "/excursiones/excursion-montanejos/",
+  "titulo": "Fuente de los Baños, río Mijares (Montanejos, Castellón).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Fuente_de_los_Ba%C3%B1os,_r%C3%ADo_Mijares_(Montanejos,_Castell%C3%B3n).jpg",
+  "autor": "Juan Emilio Prades Bel",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "excursion-guadalest-fuentes-del-algar-1.webp": {
+  "pagina": "/excursiones/excursion-guadalest-fuentes-del-algar/",
+  "titulo": "Embalse de Guadalest, Alicante, España, 2023-01-21, DD 24.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Embalse_de_Guadalest,_Alicante,_Espa%C3%B1a,_2023-01-21,_DD_24.jpg",
+  "autor": "Diego Delso",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "excursion-guadalest-fuentes-del-algar-2.webp": {
+  "pagina": "/excursiones/excursion-guadalest-fuentes-del-algar/",
+  "titulo": "Embalse de Guadalest, Alicante, España, 2023-01-21, DD 03.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Embalse_de_Guadalest,_Alicante,_Espa%C3%B1a,_2023-01-21,_DD_03.jpg",
+  "autor": "Diego Delso",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 703
+ },
+ "excursion-guadalest-fuentes-del-algar-3.webp": {
+  "pagina": "/excursiones/excursion-guadalest-fuentes-del-algar/",
+  "titulo": "Embalse de Guadalest, Alicante.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Embalse_de_Guadalest,_Alicante.jpg",
+  "autor": "Carlos SGP",
+  "licencia": "CC0",
+  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "ancho": 1280,
+  "alto": 591
+ },
+ "albufera-en-bici-con-horchata-1.webp": {
+  "pagina": "/excursiones/albufera-en-bici-con-horchata/",
+  "titulo": "Arrozales de la Albufera 1.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Arrozales_de_la_Albufera_1.jpg",
+  "autor": "Fev",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "albufera-en-bici-con-horchata-2.webp": {
+  "pagina": "/excursiones/albufera-en-bici-con-horchata/",
+  "titulo": "Barca a l'Albufera.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Barca_a_l%27Albufera.jpg",
+  "autor": "Lliberpau",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 857
+ },
+ "albufera-en-bici-con-horchata-3.webp": {
+  "pagina": "/excursiones/albufera-en-bici-con-horchata/",
+  "titulo": "Barca amb bicis a l'Albufera de València.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Barca_amb_bicis_a_l%27Albufera_de_Val%C3%A8ncia.jpg",
+  "autor": "Lliberpau",
+  "licencia": "CC BY 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+  "ancho": 1280,
+  "alto": 857
+ },
+ "albufera-en-4x4-1.webp": {
+  "pagina": "/excursiones/albufera-en-4x4/",
+  "titulo": "Barca-en-Albufera-Sorolla.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Barca-en-Albufera-Sorolla.jpg",
+  "autor": "Joaquín Sorolla",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 753
+ },
+ "albufera-en-4x4-2.webp": {
+  "pagina": "/excursiones/albufera-en-4x4/",
+  "titulo": "Imágenes de la Albufera durante paseo en barca 01.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Im%C3%A1genes_de_la_Albufera_durante_paseo_en_barca_01.jpg",
+  "autor": "19Tarrestnom65",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "albufera-en-4x4-3.webp": {
+  "pagina": "/excursiones/albufera-en-4x4/",
+  "titulo": "Imágenes de la Albufera durante paseo en barca 10.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Im%C3%A1genes_de_la_Albufera_durante_paseo_en_barca_10.jpg",
+  "autor": "19Tarrestnom65",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "vuelo-en-globo-1.webp": {
+  "pagina": "/excursiones/vuelo-en-globo/",
+  "titulo": "Balloon over Luxor - Egypt denoised.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Balloon_over_Luxor_-_Egypt_denoised.jpg",
+  "autor": "Balloon_over_Luxor_-_Egypt.jpg: Marcosleal\nderivative work: Pro2 (talk)",
+  "licencia": "CC BY-SA 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "ancho": 1280,
+  "alto": 850
+ },
+ "paseo-en-catamaran-valencia-1.webp": {
+  "pagina": "/actividades-en-el-agua/paseo-en-catamaran-valencia/",
+  "titulo": "L04 406 Valencia, Hafeneinfahrt Nord.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:L04_406_Valencia,_Hafeneinfahrt_Nord.jpg",
+  "autor": "Falk2",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "paseo-en-catamaran-valencia-2.webp": {
+  "pagina": "/actividades-en-el-agua/paseo-en-catamaran-valencia/",
+  "titulo": "Boramar - Valencia Harbour (50198910551).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Boramar_-_Valencia_Harbour_(50198910551).jpg",
+  "autor": "FaceMePLS",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "paseo-en-catamaran-valencia-3.webp": {
+  "pagina": "/actividades-en-el-agua/paseo-en-catamaran-valencia/",
+  "titulo": "Catamaráns - panoramio.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Catamar%C3%A1ns_-_panoramio.jpg",
+  "autor": "radwoc",
+  "licencia": "CC BY-SA 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "ancho": 1280,
+  "alto": 851
+ },
+ "kayak-y-paddle-surf-valencia-2.webp": {
+  "pagina": "/actividades-en-el-agua/kayak-y-paddle-surf-valencia/",
+  "titulo": "Playa de la Patacona.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Playa_de_la_Patacona.jpg",
+  "autor": "JaGa9480",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 957
+ },
+ "kayak-y-paddle-surf-valencia-3.webp": {
+  "pagina": "/actividades-en-el-agua/kayak-y-paddle-surf-valencia/",
+  "titulo": "Paseo playa de la Patacona.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Paseo_playa_de_la_Patacona.jpg",
+  "autor": "Laayudante",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "salidas-de-buceo-1.webp": {
+  "pagina": "/actividades-en-el-agua/salidas-de-buceo/",
+  "titulo": "Jávea Cabo San Antonio JMM.JPG",
+  "commons": "https://commons.wikimedia.org/wiki/File:J%C3%A1vea_Cabo_San_Antonio_JMM.JPG",
+  "autor": "No machine-readable author provided. Josemanuel assumed (based on copyright claims).",
+  "licencia": "CC BY-SA 2.5",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "salidas-de-buceo-2.webp": {
+  "pagina": "/actividades-en-el-agua/salidas-de-buceo/",
+  "titulo": "Cabo de San Antonio - 52580452535.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Cabo_de_San_Antonio_-_52580452535.jpg",
+  "autor": "Werner Wilmes",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "ancho": 1280,
+  "alto": 924
+ },
+ "salidas-de-buceo-3.webp": {
+  "pagina": "/actividades-en-el-agua/salidas-de-buceo/",
+  "titulo": "® JAVEA COSTA PLAYA FRAGMENTADA-VISTA - panoramio (1).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:%C2%AE_JAVEA_COSTA_PLAYA_FRAGMENTADA-VISTA_-_panoramio_(1).jpg",
+  "autor": "Concepcion AMAT ORTA…",
+  "licencia": "CC BY 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+  "ancho": 1280,
+  "alto": 857
+ },
+ "traslados-valencia-1.webp": {
+  "pagina": "/servicios/traslados-valencia/",
+  "titulo": "Nueva Terminal T2 Aeropuerto de Valencia.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Nueva_Terminal_T2_Aeropuerto_de_Valencia.jpg",
+  "autor": "Adrian7mint",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 701
+ },
+ "traslados-valencia-2.webp": {
+  "pagina": "/servicios/traslados-valencia/",
+  "titulo": "Aeropuerto de valencia.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Aeropuerto_de_valencia.jpg",
+  "autor": "Luislopez27",
+  "licencia": "CC BY-SA 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "traslados-valencia-3.webp": {
+  "pagina": "/servicios/traslados-valencia/",
+  "titulo": "Terminal-2-Aeropuerto-Alicante.JPG",
+  "commons": "https://commons.wikimedia.org/wiki/File:Terminal-2-Aeropuerto-Alicante.JPG",
+  "autor": "Dr RdL",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "entradas-valencia-1.webp": {
+  "pagina": "/servicios/entradas-valencia/",
+  "titulo": "Rhizostoma pulmo in Oceanogràfic Valencia.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Rhizostoma_pulmo_in_Oceanogr%C3%A0fic_Valencia.jpg",
+  "autor": "Esniom",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "entradas-valencia-2.webp": {
+  "pagina": "/servicios/entradas-valencia/",
+  "titulo": "Valencia Oceanogràfic Platalea ajaja.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Valencia_Oceanogr%C3%A0fic_Platalea_ajaja.jpg",
+  "autor": "Ymblanter",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 938
+ },
+ "alquiler-de-bicis-valencia-1.webp": {
+  "pagina": "/servicios/alquiler-de-bicis-valencia/",
+  "titulo": "Carril bici a l'avinguda de Joan XXIII, València.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Carril_bici_a_l%27avinguda_de_Joan_XXIII,_Val%C3%A8ncia.jpg",
+  "autor": "ValenCicleta",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 1005
+ },
+ "alquiler-de-bicis-valencia-2.webp": {
+  "pagina": "/servicios/alquiler-de-bicis-valencia/",
+  "titulo": "2018 12 17 Carril bici a València 12.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:2018_12_17_Carril_bici_a_Val%C3%A8ncia_12.jpg",
+  "autor": "Pacopac",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "alquiler-de-bicis-valencia-3.webp": {
+  "pagina": "/servicios/alquiler-de-bicis-valencia/",
+  "titulo": "Carril bici al carrer del Comte de Lumiares (València) 02.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Carril_bici_al_carrer_del_Comte_de_Lumiares_(Val%C3%A8ncia)_02.jpg",
+  "autor": "ValenCicleta",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "viajes-de-estudios-y-colegios-1.webp": {
+  "pagina": "/servicios/viajes-de-estudios-y-colegios/",
+  "titulo": "El Museu de les Ciències Príncipe Felipe – Bilim ve Uzay Müzesi.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:El_Museu_de_les_Ci%C3%A8ncies_Pr%C3%ADncipe_Felipe_%E2%80%93_Bilim_ve_Uzay_M%C3%BCzesi.jpg",
+  "autor": "HuseyinUlucay",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 800
+ },
+ "viajes-de-estudios-y-colegios-2.webp": {
+  "pagina": "/servicios/viajes-de-estudios-y-colegios/",
+  "titulo": "Valencia - Museu de les Ciències - 20200224-01 PvE.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Valencia_-_Museu_de_les_Ci%C3%A8ncies_-_20200224-01_PvE.jpg",
+  "autor": "Pieter van Everdingen",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "viajes-de-estudios-y-colegios-3.webp": {
+  "pagina": "/servicios/viajes-de-estudios-y-colegios/",
+  "titulo": "Valencia - Museu de les Ciències - 20200224-02 PvE.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Valencia_-_Museu_de_les_Ci%C3%A8ncies_-_20200224-02_PvE.jpg",
+  "autor": "Pieter van Everdingen",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "tour-guerra-civil-valencia-2.webp": {
+  "pagina": "/tours-valencia/tour-guerra-civil-valencia/",
+  "titulo": "Plaza del Ayuntamiento - panoramio (8).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Plaza_del_Ayuntamiento_-_panoramio_(8).jpg",
+  "autor": "Jorge Franganillo",
+  "licencia": "CC BY 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "tour-guerra-civil-valencia-3.webp": {
+  "pagina": "/tours-valencia/tour-guerra-civil-valencia/",
+  "titulo": "Plaza del Ayuntamiento de Valencia, España.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Plaza_del_Ayuntamiento_de_Valencia,_Espa%C3%B1a.jpg",
+  "autor": "Juan Emilio Prades Bel",
+  "licencia": "CC BY 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "cata-de-cervezas-ruzafa-1.webp": {
+  "pagina": "/tours-valencia/cata-de-cervezas-ruzafa/",
+  "titulo": "Dargett Craft Beer (1).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Dargett_Craft_Beer_(1).jpg",
+  "autor": "Armineaghayan",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 865
+ },
+ "cata-de-cervezas-ruzafa-2.webp": {
+  "pagina": "/tours-valencia/cata-de-cervezas-ruzafa/",
+  "titulo": "Dargett Craft Beer (2).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Dargett_Craft_Beer_(2).jpg",
+  "autor": "Armineaghayan",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 1244
+ },
+ "cata-de-cervezas-ruzafa-3.webp": {
+  "pagina": "/tours-valencia/cata-de-cervezas-ruzafa/",
+  "titulo": "Lisbon craft beer (53289660898).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Lisbon_craft_beer_(53289660898).jpg",
+  "autor": "David Blaikie from Hampshire, UK",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "audioguias-valencia-1.webp": {
+  "pagina": "/servicios/audioguias-valencia/",
+  "titulo": "Valencia - Plaza de la Reina 01.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Valencia_-_Plaza_de_la_Reina_01.jpg",
+  "autor": "Mihael Grmek",
+  "licencia": "CC BY-SA 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "ancho": 1280,
+  "alto": 897
+ },
+ "audioguias-valencia-2.webp": {
+  "pagina": "/servicios/audioguias-valencia/",
+  "titulo": "Valencia- Plaza de la Reina (24685235733).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Valencia-_Plaza_de_la_Reina_(24685235733).jpg",
+  "autor": "Jorge Franganillo from Barcelona, Spain",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "audioguias-valencia-3.webp": {
+  "pagina": "/servicios/audioguias-valencia/",
+  "titulo": "Mercado artisnales de navidad en Plaza de la Reina Valencia 2024-12-10.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Mercado_artisnales_de_navidad_en_Plaza_de_la_Reina_Valencia_2024-12-10.jpg",
+  "autor": "LiteraryTech",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "excursion-montanejos-1.webp": {
+  "pagina": "/excursiones/excursion-montanejos/",
+  "titulo": "Montanejos. Fuente de los Baños. Río Palancia.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Montanejos._Fuente_de_los_Ba%C3%B1os._R%C3%ADo_Palancia.jpg",
+  "autor": "Enrique Íñiguez Rodríguez (Qoan)",
+  "licencia": "CC BY-SA 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "excursion-montanejos-2.webp": {
+  "pagina": "/excursiones/excursion-montanejos/",
+  "titulo": "Río Mijares.JPG",
+  "commons": "https://commons.wikimedia.org/wiki/File:R%C3%ADo_Mijares.JPG",
+  "autor": "Miradasypaisajes",
+  "licencia": "CC BY-SA 3.0 es",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/deed.en",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "vuelo-en-globo-2.webp": {
+  "pagina": "/excursiones/vuelo-en-globo/",
+  "titulo": "Hot air balloon and moon.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Hot_air_balloon_and_moon.jpg",
+  "autor": "Tomascastelazo",
+  "licencia": "CC BY-SA 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "ancho": 1280,
+  "alto": 1003
+ },
+ "vuelo-en-globo-3.webp": {
+  "pagina": "/excursiones/vuelo-en-globo/",
+  "titulo": "Hot-air balloon in Tambov - 02.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Hot-air_balloon_in_Tambov_-_02.jpg",
+  "autor": "Alexander Novikov",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "tour-modernismo-valencia-3.webp": {
+  "pagina": "/tours-valencia/tour-modernismo-valencia/",
+  "titulo": "Estación del Norte, Valencia, España, 2014-06-30, DD 122.JPG",
+  "commons": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_del_Norte,_Valencia,_Espa%C3%B1a,_2014-06-30,_DD_122.JPG",
+  "autor": "Diego Delso",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 606
+ },
+ "excursion-puentes-colgantes-chulilla-1.webp": {
+  "pagina": "/excursiones/excursion-puentes-colgantes-chulilla/",
+  "titulo": "Puesta de sol en Chulilla 01.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Puesta_de_sol_en_Chulilla_01.jpg",
+  "autor": "Dorieo",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "kayak-y-paddle-surf-valencia-1.webp": {
+  "pagina": "/actividades-en-el-agua/kayak-y-paddle-surf-valencia/",
+  "titulo": "Stand Up Paddle Surf Men's Marathon ROS19 23-03-2019 (016).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Stand_Up_Paddle_Surf_Men%27s_Marathon_ROS19_23-03-2019_(016).jpg",
+  "autor": "Mauricio V. Genta",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 854
+ },
+ "entradas-valencia-3.webp": {
+  "pagina": "/servicios/entradas-valencia/",
+  "titulo": "Hemisfèric, Valencia.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Hemisf%C3%A8ric,_Valencia.jpg",
+  "autor": "Bene Riobó",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "tour-misterios-y-leyendas-de-valencia-2.webp": {
+  "pagina": "/tours-valencia/tour-misterios-y-leyendas-de-valencia/",
+  "titulo": "Barrio del Carmen - panoramio.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Barrio_del_Carmen_-_panoramio.jpg",
+  "autor": "Jorge Franganillo",
+  "licencia": "CC BY 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+  "ancho": 1280,
+  "alto": 853
+ },
+ "tour-misterios-y-leyendas-de-valencia-3.webp": {
+  "pagina": "/tours-valencia/tour-misterios-y-leyendas-de-valencia/",
+  "titulo": "117 Art urbà, c. Sant Miquel, el Carme (València).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:117_Art_urb%C3%A0,_c._Sant_Miquel,_el_Carme_(Val%C3%A8ncia).jpg",
+  "autor": "Enric",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "tour-guerra-civil-valencia-1.webp": {
+  "pagina": "/tours-valencia/tour-guerra-civil-valencia/",
+  "titulo": "Plaza del Ayuntamiento (Valencia).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Plaza_del_Ayuntamiento_(Valencia).jpg",
+  "autor": "Julián Monrabal",
+  "licencia": "CC0",
+  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "bautismo-de-buceo-1.webp": {
+  "pagina": "/actividades-en-el-agua/bautismo-de-buceo/",
+  "titulo": "Islas Hormigas - buceo.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Islas_Hormigas_-_buceo.jpg",
+  "autor": "Marta T López",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "bautismo-de-buceo-2.webp": {
+  "pagina": "/actividades-en-el-agua/bautismo-de-buceo/",
+  "titulo": "Posidonia oceanica (L).jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Posidonia_oceanica_(L).jpg",
+  "autor": "Frédéric Ducarme",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "bautismo-de-buceo-3.webp": {
+  "pagina": "/actividades-en-el-agua/bautismo-de-buceo/",
+  "titulo": "Posidonia oceanica praderia.jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:Posidonia_oceanica_praderia.jpg",
+  "autor": "CofreDeSofre",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "ancho": 1280,
+  "alto": 960
  }
 }

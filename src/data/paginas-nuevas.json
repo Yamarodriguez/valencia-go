@@ -1,0 +1,1101 @@
+{
+ "_nota": "Páginas nuevas de Excursiones Valencia (27-10-2026), a partir del análisis de la competencia (Civitatis, Visit Valencia, VoiceMap y operadores locales) más buceo, por petición del propietario. Las monta scripts/paginas-nuevas.py clonando una ficha existente. Sin precios, horarios, duraciones ni puntos de encuentro inventados: todas piden información hasta que el propietario dé esos datos. Las fotos las busca scripts/fotos-paginas-nuevas.mjs con 'busquedas' y valen si su título en Commons nombra alguna de las 'claves'.",
+ "categorias": {
+  "tours-valencia": {
+   "nombre": "Tours en Valencia",
+   "plantilla": "tours-valencia--tour-de-valencia-medieval",
+   "existe": true
+  },
+  "excursiones": {
+   "nombre": "Excursiones",
+   "plantilla": "excursiones--excursion-a-bocairent",
+   "existe": true
+  },
+  "actividades-en-el-agua": {
+   "nombre": "Actividades en el agua",
+   "plantilla": "tours-valencia--tour-de-valencia-medieval",
+   "existe": false,
+   "listado": "excursiones",
+   "menu": "En el agua",
+   "seo": "Actividades en el agua en Valencia: catamarán, kayak, paddle surf y buceo",
+   "desc": "Paseos en catamarán, kayak, paddle surf, bautismo de buceo y salidas de buceo cerca de Valencia. Pide información sin compromiso.",
+   "intro": "Valencia se vive también desde el mar. Navega en catamarán frente a la ciudad, rema en kayak o en paddle surf junto a sus playas o haz tu primera inmersión en la costa de Xàbia. Escríbenos y te preparamos la actividad que más te guste."
+  },
+  "servicios": {
+   "nombre": "Servicios",
+   "plantilla": "tours-valencia--tour-de-valencia-medieval",
+   "existe": false,
+   "listado": "excursiones",
+   "menu": "Servicios",
+   "seo": "Servicios para tu viaje a Valencia: traslados, entradas, audioguías y bicis",
+   "desc": "Traslados, entradas para museos y atracciones, audioguías, alquiler de bicis y visitas para colegios en Valencia. Pide información.",
+   "intro": "Todo lo que necesitas para tu visita, además de los tours: traslados desde el aeropuerto, el puerto o la estación, entradas para las atracciones, audioguías, bicis y visitas para colegios. Cuéntanos qué necesitas y te ayudamos."
+  }
+ },
+ "comunes": {
+  "saber": "<p><strong>Precio, horarios, duración y punto de encuentro:</strong> te los confirmamos cuando nos escribes, según la fecha que elijas y el número de personas.</p>",
+  "faq": [
+   [
+    "¿Cuánto cuesta?",
+    "El precio depende de la fecha y del número de personas. Escríbenos y te lo damos sin compromiso."
+   ],
+   [
+    "¿Cómo se reserva?",
+    "Pulsa «Pedir información» o escríbenos por WhatsApp o por correo. Te confirmamos la disponibilidad y te explicamos cómo reservar."
+   ],
+   [
+    "¿Se puede hacer solo para mi grupo?",
+    "Pregúntanos. Muchas actividades se pueden preparar en privado para familias, amigos o empresas."
+   ]
+  ]
+ },
+ "paginas": [
+  {
+   "slug": "tour-misterios-y-leyendas-de-valencia",
+   "cat": "tours-valencia",
+   "titulo": "Tour de misterios y leyendas de Valencia",
+   "corto": "Misterios y leyendas de Valencia",
+   "seo": "Tour de misterios y leyendas de Valencia al caer la noche",
+   "desc": "Recorre el casco antiguo de Valencia al caer la noche y escucha sus leyendas más curiosas: la Casa del Gato, el lagarto del Patriarca y muchas más.",
+   "lugar": "Valencia",
+   "intro": "<p>Cuando cae la noche, el casco antiguo de Valencia <strong>cuenta otras historias</strong>. Un paseo por sus calles más estrechas para escuchar las <strong>leyendas</strong> que han pasado de generación en generación.</p>",
+   "destacados": [
+    "Pasea por el casco antiguo cuando se encienden las farolas.",
+    "Escucha leyendas que no salen en las guías de viaje.",
+    "Un plan diferente para hacer después de cenar."
+   ],
+   "subtitulo": "Las historias que se cuentan en voz baja",
+   "cuerpo": "<p>Valencia tiene más de dos mil años y en cada rincón hay una historia. En este paseo nocturno descubrirás por qué una casa de la calle del Museo tiene <strong>una puerta diminuta para un gato</strong>, qué hace un <strong>lagarto colgado</strong> en el Colegio del Patriarca y qué se cuenta de algunas plazas cuando se vacían.</p><p>No es un recorrido de miedo: es una forma <strong>entretenida y cercana</strong> de conocer la ciudad a través de lo que contaban sus vecinos.</p>",
+   "queVeras": "<ul><li>Las calles del <strong>barrio del Carmen</strong> y del centro histórico.</li><li>La <strong>Casa del Gato</strong> y su pequeña puerta.</li><li>El <strong>Colegio del Patriarca</strong> y la leyenda de su lagarto.</li><li>Plazas y rincones con historias que casi nadie conoce.</li></ul>",
+   "faq": [
+    [
+     "¿Da miedo?",
+     "No. Son leyendas e historias curiosas contadas de forma amena, aptas para todos los públicos."
+    ]
+   ],
+   "busquedas": [
+    "Calle de Caballeros Valencia noche",
+    "Barrio del Carmen Valencia noche",
+    "Plaza de la Virgen Valencia noche",
+    "Colegio del Patriarca Valencia"
+   ],
+   "claves": [
+    "valencia",
+    "carmen",
+    "patriarca",
+    "caballeros",
+    "virgen"
+   ]
+  },
+  {
+   "slug": "tour-valencia-macabra",
+   "cat": "tours-valencia",
+   "titulo": "Tour de la Valencia macabra",
+   "corto": "La Valencia macabra",
+   "seo": "Tour de la Valencia macabra: cárceles, crímenes y castigos",
+   "desc": "Descubre la cara más oscura de la historia de Valencia: las torres que fueron cárcel, las ejecuciones en la plaza del Mercado y los crímenes más sonados.",
+   "lugar": "Valencia",
+   "intro": "<p>Detrás de los monumentos hay <strong>cárceles, castigos y crímenes</strong>. Un recorrido por la parte más oscura de la historia de Valencia, contada con rigor y sin perder el humor.</p>",
+   "destacados": [
+    "Conoce las torres de la muralla que se usaron como prisión.",
+    "Descubre qué pasaba en la plaza del Mercado en los días de ejecución.",
+    "Historias reales para quien ya conoce la Valencia de postal."
+   ],
+   "subtitulo": "La otra historia de la ciudad",
+   "cuerpo": "<p>Las <strong>Torres de Serranos</strong> y las <strong>Torres de Quart</strong> no solo defendían la ciudad: durante siglos también fueron <strong>cárcel</strong>. En las Torres de Quart aún se ven las marcas de los cañonazos del asedio francés de 1808.</p><p>La <strong>plaza del Mercado</strong>, hoy llena de vida, fue durante mucho tiempo el lugar de las ejecuciones públicas. En este paseo te contamos esas historias y otras que la ciudad prefiere no recordar.</p>",
+   "queVeras": "<ul><li>Las <strong>Torres de Quart</strong> y las huellas del asedio de 1808.</li><li>Las <strong>Torres de Serranos</strong>, puerta de la ciudad y prisión.</li><li>La <strong>plaza del Mercado</strong> y su pasado.</li><li>Calles del centro con historias de crímenes y castigos.</li></ul>",
+   "faq": [
+    [
+     "¿Es apto para niños?",
+     "Se cuentan hechos históricos duros. Recomendamos el tour para adolescentes y adultos."
+    ]
+   ],
+   "busquedas": [
+    "Torres de Quart Valencia",
+    "Torres de Serranos Valencia noche",
+    "Plaza del Mercado Valencia Lonja",
+    "Torres de Quart impactos"
+   ],
+   "claves": [
+    "quart",
+    "serranos",
+    "mercado",
+    "lonja",
+    "valencia"
+   ]
+  },
+  {
+   "slug": "tour-santo-grial-y-los-borgia",
+   "cat": "tours-valencia",
+   "titulo": "Tour del Santo Grial y los Borgia",
+   "corto": "El Santo Grial y los Borgia",
+   "seo": "Tour del Santo Grial y los Borgia en Valencia",
+   "desc": "Sigue la pista del Santo Cáliz que se guarda en la Catedral de Valencia y de los Borgia, la familia valenciana que dio dos papas.",
+   "lugar": "Valencia",
+   "intro": "<p>Valencia guarda en su Catedral el <strong>Santo Cáliz</strong>, venerado como el Santo Grial, y fue la tierra de los <strong>Borgia</strong>, la familia que dio dos papas. Un tour para seguir la pista a los dos.</p>",
+   "destacados": [
+    "Descubre la historia del Santo Cáliz y cómo llegó a Valencia.",
+    "Conoce a los Borgia, de Xàtiva a Roma.",
+    "Pasea por la Catedral y el palacio de los Borja."
+   ],
+   "subtitulo": "Un cáliz, dos papas y una ciudad",
+   "cuerpo": "<p>En una capilla de la <strong>Catedral de Valencia</strong> se guarda el <strong>Santo Cáliz</strong>, la copa que la tradición identifica con la de la Última Cena. Te contamos su recorrido a lo largo de los siglos hasta llegar a la ciudad.</p><p>Los <strong>Borgia</strong> (Borja en valenciano) salieron de Xàtiva y llegaron dos veces al papado: <strong>Calixto III</strong> y <strong>Alejandro VI</strong>. Su huella sigue en Valencia, en la Catedral y en el <strong>palacio de los Borja</strong>, hoy sede de las Corts Valencianes.</p>",
+   "queVeras": "<ul><li>La <strong>Catedral de Valencia</strong> y la capilla del Santo Cáliz.</li><li>El <strong>Miguelete</strong> y la plaza de la Reina.</li><li>El <strong>palacio de los Borja</strong>.</li><li>Las calles del centro ligadas a la familia Borgia.</li></ul>",
+   "faq": [
+    [
+     "¿Están incluidas las entradas?",
+     "Te decimos qué entradas hacen falta y si se incluyen cuando nos pidas información."
+    ]
+   ],
+   "busquedas": [
+    "Santo Cáliz Valencia",
+    "Capilla del Santo Cáliz Catedral Valencia",
+    "Palau dels Borja Valencia",
+    "Catedral de Valencia puerta de los Apóstoles"
+   ],
+   "claves": [
+    "caliz",
+    "grial",
+    "borja",
+    "borgia",
+    "catedral",
+    "valencia"
+   ]
+  },
+  {
+   "slug": "tour-guerra-civil-valencia",
+   "cat": "tours-valencia",
+   "titulo": "Tour de la Guerra Civil en Valencia",
+   "corto": "La Guerra Civil en Valencia",
+   "seo": "Tour de la Guerra Civil en Valencia, capital de la República",
+   "desc": "Conoce cómo vivió Valencia la Guerra Civil, cuando fue capital de la República, y los refugios antiaéreos que aún se conservan.",
+   "lugar": "Valencia",
+   "intro": "<p>Entre 1936 y 1937 Valencia fue <strong>capital de la República</strong>. Un recorrido por los lugares que cuentan cómo vivió la ciudad la <strong>Guerra Civil</strong>.</p>",
+   "destacados": [
+    "Descubre los edificios donde se instaló el Gobierno de la República.",
+    "Conoce los refugios antiaéreos que aún se conservan.",
+    "Historia contada con rigor y respeto."
+   ],
+   "subtitulo": "Cuando Valencia fue capital",
+   "cuerpo": "<p>En noviembre de 1936 el Gobierno de la República se trasladó a Valencia, que fue su capital durante casi un año. La ciudad se llenó de ministerios, periodistas, artistas e intelectuales.</p><p>También sufrió los <strong>bombardeos</strong>. Para protegerse, los vecinos construyeron <strong>refugios antiaéreos</strong>, algunos de los cuales se conservan y se pueden visitar. En este tour recorremos esa historia con rigor y respeto.</p>",
+   "queVeras": "<ul><li>La <strong>plaza del Ayuntamiento</strong> y su historia en la guerra.</li><li>Edificios que ocupó el Gobierno de la República.</li><li><strong>Refugios antiaéreos</strong> del centro de la ciudad.</li><li>Rincones con huellas de aquellos años.</li></ul>",
+   "faq": [
+    [
+     "¿Se entra en algún refugio?",
+     "Depende de los horarios de apertura de cada refugio. Te lo confirmamos al pedir información."
+    ]
+   ],
+   "busquedas": [
+    "Plaza del Ayuntamiento de Valencia",
+    "Ayuntamiento de Valencia fachada",
+    "Refugi antiaeri València",
+    "Palau de Benicarló València"
+   ],
+   "claves": [
+    "ajuntament",
+    "ayuntamiento",
+    "refugi",
+    "benicarlo"
+   ]
+  },
+  {
+   "slug": "tour-barrio-del-carmen-arte-urbano",
+   "cat": "tours-valencia",
+   "titulo": "Tour por el barrio del Carmen y su arte urbano",
+   "corto": "El barrio del Carmen y su arte urbano",
+   "seo": "Tour por el barrio del Carmen de Valencia y su arte urbano",
+   "desc": "Recorre el barrio del Carmen, el corazón antiguo de Valencia, y descubre los murales y el arte urbano que llenan sus calles.",
+   "lugar": "Valencia",
+   "intro": "<p>El <strong>barrio del Carmen</strong> es el corazón antiguo de Valencia y también un <strong>museo al aire libre</strong>: sus paredes están llenas de murales, pintadas y pequeñas obras que cambian con el tiempo.</p>",
+   "destacados": [
+    "Descubre murales y obras de arte urbano escondidas en sus calles.",
+    "Conoce la historia del barrio, de la muralla a hoy.",
+    "Ideal para los amantes de la fotografía."
+   ],
+   "subtitulo": "Historia y arte en cada esquina",
+   "cuerpo": "<p>El Carmen creció dentro de las antiguas murallas, entre las <strong>Torres de Serranos</strong> y las <strong>Torres de Quart</strong>. Sus calles estrechas guardan conventos, palacios y plazas con mucho ambiente.</p><p>En las últimas décadas el barrio se ha llenado de <strong>arte urbano</strong>: murales de gran tamaño, pequeñas figuras y obras de artistas locales e internacionales. Te enseñamos dónde mirar y qué hay detrás de cada pieza.</p>",
+   "queVeras": "<ul><li><strong>Murales y arte urbano</strong> del barrio.</li><li>Las <strong>Torres de Quart</strong> y los restos de la muralla.</li><li>Plazas con encanto como la del Tossal.</li><li>Rincones ideales para hacer fotos.</li></ul>",
+   "faq": [
+    [
+     "¿Las obras son siempre las mismas?",
+     "No. El arte urbano cambia con el tiempo, así que cada recorrido puede tener sorpresas."
+    ]
+   ],
+   "busquedas": [
+    "Graffiti Barrio del Carmen Valencia",
+    "Street art Valencia Carmen",
+    "Mural El Carmen Valencia",
+    "Calle Barrio del Carmen Valencia"
+   ],
+   "claves": [
+    "carmen",
+    "carme",
+    "graffiti",
+    "mural",
+    "street art",
+    "valencia"
+   ]
+  },
+  {
+   "slug": "tour-sorolla-valencia",
+   "cat": "tours-valencia",
+   "titulo": "Tour de Sorolla, el pintor de Valencia",
+   "corto": "Sorolla, el pintor de Valencia",
+   "seo": "Tour de Sorolla en Valencia: la ciudad y el mar del pintor de la luz",
+   "desc": "Sigue los pasos de Joaquín Sorolla, el pintor de la luz, desde el barrio donde nació hasta el Museo de Bellas Artes y las playas que pintó.",
+   "lugar": "Valencia",
+   "intro": "<p><strong>Joaquín Sorolla</strong> nació en Valencia en 1863 y pintó como nadie <strong>la luz del Mediterráneo</strong>. Un tour para conocer la ciudad a través de su vida y de su obra.</p>",
+   "destacados": [
+    "Descubre el barrio donde nació el pintor.",
+    "Contempla obras suyas en el Museo de Bellas Artes de Valencia.",
+    "Entiende por qué se le llama el pintor de la luz."
+   ],
+   "subtitulo": "La ciudad del pintor de la luz",
+   "cuerpo": "<p>Sorolla nació junto al <strong>Mercado Central</strong>, se formó en Valencia y nunca dejó de volver a sus playas. Las escenas de pescadores, niños en la orilla y velas al viento que lo hicieron famoso salieron de la <strong>playa del Cabanyal y la Malvarrosa</strong>.</p><p>En el <strong>Museo de Bellas Artes de Valencia</strong> se pueden ver obras suyas. Te contamos su historia, su técnica y la ciudad que lo inspiró.</p>",
+   "queVeras": "<ul><li>El barrio del <strong>Mercado Central</strong>, donde nació.</li><li>El <strong>Museo de Bellas Artes de Valencia</strong>.</li><li>Lugares de la ciudad ligados a su vida.</li><li>Opcional: la playa que pintó.</li></ul>",
+   "faq": [
+    [
+     "¿Se entra en el museo?",
+     "El recorrido se puede combinar con la visita al Museo de Bellas Artes. Te lo explicamos al pedir información."
+    ]
+   ],
+   "busquedas": [
+    "Joaquín Sorolla playa Valencia",
+    "Sorolla paseo a orillas del mar",
+    "Sorolla pescadores Valencia",
+    "Museo de Bellas Artes Valencia San Pío V"
+   ],
+   "claves": [
+    "sorolla",
+    "bellas artes",
+    "san pio"
+   ]
+  },
+  {
+   "slug": "tour-modernismo-valencia",
+   "cat": "tours-valencia",
+   "titulo": "Tour del modernismo valenciano",
+   "corto": "El modernismo valenciano",
+   "seo": "Tour del modernismo en Valencia: Mercado de Colón, Estación del Norte y el Ensanche",
+   "desc": "Descubre la Valencia modernista de principios del siglo XX: el Mercado de Colón, la Estación del Norte, el Mercado Central y las fachadas del Ensanche.",
+   "lugar": "Valencia",
+   "intro": "<p>A principios del siglo XX Valencia se llenó de <strong>hierro, cerámica y vidrio</strong>. Un paseo por los edificios <strong>modernistas</strong> más bonitos de la ciudad.</p>",
+   "destacados": [
+    "Admira el Mercado de Colón y la Estación del Norte.",
+    "Descubre las fachadas modernistas del Ensanche.",
+    "Aprende a reconocer los detalles del modernismo valenciano."
+   ],
+   "subtitulo": "Hierro, cerámica y naranjas",
+   "cuerpo": "<p>La <strong>Estación del Norte</strong> recibe a los viajeros con naranjas y azulejos en su fachada y en su vestíbulo. Muy cerca, el <strong>Mercado de Colón</strong> es una de las joyas del modernismo en España, y el <strong>Mercado Central</strong> une hierro, cúpulas y vidrieras.</p><p>Entre unos y otros, las calles del <strong>Ensanche</strong> esconden fachadas con flores, hierros forjados y miradores. Te enseñamos a mirarlas con otros ojos.</p>",
+   "queVeras": "<ul><li>La <strong>Estación del Norte</strong>.</li><li>El <strong>Mercado de Colón</strong>.</li><li>El <strong>Mercado Central</strong>.</li><li>Las fachadas del <strong>Ensanche</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Hay que entrar en los mercados?",
+     "Se puede entrar libremente en los mercados en su horario de apertura. Te recomendamos el mejor momento."
+    ]
+   ],
+   "busquedas": [
+    "Mercado de Colón Valencia",
+    "Estación del Norte Valencia vestíbulo",
+    "Estació del Nord València",
+    "Mercado Central Valencia cúpula",
+    "Ensanche Valencia modernismo fachada"
+   ],
+   "claves": [
+    "colon",
+    "nord",
+    "norte",
+    "mercado central",
+    "mercat central",
+    "ensanche",
+    "eixample",
+    "modernis"
+   ]
+  },
+  {
+   "slug": "tour-cabanyal-y-la-playa",
+   "cat": "tours-valencia",
+   "titulo": "Tour por el Cabanyal y la playa de la Malvarrosa",
+   "corto": "El Cabanyal y la playa",
+   "seo": "Tour por el Cabanyal, el barrio marinero de Valencia, y la Malvarrosa",
+   "desc": "Pasea por el Cabanyal, el antiguo barrio de pescadores de Valencia, con sus casas de azulejos, y termina frente al mar en la Malvarrosa.",
+   "lugar": "Valencia",
+   "intro": "<p>El <strong>Cabanyal</strong> fue un pueblo de pescadores y hoy es uno de los barrios con más personalidad de Valencia. Casas de <strong>azulejos de colores</strong>, calles paralelas al mar y la <strong>playa</strong> al final del camino.</p>",
+   "destacados": [
+    "Descubre las fachadas de azulejos más bonitas del barrio.",
+    "Conoce la vida del antiguo barrio de pescadores.",
+    "Termina el paseo frente al mar."
+   ],
+   "subtitulo": "El barrio que mira al mar",
+   "cuerpo": "<p>Las calles del Cabanyal siguen el trazado de las antiguas barracas de pescadores, en líneas paralelas a la costa. Con el tiempo se llenaron de casas de una o dos plantas con <strong>fachadas de cerámica</strong> que hoy son su seña de identidad.</p><p>El barrio está protegido como conjunto histórico y vive un momento de mucho ambiente, con mercados, bares de toda la vida y nuevos proyectos. El paseo termina en la <strong>playa de la Malvarrosa</strong>.</p>",
+   "queVeras": "<ul><li>Las <strong>casas de azulejos</strong> del Cabanyal.</li><li>El <strong>mercado del Cabanyal</strong>.</li><li>La antigua vida marinera del barrio.</li><li>El paseo marítimo y la <strong>playa de la Malvarrosa</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Se puede combinar con la playa?",
+     "Sí, el recorrido termina junto al mar y puedes quedarte en la playa después."
+    ]
+   ],
+   "busquedas": [
+    "Cabanyal Valencia fachada azulejos",
+    "El Cabanyal Valencia casas",
+    "Playa de la Malvarrosa Valencia",
+    "Cabanyal calle"
+   ],
+   "claves": [
+    "cabanyal",
+    "canyamelar",
+    "malvarrosa"
+   ]
+  },
+  {
+   "slug": "tour-valencia-con-ninos",
+   "cat": "tours-valencia",
+   "titulo": "Tour por Valencia para familias con niños",
+   "corto": "Valencia con niños",
+   "seo": "Tour por Valencia para familias con niños: historia contada para ellos",
+   "desc": "Un paseo por Valencia pensado para niños: leyendas, juegos y rincones curiosos del centro, y un final en el Parque Gulliver del Jardín del Turia.",
+   "lugar": "Valencia",
+   "intro": "<p>Un recorrido pensado <strong>para que los niños disfruten</strong>: leyendas, preguntas y rincones curiosos del centro de Valencia, con un ritmo tranquilo y paradas para descansar.</p>",
+   "destacados": [
+    "La historia de Valencia contada para niños.",
+    "Ritmo tranquilo, con paradas y juegos.",
+    "Opcional: final en el Parque Gulliver."
+   ],
+   "subtitulo": "Historia que se entiende jugando",
+   "cuerpo": "<p>Dragones, gatos con puerta propia, torres que fueron cárcel y un río que se convirtió en jardín: Valencia tiene historias perfectas para contar a los más pequeños.</p><p>Adaptamos el recorrido a la edad de los niños y al ritmo de la familia. Para terminar, se puede ir al <strong>Parque Gulliver</strong> del <strong>Jardín del Turia</strong>, donde los niños trepan por un Gulliver gigante.</p>",
+   "queVeras": "<ul><li>La <strong>plaza de la Virgen</strong> y la Catedral.</li><li>Las <strong>Torres de Serranos</strong>.</li><li>Rincones con leyendas para niños.</li><li>Opcional: el <strong>Parque Gulliver</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Para qué edades es?",
+     "Lo adaptamos a la edad de los niños. Cuéntanos cuántos años tienen cuando nos escribas."
+    ]
+   ],
+   "busquedas": [
+    "Parque Gulliver Valencia",
+    "Gulliver Jardín del Turia",
+    "Plaza de la Virgen Valencia niños",
+    "Jardín del Turia Valencia familia"
+   ],
+   "claves": [
+    "gulliver",
+    "turia",
+    "virgen",
+    "valencia"
+   ]
+  },
+  {
+   "slug": "ruta-horchata-alboraya",
+   "cat": "tours-valencia",
+   "titulo": "Ruta de la horchata en Alboraya",
+   "corto": "La horchata en Alboraya",
+   "seo": "Ruta de la horchata en Alboraya: chufa, taller y degustación",
+   "desc": "Descubre en Alboraya cómo se cultiva la chufa y cómo se elabora la horchata, y pruébala recién hecha con fartons.",
+   "lugar": "Alboraya",
+   "intro": "<p><strong>Alboraya</strong>, junto a Valencia, es la tierra de la <strong>chufa</strong> y de la <strong>horchata</strong>. Descubre cómo se cultiva, cómo se elabora y pruébala recién hecha.</p>",
+   "destacados": [
+    "Pasea entre los campos de chufa de la huerta.",
+    "Descubre cómo se elabora la horchata.",
+    "Pruébala con fartons, como se toma aquí."
+   ],
+   "subtitulo": "La bebida más valenciana",
+   "cuerpo": "<p>La chufa es un pequeño tubérculo que se cultiva en la <strong>huerta norte de Valencia</strong> y tiene su propia denominación de origen, <strong>Chufa de Valencia</strong>. Con ella se hace la horchata, la bebida más refrescante del verano valenciano.</p><p>En esta ruta conocerás la huerta, verás el proceso de elaboración y terminarás con una <strong>degustación de horchata con fartons</strong>, el bollo alargado que se moja en ella.</p>",
+   "queVeras": "<ul><li>La <strong>huerta de Alboraya</strong> y sus campos de chufa.</li><li>El proceso de <strong>elaboración de la horchata</strong>.</li><li>Una <strong>degustación de horchata y fartons</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Se puede hacer todo el año?",
+     "La horchata se toma todo el año, pero la chufa se cosecha en otoño e invierno. Te contamos qué verás según la fecha."
+    ]
+   ],
+   "busquedas": [
+    "Horchata fartons",
+    "Orxata Alboraia",
+    "Chufa Valencia",
+    "Horchata Valencia",
+    "Alboraya huerta"
+   ],
+   "claves": [
+    "horchata",
+    "orxata",
+    "chufa",
+    "xufa",
+    "farton",
+    "alboraya",
+    "alboraia"
+   ]
+  },
+  {
+   "slug": "cata-de-cervezas-ruzafa",
+   "cat": "tours-valencia",
+   "titulo": "Cata de cervezas artesanas en Ruzafa",
+   "corto": "Cata de cervezas en Ruzafa",
+   "seo": "Cata de cervezas artesanas en Ruzafa, Valencia",
+   "desc": "Prueba cervezas artesanas en Ruzafa, el barrio con más ambiente de Valencia, y aprende a distinguir estilos y sabores.",
+   "lugar": "Valencia",
+   "intro": "<p><strong>Ruzafa</strong> es el barrio con más ambiente de Valencia y uno de los mejores para descubrir la <strong>cerveza artesana</strong>. Una cata para aprender a distinguir estilos mientras conoces el barrio.</p>",
+   "destacados": [
+    "Prueba varias cervezas artesanas de distintos estilos.",
+    "Aprende a catar: color, aroma y sabor.",
+    "Descubre Ruzafa, el barrio de moda."
+   ],
+   "subtitulo": "Un barrio, muchas cervezas",
+   "cuerpo": "<p>En los últimos años Valencia se ha llenado de <strong>cerveceras artesanas</strong>, y Ruzafa es uno de sus centros. En esta cata probarás cervezas de distintos estilos y aprenderás a reconocer lo que las hace diferentes.</p><p>Es un plan perfecto para grupos de amigos y para quien quiere conocer el <strong>ambiente de barrio</strong> de Valencia, lejos de los sitios más turísticos.</p>",
+   "queVeras": "<ul><li>El barrio de <strong>Ruzafa</strong> y su mercado.</li><li>Una <strong>cata guiada</strong> de cervezas artesanas.</li><li>Consejos para maridar la cerveza con tapas.</li></ul>",
+   "faq": [
+    [
+     "¿Hay edad mínima?",
+     "Sí, la cata es solo para mayores de 18 años."
+    ]
+   ],
+   "busquedas": [
+    "Craft beer glasses",
+    "Beer tasting flight",
+    "Mercado de Ruzafa Valencia"
+   ],
+   "claves": [
+    "beer",
+    "cerveza",
+    "mercado de ruzafa",
+    "mercat de russafa"
+   ]
+  },
+  {
+   "slug": "tapas-y-flamenco-valencia",
+   "cat": "tours-valencia",
+   "titulo": "Tapas y espectáculo de flamenco en Valencia",
+   "corto": "Tapas y flamenco",
+   "seo": "Tapas y espectáculo de flamenco en Valencia",
+   "desc": "Una noche en Valencia con ruta de tapas y espectáculo de flamenco en directo. Ideal para cruceristas, parejas y grupos.",
+   "lugar": "Valencia",
+   "intro": "<p>Una noche completa: <strong>ruta de tapas</strong> por el centro de Valencia y, para terminar, un <strong>espectáculo de flamenco</strong> en directo.</p>",
+   "destacados": [
+    "Prueba tapas típicas en bares del centro.",
+    "Disfruta de un espectáculo de flamenco en directo.",
+    "Un plan de noche para parejas y grupos."
+   ],
+   "subtitulo": "Sabor y arte en una sola noche",
+   "cuerpo": "<p>Empezamos con una <strong>ruta de tapas</strong> por el centro de Valencia para probar algunos de los bocados más típicos. Después, nos sentamos a ver un <strong>espectáculo de flamenco</strong>, con cante, guitarra y baile.</p><p>Es uno de los planes que más piden los viajeros que pasan pocos días en la ciudad, y también los grupos de <strong>cruceros</strong>.</p>",
+   "queVeras": "<ul><li>Una <strong>ruta de tapas</strong> por el centro.</li><li>Un <strong>espectáculo de flamenco</strong> en directo.</li></ul>",
+   "faq": [
+    [
+     "¿Está incluida la cena?",
+     "Te detallamos qué comida y bebida incluye cuando nos pidas información."
+    ]
+   ],
+   "busquedas": [
+    "Flamenco dancer Spain",
+    "Flamenco tablao",
+    "Tapas Spain bar",
+    "Flamenco guitarra"
+   ],
+   "claves": [
+    "flamenco",
+    "tapas",
+    "tablao"
+   ]
+  },
+  {
+   "slug": "tours-estadios-valencia",
+   "cat": "tours-valencia",
+   "titulo": "Tours por los estadios de Valencia",
+   "corto": "Los estadios de Valencia",
+   "seo": "Tours por los estadios de Valencia: Mestalla, Ciutat de València y Valencia Basket",
+   "desc": "Visita por dentro Mestalla, el estadio del Valencia CF, el Ciutat de València del Levante UD o las instalaciones del Valencia Basket.",
+   "lugar": "Valencia",
+   "intro": "<p>Para los amantes del deporte: visita por dentro <strong>Mestalla</strong>, el estadio del Valencia CF, el <strong>Ciutat de València</strong> del Levante UD o las instalaciones del <strong>Valencia Basket</strong>.</p>",
+   "destacados": [
+    "Entra en Mestalla, uno de los estadios más antiguos de España.",
+    "Conoce el Ciutat de València, casa del Levante UD.",
+    "Combínalo con otro tour por la ciudad."
+   ],
+   "subtitulo": "Valencia, ciudad de deporte",
+   "cuerpo": "<p><strong>Mestalla</strong> es el estadio del Valencia CF desde 1923 y uno de los más antiguos de la Liga. El <strong>Ciutat de València</strong> es la casa del Levante UD. Los dos clubes organizan visitas por sus instalaciones, igual que el <strong>Valencia Basket</strong>.</p><p>Te ayudamos a reservar el tour oficial que prefieras y a combinarlo con otras visitas para aprovechar el día.</p>",
+   "queVeras": "<ul><li>El estadio de <strong>Mestalla</strong>.</li><li>El estadio <strong>Ciutat de València</strong>.</li><li>Las instalaciones del <strong>Valencia Basket</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Hay visitas los días de partido?",
+     "Los clubes cambian los horarios los días de partido. Te confirmamos las fechas disponibles."
+    ]
+   ],
+   "busquedas": [
+    "Estadio de Mestalla",
+    "Mestalla stadium Valencia",
+    "Estadio Ciutat de València",
+    "Valencia Basket"
+   ],
+   "claves": [
+    "mestalla",
+    "ciutat de valencia",
+    "levante",
+    "valencia basket",
+    "estadio",
+    "stadium"
+   ]
+  },
+  {
+   "slug": "excursion-puentes-colgantes-chulilla",
+   "cat": "excursiones",
+   "titulo": "Excursión a los puentes colgantes de Chulilla",
+   "corto": "Puentes colgantes de Chulilla",
+   "seo": "Excursión a los puentes colgantes de Chulilla desde Valencia",
+   "desc": "Camina por el cañón del río Turia en Chulilla, cruza sus puentes colgantes y descubre un pueblo blanco a los pies de su castillo.",
+   "lugar": "Chulilla",
+   "intro": "<p>A poco más de una hora de Valencia, <strong>Chulilla</strong> esconde un cañón espectacular excavado por el <strong>río Turia</strong>. Una ruta a pie para cruzar sus <strong>puentes colgantes</strong> y descubrir uno de los pueblos más bonitos de la provincia.</p>",
+   "destacados": [
+    "Cruza los puentes colgantes sobre el río Turia.",
+    "Camina por un cañón de paredes de roca.",
+    "Descubre el pueblo de Chulilla y su castillo."
+   ],
+   "subtitulo": "Un cañón a una hora de Valencia",
+   "cuerpo": "<p>La <strong>ruta de los puentes colgantes</strong> sigue el río Turia entre paredes de roca, que son también uno de los lugares de escalada más conocidos de España. Por el camino se cruzan <strong>puentes colgantes</strong> sobre el río y se llega a pozas de agua cristalina como el <strong>Charco Azul</strong>.</p><p>Al terminar, hay tiempo para pasear por <strong>Chulilla</strong>, un pueblo de casas blancas a los pies de su castillo.</p>",
+   "queVeras": "<ul><li>Los <strong>puentes colgantes</strong> sobre el río Turia.</li><li>El <strong>cañón del Turia</strong>.</li><li>El <strong>Charco Azul</strong>.</li><li>El pueblo de <strong>Chulilla</strong> y su castillo.</li></ul>",
+   "faq": [
+    [
+     "¿Es difícil la ruta?",
+     "Es una ruta de senderismo sencilla, pero hay que llevar calzado cómodo y agua. Te damos todos los detalles al reservar."
+    ]
+   ],
+   "busquedas": [
+    "Chulilla puente colgante",
+    "Chulilla",
+    "Chulilla río Turia cañón",
+    "Charco Azul Chulilla"
+   ],
+   "claves": [
+    "chulilla"
+   ]
+  },
+  {
+   "slug": "excursion-montanejos",
+   "cat": "excursiones",
+   "titulo": "Excursión a Montanejos y la Fuente de los Baños",
+   "corto": "Montanejos y la Fuente de los Baños",
+   "seo": "Excursión a Montanejos desde Valencia: Fuente de los Baños y río Mijares",
+   "desc": "Báñate en las aguas templadas de la Fuente de los Baños, en Montanejos, y pasea por las montañas del río Mijares.",
+   "lugar": "Montanejos",
+   "intro": "<p><strong>Montanejos</strong>, en el interior de Castellón, es famoso por la <strong>Fuente de los Baños</strong>, una poza natural de agua templada en el <strong>río Mijares</strong>, rodeada de montañas.</p>",
+   "destacados": [
+    "Báñate en la Fuente de los Baños.",
+    "Pasea junto al río Mijares entre montañas.",
+    "Un día de naturaleza a poca distancia de Valencia."
+   ],
+   "subtitulo": "Agua templada entre montañas",
+   "cuerpo": "<p>El agua de la <strong>Fuente de los Baños</strong> brota a unos 25 grados durante todo el año y forma una poza natural en el río Mijares. Desde hace siglos se atribuyen a estas aguas propiedades saludables.</p><p>Además del baño, Montanejos ofrece <strong>sendas junto al río</strong>, paredes de roca y miradores. Un plan perfecto para escapar de la ciudad en verano.</p>",
+   "queVeras": "<ul><li>La <strong>Fuente de los Baños</strong>.</li><li>El <strong>río Mijares</strong> y sus sendas.</li><li>El pueblo de <strong>Montanejos</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Qué hay que llevar?",
+     "Bañador, toalla, calzado cómodo y agua. Te mandamos la lista completa al reservar."
+    ]
+   ],
+   "busquedas": [
+    "Montanejos Fuente de los Baños",
+    "Montanejos",
+    "Río Mijares Montanejos",
+    "Montanejos Castellón"
+   ],
+   "claves": [
+    "montanejos",
+    "mijares"
+   ]
+  },
+  {
+   "slug": "excursion-guadalest-fuentes-del-algar",
+   "cat": "excursiones",
+   "titulo": "Excursión a Guadalest y las Fuentes del Algar",
+   "corto": "Guadalest y las Fuentes del Algar",
+   "seo": "Excursión a Guadalest y las Fuentes del Algar desde Valencia",
+   "desc": "Visita Guadalest, el pueblo colgado de una roca sobre su embalse turquesa, y las cascadas y pozas de las Fuentes del Algar.",
+   "lugar": "Alicante",
+   "intro": "<p>Un día entre dos de los paisajes más fotografiados de Alicante: <strong>Guadalest</strong>, un pueblo encaramado en la roca sobre un embalse turquesa, y las <strong>Fuentes del Algar</strong>, con sus cascadas y pozas.</p>",
+   "destacados": [
+    "Sube al castillo de Guadalest y contempla su embalse.",
+    "Pasea entre las cascadas de las Fuentes del Algar.",
+    "Dos paisajes únicos en un solo día."
+   ],
+   "subtitulo": "Un castillo en la roca y un río de cascadas",
+   "cuerpo": "<p><strong>Guadalest</strong> se asoma desde lo alto de una roca a un <strong>embalse de color turquesa</strong>. Se entra al casco antiguo por un túnel excavado en la piedra y desde su castillo las vistas son espectaculares.</p><p>Las <strong>Fuentes del Algar</strong>, en Callosa d'en Sarrià, son un recorrido junto al río entre <strong>cascadas y pozas</strong> de agua fría y cristalina, donde en verano se puede uno bañar.</p>",
+   "queVeras": "<ul><li>El pueblo y el <strong>castillo de Guadalest</strong>.</li><li>El <strong>embalse de Guadalest</strong>.</li><li>Las cascadas de las <strong>Fuentes del Algar</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Se puede uno bañar en el Algar?",
+     "En verano sí, en las zonas permitidas. Te avisamos de las condiciones según la fecha."
+    ]
+   ],
+   "busquedas": [
+    "Guadalest castillo",
+    "Embalse de Guadalest",
+    "Fuentes del Algar",
+    "Fonts de l'Algar",
+    "Guadalest"
+   ],
+   "claves": [
+    "guadalest",
+    "algar"
+   ]
+  },
+  {
+   "slug": "albufera-en-bici-con-horchata",
+   "cat": "excursiones",
+   "titulo": "Ruta en bici a la Albufera con horchata y fartons",
+   "corto": "Albufera en bici con horchata",
+   "seo": "Ruta en bici a la Albufera desde Valencia con horchata y fartons",
+   "desc": "Pedalea desde Valencia hasta el Parque Natural de la Albufera entre arrozales y playas, con parada para tomar horchata y fartons.",
+   "lugar": "Albufera",
+   "intro": "<p>Sal de Valencia en <strong>bicicleta</strong> y llega pedaleando al <strong>Parque Natural de la Albufera</strong>, entre arrozales, pinares y playas. Con parada para reponer fuerzas con <strong>horchata y fartons</strong>.</p>",
+   "destacados": [
+    "Pedalea por carriles bici desde la ciudad hasta la Albufera.",
+    "Recorre arrozales, pinares y playas.",
+    "Parada para tomar horchata y fartons."
+   ],
+   "subtitulo": "De la ciudad al parque natural pedaleando",
+   "cuerpo": "<p>Valencia es una ciudad llana y con muchos <strong>carriles bici</strong>, y uno de ellos lleva hasta la <strong>Albufera</strong>. Por el camino cambian el paisaje y el olor: de la ciudad a los <strong>arrozales</strong>, los pinos de la <strong>Devesa</strong> y el mar.</p><p>A mitad de ruta hacemos una parada para tomar <strong>horchata con fartons</strong>, la merienda más valenciana.</p>",
+   "queVeras": "<ul><li>Los <strong>arrozales</strong> de la Albufera.</li><li>La <strong>Devesa del Saler</strong> y sus pinares.</li><li>El lago de la <strong>Albufera</strong>.</li><li>Una parada para tomar <strong>horchata y fartons</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Hace falta estar en forma?",
+     "Es un recorrido llano. Te contamos la distancia exacta al pedir información."
+    ]
+   ],
+   "busquedas": [
+    "Arrozales Albufera Valencia",
+    "Albufera bicicleta",
+    "Albufera de Valencia lago",
+    "Devesa del Saler pinar"
+   ],
+   "claves": [
+    "albufera",
+    "saler",
+    "devesa",
+    "arroz",
+    "palmar"
+   ]
+  },
+  {
+   "slug": "albufera-en-4x4",
+   "cat": "excursiones",
+   "titulo": "Albufera en 4x4 con paseo en barca",
+   "corto": "Albufera en 4x4 y barca",
+   "seo": "Excursión a la Albufera en 4x4 con paseo en barca",
+   "desc": "Recorre la Albufera en 4x4: la Devesa del Saler, sus dunas y pinares, los arrozales y un paseo en barca por el lago.",
+   "lugar": "Albufera",
+   "intro": "<p>Una forma distinta de conocer el <strong>Parque Natural de la Albufera</strong>: en <strong>4x4</strong> por la Devesa, los arrozales y las dunas, y en <strong>barca</strong> por el lago.</p>",
+   "destacados": [
+    "Recorre la Devesa del Saler y sus dunas.",
+    "Navega por el lago en barca tradicional.",
+    "Descubre El Palmar, el pueblo de la paella."
+   ],
+   "subtitulo": "Tierra y agua en un solo recorrido",
+   "cuerpo": "<p>La <strong>Albufera</strong> es mucho más que un lago: es un parque natural con <strong>dunas</strong>, <strong>pinares</strong>, playas vírgenes y miles de hectáreas de <strong>arrozales</strong>, refugio de aves todo el año.</p><p>En esta excursión lo recorremos en 4x4 y terminamos con un <strong>paseo en barca</strong> por el lago y una visita a <strong>El Palmar</strong>, el pueblo de los pescadores y de la paella.</p>",
+   "queVeras": "<ul><li>Las <strong>dunas y pinares de la Devesa</strong>.</li><li>Los <strong>arrozales</strong>.</li><li>Un <strong>paseo en barca</strong> por el lago.</li><li>El pueblo de <strong>El Palmar</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Se puede añadir comida?",
+     "Sí, se puede terminar con una paella en El Palmar. Pregúntanos."
+    ]
+   ],
+   "busquedas": [
+    "Devesa del Saler dunas",
+    "Albufera barca",
+    "El Palmar Albufera",
+    "Albufera atardecer barca"
+   ],
+   "claves": [
+    "albufera",
+    "saler",
+    "devesa",
+    "palmar"
+   ]
+  },
+  {
+   "slug": "vuelo-en-globo",
+   "cat": "excursiones",
+   "titulo": "Vuelo en globo en la Comunitat Valenciana",
+   "corto": "Vuelo en globo",
+   "seo": "Vuelo en globo cerca de Valencia: amanecer sobre el paisaje valenciano",
+   "desc": "Vive un amanecer desde el aire en un vuelo en globo sobre los campos y montañas de la Comunitat Valenciana.",
+   "lugar": "Comunitat Valenciana",
+   "intro": "<p>Una experiencia para recordar: ver <strong>amanecer desde un globo</strong> mientras el paisaje valenciano se despierta bajo tus pies.</p>",
+   "destacados": [
+    "Contempla el amanecer desde el aire.",
+    "Vuela en silencio sobre campos y montañas.",
+    "Un regalo perfecto para ocasiones especiales."
+   ],
+   "subtitulo": "El amanecer desde el cielo",
+   "cuerpo": "<p>Los vuelos en globo se hacen normalmente <strong>al amanecer</strong>, cuando el aire está más tranquilo. Ver salir el sol desde el aire, en silencio, es una experiencia que no se olvida.</p><p>Es un regalo perfecto para <strong>aniversarios, cumpleaños o pedidas de mano</strong>. Te ayudamos a organizarlo todo.</p>",
+   "queVeras": "<ul><li>La preparación y el inflado del globo.</li><li>El <strong>vuelo al amanecer</strong>.</li><li>El paisaje del interior valenciano desde el aire.</li></ul>",
+   "faq": [
+    [
+     "¿Qué pasa si hace mal tiempo?",
+     "Los vuelos dependen del viento y del tiempo. Te explicamos qué pasa si no se puede volar al reservar."
+    ]
+   ],
+   "busquedas": [
+    "Hot air balloon sunrise Spain",
+    "Globo aerostático amanecer",
+    "Hot air balloon flight landscape",
+    "Globo aerostático España"
+   ],
+   "claves": [
+    "balloon",
+    "globo",
+    "aerostat"
+   ]
+  },
+  {
+   "slug": "paseo-en-catamaran-valencia",
+   "cat": "actividades-en-el-agua",
+   "titulo": "Paseo en catamarán por Valencia",
+   "corto": "Paseo en catamarán",
+   "seo": "Paseo en catamarán por Valencia, también al atardecer",
+   "desc": "Navega en catamarán desde la Marina de Valencia y contempla la ciudad y sus playas desde el mar, también al atardecer.",
+   "lugar": "Marina de Valencia",
+   "intro": "<p>Sal desde la <strong>Marina de Valencia</strong> y descubre la ciudad <strong>desde el mar</strong>. Un paseo en <strong>catamarán</strong> frente a las playas, también al <strong>atardecer</strong>.</p>",
+   "destacados": [
+    "Navega frente a las playas de Valencia.",
+    "Contempla la puesta de sol desde el mar.",
+    "Un plan relajado para parejas, familias y grupos."
+   ],
+   "subtitulo": "Valencia vista desde el mar",
+   "cuerpo": "<p>La <strong>Marina de Valencia</strong>, junto al puerto, es el punto de partida de los paseos en catamarán. Desde el agua se ven las playas, el puerto y la ciudad con otra perspectiva.</p><p>El paseo <strong>al atardecer</strong> es el más especial: el sol se pone sobre la ciudad mientras navegas tranquilamente.</p>",
+   "queVeras": "<ul><li>La <strong>Marina de Valencia</strong>.</li><li>Las playas de la <strong>Malvarrosa</strong> y la Patacona desde el mar.</li><li>Opcional: la <strong>puesta de sol</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Y si hace mal tiempo?",
+     "Los paseos dependen del estado del mar. Te explicamos qué pasa en ese caso al reservar."
+    ]
+   ],
+   "busquedas": [
+    "Marina de Valencia veleros",
+    "Catamaran Valencia",
+    "Puerto de Valencia atardecer",
+    "Marina Real Juan Carlos I Valencia"
+   ],
+   "claves": [
+    "marina",
+    "catamar",
+    "puerto",
+    "port",
+    "valencia"
+   ]
+  },
+  {
+   "slug": "kayak-y-paddle-surf-valencia",
+   "cat": "actividades-en-el-agua",
+   "titulo": "Kayak y paddle surf en las playas de Valencia",
+   "corto": "Kayak y paddle surf",
+   "seo": "Kayak y paddle surf en Valencia: playas de la Malvarrosa y la Patacona",
+   "desc": "Rema en kayak o en paddle surf en las playas de Valencia, con material incluido y monitores para principiantes.",
+   "lugar": "Playas de Valencia",
+   "intro": "<p>Rema en <strong>kayak</strong> o ponte de pie en una tabla de <strong>paddle surf</strong> en las playas de Valencia. También si es tu primera vez.</p>",
+   "destacados": [
+    "Aprende paddle surf con monitores.",
+    "Rema en kayak junto a la costa.",
+    "Para principiantes y para quien ya sabe remar."
+   ],
+   "subtitulo": "Las playas de Valencia desde el agua",
+   "cuerpo": "<p>Las playas de la <strong>Malvarrosa</strong>, la <strong>Patacona</strong> y <strong>Pinedo</strong> tienen aguas tranquilas muchas mañanas, ideales para el <strong>paddle surf</strong> y el <strong>kayak</strong>.</p><p>Si nunca lo has probado, empezamos con una explicación en la arena y en pocos minutos estarás remando. Las sesiones al <strong>amanecer</strong> son las más especiales.</p>",
+   "queVeras": "<ul><li>Una explicación previa en la arena.</li><li>Una sesión de <strong>paddle surf</strong> o <strong>kayak</strong>.</li><li>Opcional: sesión al <strong>amanecer</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Hace falta saber nadar?",
+     "Sí, es necesario saber nadar. Te contamos el resto de condiciones al pedir información."
+    ]
+   ],
+   "busquedas": [
+    "Paddle surf playa",
+    "Stand up paddle Mediterranean",
+    "Sea kayak Spain beach",
+    "Playa de la Patacona"
+   ],
+   "claves": [
+    "paddle",
+    "kayak",
+    "sup",
+    "patacona",
+    "malvarrosa"
+   ]
+  },
+  {
+   "slug": "bautismo-de-buceo",
+   "cat": "actividades-en-el-agua",
+   "titulo": "Bautismo de buceo cerca de Valencia",
+   "corto": "Bautismo de buceo",
+   "seo": "Bautismo de buceo cerca de Valencia: tu primera inmersión en el Mediterráneo",
+   "desc": "Haz tu primera inmersión en el Mediterráneo con instructores titulados, en la costa de Xàbia, sin experiencia previa.",
+   "lugar": "Xàbia",
+   "intro": "<p>¿Nunca has buceado? El <strong>bautismo de buceo</strong> es tu primera inmersión, siempre acompañado de un <strong>instructor titulado</strong>, en las aguas claras de la costa de <strong>Xàbia</strong>.</p>",
+   "destacados": [
+    "Sin experiencia previa: te lo enseñamos todo.",
+    "Siempre con instructor titulado a tu lado.",
+    "En las aguas claras de la costa de Xàbia."
+   ],
+   "subtitulo": "Tu primera vez bajo el mar",
+   "cuerpo": "<p>El bautismo empieza con una explicación sencilla del equipo y de las señales. Después, entras al agua con tu <strong>instructor</strong>, a poca profundidad, y descubres la vida del Mediterráneo: praderas de <strong>posidonia</strong>, peces y rocas.</p><p>La costa de <strong>Xàbia</strong>, a menos de dos horas de Valencia, tiene algunas de las aguas más claras de la Comunitat Valenciana y centros de buceo con mucha experiencia. La edad mínima la fija cada centro, normalmente a partir de los 8 o 10 años.</p>",
+   "queVeras": "<ul><li>Una explicación del equipo y de las señales.</li><li>Una <strong>inmersión acompañada</strong> por un instructor.</li><li>Las praderas de <strong>posidonia</strong> y la vida marina.</li></ul>",
+   "faq": [
+    [
+     "¿Hace falta un certificado médico?",
+     "Antes de bucear se rellena un cuestionario médico. Si tienes alguna duda de salud, consúltala con tu médico."
+    ]
+   ],
+   "busquedas": [
+    "Buceo Mediterráneo",
+    "Posidonia oceanica",
+    "Plongée Méditerranée",
+    "Scuba diving Mallorca",
+    "Diving Menorca",
+    "Buceo Cabo de Palos",
+    "Medes Islands diving"
+   ],
+   "claves": [
+    "mediterr",
+    "posidonia",
+    "xabia",
+    "javea",
+    "mallorca",
+    "menorca",
+    "ibiza",
+    "costa brava",
+    "cabo de palos",
+    "medes",
+    "buceo",
+    "plongee",
+    "immersione",
+    "submarinismo"
+   ]
+  },
+  {
+   "slug": "salidas-de-buceo",
+   "cat": "actividades-en-el-agua",
+   "titulo": "Salidas de buceo en la costa valenciana",
+   "corto": "Salidas de buceo",
+   "seo": "Salidas de buceo cerca de Valencia: Cabo de San Antonio, Cabo de la Nao y Columbretes",
+   "desc": "Inmersiones para buceadores con titulación en el Cabo de San Antonio, el Cabo de la Nao y las islas Columbretes.",
+   "lugar": "Xàbia y Columbretes",
+   "intro": "<p>Si ya tienes titulación, te llevamos a bucear a algunos de los mejores puntos del Mediterráneo español: la reserva marina del <strong>Cabo de San Antonio</strong>, el <strong>Cabo de la Nao</strong> y las islas <strong>Columbretes</strong>.</p>",
+   "destacados": [
+    "Bucea en la reserva marina del Cabo de San Antonio.",
+    "Descubre cuevas y paredes en el Cabo de la Nao.",
+    "Salidas especiales a las islas Columbretes."
+   ],
+   "subtitulo": "El mejor buceo de la Comunitat Valenciana",
+   "cuerpo": "<p>La costa de <strong>Xàbia</strong> reúne paredes, cuevas y praderas de posidonia en muy poco espacio. La reserva marina del <strong>Cabo de San Antonio</strong>, el <strong>Cabo de la Nao</strong> y la <strong>Cova del Moraig</strong> son algunos de sus puntos más conocidos.</p><p>Las <strong>islas Columbretes</strong>, frente a Castellón, son una reserva marina de aguas muy claras. En las reservas marinas el buceo necesita <strong>autorización previa</strong>: te explicamos cómo se tramita.</p>",
+   "queVeras": "<ul><li>La reserva marina del <strong>Cabo de San Antonio</strong>.</li><li>El <strong>Cabo de la Nao</strong> y la <strong>Cova del Moraig</strong>.</li><li>Opcional: las <strong>islas Columbretes</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Qué titulación necesito?",
+     "Depende de la inmersión. Cuéntanos tu titulación y tu experiencia y te proponemos las salidas adecuadas."
+    ]
+   ],
+   "busquedas": [
+    "Cabo de San Antonio Jávea",
+    "Cap de Sant Antoni Xàbia",
+    "Islas Columbretes",
+    "Cova del Moraig",
+    "Cabo de la Nao Jávea"
+   ],
+   "claves": [
+    "san antonio",
+    "sant antoni",
+    "columbretes",
+    "moraig",
+    "nao",
+    "xabia",
+    "javea"
+   ]
+  },
+  {
+   "slug": "traslados-valencia",
+   "cat": "servicios",
+   "titulo": "Traslados en Valencia: aeropuerto, puerto y estación",
+   "corto": "Traslados",
+   "seo": "Traslados en Valencia desde el aeropuerto, el puerto y las estaciones",
+   "desc": "Traslados privados en Valencia desde el aeropuerto, la terminal de cruceros y las estaciones de tren hasta tu hotel.",
+   "lugar": "Valencia",
+   "intro": "<p>Llega a tu hotel sin preocupaciones. Organizamos <strong>traslados</strong> desde el <strong>aeropuerto de Valencia</strong>, la <strong>terminal de cruceros</strong> y las <strong>estaciones de tren</strong>.</p>",
+   "destacados": [
+    "Desde el aeropuerto, el puerto o la estación.",
+    "Coche o furgoneta según el tamaño del grupo.",
+    "Se puede combinar con cualquier tour o excursión."
+   ],
+   "subtitulo": "Del aeropuerto a tu hotel",
+   "cuerpo": "<p>El <strong>aeropuerto de Valencia</strong> está en Manises, a unos kilómetros del centro. Los cruceros atracan en el <strong>puerto</strong> y los trenes de alta velocidad llegan a la <strong>estación Joaquín Sorolla</strong>.</p><p>Te recogemos donde llegues y te llevamos a tu alojamiento, o directamente al punto de salida de tu excursión.</p>",
+   "queVeras": "<ul><li>Recogida en el <strong>aeropuerto</strong>, el <strong>puerto</strong> o la <strong>estación</strong>.</li><li>Traslado a tu hotel o al punto de salida del tour.</li></ul>",
+   "faq": [
+    [
+     "¿Qué pasa si mi vuelo se retrasa?",
+     "Cuéntanos tu número de vuelo y te explicamos las condiciones al reservar."
+    ]
+   ],
+   "busquedas": [
+    "Aeropuerto de Valencia terminal",
+    "Valencia Airport",
+    "Estación Joaquín Sorolla Valencia",
+    "Terminal de cruceros Valencia"
+   ],
+   "claves": [
+    "aeropuerto",
+    "airport",
+    "aeroport",
+    "sorolla",
+    "estacion",
+    "estacio",
+    "terminal",
+    "puerto",
+    "port"
+   ]
+  },
+  {
+   "slug": "entradas-valencia",
+   "cat": "servicios",
+   "titulo": "Entradas para museos y atracciones de Valencia",
+   "corto": "Entradas",
+   "seo": "Entradas para el Oceanogràfic, la Ciudad de las Artes, el Bioparc y más en Valencia",
+   "desc": "Te ayudamos a conseguir entradas para el Oceanogràfic, la Ciudad de las Artes y las Ciencias, el Bioparc, San Nicolás y la Valencia Tourist Card.",
+   "lugar": "Valencia",
+   "intro": "<p>Te ayudamos con las <strong>entradas</strong> de las atracciones más visitadas de Valencia: el <strong>Oceanogràfic</strong>, la <strong>Ciudad de las Artes y las Ciencias</strong>, el <strong>Bioparc</strong>, la iglesia de <strong>San Nicolás</strong> y la <strong>Valencia Tourist Card</strong>.</p>",
+   "destacados": [
+    "Las atracciones más visitadas de Valencia.",
+    "Combínalas con tus tours y excursiones.",
+    "Te aconsejamos según tus días y tus gustos."
+   ],
+   "subtitulo": "Las atracciones que no te puedes perder",
+   "cuerpo": "<p>El <strong>Oceanogràfic</strong> es el acuario más grande de Europa y forma parte de la <strong>Ciudad de las Artes y las Ciencias</strong>, junto al Hemisfèric y el Museu de les Ciències. El <strong>Bioparc</strong> recrea los paisajes de África y la iglesia de <strong>San Nicolás</strong> es conocida como la Capilla Sixtina valenciana.</p><p>Con la <strong>Valencia Tourist Card</strong> tienes transporte público y descuentos en museos. Te ayudamos a elegir lo que más te conviene.</p>",
+   "queVeras": "<ul><li><strong>Oceanogràfic</strong>.</li><li><strong>Hemisfèric</strong> y <strong>Museu de les Ciències</strong>.</li><li><strong>Bioparc Valencia</strong>.</li><li>Iglesia de <strong>San Nicolás</strong>.</li><li><strong>Valencia Tourist Card</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Las entradas tienen fecha?",
+     "Algunas entradas son para un día concreto y otras son abiertas. Te lo explicamos al pedir información."
+    ]
+   ],
+   "busquedas": [
+    "Oceanogràfic Valencia",
+    "Hemisfèric Valencia",
+    "Bioparc Valencia",
+    "Iglesia de San Nicolás Valencia frescos"
+   ],
+   "claves": [
+    "oceanograf",
+    "hemisferic",
+    "bioparc",
+    "nicolas",
+    "ciencies",
+    "ciencias"
+   ]
+  },
+  {
+   "slug": "audioguias-valencia",
+   "cat": "servicios",
+   "titulo": "Audioguías para recorrer Valencia a tu ritmo",
+   "corto": "Audioguías",
+   "seo": "Audioguías de Valencia: recorre la ciudad a tu ritmo con el móvil",
+   "desc": "Muy pronto: audioguías para recorrer Valencia con tu móvil, a tu ritmo y cuando quieras. Apúntate para saber cuándo están listas.",
+   "lugar": "Valencia",
+   "intro": "<p><strong>Muy pronto</strong>: rutas con <strong>audioguía</strong> para recorrer Valencia con tu móvil, a tu ritmo y cuando quieras. Escríbenos y te avisamos cuando estén listas.</p>",
+   "destacados": [
+    "Recorre la ciudad cuando quieras, sin horarios.",
+    "Escucha las historias en tu móvil.",
+    "Ideal si viajas por libre."
+   ],
+   "subtitulo": "Tu guía en el bolsillo",
+   "cuerpo": "<p>Estamos preparando <strong>rutas con audioguía</strong> por el centro histórico y los barrios de Valencia, con las mismas historias que contamos en nuestros tours.</p><p>Solo necesitarás tu <strong>móvil</strong> y unos auriculares. Escríbenos y te avisamos en cuanto estén disponibles.</p>",
+   "queVeras": "<ul><li>Rutas por el <strong>centro histórico</strong>.</li><li>Historias y leyendas de la ciudad.</li><li>Mapa del recorrido en tu móvil.</li></ul>",
+   "faq": [
+    [
+     "¿Cuándo estarán disponibles?",
+     "Las estamos preparando. Escríbenos y te avisamos en cuanto estén listas."
+    ]
+   ],
+   "busquedas": [
+    "Plaza de la Reina Valencia",
+    "Plaza Redonda Valencia",
+    "Calle de la Paz Valencia",
+    "Plaza de la Virgen Valencia"
+   ],
+   "claves": [
+    "plaza de la reina",
+    "placa de la reina",
+    "redonda",
+    "calle de la paz",
+    "carrer de la pau",
+    "virgen",
+    "verge"
+   ]
+  },
+  {
+   "slug": "alquiler-de-bicis-valencia",
+   "cat": "servicios",
+   "titulo": "Alquiler de bicis en Valencia",
+   "corto": "Alquiler de bicis",
+   "seo": "Alquiler de bicis en Valencia para recorrer el Jardín del Turia",
+   "desc": "Alquila una bici para recorrer Valencia: el Jardín del Turia, la Ciudad de las Artes y las Ciencias y la playa por carril bici.",
+   "lugar": "Valencia",
+   "intro": "<p>Valencia es <strong>llana</strong> y tiene <strong>carriles bici</strong> por toda la ciudad. Alquila una bici y recorre el <strong>Jardín del Turia</strong>, la Ciudad de las Artes y las Ciencias y la playa a tu aire.</p>",
+   "destacados": [
+    "Recorre el Jardín del Turia de punta a punta.",
+    "Llega pedaleando a la playa.",
+    "Por horas o por días."
+   ],
+   "subtitulo": "La mejor forma de moverse por Valencia",
+   "cuerpo": "<p>El <strong>Jardín del Turia</strong> es un parque de unos 9 kilómetros que ocupa el antiguo cauce del río y cruza la ciudad de lado a lado. En bici se recorre de forma cómoda y segura, y llega hasta la <strong>Ciudad de las Artes y las Ciencias</strong>.</p><p>Desde allí, los carriles bici llevan al <strong>puerto</strong> y a las <strong>playas</strong>. Te recomendamos rutas según el tiempo que tengas.</p>",
+   "queVeras": "<ul><li>El <strong>Jardín del Turia</strong>.</li><li>La <strong>Ciudad de las Artes y las Ciencias</strong>.</li><li>El puerto y las <strong>playas</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Hay bicis para niños?",
+     "Pregúntanos. Te decimos qué tamaños y sillas para niños hay disponibles."
+    ]
+   ],
+   "busquedas": [
+    "Bicicleta Jardín del Turia",
+    "Cycling Turia Gardens Valencia",
+    "Carril bici Valencia",
+    "Jardí del Túria bicicletes"
+   ],
+   "claves": [
+    "turia",
+    "bici",
+    "bike",
+    "cycl",
+    "carril"
+   ]
+  },
+  {
+   "slug": "viajes-de-estudios-y-colegios",
+   "cat": "servicios",
+   "titulo": "Visitas para colegios y viajes de estudios en Valencia",
+   "corto": "Colegios y viajes de estudios",
+   "seo": "Visitas para colegios y viajes de estudios en Valencia",
+   "desc": "Visitas guiadas y actividades en Valencia adaptadas a colegios, institutos y viajes de estudios: historia, ciencia y naturaleza.",
+   "lugar": "Valencia",
+   "intro": "<p>Preparamos <strong>visitas y actividades para colegios, institutos y viajes de estudios</strong>: historia, ciencia y naturaleza, adaptadas a cada edad y a lo que se esté estudiando en clase.</p>",
+   "destacados": [
+    "Contenidos adaptados a cada curso.",
+    "Historia, ciencia y naturaleza en una misma ciudad.",
+    "Te ayudamos a organizar el programa completo."
+   ],
+   "subtitulo": "Aprender fuera del aula",
+   "cuerpo": "<p>Valencia es una ciudad ideal para aprender: el <strong>casco histórico</strong> recorre dos mil años de historia, la <strong>Ciudad de las Artes y las Ciencias</strong> acerca la ciencia de forma práctica y la <strong>Albufera</strong> es un aula de naturaleza al aire libre.</p><p>Adaptamos las explicaciones a cada edad y, si nos lo pedís, a lo que se esté trabajando en clase. También ayudamos a organizar el programa de varios días.</p>",
+   "queVeras": "<ul><li>El <strong>centro histórico</strong> de Valencia.</li><li>La <strong>Ciudad de las Artes y las Ciencias</strong>.</li><li>El <strong>Parque Natural de la Albufera</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Hay precios para grupos escolares?",
+     "Sí, preparamos un presupuesto para cada grupo según el número de alumnos y las actividades."
+    ]
+   ],
+   "busquedas": [
+    "Museu de les Ciències Valencia",
+    "Ciudad de las Artes y las Ciencias Valencia",
+    "Umbracle Valencia",
+    "Lonja de la Seda Valencia"
+   ],
+   "claves": [
+    "ciencies",
+    "ciencias",
+    "artes",
+    "umbracle",
+    "lonja",
+    "valencia"
+   ]
+  }
+ ]
+}
