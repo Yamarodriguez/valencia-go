@@ -4359,16 +4359,6 @@
   "ancho": 1280,
   "alto": 960
  },
- "que-ver-en-1-dia-lonja-catedral-y-san-nicolas-en-el-tour-de-3.webp": {
-  "pagina": "/tours-valencia/tour-de-arte-y-arquitectura/",
-  "titulo": "Cracovia (Polonia) Kraków (Polska). - 52631869514.jpg",
-  "commons": "https://commons.wikimedia.org/wiki/File:Cracovia_(Polonia)_Krak%C3%B3w_(Polska)._-_52631869514.jpg",
-  "autor": "Txemai Argazki",
-  "licencia": "CC0",
-  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "ancho": 1280,
-  "alto": 792
- },
  "tour-a-pie-por-el-carmen-con-cata-de-vinos-para-cruceros-1.webp": {
   "pagina": "/excursiones-cruceros/cata-de-vinos-en-valencia-tour-y-bodega-cruceros/",
   "titulo": "Carmen Arquitectura (48711981827).jpg",
@@ -5079,16 +5069,6 @@
   "ancho": 1280,
   "alto": 960
  },
- "que-ver-en-1-dia-lonja-catedral-y-san-nicolas-en-el-tour-de-2.webp": {
-  "pagina": "/tours-valencia/tour-de-arte-y-arquitectura/",
-  "titulo": "Cracovia (Polonia) Kraków (Polska). - 52632116388.jpg",
-  "commons": "https://commons.wikimedia.org/wiki/File:Cracovia_(Polonia)_Krak%C3%B3w_(Polska)._-_52632116388.jpg",
-  "autor": "Txemai Argazki",
-  "licencia": "CC0",
-  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "ancho": 1280,
-  "alto": 853
- },
  "excursion-para-cruceros-a-utiel-requena-bodegas-y-catas-2.webp": {
   "pagina": "/excursiones-cruceros/excursion-cruceros-bodegas-utiel-requena/",
   "titulo": "Los Pedrones 08.jpg",
@@ -5648,5 +5628,25 @@
   "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "ancho": 1280,
   "alto": 853
+ },
+ "que-ver-en-1-dia-lonja-catedral-y-san-nicolas-en-el-tour-de-2.webp": {
+  "pagina": "/tours-valencia/tour-de-arte-y-arquitectura/",
+  "titulo": "WLM14ES - LONJA DE LA SEDA DE VALENCIA 06042013 163045 00018 - .jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:WLM14ES_-_LONJA_DE_LA_SEDA_DE_VALENCIA_06042013_163045_00018_-_.jpg",
+  "autor": "Turol Jones, un artista de cojones from Villanueva del Cascajal, República Independiente de Mi Casa",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "ancho": 1280,
+  "alto": 960
+ },
+ "que-ver-en-1-dia-lonja-catedral-y-san-nicolas-en-el-tour-de-3.webp": {
+  "pagina": "/tours-valencia/tour-de-arte-y-arquitectura/",
+  "titulo": "WLM14ES - LONJA DE LA SEDA DE VALENCIA 06042013 161311 00004 - .jpg",
+  "commons": "https://commons.wikimedia.org/wiki/File:WLM14ES_-_LONJA_DE_LA_SEDA_DE_VALENCIA_06042013_161311_00004_-_.jpg",
+  "autor": "Turol Jones, un artista de cojones from Villanueva del Cascajal, República Independiente de Mi Casa",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "ancho": 1280,
+  "alto": 960
  }
 }

@@ -22,9 +22,17 @@ Hecho el 26-10-2026 (todo en esta rama, nada en main ni en Netlify):
   <text> (letra del sistema): si el propietario lo aprueba, pasar a trazados.
 - Colores (`cambiar-colores`, src/data/colores.json): #FF720D y #EF8031 →
   #F28C28; #006991 → #0B3D6E, en las hojas de Elementor y estilos en línea.
-  Hoja de rediseño `public/rediseno/excursiones-valencia.css` (la opción
-  "propio" con la paleta nueva), encendida en site.json (`rediseno`); el
-  selector de la web de pruebas sigue activo para compararla.
+  El 27-10-2026 el propietario pidió quitar todas las opciones de rediseño:
+  `public/rediseno/` y el selector se borraron (están en el historial,
+  commit 845adc7), `rediseno:false` y `selectorRediseno:false` en site.json.
+  Se queda el aspecto original con los colores nuevos.
+- PUBLICACIÓN (27-10-2026): el propietario decidió que esta web sea lo que
+  publica el sitio de Netlify de siempre (valenciaandgo.netlify.app, que
+  despliega `main`): `empresa-nueva` se subió a `main` por avance rápido. La
+  copia fiel de la migración sigue en `claude/data-migration-b8e01f`; si se
+  retoma la Fase 7 hará falta otro sitio de Netlify. El gancho pre-push de
+  main ahora pasa fuentes+hojas+build+comprobar-recursos-nuevos (los antiguos
+  `todo`/`todo:visual` no sirven aquí). Sigue el `X-Robots-Tag: noindex`.
 - Feed de Instagram de la portada quitado (`quitar-instagram`, 5 idiomas).
 - Fotos: `fotos-commons.mjs` baja de Wikimedia Commons una foto real y libre
   (CC0/dominio público/CC BY/CC BY-SA, JPG apaisado ≥1000 px) por cada hueco

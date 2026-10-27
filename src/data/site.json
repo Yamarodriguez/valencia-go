@@ -49,7 +49,7 @@
   ],
   "columnas": []
  },
- "rediseno": "excursiones-valencia",
- "selectorRediseno": true,
- "_nota_rediseno": "rediseno: nombre de la hoja de public/rediseno/ que se engancha fija (false = copia fiel). selectorRediseno: true pone en la web de PRUEBAS una barra para cambiar de diseno al momento (Fase 3); se pone a false antes del cambio de dominio."
+ "rediseno": false,
+ "selectorRediseno": false,
+ "_nota_rediseno": "Sin rediseño (decisión del propietario, 27-10-2026): se deja el aspecto original con los colores de la marca nueva (cambiar-colores). Las hojas de opciones de public/rediseno/ se quitaron; el mecanismo de Base.astro sigue por si hace falta."
 }

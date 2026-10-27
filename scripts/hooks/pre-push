@@ -17,10 +17,18 @@ done
 [ -z "$principal" ] && exit 0
 
 echo ""
-echo "pre-push: comprobaciones antes de subir a main"
+echo "pre-push: comprobaciones antes de subir a main (web Excursiones Valencia)"
 echo ""
-node scripts/todo.mjs || { echo ""; echo "NO SE SUBE: 'npm run todo' ha fallado (mira informes/)."; exit 1; }
-node scripts/todo-visual.mjs --rapido || { echo ""; echo "NO SE SUBE: 'npm run todo:visual' ha fallado (mira informes/)."; exit 1; }
+# En esta web (empresa nueva, 27-10-2026) no valen 'todo' ni 'todo:visual',
+# que comparan con la web vieja de valenciaandgo: se comprueba lo mismo que
+# compila Netlify y que no falta ningun fichero que pidan las paginas.
+node scripts/fuentes-locales.mjs > /dev/null || { echo "NO SE SUBE: 'npm run fuentes' ha fallado."; exit 1; }
+node scripts/hojas.mjs > /dev/null || { echo "NO SE SUBE: 'npm run hojas' ha fallado (mira informes/hojas.md)."; exit 1; }
+npx astro build > /dev/null 2>&1 || { echo "NO SE SUBE: 'npm run build' ha fallado."; exit 1; }
+node scripts/comprobar-recursos-nuevos.mjs | head -5
+# el unico fichero que falta es un PDF que ya estaba roto en la web vieja
+faltan=$(node scripts/comprobar-recursos-nuevos.mjs | grep -c '^  /' )
+[ "$faltan" -le 1 ] || { echo ""; echo "NO SE SUBE: faltan ficheros que piden las paginas (arriba)."; exit 1; }
 echo ""
 echo "pre-push: todo bien, se sube."
 exit 0
