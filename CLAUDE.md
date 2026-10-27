@@ -27,8 +27,9 @@ Hecho el 26-10-2026 (todo en esta rama, nada en main ni en Netlify):
   commit 845adc7), `rediseno:false` y `selectorRediseno:false` en site.json.
   Se queda el aspecto original con los colores nuevos.
 - DISEÑO PROPIO (27-10-2026, a petición: "diseño y colores diferentes a
-  valencia and go"): paleta verde #1F6F50 / verde oscuro #143D2E / azafrán
-  #E8A93A / crema #FAF6EE (src/data/colores.json `_paleta`; cambiar-colores
+  valencia and go"; ese mismo día, "azul marino o el que recomiendes"):
+  paleta azul marino #1E3A64 / marino oscuro #12233F / azafrán #E8A93A /
+  crema #FAF6EE (primero fue verde #1F6F50 / #143D2E) (src/data/colores.json `_paleta`; cambiar-colores
   ahora también toca la hoja del plugin thegem-atracciones, los icono-*.svg
   de uploads y valores rgb()). Letras Fraunces (títulos) y DM Sans (texto),
   servidas desde public/fuentes-marca/ (`fuentes-marca.mjs`), precargadas en
@@ -36,8 +37,8 @@ Hecho el 26-10-2026 (todo en esta rama, nada en main ni en Netlify):
   `node scripts/hoja-marca.mjs` → public/rediseno/excursiones-valencia.css,
   encendida con `rediseno` en site.json (selector apagado). Logo nuevo
   (`logo-marca.mjs`, texto en trazos; necesita opentype.js y los TTF fuera del
-  proyecto, ver cabecera del guion): sello verde oscuro con sol azafrán y
-  olas crema. Las 12 fotos que solo salían de fondo en las hojas (la de la
+  proyecto, ver cabecera del guion): sello azul marino con sol azafrán y
+  olas crema (en azul marino desde el cambio de paleta). Las 12 fotos que solo salían de fondo en las hojas (la de la
   portada incluida) ya tienen nombre (`fotos-fondo.py`, `<h1>-fondo-N`) y
   foto nueva. Los botones naranjas de reserva de las fichas y la nota de
   estrellas van en recuadros (iframe) de Turitop y del widget de opiniones de

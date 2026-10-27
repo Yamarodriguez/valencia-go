@@ -8,7 +8,7 @@
  *   fraunces-600.ttf y dmsans-700.ttf> node scripts/logo-marca.mjs
  *
  * El texto va convertido a trazos (no depende de las letras del visitante).
- * Sello: cuadrado redondeado verde oscuro con sol azafrán y dos olas crema.
+ * Sello: cuadrado redondeado azul marino con sol azafrán y dos olas crema.
  * Nombre: "Excursiones" en Fraunces 600 y "VALENCIA" en DM Sans 700 espaciada.
  */
 import fs from 'node:fs';
@@ -23,7 +23,7 @@ const fraunces = opentype.loadSync(path.join(TTF, 'fraunces-600.ttf'));
 const dmsans = opentype.loadSync(path.join(TTF, 'dmsans-700.ttf'));
 const SALIDA = path.resolve('public/marca');
 
-const C = { verde: '#1F6F50', oscuro: '#143D2E', azafran: '#E8A93A', crema: '#FAF6EE' };
+const C = { verde: '#1E3A64', oscuro: '#12233F', azafran: '#E8A93A', crema: '#FAF6EE' };
 const r1 = (n) => Math.round(n * 10) / 10;
 
 // trazo de un texto con espaciado (en em) entre letras; devuelve d y ancho
