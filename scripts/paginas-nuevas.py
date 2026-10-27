@@ -5,8 +5,9 @@ vieja). Cada ficha es una copia de la ficha del tour medieval
 (tours-valencia--tour-de-valencia-medieval) con sus textos, fotos y preguntas;
 quita lo que era de Valencia&Go en esa ficha: precio, duración, idiomas,
 estrellas y opiniones, la caja de reserva de Turitop, su ficha de Google
-(schema) y los enlaces a sus traducciones. En lugar del precio pone
-"Precio a consultar" y los botones llevan a /contacto/.
+(schema) y los enlaces a sus traducciones. En lugar del precio de la
+plantilla pone el suyo, "desde" (el de la competencia menos 1 €, o "a
+consultar" si no hay), y los botones llevan a /contacto/.
 
 También:
   - crea las categorías que no existen ('existe': false) copiando /excursiones/;
@@ -141,6 +142,21 @@ def cabecera_nueva(cabecera, rutas_trad):
     return cabecera
 
 
+# --- precio (el de la competencia menos 1 €, ver _notaPrecios en los datos) ----------
+def euros(v):
+    return f'{v:.2f}'.replace('.', ',')
+
+
+def precio_html(p, nota=False):
+    pr = p['precio']
+    h = (f'<p class="price"><span class="woocommerce-Price-amount amount"><bdi>{euros(pr["valor"])}'
+         f'<span class="woocommerce-Price-currencySymbol" translate="no">€</span></bdi></span> '
+         f'<small class="woocommerce-price-suffix">IVA inc.</small></p>')
+    if nota and pr.get('nota'):
+        h += f'<p class="ev-nota-precio">{esc(pr["nota"])}</p>'
+    return h
+
+
 # --- tarjeta de listado -----------------------------------------------------------
 _, _piezas_tours = leer('tours-valencia')
 _lis_lugar = sopa(leer(PLANTILLA)[1]['contenido']).select('[data-id="6203db6"] li')
@@ -183,7 +199,7 @@ def tarjeta(p):
         if icono and PIN is not None:
             icono.replace_with(copy.copy(PIN))
     for pr in t.select('.elementor-widget-woocommerce-product-price'):
-        poner_html(pr, '<p class="price"><span class="ev-consultar">Precio a consultar</span></p>')
+        poner_html(pr, precio_html(p, nota=True) if p.get('precio') else '<p class="price"><span class="ev-consultar">Precio a consultar</span></p>')
     for f in t.select('.flag-card, .tour-banderas, .badge-agota'):
         f.decompose()
     boton = t.select_one('.elementor-button-text')
@@ -275,8 +291,12 @@ def ficha(p):
     for i in ('d600073', '2bad175'):
         lista_iconos(uno(i), p['destacados'])
     # precio y reserva
-    uno('5632bc4').select_one('p').string = 'Precio'
-    poner_html(uno('784e99b'), '<p class="price"><span class="ev-consultar">A consultar</span></p>')
+    if p.get('precio'):
+        uno('5632bc4').select_one('p').string = 'Desde'
+        poner_html(uno('784e99b'), precio_html(p, nota=True))
+    else:
+        uno('5632bc4').select_one('p').string = 'Precio'
+        poner_html(uno('784e99b'), '<p class="price"><span class="ev-consultar">A consultar</span></p>')
     uno('a9cd1ad').decompose()
     for b in s.select('.elementor-button-text'):
         if b.get_text(strip=True).upper() == 'SOLICITA INFORMACIÓN':
@@ -288,10 +308,15 @@ def ficha(p):
     uno('53eed259').select_one('.elementor-heading-title').string = p['subtitulo']
     poner_html(uno('24fe9608'), p['cuerpo'])
     uno('2b96ffd4').select_one('.elementor-heading-title').string = 'Qué verás'
-    poner_html(uno('5db82776'), p['queVeras'] + COMUNES['saber'])
+    saber = COMUNES['saber_con_precio'] if p.get('precio') else COMUNES['saber']
+    poner_html(uno('5db82776'), p['queVeras'] + saber)
     uno('57839307').select_one('.elementor-heading-title').string = 'Punto de encuentro'
     poner_html(uno('bf6d1a0'), '<p>Te lo indicamos al confirmar la reserva.</p>')
-    preguntas(uno('2fba6b6'), p['faq'] + COMUNES['faq'])
+    faq = [list(x) for x in COMUNES['faq']]
+    if p.get('precio'):
+        nota = f" ({p['precio']['nota'].lower()})" if p['precio'].get('nota') else ''
+        faq[0][1] = f"Desde {euros(p['precio']['valor'])} €{nota}. El precio final depende de la fecha y del número de personas: escríbenos y te lo confirmamos."
+    preguntas(uno('2fba6b6'), p['faq'] + faq)
     # otros de la misma sección (nuevos)
     grid = uno('a3953c1').select_one('.elementor-loop-container')
     for it in grid.select('.e-loop-item'):

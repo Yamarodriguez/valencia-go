@@ -70,9 +70,12 @@ Hecho el 26-10-2026 (todo en esta rama, nada en main ni en Netlify):
   `src/data/paginas-nuevas.json`; las monta `python scripts/paginas-nuevas.py`
   (se puede repetir: rehace las nuevas, vuelve a poner tarjetas y menú sin
   duplicar). Cada ficha es copia de la del tour medieval con sus textos y
-  SIN precio, duración, idiomas, estrellas, sellos de "guía oficial", caja de
-  Turitop, schema ni enlaces a traducciones: "Precio a consultar" y botones a
-  /contacto/. Tours: misterios y leyendas, Valencia macabra, Santo Grial y
+  SIN duración, idiomas, estrellas, sellos de "guía oficial", caja de
+  Turitop, schema ni enlaces a traducciones; botones a /contacto/. PRECIOS
+  (27-10-2026, "busca precios similares y pon 1 euro menos"): cada ficha
+  lleva "desde" el precio de una actividad parecida de la competencia menos
+  1 €, con la fuente en `precio.referencia` de paginas-nuevas.json; colegios
+  sigue "a consultar" (no hay tarifa publicada por alumno). Tours: misterios y leyendas, Valencia macabra, Santo Grial y
   Borgia, Guerra Civil, Carmen y arte urbano, Sorolla, modernismo, Cabanyal,
   con niños, horchata en Alboraya, cervezas en Ruzafa, tapas y flamenco,
   estadios. Excursiones: Chulilla, Montanejos, Guadalest y Algar, Albufera en

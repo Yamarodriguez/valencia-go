@@ -47,7 +47,8 @@
     "¿Se puede hacer solo para mi grupo?",
     "Pregúntanos. Muchas actividades se pueden preparar en privado para familias, amigos o empresas."
    ]
-  ]
+  ],
+  "saber_con_precio": "<p><strong>Horarios, duración y punto de encuentro:</strong> te los confirmamos cuando nos escribes, según la fecha que elijas y el número de personas.</p>"
  },
  "paginas": [
   {
@@ -85,7 +86,16 @@
     "patriarca",
     "caballeros",
     "virgen"
-   ]
+   ],
+   "precio": {
+    "valor": 19,
+    "referencia": {
+     "precio": 20,
+     "quien": "DescubreValencia, ruta nocturna de mitos y leyendas",
+     "url": "https://www.comunitatvalenciana.com/experiencias/mitos-y-leyendas-a-la-luna-de-valencia",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "tour-valencia-macabra",
@@ -122,7 +132,16 @@
     "mercado",
     "lonja",
     "valencia"
-   ]
+   ],
+   "precio": {
+    "valor": 9,
+    "referencia": {
+     "precio": 10,
+     "quien": "Camins Negres, ruta nocturna",
+     "url": "https://www.comunitatvalenciana.com/experiencias/camins-negres",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "tour-santo-grial-y-los-borgia",
@@ -160,7 +179,16 @@
     "borgia",
     "catedral",
     "valencia"
-   ]
+   ],
+   "precio": {
+    "valor": 24,
+    "referencia": {
+     "precio": 25,
+     "quien": "Civitatis, Tour de los Borgia + visita a la catedral",
+     "url": "https://www.civitatis.com/es/valencia/visitas-guiadas/",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "tour-guerra-civil-valencia",
@@ -196,7 +224,16 @@
     "ayuntamiento",
     "refugi",
     "benicarlo"
-   ]
+   ],
+   "precio": {
+    "valor": 11,
+    "referencia": {
+     "precio": 12,
+     "quien": "Civitatis, Tour de la Guerra Civil Española",
+     "url": "https://www.civitatis.com/es/valencia/visitas-guiadas/",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "tour-barrio-del-carmen-arte-urbano",
@@ -234,7 +271,16 @@
     "mural",
     "street art",
     "valencia"
-   ]
+   ],
+   "precio": {
+    "valor": 16,
+    "referencia": {
+     "precio": 17,
+     "quien": "Street Art Tour por El Carmen",
+     "url": "https://www.comunitatvalenciana.com/experiencias/street-art-tour",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "tour-sorolla-valencia",
@@ -269,7 +315,16 @@
     "sorolla",
     "bellas artes",
     "san pio"
-   ]
+   ],
+   "precio": {
+    "valor": 19,
+    "referencia": {
+     "precio": 20,
+     "quien": "Visit Valencia, \"Sorolla, el pintor de València\"",
+     "url": "https://www.visitvalencia.com/shop/visitas-guiadas",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "tour-modernismo-valencia",
@@ -310,7 +365,16 @@
     "ensanche",
     "eixample",
     "modernis"
-   ]
+   ],
+   "precio": {
+    "valor": 14,
+    "referencia": {
+     "precio": 15,
+     "quien": "Visita guiada Valencia modernista",
+     "url": "https://www.comunitatvalenciana.com/en/valencia/valencia/experiences/guided-tour-valencia-art-nouveau",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "tour-cabanyal-y-la-playa",
@@ -345,7 +409,16 @@
     "cabanyal",
     "canyamelar",
     "malvarrosa"
-   ]
+   ],
+   "precio": {
+    "valor": 9,
+    "referencia": {
+     "precio": 10,
+     "quien": "Yumping, visita guiada a los secretos del Cabañal",
+     "url": "https://en.yumping.com/guided-tours/valencia/valencia",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "tour-valencia-con-ninos",
@@ -381,7 +454,16 @@
     "turia",
     "virgen",
     "valencia"
-   ]
+   ],
+   "precio": {
+    "valor": 19,
+    "referencia": {
+     "precio": 20,
+     "quien": "Visit Valencia, visita guiada especial con niños",
+     "url": "https://www.visitvalencia.com/shop/visitas-guiadas",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "ruta-horchata-alboraya",
@@ -421,7 +503,16 @@
     "farton",
     "alboraya",
     "alboraia"
-   ]
+   ],
+   "precio": {
+    "valor": 24,
+    "referencia": {
+     "precio": 25,
+     "quien": "Món Orxata, experiencia clásica",
+     "url": "https://www.visitvalencia.com/en/events-valencia/traditional-horchata-workshops-alboraya-mon-orxata",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "cata-de-cervezas-ruzafa",
@@ -456,7 +547,16 @@
     "cerveza",
     "mercado de ruzafa",
     "mercat de russafa"
-   ]
+   ],
+   "precio": {
+    "valor": 27.5,
+    "referencia": {
+     "precio": 28.5,
+     "quien": "Civitatis, cata de cervezas en Valencia",
+     "url": "https://www.civitatis.com/es/valencia/",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "tapas-y-flamenco-valencia",
@@ -491,7 +591,16 @@
     "flamenco",
     "tapas",
     "tablao"
-   ]
+   ],
+   "precio": {
+    "valor": 94,
+    "referencia": {
+     "precio": 95,
+     "quien": "Flamenco Esencia, Flamenco Tapas Tour",
+     "url": "https://flamenco-esencia.com/en/activities",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "tours-estadios-valencia",
@@ -529,7 +638,16 @@
     "valencia basket",
     "estadio",
     "stadium"
-   ]
+   ],
+   "precio": {
+    "valor": 11,
+    "referencia": {
+     "precio": 12,
+     "quien": "Visit Valencia, Tour Granota (Ciutat de València); Mestalla desde 18 €",
+     "url": "https://www.visitvalencia.com/shop/visitas-guiadas",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "excursion-puentes-colgantes-chulilla",
@@ -562,7 +680,16 @@
    ],
    "claves": [
     "chulilla"
-   ]
+   ],
+   "precio": {
+    "valor": 78,
+    "referencia": {
+     "precio": 79,
+     "quien": "Beyond Valencia Trips, Chulilla y puentes colgantes",
+     "url": "https://meetup.com/es-ES/beyond-valencia-trips",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "excursion-montanejos",
@@ -596,7 +723,16 @@
    "claves": [
     "montanejos",
     "mijares"
-   ]
+   ],
+   "precio": {
+    "valor": 48,
+    "referencia": {
+     "precio": 49,
+     "quien": "Civitatis, excursión a Montanejos",
+     "url": "https://www.civitatis.com/es/valencia/excursiones/",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "excursion-guadalest-fuentes-del-algar",
@@ -631,7 +767,16 @@
    "claves": [
     "guadalest",
     "algar"
-   ]
+   ],
+   "precio": {
+    "valor": 28.15,
+    "referencia": {
+     "precio": 29.15,
+     "quien": "Civitatis, excursión a Altea, Guadalest y las Fuentes del Algar",
+     "url": "https://www.civitatis.com/es/valencia/excursiones/",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "albufera-en-bici-con-horchata",
@@ -668,7 +813,16 @@
     "devesa",
     "arroz",
     "palmar"
-   ]
+   ],
+   "precio": {
+    "valor": 34,
+    "referencia": {
+     "precio": 35,
+     "quien": "Visit Valencia, Albufera en bici con horchata y fartons",
+     "url": "https://www.visitvalencia.com/shop/visitas-guiadas/visitas-guiadas-sobre-ruedas/visita-guiada-bici-con-degustacion-horchata",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "albufera-en-4x4",
@@ -704,7 +858,16 @@
     "saler",
     "devesa",
     "palmar"
-   ]
+   ],
+   "precio": {
+    "valor": 64,
+    "referencia": {
+     "precio": 65,
+     "quien": "Visit Valencia, Experiencia Albufera en 4x4",
+     "url": "https://www.visitvalencia.com/shop/visitas-guiadas/visitas-guiadas-sobre-ruedas/experiencia-albufera",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "vuelo-en-globo",
@@ -739,7 +902,16 @@
     "balloon",
     "globo",
     "aerostat"
-   ]
+   ],
+   "precio": {
+    "valor": 208,
+    "referencia": {
+     "precio": 209,
+     "quien": "Vuelos en globo por la Sierra de Mariola",
+     "url": "https://www.comunitatvalenciana.com/es/valencia/bocairent/experiencias/vuelos-en-globo-por-la-sierra-de-mariola",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "paseo-en-catamaran-valencia",
@@ -776,7 +948,16 @@
     "puerto",
     "port",
     "valencia"
-   ]
+   ],
+   "precio": {
+    "valor": 14,
+    "referencia": {
+     "precio": 15,
+     "quien": "Civitatis, paseo en catamarán por Valencia",
+     "url": "https://www.civitatis.com/es/valencia/",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "kayak-y-paddle-surf-valencia",
@@ -813,7 +994,16 @@
     "sup",
     "patacona",
     "malvarrosa"
-   ]
+   ],
+   "precio": {
+    "valor": 24,
+    "referencia": {
+     "precio": 25,
+     "quien": "Visit Valencia, bautismo de paddle surf en la Malvarrosa",
+     "url": "https://www.visitvalencia.com/shop/actividades-nauticas/paddle-surf",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "bautismo-de-buceo",
@@ -862,7 +1052,16 @@
     "plongee",
     "immersione",
     "submarinismo"
-   ]
+   ],
+   "precio": {
+    "valor": 89,
+    "referencia": {
+     "precio": 90,
+     "quien": "Buceo Puerto Jávea, bautismo de buceo",
+     "url": "https://www.comunitatvalenciana.com/es/alacant-alicante/xabia-javea/experiencias/bautismo-de-buceo-en-xabia",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "salidas-de-buceo",
@@ -902,7 +1101,17 @@
     "nao",
     "xabia",
     "javea"
-   ]
+   ],
+   "precio": {
+    "valor": 34,
+    "nota": "Por inmersión, sin equipo",
+    "referencia": {
+     "precio": 35,
+     "quien": "Centro de buceo de la bahía de Jávea, 1 inmersión sin equipo",
+     "url": "https://esim.holafly.com/es/blog/planificar-viaje/buceo-javea/",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "traslados-valencia",
@@ -943,7 +1152,17 @@
     "terminal",
     "puerto",
     "port"
-   ]
+   ],
+   "precio": {
+    "valor": 39,
+    "nota": "Por vehículo",
+    "referencia": {
+     "precio": 40,
+     "quien": "Civitatis, traslados en Valencia por coche",
+     "url": "https://www.civitatis.com/es/valencia/",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "entradas-valencia",
@@ -981,7 +1200,17 @@
     "nicolas",
     "ciencies",
     "ciencias"
-   ]
+   ],
+   "precio": {
+    "valor": 15,
+    "nota": "Entrada a San Nicolás; el resto, según la atracción",
+    "referencia": {
+     "precio": 16,
+     "quien": "Civitatis y Visit Valencia, entrada a la iglesia de San Nicolás",
+     "url": "https://www.visitvalencia.com/shop/visitas-guiadas",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "audioguias-valencia",
@@ -1020,7 +1249,16 @@
     "carrer de la pau",
     "virgen",
     "verge"
-   ]
+   ],
+   "precio": {
+    "valor": 8.95,
+    "referencia": {
+     "precio": 9.95,
+     "quien": "City App Tour, audioguía de Valencia (1 persona)",
+     "url": "https://www.expedia.com/things-to-do/valencia-self-guided-city-walking-tour-with-audio-guide.a47265040.activity-details",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "alquiler-de-bicis-valencia",
@@ -1057,7 +1295,16 @@
     "bike",
     "cycl",
     "carril"
-   ]
+   ],
+   "precio": {
+    "valor": 9,
+    "referencia": {
+     "precio": 10,
+     "quien": "Visit Valencia, alquiler de bicis",
+     "url": "https://www.visitvalencia.com/shop/visitas-guiadas",
+     "fecha": "2026-10-27"
+    }
+   }
   },
   {
    "slug": "viajes-de-estudios-y-colegios",
@@ -1097,5 +1344,6 @@
     "valencia"
    ]
   }
- ]
+ ],
+ "_notaPrecios": "Precio = el de una actividad parecida de la competencia menos 1 € (decisión del propietario, 27-10-2026). La referencia de cada uno va en precio.referencia. Sin \"precio\", la ficha dice \"a consultar\"."
 }
