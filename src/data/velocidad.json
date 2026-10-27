@@ -22,10 +22,9 @@
   ]
  },
  "precargar": {
-  "_nota": "Letras que se piden desde el principio, sin esperar a leer las hojas. Desde el 27-10-2026 las de la marca Excursiones Valencia (scripts/fuentes-marca.mjs): Fraunces (títulos) y DM Sans (texto), subconjunto latin; son variables, un fichero por familia. Las de Valencia&Go (Baloo, Lato) ya no se piden porque la hoja de diseño las sustituye en todo.",
+  "_nota": "Letra que se pide desde el principio, sin esperar a leer las hojas: la de la marca Excursiones Valencia (scripts/fuentes-marca.mjs), Plus Jakarta Sans variable, subconjunto latin. Las de Valencia&Go (Baloo, Lato) ya no se piden porque la hoja de diseño las sustituye en todo.",
   "letras": [
-   "/fuentes-marca/fraunces-normal-latin.woff2",
-   "/fuentes-marca/dm-sans-normal-latin.woff2"
+   "/fuentes-marca/plus-jakarta-sans-normal-latin.woff2"
   ]
  },
  "anticipar": {

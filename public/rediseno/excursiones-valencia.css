@@ -1,202 +1,199 @@
 /* Generado por scripts/hoja-marca.mjs: no se edita a mano (editar src/estilos/excursiones-valencia.css). */
 /* Letras de Excursiones Valencia (scripts/fuentes-marca.mjs). Licencia SIL Open Font License. */
-/* DM Sans italic latin-ext */
-@font-face { font-family: 'DM Sans'; font-style: italic; font-weight: 400 400; font-display: swap; src: url(/fuentes-marca/dm-sans-italic-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-/* DM Sans italic latin */
-@font-face { font-family: 'DM Sans'; font-style: italic; font-weight: 400 400; font-display: swap; src: url(/fuentes-marca/dm-sans-italic-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-/* DM Sans normal latin-ext */
-@font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/fuentes-marca/dm-sans-normal-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-/* DM Sans normal latin */
-@font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/fuentes-marca/dm-sans-normal-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-/* Fraunces normal latin-ext */
-@font-face { font-family: 'Fraunces'; font-style: normal; font-weight: 600 700; font-display: swap; src: url(/fuentes-marca/fraunces-normal-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-/* Fraunces normal latin */
-@font-face { font-family: 'Fraunces'; font-style: normal; font-weight: 600 700; font-display: swap; src: url(/fuentes-marca/fraunces-normal-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* Plus Jakarta Sans italic latin-ext */
+@font-face { font-family: 'Plus Jakarta Sans'; font-style: italic; font-weight: 400 600; font-display: swap; src: url(/fuentes-marca/plus-jakarta-sans-italic-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+/* Plus Jakarta Sans italic latin */
+@font-face { font-family: 'Plus Jakarta Sans'; font-style: italic; font-weight: 400 600; font-display: swap; src: url(/fuentes-marca/plus-jakarta-sans-italic-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* Plus Jakarta Sans normal latin-ext */
+@font-face { font-family: 'Plus Jakarta Sans'; font-style: normal; font-weight: 400 800; font-display: swap; src: url(/fuentes-marca/plus-jakarta-sans-normal-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+/* Plus Jakarta Sans normal latin */
+@font-face { font-family: 'Plus Jakarta Sans'; font-style: normal; font-weight: 400 800; font-display: swap; src: url(/fuentes-marca/plus-jakarta-sans-normal-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
 /*
- * Excursiones Valencia — diseño propio (27-10-2026), distinto del de Valencia&Go.
+ * Excursiones Valencia — diseño propio (27-10-2026, 3.ª versión).
+ * Referencia de estilo: las webs de actividades mejor posicionadas en España
+ * para "excursiones desde Valencia" (Civitatis, GetYourGuide): fondo blanco,
+ * una sola letra sin serifa y gruesa, texto azul muy oscuro, un único color
+ * fuerte para botones y precios, tarjetas blancas con borde fino.
  * Se monta en public/rediseno/excursiones-valencia.css con scripts/hoja-marca.mjs
- * (letras + estas reglas) y es la ÚLTIMA hoja de cada página (site.json → rediseno).
+ * (letra + estas reglas) y es la ÚLTIMA hoja de cada página (site.json → rediseno).
  *
- * Paleta: azul marino #1E3A64 · marino oscuro #12233F · azafrán #E8A93A
- *         crema #FAF6EE · arena #EFE6D2 · texto #1A2233 · texto suave #4F5B6B
- * Letras: Fraunces (títulos, con serifa) y DM Sans (texto).
- * Forma: esquinas rectas (4-8 px), sin sombras blandas, bordes finos, botones
- * rectangulares; frente a Valencia&Go (naranja y azul, letra redonda Baloo,
- * píldoras y sombras).
+ * Paleta: azul noche #14213D · rojo Valencia #D62839 (hover #B71F2E)
+ *         dorado #F5B300 · gris fondo #F7F8FA · gris borde #E4E7EC
+ *         texto suave #4A5568
+ * Letra:  Plus Jakarta Sans (400-800).
  */
 
-/* ===================== letras ===================== */
+/* ===================== letra y base ===================== */
 body.elementor-kit-67, body {
-  --e-global-typography-primary-font-family: "Fraunces"; --e-global-typography-primary-font-weight: 600;
-  --e-global-typography-secondary-font-family: "DM Sans";
-  --e-global-typography-text-font-family: "DM Sans";
-  --e-global-typography-accent-font-family: "DM Sans"; --e-global-typography-accent-font-weight: 600;
-  --e-global-color-primary: #1E3A64; --e-global-color-secondary: #12233F;
-  --e-global-color-text: #1A2233; --e-global-color-accent: #1E3A64;
-  color: #1A2233;
+  --e-global-typography-primary-font-family: "Plus Jakarta Sans"; --e-global-typography-primary-font-weight: 800;
+  --e-global-typography-secondary-font-family: "Plus Jakarta Sans";
+  --e-global-typography-text-font-family: "Plus Jakarta Sans";
+  --e-global-typography-accent-font-family: "Plus Jakarta Sans"; --e-global-typography-accent-font-weight: 700;
+  --e-global-color-primary: #D62839; --e-global-color-secondary: #14213D;
+  --e-global-color-text: #14213D; --e-global-color-accent: #D62839;
+  color: #14213D; background-color: #FFFFFF !important;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
 }
-/* texto: DM Sans en todo menos los iconos (especificidad 0, gana a Elementor por !important) */
-:where(body, p, a, li, span, div, button, input, select, textarea, label, td, th, strong, em, b, small, bdi, del, ins, dt, dd, figcaption, blockquote, cite)
+/* todo el texto con la letra de la marca, menos los iconos (especificidad 0, gana por !important) */
+:where(body, p, a, li, span, div, button, input, select, textarea, label, td, th, strong, em, b, small, bdi, del, ins, dt, dd, figcaption, blockquote, cite, h1, h2, h3, h4, h5, h6)
 :where(:not(i):not([class*="fa-"]):not([class*="eicon"]):not([class^="icon-"]):not([class*=" icon-"]):not(.e-font-icon-svg):not([class*="dashicons"]):not([class*="star"])) {
-  font-family: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif !important;
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif !important;
 }
-/* títulos: Fraunces, también lo que llevan dentro */
-:is(h1, h2, h3, h4, .elementor-heading-title, .elementor-heading-title *, h1 *, h2 *, h3 *, h4 *):not(i):not([class*="fa-"]):not(svg):not(path) {
-  font-family: "Fraunces", Georgia, "Times New Roman", serif !important;
-  font-weight: 600 !important; letter-spacing: -0.01em;
-}
-h5, h6 { font-family: "DM Sans", sans-serif !important; font-weight: 700 !important; letter-spacing: 0.08em; text-transform: uppercase; }
+:is(h1, h2, .elementor-widget-heading h2.elementor-heading-title, .elementor-widget-heading h1.elementor-heading-title) { font-weight: 800 !important; letter-spacing: -0.02em !important; }
+:is(h3, h4, .elementor-widget-heading h3.elementor-heading-title, .elementor-widget-heading h4.elementor-heading-title) { font-weight: 700 !important; letter-spacing: -0.01em !important; }
+.elementor-widget-text-editor, .elementor-widget-text-editor p { line-height: 1.65; }
+a { text-underline-offset: 3px; }
+::selection { background: #D62839; color: #FFFFFF; }
 
-/* ===================== fondos y enlaces ===================== */
-body { background-color: #FAF6EE !important; }
-a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
-
-/* ===================== botones: rectos ===================== */
-.elementor-button, .button, button.button, a.button, input[type="submit"], .wp-element-button,
-.e-loop-item .elementor-button, .elementor-widget-button .elementor-button {
-  border-radius: 4px !important; box-shadow: none !important; text-transform: none !important;
-  letter-spacing: 0.01em !important; font-weight: 700 !important;
+/* ===================== botones ===================== */
+.elementor-button, .button, button.button, a.button, input[type="submit"], .wp-element-button {
+  border-radius: 10px !important; text-transform: none !important; letter-spacing: 0 !important;
+  font-weight: 700 !important; box-shadow: none !important; transition: background-color .15s ease, transform .15s ease;
 }
-.elementor-button:hover, .button:hover { filter: none; transform: none; }
 .elementor-button .elementor-button-text { font-weight: 700 !important; }
+.elementor-button:hover { transform: translateY(-1px); }
 
 /* ===================== cabecera ===================== */
-/* tira de reclamos: verde oscuro, letra crema, iconos azafrán */
-.elementor-location-header .vgo-banner, .vgo-banner {
-  background: #12233F !important; border-bottom: 0 !important;
-}
-.vgo-banner, .vgo-banner * { color: #F4EEDF !important; }
-.vgo-banner a, .vgo-banner strong, .vgo-banner b { color: #E8A93A !important; }
-.vgo-banner svg, .vgo-banner svg * { stroke: #E8A93A !important; }
-/* fila de teléfono y correo: crema, texto verde oscuro */
+/* tira de reclamos: azul noche, letra blanca, iconos dorados */
+.elementor-location-header .vgo-banner, .vgo-banner { background: #14213D !important; border-bottom: 0 !important; }
+.vgo-banner, .vgo-banner * { color: #FFFFFF !important; }
+.vgo-banner a, .vgo-banner strong, .vgo-banner b { color: #F5B300 !important; }
+.vgo-banner svg, .vgo-banner svg * { stroke: #F5B300 !important; }
+/* fila de teléfono y correo: blanca con raya gris debajo */
 .elementor-10594 .elementor-element.elementor-element-6002e415:not(.elementor-motion-effects-element-type-background),
 .elementor-10594 .elementor-element.elementor-element-3170bcdc:not(.elementor-motion-effects-element-type-background),
 .elementor-location-header .e-con.e-child:has(.elementor-widget-icon-list):not(:has(.elementor-nav-menu)) {
-  background-color: #EFE6D2 !important;
+  background-color: #FFFFFF !important;
 }
-.elementor-location-header .elementor-icon-list-text { color: #12233F !important; font-weight: 500 !important; }
-.elementor-location-header .elementor-icon-list-icon svg, .elementor-location-header .elementor-icon-list-icon i { fill: #1E3A64 !important; color: #1E3A64 !important; }
-/* menú: verde oscuro, raya azafrán al pasar */
-.elementor-location-header .elementor-nav-menu--main a.elementor-item {
-  font-weight: 600 !important; letter-spacing: 0.02em; text-transform: none !important;
-}
+.elementor-10594 .elementor-element.elementor-element-6002e415,
+.elementor-location-header .e-con.e-child:has(> .e-con > .elementor-widget-icon-list):not(:has(.elementor-nav-menu)) { border-bottom: 1px solid #E4E7EC; }
+.elementor-location-header .elementor-icon-list-text { color: #14213D !important; font-weight: 600 !important; font-size: 13px !important; }
+.elementor-location-header .elementor-icon-list-icon svg, .elementor-location-header .elementor-icon-list-icon i { fill: #D62839 !important; color: #D62839 !important; }
+/* menú */
+.elementor-location-header .elementor-nav-menu--main a.elementor-item { font-weight: 700 !important; font-size: 15px !important; text-transform: none !important; letter-spacing: 0 !important; }
 .elementor-location-header .elementor-nav-menu--main a.elementor-item:hover,
-.elementor-location-header .elementor-nav-menu--main a.elementor-item.elementor-item-active { color: #E8A93A !important; }
-.elementor-location-header .elementor-nav-menu--main .elementor-item:after { background-color: #E8A93A !important; height: 2px !important; }
-/* el botón del menú lateral: cuadrado verde */
-.elementor-location-header .elementor-menu-toggle, .elementor-location-header .elementor-widget-icon .elementor-icon {
-  border-radius: 4px !important;
-}
+.elementor-location-header .elementor-nav-menu--main a.elementor-item.elementor-item-active { color: #D62839 !important; }
+.elementor-location-header .elementor-nav-menu--main .elementor-item:after { background-color: #D62839 !important; height: 2px !important; }
+/* en las páginas interiores la cabecera es blanca con sombra fina */
+body:not(.home) .elementor-location-header > .e-con.e-parent:last-child,
+body:not(.home) .elementor-location-header .e-con.e-parent:has(.elementor-nav-menu) { box-shadow: 0 1px 0 #E4E7EC, 0 4px 12px rgba(20, 33, 61, 0.04); }
+.elementor-location-header .elementor-menu-toggle, .elementor-location-header .elementor-widget-icon .elementor-icon { border-radius: 10px !important; }
 
 /* ===================== portada: foto principal ===================== */
 .elementor-70 .elementor-element.elementor-element-dff3c28::before,
 .elementor-70 .elementor-element-dff3c28 > .elementor-background-overlay {
-  background: linear-gradient(180deg, rgba(18, 35, 63, 0.45) 0%, rgba(18, 35, 63, 0.58) 45%, rgba(18, 35, 63, 0.88) 100%) !important; opacity: 1 !important;
+  background: linear-gradient(180deg, rgba(20, 33, 61, 0.30) 0%, rgba(20, 33, 61, 0.45) 50%, rgba(20, 33, 61, 0.80) 100%) !important; opacity: 1 !important;
 }
 .elementor-70 .elementor-element-cb607ae .elementor-heading-title {
-  font-size: 68px !important; line-height: 1.04 !important; font-weight: 600 !important; text-shadow: 0 2px 18px rgba(0, 0, 0, 0.25);
+  font-size: 64px !important; line-height: 1.05 !important; font-weight: 800 !important; letter-spacing: -0.03em !important; text-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
 }
-/* la frase pequeña sobre el titular: etiqueta azafrán en mayúsculas, sin caja */
-.elementor-70 .elementor-element-b54be20 { background: transparent !important; border: 0 !important; box-shadow: none !important; }
-.elementor-70 .elementor-element-b54be20, .elementor-70 .elementor-element-b54be20 * {
-  background: transparent !important; color: #E8A93A !important; text-transform: uppercase; letter-spacing: 0.18em; font-size: 13px !important; font-weight: 700 !important;
+.elementor-70 .elementor-element-b47feba, .elementor-70 .elementor-element-b47feba p { font-size: 19px !important; line-height: 1.5 !important; }
+/* la frase pequeña sobre el titular: etiqueta translúcida */
+.elementor-70 .elementor-element.elementor-element-b54be20 {
+  --width: auto; width: auto !important; max-width: none !important;
+  background: rgba(255, 255, 255, 0.14) !important; border: 1px solid rgba(255, 255, 255, 0.35) !important; border-radius: 999px !important;
+  backdrop-filter: blur(6px); --padding-left: 16px; --padding-right: 16px; box-shadow: none !important;
 }
-.elementor-70 .elementor-element.elementor-element-b54be20 { --width: auto; width: auto !important; max-width: none !important; }
-.elementor-70 .elementor-element-b54be20 :is(p, .elementor-heading-title) { white-space: nowrap; font-family: "DM Sans", sans-serif !important; }
-/* botón principal: azafrán con letra verde oscuro */
+.elementor-70 .elementor-element-b54be20 * { background: transparent !important; color: #FFFFFF !important; font-weight: 600 !important; font-size: 14px !important; letter-spacing: 0.01em; }
+.elementor-70 .elementor-element-b54be20 :is(p, .elementor-heading-title) { white-space: nowrap; }
+/* botón principal: rojo */
 .elementor-70 .elementor-element-9538bf5 .elementor-button {
-  background: #E8A93A !important; color: #12233F !important; padding: 18px 34px !important; font-size: 16px !important;
+  background: #D62839 !important; color: #FFFFFF !important; padding: 18px 34px !important; font-size: 16px !important;
+  box-shadow: 0 8px 24px rgba(214, 40, 57, 0.35) !important;
 }
-.elementor-70 .elementor-element-9538bf5 .elementor-button * { color: #12233F !important; fill: #12233F !important; }
-.elementor-70 .elementor-element-9538bf5 .elementor-button:hover { background: #F2BD5A !important; }
+.elementor-70 .elementor-element-9538bf5 .elementor-button * { color: #FFFFFF !important; fill: #FFFFFF !important; }
+.elementor-70 .elementor-element-9538bf5 .elementor-button:hover { background: #B71F2E !important; }
 
-/* ===================== títulos de sección: raya azafrán ===================== */
-.elementor-70 h2.elementor-heading-title, .elementor-widget-heading h2.elementor-heading-title { color: #12233F; }
+/* ===================== títulos de sección ===================== */
+.elementor-widget-heading h2.elementor-heading-title { color: #14213D !important; }
 .elementor-70 .elementor-element-0494195 h2.elementor-heading-title, .elementor-70 .elementor-element-527add5 h2.elementor-heading-title,
-.elementor-70 .elementor-element-90839ab h2.elementor-heading-title, .elementor-70 .elementor-element-7f4d65a h2.elementor-heading-title,
-.elementor-70 .e-con > .elementor-widget-heading:first-child h2.elementor-heading-title {
-  color: #12233F !important;
-}
-.elementor-70 .elementor-element-0494195 h2.elementor-heading-title::after, .elementor-70 .elementor-element-527add5 h2.elementor-heading-title::after,
-.elementor-70 .elementor-element-90839ab h2.elementor-heading-title::after {
-  content: ""; display: block; width: 56px; height: 3px; background: #E8A93A; margin: 16px auto 0;
-}
+.elementor-70 .elementor-element-90839ab h2.elementor-heading-title, .elementor-70 .elementor-element-7f4d65a h2.elementor-heading-title { font-size: 40px !important; line-height: 1.15 !important; }
+.elementor-70 .elementor-element-0494195 .elementor-widget-text-editor p, .elementor-70 .elementor-element-527add5 .elementor-widget-text-editor p { color: #4A5568; font-size: 17px; }
 
 /* ===================== tarjetas de tour (en todas las páginas) ===================== */
-.e-loop-item { border-radius: 6px !important; }
-.elementor-70 .e-loop-item, .e-loop-item.product, .e-loop-item.type-product {
-  background: #FFFFFF !important; border: 1px solid #E5DCC8 !important; box-shadow: none !important; overflow: hidden;
-  transition: border-color .2s ease;
+.e-loop-item {
+  background: #FFFFFF !important; border: 1px solid #E4E7EC !important; border-radius: 14px !important;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05) !important; overflow: hidden; transition: box-shadow .2s ease, transform .2s ease;
 }
-.elementor-70 .e-loop-item:hover, .e-loop-item.product:hover, .e-loop-item.type-product:hover { border-color: #1E3A64 !important; }
-.e-loop-item img { border-radius: 4px !important; }
-.e-loop-item h3.elementor-heading-title, .e-loop-item h3.elementor-heading-title a { color: #12233F !important; }
-/* etiqueta de categoría: azafrán, recta */
+.e-loop-item:hover { box-shadow: 0 14px 30px rgba(20, 33, 61, 0.12) !important; transform: translateY(-3px); }
+.e-loop-item img { border-radius: 10px !important; }
+.e-loop-item h3.elementor-heading-title, .e-loop-item h3.elementor-heading-title a { color: #14213D !important; font-weight: 700 !important; }
+/* etiqueta de categoría: azul noche */
 .e-loop-item .bag a, .e-loop-item .bag span, .e-loop-item .elementor-post-info__terms-list a {
-  background: #E8A93A !important; color: #12233F !important; border-radius: 3px !important; font-weight: 700 !important;
+  background: #14213D !important; color: #FFFFFF !important; border-radius: 6px !important; font-weight: 700 !important;
 }
-/* "Se agota rápido": verde oscuro, recta */
+/* "Se agota rápido": rojo */
 .e-loop-item .badge-agota .elementor-heading-title, .e-loop-item [class*="agota"] .elementor-heading-title {
-  background: #12233F !important; color: #F4EEDF !important; border-radius: 3px !important;
+  background: #D62839 !important; color: #FFFFFF !important; border-radius: 6px !important; font-size: 12px !important; font-weight: 700 !important;
 }
-/* precio con la letra de los títulos */
+.e-loop-item .elementor-icon-list-text { color: #4A5568 !important; }
+.e-loop-item .elementor-icon-list-icon svg, .e-loop-item .elementor-icon-list-icon i { fill: #4A5568 !important; color: #4A5568 !important; }
+/* precio */
 .e-loop-item .price, .e-loop-item .price *, .e-loop-item .woocommerce-Price-amount, .e-loop-item .woocommerce-Price-amount * {
-  font-family: "Fraunces", Georgia, serif !important; color: #1E3A64 !important; font-weight: 600 !important;
+  color: #14213D !important; font-weight: 800 !important;
 }
-.e-loop-item .elementor-icon-list-icon svg, .e-loop-item .elementor-icon-list-icon i { fill: #1E3A64 !important; color: #1E3A64 !important; }
-.e-loop-item .elementor-button { background: #1E3A64 !important; }
-.e-loop-item .elementor-button:hover { background: #12233F !important; }
+.e-loop-item .elementor-button { background: #D62839 !important; color: #FFFFFF !important; }
+.e-loop-item .elementor-button:hover { background: #B71F2E !important; }
 
 /* ===================== categorías y bloques de la portada ===================== */
-.elementor-70 .elementor-element.elementor-element-19fd49d { background-color: #EFE6D2 !important; }
+.elementor-70 .elementor-element.elementor-element-19fd49d { background-color: #F7F8FA !important; }
 .elementor-70 .elementor-element-19fd49d > .e-con-inner > .e-con, .elementor-70 .elementor-element-19fd49d > .e-con {
-  background: #FAF6EE !important; border: 1px solid #E5DCC8; border-radius: 6px !important; box-shadow: none !important;
+  background: #FFFFFF !important; border: 1px solid #E4E7EC; border-radius: 14px !important; box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05) !important;
 }
-.elementor-70 .elementor-element-19fd49d .elementor-heading-title { color: #12233F !important; }
-/* bloques de foto y texto: fotos con esquina recta y marco azafrán desplazado */
+.elementor-70 .elementor-element-19fd49d .elementor-heading-title { color: #14213D !important; letter-spacing: 0.02em !important; }
+.elementor-70 .elementor-element-19fd49d .elementor-widget-text-editor { color: #4A5568; }
+/* bloques de foto y texto: fotos con esquina suave y sombra */
 .elementor-70 .elementor-element-d760916 img, .elementor-70 .elementor-element-d7adc8b img,
 .elementor-70 .elementor-element-eee99ab img, .elementor-70 .elementor-element-0fbbb4f img {
-  border-radius: 4px !important; box-shadow: 14px 14px 0 #E8A93A !important;
+  border-radius: 16px !important; box-shadow: 0 20px 40px rgba(20, 33, 61, 0.18) !important;
 }
-.elementor-70 .elementor-element.elementor-element-d7adc8b { background-color: #12233F !important; }
-.elementor-70 .elementor-element-d7adc8b :is(p, li, span, strong, b, em, h2, h3, .elementor-heading-title, .elementor-icon-list-text):not(.elementor-button *) { color: #F4EEDF !important; }
+.elementor-70 .elementor-element.elementor-element-d7adc8b { background-color: #14213D !important; }
+.elementor-70 .elementor-element-d7adc8b :is(p, li, span, strong, b, em, h2, h3, .elementor-heading-title, .elementor-icon-list-text):not(.elementor-button *) { color: #FFFFFF !important; }
+.elementor-70 .elementor-element-d7adc8b .elementor-widget-text-editor p, .elementor-70 .elementor-element-d7adc8b .elementor-icon-list-text { color: #CBD2E1 !important; }
 .elementor-70 .elementor-element-d7adc8b :is(strong, b) { color: #FFFFFF !important; }
-.elementor-70 .elementor-element-d7adc8b .elementor-icon-list-icon svg, .elementor-70 .elementor-element-d7adc8b .elementor-icon-list-icon i { fill: #E8A93A !important; color: #E8A93A !important; }
-/* los bloques de color sólido detrás de las fotos (franjas) en verde oscuro */
-.elementor-70 .elementor-element-d760916 .e-con[data-settings*="background"], .elementor-70 .elementor-element-eee99ab .e-con[data-settings*="background"] { background-color: #12233F !important; }
+.elementor-70 .elementor-element-d7adc8b .elementor-icon-list-icon svg, .elementor-70 .elementor-element-d7adc8b .elementor-icon-list-icon i { fill: #F5B300 !important; color: #F5B300 !important; }
+.elementor-70 .elementor-element-d760916 .elementor-widget-text-editor p, .elementor-70 .elementor-element-0fbbb4f .elementor-widget-text-editor p,
+.elementor-70 .elementor-element-eee99ab .elementor-widget-text-editor p { color: #4A5568; }
 
 /* ===================== fichas de tour (página de producto) ===================== */
-.single-product .elementor-heading-title, .single-product h1 { color: #12233F !important; }
-.single-product .elementor-icon-list-icon svg, .single-product .elementor-icon-list-icon i { fill: #1E3A64 !important; color: #1E3A64 !important; }
-.single-product .elementor-widget-image img, .single-product .swiper img, .single-product .elementor-gallery-item img { border-radius: 4px !important; }
+.single-product h1, .single-product .elementor-heading-title { color: #14213D !important; }
+.single-product .elementor-icon-list-icon svg, .single-product .elementor-icon-list-icon i { fill: #D62839 !important; color: #D62839 !important; }
+.single-product .elementor-widget-image img, .single-product .swiper img, .single-product .elementor-gallery-item img { border-radius: 12px !important; }
+.single-product .elementor-widget-text-editor, .single-product .elementor-widget-text-editor p { color: #2D3748; }
 
-/* ===================== pie: verde oscuro ===================== */
-.elementor-location-footer .e-con.e-parent { background-color: #12233F !important; }
+/* ===================== estrellas ===================== */
+.star-rating span::before, .star-rating::before, .elementor-star-rating i::before, .e-rating .e-icon-wrapper svg { color: #F5B300 !important; fill: #F5B300 !important; }
+
+/* ===================== pie: azul noche ===================== */
+.elementor-location-footer .e-con.e-parent { background-color: #14213D !important; }
 .elementor-8452 .elementor-element:not(.elementor-motion-effects-element-type-background):not(.e-parent) { background-color: transparent !important; }
 .elementor-location-footer, .elementor-location-footer a, .elementor-location-footer p, .elementor-location-footer span,
-.elementor-location-footer li, .elementor-location-footer .elementor-heading-title, .elementor-location-footer .elementor-icon-list-text { color: #E9E2D0 !important; }
-.elementor-location-footer .elementor-heading-title { color: #FFFFFF !important; }
-.elementor-location-footer a:hover, .elementor-location-footer a:hover * { color: #E8A93A !important; }
-.elementor-location-footer .elementor-icon-list-icon svg, .elementor-location-footer .elementor-icon-list-icon i { fill: #E8A93A !important; color: #E8A93A !important; }
-.elementor-location-footer .elementor-social-icon { background-color: rgba(255, 255, 255, 0.08) !important; border-radius: 4px !important; }
-.elementor-location-footer .elementor-social-icon svg { fill: #E9E2D0 !important; }
-.elementor-location-footer .elementor-divider-separator { border-color: rgba(233, 226, 208, 0.25) !important; }
+.elementor-location-footer li, .elementor-location-footer .elementor-icon-list-text { color: #CBD2E1 !important; }
+.elementor-location-footer .elementor-heading-title,
+.elementor-location-footer .elementor-widget-heading :is(h1, h2, h3, h4, h5, h6).elementor-heading-title,
+.elementor-location-footer .elementor-widget-heading .elementor-heading-title a { color: #FFFFFF !important; font-weight: 800 !important; }
+.elementor-location-footer a:hover, .elementor-location-footer a:hover * { color: #FFFFFF !important; text-decoration: underline; }
+.elementor-location-footer .elementor-icon-list-icon svg, .elementor-location-footer .elementor-icon-list-icon i { fill: #F5B300 !important; color: #F5B300 !important; }
+.elementor-location-footer .elementor-social-icon { background-color: rgba(255, 255, 255, 0.08) !important; border-radius: 10px !important; }
+.elementor-location-footer .elementor-social-icon:hover { background-color: #D62839 !important; }
+.elementor-location-footer .elementor-social-icon svg { fill: #FFFFFF !important; }
+.elementor-location-footer .elementor-divider-separator { border-color: rgba(255, 255, 255, 0.15) !important; }
 /* logo del pie: la versión para fondo oscuro */
 .elementor-location-footer img[src$="/marca/logo.svg"], .elementor-location-footer img[src$="/marca/logo.png"] { content: url("/marca/logo-blanco.svg"); }
-/* los sellos (Tripadvisor, Civitatis…) sobre una franja crema */
-.elementor-location-footer .e-con.e-parent:has(img[src*="tripadvisor" i]), .elementor-location-footer .e-con.e-parent:has(img[alt*="tripadvisor" i]) { background-color: #EFE6D2 !important; }
+/* los sellos (Tripadvisor, Civitatis…) sobre gris claro */
+.elementor-location-footer .e-con.e-parent:has(img[src*="tripadvisor" i]), .elementor-location-footer .e-con.e-parent:has(img[alt*="tripadvisor" i]) { background-color: #F7F8FA !important; }
 
 /* ===================== varios ===================== */
-::selection { background: #E8A93A; color: #12233F; }
-.elementor-widget-text-editor a:not(.elementor-button), .entry-content a:not(.button) { color: #1E3A64; }
-blockquote { border-left: 3px solid #E8A93A !important; }
+.elementor-widget-text-editor a:not(.elementor-button), .entry-content a:not(.button) { color: #D62839; }
+blockquote { border-left: 3px solid #D62839 !important; }
+input:focus, select:focus, textarea:focus { outline: 2px solid #D62839 !important; outline-offset: 1px; }
 
 /* ===================== móvil ===================== */
 @media (max-width: 767px) {
-  .elementor-70 .elementor-element-cb607ae .elementor-heading-title { font-size: 40px !important; }
+  .elementor-70 .elementor-element-cb607ae .elementor-heading-title { font-size: 38px !important; }
   .elementor-70 .elementor-element.elementor-element-b54be20 { max-width: 100% !important; }
-  .elementor-70 .elementor-element-b54be20 :is(p, .elementor-heading-title) { white-space: normal; letter-spacing: 0.1em !important; text-align: center; }
-  .elementor-70 .elementor-element-d760916 img, .elementor-70 .elementor-element-d7adc8b img,
-  .elementor-70 .elementor-element-eee99ab img, .elementor-70 .elementor-element-0fbbb4f img { box-shadow: 8px 8px 0 #E8A93A !important; }
+  .elementor-70 .elementor-element-b54be20 :is(p, .elementor-heading-title) { white-space: normal; text-align: center; }
+  .elementor-70 .elementor-element-0494195 h2.elementor-heading-title, .elementor-70 .elementor-element-527add5 h2.elementor-heading-title,
+  .elementor-70 .elementor-element-90839ab h2.elementor-heading-title, .elementor-70 .elementor-element-7f4d65a h2.elementor-heading-title { font-size: 28px !important; }
 }

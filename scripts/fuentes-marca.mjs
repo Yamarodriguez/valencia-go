@@ -1,6 +1,6 @@
 /**
- * fuentes-marca.mjs — baja de Google Fonts las letras de la marca Excursiones
- * Valencia (Fraunces para títulos, DM Sans para el texto), solo los
+ * fuentes-marca.mjs — baja de Google Fonts la letra de la marca Excursiones
+ * Valencia (Plus Jakarta Sans, títulos y texto, desde el 27-10-2026), solo los
  * subconjuntos latin y latin-ext (castellano, inglés, francés, italiano y
  * polaco), y escribe public/fuentes-marca/fuentes.css con sus @font-face,
  * servidas desde la propia web.
@@ -14,7 +14,7 @@ import path from 'node:path';
 
 const SALIDA = path.resolve('public', 'fuentes-marca');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
-const URL_CSS = 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap';
+const URL_CSS = 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400..800;1,400..600&display=swap';
 
 fs.mkdirSync(SALIDA, { recursive: true });
 const css = await (await fetch(URL_CSS, { headers: { 'User-Agent': UA } })).text();
@@ -27,12 +27,12 @@ for (const m of css.matchAll(/\/\*\s*([\w-]+)\s*\*\/\s*@font-face\s*\{([^}]*)\}/
   const valor = (p) => (cuerpo.match(new RegExp(p + ':\\s*([^;]+);')) || [])[1];
   const familia = valor('font-family').replace(/'/g, '');
   const estilo = valor('font-style');
-  const peso = Number(valor('font-weight'));
+  const pesos = valor('font-weight').trim().split(/\s+/).map(Number); // "600" o "400 800"
   const url = cuerpo.match(/url\(([^)]+)\)/)[1];
   const rango = valor('unicode-range');
   const clave = [familia, estilo, subconjunto, url].join('|');
   if (!grupos.has(clave)) grupos.set(clave, { familia, estilo, subconjunto, url, rango, pesos: [] });
-  grupos.get(clave).pesos.push(peso);
+  grupos.get(clave).pesos.push(...pesos);
 }
 
 const caras = [];

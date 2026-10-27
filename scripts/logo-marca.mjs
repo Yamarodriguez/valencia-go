@@ -5,11 +5,11 @@
  * (compartir.jpg) y capturas/logo-muestra.png para verlo.
  *
  *   OPENTYPE_DIR=<carpeta con node_modules/opentype.js> FUENTES_TTF=<carpeta con
- *   fraunces-600.ttf y dmsans-700.ttf> node scripts/logo-marca.mjs
+ *   jakarta-800.ttf y jakarta-700.ttf (Plus Jakarta Sans)> node scripts/logo-marca.mjs
  *
  * El texto va convertido a trazos (no depende de las letras del visitante).
- * Sello: cuadrado redondeado azul marino con sol azafrán y dos olas crema.
- * Nombre: "Excursiones" en Fraunces 600 y "VALENCIA" en DM Sans 700 espaciada.
+ * Sello: cuadrado redondeado azul noche con sol dorado y dos olas blancas.
+ * Nombre: "Excursiones" en Plus Jakarta Sans 800 y "VALENCIA" en 700 espaciada (rojo).
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -19,11 +19,11 @@ import sharp from 'sharp';
 const requerir = createRequire(path.join(process.env.OPENTYPE_DIR || process.cwd(), 'package.json'));
 const opentype = requerir('opentype.js');
 const TTF = process.env.FUENTES_TTF || '.';
-const fraunces = opentype.loadSync(path.join(TTF, 'fraunces-600.ttf'));
-const dmsans = opentype.loadSync(path.join(TTF, 'dmsans-700.ttf'));
+const titulo = opentype.loadSync(path.join(TTF, 'jakarta-800.ttf'));
+const ciudadLetra = opentype.loadSync(path.join(TTF, 'jakarta-700.ttf'));
 const SALIDA = path.resolve('public/marca');
 
-const C = { verde: '#1E3A64', oscuro: '#12233F', azafran: '#E8A93A', crema: '#FAF6EE' };
+const C = { verde: '#D62839', oscuro: '#14213D', azafran: '#F5B300', crema: '#FFFFFF' };
 const r1 = (n) => Math.round(n * 10) / 10;
 
 // trazo de un texto con espaciado (en em) entre letras; devuelve d y ancho
@@ -54,8 +54,8 @@ function sello(ox, oy, fondo, sol, olas, id) {
 
 function logo({ fondoSello, sol, olas, colorNombre, colorCiudad, id }) {
   const x = 140;
-  const nombre = texto(fraunces, 'Excursiones', x, 70, 56, -0.005);
-  const ciudad = texto(dmsans, 'VALENCIA', x + 2, 106, 23, 0.36);
+  const nombre = texto(titulo, 'Excursiones', x, 68, 52, -0.03);
+  const ciudad = texto(ciudadLetra, 'VALENCIA', x + 2, 104, 22, 0.38);
   const ancho = Math.ceil(x + Math.max(nombre.ancho, ciudad.ancho) + 6);
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${ancho} 120" width="${ancho}" height="120" role="img" aria-label="Excursiones Valencia">
   <title>Excursiones Valencia</title>

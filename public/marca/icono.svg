@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Excursiones Valencia">
   <title>Excursiones Valencia</title>
   <defs><clipPath id="sello-i"><rect x="4" y="4" width="112" height="112" rx="22"/></clipPath></defs>
-  <rect x="4" y="4" width="112" height="112" rx="22" fill="#12233F"/>
+  <rect x="4" y="4" width="112" height="112" rx="22" fill="#14213D"/>
   <g clip-path="url(#sello-i)">
-    <circle cx="60" cy="66" r="25" fill="#E8A93A"/>
-    <rect x="0" y="70" width="120" height="50" fill="#12233F"/>
-    <path d="M-6 78 C 12 68, 30 68, 48 78 S 84 88, 102 78 S 120 68, 132 76" fill="none" stroke="#FAF6EE" stroke-width="7" stroke-linecap="round"/>
-    <path d="M-6 96 C 12 86, 30 86, 48 96 S 84 106, 102 96 S 120 86, 132 94" fill="none" stroke="#FAF6EE" stroke-width="7" stroke-linecap="round" opacity="0.75"/>
+    <circle cx="60" cy="66" r="25" fill="#F5B300"/>
+    <rect x="0" y="70" width="120" height="50" fill="#14213D"/>
+    <path d="M-6 78 C 12 68, 30 68, 48 78 S 84 88, 102 78 S 120 68, 132 76" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-6 96 C 12 86, 30 86, 48 96 S 84 106, 102 96 S 120 86, 132 94" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity="0.75"/>
   </g>
 </svg>
