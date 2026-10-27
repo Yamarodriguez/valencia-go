@@ -1,0 +1,77 @@
+---
+/**
+ * /creditos-de-fotos/ — autores y licencias de las fotos que vienen de
+ * Wikimedia Commons (src/data/fotos-creditos.json, lo escribe
+ * scripts/fotos-commons.mjs). Las licencias CC BY y CC BY-SA obligan a esta
+ * página. Toma cabeza, cabecera y pie de la página del aviso legal para que
+ * se vea como el resto de la web; el contenido es propio.
+ */
+import fs from 'node:fs';
+import Base from '../layouts/Base.astro';
+import { indice, leerPiezas } from '../utils/piezas.js';
+import site from '../data/site.json';
+
+const modelo = indice().find((p) => p.ruta === '/aviso-legal/');
+const z = leerPiezas(modelo.nombre);
+const titulo = 'Créditos de las fotos';
+const creditos = fs.existsSync('src/data/fotos-creditos.json') ? JSON.parse(fs.readFileSync('src/data/fotos-creditos.json', 'utf8')) : {};
+
+const cabeza = z.cabeza
+  .replace(/<title>[^<]*<\/title>/, `<title>${titulo} | ${site.nombre}</title>`)
+  .replace(/<link rel="alternate" hreflang="[^"]*" href="[^"]*"\s*\/?>\s*/g, '')
+  .replace(/\/aviso-legal\//g, '/creditos-de-fotos/')
+  .replace(/Aviso legal/g, titulo)
+  .replace(/<meta name="description" content="[^"]*"/, '<meta name="description" content="Autores y licencias de las fotografías de esta web."')
+  .replace(/<meta name='robots' content='[^']*'/, "<meta name='robots' content='noindex, follow'")
+  .replace(/<script type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>\s*/g, '');
+
+const body = { ...modelo.body, class: String(modelo.body.class || '').replace(/\bpage-id-\d+\b|\belementor-page-\d+\b|\bpost-\d+\b/g, '').replace(/\s+/g, ' ').trim() };
+
+const porPagina = new Map();
+for (const [foto, c] of Object.entries(creditos)) {
+  if (!porPagina.has(c.pagina)) porPagina.set(c.pagina, []);
+  porPagina.get(c.pagina).push({ foto, ...c });
+}
+const grupos = [...porPagina.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+const licencias = new Map();
+for (const c of Object.values(creditos)) licencias.set(c.licencia, (licencias.get(c.licencia) || 0) + 1);
+---
+<Base html={modelo.html} body={body} cabeza={cabeza}>
+  <Fragment set:html={z.antes} /><Fragment set:html={z.cabecera} />
+  <main id="content" class="site-main page type-page" data-nuevo="creditos">
+    <div class="page-content">
+      <div class="elementor" style="max-width:1140px;margin:0 auto;padding:48px 20px 64px;">
+        <h1>{titulo}</h1>
+        <p>
+          Las fotografías de esta web que no son propias proceden de
+          <a href="https://commons.wikimedia.org/" rel="noopener" target="_blank">Wikimedia Commons</a>
+          y se usan con la licencia libre que indica cada una. Aquí constan su autor,
+          su licencia y el enlace al original, tal como piden esas licencias.
+          Algunas se han recortado o reducido para adaptarlas a la página.
+        </p>
+        <p>
+          {Object.keys(creditos).length} fotografías · {[...licencias.entries()].map(([l, n]) => `${l}: ${n}`).join(' · ')}
+        </p>
+        {grupos.map(([pagina, fotos]) => (
+          <section style="margin-top:32px;">
+            <h2 style="font-size:1.25em;"><a href={pagina}>{pagina}</a></h2>
+            <table style="width:100%;border-collapse:collapse;font-size:0.95em;">
+              <thead><tr style="text-align:left;border-bottom:2px solid #0B3D6E;"><th style="padding:6px 8px;">Foto</th><th style="padding:6px 8px;">Autor</th><th style="padding:6px 8px;">Licencia</th><th style="padding:6px 8px;">Original</th></tr></thead>
+              <tbody>
+                {fotos.map((c) => (
+                  <tr style="border-bottom:1px solid #ddd;vertical-align:middle;">
+                    <td style="padding:6px 8px;"><a href={`/fotos/${c.foto}`}><img src={`/fotos/${c.foto}`} alt="" width="120" height="80" loading="lazy" style="width:120px;height:80px;object-fit:cover;border-radius:4px;" /></a></td>
+                    <td style="padding:6px 8px;">{c.autor || 'Sin autor indicado'}</td>
+                    <td style="padding:6px 8px;">{c.licenciaUrl ? <a href={c.licenciaUrl} rel="license noopener" target="_blank">{c.licencia}</a> : c.licencia}</td>
+                    <td style="padding:6px 8px;"><a href={c.commons} rel="noopener" target="_blank">{c.titulo}</a></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </section>
+        ))}
+      </div>
+    </div>
+  </main>
+  <Fragment set:html={z.pie} /><Fragment set:html={z.despues} />
+</Base>

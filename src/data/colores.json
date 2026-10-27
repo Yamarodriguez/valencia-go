@@ -1,0 +1,6 @@
+{
+ "_nota": "Lo lee scripts/cambiar-colores.mjs: color viejo → color nuevo, en las hojas de Elementor y en los estilos en línea de las páginas. Sin distinguir mayúsculas; se conserva el sufijo de transparencia (#EF80318C → #F28C288C). El verde #14CC22 de WhatsApp no se toca.",
+ "#FF720D": "#F28C28",
+ "#EF8031": "#F28C28",
+ "#006991": "#0B3D6E"
+}

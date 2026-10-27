@@ -97,6 +97,13 @@ for (const [viejo, nuevo] of logos) {
   const re = new RegExp(escapar(sinExt).replace(/\//g, '\\\\?\\/') + '(?:-\\d+x\\d+)?' + escapar(ext), 'g');
   reglas.push({ que: `logo ${path.posix.basename(viejo)}`, re, nuevo: (m) => conBarras(m, nuevo), logo: nuevo });
 }
+// otras imágenes de marca (imagen de compartir en redes, favicon PNG…): ruta vieja → nueva, sin más
+for (const [viejo, nuevo] of Object.entries(marca.otras || {})) {
+  if (!nuevo || viejo.startsWith('_')) continue;
+  const sinExt = viejo.replace(/\.[a-z]+$/i, ''), ext = viejo.slice(sinExt.length);
+  const re = new RegExp(escapar(sinExt).replace(/\//g, '\\\\?\\/') + '(?:-\\d+x\\d+)?' + escapar(ext), 'g');
+  reglas.push({ que: `imagen ${path.posix.basename(viejo)}`, re, nuevo: (m) => conBarras(m, nuevo) });
+}
 // el nombre va el último (ver arriba)
 reglas.push(...reglas.splice(0, reglas.length).sort((a, b) => Number(a.que.startsWith('nombre')) - Number(b.que.startsWith('nombre'))));
 
@@ -135,6 +142,8 @@ for (const f of ficheros) {
     if (n) { const t = totales.get(r.que); t.veces += n; t.ficheros++; }
   }
   if (logos.length) despues = arreglarImgLogo(despues);
+  // iOS y Windows no aceptan SVG como icono de pantalla de inicio: si el icono quedó en SVG, ahí va el PNG hermano
+  despues = despues.replace(/(rel="apple-touch-icon"[^>]*href="|msapplication-TileImage"[^>]*content="[^"]*)(\/marca\/[\w-]+)\.svg"/g, '$1$2.png"');
   if (despues !== antes) {
     cambiados++;
     if (!SECO) fs.writeFileSync(f, despues);

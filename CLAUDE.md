@@ -11,8 +11,45 @@ empresa y Google penaliza el duplicado; el propietario lo asume.
 Plan completo: `PLAN-EMPRESA-NUEVA.md` (su recomendación original era no
 clonar; la sección 4 queda como referencia).
 
-Herramientas (todas probadas en seco y con valores de relleno, 26-10-2026;
-nada aplicado aún):
+Hecho el 26-10-2026 (todo en esta rama, nada en main ni en Netlify):
+- Nombre "Excursiones Valencia" aplicado (`cambiar-marca`): nombre, logos,
+  favicon/iconos, imagen de compartir (`public/marca/compartir.jpg`).
+  Dominio, correo, teléfono, WhatsApp y redes siguen siendo los viejos
+  (marca.json vacío en esos campos: el propietario no los ha dado).
+- Logo hecho por Claude: `public/marca/logo.svg|png` (fondo claro),
+  `logo-blanco.*` (fondo oscuro), `icono.*`. Sol naranja #F28C28 sobre olas
+  azul marino #0B3D6E / azul claro #1E88C7. El SVG lleva el texto como
+  <text> (letra del sistema): si el propietario lo aprueba, pasar a trazados.
+- Colores (`cambiar-colores`, src/data/colores.json): #FF720D y #EF8031 →
+  #F28C28; #006991 → #0B3D6E, en las hojas de Elementor y estilos en línea.
+  Hoja de rediseño `public/rediseno/excursiones-valencia.css` (la opción
+  "propio" con la paleta nueva), encendida en site.json (`rediseno`); el
+  selector de la web de pruebas sigue activo para compararla.
+- Feed de Instagram de la portada quitado (`quitar-instagram`, 5 idiomas).
+- Fotos: `fotos-commons.mjs` baja de Wikimedia Commons una foto real y libre
+  (CC0/dominio público/CC BY/CC BY-SA, JPG apaisado ≥1000 px) por cada hueco
+  del inventario, buscando por el H1 de la página; créditos en
+  `src/data/fotos-creditos.json` → página `/creditos-de-fotos/`
+  (`src/pages/creditos-de-fotos.astro`, enlazada en el pie de todas las
+  páginas por `enlazar-creditos.mjs`). CC BY-SA obliga a esa página.
+  Después, `cambiar-fotos` genera `public/fotos/` y reescribe las páginas.
+  Estado 27-10-2026: 566 de 617 huecos con foto nueva de Commons (en
+  public/fotos/, ~108 MB con todos los tamaños); 51 huecos siguen con la
+  foto vieja (no hubo candidata que encajara). Primera tanda de 188 fotos
+  descartadas por salir de otro sitio (Cracovia, Buenos Aires…): desde
+  entonces una foto solo vale si su título en Commons nombra un sitio o
+  cosa de la lista LUGARES del guion. Para rehacer una foto concreta:
+  `node scripts/fotos-commons.mjs --rehacer <nombre> --buscar "texto"` y
+  luego `npm run cambiar-fotos`; `--revertir-huerfanas` devuelve a la foto
+  vieja las que se descartaron sin sustituta. Commons devuelve 429 si se
+  baja deprisa: `--hilos 2 --pausa 800` como mucho; si la miniatura falla
+  se baja el original (≤12 MB). `informes/fotos-sospechosas.json` fue la
+  lista de la primera criba. El propietario aún no ha revisado ninguna.
+- En esta rama NO sirven `npm run todo`, `validar` ni `comparar-marcado`
+  (comparan con la web vieja, que ya no es la referencia): se comprueba con
+  `npm run build`, el barrido de 404 local y las capturas.
+
+Herramientas (26-10-2026):
 - `npm run inventario-fotos` → `src/data/fotos.json` + `informes/fotos-inventario.md`:
   617 fotos del contenido con página dueña (más 90 miniaturas de tarjeta que
   salen de su foto madre), 8 logos, 8 logos de terceros, 17 iconos. Nombre

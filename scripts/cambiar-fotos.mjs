@@ -62,6 +62,35 @@ for (const [vieja, e] of Object.entries(LISTA)) {
 }
 
 console.log(`${SECO ? 'EN SECO. ' : ''}Fotos de la lista: ${listas.length + faltan.length} · con foto nueva en fotos-nuevas/: ${listas.length} · sin ella: ${faltan.length}`);
+
+// --revertir-huerfanas: una foto que ya está en public/fotos/ pero cuya fuente
+// se quitó de fotos-nuevas/ (se descartó por mala) vuelve a la foto vieja:
+// se borran sus webp y las páginas vuelven a apuntar a la ruta antigua.
+if (process.argv.includes('--revertir-huerfanas')) {
+  const huerfanas = faltan.filter((x) => fs.existsSync(path.join(SALIDA, x.e.nuevo)));
+  console.log(`Huérfanas (en public/fotos/ sin fuente): ${huerfanas.length}`);
+  if (!SECO && huerfanas.length) {
+    const PAG = path.join(RAIZ, 'src', 'content', 'paginas');
+    const CSSD = path.join(PUBLICO, 'wp-content', 'uploads', 'elementor', 'css');
+    const fich = [...fs.readdirSync(PAG).filter((f) => f.endsWith('.html')).map((f) => path.join(PAG, f)), ...fs.readdirSync(CSSD).filter((f) => f.endsWith('.css')).map((f) => path.join(CSSD, f))];
+    const mapa = new Map(huerfanas.map((x) => [sinExt(x.e.nuevo), x.vieja]));
+    const re = /(?:\\\/|\/)fotos(?:\\\/|\/)([\w-]+?)(-\d+x\d+)?\.webp/g;
+    let n = 0;
+    for (const f of fich) {
+      const antes = fs.readFileSync(f, 'utf8');
+      const despues = antes.replace(re, (m, nombre, tam) => {
+        const vieja = mapa.get(nombre);
+        if (!vieja) return m;
+        n++;
+        const ruta = tam ? vieja.replace(/(\.[a-z]+)$/i, tam + '$1') : vieja;
+        return m.includes('\\/') ? ruta.replace(/\//g, '\\/') : ruta;
+      });
+      if (despues !== antes) fs.writeFileSync(f, despues);
+    }
+    for (const x of huerfanas) for (const f of fs.readdirSync(SALIDA)) if (f === x.e.nuevo || f.startsWith(sinExt(x.e.nuevo) + '-')) fs.unlinkSync(path.join(SALIDA, f));
+    console.log(`Revertidas ${huerfanas.length} fotos (${n} referencias) a la foto vieja.`);
+  }
+}
 if (SECO) {
   const sinMini = faltan.filter((x) => !x.e.miniatura);
   console.log(`Faltan (sin contar miniaturas, que salen de su foto madre): ${sinMini.length}`);
@@ -82,23 +111,24 @@ const ficheros = [
   ...(fs.existsSync(CSS) ? fs.readdirSync(CSS).filter((f) => f.endsWith('.css')).map((f) => path.join(CSS, f)) : []),
 ];
 const porVieja = new Map(listas.map((x) => [x.vieja, x]));
-const patron = (vieja) => escapar(sinExt(vieja)).replace(/\//g, '\\\\?\\/') + '(-\\d+x\\d+)?' + escapar(vieja.slice(sinExt(vieja).length));
-const reTodo = new RegExp(listas.map((x) => '(?:' + patron(x.vieja) + ')').join('|'), 'g');
+// una sola pasada por fichero: se cogen TODAS las rutas de uploads (también con
+// la barra escapada, \/, en los JSON) y se mira cada una en el mapa
+const reTodo = /(?:\\\/|\/)wp-content(?:\\\/|\/)uploads(?:\\\/|\/)[^"'\s)<>&?#]+/g;
+const base = (m) => { const limpio = m.replace(/\\\//g, '/'); return [limpio, limpio.replace(/-\d+x\d+(\.[a-z]+)$/i, '$1')]; };
 const tamanos = new Map(); // vieja → Set('768x512')
 const textos = new Map();
 for (const f of ficheros) {
   const t = fs.readFileSync(f, 'utf8');
-  if (!reTodo.test(t)) continue;
-  reTodo.lastIndex = 0;
-  textos.set(f, t);
+  let interesa = false;
   for (const m of t.matchAll(reTodo)) {
-    const limpio = m[0].replace(/\\\//g, '/');
-    const vieja = limpio.replace(/-\d+x\d+(\.[a-z]+)$/i, '$1');
+    const [limpio, vieja] = base(m[0]);
     if (!porVieja.has(vieja)) continue;
+    interesa = true;
     const s = limpio.match(/-(\d+x\d+)\.[a-z]+$/i);
     if (!tamanos.has(vieja)) tamanos.set(vieja, new Set());
     if (s) tamanos.get(vieja).add(s[1]);
   }
+  if (interesa) textos.set(f, t);
 }
 
 // --- generar ------------------------------------------------------------------
@@ -124,8 +154,7 @@ for (const { vieja, e, fuente } of listas) {
 let tocados = 0, veces = 0;
 for (const [f, antes] of textos) {
   let despues = antes.replace(reTodo, (m) => {
-    const limpio = m.replace(/\\\//g, '/');
-    const vieja = limpio.replace(/-\d+x\d+(\.[a-z]+)$/i, '$1');
+    const [limpio, vieja] = base(m);
     const x = porVieja.get(vieja);
     if (!x) return m;
     veces++;

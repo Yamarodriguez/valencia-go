@@ -1,18 +1,4 @@
 {
- "/wp-content/uploads/2025/10/valencia_go-svg-blnc-iso-naranja.svg": {
-  "clase": "logo",
-  "usos": 710,
-  "paginas": 355,
-  "variantes": [],
-  "existe": true
- },
- "/wp-content/uploads/2026/03/valencia_go-svg-azul-y-naranja.svg": {
-  "clase": "logo",
-  "usos": 3410,
-  "paginas": 1020,
-  "variantes": [],
-  "existe": true
- },
  "/wp-content/uploads/2025/10/icono-tours-a-pie.svg": {
   "clase": "icono",
   "usos": 15,
@@ -66,7 +52,7 @@
   "pagina": "/",
   "h1": "Tours y excursiones por Valencia",
   "seccion": "IDIOMAS",
-  "altActual": "Equipo de guías oficiales de Valencia&Go"
+  "altActual": "Equipo de guías oficiales de Excursiones Valencia"
  },
  "/wp-content/uploads/2026/03/atardecer-albufera.webp": {
   "clase": "foto",
@@ -87,11 +73,11 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "tours-y-excursiones-por-valencia-por-que-valencia-y-go-1.webp",
-  "alt": "Tours y excursiones por Valencia: ¿Por qué Valencia&Go?",
+  "nuevo": "tours-y-excursiones-por-valencia-por-que-excursiones-valencia-1.webp",
+  "alt": "Tours y excursiones por Valencia: ¿Por qué Excursiones Valencia?",
   "pagina": "/",
   "h1": "Tours y excursiones por Valencia",
-  "seccion": "¿Por qué Valencia&Go?",
+  "seccion": "¿Por qué Excursiones Valencia?",
   "altActual": "Actividad de team building para empresas en Valencia"
  },
  "/wp-content/uploads/2026/03/teambuildings-valencia-and-go.webp": {
@@ -100,11 +86,11 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "tours-y-excursiones-por-valencia-por-que-valencia-y-go-2.webp",
-  "alt": "Tours y excursiones por Valencia: ¿Por qué Valencia&Go?",
+  "nuevo": "tours-y-excursiones-por-valencia-por-que-excursiones-valencia-2.webp",
+  "alt": "Tours y excursiones por Valencia: ¿Por qué Excursiones Valencia?",
   "pagina": "/",
   "h1": "Tours y excursiones por Valencia",
-  "seccion": "¿Por qué Valencia&Go?",
+  "seccion": "¿Por qué Excursiones Valencia?",
   "altActual": "Grupo de empresa en una experiencia organizada en Valencia"
  },
  "/wp-content/uploads/2026/03/grupo-selfie-centro-valencia.webp": {
@@ -271,17 +257,6 @@
   "usos": 1020,
   "paginas": 1020,
   "variantes": [],
-  "existe": true
- },
- "/wp-content/uploads/2026/03/Copia-de-valencia_go-png-1200x283-1-1.png": {
-  "clase": "logo",
-  "usos": 1020,
-  "paginas": 1020,
-  "variantes": [
-   "/wp-content/uploads/2026/03/Copia-de-valencia_go-png-1200x283-1-1-18x4.png",
-   "/wp-content/uploads/2026/03/Copia-de-valencia_go-png-1200x283-1-1-768x181.png",
-   "/wp-content/uploads/2026/03/Copia-de-valencia_go-png-1200x283-1-1-800x189.png"
-  ],
   "existe": true
  },
  "/wp-content/uploads/2025/12/estacio-del-nord.webp": {
@@ -2513,13 +2488,6 @@
   "seccion": "",
   "altActual": "Cata de vino en Utiel-Requena"
  },
- "/wp-content/uploads/2025/10/valencia_go-svg-azul-y-naranja.svg": {
-  "clase": "logo",
-  "usos": 20,
-  "paginas": 20,
-  "variantes": [],
-  "existe": true
- },
  "/wp-content/uploads/tours-excursiones/01-parque-natural-albufera/parque-natural-albufera_5.webp": {
   "clase": "foto",
   "usos": 30,
@@ -2675,22 +2643,6 @@
   "h1": "Excursión al Parque Natural de la Albufera",
   "seccion": "",
   "altActual": "Barracas y embarcadero en El Palmar, en la Albufera"
- },
- "/wp-content/uploads/2026/04/logo-valenciaandgo-azul.png": {
-  "clase": "logo",
-  "usos": 215,
-  "paginas": 215,
-  "variantes": [
-   "/wp-content/uploads/2026/04/logo-valenciaandgo-azul-18x4.png"
-  ],
-  "existe": true
- },
- "/wp-content/uploads/2026/03/valencia_go-svg-azul-y-naranja-1.svg": {
-  "clase": "logo",
-  "usos": 215,
-  "paginas": 215,
-  "variantes": [],
-  "existe": true
  },
  "/wp-content/uploads/2026/06/Brindis_amigos_en_cata_de_vinos_Requena.webp": {
   "clase": "foto",
@@ -5459,7 +5411,7 @@
   "pagina": "/vendimia-en-requena-pisa-la-uva-como-antes-a-menos-de-una-hora-de-valencia/",
   "h1": "Vendimia en Requena: pisa la uva como antes, a menos de una hora de Valencia",
   "seccion": "¿Y si vengo fuera de esas fechas?",
-  "altActual": "Requena-Utiel Cata de vino y Quesos Valencia&go"
+  "altActual": "Requena-Utiel Cata de vino y Quesos Excursiones Valencia"
  },
  "/wp-content/uploads/2026/09/requena-utiel-cata.jpg": {
   "clase": "foto",
@@ -5733,7 +5685,7 @@
   "pagina": "/nuestros-vehiculos/",
   "h1": "Nuestros vehículos",
   "seccion": "modelos clase C, GLE, E",
-  "altActual": "Vehículo turismo de Valencia&Go para traslados privados"
+  "altActual": "Vehículo turismo de Excursiones Valencia para traslados privados"
  },
  "/wp-content/uploads/vehiculos/vehiculos-furgoneta.webp": {
   "clase": "foto",
@@ -5746,7 +5698,7 @@
   "pagina": "/nuestros-vehiculos/",
   "h1": "Nuestros vehículos",
   "seccion": "modelos clase C, GLE, E",
-  "altActual": "Furgoneta de Valencia&Go para traslados"
+  "altActual": "Furgoneta de Excursiones Valencia para traslados"
  },
  "/wp-content/uploads/vehiculos/vehiculos-minibus.webp": {
   "clase": "foto",
@@ -5759,7 +5711,7 @@
   "pagina": "/nuestros-vehiculos/",
   "h1": "Nuestros vehículos",
   "seccion": "Capacidad hasta 16 personas",
-  "altActual": "Minibús de Valencia&Go para grupos reducidos"
+  "altActual": "Minibús de Excursiones Valencia para grupos reducidos"
  },
  "/wp-content/uploads/vehiculos/vehiculos-autobus.webp": {
   "clase": "foto",
@@ -5772,7 +5724,7 @@
   "pagina": "/nuestros-vehiculos/",
   "h1": "Nuestros vehículos",
   "seccion": "Capacidad hasta 16 personas",
-  "altActual": "Autobús de Valencia&Go para grupos grandes"
+  "altActual": "Autobús de Excursiones Valencia para grupos grandes"
  },
  "/wp-content/uploads/2026/03/Primeras-paellas.webp": {
   "clase": "foto",
@@ -8242,12 +8194,12 @@
    "/wp-content/uploads/2026/06/Equipo-quienes-somos-800x598.webp"
   ],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-1.webp",
-  "alt": "Somos Valencia & Go",
+  "nuevo": "somos-excursiones-valencia-1.webp",
+  "alt": "Somos Excursiones Valencia",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "",
-  "altActual": "Equipo completo de Valencia&Go"
+  "altActual": "Equipo completo de Excursiones Valencia"
  },
  "/wp-content/uploads/2025/11/icono-sostenibilidad.svg": {
   "clase": "icono",
@@ -8276,12 +8228,12 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-nuestro-equipo-1.webp",
-  "alt": "Somos Valencia & Go: Nuestro equipo",
+  "nuevo": "somos-excursiones-valencia-nuestro-equipo-1.webp",
+  "alt": "Somos Excursiones Valencia: Nuestro equipo",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "Nuestro equipo",
-  "altActual": "Carol, del equipo de guías de Valencia&Go"
+  "altActual": "Carol, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2026/03/ori-equipo-valencia-and-go.webp": {
   "clase": "foto",
@@ -8289,12 +8241,12 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-carolina-ceglinski-1.webp",
-  "alt": "Somos Valencia & Go: CAROLINA CEGLINSKI",
+  "nuevo": "somos-excursiones-valencia-carolina-ceglinski-1.webp",
+  "alt": "Somos Excursiones Valencia: CAROLINA CEGLINSKI",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "CAROLINA CEGLINSKI",
-  "altActual": "Ori, del equipo de guías de Valencia&Go"
+  "altActual": "Ori, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2026/03/ana-equipo-valencia-and-go.webp": {
   "clase": "foto",
@@ -8302,12 +8254,12 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-oriana-rojas-1.webp",
-  "alt": "Somos Valencia & Go: ORIANA ROJAS",
+  "nuevo": "somos-excursiones-valencia-oriana-rojas-1.webp",
+  "alt": "Somos Excursiones Valencia: ORIANA ROJAS",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "ORIANA ROJAS",
-  "altActual": "Ana, del equipo de guías de Valencia&Go"
+  "altActual": "Ana, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2026/03/elvi-equipo-valencia-and-go.webp": {
   "clase": "foto",
@@ -8315,12 +8267,12 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-ana-pastor-1.webp",
-  "alt": "Somos Valencia & Go: ANA PASTOR",
+  "nuevo": "somos-excursiones-valencia-ana-pastor-1.webp",
+  "alt": "Somos Excursiones Valencia: ANA PASTOR",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "ANA PASTOR",
-  "altActual": "Elvi, del equipo de guías de Valencia&Go"
+  "altActual": "Elvi, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2026/03/dani-equipo-valencia-and-go.webp": {
   "clase": "foto",
@@ -8328,12 +8280,12 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-elvira-martinez-1.webp",
-  "alt": "Somos Valencia & Go: ELVIRA MARTÍNEZ",
+  "nuevo": "somos-excursiones-valencia-elvira-martinez-1.webp",
+  "alt": "Somos Excursiones Valencia: ELVIRA MARTÍNEZ",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "ELVIRA MARTÍNEZ",
-  "altActual": "Dani, del equipo de guías de Valencia&Go"
+  "altActual": "Dani, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2026/03/ale-equipo-valencia-and-go.webp": {
   "clase": "foto",
@@ -8341,12 +8293,12 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-daniela-liberal-1.webp",
-  "alt": "Somos Valencia & Go: DANIELA LIBERAL",
+  "nuevo": "somos-excursiones-valencia-daniela-liberal-1.webp",
+  "alt": "Somos Excursiones Valencia: DANIELA LIBERAL",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "DANIELA LIBERAL",
-  "altActual": "Ale, del equipo de guías de Valencia&Go"
+  "altActual": "Ale, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2026/03/Monika-Pelinska-guia-oficial-turistica.webp": {
   "clase": "foto",
@@ -8354,12 +8306,12 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-alejandra-navarrete-1.webp",
-  "alt": "Somos Valencia & Go: ALEJANDRA NAVARRETE",
+  "nuevo": "somos-excursiones-valencia-alejandra-navarrete-1.webp",
+  "alt": "Somos Excursiones Valencia: ALEJANDRA NAVARRETE",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "ALEJANDRA NAVARRETE",
-  "altActual": "Monika Pelinska, del equipo de guías de Valencia&Go"
+  "altActual": "Monika Pelinska, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2025/11/img-maria-hdez.webp": {
   "clase": "foto",
@@ -8367,12 +8319,12 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-nuestros-guias-1.webp",
-  "alt": "Somos Valencia & Go: Nuestros guías",
+  "nuevo": "somos-excursiones-valencia-nuestros-guias-1.webp",
+  "alt": "Somos Excursiones Valencia: Nuestros guías",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "Nuestros guías",
-  "altActual": "María Hernández, del equipo de guías de Valencia&Go"
+  "altActual": "María Hernández, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2025/12/img-bandera-valencia.svg": {
   "clase": "icono",
@@ -8387,12 +8339,12 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-maria-hernandez-reinoso-1.webp",
-  "alt": "Somos Valencia & Go: María Hernández Reinoso",
+  "nuevo": "somos-excursiones-valencia-maria-hernandez-reinoso-1.webp",
+  "alt": "Somos Excursiones Valencia: María Hernández Reinoso",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "María Hernández Reinoso",
-  "altActual": "Carmen, del equipo de guías de Valencia&Go"
+  "altActual": "Carmen, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2025/12/img-benito.webp": {
   "clase": "foto",
@@ -8400,12 +8352,12 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-carmen-olcina-1.webp",
-  "alt": "Somos Valencia & Go: Carmen olcina",
+  "nuevo": "somos-excursiones-valencia-carmen-olcina-1.webp",
+  "alt": "Somos Excursiones Valencia: Carmen olcina",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "Carmen olcina",
-  "altActual": "Benito, del equipo de guías de Valencia&Go"
+  "altActual": "Benito, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2025/12/img-bandera-finlandia.svg": {
   "clase": "icono",
@@ -8420,12 +8372,12 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-benito-gomez-1.webp",
-  "alt": "Somos Valencia & Go: Benito Gómez",
+  "nuevo": "somos-excursiones-valencia-benito-gomez-1.webp",
+  "alt": "Somos Excursiones Valencia: Benito Gómez",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "Benito Gómez",
-  "altActual": "Leticia, del equipo de guías de Valencia&Go"
+  "altActual": "Leticia, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2025/12/img-yago.webp": {
   "clase": "foto",
@@ -8433,12 +8385,12 @@
   "paginas": 5,
   "variantes": [],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-leticia-bargues-1.webp",
-  "alt": "Somos Valencia & Go: Leticia Bargues",
+  "nuevo": "somos-excursiones-valencia-leticia-bargues-1.webp",
+  "alt": "Somos Excursiones Valencia: Leticia Bargues",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "Leticia Bargues",
-  "altActual": "Yago, del equipo de guías de Valencia&Go"
+  "altActual": "Yago, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2026/04/img-catalina.webp": {
   "clase": "foto",
@@ -8448,12 +8400,12 @@
    "/wp-content/uploads/2026/04/img-catalina-12x12.webp"
   ],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-yago-perez-1.webp",
-  "alt": "Somos Valencia & Go: Yago Pérez",
+  "nuevo": "somos-excursiones-valencia-yago-perez-1.webp",
+  "alt": "Somos Excursiones Valencia: Yago Pérez",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "Yago Pérez",
-  "altActual": "Catalina, del equipo de guías de Valencia&Go"
+  "altActual": "Catalina, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2026/04/img-ferran.webp": {
   "clase": "foto",
@@ -8463,12 +8415,12 @@
    "/wp-content/uploads/2026/04/img-ferran-12x12.webp"
   ],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-catalina-benito-1.webp",
-  "alt": "Somos Valencia & Go: Catalina Benito",
+  "nuevo": "somos-excursiones-valencia-catalina-benito-1.webp",
+  "alt": "Somos Excursiones Valencia: Catalina Benito",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "Catalina Benito",
-  "altActual": "Ferran, del equipo de guías de Valencia&Go"
+  "altActual": "Ferran, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2026/04/img-manuel.webp": {
   "clase": "foto",
@@ -8478,12 +8430,12 @@
    "/wp-content/uploads/2026/04/img-manuel-12x12.webp"
   ],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-ferran-1.webp",
-  "alt": "Somos Valencia & Go: Ferran",
+  "nuevo": "somos-excursiones-valencia-ferran-1.webp",
+  "alt": "Somos Excursiones Valencia: Ferran",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "Ferran",
-  "altActual": "Manuel, del equipo de guías de Valencia&Go"
+  "altActual": "Manuel, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2026/03/Monika-Pelinska-guia-turistica-e1774982124367.webp": {
   "clase": "foto",
@@ -8494,12 +8446,12 @@
    "/wp-content/uploads/2026/03/Monika-Pelinska-guia-turistica-e1774982124367-12x12.webp"
   ],
   "existe": true,
-  "nuevo": "somos-valencia-y-go-manuel-1.webp",
-  "alt": "Somos Valencia & Go: Manuel",
+  "nuevo": "somos-excursiones-valencia-manuel-1.webp",
+  "alt": "Somos Excursiones Valencia: Manuel",
   "pagina": "/quienes-somos/",
-  "h1": "Somos Valencia & Go",
+  "h1": "Somos Excursiones Valencia",
   "seccion": "Manuel",
-  "altActual": "Monika Pelinska, del equipo de guías de Valencia&Go"
+  "altActual": "Monika Pelinska, del equipo de guías de Excursiones Valencia"
  },
  "/wp-content/uploads/2025/11/img-bandera-polaco.svg": {
   "clase": "icono",
@@ -8684,16 +8636,6 @@
    "/wp-content/uploads/elementor/css/post-4315.css"
   ],
   "nota": "solo como fondo en CSS: sin página dueña"
- },
- "/wp-content/uploads/2026/03/valencia_go-svg-isotipov1-naranja.svg": {
-  "clase": "logo",
-  "usos": 0,
-  "paginas": 0,
-  "variantes": [],
-  "existe": true,
-  "css": [
-   "/wp-content/uploads/elementor/css/post-8657.css"
-  ]
  },
  "/wp-content/uploads/2026/03/productos-valencia-to-go.webp": {
   "clase": "foto",
@@ -8928,7 +8870,7 @@
   "h1": "Vendimia en Requena: pisa la uva como antes, a menos de una hora de Valencia",
   "seccion": "",
   "tarjeta": "/vendimia-en-requena-pisa-la-uva-como-antes-a-menos-de-una-hora-de-valencia/",
-  "altActual": "Pisado de Uva Requena - Utiel Valencia and Go",
+  "altActual": "Pisado de Uva Requena - Utiel Excursiones Valencia",
   "miniatura": true
  },
  "/wp-content/uploads/elementor/thumbs/img-blog-paella-valencia-rocf68uu32igv3u42e6w2nqpo4h70c6fz52j9rrycg.webp": {

@@ -9,7 +9,7 @@
    "Valencia and Go",
    "Valenciaandgo"
   ],
-  "nuevo": "",
+  "nuevo": "Excursiones Valencia",
   "_nota": "Las formas con espacio o & se cambian tal cual. 'Valenciaandgo' (junto) solo como palabra suelta (p. ej. 'Equipo Valenciaandgo'): dentro de direcciones y ficheros lo cubren dominio, redes y logos."
  },
  "dominio": {
@@ -47,14 +47,18 @@
  },
  "logos": {
   "_nota": "Ruta vieja → ruta nueva dentro de public/. Un mismo logo nuevo puede servir para varias viejas. Si la nueva está vacía, esa vieja se queda.",
-  "/wp-content/uploads/2026/04/logo-valenciaandgo-azul.png": "",
-  "/wp-content/uploads/2026/03/Copia-de-valencia_go-png-1200x283-1-1.png": "",
-  "/wp-content/uploads/2026/03/valencia_go-svg-azul-y-naranja.svg": "",
-  "/wp-content/uploads/2026/03/valencia_go-svg-azul-y-naranja-1.svg": "",
-  "/wp-content/uploads/2025/10/valencia_go-svg-azul-y-naranja.svg": "",
-  "/wp-content/uploads/2025/10/valencia_go-svg-blnc-iso-naranja.svg": "",
-  "/wp-content/uploads/2025/10/valencia_go-svg-isotipov1-naranja.svg": "",
-  "/wp-content/uploads/2026/03/valencia_go-svg-isotipov1-naranja.svg": "",
-  "/wp-content/plugins/thegem-atracciones/assets/img/isologo-vgo.svg": ""
+  "/wp-content/uploads/2026/04/logo-valenciaandgo-azul.png": "/marca/logo.png",
+  "/wp-content/uploads/2026/03/Copia-de-valencia_go-png-1200x283-1-1.png": "/marca/logo.png",
+  "/wp-content/uploads/2026/03/valencia_go-svg-azul-y-naranja.svg": "/marca/logo.svg",
+  "/wp-content/uploads/2026/03/valencia_go-svg-azul-y-naranja-1.svg": "/marca/logo.svg",
+  "/wp-content/uploads/2025/10/valencia_go-svg-azul-y-naranja.svg": "/marca/logo.svg",
+  "/wp-content/uploads/2025/10/valencia_go-svg-blnc-iso-naranja.svg": "/marca/logo-blanco.svg",
+  "/wp-content/uploads/2025/10/valencia_go-svg-isotipov1-naranja.svg": "/marca/icono.svg",
+  "/wp-content/uploads/2026/03/valencia_go-svg-isotipov1-naranja.svg": "/marca/icono.svg",
+  "/wp-content/plugins/thegem-atracciones/assets/img/isologo-vgo.svg": "/marca/icono.svg"
+ },
+ "otras": {
+  "_nota": "Otras imágenes de marca (ruta vieja → nueva, tal cual): la imagen genérica al compartir en redes y los iconos PNG de Apple/Windows.",
+  "/wp-content/uploads/2026/07/valencia-and-go-tours-excursiones-valencia.jpg": "/marca/compartir.jpg"
  }
 }

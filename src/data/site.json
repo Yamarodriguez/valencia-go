@@ -1,6 +1,6 @@
 {
  "_nota": "Fase 0: solo datos publicados en la web viva. Lo vacio lo pasa el propietario (inventario §15).",
- "nombre": "Valencia&Go",
+ "nombre": "Excursiones Valencia",
  "dominio": "https://www.valenciaandgo.com",
  "descripcion": "Tours y excursiones en Valencia con guías oficiales locales: Albufera, Lonja de la Seda y Cuevas de San José. Reserva directa, sin intermediarios.",
  "email": "info@valenciaandgo.com",
@@ -28,7 +28,7 @@
  },
  "menuPorDefecto": "menu-principal",
  "pie": {
-  "copyright": "Valencia&Go",
+  "copyright": "Excursiones Valencia",
   "menu": [
    {
     "rotulo": "Aviso legal",
@@ -49,7 +49,7 @@
   ],
   "columnas": []
  },
- "rediseno": false,
+ "rediseno": "excursiones-valencia",
  "selectorRediseno": true,
  "_nota_rediseno": "rediseno: nombre de la hoja de public/rediseno/ que se engancha fija (false = copia fiel). selectorRediseno: true pone en la web de PRUEBAS una barra para cambiar de diseno al momento (Fase 3); se pone a false antes del cambio de dominio."
 }

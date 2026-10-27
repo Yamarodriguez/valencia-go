@@ -8,7 +8,7 @@
  */
 (function () {
   'use strict';
-  var OPCIONES = [['', 'Original'], ['propio', '1 · Propio'], ['getyourguide', '2 · GetYourGuide'], ['civitatis', '3 · Civitatis']];
+  var OPCIONES = [['', 'Original'], ['excursiones-valencia', 'Excursiones Valencia'], ['propio', '1 · Propio'], ['getyourguide', '2 · GetYourGuide'], ['civitatis', '3 · Civitatis']];
   var CLAVE = 'vgo-rediseno';
   var actual = '';
   try { actual = localStorage.getItem(CLAVE) || ''; } catch (e) {}
