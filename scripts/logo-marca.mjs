@@ -9,7 +9,7 @@
  *
  * El texto va convertido a trazos (no depende de las letras del visitante).
  * Sello: cuadrado redondeado azul noche con sol dorado y dos olas blancas.
- * Nombre: "Excursiones" en Plus Jakarta Sans 800 y "VALENCIA" en 700 espaciada (rojo).
+ * Nombre: "Excursiones" en Plus Jakarta Sans 800 y "VALENCIA" en 700 espaciada (esmeralda).
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -23,7 +23,7 @@ const titulo = opentype.loadSync(path.join(TTF, 'jakarta-800.ttf'));
 const ciudadLetra = opentype.loadSync(path.join(TTF, 'jakarta-700.ttf'));
 const SALIDA = path.resolve('public/marca');
 
-const C = { verde: '#D62839', oscuro: '#14213D', azafran: '#F5B300', crema: '#FFFFFF' };
+const C = { verde: '#047857', oscuro: '#14213D', azafran: '#F5B300', crema: '#FFFFFF' };
 const r1 = (n) => Math.round(n * 10) / 10;
 
 // trazo de un texto con espaciado (en em) entre letras; devuelve d y ancho

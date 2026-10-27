@@ -10,7 +10,7 @@
 @font-face { font-family: 'Plus Jakarta Sans'; font-style: normal; font-weight: 400 800; font-display: swap; src: url(/fuentes-marca/plus-jakarta-sans-normal-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
 /*
- * Excursiones Valencia — diseño propio (27-10-2026, 3.ª versión).
+ * Excursiones Valencia — diseño propio (27-10-2026, 4.ª versión: acento esmeralda y composición propia).
  * Referencia de estilo: las webs de actividades mejor posicionadas en España
  * para "excursiones desde Valencia" (Civitatis, GetYourGuide): fondo blanco,
  * una sola letra sin serifa y gruesa, texto azul muy oscuro, un único color
@@ -18,7 +18,7 @@
  * Se monta en public/rediseno/excursiones-valencia.css con scripts/hoja-marca.mjs
  * (letra + estas reglas) y es la ÚLTIMA hoja de cada página (site.json → rediseno).
  *
- * Paleta: azul noche #14213D · rojo Valencia #D62839 (hover #B71F2E)
+ * Paleta: azul noche #14213D · verde esmeralda #047857 (hover #065F46)
  *         dorado #F5B300 · gris fondo #F7F8FA · gris borde #E4E7EC
  *         texto suave #4A5568
  * Letra:  Plus Jakarta Sans (400-800).
@@ -30,8 +30,8 @@ body.elementor-kit-67, body {
   --e-global-typography-secondary-font-family: "Plus Jakarta Sans";
   --e-global-typography-text-font-family: "Plus Jakarta Sans";
   --e-global-typography-accent-font-family: "Plus Jakarta Sans"; --e-global-typography-accent-font-weight: 700;
-  --e-global-color-primary: #D62839; --e-global-color-secondary: #14213D;
-  --e-global-color-text: #14213D; --e-global-color-accent: #D62839;
+  --e-global-color-primary: #047857; --e-global-color-secondary: #14213D;
+  --e-global-color-text: #14213D; --e-global-color-accent: #047857;
   color: #14213D; background-color: #FFFFFF !important;
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
 }
@@ -44,7 +44,7 @@ body.elementor-kit-67, body {
 :is(h3, h4, .elementor-widget-heading h3.elementor-heading-title, .elementor-widget-heading h4.elementor-heading-title) { font-weight: 700 !important; letter-spacing: -0.01em !important; }
 .elementor-widget-text-editor, .elementor-widget-text-editor p { line-height: 1.65; }
 a { text-underline-offset: 3px; }
-::selection { background: #D62839; color: #FFFFFF; }
+::selection { background: #047857; color: #FFFFFF; }
 
 /* ===================== botones ===================== */
 .elementor-button, .button, button.button, a.button, input[type="submit"], .wp-element-button {
@@ -69,12 +69,12 @@ a { text-underline-offset: 3px; }
 .elementor-10594 .elementor-element.elementor-element-6002e415,
 .elementor-location-header .e-con.e-child:has(> .e-con > .elementor-widget-icon-list):not(:has(.elementor-nav-menu)) { border-bottom: 1px solid #E4E7EC; }
 .elementor-location-header .elementor-icon-list-text { color: #14213D !important; font-weight: 600 !important; font-size: 13px !important; }
-.elementor-location-header .elementor-icon-list-icon svg, .elementor-location-header .elementor-icon-list-icon i { fill: #D62839 !important; color: #D62839 !important; }
+.elementor-location-header .elementor-icon-list-icon svg, .elementor-location-header .elementor-icon-list-icon i { fill: #047857 !important; color: #047857 !important; }
 /* menú */
 .elementor-location-header .elementor-nav-menu--main a.elementor-item { font-weight: 700 !important; font-size: 15px !important; text-transform: none !important; letter-spacing: 0 !important; }
 .elementor-location-header .elementor-nav-menu--main a.elementor-item:hover,
-.elementor-location-header .elementor-nav-menu--main a.elementor-item.elementor-item-active { color: #D62839 !important; }
-.elementor-location-header .elementor-nav-menu--main .elementor-item:after { background-color: #D62839 !important; height: 2px !important; }
+.elementor-location-header .elementor-nav-menu--main a.elementor-item.elementor-item-active { color: #047857 !important; }
+.elementor-location-header .elementor-nav-menu--main .elementor-item:after { background-color: #047857 !important; height: 2px !important; }
 /* en las páginas interiores la cabecera es blanca con sombra fina */
 body:not(.home) .elementor-location-header > .e-con.e-parent:last-child,
 body:not(.home) .elementor-location-header .e-con.e-parent:has(.elementor-nav-menu) { box-shadow: 0 1px 0 #E4E7EC, 0 4px 12px rgba(20, 33, 61, 0.04); }
@@ -97,13 +97,13 @@ body:not(.home) .elementor-location-header .e-con.e-parent:has(.elementor-nav-me
 }
 .elementor-70 .elementor-element-b54be20 * { background: transparent !important; color: #FFFFFF !important; font-weight: 600 !important; font-size: 14px !important; letter-spacing: 0.01em; }
 .elementor-70 .elementor-element-b54be20 :is(p, .elementor-heading-title) { white-space: nowrap; }
-/* botón principal: rojo */
+/* botón principal: esmeralda */
 .elementor-70 .elementor-element-9538bf5 .elementor-button {
-  background: #D62839 !important; color: #FFFFFF !important; padding: 18px 34px !important; font-size: 16px !important;
-  box-shadow: 0 8px 24px rgba(214, 40, 57, 0.35) !important;
+  background: #047857 !important; color: #FFFFFF !important; padding: 18px 34px !important; font-size: 16px !important;
+  box-shadow: 0 8px 24px rgba(4, 120, 87, 0.35) !important;
 }
 .elementor-70 .elementor-element-9538bf5 .elementor-button * { color: #FFFFFF !important; fill: #FFFFFF !important; }
-.elementor-70 .elementor-element-9538bf5 .elementor-button:hover { background: #B71F2E !important; }
+.elementor-70 .elementor-element-9538bf5 .elementor-button:hover { background: #065F46 !important; }
 
 /* ===================== títulos de sección ===================== */
 .elementor-widget-heading h2.elementor-heading-title { color: #14213D !important; }
@@ -123,9 +123,9 @@ body:not(.home) .elementor-location-header .e-con.e-parent:has(.elementor-nav-me
 .e-loop-item .bag a, .e-loop-item .bag span, .e-loop-item .elementor-post-info__terms-list a {
   background: #14213D !important; color: #FFFFFF !important; border-radius: 6px !important; font-weight: 700 !important;
 }
-/* "Se agota rápido": rojo */
+/* "Se agota rápido" */
 .e-loop-item .badge-agota .elementor-heading-title, .e-loop-item [class*="agota"] .elementor-heading-title {
-  background: #D62839 !important; color: #FFFFFF !important; border-radius: 6px !important; font-size: 12px !important; font-weight: 700 !important;
+  background: #047857 !important; color: #FFFFFF !important; border-radius: 6px !important; font-size: 12px !important; font-weight: 700 !important;
 }
 .e-loop-item .elementor-icon-list-text { color: #4A5568 !important; }
 .e-loop-item .elementor-icon-list-icon svg, .e-loop-item .elementor-icon-list-icon i { fill: #4A5568 !important; color: #4A5568 !important; }
@@ -133,8 +133,8 @@ body:not(.home) .elementor-location-header .e-con.e-parent:has(.elementor-nav-me
 .e-loop-item .price, .e-loop-item .price *, .e-loop-item .woocommerce-Price-amount, .e-loop-item .woocommerce-Price-amount * {
   color: #14213D !important; font-weight: 800 !important;
 }
-.e-loop-item .elementor-button { background: #D62839 !important; color: #FFFFFF !important; }
-.e-loop-item .elementor-button:hover { background: #B71F2E !important; }
+.e-loop-item .elementor-button { background: #047857 !important; color: #FFFFFF !important; }
+.e-loop-item .elementor-button:hover { background: #065F46 !important; }
 
 /* ===================== categorías y bloques de la portada ===================== */
 .elementor-70 .elementor-element.elementor-element-19fd49d { background-color: #F7F8FA !important; }
@@ -158,7 +158,7 @@ body:not(.home) .elementor-location-header .e-con.e-parent:has(.elementor-nav-me
 
 /* ===================== fichas de tour (página de producto) ===================== */
 .single-product h1, .single-product .elementor-heading-title { color: #14213D !important; }
-.single-product .elementor-icon-list-icon svg, .single-product .elementor-icon-list-icon i { fill: #D62839 !important; color: #D62839 !important; }
+.single-product .elementor-icon-list-icon svg, .single-product .elementor-icon-list-icon i { fill: #047857 !important; color: #047857 !important; }
 .single-product .elementor-widget-image img, .single-product .swiper img, .single-product .elementor-gallery-item img { border-radius: 12px !important; }
 .single-product .elementor-widget-text-editor, .single-product .elementor-widget-text-editor p { color: #2D3748; }
 
@@ -176,7 +176,7 @@ body:not(.home) .elementor-location-header .e-con.e-parent:has(.elementor-nav-me
 .elementor-location-footer a:hover, .elementor-location-footer a:hover * { color: #FFFFFF !important; text-decoration: underline; }
 .elementor-location-footer .elementor-icon-list-icon svg, .elementor-location-footer .elementor-icon-list-icon i { fill: #F5B300 !important; color: #F5B300 !important; }
 .elementor-location-footer .elementor-social-icon { background-color: rgba(255, 255, 255, 0.08) !important; border-radius: 10px !important; }
-.elementor-location-footer .elementor-social-icon:hover { background-color: #D62839 !important; }
+.elementor-location-footer .elementor-social-icon:hover { background-color: #047857 !important; }
 .elementor-location-footer .elementor-social-icon svg { fill: #FFFFFF !important; }
 .elementor-location-footer .elementor-divider-separator { border-color: rgba(255, 255, 255, 0.15) !important; }
 /* logo del pie: la versión para fondo oscuro */
@@ -185,9 +185,9 @@ body:not(.home) .elementor-location-header .e-con.e-parent:has(.elementor-nav-me
 .elementor-location-footer .e-con.e-parent:has(img[src*="tripadvisor" i]), .elementor-location-footer .e-con.e-parent:has(img[alt*="tripadvisor" i]) { background-color: #F7F8FA !important; }
 
 /* ===================== varios ===================== */
-.elementor-widget-text-editor a:not(.elementor-button), .entry-content a:not(.button) { color: #D62839; }
-blockquote { border-left: 3px solid #D62839 !important; }
-input:focus, select:focus, textarea:focus { outline: 2px solid #D62839 !important; outline-offset: 1px; }
+.elementor-widget-text-editor a:not(.elementor-button), .entry-content a:not(.button) { color: #047857; }
+blockquote { border-left: 3px solid #047857 !important; }
+input:focus, select:focus, textarea:focus { outline: 2px solid #047857 !important; outline-offset: 1px; }
 
 /* ===================== móvil ===================== */
 @media (max-width: 767px) {
@@ -196,4 +196,290 @@ input:focus, select:focus, textarea:focus { outline: 2px solid #D62839 !importan
   .elementor-70 .elementor-element-b54be20 :is(p, .elementor-heading-title) { white-space: normal; text-align: center; }
   .elementor-70 .elementor-element-0494195 h2.elementor-heading-title, .elementor-70 .elementor-element-527add5 h2.elementor-heading-title,
   .elementor-70 .elementor-element-90839ab h2.elementor-heading-title, .elementor-70 .elementor-element-7f4d65a h2.elementor-heading-title { font-size: 28px !important; }
+}
+
+/* =====================================================================
+ * COMPOSICIÓN PROPIA (27-10-2026, 4.ª versión): que no se parezca a
+ * Valencia&Go. Lo que cambia de sitio o de forma, no solo de color.
+ * Va detrás de excursiones-valencia.css en la hoja montada (hoja-marca.mjs).
+ * ===================================================================== */
+
+/* ---------- lo que es de Valencia&Go y no de esta empresa: oculto ----------
+ * reseñas (widget de opiniones de su cuenta), "empresas que han confiado en
+ * nosotras" (sus clientes), el título "Síguenos en Instagram" sin feed, el
+ * hueco vacío bajo la foto, y en el pie sus sellos y acreditaciones
+ * (Tripadvisor, Civitatis, GetYourGuide, Fundació Visit València, Guías
+ * Oficiales, Creaturisme, fondo europeo). En las fichas, la nota de estrellas
+ * y el recuadro de opiniones (también de su cuenta). */
+.elementor-70 .elementor-element-9b6fe72, .elementor-70 .elementor-element-7f4d65a,
+.elementor-70 .elementor-element-90839ab, .elementor-70 .elementor-element-96696e0 { display: none !important; }
+.elementor-location-footer .e-con.e-parent:has(img[src*="img-tripadvisor"]) { display: none !important; }
+.elementor-location-footer .e-con.e-child:has(img[src*="img-union-europea"]):not(:has(.e-con)),
+.elementor-location-footer .e-con.e-child:has(img[src*="img-crea-turisme"]):not(:has(.e-con)) { display: none !important; }
+.elementor-widget:has(iframe[src*="tour-widget-f5d2e"]), .elementor-widget:has(iframe[src*="rating_resume"]) { display: none !important; }
+
+/* ---------- cabecera de la portada: blanca y en su sitio (no encima de la foto) ---------- */
+.home .elementor-location-header .elementor-element-5ff63914 { position: relative !important; background: #FFFFFF !important; box-shadow: 0 1px 0 #E4E7EC; }
+.home .elementor-location-header .elementor-element-5ff63914 img[src$="/marca/logo-blanco.svg"] { content: url("/marca/logo.svg"); }
+.home .elementor-location-header .elementor-element-5ff63914 .elementor-nav-menu--main a.elementor-item { color: #14213D !important; }
+.home .elementor-location-header .elementor-element-5ff63914 .elementor-widget-button .elementor-button,
+.home .elementor-location-header .elementor-element-5ff63914 .elementor-icon { color: #14213D !important; fill: #14213D !important; }
+.home .elementor-location-header .elementor-element-5ff63914 .elementor-widget-button svg,
+.home .elementor-location-header .elementor-element-5ff63914 .elementor-widget-button svg * { fill: #14213D !important; }
+/* menú: pastilla verde al pasar, sin raya */
+.elementor-location-header .elementor-nav-menu--main .elementor-item:after,
+.elementor-location-header .elementor-nav-menu--main .elementor-item:before { display: none !important; }
+.elementor-location-header .elementor-nav-menu--main a.elementor-item { border-radius: 999px !important; padding: 8px 16px !important; transition: background-color .15s; }
+.elementor-location-header .elementor-nav-menu--main a.elementor-item:hover,
+.elementor-location-header .elementor-nav-menu--main a.elementor-item.elementor-item-active { background: #ECFDF5 !important; color: #047857 !important; }
+
+/* ---------- orden de la portada ---------- */
+.elementor.elementor-70 { display: flex; flex-direction: column; }
+.elementor.elementor-70 > .elementor-element-dff3c28 { order: 1; }
+.elementor.elementor-70 > .elementor-element-19fd49d { order: 2; }
+.elementor.elementor-70 > .elementor-element-0494195 { order: 3; }
+.elementor.elementor-70 > .elementor-element-092c878 { order: 4; }
+.elementor.elementor-70 > .elementor-element-d760916 { order: 5; }
+.elementor.elementor-70 > .elementor-element-d7adc8b { order: 6; }
+.elementor.elementor-70 > .elementor-element-0fbbb4f { order: 7; }
+.elementor.elementor-70 > .elementor-element-eee99ab { order: 8; }
+.elementor.elementor-70 > .elementor-element-527add5 { order: 9; }
+@media (min-width: 1025px) {
+  /* rejilla: lo de ancho completo ocupa todo; teambuilding y "diseña tu experiencia", lado a lado */
+  .elementor.elementor-70 { display: grid; grid-template-columns: minmax(24px, 1fr) minmax(0, 588px) minmax(0, 588px) minmax(24px, 1fr); column-gap: 24px; }
+  .elementor.elementor-70 > * { grid-column: 1 / -1; }
+  .elementor.elementor-70 > .elementor-element-0fbbb4f { grid-column: 2 / 3; }
+  .elementor.elementor-70 > .elementor-element-eee99ab { grid-column: 3 / 4; }
+}
+
+/* ---------- foto principal: más baja, titular en tarjeta blanca a la izquierda ---------- */
+.elementor-70 .elementor-element.elementor-element-dff3c28 { --min-height: 620px; min-height: 620px !important; --justify-content: flex-end; --padding-top: 120px; --padding-bottom: 56px; }
+.elementor-70 .elementor-element.elementor-element-dff3c28::before,
+.elementor-70 .elementor-element-dff3c28 > .elementor-background-overlay {
+  background: linear-gradient(90deg, rgba(20, 33, 61, 0.35) 0%, rgba(20, 33, 61, 0.05) 60%) !important; opacity: 1 !important;
+}
+.elementor-70 .elementor-element-c2ae507 > .e-con-inner {
+  --align-items: flex-start; align-items: flex-start !important; text-align: left !important;
+  background: #FFFFFF; border-radius: 20px; padding: 36px 40px !important; max-width: 560px !important;
+  margin-left: max(0px, calc(50% - 600px)) !important; margin-right: auto !important;
+  box-shadow: 0 24px 60px rgba(20, 33, 61, 0.25); gap: 14px !important;
+}
+.elementor-70 .elementor-element.elementor-element-b54be20 {
+  background: #ECFDF5 !important; border: 0 !important; backdrop-filter: none; align-self: flex-start !important; --padding-left: 12px; --padding-right: 12px;
+}
+.elementor-70 .elementor-element-b54be20 * { color: #047857 !important; font-size: 13px !important; font-weight: 700 !important; }
+.elementor-70 .elementor-element-cb607ae { width: 100% !important; --container-widget-width: 100%; }
+.elementor-70 .elementor-element-cb607ae .elementor-heading-title { color: #14213D !important; font-size: 44px !important; line-height: 1.08 !important; text-align: left !important; text-shadow: none !important; }
+.elementor-70 .elementor-element-b47feba, .elementor-70 .elementor-element-b47feba p { color: #4A5568 !important; text-align: left !important; font-size: 17px !important; }
+.elementor-70 .elementor-element-b47feba strong, .elementor-70 .elementor-element-b47feba b { color: #14213D !important; }
+.elementor-70 .elementor-element-9538bf5 { align-self: flex-start !important; }
+.elementor-70 .elementor-element-9538bf5 .elementor-button { box-shadow: none !important; }
+
+/* ---------- accesos rápidos (las seis categorías) bajo la foto ---------- */
+.elementor-70 .elementor-element.elementor-element-19fd49d { background-color: #FFFFFF !important; --padding-top: 28px; --padding-bottom: 28px; border-bottom: 1px solid #E4E7EC; }
+.elementor-70 .elementor-element-19fd49d > .e-con-inner { flex-wrap: wrap !important; gap: 12px !important; --gap: 12px; }
+.elementor-70 .elementor-element-19fd49d > .e-con-inner > .e-con {
+  --width: calc(16.666% - 10px); width: calc(16.666% - 10px) !important; flex-direction: column; align-items: center;
+  padding: 16px 10px !important; border-radius: 14px !important; border: 1px solid #E4E7EC !important; box-shadow: none !important; gap: 6px;
+  transition: border-color .15s, background-color .15s;
+}
+.elementor-70 .elementor-element-19fd49d > .e-con-inner > .e-con:hover { border-color: #047857 !important; background: #ECFDF5 !important; }
+.elementor-70 .elementor-element-19fd49d .elementor-widget-image img { width: 40px !important; height: 40px !important; object-fit: contain; }
+.elementor-70 .elementor-element-19fd49d .elementor-heading-title { font-size: 14px !important; letter-spacing: 0 !important; text-transform: none !important; }
+.elementor-70 .elementor-element-19fd49d .elementor-widget-text-editor,
+.elementor-70 .elementor-element-19fd49d .elementor-widget-text-editor p { font-size: 12px !important; line-height: 1.35; margin: 0; }
+@media (max-width: 1024px) { .elementor-70 .elementor-element-19fd49d > .e-con-inner > .e-con { --width: calc(33.333% - 8px); width: calc(33.333% - 8px) !important; } }
+@media (max-width: 767px) { .elementor-70 .elementor-element-19fd49d > .e-con-inner > .e-con { --width: calc(50% - 6px); width: calc(50% - 6px) !important; } }
+
+/* ---------- títulos de sección a la izquierda ---------- */
+.elementor-70 .elementor-element-0494195 > .e-con-inner, .elementor-70 .elementor-element-2aee9bc { --align-items: flex-start; align-items: flex-start !important; }
+.elementor-70 .elementor-element-0494195 :is(.elementor-heading-title, .elementor-widget-text-editor, p),
+.elementor-70 .elementor-element-527add5 :is(.elementor-heading-title, .elementor-widget-text-editor, p) { text-align: left !important; }
+.elementor-70 .elementor-element-0494195 { --padding-top: 64px; --padding-bottom: 8px; }
+
+/* ---------- tarjetas de tour: horizontales, dos columnas ---------- */
+@media (min-width: 1025px) {
+  .elementor-loop-container.elementor-grid:has(.elementor-element-4fa417cd) { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 24px !important; }
+  .e-loop-item .elementor-element.elementor-element-4fa417cd {
+    display: grid !important; grid-template-columns: 42% minmax(0, 1fr); grid-template-rows: auto 1fr; column-gap: 22px; row-gap: 8px;
+    position: relative; padding: 14px !important; height: 100%;
+  }
+  .e-loop-item .elementor-element-4fa417cd > .elementor-element-9e37ee4 { grid-column: 1; grid-row: 1 / span 2; width: 100% !important; }
+  .e-loop-item .elementor-element-4fa417cd > .elementor-element-9e37ee4 img { width: 100% !important; height: 100% !important; min-height: 200px; aspect-ratio: auto; object-fit: cover; }
+  .e-loop-item .elementor-element-4fa417cd > .elementor-element-684b5cad { grid-column: 2; grid-row: 1; padding-top: 6px; }
+  .e-loop-item .elementor-element-4fa417cd > .elementor-element-08e6961 { grid-column: 2; grid-row: 2; align-self: end; }
+  .e-loop-item .elementor-element-4fa417cd > .elementor-element-38d6918 {
+    position: absolute !important; top: 24px !important; left: 24px !important; right: auto !important; bottom: auto !important;
+    width: calc(42% - 34px) !important; display: flex; flex-direction: row; flex-wrap: wrap; gap: 6px; justify-content: space-between; z-index: 2;
+  }
+  .e-loop-item .elementor-element-4fa417cd > .elementor-element-38d6918 > * { position: static !important; transform: none !important; margin: 0 !important; }
+  .e-loop-item .elementor-element-08e6961 > .e-con-inner { flex-direction: row !important; flex-wrap: wrap; align-items: center !important; justify-content: space-between !important; gap: 10px; }
+  .e-loop-item .elementor-element-08e6961 .elementor-widget-button { width: 100%; }
+}
+/* "Se agota rápido": dorado con texto oscuro; categoría: blanca */
+.e-loop-item .badge-agota .elementor-heading-title, .e-loop-item [class*="agota"] .elementor-heading-title { background: #F5B300 !important; color: #14213D !important; }
+.e-loop-item .bag a, .e-loop-item .bag span { background: rgba(255, 255, 255, 0.95) !important; color: #14213D !important; }
+
+/* ---------- bloques de foto y texto: cambian de lado y de fondo ---------- */
+.elementor-70 .elementor-element-d760916, .elementor-70 .elementor-element-d7adc8b { flex-direction: row-reverse !important; }
+.elementor-70 .elementor-element.elementor-element-d760916 { background-color: #FFFFFF !important; --padding-top: 72px; --padding-bottom: 72px; }
+.elementor-70 .elementor-element.elementor-element-d7adc8b { background-color: #ECFDF5 !important; --padding-top: 72px; --padding-bottom: 72px; }
+.elementor-70 .elementor-element-d760916 :is(.e-con, .elementor-widget):not(.elementor-widget-button),
+.elementor-70 .elementor-element-d7adc8b :is(.e-con, .elementor-widget):not(.elementor-widget-button) { background-color: transparent !important; background-image: none !important; }
+.elementor-70 .elementor-element-d7adc8b :is(p, li, span, strong, b, em, h2, h3, .elementor-heading-title, .elementor-icon-list-text):not(.elementor-button *) { color: #14213D !important; }
+.elementor-70 .elementor-element-d7adc8b .elementor-widget-text-editor p, .elementor-70 .elementor-element-d7adc8b .elementor-icon-list-text { color: #2D3748 !important; }
+.elementor-70 .elementor-element-d7adc8b .elementor-icon-list-icon svg, .elementor-70 .elementor-element-d7adc8b .elementor-icon-list-icon i { fill: #047857 !important; color: #047857 !important; }
+.elementor-70 .elementor-element-d760916 img, .elementor-70 .elementor-element-d7adc8b img { border-radius: 24px !important; box-shadow: none !important; }
+
+/* ---------- teambuilding y "diseña tu experiencia": dos tarjetas ---------- */
+.elementor-70 .elementor-element.elementor-element-0fbbb4f, .elementor-70 .elementor-element.elementor-element-eee99ab {
+  flex-direction: column !important; background: #FFFFFF !important; border: 1px solid #E4E7EC; border-radius: 20px; overflow: hidden;
+  --padding-top: 0; --padding-bottom: 0; padding: 0 !important; margin: 56px 0 72px; align-self: stretch;
+}
+.elementor-70 .elementor-element-0fbbb4f > .e-con, .elementor-70 .elementor-element-eee99ab > .e-con { --width: 100%; width: 100% !important; max-width: 100% !important; padding: 0 !important; background: transparent !important; }
+.elementor-70 .elementor-element-eee99ab > .elementor-element-a31b672 { order: -1; }
+.elementor-70 .elementor-element-0fbbb4f > .elementor-element-fddff6f, .elementor-70 .elementor-element-eee99ab > .elementor-element-ebc2dd3 { padding: 28px 32px 32px !important; gap: 12px; }
+.elementor-70 .elementor-element-0fbbb4f img, .elementor-70 .elementor-element-eee99ab img { border-radius: 0 !important; box-shadow: none !important; width: 100% !important; height: 280px !important; object-fit: cover; }
+.elementor-70 .elementor-element-0fbbb4f .elementor-widget-image, .elementor-70 .elementor-element-eee99ab .elementor-widget-image,
+.elementor-70 .elementor-element-0fbbb4f .elementor-widget-image-carousel { margin: 0 !important; width: 100% !important; }
+.elementor-70 .elementor-element-0fbbb4f h2.elementor-heading-title, .elementor-70 .elementor-element-eee99ab h2.elementor-heading-title { font-size: 28px !important; }
+@media (max-width: 1024px) { .elementor-70 .elementor-element.elementor-element-0fbbb4f, .elementor-70 .elementor-element.elementor-element-eee99ab { margin: 24px 16px; } }
+
+/* ---------- blog ---------- */
+.elementor-70 .elementor-element.elementor-element-527add5 { background-color: #F7F8FA !important; }
+.elementor-70 .elementor-element-df5c030 .e-loop-item img { border-radius: 10px !important; }
+
+/* ---------- fichas de tour: cabecera más grande ---------- */
+.single-product h1.elementor-heading-title, .single-product .elementor-widget-heading h1 { font-size: 40px !important; line-height: 1.15 !important; }
+.single-product .swiper .swiper-slide img { border-radius: 16px !important; }
+
+/* ---------- ajustes tras la primera vuelta ---------- */
+/* foto principal: tarjeta centrada en vertical, con aire arriba y abajo */
+.elementor-70 .elementor-element.elementor-element-dff3c28 { --justify-content: center; --padding-top: 56px; --padding-bottom: 56px; }
+/* etiquetas de las tarjetas horizontales: dentro de la foto */
+@media (min-width: 1025px) {
+  .e-loop-item .elementor-element.elementor-element-4fa417cd > .elementor-element-38d6918 {
+    inset: 24px auto auto 24px !important; margin: 0 !important; transform: none !important; translate: none !important;
+    --margin-top: 0; --margin-left: 0; --position-top: 24px; height: auto !important;
+  }
+}
+/* bloques de foto y texto: con aire a los lados */
+.elementor-70 .elementor-element.elementor-element-d760916, .elementor-70 .elementor-element.elementor-element-d7adc8b {
+  --padding-left: max(24px, calc(50% - 600px)); --padding-right: max(24px, calc(50% - 600px)); gap: 48px !important;
+}
+/* pie: fuera la franja de tres columnas; columnas alineadas a la izquierda, enlaces en lista */
+.elementor-location-footer .elementor-element-33b5781b { display: none !important; }
+.elementor-location-footer :is(.elementor-heading-title, .elementor-widget-text-editor, .elementor-widget-text-editor p) { text-align: left !important; }
+.elementor-location-footer .elementor-nav-menu { flex-direction: column !important; align-items: flex-start !important; }
+.elementor-location-footer .elementor-nav-menu--main .elementor-item { justify-content: flex-start !important; padding-left: 0 !important; padding-right: 0 !important; }
+.elementor-location-footer .elementor-widget-nav-menu, .elementor-location-footer .elementor-widget-heading { align-self: stretch; }
+.elementor-location-footer .e-con.e-child { --align-items: flex-start; align-items: flex-start !important; }
+
+/* ---------- fichas: mosaico de fotos (una grande y dos pequeñas) ---------- */
+@media (min-width: 1025px) {
+  .single-product .elementor-widget-image-carousel .swiper-wrapper {
+    transform: none !important; display: grid !important; grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr; gap: 10px; height: 440px;
+  }
+  .single-product .elementor-widget-image-carousel .swiper-slide { width: auto !important; margin: 0 !important; height: 100% !important; }
+  .single-product .elementor-widget-image-carousel .swiper-slide-duplicate { display: none !important; }
+  .single-product .elementor-widget-image-carousel .swiper-slide:nth-child(1 of :not(.swiper-slide-duplicate)) { grid-row: 1 / span 2; }
+  .single-product .elementor-widget-image-carousel .swiper-slide:nth-child(n+4 of :not(.swiper-slide-duplicate)) { display: none !important; }
+  .single-product .elementor-widget-image-carousel .swiper-slide :is(figure, a) { height: 100%; margin: 0; display: block; }
+  .single-product .elementor-widget-image-carousel .swiper-slide img { width: 100% !important; height: 100% !important; object-fit: cover; border-radius: 16px !important; }
+  .single-product .elementor-widget-image-carousel :is(.elementor-swiper-button, .swiper-pagination) { display: none !important; }
+}
+
+/* ---------- ajustes, segunda vuelta ---------- */
+/* las estrellas y opiniones de la cuenta de Valencia&Go van en el mismo bloque
+ * que los botones de reserva: se oculta solo el recuadro de estrellas, no el bloque */
+.elementor-widget:has(iframe[src*="tour-widget-f5d2e"]), .elementor-widget:has(iframe[src*="rating_resume"]) { display: block !important; }
+iframe[src*="tour-widget-f5d2e"], iframe.vg-tr-reviews { display: none !important; }
+/* foto principal: la tarjeta sin márgenes heredados, centrada en vertical */
+.elementor-70 .elementor-element.elementor-element-c2ae507 { margin: 0 !important; --margin-top: 0px; --margin-bottom: 0px; justify-content: center !important; }
+.elementor-70 .elementor-element.elementor-element-dff3c28 { justify-content: center !important; padding-top: 56px !important; padding-bottom: 56px !important; }
+/* etiquetas de las tarjetas horizontales: categoría arriba y "se agota" abajo, dentro de la foto */
+@media (min-width: 1025px) {
+  .e-loop-item .elementor-element.elementor-element-4fa417cd > .elementor-element-38d6918 {
+    top: 24px !important; bottom: 24px !important; height: auto !important; min-height: 0 !important;
+    flex-direction: column !important; flex-wrap: nowrap !important; justify-content: space-between !important; align-items: flex-start !important;
+    pointer-events: none;
+  }
+  .e-loop-item .elementor-element-38d6918 .badge-agota .elementor-heading-title { white-space: nowrap; }
+}
+/* fichas: el mosaico necesita su altura completa */
+@media (min-width: 1025px) {
+  .single-product .elementor-widget-image-carousel .swiper { height: 440px !important; }
+}
+/* portada, "¿Por qué Excursiones Valencia?": foto de la plaza de la Virgen en vez del eclipse */
+.elementor-70 .elementor-element-8dc25ed img { content: url("/fotos/valencia-fondo-1.webp"); object-fit: cover; aspect-ratio: 4 / 3; height: auto !important; }
+/* pie: listas de enlaces pegadas a la izquierda, bajo su título */
+.elementor-location-footer nav.elementor-nav-menu--main { justify-content: flex-start !important; width: 100%; }
+.elementor-location-footer .elementor-nav-menu--main .elementor-nav-menu { margin: 0 !important; padding: 0 !important; }
+.elementor-location-footer .elementor-nav-menu--main .elementor-nav-menu > li > a { padding: 6px 0 !important; }
+
+/* ---------- ajustes, tercera vuelta ---------- */
+/* la cabecera de la portada va superpuesta (Elementor la fija arriba): la foto
+ * deja su alto libre arriba y la tarjeta empieza por debajo */
+.elementor-70 .elementor-element.elementor-element-dff3c28 {
+  min-height: 700px !important; --min-height: 700px; justify-content: flex-start !important;
+  padding-top: 196px !important; padding-bottom: 56px !important;
+}
+@media (max-width: 1024px) { .elementor-70 .elementor-element.elementor-element-dff3c28 { min-height: 0 !important; padding-top: 150px !important; padding-bottom: 32px !important; } }
+@media (max-width: 767px) {
+  .elementor-70 .elementor-element-c2ae507 > .e-con-inner { padding: 24px 22px !important; margin: 0 12px !important; max-width: none !important; }
+  .elementor-70 .elementor-element-cb607ae .elementor-heading-title { font-size: 32px !important; }
+}
+/* "se agota rápido": en la esquina de abajo de la foto */
+@media (min-width: 1025px) {
+  .e-loop-item .elementor-element-4fa417cd .elementor-element-38d6918 { overflow: visible !important; }
+  .e-loop-item .elementor-element-4fa417cd .elementor-element-38d6918 .badge-agota {
+    position: absolute !important; left: 0 !important; bottom: 0 !important; top: auto !important; right: auto !important;
+    width: max-content !important; max-width: none !important; margin: 0 !important; transform: none !important;
+  }
+}
+
+/* ---------- banners de foto de las páginas interiores (categorías, blog, legales…) ----------
+ * en Valencia&Go: foto a todo lo ancho, título blanco centrado y una onda blanca
+ * abajo. Aquí: sin onda, degradado azul noche desde la izquierda, título y texto
+ * alineados a la izquierda, esquina inferior recta. */
+.elementor-shape { display: none !important; }
+.e-con:has(> .e-con-inner > .elementor-shape-bottom), .e-con:has(> .e-con-inner > .elementor-shape-top) {
+  --align-items: flex-start; align-items: flex-start !important; text-align: left !important;
+  --padding-left: max(24px, calc(50% - 600px)); --padding-right: max(24px, calc(50% - 600px));
+  --min-height: 360px; min-height: 360px !important; justify-content: flex-end !important; padding-bottom: 48px !important;
+}
+.e-con:has(> .e-con-inner > .elementor-shape-bottom)::before, .e-con:has(> .e-con-inner > .elementor-shape-top)::before,
+.e-con:has(> .e-con-inner > .elementor-shape-bottom) > .elementor-background-overlay {
+  background: linear-gradient(90deg, rgba(20, 33, 61, 0.88) 0%, rgba(20, 33, 61, 0.55) 45%, rgba(20, 33, 61, 0.10) 100%) !important; opacity: 1 !important;
+}
+.e-con:has(> .e-con-inner > .elementor-shape-bottom) :is(.e-con-inner, .e-con) { --align-items: flex-start; align-items: flex-start !important; }
+.e-con:has(> .e-con-inner > .elementor-shape-bottom) :is(.elementor-heading-title, .elementor-widget-text-editor, .elementor-widget-text-editor p) {
+  text-align: left !important; max-width: 720px; color: #FFFFFF !important;
+}
+.e-con:has(> .e-con-inner > .elementor-shape-bottom) h1.elementor-heading-title { font-size: 52px !important; letter-spacing: -0.03em !important; }
+.e-con:has(> .e-con-inner > .elementor-shape-bottom) .elementor-widget-text-editor p { color: #E5E9F2 !important; font-size: 16px !important; }
+@media (max-width: 767px) {
+  .e-con:has(> .e-con-inner > .elementor-shape-bottom) { --min-height: 260px; min-height: 260px !important; padding-bottom: 28px !important; }
+  .e-con:has(> .e-con-inner > .elementor-shape-bottom) h1.elementor-heading-title { font-size: 34px !important; }
+}
+/* accesos rápidos en móvil: icono arriba y texto centrado a todo el ancho */
+.elementor-70 .elementor-element-19fd49d > .e-con-inner > .e-con > * { width: 100% !important; max-width: 100% !important; text-align: center !important; }
+.elementor-70 .elementor-element-19fd49d > .e-con-inner > .e-con .elementor-widget-image { text-align: center !important; }
+
+/* accesos rápidos: títulos y textos centrados también en móvil */
+.elementor-70 .elementor-element-19fd49d :is(.elementor-heading-title, .elementor-widget-text-editor, p) { text-align: center !important; }
+/* banners de las páginas interiores: los textos de dentro también a la izquierda */
+.e-con:has(> .e-con-inner > .elementor-shape-bottom) .elementor-widget { align-self: flex-start !important; width: auto; max-width: 760px; }
+.e-con:has(> .e-con-inner > .elementor-shape-bottom) > .e-con-inner { --align-items: flex-start; align-items: flex-start !important; justify-content: flex-end !important; }
+
+/* banners interiores: degradado azul noche desde la izquierda (sombra interior, por
+ * encima de la foto y por debajo del texto) y aire bajo la cabecera superpuesta */
+.e-con:has(> .e-con-inner > .elementor-shape-bottom), .e-con:has(> .e-con-inner > .elementor-shape-top) {
+  box-shadow: inset 1100px 0 520px -260px rgba(20, 33, 61, 0.92) !important;
+  padding-top: 170px !important;
+}
+@media (max-width: 767px) {
+  .e-con:has(> .e-con-inner > .elementor-shape-bottom), .e-con:has(> .e-con-inner > .elementor-shape-top) {
+    box-shadow: inset 0 0 0 2000px rgba(20, 33, 61, 0.62) !important; padding-top: 140px !important;
+  }
 }

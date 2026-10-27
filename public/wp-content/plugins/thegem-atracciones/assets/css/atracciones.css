@@ -4,8 +4,8 @@
 
 /* Variables de colores (sobrescritas desde Ajustes del plugin en #tga-atracciones) */
 :root {
-    --tga-naranja: #D62839;
-    --tga-accent-hover: #b71f2e;
+    --tga-naranja: #047857;
+    --tga-accent-hover: #065f46;
     --tga-gris-oscuro: #333333;
     --tga-texto-secundario: #666666;
     --tga-texto-muted: #999999;
@@ -397,7 +397,7 @@ body.single-atraccion main {
 #tga-atracciones .categoria-tag:hover {
     background: var(--tga-accent-hover);
     transform: translateY(-1px);
-    box-shadow: 0 2px 4px rgba(214,40,57, 0.3);
+    box-shadow: 0 2px 4px rgba(4,120,87, 0.3);
 }
 
 #tga-atracciones .btn-ver-mas {
@@ -419,7 +419,7 @@ body.single-atraccion main {
 #tga-atracciones .btn-ver-mas:hover {
     background: var(--tga-accent-hover);
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(214,40,57, 0.3);
+    box-shadow: 0 4px 8px rgba(4,120,87, 0.3);
 }
 
 #tga-atracciones .no-atracciones {
@@ -471,7 +471,7 @@ body.single-atraccion main {
 #tga-atracciones .atracciones-paginacion .page-numbers a:hover {
     background: var(--tga-accent-hover);
     transform: translateY(-2px);
-    box-shadow: 0 2px 8px rgba(214,40,57, 0.3);
+    box-shadow: 0 2px 8px rgba(4,120,87, 0.3);
 }
 
 #tga-atracciones .atracciones-paginacion .page-numbers .current {
@@ -530,12 +530,12 @@ body.single-atraccion main {
 
 #tga-atracciones .location-marker-numbered:hover .marker-number-circle {
     transform: scale(1.2);
-    box-shadow: 0 4px 12px rgba(214,40,57, 0.5);
+    box-shadow: 0 4px 12px rgba(4,120,87, 0.5);
 }
 
 #tga-atracciones .marker-highlighted .marker-number-circle {
     transform: scale(1.3);
-    box-shadow: 0 4px 16px rgba(214,40,57, 0.7);
+    box-shadow: 0 4px 16px rgba(4,120,87, 0.7);
     z-index: 1000;
 }
 
@@ -667,7 +667,7 @@ body.single-atraccion main {
     background: var(--tga-accent-hover);
     color: var(--tga-on-accent) !important;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(214,40,57, 0.3);
+    box-shadow: 0 4px 8px rgba(4,120,87, 0.3);
 }
 
 /* Tours relacionados en popup: icono ticket + texto + >> (sin imagen de producto) */

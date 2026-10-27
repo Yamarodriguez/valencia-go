@@ -26,12 +26,23 @@ Hecho el 26-10-2026 (todo en esta rama, nada en main ni en Netlify):
   `public/rediseno/` y el selector se borraron (están en el historial,
   commit 845adc7), `rediseno:false` y `selectorRediseno:false` en site.json.
   Se queda el aspecto original con los colores nuevos.
-- DISEÑO PROPIO (27-10-2026, tres vueltas el mismo día: verde y crema con
-  serifa; luego azul marino y azafrán; y la definitiva, porque al propietario
-  le parecían feas: "más profesional tomando como referencia alguna web muy
-  posicionada" → estilo Civitatis/GetYourGuide): blanco y gris claro #F7F8FA,
-  azul noche #14213D, rojo Valencia #D62839 (botones y precios), dorado
-  #F5B300, letra Plus Jakarta Sans (400-800) (src/data/colores.json `_paleta`; cambiar-colores
+- DISEÑO PROPIO (27-10-2026, cuatro vueltas el mismo día; la vigente: "otro
+  acento y los banners de fotos también, como si fuera otra web que no se
+  parezcan en nada"): blanco y gris claro #F7F8FA, azul noche #14213D, acento
+  esmeralda #047857 (hover #065F46), dorado #F5B300, letra Plus Jakarta Sans.
+  Composición propia en `src/estilos/composicion.css` (va detrás de
+  excursiones-valencia.css; hoja-marca junta las dos): portada reordenada con
+  `order`/rejilla (foto con tarjeta blanca a la izquierda, accesos rápidos
+  debajo, tarjetas de tour horizontales a dos columnas, bloques de foto y
+  texto invertidos, teambuilding y "diseña tu experiencia" como dos tarjetas
+  lado a lado), cabecera de portada blanca, menú en pastilla, banners
+  interiores sin la onda y con título a la izquierda, mosaico de fotos en las
+  fichas. OCULTO con CSS por ser de Valencia&Go: reseñas y estrellas (iframes
+  tour-widget-f5d2e, client=valgo), "Empresas que han confiado en nosotras",
+  título de Instagram, franja de tres columnas del pie y sellos/acreditaciones
+  (Tripadvisor, Civitatis, GetYourGuide, Fundació Visit València, Guías
+  Oficiales, Creaturisme, FEDER). Antes fueron: verde y crema con serifa;
+  azul marino y azafrán; blanco con rojo #D62839 (src/data/colores.json `_paleta`; cambiar-colores
   ahora también toca la hoja del plugin thegem-atracciones, los icono-*.svg
   de uploads y valores rgb()). Letra servida desde public/fuentes-marca/ (`fuentes-marca.mjs`), precargadas en
   velocidad.json. Hoja `src/estilos/excursiones-valencia.css` →
