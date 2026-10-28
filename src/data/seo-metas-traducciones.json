@@ -1,0 +1,858 @@
+{
+ "_nota": "Títulos y descripciones de las versiones en inglés, francés, italiano y polaco (28-10-2026, SEO): título de 60 caracteres como mucho, descripción de 70 a 160, sin repetidos, sacados de lo que ya dice cada página. Los aplica scripts/seo-arreglos.mjs, igual que seo-metas.json (castellano).",
+ "/en/a-media-lumbre-why-you-should-visit-this-unique-exhibition-at-ivam/": {
+  "descripcion": "A Media Lumbre, a rather different exhibition at the IVAM: what you will see, how long it runs and why it is worth a visit."
+ },
+ "/en/attractions/": {
+  "descripcion": "La Lonja de la Seda, the Cathedral, the City of Arts and Sciences, the Turia Garden, the Albufera and more places to see in Valencia."
+ },
+ "/en/attractions/ivam-valencian-institute-of-modern-art/": {
+  "titulo": "IVAM: Valencian Institute of Modern Art"
+ },
+ "/en/attractions/the-silk-market/": {
+  "titulo": "La Lonja de la Seda, a UNESCO World Heritage Site"
+ },
+ "/en/attractions/turia-garden/": {
+  "titulo": "Jardín del Turia, the green lungs of Valencia"
+ },
+ "/en/best-rooftop-terraces-valencia-enjoy-the-sunset/": {
+  "titulo": "The best rooftops in Valencia to watch the sunset"
+ },
+ "/en/blog/": {
+  "titulo": "Blog: plans and experiences in Valencia"
+ },
+ "/en/bullring/": {
+  "descripcion": "Known as the Valencian coliseum, the Plaza de Toros de Valencia stands in the city centre and is one of its most striking monuments."
+ },
+ "/en/category/culture-traditions/": {
+  "descripcion": "Valencian culture on the Excursiones Valencia blog: history, art, legends, festivals and popular traditions, some of them truly surprising."
+ },
+ "/en/category/holiday-tips/": {
+  "descripcion": "Tips for your holidays in Valencia: what to pack in your suitcase, activities with children and how to get around the city."
+ },
+ "/en/category/life-advice/": {
+  "descripcion": "Tips for living Valencia like a local: neighbourhoods, customs, festivals and everything worth knowing about the city, on the Excursiones Valencia blog."
+ },
+ "/en/category/what-to-do/": {
+  "descripcion": "Ideas and plans to enjoy Valencia: festivals, neighbourhoods, food, day trips near the city and plans for every season of the year."
+ },
+ "/en/category/what-to-see-2/": {
+  "descripcion": "Monuments, neighbourhoods, museums and corners of Valencia worth seeing, with tips from locals to make the most of your visit."
+ },
+ "/en/day-of-the-enterprising-woman/": {
+  "descripcion": "Carolina Ceglinski founded Excursiones Valencia in 2016: from official tour guide to running an experiences agency in the Valencian Community."
+ },
+ "/en/excursions-cruises/": {
+  "descripcion": "Arriving in Valencia by cruise ship? Excursions tailored to your stopover, with port pick-up, guaranteed return to the ship and an official local guide."
+ },
+ "/en/excursions-cruises/excursion-cruises-wineries-in-utiel-requena/": {
+  "descripcion": "Port pick-up, a panoramic tour of Valencia, two Utiel-Requena wineries and six wines with appetisers. Back on board with time to spare."
+ },
+ "/en/excursions-cruises/excursion-to-peniscola-boat-trips/": {
+  "titulo": "Peñíscola day trip for cruise passengers"
+ },
+ "/en/excursions-cruises/san-jose-caves/": {
+  "titulo": "San José Caves excursion for cruise passengers"
+ },
+ "/en/excursions-cruises/wine-tasting-in-valencia-tour-and-winery-cruises/": {
+  "titulo": "Valencia tour and wine tasting for cruise passengers",
+  "descripcion": "Make the most of your Valencia stopover: see the old town's iconic sights, then taste three wines paired with local produce."
+ },
+ "/en/excursions-valencia-autumn/": {
+  "titulo": "Best excursions from Valencia this autumn"
+ },
+ "/en/excursions/bodegas-utiel-requena-tasting-vina/": {
+  "titulo": "Utiel-Requena wineries tour with a vineyard tasting",
+  "descripcion": "Two Utiel-Requena D.O. wineries, a tasting in the vineyard with food pairing, transport from Valencia and a local guide. 7 hours. From €95."
+ },
+ "/en/excursions/excursion-to-morella-and-peniscola/": {
+  "titulo": "Morella and Peñíscola day trip from Valencia"
+ },
+ "/en/excursions/excursion-to-peniscola-and-papa-luna-castle/": {
+  "descripcion": "Peñíscola day trip from Valencia: guided tour of the walled old town with an official guide, Papa Luna Castle entry and free time by the sea. From €89."
+ },
+ "/en/excursions/excursions-the-requena-grape-harvest-experience/": {
+  "titulo": "Requena grape harvest experience with brunch"
+ },
+ "/en/excursions/full-day-at-terra-mitica/": {
+  "titulo": "Terra Mítica day trip from Valencia with ticket and coach"
+ },
+ "/en/excursions/guided-tour-xativa/": {
+  "titulo": "Guided tour of Xàtiva: castle and city of the Borjas"
+ },
+ "/en/excursions/orange-orchard-excursion/": {
+  "titulo": "Excursion to an orange orchard dating from 1870",
+  "descripcion": "Learn how oranges are grown on a visit to an orange grove dating back to 1870, with an official guide, transport and a tasting."
+ },
+ "/en/free-plans-valencia/": {
+  "titulo": "Free things to do in Valencia without spending a euro"
+ },
+ "/en/gastronomia-fallas-children/": {
+  "titulo": "Where to eat during Fallas: typical food and restaurants"
+ },
+ "/en/saint-vincent-martyr-history-valencia/": {
+  "titulo": "Saint Vincent the Martyr: his history and legacy in Valencia"
+ },
+ "/en/san-jose-caves-salto-novia/": {
+  "titulo": "San José Caves from Valencia: what to see and how to go"
+ },
+ "/en/streets-orange-trees-valencia/": {
+  "titulo": "Why you can't eat Valencia's street oranges"
+ },
+ "/en/the-best-autumn-plans-in-valencia/": {
+  "titulo": "The best plans to enjoy autumn in Valencia"
+ },
+ "/en/the-failures/": {
+  "titulo": "Las Fallas: what they are and how Valencia celebrates them"
+ },
+ "/en/total-solar-eclipse-in-valencia-in-2026-where-and-how-to-experience-it-premium-tours/": {
+  "descripcion": "On 12 August 2026 Valencia sees its first total solar eclipse in a century. Times, where to watch with a clear horizon and day trips from the city."
+ },
+ "/en/valencia-summer/": {
+  "descripcion": "Coming to Valencia in summer? Our best tips on what to see and what to pack in your suitcase so you don't miss a thing."
+ },
+ "/en/valencia-tours/art-and-architecture-tour/": {
+  "titulo": "Valencia in 1 day: Lonja, Cathedral and San Nicolás tour"
+ },
+ "/en/valencia-tours/bike-route-rio-turia-park/": {
+  "titulo": "Bike tour through the Turia River Park in Valencia"
+ },
+ "/en/valencia-tours/christmas-special-nativity-scene-tour/": {
+  "titulo": "Christmas nativity scenes tour in Valencia"
+ },
+ "/en/valencia-tours/gymkhana-around-valencia/": {
+  "titulo": "Valencia scavenger hunt: groups, companies, hen and stag dos",
+  "descripcion": "A treasure hunt through Valencia's old town with challenges, maps and a guide. Ideal for groups, team building and hen or stag parties. From €35."
+ },
+ "/en/valencia-tours/private-tour-of-valencia/": {
+  "titulo": "Private tour of Valencia with an official guide",
+  "descripcion": "Explore Valencia with just your group: tailor-made tour, flexible timetable and an official guide in your language. For families and companies. From €150."
+ },
+ "/en/valencia-tours/rio-turia-segway-route/": {
+  "descripcion": "Discover the Turia Garden by Segway and take in the old Turia riverbed, now a park known as the green lungs of Valencia."
+ },
+ "/en/valencia-tours/ruta-seda-valencia-lonja-entrada/": {
+  "descripcion": "Valencia's silk heritage: the Silk Museum, the Velluters quarter and entry to the Lonja, a UNESCO World Heritage Site. 2 h 30 min. From €39."
+ },
+ "/en/valencia-tours/tapas-tour-of-valencia/": {
+  "titulo": "Tapas tour of Valencia with a local guide, drinks included"
+ },
+ "/en/valencia-tours/valencia-tours-carmen-wine-tasting/": {
+  "titulo": "Valencia tour with local wine tasting in El Carmen"
+ },
+ "/en/vehicles/": {
+  "titulo": "Private motorboat and yacht hire in Valencia"
+ },
+ "/en/what-to-do-in-valencia-for-kids-perfect-summer-holidays/": {
+  "titulo": "What to do in Valencia with children in summer"
+ },
+ "/en/wine-routes-from-valencia-discover-vineyards-villages-and-local-traditions/": {
+  "descripcion": "Utiel-Requena wineries and Valencian Community vineyards: wine tastings, charming villages and wine traditions, an hour from Valencia."
+ },
+ "/en/wine-valencia-excursion-requena/": {
+  "descripcion": "Bobal, Spain's least-known grape, grows in Utiel-Requena, an hour from Valencia. Which wines to try and where to taste them at the winery."
+ },
+ "/en/xativa/": {
+  "descripcion": "What to see in Xàtiva: the castle with the best views of the Valencian hinterland, the Borja family's historic centre and how to get there from Valencia."
+ },
+ "/it/attrazioni/": {
+  "descripcion": "La Lonja de la Seda, la Cattedrale, la Città delle Arti e delle Scienze, il Giardino del Turia, l'Albufera e altri luoghi da vedere a Valencia."
+ },
+ "/it/attrazioni/cale-di-sant-josep/": {
+  "titulo": "Coves de Sant Josep, una meraviglia naturale"
+ },
+ "/it/attrazioni/citta-delle-arti-e-delle-scienze/": {
+  "titulo": "Città delle Arti e delle Scienze di Valencia"
+ },
+ "/it/attrazioni/giardino-di-turia/": {
+  "titulo": "Jardín del Turia, i polmoni di Valencia"
+ },
+ "/it/attrazioni/il-mercato-della-seta/": {
+  "titulo": "La Lonja de la Seda, patrimonio dell'umanità"
+ },
+ "/it/attrazioni/ivam-istituto-valenciano-di-arte-moderna/": {
+  "titulo": "IVAM, Istituto Valenciano d'Arte Moderna"
+ },
+ "/it/attrazioni/parco-naturale-albufera-de-valencia/": {
+  "titulo": "Parco Naturale dell'Albufera di Valencia"
+ },
+ "/it/attrazioni/ristorante-ricard-camarena/": {
+  "descripcion": "Il ristorante Ricard Camarena, una stella Michelin, è un punto di riferimento dell'alta cucina di Valencia: prodotti locali e creatività."
+ },
+ "/it/blog/": {
+  "titulo": "Blog di progetti ed esperienze a Valencia"
+ },
+ "/it/categoria-2/consigli-per-le-vacanze/": {
+  "descripcion": "Consigli per le vostre vacanze a Valencia: cosa mettere in valigia, le attività da fare con i bambini e come muoversi in città."
+ },
+ "/it/categoria-2/consiglio-di-vita/": {
+  "descripcion": "Consigli per vivere Valencia come la gente del posto: quartieri, usanze, feste e tutto ciò che conviene sapere sulla città."
+ },
+ "/it/categoria-2/cosa-fare/": {
+  "descripcion": "Idee e programmi per godersi Valencia: feste, quartieri, gastronomia, escursioni vicino alla città e proposte per ogni periodo dell'anno."
+ },
+ "/it/categoria-2/cosa-vedere/": {
+  "descripcion": "Monumenti, quartieri, musei e angoli di Valencia che vale la pena vedere, con i consigli della gente del posto per sfruttare al meglio la visita."
+ },
+ "/it/categoria-2/cultura-tradizioni/": {
+  "descripcion": "Storia, arte, leggende, feste e tradizioni popolari: immergetevi nella cultura valenciana con il blog di Excursiones Valencia."
+ },
+ "/it/categoria-2/gastronomia/": {
+  "descripcion": "Tapas, dolci, piatti tipici e ristoranti consigliati dalla gente del posto: la vostra guida alla gastronomia valenciana."
+ },
+ "/it/contatto/": {
+  "descripcion": "Contattate Excursiones Valencia per chiarire qualsiasi dubbio, organizzare la vostra esperienza o ricevere informazioni sui programmi a Valencia."
+ },
+ "/it/cosa-fare-a-valencia-per-i-bambini-vacanze-estive-perfette/": {
+  "titulo": "Cosa fare a Valencia con i bambini in estate"
+ },
+ "/it/eclissi-solare-totale-a-valencia-nel-2026-dove-e-come-viverla-escursioni-premium/": {
+  "descripcion": "Il 12 agosto 2026 Valencia vivrà la prima eclissi solare totale in un secolo: orari, luoghi da cui osservarla ed escursioni da Valencia."
+ },
+ "/it/escursioni-crociere/degustazione-di-vini-a-valencia-tour-e-cantine-crociere/": {
+  "titulo": "Tour di Valencia con degustazione di vini per crocieristi",
+  "descripcion": "Approfitta della sosta a Valencia per scoprire il centro storico e concludere con una degustazione di 3 vini abbinati a prodotti locali."
+ },
+ "/it/escursioni-crociere/escursione-crociere-cantine-di-utiel-requena/": {
+  "descripcion": "Sosta a Valencia con prelievo al porto: panoramica della città, due cantine di Utiel-Requena e degustazione di sei vini con stuzzichini."
+ },
+ "/it/escursioni-crociere/grotte-di-san-jose/": {
+  "titulo": "Grotte di San José: escursione per crocieristi"
+ },
+ "/it/escursioni-crociere/tour-arte-arquitectura-valencia/": {
+  "descripcion": "Tour per crocieristi a Valencia: visita guidata con biglietti inclusi alla Lonja, alla Cattedrale e a San Nicolás con una guida locale ufficiale."
+ },
+ "/it/escursioni-valencia-autunno/": {
+  "titulo": "Le migliori escursioni a Valencia in autunno"
+ },
+ "/it/escursioni/": {
+  "titulo": "Escursioni da Valencia con guida ufficiale"
+ },
+ "/it/escursioni/bodegas-utiel-requena-degustazione-vina/": {
+  "titulo": "Cantine di Utiel-Requena con degustazione in vigna",
+  "descripcion": "Due cantine della D.O. Utiel-Requena con degustazione in vigna e abbinamenti. Trasporto da Valencia e guida locale inclusi. 7 ore. Da 95 €."
+ },
+ "/it/escursioni/culla-parc-miner-maestrat/": {
+  "titulo": "Culla e Parco Minerario del Maestrat da Valencia"
+ },
+ "/it/escursioni/escursione-a-denia-al-castello-e-alla-grotta-delle-teste-di-morto/": {
+  "descripcion": "Dénia in un giorno da Valencia: castello con vista sul mare, centro storico e Grotta delle Teste di Morto, sito di 50.000 anni fa. Da 79 €."
+ },
+ "/it/escursioni/escursione-a-morella-e-peniscola/": {
+  "titulo": "Escursione a Morella e Peñíscola da Valencia",
+  "descripcion": "Giornata intera a Morella da Valencia: uno dei borghi medievali più belli della Spagna, con castello e mura, e sosta a Peñíscola."
+ },
+ "/it/escursioni/escursione-a-peniscola-il-castello-di-papa-luna/": {
+  "descripcion": "Peñíscola in un giorno da Valencia: centro storico con guida ufficiale, ingresso al Castello di Papa Luna e tempo libero al mare. Da 89 €."
+ },
+ "/it/escursioni/escursione-al-frutteto-di-arance/": {
+  "descripcion": "Escursione in un aranceto del 1870 con guida ufficiale, trasporto e degustazione: scoprite tutto sulla coltivazione delle arance."
+ },
+ "/it/escursioni/escursione-alle-grotte-di-san-jose-e-al-salto-de-la-novia/": {
+  "descripcion": "Naviga sul fiume sotterraneo più lungo d'Europa e scopri la cascata del Salto de la Novia. Trasporto, biglietti e guida da Valencia. Da 89 €."
+ },
+ "/it/escursioni/escursione-alle-grotte-di-san-jose/": {
+  "descripcion": "Naviga sul fiume sotterraneo più lungo d’Europa: escursione alle Grotte di San José con trasporto, biglietto e guida da Valencia. Da 69 €."
+ },
+ "/it/escursioni/escursioni-di-degustazione-di-vini-utiel-requena/": {
+  "descripcion": "Degustazione di formaggio e vino da Valencia: create il vostro formaggio in un laboratorio e visitate una cantina locale nella natura."
+ },
+ "/it/escursioni/escursioni-esperienza-di-vendemmia-a-requena/": {
+  "titulo": "Esperienza di vendemmia a Requena con brunch",
+  "descripcion": "Vendemmia alle Cantine NOVOS con trasporto da Valencia: raccogli l’uva, scopri come nasce il vino e goditi una degustazione con brunch."
+ },
+ "/it/escursioni/giornata-intera-a-terra-mitica/": {
+  "titulo": "Terra Mítica da Valencia con biglietto e autobus",
+  "descripcion": "Giornata intera a Terra Mítica con biglietto ufficiale e autobus da Valencia: senza guidare, senza code e con ritorno garantito. Da 85 €."
+ },
+ "/it/escursioni/laboratorio-di-artisti-fallero/": {
+  "descripcion": "Vivete le Fallas tutto l'anno: visitate il Museo del Artista Fallero e create il vostro ninot in un laboratorio con gli artisti falleros."
+ },
+ "/it/giornata-della-donna-intraprendente/": {
+  "titulo": "Carolina, CEO di Excursiones Valencia e imprenditrice",
+  "descripcion": "Carolina Ceglinski ha fondato Excursiones Valencia nel 2016: da guida turistica ufficiale a un’agenzia di esperienze nella Comunità Valenciana."
+ },
+ "/it/grotte-di-san-jose-salto-novia/": {
+  "titulo": "Grotte di San José da Valencia: cosa vedere e come arrivare"
+ },
+ "/it/guida-segreta-alle-fallas-valencia-2023/": {
+  "titulo": "Vivere le Fallas di Valencia come un vero valenciano"
+ },
+ "/it/i-migliori-piani-autunnali-a-valencia/": {
+  "titulo": "Godetevi la magia dell'autunno a Valencia"
+ },
+ "/it/indimenticabili-escursioni-giornaliere-da-valencia-per-tutti-i-tipi-di-viaggiatori/": {
+  "descripcion": "Dieci gite di un giorno da Valencia: spiagge, montagna, borghi medievali e cantine, con trasporto, durata e a chi è adatta ciascuna."
+ },
+ "/it/le-migliori-terrazze-sul-tetto-di-valencia-per-godere-del-tramonto/": {
+  "titulo": "I tetti di Valencia per ammirare il tramonto"
+ },
+ "/it/mascleta-dei-fallas/": {
+  "descripcion": "La mascletà è uno spettacolo pirotecnico unico che si svolge durante le Fallas di Valencia e che non troverete da nessun'altra parte."
+ },
+ "/it/san-vincenzo-martire-storia-valencia/": {
+  "titulo": "San Vincenzo Martire e la sua eredità a Valencia"
+ },
+ "/it/strade-arancioni-valencia/": {
+  "titulo": "Perché a Valencia non si mangiano le arance per strada"
+ },
+ "/it/tour-di-valencia/gimkana-intorno-a-valencia/": {
+  "titulo": "Gincana a Valencia per gruppi, aziende e addii al celibato",
+  "descripcion": "Caccia al tesoro nel centro storico di Valencia con prove, mappe e guida. Per gruppi, team building e addii al celibato/nubilato. Da 35 €."
+ },
+ "/it/tour-di-valencia/percorso-in-bicicletta-parco-del-rio-turia/": {
+  "titulo": "Percorso in bicicletta nel Parco fluviale del Turia",
+  "descripcion": "In bicicletta lungo l'antico letto del fiume Turia: giardini, parchi originali, musei ed edifici modernisti. Un'esperienza da non perdere."
+ },
+ "/it/tour-di-valencia/percorso-segway-rio-turia/": {
+  "descripcion": "Scoprite il Giardino del Turia in Segway: un tour nell'antico alveo del fiume, oggi diventato il polmone verde di Valencia."
+ },
+ "/it/tour-di-valencia/ruta-seda-valencia-lonja-entrada/": {
+  "descripcion": "Il patrimonio della seta a Valencia: Museo della Seta, quartiere dei Velluters e ingresso alla Lonja, Patrimonio dell’Umanità. Da 39 €."
+ },
+ "/it/tour-di-valencia/tour-a-valencia-degustazione-di-vini-carmen/": {
+  "titulo": "Tour di Valencia con degustazione di vini locali",
+  "descripcion": "Passeggia per il Mercato e El Carmen con guida ufficiale, visita la cantina più antica di Valencia e assaggia 3 vini con prodotti locali."
+ },
+ "/it/tour-di-valencia/tour-affreschi-nascosti-chiesa-vecchia-valencia/": {
+  "descripcion": "Gli affreschi nascosti e la chiesa più antica di Valencia in un tour culturale guidato, lontano dalle folle. Ingressi e guida ufficiale inclusi."
+ },
+ "/it/tour-di-valencia/tour-darte-e-architettura/": {
+  "titulo": "Cosa vedere a Valencia in 1 giorno: Lonja e Cattedrale"
+ },
+ "/it/tour-di-valencia/tour-della-citta-delle-arti-e-delle-scienze/": {
+  "descripcion": "Visita guidata di 90 minuti alla Città delle Arti e delle Scienze: architettura, storia e curiosità. Adatta a famiglie e animali. Da 25 €."
+ },
+ "/it/tour-di-valencia/tour-delle-tapas-a-valencia/": {
+  "titulo": "Tour delle tapas a Valencia con guida locale e bevanda"
+ },
+ "/it/tour-di-valencia/tour-privato-di-valencia/": {
+  "descripcion": "Valencia solo con il tuo gruppo: itinerario su misura, orari flessibili e guida ufficiale nella tua lingua. Per famiglie e aziende. Da 150 €."
+ },
+ "/it/trasferirsi-a-valencia-10-cose-che-nessuno-ti-dice-prima-di-arrivare/": {
+  "descripcion": "Pensate di vivere a Valencia? 10 segreti per trovare casa senza truffe, sul costo della vita e per evitare le trappole per turisti."
+ },
+ "/it/veicoli/": {
+  "titulo": "Noleggio di barche e yacht privati a Valencia"
+ },
+ "/it/veicoli/barca-privata/": {
+  "titulo": "Noleggio barca privata a Valencia"
+ },
+ "/it/veicoli/yacht-privato/": {
+  "titulo": "Noleggio yacht privato a Valencia"
+ },
+ "/fr/": {
+  "titulo": "Visites et excursions à Valence avec guides officiels",
+  "descripcion": "Visites et excursions à Valence avec des guides locaux officiels : Albufera, Lonja de la Seda et grottes de San José. Réservation directe."
+ },
+ "/fr/10-faits-sur-valence/": {
+  "titulo": "10 faits sur Valence que vous ne connaissiez sans doute pas"
+ },
+ "/fr/8-1-plans-a-ne-pas-manquer-cet-automne/": {
+  "descripcion": "Idées pour l'automne à Valence : escapades à la montagne, cueillette de champignons, vendanges à Requena et une ville sans la foule de l'été."
+ },
+ "/fr/a-media-lumbre-pourquoi-vous-devriez-visiter-cette-exposition-unique-a-livam/": {
+  "descripcion": "L'IVAM présente « A Media Lumbre », une exposition hors du commun. Que va-t-on y voir, combien de temps dure-t-elle et pourquoi vaut-elle le détour ?"
+ },
+ "/fr/arenes/": {
+  "descripcion": "Surnommée le colisée valencien, la Plaza de Toros de Valencia, en plein centre, est l'un des monuments les plus remarquables de la ville."
+ },
+ "/fr/attractions/": {
+  "descripcion": "La Lonja de la Seda, la cathédrale, la Cité des Arts et des Sciences, le jardin du Turia, l'Albufera et d'autres lieux à voir à Valence."
+ },
+ "/fr/attractions/coves-de-sant-josep/": {
+  "titulo": "Les Coves de Sant Josep, une merveille naturelle"
+ },
+ "/fr/attractions/jardin-de-turia/": {
+  "titulo": "Jardín del Turia, le poumon de Valence"
+ },
+ "/fr/attractions/le-marche-de-la-soie/": {
+  "titulo": "La Lonja de la Seda, patrimoine mondial de l'UNESCO"
+ },
+ "/fr/attractions/marina-beach-club/": {
+  "descripcion": "Marina Beach Club à Valence, à côté de la plage de Malvarrosa : cuisine méditerranéenne, musique et détente au bord de la piscine."
+ },
+ "/fr/attractions/parc-naturel-de-lalbufera-de-valence/": {
+  "titulo": "Parc naturel de l'Albufera de Valencia"
+ },
+ "/fr/attractions/veles-e-vents-valencia/": {
+  "descripcion": "Veles e Vents, à Valence, est un bâtiment avant-gardiste et multifonctionnel pour manger, organiser des événements ou faire des photos face à la mer."
+ },
+ "/fr/blog/": {
+  "titulo": "Blog de sorties et d'expériences à Valence"
+ },
+ "/fr/categorie/ce-quil-faut-faire/": {
+  "descripcion": "Idées et sorties pour profiter de Valence : fêtes, quartiers, gastronomie, excursions près de la ville et plans pour chaque saison."
+ },
+ "/fr/categorie/ce-quil-faut-voir/": {
+  "descripcion": "Monuments, quartiers, musées et recoins de Valence qui valent le détour, avec les conseils des habitants pour profiter de la visite."
+ },
+ "/fr/categorie/conseils-de-vie/": {
+  "descripcion": "Conseils pour vivre Valence comme un habitant : quartiers, coutumes, fêtes et tout ce qu'il faut savoir sur la ville, sur le blog Excursiones Valencia."
+ },
+ "/fr/categorie/conseils-pour-les-vacances/": {
+  "descripcion": "Conseils pour vos vacances à Valence : que mettre dans votre valise, activités avec les enfants et comment se déplacer dans la ville."
+ },
+ "/fr/categorie/culture-traditions/": {
+  "titulo": "Culture et traditions valenciennes | Blog",
+  "descripcion": "La culture valencienne sur le blog Excursiones Valencia : histoire, art, légendes, fêtes et traditions populaires parfois surprenantes."
+ },
+ "/fr/categorie/gastronomie/": {
+  "descripcion": "La gastronomie valencienne sur le blog Excursiones Valencia : tapas, douceurs, plats typiques et restaurants recommandés par les habitants."
+ },
+ "/fr/categorie/nouvelles/": {
+  "titulo": "Actualités et nouveautés | Blog Excursiones Valencia",
+  "descripcion": "Les dernières nouvelles et nouveautés d'Excursiones Valencia, services touristiques à Valence. Votre porte d'entrée vers des moments uniques."
+ },
+ "/fr/eclipse-solaire-totale-a-valence-en-2026-ou-et-comment-la-vivre-excursions-haut-de-gamme/": {
+  "descripcion": "Le 12 août 2026, Valence vivra sa première éclipse solaire totale depuis un siècle. Horaires, lieux avec vue dégagée et excursions depuis Valence."
+ },
+ "/fr/excursion-vin-de-valence-requena/": {
+  "descripcion": "Le bobal, cépage le moins connu d'Espagne, est cultivé à Utiel-Requena, à une heure de Valence. Quels vins déguster et dans quelles caves ?"
+ },
+ "/fr/excursions-croisieres/": {
+  "descripcion": "En escale à Valence en croisière ? Excursions adaptées à votre escale, avec prise en charge au port et retour garanti à bord. Guide local officiel."
+ },
+ "/fr/excursions-croisieres/degustation-de-vins-a-valence-visite-guidee-et-croisiere-avec-visite-dun-domaine-viticole/": {
+  "titulo": "Croisiéristes : visite de Valence et dégustation de vins",
+  "descripcion": "Pendant votre escale à Valence, découvrez les lieux emblématiques de la vieille ville puis dégustez 3 vins accompagnés de produits locaux."
+ },
+ "/fr/excursions-croisieres/excursion-a-peniscola-croisieres/": {
+  "titulo": "Excursion à Peñíscola pour les croisiéristes",
+  "descripcion": "Journée à Peñíscola au départ du port de Valence : visite guidée officielle du centre historique fortifié, entrée au château et déjeuner inclus."
+ },
+ "/fr/excursions-croisieres/excursion-en-bateau-avec-visite-des-caves-dutiel-requena/": {
+  "descripcion": "Escale à Valence avec prise en charge au port : tour panoramique, deux caves d'Utiel-Requena et dégustation de six vins avec amuse-bouches."
+ },
+ "/fr/excursions-croisieres/grottes-de-san-jose/": {
+  "titulo": "Croisiéristes : excursion aux grottes de San José"
+ },
+ "/fr/excursions-croisieres/parc-naturel-de-lalbufera/": {
+  "titulo": "Croisiéristes : l'Albufera au coucher du soleil",
+  "descripcion": "Excursion à l'Albufera pour les croisiéristes en escale à Valence : guide officiel, transport et balade en bateau inclus. Laissez-vous emporter !"
+ },
+ "/fr/excursions-croisieres/tour-arte-arquitectura-valencia/": {
+  "titulo": "Croisiéristes : visite art et architecture de Valence",
+  "descripcion": "Visite art et architecture pour croisiéristes à Valence : la Lonja, la cathédrale et San Nicolás, billets inclus, avec un guide local officiel."
+ },
+ "/fr/excursions-dune-journee-inoubliables-au-depart-de-valence-pour-tous-les-types-de-voyageurs/": {
+  "descripcion": "Dix escapades d'une journée au départ de Valence : plages, montagne, villages médiévaux et caves, avec transport, durée et public visé pour chacune."
+ },
+ "/fr/excursions-valence-automne/": {
+  "titulo": "Meilleures excursions à Valence cet automne"
+ },
+ "/fr/excursions/atelier-dartistes-fallero/": {
+  "titulo": "Atelier avec des artistes des Fallas à Valence",
+  "descripcion": "Vivez les Fallas toute l'année : visite du Museo del Artista Fallero et atelier pour créer votre propre ninot avec des artistes des Fallas."
+ },
+ "/fr/excursions/bodegas-utiel-requena-tasting-vina/": {
+  "titulo": "Caves d'Utiel-Requena : dégustation dans le vignoble",
+  "descripcion": "Deux domaines de l'AOC Utiel-Requena, dégustation au vignoble et accord mets-vins. Transport depuis Valence et guide local. 7 h. À partir de 95 €."
+ },
+ "/fr/excursions/culla-parc-miner-maestrat/": {
+  "titulo": "Excursion à Culla et au Parc Miner del Maestrat",
+  "descripcion": "Culla et le Parc Miner del Maestrat en une journée au départ de Valence : une excursion culturelle et tranquille, idéale pour les familles."
+ },
+ "/fr/excursions/excursion-a-altea-villajoyosa-et-benidorm/": {
+  "descripcion": "Découvrez Altea, Villajoyosa et Benidorm lors d'une excursion sur la côte au départ de Valence. Mer, culture et tradition : réservez dès maintenant !"
+ },
+ "/fr/excursions/excursion-a-denia-chateau-et-grotte-des-cranes/": {
+  "descripcion": "Dénia en une journée depuis Valence : château avec vue sur la mer, vieille ville et grotte des Calaveras, site vieux de 50 000 ans. À partir de 79 €."
+ },
+ "/fr/excursions/excursion-a-morella-et-peniscola/": {
+  "titulo": "Excursion à Morella et Peñíscola au départ de Valence",
+  "descripcion": "Journée à Morella depuis Valence : l'un des plus beaux villages médiévaux d'Espagne, avec château et remparts, et un arrêt à Peñíscola."
+ },
+ "/fr/excursions/excursion-a-peniscola-le-chateau-du-pape-luna/": {
+  "descripcion": "Peñíscola en une journée depuis Valence : visite guidée officielle du centre fortifié, entrée au château du Pape Luna et temps libre. À partir de 89 €."
+ },
+ "/fr/excursions/excursion-au-parc-naturel-de-lalbufera/": {
+  "titulo": "Excursion à l'Albufera depuis Valence et balade en bateau",
+  "descripcion": "Coucher de soleil à l'Albufera : bateau électrique, El Palmar et rizières, berceau de la paella. Guide officiel et transport. À partir de 49 €."
+ },
+ "/fr/excursions/excursion-aux-grottes-de-san-jose-et-au-salto-de-la-novia/": {
+  "titulo": "Grottes de San José et Salto de la Novia depuis Valence",
+  "descripcion": "Naviguez sur la plus longue rivière souterraine d'Europe et découvrez le Salto de la Novia. Transport, entrées et guide inclus. À partir de 89 €."
+ },
+ "/fr/excursions/excursion-aux-grottes-de-san-jose/": {
+  "titulo": "Excursion aux grottes de San José au départ de Valence",
+  "descripcion": "Naviguez sur la plus longue rivière souterraine d'Europe : les grottes de San José depuis Valence, avec transport, entrée et guide. À partir de 69 €."
+ },
+ "/fr/excursions/excursion-dans-une-orangeraie/": {
+  "descripcion": "Découvrez la culture des oranges lors d'une excursion dans une orangeraie de 1870, avec guide officiel, transport et dégustation."
+ },
+ "/fr/excursions/excursion-romantique-a-lalbufera/": {
+  "descripcion": "Balade privée en bateau sur l'Albufera au coucher du soleil, rien que pour deux. Cava sur le lac et transport depuis Valence. À partir de 200 €."
+ },
+ "/fr/excursions/excursions-et-experience-des-vendanges-a-requena/": {
+  "titulo": "Vendanges à Requena avec dégustation et brunch",
+  "descripcion": "Vendanges à Bodegas NOVOS avec transport depuis Valence : cueillette du raisin, élaboration du vin et dégustation accompagnée d'un brunch."
+ },
+ "/fr/excursions/journee-complete-a-terra-mitica/": {
+  "titulo": "Terra Mítica depuis Valence : billet et transport en bus",
+  "descripcion": "Journée à Terra Mítica avec billet officiel et bus depuis Valence. Pas de conduite, pas de files d'attente, retour garanti. À partir de 85 €."
+ },
+ "/fr/excursions/utiel-requena-wines-cheese-tasting-excursions/": {
+  "descripcion": "Dégustation de fromages et de vins à Utiel-Requena : créez votre propre fromage lors d'un atelier et visitez une cave locale en pleine nature."
+ },
+ "/fr/excursions/visite-guidee-xativa/": {
+  "descripcion": "Xàtiva avec un guide officiel : le château aux plus belles vues sur l'arrière-pays valencien et le centre historique des Borja. À partir de 30 €."
+ },
+ "/fr/experiences-sur-mesure/": {
+  "descripcion": "Créez votre expérience sur mesure : des programmes uniques adaptés à vos goûts pour vivre la destination comme jamais auparavant."
+ },
+ "/fr/festival-de-far-valencia/": {
+  "titulo": "València : groupes, culture et festival FAR València"
+ },
+ "/fr/gastronomie-fallas-enfants/": {
+  "titulo": "Où manger pendant les Fallas : plats typiques et restaurants"
+ },
+ "/fr/grottes-de-san-jose-salto-novia/": {
+  "titulo": "Grottes de San José : que voir et comment y aller"
+ },
+ "/fr/guide-gastronomique-de-valence-les-meilleurs-restaurants-a-ne-pas-manquer/": {
+  "descripcion": "De la paella d'El Palmar au riz du Cabanyal : les restaurants de Valence qui valent le détour et ce qu'il faut y commander."
+ },
+ "/fr/guide-secret-des-fallas-valencia-2023/": {
+  "titulo": "Conseils pour vivre les Fallas comme un Valencien"
+ },
+ "/fr/journee-de-la-femme-entreprenante/": {
+  "titulo": "Carolina, PDG d'Excursiones Valencia, femme entrepreneure",
+  "descripcion": "Carolina Ceglinski a fondé Excursiones Valencia en 2016 : de guide officielle à créatrice d'une agence d'expériences en Communauté valencienne."
+ },
+ "/fr/les-echecs/": {
+  "titulo": "Les Fallas de Valence : ce que c'est et comment les vivre"
+ },
+ "/fr/les-meilleures-terrasses-sur-les-toits-de-valence-pour-profiter-du-coucher-de-soleil/": {
+  "titulo": "Les meilleurs toits de Valence pour le coucher du soleil",
+  "descripcion": "Les meilleurs toits de Valence pour admirer un coucher de soleil spectaculaire avec votre boisson préférée, sur le blog Excursiones Valencia."
+ },
+ "/fr/les-meilleurs-plans-dautomne-a-valence/": {
+  "titulo": "Profitez de la magie de l'automne à Valence"
+ },
+ "/fr/mascleta-des-fallas/": {
+  "titulo": "La mascletà des Fallas : ce que c'est et où la voir"
+ },
+ "/fr/plans-de-la-semaine-de-paques-a-valence/": {
+  "titulo": "Semaine Sainte à Valence : des sorties « 2 en 1 »"
+ },
+ "/fr/plans-gratuits-valencia/": {
+  "titulo": "Activités gratuites à Valence sans dépenser un centime",
+  "descripcion": "Musées gratuits, plages, parcs et points de vue : tout ce qu'on peut découvrir à Valence sans dépenser un euro, avec des idées pour chaque jour."
+ },
+ "/fr/pourquoi-il-vaut-la-peine-de-visiter-valencia/": {
+  "descripcion": "Les 10 raisons de visiter Valence selon le blog Excursiones Valencia : soleil, loisirs et gastronomie. Osez explorer Valence !"
+ },
+ "/fr/que-faire-a-valence-pour-des-vacances-dete-parfaites-pour-les-enfants/": {
+  "titulo": "Que faire à Valence avec des enfants en été ?"
+ },
+ "/fr/quest-ce-que-lhorchata-une-boisson-dete-valencienne/": {
+  "descripcion": "L'horchata valencienne : sa fabrication, son importance culturelle et une recette pour déguster cette boisson emblématique, sur notre blog."
+ },
+ "/fr/qui-nous-sommes/": {
+  "titulo": "Qui sommes-nous ? | Excursiones Valencia"
+ },
+ "/fr/reveillon-du-nouvel-an-a-valence/": {
+  "titulo": "Réveillon du Nouvel An à Valence : traditions et sorties",
+  "descripcion": "Cloches, cotillons et traditions pour fêter le réveillon à Valence. Idées de sorties en ville, avec ou sans réservation préalable."
+ },
+ "/fr/rompre-la-routine-valencia/": {
+  "titulo": "Que faire à Valence en novembre : idées de sorties"
+ },
+ "/fr/routes-des-vins-au-depart-de-valence-decouverte-des-vignobles-des-villages-et-des-traditions-locales/": {
+  "titulo": "Circuits œnologiques depuis Valence : caves et vignobles",
+  "descripcion": "Caves d'Utiel-Requena et vignobles de la Communauté valencienne : dégustations, villages de charme et traditions viticoles à une heure de Valence."
+ },
+ "/fr/rues-orangers-valencia/": {
+  "titulo": "Pourquoi ne pas manger les oranges des rues de Valence ?"
+ },
+ "/fr/saint-vincent-martyr-histoire-valence/": {
+  "titulo": "Saint Vincent Martyr : histoire et héritage à Valence"
+ },
+ "/fr/semaine-sainte-valence-2025/": {
+  "descripcion": "Tout sur la Semaine Sainte 2025 à Valence : processions, Semana Santa Marinera, programmes pour les familles et événements exceptionnels."
+ },
+ "/fr/sinstaller-a-valence-10-choses-que-personne-ne-vous-dit-avant-votre-arrivee/": {
+  "descripcion": "Vous envisagez de vivre à Valence ? 10 secrets pour trouver un appartement sans arnaque, connaître le coût de la vie et éviter les pièges."
+ },
+ "/fr/tours-de-valence/": {
+  "descripcion": "14 visites guidées de Valence avec guide local officiel : vieille ville, Cité des Arts, tapas, Lonja de la Seda. Petits groupes. À partir de 25 €."
+ },
+ "/fr/tours-de-valence/atelier-paella-a-valence/": {
+  "descripcion": "Préparez votre paella valencienne avec un chef local : marché de Ruzafa, cours pratique et repas, boissons comprises. 3 h. À partir de 79 €."
+ },
+ "/fr/tours-de-valence/fallas-a-valence-en-mars/": {
+  "descripcion": "Tous les secrets des Fallas lors de notre Fallas Tour Valencia 2027. Saviez-vous qu'elles sont inscrites au patrimoine de l'UNESCO ?"
+ },
+ "/fr/tours-de-valence/gymkhana-autour-de-valence/": {
+  "titulo": "Jeu de piste à Valence : groupes, entreprises, EVG et EVJF",
+  "descripcion": "Jeu de piste dans la vieille ville avec épreuves, cartes et guide. Pour groupes, team building et enterrements de vie de célibataire. Dès 35 €."
+ },
+ "/fr/tours-de-valence/rio-turia-segway-route/": {
+  "descripcion": "Découvrez le jardin du Turia en Segway le long de l'ancien lit du fleuve, devenu le poumon de Valence. Une façon unique de parcourir la ville."
+ },
+ "/fr/tours-de-valence/route-cyclable-rio-turia-park/": {
+  "titulo": "Circuit à vélo dans le parc du Turia et la Cité des Arts",
+  "descripcion": "Suivez à vélo l'ancien lit du Turia : jardins, parcs originaux, musées et bâtiments modernistes. Une expérience à ne pas manquer !"
+ },
+ "/fr/tours-de-valence/ruta-seda-valencia-lonja-entrada/": {
+  "titulo": "Route de la Soie à Valence avec entrée à la Lonja",
+  "descripcion": "Le patrimoine de la soie à Valence : Musée de la Soie, quartier des Velluters et entrée à la Lonja, patrimoine mondial. 2 h 30. À partir de 39 €."
+ },
+ "/fr/tours-de-valence/visite-de-la-cite-des-arts-et-des-sciences/": {
+  "descripcion": "Visite guidée de 90 minutes de la Cité des Arts et des Sciences : architecture, histoire et anecdotes. Familles et animaux bienvenus. Dès 25 €."
+ },
+ "/fr/tours-de-valence/visite-de-lart-et-de-larchitecture/": {
+  "titulo": "Valence en 1 jour : Lonja, cathédrale et San Nicolás",
+  "descripcion": "Que voir à Valence en 1 jour : visite guidée artistique de la Lonja, de la cathédrale et de San Nicolás, billets d'entrée inclus."
+ },
+ "/fr/tours-de-valence/visite-de-valence-avec-tapas/": {
+  "titulo": "Circuit des tapas à Valence avec un guide local",
+  "descripcion": "Tapas dans la vieille ville avec un guide local : étapes choisies, boisson comprise et bars absents des guides. 2 h. À partir de 75 €."
+ },
+ "/fr/tours-de-valence/visite-fresques-cachees-vieille-eglise-valencia/": {
+  "descripcion": "Les fresques cachées et la plus ancienne église de Valence, en visite guidée culturelle loin du tourisme de masse. Entrée et guide officiel inclus."
+ },
+ "/fr/tours-de-valence/visite-privee-de-valence/": {
+  "titulo": "Visite privée de Valence avec guide officiel",
+  "descripcion": "Valence en privé avec votre groupe : circuit sur mesure, horaires flexibles et guide officiel dans votre langue. Familles et entreprises. Dès 150 €."
+ },
+ "/fr/tours-de-valence/visites-guidees-a-valence-degustation-de-vins-carmen/": {
+  "titulo": "Valence : quartier du Carmen et dégustation de vins",
+  "descripcion": "Marché et quartier du Carmen avec un guide officiel, visite de la plus ancienne cave de Valence et dégustation de trois vins valenciens."
+ },
+ "/fr/traditions-et-rituels-magiques-de-san-juan/": {
+  "descripcion": "Origine de la nuit de la Saint-Jean, pourquoi c'est la nuit la plus magique de l'année, ses rituels et les légendes qui entourent cette fête."
+ },
+ "/fr/valencia-august-plans/": {
+  "titulo": "Que faire à Valence en août : 8 idées contre la chaleur"
+ },
+ "/fr/vehicules/": {
+  "titulo": "Location de bateaux à moteur et yachts privés à Valence",
+  "descripcion": "Naviguez le long de la côte de Valence en bateau à moteur ou en yacht privé avec skipper. Départ du port, petits groupes et couchers de soleil."
+ },
+ "/fr/vehicules/bateau-prive/": {
+  "titulo": "Location de bateau privé à Valence"
+ },
+ "/fr/vehicules/yacht-prive/": {
+  "titulo": "Location de yacht privé à Valence",
+  "descripcion": "Une journée en mer pour déconnecter grâce à la location d'un yacht privé, avec qui vous voulez et comme vous voulez. Vivez la Méditerranée."
+ },
+ "/fr/xativa/": {
+  "descripcion": "À voir à Xàtiva : le château aux plus belles vues sur l'arrière-pays valencien, la ville des Borja et son centre historique. Accès depuis Valence."
+ },
+ "/pl/": {
+  "descripcion": "Wycieczki i zwiedzanie Walencji z lokalnymi, oficjalnymi przewodnikami: Albufera, Lonja de la Seda i jaskinie San José. Rezerwuj bez pośredników."
+ },
+ "/pl/15-powodow-dla-ktorych-warto-odwiedzic-walencje-w-2023-roku/": {
+  "titulo": "15 powodów, dla których warto odwiedzić Walencję"
+ },
+ "/pl/a-media-lumbre-dlaczego-warto-odwiedzic-te-wyjatkowa-wystawe-w-ivam/": {
+  "descripcion": "Wystawa A Media Lumbre w IVAM w Walencji: co można na niej zobaczyć, jak długo potrwa i dlaczego warto ją odwiedzić."
+ },
+ "/pl/atrakcje/": {
+  "descripcion": "Lonja de la Seda, katedra, Miasto Sztuki i Nauki, Ogrody Turii, Albufera i inne miejsca, które warto zobaczyć w Walencji."
+ },
+ "/pl/atrakcje/ivam-walencki-instytut-sztuki-wspolczesnej/": {
+  "titulo": "IVAM – Walencki Instytut Sztuki Współczesnej"
+ },
+ "/pl/atrakcje/rynek-jedwabiu/": {
+  "titulo": "La Lonja de la Seda: światowe dziedzictwo UNESCO w Walencji"
+ },
+ "/pl/blog/": {
+  "titulo": "Blog o planach i doświadczeniach w Walencji"
+ },
+ "/pl/boze-narodzenie-w-walencji/": {
+  "titulo": "Boże Narodzenie w Walencji: 6 pomysłów na święta"
+ },
+ "/pl/calkowite-zacmienie-slonca-w-walencji-w-2026-r-gdzie-i-jak-je-obejrzec-wycieczki-premium/": {
+  "titulo": "Zaćmienie Słońca 2026 w Walencji: gdzie i jak je obejrzeć",
+  "descripcion": "12 sierpnia 2026 r. w Walencji całkowite zaćmienie Słońca, pierwsze od stu lat. Godziny, miejsca z widokiem na horyzont i wycieczki z Walencji."
+ },
+ "/pl/gdzie-wybrac-sie-na-drinka-w-walencji-jesli-szukasz-czegos-nietypowego-stylowe-bary-koktajlowe-i-lokale-na-dachach/": {
+  "descripcion": "Tarasy na dachach z widokami, autorskie bary koktajlowe i miejsca, gdzie spróbować prawdziwej Agua de Valencia: drink w Walencji inaczej."
+ },
+ "/pl/darmowe-plany-valencia/": {
+  "titulo": "Bezpłatne atrakcje w Walencji: ciesz się miastem za darmo"
+ },
+ "/pl/doswiadczenia-szyte-na-miare/": {
+  "titulo": "Doświadczenia szyte na miarę w Walencji",
+  "descripcion": "Stwórz własne doświadczenie w Walencji. Opracowujemy unikalne plany dopasowane do Twoich upodobań, by poznać to miejsce jak nigdy dotąd."
+ },
+ "/pl/dzien-przedsiebiorczej-kobiety/": {
+  "titulo": "Carolina, CEO Excursiones Valencia: przedsiębiorcza kobieta",
+  "descripcion": "Carolina Ceglinski założyła Excursiones Valencia w 2016 r. Jej droga: od oficjalnej przewodniczki do założycielki agencji we Wspólnocie Walencji."
+ },
+ "/pl/jaskinie-san-jose-salto-novia/": {
+  "titulo": "Jaskinie San José z Walencji: co zobaczyć i jak dojechać"
+ },
+ "/pl/kategoria/co-robic/": {
+  "descripcion": "Pomysły i plany na Walencję: święta, dzielnice, gastronomia, wycieczki w okolice miasta i propozycje na każdą porę roku."
+ },
+ "/pl/kategoria/co-zobaczyc/": {
+  "descripcion": "Zabytki, dzielnice, muzea i zakątki Walencji, które warto zobaczyć, z radami mieszkańców, jak najlepiej wykorzystać wizytę."
+ },
+ "/pl/kategoria/gastronomia/": {
+  "descripcion": "Przewodnik po walenckiej gastronomii na blogu Excursiones Valencia: tapas, słodycze, typowe dania i restauracje polecane przez mieszkańców."
+ },
+ "/pl/kategoria/porady-zyciowe/": {
+  "descripcion": "Jak żyć w Walencji jak mieszkaniec: dzielnice, zwyczaje, święta i wszystko, co warto wiedzieć o mieście. Porady na blogu Excursiones Valencia."
+ },
+ "/pl/kategoria/wiadomosci/": {
+  "titulo": "Wiadomości i nowości Excursiones Valencia | Blog"
+ },
+ "/pl/kontakt/": {
+  "descripcion": "Skontaktuj się z Excursiones Valencia, aby rozwiać wątpliwości, zorganizować swoje doświadczenie lub uzyskać informacje o planach w Walencji."
+ },
+ "/pl/mascleta-of-the-fallas/": {
+  "titulo": "Mascletà podczas Fallas: co to jest i gdzie ją obejrzeć"
+ },
+ "/pl/najlepsze-jesienne-plany-w-walencji/": {
+  "titulo": "Magia jesieni w Walencji: najlepsze plany"
+ },
+ "/pl/najlepsze-tarasy-na-dachu-w-walencji-podziwiaja-zachod-slonca/": {
+  "titulo": "Dachy w Walencji do oglądania zachodu słońca",
+  "descripcion": "Najlepsze dachy w Walencji, z których podziwiasz spektakularny zachód słońca przy ulubionym drinku. Przegląd na blogu Excursiones Valencia."
+ },
+ "/pl/niezapomniane-jednodniowe-wycieczki-z-walencji-dla-wszystkich-podroznikow/": {
+  "descripcion": "Dziesięć jednodniowych wycieczek z Walencji: plaże, góry, średniowieczne miasteczka i winiarnie. Transport, czas trwania i dla kogo jest każda z nich."
+ },
+ "/pl/plany-na-sierpien-w-walencji/": {
+  "titulo": "Co robić w Walencji w sierpniu: 8 pomysłów bez upałów"
+ },
+ "/pl/pojazdy/": {
+  "titulo": "Wynajem łodzi motorowych i prywatnych jachtów w Walencji"
+ },
+ "/pl/polityka-plikow-cookie/": {
+  "descripcion": "Informacje o plikach cookie używanych na tej stronie, ich przeznaczeniu oraz o tym, jak je skonfigurować lub wyłączyć w przeglądarce."
+ },
+ "/pl/przeprowadzka-do-walencji-10-rzeczy-o-ktorych-nikt-nie-mowi-przed-przyjazdem/": {
+  "titulo": "Przeprowadzka do Walencji: 10 rzeczy, o których się nie mówi"
+ },
+ "/pl/rejsy-specjalne/": {
+  "descripcion": "Wycieczki i doświadczenia w Walencji dla pasażerów rejsów wycieczkowych. Indywidualne plany, bez pośpiechu, dopasowane do czasu postoju."
+ },
+ "/pl/swiety-wincenty-meczennik-historia-walencja/": {
+  "titulo": "Święty Wincenty Męczennik: historia i dziedzictwo w Walencji"
+ },
+ "/pl/sylwester-w-walencji/": {
+  "titulo": "Sylwester w Walencji: tradycje i pomysły na wieczór"
+ },
+ "/pl/tajny-przewodnik-po-fallas-valencia-2023/": {
+  "titulo": "Fallas w Walencji: jak je przeżyć jak prawdziwy mieszkaniec"
+ },
+ "/pl/ulice-drzewa-pomaranczowe-walencja/": {
+  "titulo": "Dlaczego nie można jeść ulicznych pomarańczy w Walencji?"
+ },
+ "/pl/wino-walencja-wycieczka-requena/": {
+  "descripcion": "Bobal to najmniej znany szczep winogron w Hiszpanii, z regionu Utiel-Requena, godzinę od Walencji. Jakie wina spróbować i gdzie je degustować."
+ },
+ "/pl/wskazowki-dla-podrozujacych-do-walencji-jak-najlepiej-wykorzystac-wizyte-w-tym-miescie/": {
+  "titulo": "Podróż do Walencji: praktyczny przewodnik i wskazówki"
+ },
+ "/pl/wycieczki-po-walencji/": {
+  "titulo": "Zwiedzanie Walencji z oficjalnym lokalnym przewodnikiem"
+ },
+ "/pl/wycieczki-po-walencji/fallas-w-walencji-w-marcu/": {
+  "titulo": "Wycieczka po Fallas w Walencji z oficjalnym przewodnikiem",
+  "descripcion": "Poznaj sekrety święta podczas wycieczki Fallas Tour Valencia 2027. Czy wiesz, że Fallas wpisano na listę dziedzictwa UNESCO? Nie przegap tego!"
+ },
+ "/pl/wycieczki-po-walencji/gymkhana-wokol-walencji/": {
+  "titulo": "Gra terenowa w Walencji: grupy, firmy i wieczory kawalerskie",
+  "descripcion": "Gra terenowa po starej Walencji z zadaniami, mapami i przewodnikiem. Dla grup, imprez integracyjnych i wieczorów kawalerskich. 2 godz. 30 min. Od 35 €."
+ },
+ "/pl/wycieczki-po-walencji/prywatna-wycieczka-po-walencji/": {
+  "titulo": "Prywatna wycieczka po Walencji z oficjalnym przewodnikiem",
+  "descripcion": "Zwiedzaj Walencję tylko ze swoją grupą: trasa na miarę, elastyczne godziny i oficjalny przewodnik w Twoim języku. Dla rodzin i firm. Od 150 €."
+ },
+ "/pl/wycieczki-po-walencji/ruta-seda-valencia-lonja-entrada/": {
+  "descripcion": "Dziedzictwo jedwabiu w Walencji: Muzeum Jedwabiu, dzielnica Velluters i wstęp do Lonja z listy światowego dziedzictwa UNESCO. 2 godz. 30 min. Od 39 €."
+ },
+ "/pl/wycieczki-po-walencji/tapas-tour-po-walencji/": {
+  "titulo": "Wycieczka po barach tapas w Walencji z przewodnikiem"
+ },
+ "/pl/wycieczki-po-walencji/trasa-rowerowa-rio-turia-park/": {
+  "titulo": "Trasa rowerowa przez park rzeczny Turia w Walencji"
+ },
+ "/pl/wycieczki-po-walencji/warsztaty-paelli-w-walencji/": {
+  "titulo": "Warsztaty paelli walencjańskiej z lokalnym szefem kuchni",
+  "descripcion": "Przygotuj paellę walencjańską z lokalnym szefem kuchni: wizyta na targu Ruzafa, praktyczne warsztaty i posiłek z napojami w cenie. 3 godz. Od 79 €."
+ },
+ "/pl/wycieczki-po-walencji/wycieczka-po-miescie-sztuki-i-nauki/": {
+  "descripcion": "90-minutowa wycieczka z przewodnikiem po Mieście Sztuki i Nauki: architektura, historia i ciekawostki. Dla rodzin, także ze zwierzętami. Od 25 €."
+ },
+ "/pl/wycieczki-po-walencji/wycieczka-po-sredniowiecznej-walencji/": {
+  "titulo": "Średniowieczna Walencja z oficjalnym przewodnikiem"
+ },
+ "/pl/wycieczki-po-walencji/wycieczka-po-sztuce-i-architekturze/": {
+  "titulo": "Walencja w 1 dzień: Lonja, katedra i San Nicolás",
+  "descripcion": "Co zobaczyć w Walencji w 1 dzień: wycieczka artystyczna z przewodnikiem po Lonja, katedrze i San Nicolás, z biletami wstępu w cenie."
+ },
+ "/pl/wycieczki-po-walencji/wycieczka-ukryte-freski-stary-kosciol-walencja/": {
+  "descripcion": "Ukryte freski i najstarszy kościół w Walencji: wycieczka kulturalna z dala od masowej turystyki. Bilety wstępu i oficjalny przewodnik w cenie."
+ },
+ "/pl/wycieczki-po-walencji/wycieczki-po-walencji-degustacja-win-carmen/": {
+  "titulo": "Wycieczka po Walencji z degustacją lokalnych win",
+  "descripcion": "Spacer po Mercado i El Carmen z oficjalnym przewodnikiem, wizyta w najstarszej winiarni w Walencji i degustacja trzech win z lokalnymi produktami."
+ },
+ "/pl/wycieczki-rejsy/": {
+  "titulo": "Wycieczki z Walencji dla pasażerów statków wycieczkowych",
+  "descripcion": "Przypływasz do Walencji statkiem? Wycieczki dopasowane do postoju, z odbiorem z portu i gwarantowanym powrotem na pokład. Oficjalny lokalny przewodnik."
+ },
+ "/pl/wycieczki-rejsy/degustacja-win-w-walencji-wycieczka-i-zwiedzanie-winnicy-rejsy-statkiem/": {
+  "titulo": "Degustacja win w Walencji dla pasażerów statków",
+  "descripcion": "Wykorzystaj postój w Walencji: najciekawsze zakątki starego miasta i dzielnicy El Carmen, a na koniec degustacja trzech win z lokalnymi produktami."
+ },
+ "/pl/wycieczki-rejsy/jaskinie-san-jose/": {
+  "titulo": "Jaskinie San José: wycieczka dla pasażerów statków"
+ },
+ "/pl/wycieczki-rejsy/tour-arte-arquitectura-valencia/": {
+  "titulo": "Sztuka i architektura Walencji dla pasażerów statków",
+  "descripcion": "Walencja dla pasażerów statków: wycieczka o sztuce i architekturze z oficjalnym przewodnikiem i biletami do Lonja, katedry i San Nicolás."
+ },
+ "/pl/wycieczki-rejsy/wycieczka-do-peniscola-rejsy-statkiem/": {
+  "titulo": "Wycieczka do Peñíscoli dla pasażerów statków wycieczkowych",
+  "descripcion": "Jednodniowa wycieczka do Peñíscoli z portu w Walencji: otoczone murami stare miasto z oficjalnym przewodnikiem, wstęp do zamku i posiłek w cenie."
+ },
+ "/pl/wycieczki-rejsy/wycieczka-statkiem-po-winnicach-w-utiel-i-requena/": {
+  "descripcion": "Postój w Walencji z odbiorem z portu: panorama miasta, dwie winiarnie w Utiel-Requena i degustacja sześciu win z przekąskami. Powrót z zapasem czasu."
+ },
+ "/pl/wycieczki-walencja-jesien/": {
+  "titulo": "Najlepsze wycieczki w Walencji tej jesieni"
+ },
+ "/pl/wycieczki/": {
+  "titulo": "Wycieczki z Walencji z oficjalnym przewodnikiem"
+ },
+ "/pl/wycieczki/bodegas-utiel-requena-degustacja-vina/": {
+  "descripcion": "Dwie winnice D.O. Utiel-Requena z degustacją w winnicy i łączeniem win z potrawami. Transport z Walencji i lokalny przewodnik w cenie. 7 godz. Od 95 €."
+ },
+ "/pl/wycieczki/caly-dzien-w-terra-mitica/": {
+  "titulo": "Terra Mítica z Walencji: bilet wstępu i przejazd autobusem",
+  "descripcion": "Cały dzień w Terra Mítica z oficjalnym biletem i autobusem z Walencji. Bez prowadzenia auta, bez kolejek, z gwarantowaną godziną powrotu. Od 85 €."
+ },
+ "/pl/wycieczki/wycieczka-do-denii-zamek-jaskinia-cueva-de-las-calaveras/": {
+  "descripcion": "Dénia w jeden dzień z Walencji: zamek z widokiem na morze, stare miasto i Cueva de las Calaveras, stanowisko archeologiczne sprzed 50 000 lat. Od 79 €."
+ },
+ "/pl/wycieczki/wycieczka-do-morella-i-peniscola/": {
+  "titulo": "Wycieczka do Morelli i Peñíscoli z Walencji",
+  "descripcion": "Całodniowa wycieczka z Walencji do Morelli, jednej z najpiękniejszych średniowiecznych miejscowości Hiszpanii, z zamkiem i murami, oraz do Peñíscoli."
+ },
+ "/pl/wycieczki/wycieczka-do-peniscola-zamek-papa-luna/": {
+  "descripcion": "Peñíscola w jeden dzień z Walencji: otoczone murami stare miasto z oficjalnym przewodnikiem, wstęp do zamku Papa Luna i czas wolny nad morzem. Od 89 €."
+ },
+ "/pl/wycieczki/wycieczka-do-sadu-pomaranczowego/": {
+  "titulo": "Wycieczka do sadu pomarańczowego z 1870 roku",
+  "descripcion": "Poznaj uprawę pomarańczy w gaju z 1870 roku: wycieczka z oficjalnym przewodnikiem, transportem i degustacją, z Excursiones Valencia."
+ },
+ "/pl/wycieczki/wycieczka-z-przewodnikiem-xativa/": {
+  "titulo": "Xàtiva z przewodnikiem: zamek i miasto rodu Borja",
+  "descripcion": "Xàtiva z oficjalnym przewodnikiem: zamek z najpiękniejszymi widokami na wnętrze regionu Walencji i historyczne centrum miasta rodu Borja. Od 30 €."
+ },
+ "/pl/wycieczki/wycieczki-warsztaty-winobrania-w-requena/": {
+  "descripcion": "Zbiór winogron w Bodegas NOVOS w Requena z transportem z Walencji: zbierz winogrona, zobacz, jak powstaje wino, i ciesz się degustacją z brunchem."
+ },
+ "/pl/xativa/": {
+  "titulo": "Xàtiva: co zobaczyć w mieście, które przeszło do historii",
+  "descripcion": "Co zobaczyć w Xàtiva: zamek z najpiękniejszymi widokami na wnętrze regionu Walencji, miasto rodu Borja i jego stare centrum. Jak dojechać z Walencji."
+ }
+}

@@ -131,9 +131,13 @@ Hecho el 26-10-2026 (todo en esta rama, nada en main ni en Netlify):
     páginas indexables en castellano con título ≤60 y descripción de 70 a
     160, sin repetidos, y arregla 7 artículos (5 idiomas) que llevaban el
     título y/o la descripción del eclipse (9 d'Octubre, niños en septiembre,
-    El Carmen, octubre 2026, Tomatina, vendimia, cócteles). PENDIENTE: las
-    664 traducidas (156 títulos largos, 151 descripciones largas, 16 sin
-    descripción). Después de cambiar títulos, `npm run seo` (llms.txt).
+    El Carmen, octubre 2026, Tomatina, vendimia, cócteles). Las traducidas
+    (en, fr, it, pl: 264 páginas) van en `src/data/seo-metas-traducciones.json`
+    con el mismo criterio: 0 fallos en las 872 páginas indexables. Después de
+    cambiar títulos, `npm run seo` (llms.txt). OJO: el artículo "Día de la
+    mujer emprendedora" y el aviso legal (5 idiomas) atribuyen a Excursiones
+    Valencia la fundadora y la historia de Valencia&Go: pendiente de los
+    datos legales del propietario.
 - Fotos: `fotos-commons.mjs` baja de Wikimedia Commons una foto real y libre
   (CC0/dominio público/CC BY/CC BY-SA, JPG apaisado ≥1000 px) por cada hueco
   del inventario, buscando por el H1 de la página; créditos en

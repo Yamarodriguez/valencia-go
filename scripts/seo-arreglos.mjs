@@ -7,7 +7,7 @@
  *
  * - titulos: pagina -> titulo nuevo. Cambia <title>, og:title/twitter:title y
  *   el mismo texto dentro de los datos estructurados de la cabeza.
- * - src/data/seo-metas.json: ruta -> titulo y/o descripcion. La descripcion
+ * - src/data/seo-metas*.json: ruta -> titulo y/o descripcion. La descripcion
  *   cambia la <meta name="description">, og:/twitter:description y el mismo
  *   texto en los datos estructurados; si no habia, la anade.
  * - h1: paginas sin H1 cuyo titulo visible es un widget de texto de Elementor
@@ -51,8 +51,12 @@ const cambiarJson = (cab, campo, viejo, nuevo) => cab.replace(
     return plano(claro) === plano(viejo) ? a + escJson(nuevo) + b : t;
   });
 
-// tareas: los "titulos" de seo.json (por nombre de pagina) y src/data/seo-metas.json (por ruta)
-const metas = JSON.parse(fs.readFileSync(path.join(RAIZ, 'src', 'data', 'seo-metas.json'), 'utf8'));
+// tareas: los "titulos" de seo.json (por nombre de pagina) y src/data/seo-metas*.json (por ruta;
+// seo-metas.json es el castellano, seo-metas-traducciones.json los otros cuatro idiomas)
+const metas = {};
+for (const f of fs.readdirSync(path.join(RAIZ, 'src', 'data')).filter((x) => /^seo-metas.*\.json$/.test(x)).sort()) {
+  Object.assign(metas, JSON.parse(fs.readFileSync(path.join(RAIZ, 'src', 'data', f), 'utf8')));
+}
 const porRuta = new Map(indice.map((p) => [p.ruta, p.nombre]));
 const tareas = [
   ...Object.entries(titulos).map(([nombre, titulo]) => ({ nombre, titulo })),
