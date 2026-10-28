@@ -75,7 +75,16 @@ Hecho el 26-10-2026 (todo en esta rama, nada en main ni en Netlify):
   (27-10-2026, "busca precios similares y pon 1 euro menos"): cada ficha
   lleva "desde" el precio de una actividad parecida de la competencia menos
   1 €, con la fuente en `precio.referencia` de paginas-nuevas.json; colegios
-  sigue "a consultar" (no hay tarifa publicada por alumno). Tours: misterios y leyendas, Valencia macabra, Santo Grial y
+  sigue "a consultar" (no hay tarifa publicada por alumno).
+  AVENTURA (28-10-2026, "agregar paracaidismo, viajes en avioneta y otros
+  servicios que existan en Valencia"): categoría /aventura/ ("Aventura y
+  vuelos", menú "Aventura"): paracaidismo en Requena, avioneta y helicóptero
+  en La Llosa, parapente en Villar del Arzobispo, rafting en el Cabriel,
+  quads y buggies; su listado incluye también el globo ('extra'). En el
+  agua: moto de agua, velero, surf. Servicios: consigna de equipaje,
+  fotógrafo de vacaciones (a consultar). Mismo criterio de precio. Barranquismo
+  no añadido: sin precios ni sitios comprobables. Menú de siete secciones:
+  composicion.css lo compacta entre 1025 y 1340 px para que quepa en una línea. Tours: misterios y leyendas, Valencia macabra, Santo Grial y
   Borgia, Guerra Civil, Carmen y arte urbano, Sorolla, modernismo, Cabanyal,
   con niños, horchata en Alboraya, cervezas en Ruzafa, tapas y flamenco,
   estadios. Excursiones: Chulilla, Montanejos, Guadalest y Algar, Albufera en

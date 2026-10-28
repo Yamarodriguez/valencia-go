@@ -363,7 +363,8 @@ TRAD_CAT = traducciones(BASE_CAT['cabeza'])
 
 def categoria(clave, cat):
     ruta = f'/{clave}/'
-    suyas = [p for p in PAGINAS if p['cat'] == clave]
+    # las suyas y, al final, las de otras secciones que también encajan aquí ('extra')
+    suyas = [p for p in PAGINAS if p['cat'] == clave] + [p for s in cat.get('extra', []) for p in PAGINAS if p['slug'] == s]
     piezas = dict(BASE_CAT)
     piezas['cabeza'] = cabeza_nueva(BASE_CAT['cabeza'], cat['seo'], cat['desc'], ruta, foto(f"{suyas[0]['slug']}-1.webp"))
     piezas['cabecera'] = limpiar_activo(cabecera_nueva(BASE_CAT['cabecera'], TRAD_CAT))
@@ -447,8 +448,9 @@ def menu_en(nombre, activo=None):
                 f'<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-ev-{c}"><a href="/{c}/" class="elementor-item"{tab}>{CATS[c]["menu"]}</a></li>'
                 for c in CATS if not CATS[c].get('existe'))
             return m.group(1) + extra
-        if 'menu-item-ev-' not in v:
-            v = MENU.sub(poner, v)
+        # se quitan las entradas nuevas que hubiera y se vuelven a poner todas, en orden
+        v = re.sub(r'<li class="[^"]*menu-item-ev-[^"]*"><a [^>]*>[^<]*</a></li>', '', v)
+        v = MENU.sub(poner, v)
         # las páginas nuevas se rehacen en cada pase (sin marca de activo): se marca su sección
         if activo:
             ruta, tipo = activo

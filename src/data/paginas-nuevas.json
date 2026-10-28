@@ -21,6 +21,19 @@
    "desc": "Paseos en catamarán, kayak, paddle surf, bautismo de buceo y salidas de buceo cerca de Valencia. Pide información sin compromiso.",
    "intro": "Valencia se vive también desde el mar. Navega en catamarán frente a la ciudad, rema en kayak o en paddle surf junto a sus playas o haz tu primera inmersión en la costa de Xàbia. Escríbenos y te preparamos la actividad que más te guste."
   },
+  "aventura": {
+   "nombre": "Aventura y vuelos",
+   "plantilla": "tours-valencia--tour-de-valencia-medieval",
+   "existe": false,
+   "listado": "excursiones",
+   "menu": "Aventura",
+   "extra": [
+    "vuelo-en-globo"
+   ],
+   "seo": "Aventura cerca de Valencia: paracaidismo, avioneta, parapente y rafting",
+   "desc": "Salto en paracaídas, vuelos en avioneta, helicóptero, parapente y globo, rafting en el Cabriel y rutas en quad y buggy cerca de Valencia.",
+   "intro": "Para quien busca emociones: salta en paracaídas, vuela en avioneta, helicóptero, parapente o globo, baja el río Cabriel en rafting o conduce un buggy. Todo a una hora o menos de Valencia."
+  },
   "servicios": {
    "nombre": "Servicios",
    "plantilla": "tours-valencia--tour-de-valencia-medieval",
@@ -1342,6 +1355,501 @@
     "umbracle",
     "lonja",
     "valencia"
+   ]
+  },
+  {
+   "slug": "salto-en-paracaidas-valencia",
+   "cat": "aventura",
+   "titulo": "Salto en paracaídas en tándem cerca de Valencia",
+   "corto": "Salto en paracaídas",
+   "seo": "Salto en paracaídas en tándem cerca de Valencia, en Requena",
+   "desc": "Salta en paracaídas en tándem con un instructor desde unos 4.000 metros en el aeródromo de Requena, a una hora de Valencia.",
+   "lugar": "Requena",
+   "intro": "<p>La experiencia más intensa que puedes vivir cerca de Valencia: un <strong>salto en paracaídas en tándem</strong>, enganchado a un <strong>instructor</strong>, desde unos <strong>4.000 metros</strong> sobre los viñedos de Requena.</p>",
+   "destacados": [
+    "Salta enganchado a un instructor, sin experiencia previa.",
+    "Cerca de un minuto de caída libre.",
+    "A una hora de Valencia, sobre los viñedos de Requena."
+   ],
+   "subtitulo": "Cuatro mil metros de pura adrenalina",
+   "cuerpo": "<p>El <strong>aeródromo de Requena</strong> es el lugar más cercano a Valencia para saltar en paracaídas. Antes del salto recibes una explicación sencilla y el equipo. Después, la avioneta sube a unos 4.000 metros y saltas <strong>enganchado a un instructor</strong>, que se ocupa de todo.</p><p>Tras cerca de un minuto de <strong>caída libre</strong>, se abre el paracaídas y bajas planeando unos minutos mientras ves la comarca desde el cielo. Se puede añadir el vídeo del salto.</p>",
+   "queVeras": "<ul><li>La explicación previa y el equipo.</li><li>La subida en avioneta.</li><li>La <strong>caída libre</strong> y el vuelo con el paracaídas abierto.</li><li>Opcional: <strong>vídeo y fotos</strong> del salto.</li></ul>",
+   "faq": [
+    [
+     "¿Hay edad mínima o peso máximo?",
+     "Sí. Los fija el centro de paracaidismo; te los decimos al pedir información."
+    ]
+   ],
+   "busquedas": [
+    "Tandem skydiving",
+    "Tandem skydive freefall",
+    "Paracaidismo tándem",
+    "Skydiving Spain"
+   ],
+   "claves": [
+    "skydiv",
+    "paracaid",
+    "parachut",
+    "tandem",
+    "freefall"
+   ],
+   "precio": {
+    "valor": 268,
+    "nota": "Salto en tándem",
+    "referencia": {
+     "precio": 269,
+     "quien": "Yumping, salto tándem en Requena",
+     "url": "https://www.yumping.com/ofertas/paracaidismo/valencia/salto-tandem-en-paracaidas-a-3600m-en-requena--o64947",
+     "fecha": "2026-10-28"
+    }
+   }
+  },
+  {
+   "slug": "vuelo-en-avioneta-valencia",
+   "cat": "aventura",
+   "titulo": "Vuelo en avioneta cerca de Valencia",
+   "corto": "Vuelo en avioneta",
+   "seo": "Vuelo en avioneta cerca de Valencia: la costa desde el aire",
+   "desc": "Sube a una avioneta con piloto y contempla la costa valenciana desde el aire. Vuelos cortos para estrenarte o más largos para disfrutar.",
+   "lugar": "La Llosa",
+   "intro": "<p>Sube a una <strong>avioneta</strong> con un <strong>piloto</strong> y contempla la <strong>costa valenciana</strong> desde el aire. Un vuelo corto para estrenarte o uno más largo para disfrutar del paisaje.</p>",
+   "destacados": [
+    "Vuela con piloto, sin necesidad de experiencia.",
+    "La costa y los pueblos desde el aire.",
+    "Vuelos de distinta duración."
+   ],
+   "subtitulo": "La costa como nunca la has visto",
+   "cuerpo": "<p>Desde el <strong>aeródromo de La Llosa</strong>, entre Valencia y Castellón, salen vuelos turísticos en avioneta. El piloto te explica el vuelo antes de despegar y, una vez arriba, recorréis la costa y el interior.</p><p>Es un regalo perfecto para cumpleaños, aniversarios o para quien siempre ha querido ver su tierra desde el aire.</p>",
+   "queVeras": "<ul><li>El despegue desde el aeródromo.</li><li>La <strong>costa</strong> y las playas desde el aire.</li><li>Los pueblos y montañas del interior.</li></ul>",
+   "faq": [
+    [
+     "¿Cuántas personas caben?",
+     "Depende de la avioneta. Te lo confirmamos al pedir información."
+    ]
+   ],
+   "busquedas": [
+    "Cessna 172 in flight",
+    "Light aircraft flying over coast",
+    "Avioneta vuelo",
+    "Piper aircraft flight"
+   ],
+   "claves": [
+    "cessna",
+    "avioneta",
+    "light aircraft",
+    "piper",
+    "aircraft",
+    "aeroclub"
+   ],
+   "precio": {
+    "valor": 58,
+    "nota": "Vuelo de 15 minutos",
+    "referencia": {
+     "precio": 59,
+     "quien": "Yumping, La Llosa Aeródromo, vuelo de 15 minutos",
+     "url": "https://www.yumping.com/vuelo-en-avioneta/la-llosa-aerodromo-valencia--e19754938",
+     "fecha": "2026-10-28"
+    }
+   }
+  },
+  {
+   "slug": "vuelo-en-helicoptero-valencia",
+   "cat": "aventura",
+   "titulo": "Vuelo en helicóptero cerca de Valencia",
+   "corto": "Vuelo en helicóptero",
+   "seo": "Vuelo en helicóptero cerca de Valencia por la costa",
+   "desc": "Vuela en helicóptero sobre la costa valenciana: un paseo corto o una ruta más larga para ocasiones especiales.",
+   "lugar": "La Llosa",
+   "intro": "<p>Una forma espectacular de ver la <strong>costa valenciana</strong>: un <strong>paseo en helicóptero</strong> con piloto, corto para estrenarte o más largo para una ocasión especial.</p>",
+   "destacados": [
+    "Despega y aterriza en vertical.",
+    "Vistas abiertas de la costa.",
+    "Ideal para regalos y ocasiones especiales."
+   ],
+   "subtitulo": "La costa desde un helicóptero",
+   "cuerpo": "<p>Los vuelos turísticos en helicóptero salen de aeródromos cercanos a Valencia, como el de <strong>La Llosa</strong>. En pocos minutos estás sobre el mar, con vistas abiertas de playas, puertos y montañas.</p><p>Hay vuelos cortos para probar la experiencia y rutas más largas por la costa. Te ayudamos a elegir el que mejor encaja.</p>",
+   "queVeras": "<ul><li>El despegue en vertical.</li><li>La <strong>costa</strong> y el mar desde el aire.</li><li>Opcional: rutas más largas por el litoral.</li></ul>",
+   "faq": [
+    [
+     "¿Se puede volar en pareja o en familia?",
+     "Sí, según las plazas del helicóptero. Te lo confirmamos al pedir información."
+    ]
+   ],
+   "busquedas": [
+    "Robinson R44 helicopter flight",
+    "Helicopter flight over coast",
+    "Helicóptero vuelo turístico",
+    "Helicopter sightseeing"
+   ],
+   "claves": [
+    "helicop",
+    "robinson",
+    "r44"
+   ],
+   "precio": {
+    "valor": 68,
+    "nota": "Vuelo de 15 minutos",
+    "referencia": {
+     "precio": 69,
+     "quien": "Yumping, vuelo en helicóptero de 15 minutos en La Llosa",
+     "url": "https://www.yumping.com/paseo-en-helicoptero/valencia",
+     "fecha": "2026-10-28"
+    }
+   }
+  },
+  {
+   "slug": "parapente-biplaza-valencia",
+   "cat": "aventura",
+   "titulo": "Vuelo en parapente biplaza cerca de Valencia",
+   "corto": "Parapente biplaza",
+   "seo": "Parapente biplaza cerca de Valencia, en la Serranía",
+   "desc": "Vuela en parapente biplaza con un piloto en la Serranía de Valencia, sin experiencia previa.",
+   "lugar": "Villar del Arzobispo",
+   "intro": "<p>Vuela como un pájaro sobre la <strong>Serranía de Valencia</strong> en un <strong>parapente biplaza</strong>, sentado delante de un <strong>piloto</strong> que se ocupa de todo.</p>",
+   "destacados": [
+    "Vuela con piloto, sin experiencia previa.",
+    "Paisajes de montaña en la Serranía.",
+    "Un vuelo tranquilo y silencioso."
+   ],
+   "subtitulo": "Volar en silencio sobre la Serranía",
+   "cuerpo": "<p>En <strong>Villar del Arzobispo</strong>, en la Serranía, hay despegues de parapente con vistas a valles y montañas. Te pones el arnés, das unos pasos con el piloto y, en un momento, estás volando.</p><p>El vuelo es tranquilo y silencioso. Si te animas, el piloto te puede dejar llevar los mandos un rato.</p>",
+   "queVeras": "<ul><li>La explicación previa y el equipo.</li><li>El <strong>despegue</strong> con el piloto.</li><li>El vuelo sobre la <strong>Serranía</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Y si hace viento?",
+     "Los vuelos dependen del tiempo. Te explicamos qué pasa si no se puede volar al reservar."
+    ]
+   ],
+   "busquedas": [
+    "Paragliding tandem Spain",
+    "Parapente biplaza",
+    "Tandem paragliding",
+    "Paraglider mountains Spain"
+   ],
+   "claves": [
+    "paraglid",
+    "parapent"
+   ],
+   "precio": {
+    "valor": 99,
+    "nota": "Vuelo de unos 20 minutos",
+    "referencia": {
+     "precio": 100,
+     "quien": "Yumping, parapente biplaza en Villar del Arzobispo, 20 minutos",
+     "url": "https://www.yumping.com/parapente/valencia",
+     "fecha": "2026-10-28"
+    }
+   }
+  },
+  {
+   "slug": "rafting-rio-cabriel",
+   "cat": "aventura",
+   "titulo": "Rafting en el río Cabriel",
+   "corto": "Rafting en el Cabriel",
+   "seo": "Rafting en el río Cabriel, en las Hoces del Cabriel",
+   "desc": "Baja el río Cabriel en rafting por las Hoces del Cabriel, un parque natural a poco más de una hora de Valencia.",
+   "lugar": "Venta del Moro",
+   "intro": "<p>Baja el <strong>río Cabriel</strong> en una balsa de <strong>rafting</strong> entre las paredes de las <strong>Hoces del Cabriel</strong>, uno de los parques naturales más bonitos de la provincia.</p>",
+   "destacados": [
+    "Rema en equipo por un río de aguas limpias.",
+    "Paisaje de cañones en un parque natural.",
+    "Tramos para principiantes y familias."
+   ],
+   "subtitulo": "Aventura en las Hoces del Cabriel",
+   "cuerpo": "<p>El <strong>Cabriel</strong> hace de frontera entre Valencia y Cuenca y, a su paso por las <strong>Hoces del Cabriel</strong>, forma cañones de roca y rápidos ideales para el rafting.</p><p>Hay tramos cortos para familias y principiantes y recorridos más largos para quien busca más aventura. Siempre con <strong>monitor</strong> y con el equipo incluido.</p>",
+   "queVeras": "<ul><li>Explicación de seguridad y equipo.</li><li>El descenso en balsa por el <strong>río Cabriel</strong>.</li><li>Los cañones de las <strong>Hoces del Cabriel</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Pueden ir niños?",
+     "Hay tramos aptos para familias. Cuéntanos la edad de los niños y te decimos cuál encaja."
+    ]
+   ],
+   "busquedas": [
+    "Rafting Cabriel",
+    "Hoces del Cabriel",
+    "Río Cabriel",
+    "Rafting river Spain"
+   ],
+   "claves": [
+    "rafting",
+    "cabriel"
+   ],
+   "precio": {
+    "valor": 39,
+    "nota": "Tramo corto, unas 2 horas",
+    "referencia": {
+     "precio": 40,
+     "quien": "Yumping, rafting en el Cabriel, tramo de 8 km",
+     "url": "https://www.yumping.com/rafting/valencia/venta-del-moro",
+     "fecha": "2026-10-28"
+    }
+   }
+  },
+  {
+   "slug": "quads-y-buggies-valencia",
+   "cat": "aventura",
+   "titulo": "Quads y buggies cerca de Valencia",
+   "corto": "Quads y buggies",
+   "seo": "Rutas en quad y buggy cerca de Valencia",
+   "desc": "Conduce un quad o un buggy por caminos y circuitos cerca de Valencia. Rutas guiadas para principiantes y para grupos.",
+   "lugar": "Llombai y Cofrentes",
+   "intro": "<p>Ponte al volante de un <strong>quad</strong> o un <strong>buggy</strong> y recorre caminos de tierra y circuitos a poca distancia de Valencia.</p>",
+   "destacados": [
+    "Rutas guiadas por caminos de tierra.",
+    "Circuitos para probar el buggy.",
+    "Ideal para grupos y despedidas."
+   ],
+   "subtitulo": "Barro, polvo y diversión",
+   "cuerpo": "<p>Cerca de Valencia hay circuitos y rutas para conducir quads y buggies, por ejemplo en <strong>Llombai</strong> y en la zona de <strong>Cofrentes</strong>. Antes de salir, el monitor te explica el manejo y las normas de seguridad.</p><p>Hay vueltas cortas en circuito y rutas más largas por caminos. Es uno de los planes favoritos para grupos de amigos y despedidas.</p>",
+   "queVeras": "<ul><li>La explicación previa y el equipo.</li><li>Una vuelta en <strong>circuito</strong> o una <strong>ruta guiada</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Hace falta carné de conducir?",
+     "Depende del vehículo y del recorrido. Te lo confirmamos al pedir información."
+    ]
+   ],
+   "busquedas": [
+    "Quad bike off road",
+    "Buggy off road",
+    "ATV quad Spain",
+    "Buggy dirt track"
+   ],
+   "claves": [
+    "quad",
+    "buggy",
+    "atv"
+   ],
+   "precio": {
+    "valor": 44,
+    "nota": "Buggy en circuito, 15 minutos",
+    "referencia": {
+     "precio": 45,
+     "quien": "Yumping, buggy en circuito en Llombai, 15 minutos",
+     "url": "https://yumping.com/en/buggies/valencia",
+     "fecha": "2026-10-28"
+    }
+   }
+  },
+  {
+   "slug": "moto-de-agua-valencia",
+   "cat": "actividades-en-el-agua",
+   "titulo": "Moto de agua en Valencia",
+   "corto": "Moto de agua",
+   "seo": "Excursión en moto de agua en Valencia: Malvarrosa y Port Saplaya",
+   "desc": "Recorre la costa de Valencia en moto de agua, de la Malvarrosa a Port Saplaya, en ruta guiada con monitor.",
+   "lugar": "Puerto de Valencia",
+   "intro": "<p>Sal del <strong>puerto de Valencia</strong> en <strong>moto de agua</strong> y recorre la costa hasta <strong>Port Saplaya</strong>, en una ruta guiada con <strong>monitor</strong>.</p>",
+   "destacados": [
+    "Ruta guiada por la costa de Valencia.",
+    "Vistas de la Malvarrosa y Port Saplaya desde el mar.",
+    "Velocidad y diversión en el Mediterráneo."
+   ],
+   "subtitulo": "La costa a toda velocidad",
+   "cuerpo": "<p>Las rutas en moto de agua salen del puerto de Valencia y siguen la costa por la <strong>Malvarrosa</strong> y la Patacona hasta <strong>Port Saplaya</strong>, el pequeño puerto de casas de colores de Alboraya.</p><p>Vas en grupo detrás del monitor. Según el formato, no hace falta licencia de navegación: te lo explicamos al reservar.</p>",
+   "queVeras": "<ul><li>Explicación previa y chaleco.</li><li>La costa de la <strong>Malvarrosa</strong>.</li><li><strong>Port Saplaya</strong> desde el mar.</li></ul>",
+   "faq": [
+    [
+     "¿Necesito licencia?",
+     "Depende del formato. En las rutas guiadas con monitor no suele hacer falta; te lo confirmamos al pedir información."
+    ]
+   ],
+   "busquedas": [
+    "Jet ski Mediterranean",
+    "Jet ski sea",
+    "Moto de agua",
+    "Port Saplaya"
+   ],
+   "claves": [
+    "jet ski",
+    "jetski",
+    "jet-ski",
+    "moto de agua",
+    "watercraft",
+    "waverunner",
+    "saplaya"
+   ],
+   "precio": {
+    "valor": 89,
+    "nota": "Ruta guiada",
+    "referencia": {
+     "precio": 90,
+     "quien": "Checkyeti, Alfa Nautica Valencia, safari en moto de agua",
+     "url": "https://www.checkyeti.com/it/water-sports/spagna/port-saplatja/noleggio-di-moto-d-acqua",
+     "fecha": "2026-10-28"
+    }
+   }
+  },
+  {
+   "slug": "paseo-en-velero-valencia",
+   "cat": "actividades-en-el-agua",
+   "titulo": "Paseo en velero por la costa de Valencia",
+   "corto": "Paseo en velero",
+   "seo": "Paseo en velero por la costa de Valencia con patrón",
+   "desc": "Navega a vela por la costa de Valencia con patrón, desde la Marina. Plazas sueltas o barco privado para tu grupo.",
+   "lugar": "Marina de Valencia",
+   "intro": "<p>Navega a <strong>vela</strong> frente a Valencia con un <strong>patrón</strong>, sin ruido de motor, solo el viento y el mar. Puedes ir con plaza suelta o reservar el <strong>barco entero</strong> para tu grupo.</p>",
+   "destacados": [
+    "Navega a vela con patrón.",
+    "Baño en el mar si el tiempo acompaña.",
+    "Plaza suelta o barco privado."
+   ],
+   "subtitulo": "Solo el viento y el mar",
+   "cuerpo": "<p>Desde la <strong>Marina de Valencia</strong> salen veleros con patrón para pasear por la costa. Una vez fuera del puerto se apaga el motor y se navega solo con las velas.</p><p>Es un plan relajado para parejas, familias y grupos de amigos. Si quieres, puedes echar una mano con las velas.</p>",
+   "queVeras": "<ul><li>La salida desde la <strong>Marina de Valencia</strong>.</li><li>La navegación a <strong>vela</strong> frente a la costa.</li><li>Opcional: parada para bañarse.</li></ul>",
+   "faq": [
+    [
+     "¿Cuántas personas caben?",
+     "Depende del velero. Para grupos te proponemos el barco que mejor encaja."
+    ]
+   ],
+   "busquedas": [
+    "Sailboat Valencia",
+    "Sailing boat Mediterranean",
+    "Velero Valencia",
+    "Sailing yacht sea"
+   ],
+   "claves": [
+    "sail",
+    "velero",
+    "yacht",
+    "voilier"
+   ],
+   "precio": {
+    "valor": 109,
+    "nota": "Por persona",
+    "referencia": {
+     "precio": 110,
+     "quien": "Sailwiz, paseo en velero por Valencia",
+     "url": "https://www.sailwiz.com/es/dia/paseo-en-velero-por-valencia/a/4078",
+     "fecha": "2026-10-28"
+    }
+   }
+  },
+  {
+   "slug": "clases-de-surf-valencia",
+   "cat": "actividades-en-el-agua",
+   "titulo": "Clases de surf en Valencia",
+   "corto": "Clases de surf",
+   "seo": "Clases de surf en Valencia para principiantes",
+   "desc": "Aprende a surfear en las playas de Valencia con monitores, desde cero y con todo el material.",
+   "lugar": "Playas de Valencia",
+   "intro": "<p>Sí, en Valencia también se surfea. Aprende con <strong>monitores</strong> en playas como la <strong>Patacona</strong> o la <strong>Pobla de Farnals</strong>, desde cero.</p>",
+   "destacados": [
+    "Clases desde cero con monitor.",
+    "Playas con olas suaves para empezar.",
+    "Para niños y adultos."
+   ],
+   "subtitulo": "Surf en el Mediterráneo",
+   "cuerpo": "<p>El Mediterráneo también tiene olas, sobre todo en <strong>otoño e invierno</strong>. Playas como la <strong>Patacona</strong>, en Alboraya, o la <strong>Pobla de Farnals</strong> tienen escuelas de surf y zonas de olas suaves para aprender.</p><p>La clase empieza en la arena con los movimientos básicos. Después, al agua, con el monitor a tu lado.</p>",
+   "queVeras": "<ul><li>Calentamiento y técnica en la arena.</li><li>Práctica en el agua con <strong>monitor</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Hay olas todo el año?",
+     "Las olas son más frecuentes en otoño e invierno. Te recomendamos las mejores fechas al pedir información."
+    ]
+   ],
+   "busquedas": [
+    "Surfing Valencia",
+    "Surf Patacona",
+    "Surf lesson beach",
+    "Surfer Mediterranean"
+   ],
+   "claves": [
+    "surf"
+   ],
+   "precio": {
+    "valor": 34,
+    "nota": "Clase de 90 minutos",
+    "referencia": {
+     "precio": 35,
+     "quien": "Yumping, clase de surf en Valencia, 90 minutos",
+     "url": "https://www.yumping.com/surf/valencia",
+     "fecha": "2026-10-28"
+    }
+   }
+  },
+  {
+   "slug": "consigna-de-equipaje-valencia",
+   "cat": "servicios",
+   "titulo": "Consigna de equipaje en Valencia",
+   "corto": "Consigna de equipaje",
+   "seo": "Consigna de equipaje en Valencia: deja tus maletas y disfruta",
+   "desc": "Deja tus maletas en una consigna del centro de Valencia o junto a la estación y aprovecha el día sin cargar con ellas.",
+   "lugar": "Valencia",
+   "intro": "<p>¿Has dejado el alojamiento y tu tren sale por la tarde? Deja las <strong>maletas en una consigna</strong> del centro o junto a la estación y aprovecha el día sin cargar con ellas.</p>",
+   "destacados": [
+    "Puntos en el centro y junto a la estación.",
+    "Por horas o por días.",
+    "Combínalo con un tour el último día."
+   ],
+   "subtitulo": "Tu último día, sin maletas",
+   "cuerpo": "<p>En Valencia hay consignas y taquillas en el <strong>centro histórico</strong>, junto a la <strong>estación del Norte</strong> y cerca de la <strong>estación Joaquín Sorolla</strong>.</p><p>Te ayudamos a encontrar la más cómoda según tu tour o tu tren, para que el último día lo dediques a disfrutar.</p>",
+   "queVeras": "<ul><li>Consigna en el <strong>centro</strong> o junto a la <strong>estación</strong>.</li><li>Recogida cuando tú quieras dentro del horario.</li></ul>",
+   "faq": [
+    [
+     "¿Hay límite de tamaño?",
+     "Depende de la consigna. Cuéntanos qué equipaje llevas y te decimos la mejor opción."
+    ]
+   ],
+   "busquedas": [
+    "Luggage lockers",
+    "Luggage storage",
+    "Suitcases station",
+    "Consigna equipaje"
+   ],
+   "claves": [
+    "luggage",
+    "locker",
+    "consigna",
+    "suitcase",
+    "maleta",
+    "baggage"
+   ],
+   "precio": {
+    "valor": 3.9,
+    "nota": "Por maleta y día",
+    "referencia": {
+     "precio": 4.9,
+     "quien": "LuggageHero Valencia, tarifa por maleta y día",
+     "url": "https://luggagehero.com/es/valencia/",
+     "fecha": "2026-10-28"
+    }
+   }
+  },
+  {
+   "slug": "fotografo-de-vacaciones-valencia",
+   "cat": "servicios",
+   "titulo": "Fotógrafo de vacaciones en Valencia",
+   "corto": "Fotógrafo de vacaciones",
+   "seo": "Sesión de fotos de vacaciones en Valencia con fotógrafo",
+   "desc": "Llévate fotos profesionales de tu viaje: sesión con fotógrafo en el casco histórico, la Ciudad de las Artes y las Ciencias o la playa.",
+   "lugar": "Valencia",
+   "intro": "<p>Llévate las mejores fotos de tu viaje: una <strong>sesión con fotógrafo</strong> en el <strong>casco histórico</strong>, la <strong>Ciudad de las Artes y las Ciencias</strong> o la <strong>playa</strong>.</p>",
+   "destacados": [
+    "Fotos profesionales de tu viaje.",
+    "Para parejas, familias y amigos.",
+    "Escenarios icónicos de Valencia."
+   ],
+   "subtitulo": "Tu viaje, en fotos de verdad",
+   "cuerpo": "<p>Un fotógrafo te acompaña por los rincones más bonitos de Valencia y te hace fotos naturales, sin prisas. Es ideal para <strong>pedidas de mano</strong>, <strong>aniversarios</strong>, familias o viajeros que siempre salen detrás de la cámara.</p><p>Después recibes las fotos editadas. Te contamos los formatos al pedir información.</p>",
+   "queVeras": "<ul><li>Sesión en el <strong>casco histórico</strong>.</li><li>Sesión en la <strong>Ciudad de las Artes y las Ciencias</strong>.</li><li>Sesión en la <strong>playa</strong>.</li></ul>",
+   "faq": [
+    [
+     "¿Cuántas fotos recibo?",
+     "Depende de la sesión que elijas. Te detallamos cada formato al pedir información."
+    ]
+   ],
+   "busquedas": [
+    "Photographer taking photos travel",
+    "Photographer camera city",
+    "Fotógrafo sesión",
+    "Photo shoot couple city"
+   ],
+   "claves": [
+    "photograph",
+    "fotograf",
+    "camera",
+    "photo shoot"
    ]
   }
  ],

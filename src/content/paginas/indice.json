@@ -19940,6 +19940,226 @@
   "nueva": true
  },
  {
+  "ruta": "/aventura/salto-en-paracaidas-valencia/",
+  "tipo": "producto",
+  "idioma": "es-es",
+  "html": {
+   "lang": "es-ES"
+  },
+  "body": {
+   "data-cmplz": "1",
+   "class": "wp-singular product-template-default single single-product postid-4330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-default elementor-template-full-width elementor-kit-67 elementor-page elementor-page-4330 elementor-page-11179"
+  },
+  "cabeceraId": "10365",
+  "pieId": "8452",
+  "postId": 0,
+  "doctype": "<!doctype html>",
+  "tras": 70,
+  "nombre": "aventura--salto-en-paracaidas-valencia",
+  "titulo": "Salto en paracaídas en tándem cerca de Valencia, en Requena",
+  "nueva": true
+ },
+ {
+  "ruta": "/aventura/vuelo-en-avioneta-valencia/",
+  "tipo": "producto",
+  "idioma": "es-es",
+  "html": {
+   "lang": "es-ES"
+  },
+  "body": {
+   "data-cmplz": "1",
+   "class": "wp-singular product-template-default single single-product postid-4330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-default elementor-template-full-width elementor-kit-67 elementor-page elementor-page-4330 elementor-page-11179"
+  },
+  "cabeceraId": "10365",
+  "pieId": "8452",
+  "postId": 0,
+  "doctype": "<!doctype html>",
+  "tras": 70,
+  "nombre": "aventura--vuelo-en-avioneta-valencia",
+  "titulo": "Vuelo en avioneta cerca de Valencia: la costa desde el aire",
+  "nueva": true
+ },
+ {
+  "ruta": "/aventura/vuelo-en-helicoptero-valencia/",
+  "tipo": "producto",
+  "idioma": "es-es",
+  "html": {
+   "lang": "es-ES"
+  },
+  "body": {
+   "data-cmplz": "1",
+   "class": "wp-singular product-template-default single single-product postid-4330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-default elementor-template-full-width elementor-kit-67 elementor-page elementor-page-4330 elementor-page-11179"
+  },
+  "cabeceraId": "10365",
+  "pieId": "8452",
+  "postId": 0,
+  "doctype": "<!doctype html>",
+  "tras": 70,
+  "nombre": "aventura--vuelo-en-helicoptero-valencia",
+  "titulo": "Vuelo en helicóptero cerca de Valencia por la costa",
+  "nueva": true
+ },
+ {
+  "ruta": "/aventura/parapente-biplaza-valencia/",
+  "tipo": "producto",
+  "idioma": "es-es",
+  "html": {
+   "lang": "es-ES"
+  },
+  "body": {
+   "data-cmplz": "1",
+   "class": "wp-singular product-template-default single single-product postid-4330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-default elementor-template-full-width elementor-kit-67 elementor-page elementor-page-4330 elementor-page-11179"
+  },
+  "cabeceraId": "10365",
+  "pieId": "8452",
+  "postId": 0,
+  "doctype": "<!doctype html>",
+  "tras": 70,
+  "nombre": "aventura--parapente-biplaza-valencia",
+  "titulo": "Parapente biplaza cerca de Valencia, en la Serranía",
+  "nueva": true
+ },
+ {
+  "ruta": "/aventura/rafting-rio-cabriel/",
+  "tipo": "producto",
+  "idioma": "es-es",
+  "html": {
+   "lang": "es-ES"
+  },
+  "body": {
+   "data-cmplz": "1",
+   "class": "wp-singular product-template-default single single-product postid-4330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-default elementor-template-full-width elementor-kit-67 elementor-page elementor-page-4330 elementor-page-11179"
+  },
+  "cabeceraId": "10365",
+  "pieId": "8452",
+  "postId": 0,
+  "doctype": "<!doctype html>",
+  "tras": 70,
+  "nombre": "aventura--rafting-rio-cabriel",
+  "titulo": "Rafting en el río Cabriel, en las Hoces del Cabriel",
+  "nueva": true
+ },
+ {
+  "ruta": "/aventura/quads-y-buggies-valencia/",
+  "tipo": "producto",
+  "idioma": "es-es",
+  "html": {
+   "lang": "es-ES"
+  },
+  "body": {
+   "data-cmplz": "1",
+   "class": "wp-singular product-template-default single single-product postid-4330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-default elementor-template-full-width elementor-kit-67 elementor-page elementor-page-4330 elementor-page-11179"
+  },
+  "cabeceraId": "10365",
+  "pieId": "8452",
+  "postId": 0,
+  "doctype": "<!doctype html>",
+  "tras": 70,
+  "nombre": "aventura--quads-y-buggies-valencia",
+  "titulo": "Rutas en quad y buggy cerca de Valencia",
+  "nueva": true
+ },
+ {
+  "ruta": "/actividades-en-el-agua/moto-de-agua-valencia/",
+  "tipo": "producto",
+  "idioma": "es-es",
+  "html": {
+   "lang": "es-ES"
+  },
+  "body": {
+   "data-cmplz": "1",
+   "class": "wp-singular product-template-default single single-product postid-4330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-default elementor-template-full-width elementor-kit-67 elementor-page elementor-page-4330 elementor-page-11179"
+  },
+  "cabeceraId": "10365",
+  "pieId": "8452",
+  "postId": 0,
+  "doctype": "<!doctype html>",
+  "tras": 70,
+  "nombre": "actividades-en-el-agua--moto-de-agua-valencia",
+  "titulo": "Excursión en moto de agua en Valencia: Malvarrosa y Port Saplaya",
+  "nueva": true
+ },
+ {
+  "ruta": "/actividades-en-el-agua/paseo-en-velero-valencia/",
+  "tipo": "producto",
+  "idioma": "es-es",
+  "html": {
+   "lang": "es-ES"
+  },
+  "body": {
+   "data-cmplz": "1",
+   "class": "wp-singular product-template-default single single-product postid-4330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-default elementor-template-full-width elementor-kit-67 elementor-page elementor-page-4330 elementor-page-11179"
+  },
+  "cabeceraId": "10365",
+  "pieId": "8452",
+  "postId": 0,
+  "doctype": "<!doctype html>",
+  "tras": 70,
+  "nombre": "actividades-en-el-agua--paseo-en-velero-valencia",
+  "titulo": "Paseo en velero por la costa de Valencia con patrón",
+  "nueva": true
+ },
+ {
+  "ruta": "/actividades-en-el-agua/clases-de-surf-valencia/",
+  "tipo": "producto",
+  "idioma": "es-es",
+  "html": {
+   "lang": "es-ES"
+  },
+  "body": {
+   "data-cmplz": "1",
+   "class": "wp-singular product-template-default single single-product postid-4330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-default elementor-template-full-width elementor-kit-67 elementor-page elementor-page-4330 elementor-page-11179"
+  },
+  "cabeceraId": "10365",
+  "pieId": "8452",
+  "postId": 0,
+  "doctype": "<!doctype html>",
+  "tras": 70,
+  "nombre": "actividades-en-el-agua--clases-de-surf-valencia",
+  "titulo": "Clases de surf en Valencia para principiantes",
+  "nueva": true
+ },
+ {
+  "ruta": "/servicios/consigna-de-equipaje-valencia/",
+  "tipo": "producto",
+  "idioma": "es-es",
+  "html": {
+   "lang": "es-ES"
+  },
+  "body": {
+   "data-cmplz": "1",
+   "class": "wp-singular product-template-default single single-product postid-4330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-default elementor-template-full-width elementor-kit-67 elementor-page elementor-page-4330 elementor-page-11179"
+  },
+  "cabeceraId": "10365",
+  "pieId": "8452",
+  "postId": 0,
+  "doctype": "<!doctype html>",
+  "tras": 70,
+  "nombre": "servicios--consigna-de-equipaje-valencia",
+  "titulo": "Consigna de equipaje en Valencia: deja tus maletas y disfruta",
+  "nueva": true
+ },
+ {
+  "ruta": "/servicios/fotografo-de-vacaciones-valencia/",
+  "tipo": "producto",
+  "idioma": "es-es",
+  "html": {
+   "lang": "es-ES"
+  },
+  "body": {
+   "data-cmplz": "1",
+   "class": "wp-singular product-template-default single single-product postid-4330 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-default elementor-template-full-width elementor-kit-67 elementor-page elementor-page-4330 elementor-page-11179"
+  },
+  "cabeceraId": "10365",
+  "pieId": "8452",
+  "postId": 0,
+  "doctype": "<!doctype html>",
+  "tras": 70,
+  "nombre": "servicios--fotografo-de-vacaciones-valencia",
+  "titulo": "Sesión de fotos de vacaciones en Valencia con fotógrafo",
+  "nueva": true
+ },
+ {
   "ruta": "/actividades-en-el-agua/",
   "tipo": "categoria-productos",
   "idioma": "es-es",
@@ -19957,6 +20177,26 @@
   "tras": 70,
   "nombre": "actividades-en-el-agua",
   "titulo": "Actividades en el agua en Valencia: catamarán, kayak, paddle surf y buceo",
+  "nueva": true
+ },
+ {
+  "ruta": "/aventura/",
+  "tipo": "categoria-productos",
+  "idioma": "es-es",
+  "html": {
+   "lang": "es-ES"
+  },
+  "body": {
+   "data-cmplz": "1",
+   "class": "archive tax-product_cat term-aventura term-19 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-hello-elementor woocommerce woocommerce-page woocommerce-no-js translatepress-es_ES hello-elementor-default elementor-page-8778 elementor-default elementor-template-full-width elementor-kit-67"
+  },
+  "cabeceraId": "10594",
+  "pieId": "8452",
+  "postId": 0,
+  "doctype": "<!doctype html>",
+  "tras": 70,
+  "nombre": "aventura",
+  "titulo": "Aventura cerca de Valencia: paracaidismo, avioneta, parapente y rafting",
   "nueva": true
  },
  {
