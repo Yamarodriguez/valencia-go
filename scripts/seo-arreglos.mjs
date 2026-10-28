@@ -7,6 +7,9 @@
  *
  * - titulos: pagina -> titulo nuevo. Cambia <title>, og:title/twitter:title y
  *   el mismo texto dentro de los datos estructurados de la cabeza.
+ * - src/data/seo-metas.json: ruta -> titulo y/o descripcion. La descripcion
+ *   cambia la <meta name="description">, og:/twitter:description y el mismo
+ *   texto en los datos estructurados; si no habia, la anade.
  * - h1: paginas sin H1 cuyo titulo visible es un widget de texto de Elementor
  *   (data-id = widget). Su texto pasa a ir dentro de un <h1> que hereda letra,
  *   color y margenes del widget: se ve igual, pero Google y las IA ya saben
@@ -34,27 +37,63 @@ const pieza = (texto, nombre) => {
 const escAttr = (s) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 const escJson = (s) => JSON.stringify(s).slice(1, -1).replace(/\//g, '\\/');
 
-let cambios = 0;
-for (const [nombre, nuevo] of Object.entries(titulos)) {
-  if (!indice.some((p) => p.nombre === nombre)) { console.log(`  FALTA la pagina ${nombre}`); continue; }
-  const texto = leer(nombre);
-  const z = pieza(texto, 'cabeza');
-  let cab = texto.slice(z.ini, z.fin);
-  const m = cab.match(/<title>([\s\S]*?)<\/title>/);
-  if (!m) { console.log(`  ${nombre}: sin <title>`); continue; }
-  const viejo = m[1].trim();
-  if (viejo === nuevo) continue;
-  cab = cab.replace(m[0], `<title>${nuevo}</title>`);
-  const plano = (s) => s.replace(/&#0?39;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, '&');
-  cab = cab.replace(/(<meta[^>]+(?:og|twitter):title"? content=")([^"]*)(")/g, (t, a, v, b) => (plano(v) === plano(viejo) ? a + escAttr(nuevo) + b : t));
-  cab = cab.replace(/("name"\s*:\s*")((?:[^"\\]|\\.)*)(")/g, (t, a, v, b) => {
+const plano = (s) => s.replace(/&#0?39;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&#8217;/g, '’').replace(/&amp;/g, '&').trim();
+// cambia el valor de las <meta> (atributo `clave` = una de `nombres`) y de las
+// claves JSON `campo` cuyo texto era `viejo`
+const cambiarMetas = (cab, nombres, viejo, nuevo) => cab.replace(
+  new RegExp(`(<meta[^>]+(?:name|property)=["'](?:${nombres})["'] content=")([^"]*)(")`, 'g'),
+  (t, a, v, b) => (viejo === null || plano(v) === plano(viejo) ? a + escAttr(nuevo) + b : t));
+const cambiarJson = (cab, campo, viejo, nuevo) => cab.replace(
+  new RegExp(`("${campo}"\\s*:\\s*")((?:[^"\\\\]|\\\\.)*)(")`, 'g'),
+  (t, a, v, b) => {
     let claro = v;
     try { claro = JSON.parse(`"${v}"`); } catch { /* se compara tal cual */ }
-    return claro === viejo ? a + escJson(nuevo) + b : t;
+    return plano(claro) === plano(viejo) ? a + escJson(nuevo) + b : t;
   });
-  console.log(`  titulo ${nombre}: "${viejo}" -> "${nuevo}"`);
+
+// tareas: los "titulos" de seo.json (por nombre de pagina) y src/data/seo-metas.json (por ruta)
+const metas = JSON.parse(fs.readFileSync(path.join(RAIZ, 'src', 'data', 'seo-metas.json'), 'utf8'));
+const porRuta = new Map(indice.map((p) => [p.ruta, p.nombre]));
+const tareas = [
+  ...Object.entries(titulos).map(([nombre, titulo]) => ({ nombre, titulo })),
+  ...Object.entries(metas).filter(([r]) => r.startsWith('/')).map(([ruta, v]) => ({ nombre: porRuta.get(ruta), ruta, ...v })),
+];
+
+let cambios = 0;
+for (const t of tareas) {
+  if (!t.nombre || !indice.some((p) => p.nombre === t.nombre)) { console.log(`  FALTA la pagina ${t.ruta || t.nombre}`); continue; }
+  const texto = leer(t.nombre);
+  const z = pieza(texto, 'cabeza');
+  let cab = texto.slice(z.ini, z.fin);
+  const antes = cab;
+  if (t.titulo) {
+    const m = cab.match(/<title>([\s\S]*?)<\/title>/);
+    const viejo = m ? plano(m[1]) : '';
+    if (m && viejo !== t.titulo) {
+      cab = cab.replace(m[0], () => `<title>${t.titulo.replace(/&/g, '&amp;').replace(/</g, '&lt;')}</title>`);
+      cab = cambiarMetas(cab, 'og:title|twitter:title', viejo, t.titulo);
+      cab = cambiarJson(cab, 'name', viejo, t.titulo);
+      console.log(`  titulo ${t.ruta || t.nombre}: "${viejo}" -> "${t.titulo}"`);
+    }
+  }
+  if (t.descripcion) {
+    const m = cab.match(/<meta name="description" content="([^"]*)"/);
+    const viejo = m ? plano(m[1]) : null;
+    if (viejo !== t.descripcion) {
+      if (m) {
+        cab = cambiarMetas(cab, 'description|og:description|twitter:description', viejo, t.descripcion);
+        cab = cambiarJson(cab, 'description', viejo, t.descripcion);
+      } else {
+        // sin descripcion: se pone detras del <title>, y la de redes si no la hay
+        const og = /property="og:description"/.test(cab) ? '' : `\n\t<meta property="og:description" content="${escAttr(t.descripcion)}" />`;
+        cab = cab.replace(/<\/title>/, () => `</title>\n\t<meta name="description" content="${escAttr(t.descripcion)}" />${og}`);
+      }
+      console.log(`  descripcion ${t.ruta || t.nombre}${m ? '' : ' (nueva)'}`);
+    }
+  }
+  if (cab === antes) continue;
   cambios++;
-  if (!SECO) fs.writeFileSync(path.join(DIR, nombre + '.html'), texto.slice(0, z.ini) + cab + texto.slice(z.fin));
+  if (!SECO) fs.writeFileSync(path.join(DIR, t.nombre + '.html'), texto.slice(0, z.ini) + cab + texto.slice(z.fin));
 }
 
 for (const regla of h1) {

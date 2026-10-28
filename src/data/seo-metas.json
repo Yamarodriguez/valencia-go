@@ -1,0 +1,221 @@
+{
+ "_nota": "Títulos y descripciones nuevos (28-10-2026, SEO). Ruta -> titulo y/o descripcion. Los aplica scripts/seo-arreglos.mjs a <title>, og:/twitter: y al nombre/descripción de los datos estructurados; si la página no tenía descripción, la añade. Criterio: título de 60 caracteres como mucho, descripción de 70 a 160, sacados de lo que ya dice cada página (nada inventado). Arregla también 7 artículos que llevaban el título y/o la descripción del artículo del eclipse, en sus 5 idiomas.",
+
+ "/actividades-en-el-agua/": { "titulo": "Actividades en el agua en Valencia: kayak, paddle y buceo" },
+ "/actividades-en-el-agua/bautismo-de-buceo/": { "titulo": "Bautismo de buceo cerca de Valencia, en Xàbia" },
+ "/actividades-en-el-agua/kayak-y-paddle-surf-valencia/": { "titulo": "Kayak y paddle surf en Valencia: Malvarrosa y Patacona" },
+ "/actividades-en-el-agua/moto-de-agua-valencia/": { "titulo": "Moto de agua en Valencia: de la Malvarrosa a Port Saplaya" },
+ "/actividades-en-el-agua/salidas-de-buceo/": { "titulo": "Salidas de buceo cerca de Valencia: Columbretes y cabos" },
+ "/atracciones/": {
+  "titulo": "Qué ver en Valencia: lugares y atracciones",
+  "descripcion": "La Lonja de la Seda, la Catedral, la Ciudad de las Artes y las Ciencias, el Jardín del Turia, la Albufera y más lugares que ver en Valencia."
+ },
+ "/atracciones/ciudad-de-las-artes-y-las-ciencias/": {
+  "titulo": "Ciudad de las Artes y las Ciencias de Valencia",
+  "descripcion": "La Ciudad de las Artes y las Ciencias, uno de los iconos de Valencia: arquitectura futurista que une ciencia, cultura y entretenimiento."
+ },
+ "/atracciones/coves-de-sant-josep/": { "titulo": "Coves de Sant Josep: el río subterráneo navegable" },
+ "/atracciones/ivam-instituto-valenciano-de-arte-moderno/": { "titulo": "IVAM, Instituto Valenciano de Arte Moderno" },
+ "/atracciones/jardin-del-turia/": { "titulo": "Jardín del Turia, el gran parque de Valencia" },
+ "/atracciones/la-lonja-de-la-seda/": { "titulo": "Lonja de la Seda de Valencia, Patrimonio de la Humanidad" },
+ "/atracciones/parque-natural-de-la-albufera-de-valencia/": { "titulo": "Parque Natural de la Albufera de Valencia" },
+ "/aventura/": { "titulo": "Aventura cerca de Valencia: paracaidismo, globo y rafting" },
+ "/blog/": { "titulo": "Blog de planes y experiencias en Valencia" },
+ "/calles-naranjos-valencia/": { "titulo": "Por qué no se comen las naranjas de las calles de Valencia" },
+ "/category/consejos-de-vida/": {
+  "titulo": "Consejos para vivir en Valencia | Blog",
+  "descripcion": "Consejos para vivir Valencia como un local: barrios, costumbres, fiestas y todo lo que conviene saber de la ciudad, en el blog de Excursiones Valencia."
+ },
+ "/category/consejos-vacaciones/": {
+  "descripcion": "Consejos para tus vacaciones en Valencia: qué llevar en la maleta, planes con niños y cómo moverse por la ciudad."
+ },
+ "/category/cultura-tradiciones/": {
+  "titulo": "Cultura y tradiciones valencianas | Blog",
+  "descripcion": "Historia, arte, leyendas, fiestas y tradiciones de Valencia, contadas en el blog de Excursiones Valencia."
+ },
+ "/category/gastronomia/": {
+  "descripcion": "La gastronomía valenciana en el blog de Excursiones Valencia: tapas, dulces, platos típicos y restaurantes recomendados por locales."
+ },
+ "/category/noticias/": {
+  "titulo": "Noticias y novedades | Blog Excursiones Valencia",
+  "descripcion": "Las últimas noticias y novedades de Excursiones Valencia y de la ciudad: fiestas, eventos y planes para disfrutar Valencia."
+ },
+ "/category/que-hacer/": {
+  "titulo": "Qué hacer en Valencia | Blog",
+  "descripcion": "Ideas y planes para disfrutar Valencia: fiestas, barrios, gastronomía, excursiones cerca de la ciudad y planes para cada época del año."
+ },
+ "/category/que-ver/": {
+  "titulo": "Qué ver en Valencia | Blog",
+  "descripcion": "Monumentos, barrios, museos y rincones de Valencia que merece la pena ver, con consejos de locales para aprovechar la visita."
+ },
+ "/donde-tomar-algo-en-valencia-si-buscas-algo-diferente-coctelerias-y-rooftops-con-estilo/": {
+  "descripcion": "Rooftops con vistas, coctelerías de autor y dónde probar el auténtico Agua de Valencia: sitios para tomar una copa diferente en Valencia."
+ },
+ "/el-9-doctubre-la-fiesta-valenciana-que-mezcla-historia-amor-y-mazapan/": {
+  "titulo": "El 9 d'Octubre en Valencia: historia, amor y mazapán",
+  "descripcion": "Qué se celebra el 9 d'Octubre en Valencia: la entrada de Jaime I en 1238, la procesión de la Senyera y el mazapán envuelto en un pañuelo."
+ },
+ "/excursiones-cerca-de-valencia-con-ninos-el-plan-perfecto-para-septiembre/": {
+  "titulo": "Excursiones cerca de Valencia con niños en septiembre",
+  "descripcion": "Naturaleza y agua, aventura suave, castillos, playa y la Fiesta de la Vendimia: excursiones cerca de Valencia para hacer con niños en septiembre."
+ },
+ "/excursiones-cruceros/cata-de-vinos-en-valencia-tour-y-bodega-cruceros/": { "titulo": "Tour con cata de vinos en Valencia para cruceristas" },
+ "/excursiones-cruceros/cuevas-de-san-jose/": { "titulo": "Excursión a las Cuevas de San José para cruceristas" },
+ "/excursiones-valencia-otono/": { "titulo": "Las mejores excursiones desde Valencia en otoño" },
+ "/excursiones/": { "titulo": "Excursiones desde Valencia con guía oficial" },
+ "/excursiones/albufera-en-bici-con-horchata/": { "titulo": "Ruta en bici a la Albufera con horchata y fartons" },
+ "/excursiones/excursion-a-morella-y-peniscola/": {
+  "titulo": "Excursión a Morella y Peñíscola desde Valencia",
+  "descripcion": "Excursión de día completo desde Valencia a Morella, uno de los pueblos medievales más bonitos de España, con castillo y murallas, y Peñíscola."
+ },
+ "/excursiones/excursion-huerto-de-naranjos/": { "titulo": "Excursión a un huerto de naranjos de 1870 en Valencia" },
+ "/excursiones/excursion-montanejos/": { "titulo": "Excursión a Montanejos y la Fuente de los Baños" },
+ "/excursiones/excursiones-experiencia-vendimia-requena/": { "titulo": "Experiencia de vendimia en Requena con cata y brunch" },
+ "/excursiones/vuelo-en-globo/": { "titulo": "Vuelo en globo cerca de Valencia al amanecer" },
+ "/los-mejores-planes-otono-en-valencia/": { "titulo": "Planes para disfrutar del otoño en Valencia | Blog" },
+ "/mejores-terrazas-rooftops-valencia-disfrutar-atardecer/": {
+  "titulo": "Los mejores rooftops de Valencia para ver el atardecer",
+  "descripcion": "Los mejores rooftops de Valencia para disfrutar de un atardecer espectacular mientras tomas tu bebida favorita."
+ },
+ "/que-es-horchata-bebida-verano-valenciana/": {
+  "descripcion": "Qué es la horchata valenciana, cómo se elabora y por qué es la bebida del verano en Valencia. ¡Receta incluida!"
+ },
+ "/que-hacer-en-el-carmen-los-rincones-que-no-deberias-perderte/": {
+  "titulo": "Qué hacer en El Carmen, Valencia: rincones imprescindibles",
+  "descripcion": "El barrio del Carmen, entre dos murallas: el Portal de Valldigna, la plaza del Tossal, sus calles y su vida local. Rincones que no deberías perderte."
+ },
+ "/que-hacer-en-valencia-en-octubre-2026-planes-para-disfrutar-la-ciudad-este-otono/": {
+  "titulo": "Qué hacer en Valencia en octubre de 2026",
+  "descripcion": "Planes para octubre en Valencia: el 9 d'Octubre y el Mercado Medieval, arte, diseño y cultura por toda la ciudad, y otoño al aire libre."
+ },
+ "/que-hacer-valencia-ninos-vacaciones-verano-perfectas/": { "titulo": "Qué hacer en Valencia con niños en verano" },
+ "/quienes-somos/": { "titulo": "Quiénes somos | Excursiones Valencia" },
+ "/servicios/": { "titulo": "Servicios en Valencia: traslados, entradas y bicis" },
+ "/servicios/alquiler-de-bicis-valencia/": { "titulo": "Alquiler de bicis en Valencia: Jardín del Turia y playa" },
+ "/servicios/audioguias-valencia/": { "titulo": "Audioguías de Valencia para recorrer la ciudad a tu ritmo" },
+ "/servicios/consigna-de-equipaje-valencia/": { "titulo": "Consigna de equipaje en Valencia: deja tus maletas" },
+ "/servicios/entradas-valencia/": { "titulo": "Entradas para el Oceanogràfic, Bioparc y más en Valencia" },
+ "/servicios/traslados-valencia/": { "titulo": "Traslados en Valencia: aeropuerto, puerto y estaciones" },
+ "/tomatina-bunol-historia-real/": {
+  "titulo": "La Tomatina de Buñol: la verdadera historia",
+  "descripcion": "Cómo nació en 1945 la Tomatina de Buñol, la batalla de tomates más famosa del mundo, y qué saber para vivirla el último miércoles de agosto."
+ },
+ "/tours-valencia/ruta-bici-parque-rio-turia/": { "titulo": "Ruta en bici por el río Turia y la Ciudad de las Artes" },
+ "/tours-valencia/tour-cabanyal-y-la-playa/": { "titulo": "Tour por el Cabanyal y la playa de la Malvarrosa" },
+ "/tours-valencia/tour-modernismo-valencia/": { "titulo": "Tour del modernismo en Valencia: Colón y Estación del Norte" },
+ "/tours-valencia/tour-sorolla-valencia/": { "titulo": "Tour de Sorolla en Valencia, el pintor de la luz" },
+ "/tours-valencia/tour-valencia-con-ninos/": { "titulo": "Tour por Valencia para familias con niños" },
+ "/tours-valencia/tours-estadios-valencia/": { "titulo": "Tours por los estadios de Valencia: Mestalla y más" },
+ "/tours-valencia/tours-valencia-cata-vinos-carmen/": { "titulo": "Tour por El Carmen con cata de vinos en Valencia" },
+ "/vehiculos/": { "titulo": "Alquiler de lancha y yate privado en Valencia" },
+ "/vendimia-en-requena-pisa-la-uva-como-antes-a-menos-de-una-hora-de-valencia/": {
+  "titulo": "Vendimia en Requena: pisa la uva como antes",
+  "descripcion": "La Fiesta de la Vendimia de Requena y el pisado tradicional de la uva, a menos de una hora de Valencia, en una tierra de vino milenaria."
+ },
+
+ "/en/day-trips-near-valencia-with-children-the-perfect-plan-for-september/": {
+  "titulo": "Day trips near Valencia with children in September",
+  "descripcion": "Nature and water, gentle adventure, castles, beaches and the Grape Harvest Festival: day trips near Valencia to enjoy with children in September."
+ },
+ "/en/grape-harvest-in-requena-grapes-are-trodden-the-old-fashioned-way-less-than-an-hour-from-valencia/": {
+  "titulo": "Grape harvest in Requena: tread the grapes the old way",
+  "descripcion": "The Requena Grape Harvest Festival and the traditional treading of the grapes, less than an hour from Valencia, in a land of ancient winemaking."
+ },
+ "/en/la-tomatina-in-bunol-a-true-story/": {
+  "titulo": "La Tomatina in Buñol: the true story",
+  "descripcion": "How La Tomatina in Buñol, the world's most famous tomato fight, began in 1945, and what to know to enjoy it on the last Wednesday of August."
+ },
+ "/en/on-9-october-the-valencian-festival-that-blends-history-love-and-marzipan/": {
+  "titulo": "9 October in Valencia: history, love and marzipan",
+  "descripcion": "What Valencia celebrates on 9 October: James I's entry into the city in 1238, the procession of the Senyera and marzipan wrapped in a handkerchief."
+ },
+ "/en/things-to-do-in-el-carmen-the-spots-you-shouldnt-miss/": {
+  "titulo": "Things to do in El Carmen, Valencia: spots not to miss",
+  "descripcion": "El Carmen, a neighbourhood between two city walls: the Portal de Valldigna, Plaza del Tossal, its streets and local life. Spots you shouldn't miss."
+ },
+ "/en/things-to-do-in-valencia-in-october-2026-plans-for-enjoying-the-city-this-autumn/": {
+  "titulo": "Things to do in Valencia in October 2026",
+  "descripcion": "Ideas for October in Valencia: 9 October and the Medieval Market, art, design and culture all over the city, and autumn days out in the open air."
+ },
+ "/en/where-to-go-for-a-drink-in-valencia-if-youre-looking-for-something-a-bit-different-stylish-cocktail-bars-and-rooftop-bars/": {
+  "descripcion": "Rooftops with views, signature cocktail bars and where to try the real Agua de Valencia: places for a different kind of drink in Valencia."
+ },
+ "/fr/excursions-pres-de-valence-avec-des-enfants-le-programme-ideal-pour-septembre/": {
+  "titulo": "Excursions près de Valence avec des enfants en septembre",
+  "descripcion": "Nature et eau, aventure douce, châteaux, plage et fête des vendanges : des excursions près de Valence à faire avec des enfants en septembre."
+ },
+ "/fr/la-tomatina-de-bunol-une-histoire-vraie/": {
+  "titulo": "La Tomatina de Buñol : la véritable histoire",
+  "descripcion": "Comment est née en 1945 la Tomatina de Buñol, la bataille de tomates la plus célèbre au monde, et ce qu'il faut savoir pour la vivre fin août."
+ },
+ "/fr/le-9-octobre-la-fete-valencienne-qui-mele-histoire-amour-et-massepain/": {
+  "titulo": "Le 9 octobre à Valence : histoire, amour et massepain",
+  "descripcion": "Ce que Valence fête le 9 octobre : l'entrée de Jacques Ier en 1238, la procession de la Senyera et le massepain enveloppé dans un foulard."
+ },
+ "/fr/ou-prendre-un-verre-a-valence-si-vous-cherchez-quelque-chose-qui-sort-de-lordinaire-bars-a-cocktails-et-rooftops-styles/": {
+  "descripcion": "Rooftops avec vue, bars à cocktails d'auteur et où goûter la vraie Agua de Valencia : des adresses pour prendre un verre différent à Valence."
+ },
+ "/fr/que-faire-a-el-carmen-les-endroits-a-ne-pas-manquer/": {
+  "titulo": "Que faire à El Carmen, Valence : les endroits à voir",
+  "descripcion": "El Carmen, un quartier né entre deux remparts : le Portal de Valldigna, la place du Tossal, ses rues et sa vie locale. Les endroits à ne pas manquer."
+ },
+ "/fr/que-faire-a-valence-en-octobre-2026-des-idees-pour-profiter-de-la-ville-cet-automne/": {
+  "titulo": "Que faire à Valence en octobre 2026",
+  "descripcion": "Idées pour octobre à Valence : le 9 octobre et le marché médiéval, art, design et culture dans toute la ville, et l'automne en plein air."
+ },
+ "/fr/vendanges-a-requena-on-foule-le-raisin-comme-autrefois-a-moins-dune-heure-de-valence/": {
+  "titulo": "Vendanges à Requena : fouler le raisin comme autrefois",
+  "descripcion": "La fête des vendanges de Requena et le foulage traditionnel du raisin, à moins d'une heure de Valence, sur une terre de vin millénaire."
+ },
+ "/it/cosa-fare-a-el-carmen-i-luoghi-da-non-perdere/": {
+  "titulo": "Cosa fare a El Carmen, Valencia: i luoghi da non perdere",
+  "descripcion": "El Carmen, un quartiere nato tra due mura: il Portal de Valldigna, la piazza del Tossal, le sue strade e la vita locale. I luoghi da non perdere."
+ },
+ "/it/cosa-fare-a-valencia-nellottobre-2026-idee-per-godersi-la-citta-questautunno/": {
+  "titulo": "Cosa fare a Valencia a ottobre 2026",
+  "descripcion": "Idee per ottobre a Valencia: il 9 ottobre e il mercato medievale, arte, design e cultura in tutta la città, e l'autunno all'aria aperta."
+ },
+ "/it/dove-bere-qualcosa-a-valencia-se-cerchi-qualcosa-di-diverso-cocktail-bar-e-rooftop-di-classe/": {
+  "descripcion": "Rooftop con vista, cocktail bar d'autore e dove assaggiare la vera Agua de Valencia: locali per bere qualcosa di diverso a Valencia."
+ },
+ "/it/escursioni-nei-dintorni-di-valencia-con-i-bambini-il-programma-perfetto-per-settembre/": {
+  "titulo": "Escursioni vicino a Valencia con i bambini a settembre",
+  "descripcion": "Natura e acqua, avventura leggera, castelli, mare e la festa della vendemmia: escursioni vicino a Valencia da fare con i bambini a settembre."
+ },
+ "/it/il-9-ottobre-la-festa-valenciana-che-unisce-storia-amore-e-marzapane/": {
+  "titulo": "Il 9 ottobre a Valencia: storia, amore e marzapane",
+  "descripcion": "Cosa si festeggia a Valencia il 9 ottobre: l'ingresso di Giacomo I nel 1238, la processione della Senyera e il marzapane avvolto in un fazzoletto."
+ },
+ "/it/la-tomatina-di-bunol-una-storia-vera/": {
+  "titulo": "La Tomatina di Buñol: la vera storia",
+  "descripcion": "Come è nata nel 1945 la Tomatina di Buñol, la battaglia dei pomodori più famosa al mondo, e cosa sapere per viverla l'ultimo mercoledì di agosto."
+ },
+ "/it/vendemmia-a-requena-si-pesta-luva-come-un-tempo-a-meno-di-unora-da-valencia/": {
+  "titulo": "Vendemmia a Requena: pigiare l'uva come una volta",
+  "descripcion": "La festa della vendemmia di Requena e la pigiatura tradizionale dell'uva, a meno di un'ora da Valencia, in una terra di vino millenaria."
+ },
+ "/pl/9-pazdziernika-walencjanskie-swieto-laczace-historie-milosc-i-marcepan/": {
+  "titulo": "9 października w Walencji: historia, miłość i marcepan",
+  "descripcion": "Co Walencja świętuje 9 października: wjazd Jakuba I do miasta w 1238 r., procesję z Senyerą i marcepan zawinięty w chusteczkę."
+ },
+ "/pl/co-robic-w-walencji-w-pazdzierniku-2026-r-pomysly-na-spedzanie-czasu-w-miescie-tej-jesieni/": {
+  "titulo": "Co robić w Walencji w październiku 2026 r.",
+  "descripcion": "Pomysły na październik w Walencji: 9 października i jarmark średniowieczny, sztuka, design i kultura w całym mieście oraz jesień na świeżym powietrzu."
+ },
+ "/pl/co-warto-robic-w-el-carmen-miejsca-ktorych-nie-mozna-przegapic/": {
+  "titulo": "Co robić w El Carmen w Walencji: miejsca do zobaczenia",
+  "descripcion": "El Carmen, dzielnica między dwoma murami: Portal de Valldigna, plac Tossal, uliczki i lokalne życie. Miejsca, których nie można przegapić."
+ },
+ "/pl/tomatina-w-bunol-prawdziwa-historia/": {
+  "titulo": "La Tomatina w Buñol: prawdziwa historia",
+  "descripcion": "Jak w 1945 r. narodziła się La Tomatina w Buñol, najsłynniejsza bitwa na pomidory na świecie, i co warto wiedzieć, by przeżyć ją w ostatnią środę sierpnia."
+ },
+ "/pl/wycieczki-w-okolicy-walencji-z-dziecmi-idealny-plan-na-wrzesien/": {
+  "titulo": "Wycieczki w okolicy Walencji z dziećmi we wrześniu",
+  "descripcion": "Przyroda i woda, łagodna przygoda, zamki, plaża i Święto Winobrania: wycieczki w okolicy Walencji na wrzesień z dziećmi."
+ },
+ "/pl/zbiory-w-requena-tloczenie-winogron-jak-dawniej-niecala-godzine-drogi-od-walencji/": {
+  "titulo": "Winobranie w Requena: tłoczenie winogron jak dawniej",
+  "descripcion": "Święto Winobrania w Requena i tradycyjne tłoczenie winogron, niecałą godzinę drogi od Walencji, w krainie o wielowiekowej tradycji winiarskiej."
+ }
+}

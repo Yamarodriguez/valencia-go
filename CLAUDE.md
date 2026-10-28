@@ -126,6 +126,14 @@ Hecho el 26-10-2026 (todo en esta rama, nada en main ni en Netlify):
     origen "SEO 28-10-2026"; fallos-original.json los marca "redirigido").
   · `scripts/seo-arreglos.mjs`: título del artículo de cócteles (llevaba el
     del eclipse, en los 5 idiomas) y los H1 de arriba.
+  · Títulos y descripciones (28-10-2026, 2.ª tanda): `src/data/seo-metas.json`
+    (ruta -> titulo/descripcion, lo aplica seo-arreglos.mjs) deja las 208
+    páginas indexables en castellano con título ≤60 y descripción de 70 a
+    160, sin repetidos, y arregla 7 artículos (5 idiomas) que llevaban el
+    título y/o la descripción del eclipse (9 d'Octubre, niños en septiembre,
+    El Carmen, octubre 2026, Tomatina, vendimia, cócteles). PENDIENTE: las
+    664 traducidas (156 títulos largos, 151 descripciones largas, 16 sin
+    descripción). Después de cambiar títulos, `npm run seo` (llms.txt).
 - Fotos: `fotos-commons.mjs` baja de Wikimedia Commons una foto real y libre
   (CC0/dominio público/CC BY/CC BY-SA, JPG apaisado ≥1000 px) por cada hueco
   del inventario, buscando por el H1 de la página; créditos en
