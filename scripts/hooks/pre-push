@@ -27,6 +27,7 @@ node scripts/hojas.mjs > /dev/null || { echo "NO SE SUBE: 'npm run hojas' ha fal
 npx astro build > /dev/null 2>&1 || { echo "NO SE SUBE: 'npm run build' ha fallado."; exit 1; }
 node scripts/comprobar-recursos-nuevos.mjs | head -5
 # el unico fichero que falta es un PDF que ya estaba roto en la web vieja
+# (desde el 28-10-2026 Netlify lo redirige: public/_redirects)
 faltan=$(node scripts/comprobar-recursos-nuevos.mjs | grep -c '^  /' )
 [ "$faltan" -le 1 ] || { echo ""; echo "NO SE SUBE: faltan ficheros que piden las paginas (arriba)."; exit 1; }
 echo ""

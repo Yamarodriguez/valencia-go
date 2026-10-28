@@ -370,6 +370,108 @@
    "codigo": 301,
    "origen": "web vieja: enlace interno que ya redirigia",
    "paginas": 10
+  },
+  {
+   "de": "/wp-content/uploads/2026/03/MAPA-DEF-DEC.pdf",
+   "a": "/fr/lieux-dinteret/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/excursiones-desde-valencia/excursion-bodegas/",
+   "a": "/excursiones/bodegas-utiel-requena-cata-vina/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/excursiones-desde-valencia/excursion-a-bodegas-de-requena/",
+   "a": "/excursiones/bodegas-utiel-requena-cata-vina/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/tours-valencia/fallas-tour/",
+   "a": "/tours-valencia/fallas-en-valencia-en-marzo/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/tours-valencia/fallas-valencia-tour/",
+   "a": "/tours-valencia/fallas-en-valencia-en-marzo/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/tours/fallas-tour/",
+   "a": "/tours-valencia/fallas-en-valencia-en-marzo/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/excursiones-desde-valencia/rutas-senderismo/",
+   "a": "/excursiones/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/experiencias/experiencias-en-barco-adrenalina/",
+   "a": "/actividades-en-el-agua/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/experiencias/experiencias-en-barco-velero/",
+   "a": "/actividades-en-el-agua/paseo-en-velero-valencia/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/excursiones-desde-valencia/experiencia-en-queseria-requena/",
+   "a": "/excursiones/excursiones-cata-quesos-vinos-utiel-requena/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/en/excursions-from-valencia/cheese-experience-requena/",
+   "a": "/en/excursions/utiel-requena-wines-cheese-tasting-excursions/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/experiencias/espectaculo-flamenco-valencia/",
+   "a": "/tours-valencia/tapas-y-flamenco-valencia/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/packs-con-descuento/",
+   "a": "/packs-descuento/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/en/packs-con-descuento/",
+   "a": "/en/discount-packs-2/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/fr/packs-con-descuento/",
+   "a": "/fr/paquets-de-reduction-2/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/it/packs-con-descuento/",
+   "a": "/it/pacchetti-sconto/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
+  },
+  {
+   "de": "/pl/packs-con-descuento/",
+   "a": "/pl/pakiety-rabatowe-2/",
+   "codigo": 301,
+   "origen": "SEO 28-10-2026: enlace roto del original (404 tambien en la web vieja), se manda a la pagina mas parecida"
   }
  ]
 }

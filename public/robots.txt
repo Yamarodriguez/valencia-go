@@ -1,4 +1,29 @@
-User-agent: *
-Disallow:
+# robots.txt de Excursiones Valencia. Lo escribe scripts/seo-archivos.mjs (src/data/seo.json).
+# Todos los buscadores y asistentes de IA pueden leer la web entera.
 
+User-agent: *
+Disallow: /formularios-netlify.html
+
+# Buscadores y asistentes de IA, nombrados para que no haya dudas: bienvenidos.
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Google-Extended
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: ClaudeBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: DuckAssistBot
+User-agent: meta-externalagent
+User-agent: MistralAI-User
+User-agent: CCBot
+Allow: /
+Disallow: /formularios-netlify.html
+
+# Resumen de la web para asistentes de IA: https://www.valenciaandgo.com/llms.txt
 Sitemap: https://www.valenciaandgo.com/sitemap_index.xml

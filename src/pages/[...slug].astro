@@ -5,10 +5,13 @@
  * despues. Las rutas son las de WordPress (campo `ruta` del indice).
  *
  * Lo nuevo (fases 3 en adelante) se anade ALREDEDOR de las piezas, desde
- * src/data/, nunca dentro.
+ * src/data/, nunca dentro. Los datos estructurados de SEO (src/data/seo.json)
+ * salen de utils/seo.js, que devuelve la cabeza con su grafo ampliado.
  */
 import Base from '../layouts/Base.astro';
 import { indice, leerPiezas } from '../utils/piezas.js';
+import { cabezaConDatos } from '../utils/seo.js';
+import site from '../data/site.json';
 
 export function getStaticPaths() {
   return indice().map((p) => ({
@@ -19,7 +22,8 @@ export function getStaticPaths() {
 
 const { pagina } = Astro.props;
 const z = leerPiezas(pagina.nombre);
+const cabeza = cabezaConDatos(z.cabeza, z.contenido, z.despues, pagina, site.dominio);
 ---
-<Base html={pagina.html} body={pagina.body} cabeza={z.cabeza}>
+<Base html={pagina.html} body={pagina.body} cabeza={cabeza}>
   <Fragment set:html={z.antes} /><Fragment set:html={z.cabecera} /><Fragment set:html={z.contenido} /><Fragment set:html={z.pie} /><Fragment set:html={z.despues} />
 </Base>

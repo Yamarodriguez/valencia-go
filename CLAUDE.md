@@ -101,6 +101,31 @@ Hecho el 26-10-2026 (todo en esta rama, nada en main ni en Netlify):
   añadida: exige inscripción y garantía en la Comunitat Valenciana. Las
   actividades de terceros (buceo, globo, catamarán, estadios, entradas) piden
   acuerdos con proveedores que el propietario aún no tiene.
+- SEO Y ACCESO DE LAS IA (28-10-2026): análisis en
+  `informes/ANALISIS-SEO-AEO.md` (informes/ no está en Git). Lo crítico
+  sigue pendiente del propietario: dominio propio (canonical, mapas, robots,
+  schema y llms.txt dicen www.valenciaandgo.com porque sale de site.json
+  `dominio`), correo/teléfono, autor real, reservas y opiniones propias,
+  textos reescritos. Arreglos rápidos hechos, todo desde `src/data/seo.json`:
+  · `npm run seo` (scripts/seo-archivos.mjs) escribe public/robots.txt (todos
+    pueden entrar; se nombran los robots de buscadores y de IA, también los
+    que entrenan modelos, por decisión del propietario), public/llms.txt
+    (resumen y páginas clave por secciones, con su título y descripción) y
+    public/excursiones-valencia-sitemap.xml con las páginas indexables que no
+    están en los mapas viejos (las 42 nuevas), enlazado en sitemap_index.xml;
+    de los mapas viejos quita lo que ya no es página (/tours/ y traducciones).
+    REPETIR al cambiar el dominio, al añadir páginas o al cambiar títulos.
+  · Datos estructurados al construir (`src/utils/seo.js`, llamado desde
+    [...slug].astro y 404.astro; las piezas no se tocan): FAQPage con las
+    preguntas frecuentes visibles (274 páginas), TouristTrip/Service con
+    Product y oferta en EUR si la ficha enseña precio (252), grafo completo
+    en las categorías nuevas, y fuera el SearchAction (buscador ?s= que no
+    existe). El precio es el primer widget de precio cuyo data-id no se repite
+    en la página (los repetidos son las tarjetas de "otras actividades").
+  · 17 enlaces rotos del original redirigidos (src/data/redirecciones.json,
+    origen "SEO 28-10-2026"; fallos-original.json los marca "redirigido").
+  · `scripts/seo-arreglos.mjs`: título del artículo de cócteles (llevaba el
+    del eclipse, en los 5 idiomas) y los H1 de arriba.
 - Fotos: `fotos-commons.mjs` baja de Wikimedia Commons una foto real y libre
   (CC0/dominio público/CC BY/CC BY-SA, JPG apaisado ≥1000 px) por cada hueco
   del inventario, buscando por el H1 de la página; créditos en
@@ -164,7 +189,10 @@ Dec. 4 rediseño con 2-3 opciones en imagen, probado en una página, con
 interruptor · Dec. 5 DNS en el registrador, el correo no se toca · Dec. 6
 ancho igual que la vieja · Dec. 7 contraste a mano y con permiso.
 Regla del H1 aprobada (5-10-2026): **se conserva el H1 que tiene hoy cada
-página en vivo, tal cual; nada se asciende ni se baja.**
+página en vivo, tal cual; nada se asciende ni se baja.** Excepción
+(28-10-2026, arreglos rápidos de SEO aprobados): Catedral y Santo Cáliz y
+Condiciones de compra (5 idiomas cada una) no tenían H1; su rótulo de título
+pasa a H1 con `scripts/seo-arreglos.mjs`.
 Decisiones del inventario (5-10-2026, "confirmo todo"): los 4 idiomas se
 migran enteros (están en la copia); el botón de comprar enlazará a la
 reserva de Turitop (Fase 5); LiteSpeed se esquiva con

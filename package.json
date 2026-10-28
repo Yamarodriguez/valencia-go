@@ -33,7 +33,8 @@
     "cambiar-fotos": "node scripts/cambiar-fotos.mjs",
     "cambiar-colores": "node scripts/cambiar-colores.mjs",
     "hoja-marca": "node scripts/hoja-marca.mjs",
-    "fuentes-marca": "node scripts/fuentes-marca.mjs"
+    "fuentes-marca": "node scripts/fuentes-marca.mjs",
+    "seo": "node scripts/seo-archivos.mjs"
   },
   "dependencies": {
     "astro": "7.3.2"

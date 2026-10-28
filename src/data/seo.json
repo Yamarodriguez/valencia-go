@@ -1,0 +1,76 @@
+{
+ "_nota": "SEO y acceso de las IA (28-10-2026, informes/ANALISIS-SEO-AEO.md). Lo leen src/utils/seo.js (datos estructurados al construir), scripts/seo-archivos.mjs (robots.txt, llms.txt y mapa del sitio de las paginas nuevas; npm run seo) y scripts/seo-arreglos.mjs (titulo y H1 de paginas concretas). El dominio sale de site.json: al cambiarlo, repetir npm run seo.",
+ "datos": {
+  "_nota": "Datos estructurados que se anaden al construir, siempre sacados de lo que la pagina ya ensena: preguntas frecuentes visibles, precio visible, titulo, descripcion y foto. Nada inventado.",
+  "quitarBuscador": true,
+  "preguntas": true,
+  "actividad": true,
+  "tituloPreguntas": "preguntas frecuentes|faq|frequently asked|domande frequenti|questions fr[eé]quentes|foire aux questions|pytania|najcz[eę][sś]ciej zadawane",
+  "tipoPorRuta": {
+   "_nota": "Tipo schema.org de las fichas (paginas de producto) segun el principio de la ruta; lo demas es TouristTrip. Con precio visible se le suma Product para que Google lo entienda como algo que se puede comprar.",
+   "/servicios/": "Service"
+  }
+ },
+ "robots": {
+  "_nota": "Todos pueden entrar. Se nombran los robots de buscadores y de IA (decision del propietario, 28-10-2026: tambien los que entrenan modelos) para que quede claro que son bienvenidos.",
+  "bots": [
+   "Googlebot",
+   "Bingbot",
+   "Google-Extended",
+   "OAI-SearchBot",
+   "ChatGPT-User",
+   "GPTBot",
+   "Claude-SearchBot",
+   "Claude-User",
+   "ClaudeBot",
+   "PerplexityBot",
+   "Perplexity-User",
+   "Applebot",
+   "Applebot-Extended",
+   "DuckAssistBot",
+   "meta-externalagent",
+   "MistralAI-User",
+   "CCBot"
+  ],
+  "noRastrear": [
+   "/formularios-netlify.html"
+  ]
+ },
+ "mapa": {
+  "_nota": "Las paginas que se pueden indexar y que no estan en los mapas de la web vieja (las nuevas) van a este mapa, enlazado desde sitemap_index.xml. De los mapas viejos se quitan las direcciones que ya no son pagina.",
+  "fichero": "excursiones-valencia-sitemap.xml"
+ },
+ "llms": {
+  "titulo": "Excursiones Valencia",
+  "resumen": "Tours guiados por la ciudad de Valencia, excursiones de un día desde Valencia, actividades en el agua y de aventura, y servicios para el viajero (traslados, entradas, consigna, alquiler de bicis). Web en castellano, con versiones en inglés, francés, italiano y polaco.",
+  "detalles": [
+   "Cada ficha indica el precio \"desde\" cuando lo hay; algunas actividades son a consultar.",
+   "Para preguntar o reservar: página de contacto."
+  ],
+  "secciones": [
+   { "titulo": "Tours en Valencia", "rutas": ["/tours-valencia/"] },
+   { "titulo": "Excursiones desde Valencia", "rutas": ["/excursiones/"] },
+   { "titulo": "Actividades en el agua", "rutas": ["/actividades-en-el-agua/", "/alquiler-de-barcos/", "/vehiculos/"] },
+   { "titulo": "Aventura", "rutas": ["/aventura/"] },
+   { "titulo": "Servicios para el viajero", "rutas": ["/servicios/"] },
+   { "titulo": "Excursiones para cruceristas", "rutas": ["/excursiones-cruceros/", "/especial-cruceros/"] },
+   { "titulo": "Lugares de Valencia", "rutas": ["/atracciones/", "/lugares-de-interes/"] },
+   { "titulo": "Información", "rutas": ["/contacto/", "/experiencias-a-medida/", "/nuestros-vehiculos/"] },
+   { "titulo": "Guías y artículos sobre Valencia", "tipos": ["entrada"], "opcional": true }
+  ]
+ },
+ "arreglos": {
+  "_nota": "Los aplica scripts/seo-arreglos.mjs sobre las piezas (se puede repetir). titulos: pagina -> titulo nuevo (title, og:title y nombre del WebPage). h1: el rotulo que hace de titulo de la pagina (un widget de texto) pasa a ser H1 sin cambiar su aspecto.",
+  "titulos": {
+   "donde-tomar-algo-en-valencia-si-buscas-algo-diferente-coctelerias-y-rooftops-con-estilo": "Coctelerías y rooftops con estilo en Valencia",
+   "en--where-to-go-for-a-drink-in-valencia-if-youre-looking-for-something-a-bit-different-stylish-cocktail-bars-and-rooftop-bars": "Stylish cocktail bars and rooftops in Valencia",
+   "fr--ou-prendre-un-verre-a-valence-si-vous-cherchez-quelque-chose-qui-sort-de-lordinaire-bars-a-cocktails-et-rooftops-styles": "Bars à cocktails et rooftops stylés à Valence",
+   "it--dove-bere-qualcosa-a-valencia-se-cerchi-qualcosa-di-diverso-cocktail-bar-e-rooftop-di-classe": "Cocktail bar e rooftop di classe a Valencia",
+   "pl--gdzie-wybrac-sie-na-drinka-w-walencji-jesli-szukasz-czegos-nietypowego-stylowe-bary-koktajlowe-i-lokale-na-dachach": "Stylowe bary koktajlowe i lokale na dachach w Walencji"
+  },
+  "h1": [
+   { "paginas": "catedral-de-valencia-y-el-santo-caliz|valencia-cathedral-and-the-holy-chalice|la-cathedrale-de-valence-et-le-saint-calice|la-cattedrale-di-valencia-e-il-santo-calice|katedra-w-walencji-i-swiety-kielich", "widget": "166fb66b" },
+   { "paginas": "^condiciones-de-compra$|conditions-of-purchase|conditions-dachat|condizioni-di-acquisto|warunki-zakupu", "widget": "84d5222" }
+  ]
+ }
+}

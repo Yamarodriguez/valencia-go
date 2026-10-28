@@ -8,12 +8,16 @@ import fs from 'node:fs';
 import path from 'node:path';
 import Base from '../layouts/Base.astro';
 import { leerPiezas } from '../utils/piezas.js';
+import { cabezaConDatos } from '../utils/seo.js';
+import site from '../data/site.json';
 
 const f = path.resolve('src/content/paginas/_404.json');
 const hay = fs.existsSync(f);
 const pagina = hay ? JSON.parse(fs.readFileSync(f, 'utf8')) : { html: { lang: 'es-ES' }, body: {} };
 const z = hay ? leerPiezas('_404') : { cabeza: '<meta charset="UTF-8"><title>Página no encontrada</title><meta name="robots" content="noindex">', antes: '<h1>Página no encontrada</h1>', cabecera: '', contenido: '', pie: '', despues: '' };
+// datos estructurados: como es noindex, solo se quita el buscador (utils/seo.js)
+const cabeza = cabezaConDatos(z.cabeza, z.contenido, z.despues, { ruta: '/404.html', tipo: 'otro', ...pagina }, site.dominio);
 ---
-<Base html={pagina.html} body={pagina.body} cabeza={z.cabeza}>
+<Base html={pagina.html} body={pagina.body} cabeza={cabeza}>
   <Fragment set:html={z.antes} /><Fragment set:html={z.cabecera} /><Fragment set:html={z.contenido} /><Fragment set:html={z.pie} /><Fragment set:html={z.despues} />
 </Base>
